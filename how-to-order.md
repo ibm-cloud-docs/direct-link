@@ -25,7 +25,7 @@ To order the type of Direct Link that best suits your needs, follow the link to 
 ## How to order Direct Link Cloud Exchange
 
  * Verify your network provider's capabilities to reach the appropriate PoP and cross-connect into the associated Cloud Exchange provider.
- * Use the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) to open a Direct Link Cloud Exchange request and complete the requested information. (Assistance from IBM sales engineers can be requested.) If you use the Equinix provider, you have the option to use [automated ordering](https://github.ibm.com/Bluemix-Docs/direct-link-cloud-exchange/blob/staging/cloud-exchange-automation.md).
+ * Use the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) to open a Direct Link Cloud Exchange request and complete the requested information. (Assistance from IBM sales engineers can be requested.) 
  * Contact the Cloud Exchange provider and negotiate connectivity to your exchange.
  * Order connectivity between your network provider and the Cloud Exchange provider.
  * Order a "virtual circuit" through the Cloud Exchange provider, and refer the Ticket ID of the {{site.data.keyword.BluSoftlayer_notm}} Direct Link request as your "Request ID" or "Authorization ID"
