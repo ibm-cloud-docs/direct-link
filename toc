@@ -1,0 +1,30 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="direct-link" audience="direct-link" href="/docs/infrastructure/direct-link/getting-started.html"}
+Direct Link
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    overview.md
+    about.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    how-to-order.md
+    
+      {: .topicgroup}
+      Steps for Ordering
+         order-cloud-exchange.md
+         order-nsp.md
+         order-colocation.md
+      
+    cloud-exchange-automation.md
+    subnet-configuration.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    faqs.md
+    known-limitations.md
+    getting-help.md
+    {: .navgroup-end}
