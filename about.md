@@ -89,6 +89,6 @@ The Direct Link Colocation solution provides connectivity similar to Direct Link
 
  * **Colocation Services:** Yes.
 
- * **Redundancy:** {{site.data.keyword.BluSoftlayer_notm}} provides dual connections to two cross-connect routers (XCRs) as part of the product. To establish redundant connectivity, customers configure BGP with equal-cost multipath (ECMP).
+ * **Redundancy:** {{site.data.keyword.BluSoftlayer_notm}} provides connections to two cross-connect routers (XCRs) as part of the product. To establish redundant connectivity, customers configure BGP with equal-cost multipath (ECMP).
 
  * **Local/Global Routing Options:** The Local Routing option provides access to data centers with the same three-letter prefix as the PoP (DAL, AMS, MEL, etc). The Global Routing option is required as an add-on to reach data centers outside those locations.
