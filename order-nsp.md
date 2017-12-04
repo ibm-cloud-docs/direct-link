@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-09-06"
+lastupdated: "2017-12-04"
 
 ---
 
@@ -14,10 +14,10 @@ lastupdated: "2017-09-06"
 {:tip: .tip}
 {:download: .download}
 
-# How to order Direct Link NSP
+# How to order IBM Cloud Direct Link Dedicated
 
 1. Verify your network provider's capabilities to reach the appropriate PoP and cross-connect into the {{site.data.keyword.BluSoftlayer_notm}} environment.
-2. Open a Direct Link NSP request and complete the requested information. (Assistance from IBM sales engineers can be requested.)
+2. Open an IBM Cloud Direct Link Dedicated request and complete the requested information. (Assistance from IBM sales engineers can be requested.)
 3. {{site.data.keyword.BluSoftlayer_notm}} provides the Letter of Authorization (LOA) for the connection.
 4. Confirm that your circuit has reached the PoP and has been completed by the carrier.
 5. Order the cross-connect using the {{site.data.keyword.BluSoftlayer_notm}} CFA (Customer Facility Assignment) information in the LOA, which usually takes between 2 and 10 business days to complete. (This timeframe depends upon the facilty vendor and the type of order priority as it is placed by the customer.) This process includes setting up the patch to the {{site.data.keyword.BluSoftlayer_notm}} termination port.

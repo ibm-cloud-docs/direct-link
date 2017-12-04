@@ -14,11 +14,11 @@ lastupdated: "2017-09-06"
 {:tip: .tip}
 {:download: .download}
 
-# Configure Direct link
+# Configure IBM Cloud Direct link
 
-Once your Direct Link connectivity has been established, you can follow the steps given in this document to configure your subnet to interact with IBM Cloud through Direct Link.
+Once your IBM Cloud Direct Link connectivity has been established, you can follow the steps given in this document to configure your subnet to interact with IBM Cloud through Direct Link.
 
-In general, to get your Direct Link connection working, you'll need to do some basic network configuration steps, and then you'll need to set up Border Gateway Protocol (BGP). During the setup process, an IBM engineer will work with you to enable your network to use Virtual Routing Function (VRF) capability, which is required.
+In general, to get your IBM Cloud Direct Link connection working, you'll need to do some basic network configuration steps, and then you'll need to set up Border Gateway Protocol (BGP). During the setup process, an IBM engineer will work with you to enable your network to use Virtual Routing Function (VRF) capability, which is required.
 
 ## Basic Network Configuration
 
@@ -44,26 +44,26 @@ To exchange route information with your environment, {{site.data.keyword.BluSoft
 
 ## More about using VRF
 
-All accounts that utilize a Direct Link solution must migrate to a VRF. By using VRF, customers advertise the available routes to their self-defined remote networks. Note that this configuration does not permit you to utilize self-defined IP addresses on the {{site.data.keyword.BluSoftlayer_notm}} network.
+All accounts that utilize an IBM Cloud Direct Link solution must migrate to a VRF. By using VRF, customers advertise the available routes to their self-defined remote networks. Note that this configuration does not permit you to utilize self-defined IP addresses on the {{site.data.keyword.BluSoftlayer_notm}} network.
 
 Migrating to a VRF is done during the setup process. It requires a short outage window (up to 30 minutes for large accounts with multiple VLANs/locations), during which the backend network VLANs will lose mutual connectivity while they are moved to the VRF. The VRF migration is scheduled with the implementing engineer.
 
 Please note that VRF eliminates the "VLAN Spanning" option for your account, including any account-to-account VLAN spanning capabilities, because all VLANs are able to communicate unless a Gateway Appliance is introduced to manage traffic. VRF also limits the ability to use {{site.data.keyword.BluSoftlayer_notm}} VPN services, because it is not compatible with {{site.data.keyword.BluSoftlayer_notm}} SSL, PPTP, and IPSec VPN services.   
 
-An alternative is to use the Direct Link offering itself to manage your servers, or to run your own VPN solution (such as a Vyatta) that can be configured with different types of VPN. After migrating to a VRF, SSL VPN typically works when a VPN connection is made to the same data center location in which a compute VM is running, but it does not allow access globally.
+An alternative is to use the IBM Cloud Direct Link offering itself to manage your servers, or to run your own VPN solution (such as a Vyatta) that can be configured with different types of VPN. After migrating to a VRF, SSL VPN typically works when a VPN connection is made to the same data center location in which a compute VM is running, but it does not allow access globally.
 
 ## Using BYOIP and NAT with Direct Link
 IBM Cloud Direct Link does not offer BYOIP on the private network, except in special circumstances covered under the section on [Custom Private Addressing](#custom-private-addressing). Therefore, traffic with a destination IP address that was not assigned by {{site.data.keyword.BluSoftlayer_notm}} will be dropped. However, customers can encapsulate traffic between the remote network and their {{site.data.keyword.BluSoftlayer_notm}} network using GRE, IPSec, or VXLAN.  
 
 Most commonly, the BYOIP environment is implemented within the scope of either a Network Gateway (Vyatta) or a VMWare NSX deployment. This configuration enables customers to use any desirable IP space on the {{site.data.keyword.BluSoftlayer_notm}} side, and to route back across the tunnel to the remote network. Note that this configuration must be managed and supported by the customer, independent of {{site.data.keyword.BluSoftlayer_notm}}. Furthermore, this configuration can break connectivity to the {{site.data.keyword.BluSoftlayer_notm}} services network if the customer assigns a 10.x.x.x block that {{site.data.keyword.BluSoftlayer_notm}} has in use for services. 
 
-This solution also requires that each host needing connectivity to the {{site.data.keyword.BluSoftlayer_notm}} services network and the remote network must have 2 IPs assigned: one must be assigned from the IBM 10.x.x.x block, and one from the remote network block. Static routes must be set up on the host, to ensure that traffic is routed appropriately. You will not be able to assign IP space directly on the {{site.data.keyword.BluSoftlayer_notm}} hosts (BYOIP) and have it routable on the {{site.data.keyword.BluSoftlayer_notm}} network inherently. The only way to implement this ability is as outlined previously, but it is not supported by {{site.data.keyword.BluSoftlayer_notm}}.
+This solution also requires that each host needing connectivity to the {{site.data.keyword.BluSoftlayer_notm}} services network and the remote network must have 2 IP addresses assigned: one must be assigned from the IBM 10.x.x.x block, and one from the remote network block. Static routes must be set up on the host, to ensure that traffic is routed appropriately. You will not be able to assign IP space directly on the {{site.data.keyword.BluSoftlayer_notm}} hosts (BYOIP) and have it routable on the {{site.data.keyword.BluSoftlayer_notm}} network inherently. The only way to implement this ability is as outlined previously, but it is not supported by {{site.data.keyword.BluSoftlayer_notm}}.
 
 Alternatively, customers frequently assign a remote network block for use in a NAT table configured on their remote edge router. This configuration allows customers to limit the changes required to both networks, while still translating traffic into a network address space that is compatible with both networks.
 
 ## About Custom Private Addressing
 
-Occasionally, during Direct Link on-boarding, a customer is unable to resolve IP addressing conflicts between their on-premise and {{site.data.keyword.BluSoftlayer_notm}} private networks using the methods described previously. If this situation occurs, a {{site.data.keyword.BluSoftlayer_notm}} engineering or sales representative may recommend that you use _Custom Private Addressing_ (CPA). No additional cost associated with CPA; however, this feature has unique requirements and limitations that you should understand thoroughly before agreeing to its use. These details are described in documentation that will be provided to you by the IBM Cloud representative that recommends CPA. 
+Occasionally, during IBM Cloud Direct Link on-boarding, a customer is unable to resolve IP addressing conflicts between their on-premise and {{site.data.keyword.BluSoftlayer_notm}} private networks using the methods described previously. If this situation occurs, a {{site.data.keyword.BluSoftlayer_notm}} engineering or sales representative may recommend that you use _Custom Private Addressing_ (CPA). No additional cost associated with CPA; however, this feature has unique requirements and limitations that you should understand thoroughly before agreeing to its use. These details are described in documentation that will be provided to you by the IBM Cloud representative that recommends CPA. 
 
 The _key requirement_ is that custom private addressing can be activated only on a new, empty {{site.data.keyword.BluSoftlayer_notm}} account and a new Direct Link connection. It is not possible to convert or migrate existing resources to CPA.
 
