@@ -83,7 +83,11 @@ The IBM Cloud Direct Link Dedicated Hosting solution provides connectivity simil
 
  * **Cross-Connect Details:** {{site.data.keyword.BluSoftlayer_notm}} provides 1G or 10G fiber connections from the {{site.data.keyword.BluSoftlayer_notm}} cross-connect router (XCR) infrastructure to the customer's colocation environment as part of the deployment.  If colocation services are not requested (if existing environments are connected already), {{site.data.keyword.BluSoftlayer_notm}} provides a Letter of Authorization (LOA) that a customer uses to order fiber Ethernet (Single-Mode Fiber only, either 1Gig-LX or 10Gig-LR optics) that runs from a customer cage to the {{site.data.keyword.BluSoftlayer_notm}} CFA termination point, which will be tied down to the cross-connect router (XCR) infrastructure. The media must be a 1310nm wavelength optic.
 
+<<<<<<< HEAD
  * **Port Speed Options:** Select either 1Gbps, 2Gbps, 5Gbps, and 10Gbps.
+=======
+ * **Port Speed Options:** Select either 1Gbps or 10Gbps.
+>>>>>>> 224d6c71057bf300385a74b93be36ff063e6db39
 
  * **Approximate Latency:** Latency is approximately 0.5ms within the local data center.
 
