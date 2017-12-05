@@ -50,4 +50,4 @@ To order the type of IBM Cloud Direct Link that best suits your needs, follow th
 
  * Identify your colocation and connectivity requirements, and work with the IBM sales team to finalize and execute a contract and technical addendum.
  * {{site.data.keyword.BluSoftlayer_notm}} executes a build order with the colocation provider for the requested environment and services. Deployment typically is completed within 30 days from when the build order is placed.
- * When the build of your colocation cage is complete, the process to interconnect between your colocation cage and the {site.data.keyword.BluSoftlayer_notm}} POD environment's XCR gear will follow the previously-shown IBM Cloud Direct Link Dedicated process, starting at Step 3.
+ * When the build of your colocation cage is complete, the process to interconnect between your colocation cage and the {{site.data.keyword.BluSoftlayer_notm}} POD environment's XCR gear will follow the previously-shown IBM Cloud Direct Link Dedicated process, starting at Step 3.
