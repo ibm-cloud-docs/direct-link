@@ -24,18 +24,15 @@ To order the type of IBM Cloud Direct Link that best suits your needs, follow th
 
 ## How to order IBM Cloud Direct Link Exchange
 
- * Verify your network provider's capabilities to reach the appropriate PoP and cross-connect into the associated Cloud Exchange provider.
-<<<<<<< HEAD
- * Use the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) to open an IBM Cloud Direct Link Exchange request and complete the requested information. (Assistance from IBM sales engineers can be requested.) If you use the Equinix provider, the ordering and provisioning process is [fully automated](https://github.ibm.com/Bluemix-Docs/direct-link/blob/staging/cloud-exchange-automation.md).
+1. Verify your network provider's capabilities to reach the appropriate PoP and cross-connect into the associated Cloud Exchange provider.
+ * Use the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) to open an IBM Cloud Direct Link Exchange request and complete the requested information. (Assistance from IBM sales engineers can be requested.) If you use the Equinix provider, the ordering and provisioning process is [fully automated](cloud-exchange-automation.html).
  * Contact your Exchange provider and negotiate connectivity to your exchange.
  * Order connectivity between your network provider and the  Exchange provider.
  * Order a "virtual circuit" through the Exchange provider, and refer the Ticket ID of the {{site.data.keyword.BluSoftlayer_notm}} IBM Cloud Direct Link request as your "Request ID" or "Authorization ID"
-=======
  * Use the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) to open a Direct Link Cloud Exchange request and complete the requested information. (Assistance from IBM sales engineers can be requested.) 
  * Contact the Cloud Exchange provider and negotiate connectivity to your exchange.
  * Order connectivity between your network provider and the Cloud Exchange provider.
  * Order a "virtual circuit" through the Cloud Exchange provider, and refer the Ticket ID of the {{site.data.keyword.BluSoftlayer_notm}} Direct Link request as your "Request ID" or "Authorization ID"
->>>>>>> 224d6c71057bf300385a74b93be36ff063e6db39
  * IP assignment on the {{site.data.keyword.BluSoftlayer_notm}} networking infrastructure will be completed within 3 business days after the virtual circuit request is complete.
 
 ## How to order IBM Cloud Direct Link Dedicated
