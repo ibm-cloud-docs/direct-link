@@ -16,9 +16,9 @@ lastupdated: "2017-08-21"
 
 # FAQs
 
-This section contains answers to some frequently asked questions about Direct Link. 
+This section contains answers to some frequently asked questions about IBM Cloud Direct Link. 
 
-## How does Direct Link work?
+## How does IBM Cloud Direct Link work?
 For every Direct Link customer, the IBM Cloud team assigns a small private subnet to build a point-to-point network between the {{site.data.keyword.BluSoftlayer_notm}} cross-connect router (XCR) and the customer's edge router (CER). Then, {{site.data.keyword.BluSoftlayer_notm}} and the customer configure BGP in order to exchange routes between the environments. Finally, {{site.data.keyword.BluSoftlayer_notm}} places the customer into a VRF to allow for the implementation of non-unique routes to the private address space of the customer's remote network.
 
 ## Does IBM Cloud meter bandwidth for Direct Link products?
