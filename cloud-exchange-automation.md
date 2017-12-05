@@ -14,7 +14,7 @@ lastupdated: "2017-12-01"
 {:tip: .tip}
 {:download: .download}
 
-# Order an IBM Cloud Direct Link Exchange using automation (Limited Release for Equinix users)
+# Order an IBM Cloud Direct Link Exchange using automation (for Equinix users)
 
 This page tells you how to order the IBM Cloud Direct Link Exchange service. If the IBM Cloud Direct Link order is for the Equinix Cloud Exchange, the service provisioning is fully automated.
 
@@ -42,8 +42,6 @@ To provision an IBM Cloud Direct Link Exchange connection automatically, complet
   * Select the routing option required for the connection.
   * Enter an ASN number from the range given in the information box for the BGP exchanges.
 5.	As you select or enter these values, you can see an approximate monthly charge on the left-side panel.
-
-![With Zone Order Page](images/With-Zone-Order-Page.png)
 
 6. After you provide the input values, the next UI screen shows the actual monthly pricing based on the options you've selected.
 
