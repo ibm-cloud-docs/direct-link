@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-12-05"
+lastupdated: "2017-12-12"
 
 ---
 
@@ -27,11 +27,8 @@ Yes. IBM Cloud does meter all outbound bandwidth on Direct Link Products. Inboun
 ## What additional charges will I incur from other parties with Direct Link?
 You may have additional charges from your exchange provider or network service provider. Please refer to your provider(s) for their fee information.
 
-## How can I achieve redundancy with Direct Link?
-You can achieve redundancy with Direct Link by connecting to more than one Network Service Provider or Cloud Exchange to {{site.data.keyword.BluSoftlayer_notm}}.
-
-## If I have an overlapping network with {{site.data.keyword.BluSoftlayer_notm}} how can I facilitate connectivity?
-We recommend using NAT or building IPSec tunnels from your VLAN(s) to the remote location. For NAT, {{site.data.keyword.BluSoftlayer_notm}} assigns a 172.x.x.x range, which is unique on our side, and you would NAT into that range. The IPSec solution is implemented with a Vyatta, by using IPSec with GRE.
+## How can I achieve redundancy with IBM Cloud Direct Link?
+You can achieve redundancy with Direct Link by connecting to more than one IBM Cloud Direct Link Dedicated Provider or Exchange provider {{site.data.keyword.BluSoftlayer_notm}}. Alternatively, you can leverage one of the IBM Cloud Direct Link providers that adds redundancy to your service.
 
 ## What is the difference between the default "local" routing and the Global Routing add-on?
 With our standard Direct Link offering, you can send traffic between the data centers in your selected region. If you need access to other data centers outside of the specified region, you must order the Global Routing add-on. This model is based upon ACLs (access control lists) that are put in place at the time your Direct Link connection is ordered. For a list of regions by datacenter and POP, please see [here]().
