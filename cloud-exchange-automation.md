@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-12-05"
+lastupdated: "2017-12-12"
 
 ---
 
@@ -21,8 +21,6 @@ This page tells you how to order the IBM Cloud Direct Link Exchange service. If 
 **(Note: Automation capabilities currently are limited to the Equinix Cloud Exchange. In subsequent releases, automation will be enabled for other providers.)**
 
 ## Prerequisites
-
-The automation for IBM Cloud Direct Link Exchange is supported only for accounts that do not use custom private addressing (CPA). If the IBM Cloud Direct Link connectivity is needed for a CPA account, please open an IBM support ticket.
 
 To use the automation capability, your private VLANs must be associated with a VRF in the IBM Cloud private network. If this requirement is not met, an IBM support ticket will be generated when you place the order through the portal.
 
