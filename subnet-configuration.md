@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-12-04"
+lastupdated: "2017-12-12"
 
 ---
 
@@ -51,22 +51,3 @@ Migrating to a VRF is done during the setup process. It requires a short outage 
 Please note that VRF eliminates the "VLAN Spanning" option for your account, including any account-to-account VLAN spanning capabilities, because all VLANs are able to communicate unless a Gateway Appliance is introduced to manage traffic. VRF also limits the ability to use {{site.data.keyword.BluSoftlayer_notm}} VPN services, because it is not compatible with {{site.data.keyword.BluSoftlayer_notm}} SSL, PPTP, and IPSec VPN services.   
 
 An alternative is to use the IBM Cloud Direct Link offering itself to manage your servers, or to run your own VPN solution (such as a Vyatta) that can be configured with different types of VPN. After migrating to a VRF, SSL VPN typically works when a VPN connection is made to the same data center location in which a compute VM is running, but it does not allow access globally.
-
-## Using BYOIP and NAT with Direct Link
-IBM Cloud Direct Link does not offer BYOIP on the private network, except in special circumstances covered under the section on [Custom Private Addressing](#custom-private-addressing). Therefore, traffic with a destination IP address that was not assigned by {{site.data.keyword.BluSoftlayer_notm}} will be dropped. However, customers can encapsulate traffic between the remote network and their {{site.data.keyword.BluSoftlayer_notm}} network using GRE, IPSec, or VXLAN.  
-
-Most commonly, the BYOIP environment is implemented within the scope of either a Network Gateway (Vyatta) or a VMWare NSX deployment. This configuration enables customers to use any desirable IP space on the {{site.data.keyword.BluSoftlayer_notm}} side, and to route back across the tunnel to the remote network. Note that this configuration must be managed and supported by the customer, independent of {{site.data.keyword.BluSoftlayer_notm}}. Furthermore, this configuration can break connectivity to the {{site.data.keyword.BluSoftlayer_notm}} services network if the customer assigns a 10.x.x.x block that {{site.data.keyword.BluSoftlayer_notm}} has in use for services. 
-
-This solution also requires that each host needing connectivity to the {{site.data.keyword.BluSoftlayer_notm}} services network and the remote network must have 2 IP addresses assigned: one must be assigned from the IBM 10.x.x.x block, and one from the remote network block. Static routes must be set up on the host, to ensure that traffic is routed appropriately. You will not be able to assign IP space directly on the {{site.data.keyword.BluSoftlayer_notm}} hosts (BYOIP) and have it routable on the {{site.data.keyword.BluSoftlayer_notm}} network inherently. The only way to implement this ability is as outlined previously, but it is not supported by {{site.data.keyword.BluSoftlayer_notm}}.
-
-Alternatively, customers frequently assign a remote network block for use in a NAT table configured on their remote edge router. This configuration allows customers to limit the changes required to both networks, while still translating traffic into a network address space that is compatible with both networks.
-
-## About Custom Private Addressing
-
-Occasionally, during IBM Cloud Direct Link on-boarding, a customer is unable to resolve IP addressing conflicts between their on-premise and {{site.data.keyword.BluSoftlayer_notm}} private networks using the methods described previously. If this situation occurs, a {{site.data.keyword.BluSoftlayer_notm}} engineering or sales representative may recommend that you use _Custom Private Addressing_ (CPA). No additional cost associated with CPA; however, this feature has unique requirements and limitations that you should understand thoroughly before agreeing to its use. These details are described in documentation that will be provided to you by the IBM Cloud representative that recommends CPA. 
-
-The _key requirement_ is that custom private addressing can be activated only on a new, empty {{site.data.keyword.BluSoftlayer_notm}} account and a new Direct Link connection. It is not possible to convert or migrate existing resources to CPA.
-
-Custom private addressing lets you host {{site.data.keyword.BluSoftlayer_notm}} servers in a valid, private IPv4 address range of your choice (10.x.x.x, 192.168.x.x or 172.16.x.x). CPA provides a subset of common IBM Cloud services in a special internally-routed address range, 161.26.x.x, which leaves private IP addresses free for customer use. While CPA enables you to define up to 5 private IP ranges (referred to as _CPA Networks_), each Direct Link connects with only one CPA Network. If additional CPA Networks exist in the account, they will not be accessible through Direct Link.
-
-Custom private addressing leverages VRF and BGP. The implementing engineer will assist you with the details related to CPA.
