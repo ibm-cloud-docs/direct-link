@@ -28,13 +28,10 @@ Yes. IBM Cloud does meter all outbound bandwidth on Direct Link Products. Inboun
 You may have additional charges from your exchange provider or network service provider. Please refer to your provider(s) for their fee information.
 
 ## How can I achieve redundancy with Direct Link?
-You can achieve redundancy with Direct Link by connecting to more than one Network Service Provider or Cloud Exchange to {{site.data.keyword.BluSoftlayer_notm}}.
-
-## If I have an overlapping network with {{site.data.keyword.BluSoftlayer_notm}} how can I facilitate connectivity?
-We recommend using NAT or building IPSec tunnels from your VLAN(s) to the remote location. For NAT, {{site.data.keyword.BluSoftlayer_notm}} assigns a 172.x.x.x range, which is unique on our side, and you would NAT into that range. The IPSec solution is implemented with a Vyatta, by using IPSec with GRE.
+You can achieve redundancy with Direct Link by connecting to more than one Network Service Provider or Cloud Exchange to {{site.data.keyword.BluSoftlayer_notm}}. Alternatively, you can leverage one of the IBM Cloud Direct Link providers that adds redundancy to your service.
 
 ## What is the difference between the default "local" routing and the Global Routing add-on?
-With our standard Direct Link offering, you can send traffic between the data centers in your selected region. If you need access to other data centers outside of the specified region, you must order the Global Routing add-on. This model is based upon ACLs (access control lists) that are put in place at the time your Direct Link connection is ordered. For a list of regions by datacenter and POP, please see [here]().
+With our standard Direct Link offering, you can send traffic between the data centers in your selected region. If you need access to other data centers outside of the specified region, you must order the Global Routing add-on. This model is based upon ACLs (access control lists) that are put in place at the time your Direct Link connection is ordered. 
 
 ## How are the outbound (egress) bandwidth overages billed for the Global Routing add-on?
 Overages are billed monthly when your alotment of bandwidth is exceeded, but only for outbound bandwidth. Inbound bandwidth is free of charge and not metered. Outbound bandwidth is billed based on the rate that is the higher of the two regions that your data crosses.  For example, if your Direct Link is configured in DAL03 and your data traffic passes through Mexico, you will be charged the bandwidth rate for Mexico.
