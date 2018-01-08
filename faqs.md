@@ -22,7 +22,7 @@ This section contains answers to some frequently asked questions about IBM Cloud
 For every Direct Link customer, the IBM Cloud team assigns a small private subnet to build a point-to-point network between the {{site.data.keyword.BluSoftlayer_notm}} cross-connect router (XCR) and the customer's edge router (CER). Then, {{site.data.keyword.BluSoftlayer_notm}} and the customer configure BGP in order to exchange routes between the environments. Finally, {{site.data.keyword.BluSoftlayer_notm}} places the customer into a VRF to allow for the implementation of non-unique routes to the private address space of the customer's remote network.
 
 ## Does IBM Cloud meter bandwidth for Direct Link products?
-Yes. IBM Cloud does meter all outbound bandwidth on Direct Link Products. Inbound bandwidth is free and unmetered.
+Yes. IBM Cloud does meter all outbound bandwidth on Direct Link Products with the Global Routing addon. Inbound bandwidth is free and unmetered. For Direct Link with the default Local Routing, both In- and Outbound bandwidth is free and unmetered.
 
 ## What additional charges will I incur from other parties with Direct Link?
 You may have additional charges from your exchange provider or network service provider. Please refer to your provider(s) for their fee information.
