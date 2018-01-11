@@ -42,7 +42,7 @@ We have added the Global Routing add-on to prevent our customers from experienci
 ## What are the Local Routing and Global Routing options?
 Local Routing and Global Routing options are selected by every customer when ordering Direct Link service. If customers need to route their traffic outside the POP in the area within which they are ordering Direct Link, they must add the Global Routing option; otherwise, their traffic is restricted to the services provided by the local POP.
 
-Each month, all customers using 1G Circuits are allotted 10TB of free egress traffic; customers using 10G circuits are allotted 50TB. Overages are based on the following table, with the higher market rate prevailing. If you select Global Routing, you are not charged for any local egress traffic, only for traffic that originates or terminates outside of the local POP.
+Each month, all customers using 1, 2, or 5Gbps Circuits are allotted 10TB of free egress traffic; customers using 10Gbps circuits are allotted 50TB. Overages are based on the following table, with the higher market rate prevailing. If you select Global Routing, you are not charged for any local egress traffic, only for traffic that originates or terminates outside of the local POP.
 
 |Data Market 1|Data Market 2|Data Market 3|
 |---|---|---|
