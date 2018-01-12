@@ -22,7 +22,7 @@ This section contains answers to some frequently asked questions about IBM Cloud
 For every Direct Link customer, the IBM Cloud team assigns a small private subnet to build a point-to-point network between the {{site.data.keyword.BluSoftlayer_notm}} cross-connect router (XCR) and the customer's edge router (CER). Then, {{site.data.keyword.BluSoftlayer_notm}} and the customer configure BGP in order to exchange routes between the environments. Finally, {{site.data.keyword.BluSoftlayer_notm}} places the customer into a VRF to allow for the implementation of non-unique routes to the private address space of the customer's remote network.
 
 ## Does IBM Cloud meter bandwidth for Direct Link products?
-Yes. IBM Cloud does meter all outbound bandwidth on Direct Link Products. Inbound bandwidth is free and unmetered.
+Yes. IBM Cloud does meter all outbound bandwidth on Direct Link Products with the Global Routing addon. Inbound bandwidth is free and unmetered. For Direct Link with the default Local Routing, both In- and Outbound bandwidth is free and unmetered.
 
 ## What additional charges will I incur from other parties with Direct Link?
 You may have additional charges from your exchange provider or network service provider. Please refer to your provider(s) for their fee information.
@@ -42,7 +42,7 @@ We have added the Global Routing add-on to prevent our customers from experienci
 ## What are the Local Routing and Global Routing options?
 Local Routing and Global Routing options are selected by every customer when ordering Direct Link service. If customers need to route their traffic outside the POP in the area within which they are ordering Direct Link, they must add the Global Routing option; otherwise, their traffic is restricted to the services provided by the local POP.
 
-Each month, all customers using 1G Circuits are allotted 10TB of free egress traffic; customers using 10G circuits are allotted 50TB. Overages are based on the following table, with the higher market rate prevailing. If you select Global Routing, you are not charged for any local egress traffic, only for traffic that originates or terminates outside of the local POP.
+Each month, all customers using 1, 2, or 5Gbps Circuits are allotted 10TB of free egress traffic; customers using 10Gbps circuits are allotted 50TB. Overages are based on the following table, with the higher market rate prevailing. If you select Global Routing, you are not charged for any local egress traffic, only for traffic that originates or terminates outside of the local POP.
 
 |Data Market 1|Data Market 2|Data Market 3|
 |---|---|---|
