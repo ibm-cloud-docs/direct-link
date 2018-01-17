@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-12"
+lastupdated: "2018-01-16"
 
 ---
 
@@ -24,12 +24,12 @@ This page tells you how to order the IBM Cloud Direct Link Exchange service. If 
 
 To use the automation capability, your private VLANs must be associated with a VRF in the IBM Cloud private network. If this requirement is not met, an IBM support ticket will be generated when you place the order through the Customer Portal.
 
- * [How to order for Equinix](#how-to-order-for-equinix)
- * [How to order for non-Equinix providers](#how-to-order-for-non-equinix-providers)
+ * [How to order Cloud Exchange](#how-to-order-cloud-exchange)
+ * [How to order Cloud Exchange for Equinix](#how-to-order-cloud-exchange-for-equinix)
 
-## How to order for Equinix
+## How to order Cloud Exchange
 
-To provision an IBM Cloud Direct Link Exchange connection automatically, complete the following steps:
+To provision an IBM Cloud Direct Link Exchange connection, complete the following steps:
 
 **Step 1:**
 
@@ -85,11 +85,29 @@ The following figure shows an example of the ticket being opened:
 
 **Step 8:**
 
+After agreeing to the terms and conditions, when you place the order, an IBM support ticket is generated after placing the order to continue with the service provisioning. The ticket number will be displayed in the UI after you place the order. 
+
+![Step NE1](/images/Non-Equinix-Step1.png)
+
+**Step 9:**
+
+By clicking on the ticket number in the message, you can see the ticket details.
+
+![Step NE2](/images/Non-Equinix-Step2.png)
+
+## How to order Cloud Exchange for Equinix
+
+**Step 1:**
+
+Follow the steps from 1 through 7 from Cloud Exchange ordering steps above
+
+**Step 2:**
+
 Once you place the order, the IBM Cloud Direct Link provisioning begins.
 
 ![Step 8](/images/Equinix-Step8.png)
 
-**Step 9:**
+**Step 3:**
 
 You can see the status of your connection after you place the order. If the configuration completes on the IBM side successfully, you'll see the status as **Provisioned**. If the configuration is not finished, you'll see the status as **In-Progress**. If the configuration has failed, you'll see the status as **Create Failed**. If the configuration has completed successfully and the BGP connection is up, you'll see the status as **UP**.
 
@@ -99,44 +117,30 @@ The following figure shows various states of the connection after the order is p
 
 ![Step 9 up](/images/Equinix-Step9-UP.png)
 
-**Step 10:**
+**Step 4:**
 
 If the connection is in **Provisioned** status, expand the connection by clicking the **>** in front of the connection **Name**. Then note down the **Customer IP Address** and **Service Key** information. These will be needed for configuring the customer edge router and as the authorization key for the cloud-provider-side (Equinix) configuration, respectively.
 
 ![Step 10](/images/Equinix-Step10-Provisioned.png)
 
-**Step 11:**
+**Step 5:**
 
 For the connections in **Provisioned** status, after expanding the connection by clicking the **>** in front of the connection, you'll see an error message if there is a mismatch with Peer Link Speed. Once the Speed is the same on the IBM side and the Equinix Side, this Error notification is no longer displayed.
 
 ![Step 11](/images/Equinix-Step11-PortMismatch.png)
 
-**Step 12:**
+**Step 6:**
 
 For the connections in the **Create Failed** status, an IBM support ticket is generated and further details are communicated through the support ticket. When you expand the connection, you can see the support ticket details.
 
 ![Step 12](/images/Equinix-Step12-CreateFailed.png)
 
-**Step 13:**
+**Step 7:**
 
 For the connections in **Provisioned**, **UP** or **DOWN** status, you can **Delete** the connection by clicking on the **ACTIONS** column next to the connection.
 
 ![Step 13](/images/Equinix-Step13-Delete.png)
 
-**Step 14:**
+**Step 8:**
 
 For the connections in **Create Failed** status, you can **Cancel** the connection by clicking on the **ACTIONS** column next to the connection.
-
-## How to order for non-Equinix providers
-
-**Step 1:**
-
-Follow the steps from 1 through 7 from Equinix ordering steps above
-
-![Step NE1](/images/Non-Equinix-Step1.png)
-
-**Step 2:**
-
-An IBM support ticket is generated after placing the order to continue with the service provisioning. The ticket number will be displayed in the UI after you place the order. By clicking on the ticket number in the message, you can see the ticket details.
-
-![Step NE2](/images/Non-Equinix-Step2.png)
