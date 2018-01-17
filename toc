@@ -14,7 +14,7 @@ Direct Link
     how-to-order.md
     
       {: .topicgroup}
-      Steps for Ordering
+      Overview Steps for Ordering
          order-cloud-exchange.md
          order-nsp.md
          order-colocation.md 
