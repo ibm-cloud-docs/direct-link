@@ -85,7 +85,7 @@ The following figure shows an example of the ticket being opened:
 
 **Step 8:**
 
-After agreeing to the terms and conditions, when you place the order, an IBM support ticket is generated after placing the order to continue with the service provisioning. The ticket number will be displayed in the UI after you place the order. 
+After agreeing to the terms and conditions when you place the order, an IBM support ticket is generated to continue with the service provisioning. The ticket number will be displayed in the UI. 
 
 ![Step NE1](/images/Non-Equinix-Step1.png)
 
