@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-12-04"
+lastupdated: "2017-03-19"
 
 ---
 
@@ -21,6 +21,7 @@ IBM Cloud Direct Link is a suite of three offerings from IBM Cloud. Each one ena
 **IBM Cloud Direct Link solutions**
 
  * [IBM Cloud Direct Link Exchange](about.html#the-direct-link-cloud-exchange-solution)
+ * [IBM Cloud Connect](about.html)
  * [IBM Cloud Direct Link Dedicated](about.html#the-direct-link-network-service-provider-solution)
  * [IBM Cloud Direct Link Dedicated Hosting](about.html#the-direct-link-colocation-solution)
 
