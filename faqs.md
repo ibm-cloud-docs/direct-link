@@ -1,8 +1,13 @@
 ---
 
 copyright:
+<<<<<<< HEAD
   years: 2017
 lastupdated: "2017-12-12"
+=======
+  years: 2017, 2018
+lastupdated: "2018-04-05"
+>>>>>>> 10433327a9bbd8d4ef5e54e89719fa6d53e1a9d9
 
 ---
 
@@ -22,7 +27,7 @@ This section contains answers to some frequently asked questions about IBM Cloud
 For every Direct Link customer, the IBM Cloud team assigns a small private subnet to build a point-to-point network between the {{site.data.keyword.BluSoftlayer_notm}} cross-connect router (XCR) and the customer's edge router (CER). Then, {{site.data.keyword.BluSoftlayer_notm}} and the customer configure BGP in order to exchange routes between the environments. Finally, {{site.data.keyword.BluSoftlayer_notm}} places the customer into a VRF to allow for the implementation of non-unique routes to the private address space of the customer's remote network.
 
 ## Does IBM Cloud meter bandwidth for Direct Link products?
-Yes. IBM Cloud does meter all outbound bandwidth on Direct Link Products with the Global Routing addon. Inbound bandwidth is free and unmetered. For Direct Link with the default Local Routing, both In- and Outbound bandwidth is free and unmetered.
+Yes. IBM Cloud does meter all outbound bandwidth on Direct Link Products. Inbound bandwidth is free and unmetered.
 
 ## What additional charges will I incur from other parties with Direct Link?
 You may have additional charges from your exchange provider or network service provider. Please refer to your provider(s) for their fee information.
@@ -42,7 +47,7 @@ We have added the Global Routing add-on to prevent our customers from experienci
 ## What are the Local Routing and Global Routing options?
 Local Routing and Global Routing options are selected by every customer when ordering Direct Link service. If customers need to route their traffic outside the POP in the area within which they are ordering Direct Link, they must add the Global Routing option; otherwise, their traffic is restricted to the services provided by the local POP.
 
-Each month, all customers using 1, 2, or 5Gbps Circuits are allotted 10TB of free egress traffic; customers using 10Gbps circuits are allotted 50TB. Overages are based on the following table, with the higher market rate prevailing. If you select Global Routing, you are not charged for any local egress traffic, only for traffic that originates or terminates outside of the local POP.
+Each month, all customers using 1G Circuits are allotted 10TB of free egress traffic; customers using 10G circuits are allotted 50TB. Overages are based on the following table, with the higher market rate prevailing. If you select Global Routing, you are not charged for any local egress traffic, only for traffic that originates or terminates outside of the local POP.
 
 |Data Market 1|Data Market 2|Data Market 3|
 |---|---|---|
@@ -58,3 +63,20 @@ Yes, as long as you order Direct Link with the Global Routing add-on.
 
 ## Can I restrict the regions that my Direct Link can reach?
 No. IBM Cloud offers two options: (1) a single region only, or (2) all regions, with the Global Routing add-on.
+
+## What if I used the automated ordering process for Equinix Cloud Exchange and I was assigned a subnet that overlaps my internal network?
+
+As of March 2018, the recommended best practice is to cancel your automated order and submit a new ticket to fill out the Direct Link questionnaire. You should indicate whether you prefer another subnet in the 10.254.x.x range or the 172.32.x.x range.
+
+## What is the difference between Direct Link Exchange and Direct Link Connect?
+
+These two services are similar, relatively low-cost, latency tolerant, and rapid entry points to the benefits of IBM Cloud Direct Link. In a nutshell, Exchange utilizes datacenter providers and Connect utilizes Telco carriers. Here are some additional details:
+
+**Direct Link Exchange** is for customers who prefer to utilize an exchange inside a datacenter. With an Exchange service, customers can enable multi-cloud connectivity to their Colocation rapidly, because the underlying circuits are provisioned already (these other cloud providers must already have a physical interconnection present within the facility).
+
+Direct Link Exchange can allow for a multi-cloud, shared use environment through a single cloud exchange port, created by an NNI connection at Layer 2 between IBM Cloud and the Cloud Exchange Service Provider. Port speeds are available up to 1Gb.
+
+**Direct Link Connect** is for customers who prefer to utilize their existing network between their own on-premises deployment and IBM Cloud. With a Direct Link Connect service, customers can use new and existing Telco networks (such as MPLS) to enable IBM Cloud rapidly, by leveraging pre-provisioned underlying circuits.
+
+With Direct Link Connect, both IBM and the partner will connect to the customer at Layer 2 and 3 through dual, Layer-2 10G Network-to-Network Interfaces (NNIs), operated by IBM partners in facilities worldwide. Port speeds are available up to 5Gb.
+

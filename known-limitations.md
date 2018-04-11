@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-04"
+  years: 2017, 2018
+lastupdated: "2018-04-11"
 
 ---
 
@@ -27,7 +27,7 @@ First, this section covers limitations that apply to all three IBM Cloud Direct 
  * IBM Cloud Direct Link requires BGP in order to establish the routes to a customer's remote network.
  * Changes to the IBM Cloud Direct Link infrastructure must be made between 8AM and 5PM, U.S. Central time zone.
  
-### IBM Cloud Direct Link Exchange Limitations
+### IBM Cloud Direct Link Exchange and Direct Link Connect Limitations
  * Customers are responsible for any fees associated with reaching the POP from a remote network and any fees incurred with the Cloud Exchange provider.
  * {{site.data.keyword.BluSoftlayer_notm}} will not co-locate any customer equipment in our network POPs. Customers must work with their provider to determine whether they need to co-locate any equipment in the facility where the {{site.data.keyword.BluSoftlayer_notm}} network PoP exists.
  * Direct Link Cloud Exchange availability varies between locations. Customers can contact their IBM Cloud account manager to confirm current or future availability.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-04"
+  years: 2017, 2018
+lastupdated: "2018-03-19"
 
 ---
 
@@ -19,6 +19,7 @@ lastupdated: "2017-12-04"
 To order the type of IBM Cloud Direct Link that best suits your needs, follow the link to see instructions.
 
 * [How to order IBM Cloud Direct Link Exchange](how-to-order.html#how-to-order-ibm-cloud-direct-link-exchange)
+* [How to order IBM Cloud Direct Link Connect](how-to-order.html#how-to-order-ibm-cloud-direct-link-connect)
 * [How to order IBM Cloud Direct Link Dedicated](how-to-order.html#how-to-order-ibm-cloud-direct-link-dedicated)
 * [How to order IBM Cloud Direct Link Dedicated Hosting](how-to-order.html#how-to-order-ibm-cloud-direct-link-dedicated-hosting)
 
@@ -29,6 +30,15 @@ To order the type of IBM Cloud Direct Link that best suits your needs, follow th
  * Contact your Exchange provider and negotiate connectivity to your exchange.
  * Order connectivity between your network provider and the  Exchange provider.
  * Order a "virtual circuit" through the Exchange provider, and refer the Ticket ID of the {{site.data.keyword.BluSoftlayer_notm}} IBM Cloud Direct Link request as your "Request ID" or "Authorization ID"
+ * IP assignment on the {{site.data.keyword.BluSoftlayer_notm}} networking infrastructure will be completed within 3 business days after the virtual circuit request is complete.
+
+## How to order IBM Cloud Direct Link Connect
+
+ * Verify your network provider's capabilities to reach the appropriate PoP and cross-connect into the associated Connect provider.
+ * Use the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) to open an IBM Cloud Direct Link Connect request and complete the requested information. (Assistance from IBM sales engineers can be requested.) 
+ * Contact your Connect provider and negotiate connectivity to your exchange.
+ * Order connectivity between your network provider and the Connect provider.
+ * Order a "virtual circuit" through the Connect provider, and refer the Ticket ID of the {{site.data.keyword.BluSoftlayer_notm}} IBM Cloud Direct Link request as your "Request ID" or "Authorization ID"
  * IP assignment on the {{site.data.keyword.BluSoftlayer_notm}} networking infrastructure will be completed within 3 business days after the virtual circuit request is complete.
 
 ## How to order IBM Cloud Direct Link Dedicated

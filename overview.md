@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-04"
+  years: 2017, 2018
+lastupdated: "2018-03-14"
 
 ---
 
@@ -16,9 +16,11 @@ lastupdated: "2017-12-04"
 
 # Overview of Features
 
-The IBM Cloud Direct Link offerings provide connectivity from an external source into a customer's IBM Cloud private network. Direct Link can be viewed as an alternative to a traditional site-to-site VPN solution, designed for customers that need more consistent, higher-throughput connectivity between a remote network and their IBM Cloud environments. Three types of connections are available:
+The IBM Cloud Direct Link offerings provide connectivity from an external source into a customer's IBM Cloud private network. Direct Link can be viewed as an alternative to a traditional site-to-site VPN solution, designed for customers that need more consistent, higher-throughput connectivity between a remote network and their IBM Cloud environments. Four types of connections are available:
  
  * **IBM Cloud Direct Link Exchange** lets customers leverage an Exchange provider to deliver connectivity to their IBM Cloud. An Exchange provider is a carrier or network provider that is already connected to the IBM Cloud network, using multi-tenant, high capacity links. Customers typically can purchase a virtual circuit at this provider, bringing connectivity at a reduced cost, because the physical connectivity from {{site.data.keyword.BluSoftlayer_notm}} to the Exchange provider is in place already, shared amongst other customers.
+ 
+ * **IBM Cloud Direct Link Connect** lets customers leverage a connection through our partners who own and operate a facility-based network. With IBM Cloud Direct Link Connect, IBM and the partner connect to customers at Layer 2 and 3 through dual, Layer-2 10G NNIs.
  
  * **IBM Cloud Direct Link Dedicated** lets customers terminate a dedicated, single-mode, fiber cross-connect into their own IBM Cloud private network.
  
