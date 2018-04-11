@@ -17,6 +17,7 @@ Direct Link
       {: .topicgroup}
       Overview Steps for Ordering
          order-cloud-exchange.md
+         order-connect.md
          order-nsp.md
          order-colocation.md 
     cloud-exchange-automation.md
