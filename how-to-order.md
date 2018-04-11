@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-03-19"
+lastupdated: "2018-04-11"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2018-03-19"
 
 # Order IBM Cloud Direct Link
 
-To order the type of IBM Cloud Direct Link that best suits your needs, follow the link to see instructions.
+As you prepare to order the type of IBM Cloud Direct Link that best suits your needs, you can follow the links below (or just scroll through this document) to see a general overview of the process. When you're ready to place your order, you can find step-by-step instructions that take you through the ordering process, in our "Step-by-step" series of documents.
 
 * [How to order IBM Cloud Direct Link Exchange](how-to-order.html#how-to-order-ibm-cloud-direct-link-exchange)
 * [How to order IBM Cloud Direct Link Connect](how-to-order.html#how-to-order-ibm-cloud-direct-link-connect)
