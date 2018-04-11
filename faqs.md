@@ -1,13 +1,8 @@
 ---
 
 copyright:
-<<<<<<< HEAD
-  years: 2017
-lastupdated: "2017-12-12"
-=======
-  years: 2017, 2018
+ years: 2017, 2018
 lastupdated: "2018-04-05"
->>>>>>> 10433327a9bbd8d4ef5e54e89719fa6d53e1a9d9
 
 ---
 
