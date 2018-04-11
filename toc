@@ -8,6 +8,7 @@ Direct Link
     getting-started.md
     overview.md
     about.md
+    connect-details.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -19,11 +20,12 @@ Direct Link
          order-nsp.md
          order-colocation.md 
     cloud-exchange-automation.md
+    order-connect.md
     subnet-configuration.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    faqs.md
     known-limitations.md
+    faqs.md
     getting-help.md
     {: .navgroup-end}
