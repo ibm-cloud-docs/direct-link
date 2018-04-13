@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-03-14"
+lastupdated: "2018-04-11"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2018-03-14"
 {:download: .download}
 
 
-# Order an IBM Cloud Direct Link Connect
+# Step-by-step: Order an IBM Cloud Direct Link Connect
 
 This page tells you how to order the IBM Cloud Direct Link Connect service. After placing the order, an IBM support ticket will be generated.
 

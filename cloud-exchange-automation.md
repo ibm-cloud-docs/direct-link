@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-04-11"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-01-16"
 {:tip: .tip}
 {:download: .download}
 
-# Order an IBM Cloud Direct Link Exchange
+# Step-by-step: Order an IBM Cloud Direct Link Exchange
 
 This page tells you how to order the IBM Cloud Direct Link Exchange service. If the IBM Cloud Direct Link order is for the Equinix Cloud Exchange, the service provisioning is fully automated, which means that you can place an order for an IBM Cloud Direct Link connection (Equinix) without opening an IBM support ticket.
 
@@ -85,7 +85,7 @@ The following figure shows an example of the ticket being opened:
 
 **Step 8:**
 
-After agreeing to the terms and conditions when you place the order, an IBM support ticket is generated to continue with the service provisioning. The ticket number will be displayed in the UI. 
+After agreeing to the terms and conditions, when you place the order, an IBM support ticket is generated after placing the order to continue with the service provisioning. The ticket number will be displayed in the UI after you place the order. 
 
 ![Step NE1](/images/Non-Equinix-Step1.png)
 
@@ -144,3 +144,4 @@ For the connections in **Provisioned**, **UP** or **DOWN** status, you can **Del
 **Step 8:**
 
 For the connections in **Create Failed** status, you can **Cancel** the connection by clicking on the **ACTIONS** column next to the connection.
+

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-03-20"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-03-20"
 {:tip: .tip}
 {:download: .download}
 
-# About IBM Cloud Direct Link Connect
+# IBM Cloud Direct Link Connect Locations and Pricing
 
 IBM Cloud Direct Link Connect offers customers the ability to connect to their IBM Cloud deployment through partners that own and operate a facility-based network. Both IBM and the partner will connect to the customer at Layer 2 and 3 through dual, Layer-2 10G Network-to-Network Interfaces (NNIs).
 

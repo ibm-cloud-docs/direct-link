@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-11"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-04-11"
 {:tip: .tip}
 {:download: .download}
 
-# More about IBM Cloud Direct Link
+# About IBM Cloud Direct Link
 
 This section gives more details about the key features and benefits of each of the four IBM Cloud Direct Link offerings.
   * [**IBM Cloud Direct Link Exchange**](#the-ibm-cloud-direct-link-exchange-solution)
@@ -28,7 +28,7 @@ The IBM Cloud Direct Link Exchange solution lets customers leverage a Cloud Exch
 
 **Common Use Cases:** _Best for hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration.  This option usually is selected when the desired PoP already has the desired IBM Cloud Direct Link Exchange provider._
 
-![Figure 1](/images/direct-link-exchange.png)
+![Figure 1](/images/Direct-Link-Exchange.PNG)
 
  * **Termination Location:** {{site.data.keyword.BluSoftlayer_notm}} point of presence (PoP).
 
@@ -50,7 +50,7 @@ The IBM Cloud Direct Link Exchange solution lets customers leverage a Cloud Exch
 
 **Common Use Cases** Similar to the Direct Link Exchange solution. Offers more speed options. A good lower-cost entry point.
 
-![Figure 2](/images/direct-link-exchange.png)
+![Figure 2](/images/Direct-Link-Connect.PNG)
 
 * **Termination Location:** {{site.data.keyword.BluSoftlayer_notm}} point of presence (PoP).
 
@@ -74,7 +74,7 @@ The IBM Cloud Direct Link Dedicated solution lets customers terminate a dedicate
 
  **Common Use Cases:** _Best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration.  This option usually is selected: (1) when the desired PoP does not have the desired IBM Cloud Direct Link Exchange provider, (2) for high-performance workloads requiring high throughput, or (3) for compliance requirements that cannot be satisfied by the  IBM Cloud Direct Link Exchange implementation model._
 
-![Figure 3](/images/direct-link-dedicated.png)
+![Figure 3](/images/Direct-link-Dedicated.PNG)
 
  * **Termination Location:** {{site.data.keyword.BluSoftlayer_notm}} point of presence (PoP).
 
@@ -98,7 +98,7 @@ The IBM Cloud Direct Link Dedicated Hosting solution provides connectivity simil
 
 **Common Use Cases:** _Best for working with non-standard compute technologies, for dedicated storage requirements, or for leveraging existing IT investments._
 
-![Figure 4](/images/direct-link-dedicated-hosting.png)
+![Figure 4](/images/Direct-Link-Dedicated-Hosting.png)
 
 * **Termination Location:** {{site.data.keyword.BluSoftlayer_notm}} Data Center (DC).
 
