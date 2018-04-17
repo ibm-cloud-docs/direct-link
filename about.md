@@ -28,7 +28,7 @@ The IBM Cloud Direct Link Exchange solution lets customers leverage a Cloud Exch
 
 **Common Use Cases:** _Best for hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration.  This option usually is selected when the desired PoP already has the desired IBM Cloud Direct Link Exchange provider._
 
-![Figure 1](/images/Direct-Link-Exchange.PNG)
+![Figure 1](/images/Direct-Link-Exchange.png)
 
  * **Termination Location:** {{site.data.keyword.BluSoftlayer_notm}} point of presence (PoP).
 
@@ -50,7 +50,7 @@ The IBM Cloud Direct Link Exchange solution lets customers leverage a Cloud Exch
 
 **Common Use Cases** Similar to the Direct Link Exchange solution. Offers more speed options. A good lower-cost entry point.
 
-![Figure 2](/images/Direct-Link-Connect.PNG)
+![Figure 2](/images/Direct-Link-Connect.png)
 
 * **Termination Location:** {{site.data.keyword.BluSoftlayer_notm}} point of presence (PoP).
 
@@ -74,7 +74,7 @@ The IBM Cloud Direct Link Dedicated solution lets customers terminate a dedicate
 
  **Common Use Cases:** _Best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration.  This option usually is selected: (1) when the desired PoP does not have the desired IBM Cloud Direct Link Exchange provider, (2) for high-performance workloads requiring high throughput, or (3) for compliance requirements that cannot be satisfied by the  IBM Cloud Direct Link Exchange implementation model._
 
-![Figure 3](/images/Direct-link-Dedicated.PNG)
+![Figure 3](/images/Direct-link-Dedicated.png)
 
  * **Termination Location:** {{site.data.keyword.BluSoftlayer_notm}} point of presence (PoP).
 
