@@ -22,7 +22,7 @@ Direct Link
          order-nsp.md
          order-colocation.md 
     cloud-exchange-automation.md
-    order-connect.md
+    cloud-exchange-connect.md
     subnet-configuration.md
     {: .navgroup-end}
 
