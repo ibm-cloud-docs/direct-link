@@ -8,6 +8,7 @@ Direct Link
     getting-started.md
     overview.md
     about.md
+    alternative-deployments.md
     connect-details.md
     {: .navgroup-end}
 
