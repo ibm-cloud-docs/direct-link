@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-04-20"
 
 ---
 
@@ -32,10 +32,11 @@ Our IBM Cloud Direct Link Connect partner providers include these:
 | Partners | Available datacenters |
 |--------------|--------------|
 | AT&T; NetBond® for Cloud | SNG02, FRA01, LON01, DAL03, WDC02|
-| AT&T Cloud Gateway | DAL03, WDC02 |
+| AT&T Cloud Gateway (formerly known as RedFringe)| DAL03, WDC02 |
 | Bell Canada | MON02, TOR02 |
 | British Telecom |  LON01, FRA01, WDC02*, SAO02*, HKG01* |
 | Colt | ON01*, AMS02*, FRA01*, PAR02*, HKG01*, SNG02*, TOK01* |
+| IBM BlueFringe | DAL03, WDC02 |
 | Level (3) | DAL03, MIA01*, SAO02 ||
 | Megaport | DAL03, MEL02, SYD02, AMS02*, LON03*, FRA01*, SJC02*, TOR02*, WDC05* |
 | PacketFabric | DAL04*, SJC02*, WDC02* |

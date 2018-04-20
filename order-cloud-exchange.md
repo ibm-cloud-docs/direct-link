@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-04"
+  years: 2017, 2018
+lastupdated: "2018-04-20"
 
 ---
 
@@ -23,3 +23,17 @@ lastupdated: "2017-12-04"
 5. Order a "virtual circuit" through the Exchange provider, and refer the Ticket ID of the {{site.data.keyword.BluSoftlayer_notm}} Direct Link request as your "Request ID" or "Authorization ID"
 6. IP assignment on the {{site.data.keyword.BluSoftlayer_notm}} networking infrastructure will be completed within 3 business days after the virtual circuit request is complete.
  
+ 
+ The table shows which IBM Cloud datacenters offer Direct Link Exchange connectivity:
+ 
+| Exchange Provider	| IBM Data Center Code |
+|-------------|-----------------------|
+| AT Tokyo	| TOK02 |
+| Cologix	| MON02, TOR02 |
+| Equinix	| SNG02, SYD02, TOK01, AMS02, PAR02, CHI01, DAL03,  SAO02, SJC02, WDC02, LON01* |										
+| InterXion	| FRA01, STO01 |
+| KINX	| SEO02* |
+| NextDC | 	MEL02* |
+| SK C&C | 	SEO01 |
+
+* Coming Soon		

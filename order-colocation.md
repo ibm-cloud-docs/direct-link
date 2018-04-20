@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-1"
+lastupdated: "2018-04-20"
 
 ---
 
@@ -21,3 +21,6 @@ lastupdated: "2018-04-1"
 
 3. When the build of your colocation cage is complete, the process to interconnect between your colocation cage and the {site.data.keyword.BluSoftlayer_notm}} POD environment's XCR gear will follow the ordering process for [IBM Cloud Direct Link Dedicated](how-to-order.html#how-to-order-ibm-cloud-direct-link-dedicated), starting at Step 3.
 
+The figure below shows which IBM Cloud datacenters are able to accept customers for Dedicated Hosting:
+
+![dedicated hosting sites](images/dedicated-hosting-sites.png)
