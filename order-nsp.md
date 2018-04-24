@@ -64,7 +64,7 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | **IBM PoP / Data Center Code** | **Meet Me Room Operator** | **Operator Site Code** |
 | **Americas** |  |  |
 | ATL01*| Digital Realty | ATL13 |
-| CHI01* | quinix | CH4 |
+| CHI01* | Equinix | CH4 |
 | DAL03 | Equinix | DA1 |
 | DAL04 | Digital Realty | DFW14 |
 | DAL09 | Digital Realty | DFW35 |
