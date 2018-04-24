@@ -22,13 +22,13 @@ This section contains answers to some frequently asked questions about IBM Cloud
 For every Direct Link customer, the IBM Cloud team assigns a small private subnet to build a point-to-point network between the {{site.data.keyword.BluSoftlayer_notm}} cross-connect router (XCR) and the customer's edge router (CER). Then, {{site.data.keyword.BluSoftlayer_notm}} and the customer configure BGP in order to exchange routes between the environments. Finally, {{site.data.keyword.BluSoftlayer_notm}} places the customer into a VRF to allow for the implementation of non-unique routes to the private address space of the customer's remote network.
 
 ## Does IBM Cloud meter bandwidth for Direct Link products?
-Yes. IBM Cloud does meter all outbound bandwidth on Direct Link Products. Inbound bandwidth is free and unmetered.
+Yes. While bandwidth usage across the Direct Link service between Customers and IBM Cloud is free and unmetered, IBM Cloud does meter  outbound bandwidth from Services to the public Internet.
 
 ## What additional charges will I incur from other parties with Direct Link?
 You may have additional charges from your exchange provider or network service provider. Please refer to your provider(s) for their fee information.
 
 ## How can I achieve redundancy with IBM Cloud Direct Link?
-You can achieve redundancy with Direct Link by connecting to more than one IBM Cloud Direct Link Dedicated Provider or Exchange provider {{site.data.keyword.BluSoftlayer_notm}}. Alternatively, you can leverage one of the IBM Cloud Direct Link providers that adds redundancy to your service.
+Direct Link does not provide an inherently Redundant service. Direct Link can provide Diverse connections, that enable customers to create redundancy via BGP. You can achieve diversity with Direct Link by connecting to more than one IBM Cloud Direct Link Dedicated provider or Exchange provider {{site.data.keyword.BluSoftlayer_notm}}. Alternatively, with Exchange and Connect you can leverage diverse NNIs with the IBM Cloud Direct Link providers.
 
 ## What is the difference between the default "local" routing and the Global Routing add-on?
 With our standard Direct Link offering, you can send traffic between the data centers in your selected region. If you need access to other data centers outside of the specified region, you must order the Global Routing add-on. This model is based upon ACLs (access control lists) that are put in place at the time your Direct Link connection is ordered. 
@@ -50,7 +50,7 @@ Each month, all customers using 1G Circuits are allotted 10TB of free egress tra
 **Table 1: Utilization tiers**<br/>
 Direct Link offerings in the markets marked with an asterisk (*) MUST order Global Routing.
 
-## If I am connected to a Direct Link NSP or Direct Link Cloud Exchange in a region such as Dallas, do I have access to other regions in the U.S. through Direct Link?
+## If I am connected to a Direct Link Dedicated or Direct Link Cloud Exchange in a region such as Dallas, do I have access to other regions in the U.S. through Direct Link?
 Yes, you are able to gain access to areas outside of your region if you choose the Global Routing add-on. If this option is not selected, your Direct Link traffic will be limited to the region for the POP you have selected.
 
 ## Can I connect to any available region from a given Direct Link location?
@@ -67,11 +67,12 @@ As of March 2018, the recommended best practice is to cancel your automated orde
 
 These two services are similar, relatively low-cost, latency tolerant, and rapid entry points to the benefits of IBM Cloud Direct Link. In a nutshell, Exchange utilizes datacenter providers and Connect utilizes Telco carriers. Here are some additional details:
 
-**Direct Link Exchange** is for customers who prefer to utilize an exchange inside a datacenter. With an Exchange service, customers can enable multi-cloud connectivity to their Colocation rapidly, because the underlying circuits are provisioned already (these other cloud providers must already have a physical interconnection present within the facility).
+**Direct Link Exchange** is for customers who prefer to utilize an exchange inside a datacenter. With an Exchange service, customers can enable multi-cloud connectivity to their Co-location rapidly, because the underlying circuits are provisioned already (these other cloud providers must already have a physical interconnection present within the facility).
 
-Direct Link Exchange can allow for a multi-cloud, shared use environment through a single cloud exchange port, created by an NNI connection at Layer 2 between IBM Cloud and the Cloud Exchange Service Provider. Port speeds are available up to 1Gb.
+Direct Link Exchange can allow for a multi-cloud, shared use environment through a single cloud exchange port, created by an Network to Network (NNI) connection at Layer 2 between IBM Cloud and the Cloud Exchange Service Provider. Port speeds are available up to 1Gb.
 
 **Direct Link Connect** is for customers who prefer to utilize their existing network between their own on-premises deployment and IBM Cloud. With a Direct Link Connect service, customers can use new and existing Telco networks (such as MPLS) to enable IBM Cloud rapidly, by leveraging pre-provisioned underlying circuits.
 
-With Direct Link Connect, both IBM and the partner will connect to the customer at Layer 2 and 3 through dual, Layer-2 10G Network-to-Network Interfaces (NNIs), operated by IBM partners in facilities worldwide. Port speeds are available up to 5Gb.
+With Direct Link Connect, customers can connect to IBM Cloud through the Connect provider, via a Network to Network (NNI) connection, operated by IBM partners in facilities worldwide. Port speeds are available up to 5Gb.
+
 
