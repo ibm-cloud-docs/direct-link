@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-20"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -24,6 +24,8 @@ lastupdated: "2018-04-20"
 6. Provide {{site.data.keyword.BluSoftlayer_notm}} with the cross-connect completion notice from the facility provider in the {{site.data.keyword.BluSoftlayer_notm}} portal ticket.
 7. {{site.data.keyword.BluSoftlayer_notm}} will verify the completion notice's efficacy and order the patch to be made from the LOA/CFA to the cross-connect router (XCR) and other gear.
 8. Your IP assignment on the {{site.data.keyword.BluSoftlayer_notm}} networking infrastructure will be completed within 3 business days after the cross-connect is complete.
+
+## Locations
 
 The table gives details about the IBM Cloud datacenters where Direct Link Dedicated is available:
 
@@ -64,7 +66,7 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | **IBM PoP / Data Center Code** | **Meet Me Room Operator** | **Operator Site Code** |
 | **Americas** |  |  |
 | ATL01*| Digital Realty | ATL13 |
-| CHI01* | quinix | CH4 |
+| CHI01* | Equinix | CH4 |
 | DAL03 | Equinix | DA1 |
 | DAL04 | Digital Realty | DFW14 |
 | DAL09 | Digital Realty | DFW35 |
@@ -92,3 +94,7 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | WDC05 | Coresite | DC2 |
 | WDC06 | Raging Wire | VA2 |
 | WDC07 | Sabey | Sabey Intergate.Ashburn |
+
+## Pricing
+
+For pricing information, please refer to the [pricing document](pricing.html).

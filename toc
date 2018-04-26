@@ -10,6 +10,7 @@ Direct Link
     about.md
     alternative-deployments.md
     connect-details.md
+    pricing.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -24,6 +25,7 @@ Direct Link
     cloud-exchange-automation.md
     cloud-exchange-connect.md
     subnet-configuration.md
+    connect-to-paas-saas-cos.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}

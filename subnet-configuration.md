@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-04"
+  years: 2017, 2018
+lastupdated: "2018-04-24"
 
 ---
 
@@ -42,11 +42,39 @@ To exchange route information with your environment, {{site.data.keyword.BluSoft
 
 3. **ECMP**: For customers who elect to build redundancy at a supported location, {{site.data.keyword.BluSoftlayer_notm}} supports the implementation of equal-cost multipath (ECMP) to provide load balancing and redundancy across the two links. This ECMP setup should be requested at the time of order.
 
+## BGP specifications for IBM Cloud Direct Link 
+
+The BGP specifications are as follows:
+
+As stated in the preceding section, BGP is mandatory for managing your routing through Direct Link. An account that orders Direct Link will be migrated to VRF environment.
+
+**Caveats for VLANS and VRF:**
+ * Inter-account VLAN spanning is not allowed in the VRF environment. 
+ * IPSEC VPN service is limited. 
+
+IBM Cloud ASN is **13884**, for Public and Private services. 
+ * The default ASN for a customer when ordering is **64999**, but the default can be changed by customer request. 
+ * Optionally, a 4-byte Private ASN between 4201000000 and 4201064511 can be supported.
+ * If you're using Direct Link Connect with a layer-3 service, such as IP VPN, IBM Cloud will establish BGP with the Direct Link Connect provider's ASN
+   
+**Strict limitations on IP assignments:**
+ * If you utilize the 10.x.x.x network, you still cannot create overlap with your hosts within IBM Cloud nor with the IBM Cloud services network, which occupies `10.0.0.0/14`, `10.198.0.0/15`, and `10.200.0.0/14`.  
+
+ * The following ranges are not allowed in the Federal system and they will be rejected by IBM servers: `169.254.0.0/16`, `224.0.0.0/4`.
+
+**Recommendations, Defaults, and Limits:**
+
+ * Tunneling (that is, GRE) is supported and recommended if IP overlap becomes an issue.
+ * BGP timer defaults are `Keepalive:30`, `Holdtime:60.`
+ * Authentication is not enabled by default.
+ * BGP BFD is not enabled by default.
+ * Maximum received (from Customer or provider) prefix limit is 200 per VRF.
+
 ## Redundancy and Diversity
 
 IBM Cloud Direct Link provides diversity, and customers are responsible for implementing redundancy through their BGP schemas.
 
-If you select ECMP for redundancy, both BGP sessions have to exist on the same XCR, therefore you give up router diversity and are exposed to risk if the router should fail. You gain Layer-3 redundancy but you lose Layer-2 redundancy.
+If you select ECMP for redundancy, both BGP sessions have to exist on the same XCR, therefore you give up router diversity and are exposed to risk if the router should fail. You gain Layer-3 redundancy but you lose router diversity.
 
 ## More about using VRF
 

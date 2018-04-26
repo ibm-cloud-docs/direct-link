@@ -47,6 +47,12 @@ After clicking the **Order Direct Link Exchange** button at the top of the page,
 
 ![Step 3](/images/Equinix-Step3.png)
 
+**Step 3A:**
+
+Optionally, if Diverse ports are accessible, and you've previously provisioned the first Virtual Circuit, you'll see a screen similar to the following one, showing two ports, from which you can select your second Virtual Circuit.
+
+![2-port-image](/images/exchange-2-ports-image.png)
+
 **Step 4:**
 
 In the order form, enter the following parameters to configure Direct Link:

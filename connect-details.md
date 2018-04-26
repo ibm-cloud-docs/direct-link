@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-04-20"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -48,19 +48,5 @@ Our IBM Cloud Direct Link Connect partner providers include these:
 
 * = Coming Soon
 
-Pricing for IBM Cloud Direct Link Connect is shown in the following table:
-
-| Region | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps | 2 Gbps | 5 Gbps |
-|----|----|----|----|----|----|----|----|
-| USA |  $100 | $150 | $300 | $650 | $1,199 | $1,999 | $3,750 |
-| Canada/Amsterdam |  $103 | $155 | $309 | $670 | $1,235 | $ 2,059 | $3,863 |
-| Asia | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 |
-| Korea | $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 |
-| Australia | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
-| India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
-| Paris/Frankfurt/Milan |  $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 |
-|London |  $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
-| Norway | $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
-| Mexico| $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
-|Brazil | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
+Pricing for IBM Cloud Direct Link Connect is shown in the [Pricing document](pricing.html).
 

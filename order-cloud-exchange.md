@@ -23,6 +23,7 @@ lastupdated: "2018-04-20"
 5. Order a "virtual circuit" through the Exchange provider, and refer the Ticket ID of the {{site.data.keyword.BluSoftlayer_notm}} Direct Link request as your "Request ID" or "Authorization ID"
 6. IP assignment on the {{site.data.keyword.BluSoftlayer_notm}} networking infrastructure will be completed within 3 business days after the virtual circuit request is complete.
  
+## Locations
  
  The table shows which IBM Cloud datacenters offer Direct Link Exchange connectivity:
  
@@ -36,4 +37,8 @@ lastupdated: "2018-04-20"
 | NextDC | 	MEL02* |
 | SK C&C | 	SEO01 |
 
-* Coming Soon		
+* Coming Soon
+
+## Pricing
+
+For pricing information, please refer to the [pricing document](pricing.html).
