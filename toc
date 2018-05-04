@@ -25,9 +25,13 @@ Direct Link
     cloud-exchange-automation.md
     cloud-exchange-connect.md
     subnet-configuration.md
-    connect-to-paas-saas-cos.md
+    direct-link-to-cos.md
     {: .navgroup-end}
 
+    {: .navgroup id="reference"}
+    external-resources.md
+    {: .navgroup-end}
+    
     {: .navgroup id="help"}
     known-limitations.md
     faqs.md
