@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-26"
+lastupdated: "2018-05-03"
 
 ---
 
@@ -85,4 +85,8 @@ No. IPv6 is public only.
 
 ## Are there any special requirements for Verizon SCI? Prefix / ASN / VLAN BGP / and so forth?
 
-Verizon SCI is also Layer 3/ IP VPN. It requires that we use BGP with Verizon instead of directly with the customer. It's similar to NetBond.
+Verizon SCI is one of several MPLS based, Layer-3 (IP VPN) services. It requires that IBM establish BGP with Verizon instead of directly with the customer. Verizon then establishes BGP with the customer and advertises routes accordingly. Several other Layer-3 based service providers participate in the Direct Link Connect program. Customers need to be aware of what they are ordering and how their account will behave when connecting to IBM Cloud.
+
+## Does Direct Link support any type of QoS?
+
+We are unable to support any QoS guarantees. QoS requires MPLS mapping between each of our service suppliers and IBM Cloud. Cloud Service Providers generally cannot support QoS at this time, because it must reach from end to end and involve every device in between. There is no workaround available by "tunneling" or any other method.
