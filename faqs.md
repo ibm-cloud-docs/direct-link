@@ -103,3 +103,10 @@ Order 2 links for diversity. We do not offer redundancy between switches or rout
 
 Typically, we install speeds of 1G and below on 1G optics. For speeds of 2G to 10G, we install 10G optics. Thus, the upgrade from 1G to 5G would require new optics to be assigned or inserted. It would be a service-affecting event. If you anticipate that type of growth, it's possible to request 10G optical fibers to be installed at the beginning of your Direct Link deployment, or to order 2G initially so that the 10G optics are in place.
 
+## Is ECMP the way to go for redundant connections?  What alternatives exist?
+
+Note that ECMP isn’t for redundant connections but for balancing the load over the two links. With ECMP, both connections must terminate to the same IBM Cloud cross-connect router (XCR), which makes it a single point of failure. (In other words, ECMP can only be provisioned as two sessions on the same IBM Cloud XCR.) 
+
+ECMP is a feature of BGP. If you are looking for redundancy, get two Direct Link connections, one going into each XCR. If you want to use ECMP and have redundancy, you’ll need two Direct Link connections on each XCR, so that you can have 2 ECMP sessions going simultaneously.
+
+Alternatively, some of our customers have set up two links into different XCR in the same datacenter, for example WDC02, then failover as needed using BGP configurations. This configuration is less redundant (less safe) than having Direct Link connections into two separate datacenters, such as WDC02 and WDC05.
