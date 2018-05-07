@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-03"
+lastupdated: "2018-05-04"
 
 ---
 
@@ -90,3 +90,16 @@ Verizon SCI is one of several MPLS based, Layer-3 (IP VPN) services. It requires
 ## Does Direct Link support any type of QoS?
 
 We are unable to support any QoS guarantees. QoS requires MPLS mapping between each of our service suppliers and IBM Cloud. Cloud Service Providers generally cannot support QoS at this time, because it must reach from end to end and involve every device in between. There is no workaround available by "tunneling" or any other method.
+
+## With Direct Link Connect how does a customer ensure router diversity through the same carrier (Example: Verizon in DAL03)?
+
+We have diverse XCRs creating diverse NNI links to the carrier. It is up to the carrier to maintain diversity from that point.
+
+## For Direct Link Connect does a customer need to order 2 links for redundancy, or is the Direct Link Connect inherently redundant?
+
+Order 2 links for diversity. We do not offer redundancy between switches or routers. Customers create redundancy with their BGP configurations on each Direct Link.
+
+## How easy is it to upgrade my connection bandwidth, for example from 1GB to 5GB?
+
+Typically, we install speeds of 1G and below on 1G optics. For speeds of 2G to 10G, we install 10G optics. Thus, the upgrade from 1G to 5G would require new optics to be assigned or inserted. It would be a service-affecting event. If you anticipate that type of growth, it's possible to request 10G optical fibers to be installed at the beginning of your Direct Link deployment, or to order 2G initially so that the 10G optics are in place.
+

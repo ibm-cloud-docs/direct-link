@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-05-07"
 
 ---
 
@@ -21,7 +21,7 @@ Pricing for IBM Cloud Direct Link Exchange, Connect, and Dedicated offerings is 
 
 ## Pricing for IBM Cloud Exchange, Connect, and Dedicated
 
-If your browser shows this table with speeds less than 1Gbps, please select the following link to see the complete table.
+If your browser shows this table with speeds less than 1Gbps, please select the following link to see the complete table, use your mouse or trackpad to scroll this page horizontally, or click "Edit in GitHub" at the top of this page to see the raw file.
 
 [Complete table](pricing-table.html)
 
@@ -42,7 +42,7 @@ If your browser shows this table with speeds less than 1Gbps, please select the 
 
 ## Pricing for IBM Cloud Dedicated Hosting
 
-IBM Cloud Direct Link Dedicated Hosting requests and pricing will be handled on a transactional basis to account for regional differences in vendor availability and pricing.
+IBM Cloud Direct Link Dedicated Hosting requests and pricing are handled on a transactional basis to account for regional differences in vendor availability and pricing.
 
 The IBM Cloud Dedicated Hosting minimum configuration includes one (1) rack with 5Kw of power and two (2) ports at chosen speed. Additional co-location add-ons are available.
 

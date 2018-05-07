@@ -30,6 +30,7 @@ Direct Link
 
     {: .navgroup id="reference"}
     external-resources.md
+    understanding-latency.md
     {: .navgroup-end}
     
     {: .navgroup id="help"}
