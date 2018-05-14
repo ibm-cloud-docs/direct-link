@@ -24,6 +24,13 @@ For every Direct Link customer, the IBM Cloud team assigns a small private subne
 ## Does IBM Cloud meter bandwidth for Direct Link products?
 Yes. Bandwidth usage across the Direct Link service between Customers and IBM Cloud is free and unmetered, IBM Cloud does meter outbound bandwidth from IBM Cloud services to the public internet.
 
+## When does billing begin with Direct Link?
+The fees for Direct Link Connect cover the cost of service termination on the IBM Cloud infrastructure. 
+
+Infrastructure Services are billed in advance and begin upon acceptance of Client’s order; however due to the nature of IBM Cloud Direct Link, the Direct Link service billing will begin upon a Border Gateway Protocol (BGP) session being established with IBM Cloud, or 30 days after the service key is provided to the client. 
+
+Billing stops after (1) a customer requests a circuit to be deleted AND (2) the Connect Provider or Network Service Provider has de-provisioned the circuit.
+
 ## What additional charges will I incur from other parties with Direct Link?
 You may have additional charges from your exchange provider or network service provider. Please refer to your provider(s) for their fee information.
 
