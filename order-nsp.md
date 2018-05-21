@@ -51,6 +51,7 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | AMS03 | KPN | Amsterdam 3 |
 | FRA01 | InterXion | FRA01 |
 | FRA02 | Zenium | FRA1 |
+| FRA05 | IterXion | FRA05 |
 | LON01 | Telecity | LD1 |
 | LON02 | Digital Realty | LHR13 |
 | LON03 | Equinix | LD5 |
@@ -81,6 +82,8 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | MON01 | COLO-D | COLO-D1 |
 | MON02 | Cologix | MTL3 |
 | NYC01 | Digital Realty | JFK10 |
+| NYC02 | Equinix | NY4 |
+| NYC03 | Equinix | NY5 |
 | SAO01 | Ascenty | SP1 |
 | SAO02 | Equinix | SP2 |
 | SEA02* | The Westin Building | WBX |
