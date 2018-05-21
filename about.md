@@ -32,7 +32,7 @@ The IBM Cloud Direct Link Exchange solution lets customers leverage a Cloud Exch
 
  * **Termination Location:** {{site.data.keyword.BluSoftlayer_notm}} point of presence (PoP).
 
- * **Typical Deployment Time:** For Equinix providers, typical deployment time will be in hours. For other providers, 5-10 days after circuit reaches the exchange. Deployment time can possibly be 30-60 days overall, depending on your location and requirements.
+ * **Typical Deployment Time:** For Equinix providers, typical deployment time will be in hours. For other providers, 5-10 days after circuit reaches the exchange. Deployment time can possibly be 30-60 days overall, depending on your location and requirements when ordering a circuit from a NSP or carrier.
 
  * **Cross-Connect Details:** Physical cross-connects for the secure Cloud Exchange interconnect are maintained between {{site.data.keyword.BluSoftlayer_notm}} and the Cloud Exchange provider. Customers request a "Virtual Circuit" from the Cloud Exchange Provider, which establishes logical connectivity to {{site.data.keyword.BluSoftlayer_notm}}, once they are interconnected to the Cloud Exchange Provider.
 
@@ -54,7 +54,7 @@ The IBM Cloud Direct Link Exchange solution lets customers leverage a Cloud Exch
 
 * **Termination Location:** {{site.data.keyword.BluSoftlayer_notm}} point of presence (PoP).
 
-* **Typical Deployment Time:** 5-10 days after circuit reaches the exchange. Deployment time can possibly be 30-60 days overall, depending on your location and requirements.
+* **Typical Deployment Time:** 5-10 days after circuit reaches the exchange. Deployment time can possibly be 30-60 days overall, depending on your location and requirements when ordering a circuit from a NSP or carrier.
 
 * **Cross-Connect Details:** Physical cross-connects for the secure Direct Link Connect interconnect are maintained between {{site.data.keyword.BluSoftlayer_notm}} and the Connect provider. Customers request a "Virtual Circuit" from the Cloud Connect Provider, which establishes logical connectivity to {{site.data.keyword.BluSoftlayer_notm}}, once they are interconnected to the Cloud Connect Provider.
 
@@ -78,7 +78,7 @@ The IBM Cloud Direct Link Dedicated solution lets customers terminate a dedicate
 
  * **Termination Location:** {{site.data.keyword.BluSoftlayer_notm}} point of presence (PoP).
 
- * **Typical Deployment Time:** 10-15 business days after the new circuit reaches the POP. Deployment time can possibly be 30-60 days overall, depending on your location and requirements.
+ * **Typical Deployment Time:** 10-15 business days after the new circuit reaches the POP. Deployment time can possibly be 30-60 days overall, depending on your location and requirements when ordering a circuit from a NSP or carrier.
 
  * **Cross-Connect Details:** {{site.data.keyword.BluSoftlayer_notm}} provides a Letter of Authorization (LOA) that a customer uses to order fiber Ethernet (Single-Mode Fiber only, either 1Gig-LX or 10Gig-LR optics) that runs from a customer cage or provider to the {{site.data.keyword.BluSoftlayer_notm}} CFA termination point, which will be tied down to the cross-connect router (XCR) infrastructure. The media must be a 1310nm wavelength optic.
 
