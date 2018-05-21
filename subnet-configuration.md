@@ -51,6 +51,8 @@ As stated in the preceding section, BGP is mandatory for managing your routing t
 **Caveats for VLANS and VRF:**
  * Inter-account VLAN spanning is not allowed in the VRF environment. 
  * IPSEC VPN service is limited. 
+ 
+**Note:** VRF does not prevent SSL or PPTP VPN access, but its behavior changes. Without VRF, one VPN connection is enough to see all servers on your account. With VRF, you can only access resources in the market associated with your VPN. So if you connect to the DAL VPN, you can only connect to DAL servers.
 
 IBM Cloud ASN is **13884**, for Public and Private services. 
  * The default ASN for a customer when ordering is **64999**, but the default can be changed by customer request. 

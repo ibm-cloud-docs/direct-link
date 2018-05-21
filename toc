@@ -8,7 +8,9 @@ Direct Link
     getting-started.md
     overview.md
     about.md
+    whats-new.md
     alternative-deployments.md
+    diversity-models.md
     connect-details.md
     pricing.md
     {: .navgroup-end}
