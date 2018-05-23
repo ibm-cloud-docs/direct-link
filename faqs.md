@@ -91,6 +91,12 @@ Verizon SCI is one of several MPLS based, Layer-3 (IP VPN) services. It requires
 
 We are unable to support any QoS guarantees. QoS requires MPLS mapping between each of our service suppliers and IBM Cloud. Cloud Service Providers generally cannot support QoS at this time, because it must reach from end to end and involve every device in between. There is no workaround available by "tunneling" or any other method.
 
+## Does Direct Link support Jumbo frames?
+
+Jumbo frames (up to 9214 bytes) are supported on Dedicated and Dedicated Hosting. 
+Support on Connect and Exchange is theoretically possible, but it requires your Service Provider to work with IBM and ensure that the end-to-end connection supports Jumbo Frames, including the underlying Network-to Network-Interface (NNI).
+By default, Exchange and Connect are set up with 1500-byte MTU support.
+
 ## With Direct Link Connect how does a customer ensure router diversity through the same carrier (Example: Verizon in DAL03)?
 
 We have diverse XCRs creating diverse NNI links to the carrier. It is up to the carrier to maintain diversity from that point.
