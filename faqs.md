@@ -94,8 +94,8 @@ We are unable to support any QoS guarantees. QoS requires MPLS mapping between e
 ## Does Direct Link support Jumbo frames?
 
 Jumbo frames (up to 9214 bytes) are supported on Dedicated and Dedicated Hosting. 
-Support on Connect and Exchange is theoretically possible but will require your Service Provider to work with IBM and ensure the end to end connection supports Jumbo Frames, including the underlying Network to Network Interface (NNI ).
-By default Exchange and Connect are setup with 1500 byte MTU support.
+Support on Connect and Exchange is theoretically possible, but it requires your Service Provider to work with IBM and ensure that the end-to-end connection supports Jumbo Frames, including the underlying Network-to Network-Interface (NNI).
+By default, Exchange and Connect are set up with 1500-byte MTU support.
 
 ## With Direct Link Connect how does a customer ensure router diversity through the same carrier (Example: Verizon in DAL03)?
 
