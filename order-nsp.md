@@ -51,7 +51,7 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | AMS03 | KPN | Amsterdam 3 |
 | FRA01 | InterXion | FRA01 |
 | FRA02 | Zenium | FRA1 |
-| FRA05 | IterXion | FRA05 |
+| FRA05 | InterXion | FRA05 |
 | LON01 | Telecity | LD1 |
 | LON02 | Digital Realty | LHR13 |
 | LON03 | Equinix | LD5 |
