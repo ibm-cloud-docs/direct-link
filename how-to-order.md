@@ -28,3 +28,13 @@ As you prepare to order the type of IBM Cloud Direct Link that best suits your n
 You can use the flow chart in the figure to help you decide.
 
 ![decision-tree](/images/decision-tree-2.png)
+
+
+## What Happens Next
+
+You’ll be asked to complete a customer questionnaire, which you can review at these links:
+
+* [Exchange](questionnaire-exchange.html)
+* [Connect](questionnaire-connect.html)
+* [Dedicated](questionnaire-dedicated.html)
+* [Hosting](questionnaire-dedicated-hosting.html)
