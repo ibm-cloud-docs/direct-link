@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-05-30"
 
 ---
 
@@ -22,6 +22,30 @@ lastupdated: "2018-04-24"
  * Order connectivity between your network provider and the Connect provider.
  * Order a "virtual circuit" through the Connect provider, and refer the Ticket ID of the {{site.data.keyword.BluSoftlayer_notm}} IBM Cloud Direct Link request as your "Request ID" or "Authorization ID"
  * IP assignment on the {{site.data.keyword.BluSoftlayer_notm}} networking infrastructure will be completed within 3 business days after the virtual circuit request is complete.
+ 
+
+## Locations
+
+Our IBM Cloud Direct Link Connect partner providers include these locations:
+
+| Partners | Available datacenters |
+|--------------|--------------|
+| AT&T; NetBond® for Cloud | SNG02, FRA01, LON01, DAL03, SJC02, WDC02|
+| AT&T Cloud Gateway (formerly known as RedFringe)| DAL03, WDC02 |
+| Bell Canada | MON02, TOR02 |
+| British Telecom |  LON01, FRA01, WDC02, SAO02*, HKG01* |
+| Colt | AMS02, FRA01, PAR02, LON01*, HKG01*, SNG02*, TOK01* |
+| IBM BlueFringe | DAL03, WDC02 |
+| Level (3) | DAL03, MIA01*, SAO02 ||
+| Megaport | DAL03, MEL02, SYD02, AMS02, FRA01, SJC02, TOR02, WDC05, LON03* |
+| PacketFabric | DAL04*, SJC02*, WDC02* |
+| PCCW | HKG01* |
+| Tata | CHE01 |
+| Telia | STO01, OSL02* |
+| Telstra | MEL02, SNG02, SYD02, NYC01, LON01* |
+| Verizon | SYD02, TOK01, AMS02, FRA01, DAL03, SJC02, WDC02 |
+
+* = Coming Soon
 
 ## Pricing
 
