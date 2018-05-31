@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-05-10"
+lastupdated: "2018-05-30"
 
 ---
 
@@ -76,7 +76,7 @@ ECMP isn’t designed for creating redundant connections but for balancing the l
 
 **Figure 10: ECMP provisioning**
 
-![ECMP Dedicated model](/images/ecmp-dedicated-model.png)
+![ECMP Dedicated model](/images/ecmp-without-diversity.png)
 
 ### How to achieve Diversity and Redundancy
 
@@ -84,4 +84,4 @@ If you are looking for High Availability (HA) or full redundancy: set up two lin
 
 **Figure 11: ECMP with Dual XCRs**
 
-![ECMP Dual XCR Model](/images/ecmp-dual-xcr.png)
+![ECMP Dual XCR Model](/images/ecmp-with-diversity.png)

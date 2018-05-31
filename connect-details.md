@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-05-29"
 
 ---
 
@@ -26,6 +26,8 @@ Connections are offered at several speeds:
 * 1 Gbps
 * 2 Gbps
 * 5 Gpbs
+
+## Locations
 
 Our IBM Cloud Direct Link Connect partner providers include these:
 
