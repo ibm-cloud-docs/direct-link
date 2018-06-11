@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-25"
+lastupdated: "2018-06-11"
 
 ---
 
@@ -27,7 +27,7 @@ As you prepare to order the type of IBM Cloud Direct Link that best suits your n
 
 You can use the flow chart in the figure to help you decide.
 
-![decision-tree](/images/decision-tree-2.png)
+![direct-link-decision-tree](/images/direct-link-decision-tree.png)
 
 
 ## What Happens Next
