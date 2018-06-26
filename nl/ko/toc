@@ -1,0 +1,42 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="direct-link" audience="direct-link" href="/docs/infrastructure/direct-link/getting-started.html"}
+Direct Link
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    overview.md
+    about.md
+    whats-new.md
+    alternative-deployments.md
+    diversity-models.md
+    connect-details.md
+    pricing.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    how-to-order.md
+    
+      {: .topicgroup}
+      Overview Steps for Ordering
+         order-cloud-exchange.md
+         order-connect.md
+         order-nsp.md
+         order-colocation.md 
+    cloud-exchange-automation.md
+    cloud-exchange-connect.md
+    subnet-configuration.md
+    direct-link-to-cos.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    external-resources.md
+    understanding-latency.md
+    {: .navgroup-end}
+    
+    {: .navgroup id="help"}
+    known-limitations.md
+    faqs.md
+    getting-help.md
+    {: .navgroup-end}
