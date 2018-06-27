@@ -13,13 +13,22 @@ Check back regularly to see what's new with IBM Cloud Direct Link. We're growing
 
 ## June 2018
 
-* IBM Cloud Direct Link Service Provider Program
+**IBM Cloud Direct Link Service Provider Program**
 
 We're pleased to announce our new IBM Cloud Direct Link Service Provider Program, which enables enterprises to select from a robust ecosystem of local and global providers and create the private connections to IBM Cloud that best suit their needs. We'll work closely to provide technical enablement and training to help ensure service providers can offer enterprises reliable connectivity to the cloud from anywhere in the world. This gives our joint customers greater choice to select the right provider, speed of service, location and deployment model to create a secure, highly available hybrid connection.
  
-Learn more:
-Thoughts on Cloud Blog: [Supporting the next generation of apps with IBM Cloud Direct Link](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/)
-Website: [Direct Link Program Details](https://www.ibm.com/cloud/direct-link/partners)
+**Learn more:**
+* Thoughts on Cloud Blog: [Supporting the next generation of apps with IBM Cloud Direct Link](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/)
+* Website: [Direct Link Program Details](https://www.ibm.com/cloud/direct-link/partners)
+
+**Colt Offers Direct Access to IBM Cloud Direct Link**
+
+IBM is pleased to announce our extended partnership with Colt. Thanks to Colt's Dedicated Cloud Access (DCA) service, customers can now establish private connectivity from their data center, office or co-location environment, to reduce network costs, increase bandwidth throughput, and provide a more consistent network experience than internet based connections. 
+ 
+**Learn more:**
+* Blog: IBM and Colt: enabling enterprise digital transformation
+* Partner Details: Colt-IBM Web page
+* Press Release: Colt Provides Direct Connectivity to IBM Cloud
 
 ## May 2018
 
