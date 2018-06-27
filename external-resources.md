@@ -43,3 +43,5 @@ These resources are created by IBM and some of our partners and customers.
 ## Blogs
 
 * [Supporting the next generation cloud applications with IBM Cloud Direct Link](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/), by Gabriel Montanti
+
+* [IBM and Colt: Enabling Enterprise Digital Transformation](https://www.ibm.com/blogs/bluemix/2018/06/ibm-colt-enterprise-digital-transformation/), by Paul Hertzfeldt
