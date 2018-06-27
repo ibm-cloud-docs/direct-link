@@ -3,7 +3,7 @@
 copyright:
   years: 2017, 2018
 
-lastupdated: "2018-05-07"
+lastupdated: "2018-06-27"
 
 ---
 
@@ -18,6 +18,8 @@ lastupdated: "2018-05-07"
 # External Resources
 
 These resources are created by IBM and some of our partners and customers.
+
+## Papers and case studies
 
 * [**Hybrid Cloud White Paper**](https://public.dhe.ibm.com/cloud/bluemix/network/direct-link/ibm-hybrid-cloud-whitepaper.pdf)
 
@@ -37,3 +39,7 @@ These resources are created by IBM and some of our partners and customers.
     Delivery systems that put extra steps between server deployments, cloud and customers were too slow and indirect to deliver the low latency and high throughput IBM Cloud promises its customers. 
 
     Choosing to co-locate at Digital Realty’s hub locations in APAC and the U.S. puts IBM Cloud Data Centers right next door to Digital Realty’s world-class data center deployments, with direct dark fiber connection between them.
+
+## Blogs
+
+* [Supporting the next generation cloud applications with IBM Cloud Direct Link](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/), by Gabe Montanti
