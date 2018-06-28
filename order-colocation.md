@@ -37,7 +37,7 @@ The table below shows which IBM Cloud datacenters are able to accept customers f
 | Americas | WDC04 | Ashburn | DC (AZ1) | DLR | 44060 Digital Loudoun Plaza (Bldg K) |
 |  |  |  |  |  |  |
 | APAC |  SYD01 |  Sydney | DC (AZ1) | Global Switch  |  400 Harris Street aka 273 Pyrmont St. Ultimo |
-| APAC |  SNG01 |  Jurong East |  DC | DLR Nitel |  29a International Business Park, S180 |
+| APAC |  SNG01 |  Jurong East |  DC | DLR |  29a International Business Park, S180 |
 | APAC | TOK02  |  Koto-ku | DC (AZ1) | AT Tokyo  |  6-2-12 Toyosu |
 |  |  |  |  |  |  |
 | EMEA | FRA02  | Frankfurt |  DC (AZ1) | Zenium   | Leonhard - Heisswolf Str. 4, Frankfurt am Main  |
