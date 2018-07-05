@@ -10,6 +10,7 @@ Direct Link
     about.md
     whats-new.md
     alternative-deployments.md
+    vrf-on-ibm-cloud.md
     diversity-models.md
     connect-details.md
     pricing.md
@@ -33,6 +34,7 @@ Direct Link
     {: .navgroup id="reference"}
     external-resources.md
     understanding-latency.md
+    vrf-on-ibm-cloud.md
     {: .navgroup-end}
     
     {: .navgroup id="help"}
