@@ -41,7 +41,7 @@ Using Virtual Routing and Forwarding (VRF), customers are allowed to use remote 
 * `10.198.0.0/15` 
 * `169.254.0.0/16` 
 * `224.0.0.0/4` 
-* `166.9.0.0/16`(which the private endpoint service uses)
+* `166.9.0.0/16` (which the private endpoint service uses)
 * Any IP ranges assigned to your VLANs on the IBM platform.
 
 Each tenant on the backbone who utilizes Virtual Routing and Forwarding (VRF) may have one (and only one) _Customer VRF_, which provides connectivity amongst all the tenant’s servers, regardless of location.  
@@ -68,7 +68,7 @@ Each tenant on the backbone who utilizes Virtual Routing and Forwarding (VRF) ma
 
 * Remote access by means of the managed VPN services (SSL, IPSec) is limited to the local datacenter; however, the shared ACL backbone allows global access from any entry point.
 
-* VLAN spanning within a customer's _multiple isolation_ tenancy not available.
+* VLAN spanning within a customer's _multiple isolation_ tenancy is not available.
 
 ## What happens during account conversion process
 
