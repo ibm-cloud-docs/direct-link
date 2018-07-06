@@ -23,12 +23,12 @@ We're pleased to announce our new IBM Cloud Direct Link Service Provider Program
 
 **Colt Offers Direct Access to IBM Cloud Direct Link**
 
-IBM is pleased to announce our extended partnership with Colt. Thanks to Colt's Dedicated Cloud Access (DCA) service, customers can now establish private connectivity from their data center, office or co-location environment, to reduce network costs, increase bandwidth throughput, and provide a more consistent network experience than internet based connections. 
+IBM is pleased to announce our extended collaboration with Colt. Thanks to Colt's Dedicated Cloud Access (DCA) service, customers can now establish private connectivity from their data center, office or co-location environment, to reduce network costs, increase bandwidth throughput, and provide a more consistent network experience than internet based connections. 
  
 **Learn more:**
-* Blog: IBM and Colt: enabling enterprise digital transformation
-* Partner Details: Colt-IBM Web page
-* Press Release: Colt Provides Direct Connectivity to IBM Cloud
+* Blog: [IBM and Colt: enabling enterprise digital transformation](https://www.ibm.com/blogs/bluemix/2018/06/ibm-colt-enterprise-digital-transformation/)
+* Press Release: [Colt Provides Direct Connectivity to IBM Cloud](https://www.colt.net/resources/colt-provides-direct-connectivity-ibm-cloud/)
+* Partner Details: [https://www.colt.net/ibm-cloud/](https://www.colt.net/ibm-cloud/)
 
 ## May 2018
 
