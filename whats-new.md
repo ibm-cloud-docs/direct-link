@@ -52,8 +52,15 @@ Interxion, a leading provider of carrier and cloud-neutral colocation data centr
 * Blog: [Interxion Optimising Enterprise Multicloud Strategy with IBM Cloud Services](https://www.interxion.com/blogs/2018/03/interxion-optimising-enterprise-multicloud-strategy-with-ibm-cloud-services/)
 * Press Release: [Direct Access to IBM Cloud Services Now Available at Interxion Data Centres Across Europe via Cloud Connect](https://www.interxion.com/news/2018/03/direct-access-to-ibm-cloud-services/)
 * Partner Details: [Why Colocate with the Clouds](https://www.interxion.com/why-interxion/colocate-with-the-clouds/ibm/)
-* Interxion | IBM Factsheet: [Download](https://www.interxion.com/factsheets/solution/ibm-cloud-direct-link/)
- 
+
+**PacketFabric Offers Connectivity to IBM Cloud**
+
+PacketFabric customers can access IBM Cloud services in Dallas, Texas; San Francisco, California; and Washington, D.C., from any location on the PacketFabric network.
+
+**Learn More**
+* Press Release: [PacketFabric Offers Connectivity to IBM Cloud](https://www.packetfabric.com/news/2018/03/06/packetfabric-offers-connectivity-to-ibm.html)
+* Partner Details: [Connect to IBM Cloud](https://www.packetfabric.com/packetcor/ibm-cloud/)
+
  ## February 2018
  
  * IBM Cloud Direct Link Connect is available.
