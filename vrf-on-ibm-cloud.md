@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-06"
+lastupdated: "2018-07-09"
 
 ---
 
@@ -41,10 +41,10 @@ Using Virtual Routing and Forwarding (VRF), customers are allowed to use remote 
 * `10.198.0.0/15` 
 * `169.254.0.0/16` 
 * `224.0.0.0/4` 
-* `166.9.0.0/16` (which the private endpoint service uses)
+* `166.9.0.0/16`(which the private endpoint service uses)
 * Any IP ranges assigned to your VLANs on the IBM platform.
 
-Each tenant on the backbone who utilizes Virtual Routing and Forwarding (VRF) may have one (and only one) _Customer VRF_, which provides connectivity amongst all the tenant’s servers, regardless of location.  
+Each tenant on the backbone who utilizes Virtual Routing and Forwarding (VRF) may have one (and only one) _Customer VRF_ per Direct Link, which provides connectivity amongst all the tenant’s servers, regardless of location. However, a customer may have more than one Direct Link account that feeds into a single cross-connect router.  
 
 * A tenant’s servers in any VLAN, in any pod, in any datacenter worldwide can reach all of that tenant’s other servers globally. 
 
@@ -68,7 +68,7 @@ Each tenant on the backbone who utilizes Virtual Routing and Forwarding (VRF) ma
 
 * Remote access by means of the managed VPN services (SSL, IPSec) is limited to the local datacenter; however, the shared ACL backbone allows global access from any entry point.
 
-* VLAN spanning within a customer's _multiple isolation_ tenancy is not available.
+* VLAN spanning within a customer's _multiple isolation_ tenancy not available.
 
 ## What happens during account conversion process
 
@@ -82,7 +82,7 @@ During migration, the customer VLANs are disconnected from the backbone and reco
 
 ## How you can initiate the conversion
 
-Our customer can open a support ticket in their Customer Portal account, requesting to be migrated to a VRF. The ticket should state: “Private Network Question” and include the following text in the support ticket: 
+Our customer can open a support ticket through their [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) account, requesting to be migrated to a VRF. The ticket should state: “Private Network Question” and include the following text in the support ticket: 
 
 "We are requesting that account _fill in your account number_ is moved to its own VRF. We understand the risks and approve the change.  Please reply back with the scheduled window(s) of time where this change will be made so we can prepare for the migration." 
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-30"
+lastupdated: "2018-07-06"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-05-30"
 1. Identify your colocation and connectivity requirements, and work with the IBM sales team to finalize and execute a contract and technical addendum.
 2. {{site.data.keyword.BluSoftlayer_notm}} executes a build order with the colocation provider for the requested environment and services. Deployment typically is completed within 30 days from when the build order is placed.
 
-3. When the build of your colocation cage is complete, the process to interconnect between your colocation cage and the {{site.data.keyword.BluSoftlayer_notm}} POD environment's XCR gear will follow the ordering process for [IBM Cloud Direct Link Dedicated](how-to-order.html#how-to-order-ibm-cloud-direct-link-dedicated), starting at Step 3.
+3. When the build of your colocation cage is complete, the process to interconnect between your colocation cage and the {{site.data.keyword.BluSoftlayer_notm}} POD environment's XCR gear will follow the ordering process for [IBM Cloud Direct Link Dedicated](order-nsp.html#how-to-order-ibm-cloud-direct-link-dedicated), starting at Step 3.
 
 ## Locations
 
@@ -27,7 +27,7 @@ The table below shows which IBM Cloud datacenters are able to accept customers f
 
 | Region | Site ID | City | Site Type | Site Partner | Site Address |
 |-------|-------|-------|-------|-------|-------|
-| Americas | DAL 09 | Richardson | DC | DLR | 900 Quality Way (PODS 1-4) |
+| Americas | DAL09 | Richardson | DC | DLR | 900 Quality Way (PODS 1-4) |
 | Americas | DAL10 | Irving | DC | QTS | 6431 Longhorn Dr. |
 | Americas | DAL13 | Carrollton | DC (AZ3) | CyrusOne | 1649 Frankford Rd. |
 | Americas | MON01 | Drummond  | DC | Colo-D  | 2525 Rue Canadien Drummondville, Québec J2C 7W2 |

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-11"
+lastupdated: "2018-07-10"
 
 ---
 
@@ -123,3 +123,7 @@ Note that ECMP isn’t for redundant connections but for balancing the load over
 ECMP is a feature of BGP. If you are looking for redundancy, get two Direct Link connections, one going into each XCR. If you want to use ECMP and have redundancy, you’ll need two Direct Link connections on each XCR, so that you can have 2 ECMP sessions going simultaneously.
 
 Alternatively, some of our customers have set up two links into different XCR in the same datacenter, for example WDC02, then failover as needed using BGP configurations. This configuration is less redundant (less safe) than having Direct Link connections into two separate datacenters, such as WDC02 and WDC05.
+
+## Is there an SLA on the XCR connections up to the account’s BCR connection?
+
+There is no SLA on DirectLink today. Customers can achieve 99.999% effectively with 2 or more Direct Links properly configured for failover using BGP, but IBM cannot control that or provide an SLA on it.
