@@ -44,6 +44,8 @@ Using Virtual Routing and Forwarding (VRF), customers are allowed to use remote 
 * `166.9.0.0/16`(which the private endpoint service uses)
 * Any IP ranges assigned to your VLANs on the IBM platform.
 
+IBM is moving forward with a next generation Cloud deployment to enable VPC ( Virtual Private Cloud) in our Availability Zones ( AZs). This is relevant as this new VPC capability will enable customers to truly Bring Your own IP ( BYoIP) in the VPC enabled AZ’s. The AZ’s are located in  Dallas, Washington DC, London, Frankfurt, Tokyo and Sydney. 
+
 Each tenant on the backbone who utilizes Virtual Routing and Forwarding (VRF) may have one (and only one) _Customer VRF_ per Direct Link, which provides connectivity amongst all the tenant’s servers, regardless of location. However, a customer may have more than one Direct Link account that feeds into a single cross-connect router.  
 
 * A tenant’s servers in any VLAN, in any pod, in any datacenter worldwide can reach all of that tenant’s other servers globally. 
