@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-10"
+lastupdated: "2018-07-12"
 
 ---
 
@@ -46,17 +46,6 @@ Overages are billed monthly when your alotment of bandwidth is exceeded, but onl
 ## Why does a Global Routing add-on package exist?
 We have added the Global Routing add-on to prevent our customers from experiencing unexpected data costs when traversing outside of their data center's region. It keeps costs lower for the majority of our customers, and it provides the ability for customers with a global presence to reach all regions across the globe easily. Usually, however, a customer requires only a local bandwidth package.
 
-## What are the Local Routing and Global Routing options?
-Local Routing and Global Routing options are selected by every customer when ordering Direct Link service. If customers need to route their traffic outside the POP in the area within which they are ordering Direct Link, they must add the Global Routing option; otherwise, their traffic is restricted to the services provided by the local POP.
-
-Each month, all customers using 1G Circuits are allotted 10TB of free egress traffic; customers using 10G circuits are allotted 50TB. Overages are based on the following table, with the higher market rate prevailing. If you select Global Routing, you are not charged for any local egress traffic, only for traffic that originates or terminates outside of the local POP.
-
-|Data Market 1|Data Market 2|Data Market 3|
-|---|---|---|
-|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
-**Table 1: Utilization tiers**<br/>
-Direct Link offerings in the markets marked with an asterisk (*) MUST order Global Routing.
-
 ## If I am connected to a Direct Link Dedicated, Direct Link Connect, or Direct Link Exchange in a region such as Dallas, do I have access to other regions in the U.S. through Direct Link?
 Yes, you are able to gain access to areas outside of your region if you choose the Global Routing add-on. If this option is not selected, your Direct Link traffic will be limited to the region for the PoP location you have selected. Please refer to the [pricing document](pricing.html)for details.
 
@@ -81,6 +70,10 @@ Direct Link Exchange can allow for a multi-cloud, shared use environment through
 **Direct Link Connect** is for customers who prefer to utilize their existing network between their own on-premises deployment and IBM Cloud. With a Direct Link Connect service, customers can use new and existing Telco networks (such as MPLS) to enable IBM Cloud rapidly, by leveraging pre-provisioned underlying circuits.
 
 With Direct Link Connect, customers can connect to IBM Cloud through the Connect provider, over a Network to Network (NNI) connection, operated by IBM partners in facilities worldwide. Port speeds are available up to 5Gb.
+
+## How do Direct Link Connect and Direct Link Exchange providers compare?
+
+Connect providers are Telcos who have network reach beyond the datacenter. Exchange providers are limited to their datacenters. Both can enable the multi-cloud experience for customers. Exchange providers usually require co-location in their datacenters, while Connect providers can reach a customer's on-premise site and datacenters.
 
 ## Can we support IPv6 over Direct Link?
 

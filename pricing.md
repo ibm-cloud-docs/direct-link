@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-05-07"
+lastupdated: "2018-07-12"
 
 ---
 
@@ -80,4 +80,14 @@ Each month, all customers using circuits below 10Gbps are allotted 10TB of free 
 | Market 2: | $0.10 per GB |
 | Market 3: | $0.15 per GB |
 
-For more information about markets, please refer to the [FAQs file](faqs.html#what-are-the-local-routing-and-global-routing-options).
+
+## Local Routing and Global Routing markets
+Local Routing and Global Routing options are selected by every customer when ordering Direct Link service. If customers need to route their traffic outside the POP in the area within which they are ordering Direct Link, they must add the Global Routing option; otherwise, their traffic is restricted to the services provided by the local POP.
+
+Each month, all customers using 1G Circuits are allotted 10TB of free egress traffic; customers using 10G circuits are allotted 50TB. Overages are based on the following table, with the higher market rate prevailing. If you select Global Routing, you are not charged for any local egress traffic, only for traffic that originates or terminates outside of the local POP.
+
+|Data Market 1|Data Market 2|Data Market 3|
+|---|---|---|
+|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
+**Table 1: Utilization tiers**<br/>
+Direct Link offerings in the markets marked with an asterisk (*) MUST order Global Routing.
