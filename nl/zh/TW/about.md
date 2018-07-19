@@ -14,104 +14,106 @@ lastupdated: "2018-04-12"
 {:tip: .tip}
 {:download: .download}
 
-# 关于 IBM Cloud Direct Link
+# 關於 IBM Cloud Direct Link
 
-本节更详细地介绍了四款 IBM Cloud Direct Link 产品的主要功能和好处。
+本章節可讓您瀏覽關於四個 IBM Cloud Direct Link 解決方案每一個的主要功能及好處的更多詳細資料。
   * [**IBM Cloud Direct Link Exchange**](#the-ibm-cloud-direct-link-exchange-solution)
   * [**IBM Cloud Direct Link Connect**](#the-ibm-cloud-direct-link-connect-solution)
   * [**IBM Cloud Direct Link Dedicated**](#the-ibm-cloud-direct-link-dedicated-solution)
   * [**IBM Cloud Direct Link Dedicated Hosting**](#the-ibm-cloud-direct-link-dedicated-hosting-solution)
 
-## IBM Cloud Direct Link Exchange 解决方案
+## IBM Cloud Direct Link Exchange 解決方案
 
-通过 IBM Cloud Direct Link Exchange 解决方案，客户可以利用 Cloud Exchange 提供商来提供与 {{site.data.keyword.BluSoftlayer_notm}} 的连接。此产品通常以降低的成本提供连接，这是因为从 {{site.data.keyword.BluSoftlayer_notm}} 到云交换提供商的物理连接已经就位，在其他客户之间共享。
+IBM Cloud Direct Link Exchange 解決方案可讓客戶運用 Cloud Exchange 提供者，提供對 {{site.data.keyword.BluSoftlayer_notm}} 位置的連線功能。此供應項目一般提供成本較低的連線功能，因為從 {{site.data.keyword.BluSoftlayer_notm}} 到 Cloud Exchange 提供者的實體連線功能已經就緒，並與其他客戶共用。
 
-**常见用例：**_适用于混合工作负载、跨提供商工作负载、大型或频繁数据传输、专用工作负载和环境管理。通常，当所需的 PoP 已经具有所需的 IBM Cloud Direct Link Exchange 提供商时，会选择此选项。_
+**一般使用案例：**_最適合混合式工作負載、跨提供者的工作負載、具有高輸出頻寬的大量或頻繁資料傳送、專用工作負載，以及環境管理。當所要的 PoP 位置已經具有所需 IBM Cloud Direct Link Exchange 提供者時，通常會選取此選項。_
 
-![图 1](/images/Direct-Link-Exchange.PNG)
+![圖 1](/images/Direct-Link-Exchange.png)
 
- * **终止位置：**{{site.data.keyword.BluSoftlayer_notm}} 存在点 (PoP)。
+ * **終止位置：**{{site.data.keyword.BluSoftlayer_notm}} 連接點 (PoP)。
 
- * **一般部署时间：**对 Equinix 提供商而言，一般部署时间是几小时。对其他提供商而言，是电路到达交换位置后 5-10 天，总体部署时间可能是 30-60 天，具体取决于您的位置和需求。
+ * **一般部署時間：**對於 Equinix 提供者，一般部署時間將以小時為單位。若為其他提供者，則為電路到達交換之後 5-10 天。向 NSP 或通訊業者訂購電路時，部署時間可能整體為 30-60 天，視您的位置及需求而定。
 
- * **交叉连接详细信息：**云交换互连的物理交叉连接在 {{site.data.keyword.BluSoftlayer_notm}} 与云交换提供商之间维护。客户向云交换提供商请求“虚拟线路”，这会在他们与云交换提供商互连时，建立与 {{site.data.keyword.BluSoftlayer_notm}} 的逻辑连接。
+ * **交叉連接詳細資料：**{{site.data.keyword.BluSoftlayer_notm}} 與 Cloud Exchange 提供者之間會維護安全的 Cloud Exchange 交互連接的實體交叉連接。客戶向 Cloud Exchange 提供者要求虛擬電路，這樣會在交互連接至 Cloud Exchange 提供者之後建立對 {{site.data.keyword.BluSoftlayer_notm}} 的邏輯連線功能。
 
- * **端口速度选项：**选择 50Mbps、100Mbps、200Mbps、500Mbps 或 1Gbps。
+ * **埠速度選項：**選取 50Mbps、100Mbps、200Mbps、500Mbps 或 1Gbps。
 
- * **估计等待时间：**等待时间在当地区域（具有相同三个字母前缀的数据中心，如 DAL、AMS、MEL 等）大约为 1.5 毫秒。请参阅 http://lg.softlayer.com/ 以获取实时 PoP 到 PoP (P2P) 等待时间测量值。
+ * **約略延遲：**本端區域（具有相同三個字母字首，例如 DAL、AMS、MEL 資料中心）內的延遲大約為 1.5ms。有關即時 PoP 至 PoP (P2P) 位置延遲測量，請參閱 http://lg.softlayer.com/。
 
- * **并置服务：**无。
+ * **主機託管服務：**無。
 
- * **冗余：**要为 IBM Cloud Direct Link Exchange 建立冗余，需要连接到 2 个以上的位置，也可以选择一个位置，而该位置要有 Cloud Exchange 提供商可利用的辅助 XCR。
+ * **備援：**若要建立 IBM Cloud Direct Link Exchange 的備援，需要 2+ 位置的連線功能，或選擇具有 Cloud Exchange 提供者可用之次要 XCR 的位置。
 
- * **当地/全球路由选项：**通过当地路由选项，可以访问与 PoP 具有相同三个字母前缀（DAL、AMS、MEL 等）的数据中心。需要全球路由选项作为附加组件，以连接在那些位置外部的数据中心。
+ * **本端/廣域遞送選項：**「本端遞送」選項提供對與 PoP 位置有相同三個字母字首（DAL、AMS、MEL）之資料中心的存取。需要「廣域遞送」選項作為附加程式，以便聯繫那些位置以外的資料中心。
  
-## IBM Cloud Direct Link Connect 解决方案
+## IBM Cloud Direct Link Connect 解決方案
 
-**常见用例**类似于 Direct Link Exchange 解决方案。提供更多速度选项。成本更低的良好入口点。
+**一般使用案例：**類似於 Direct Link Exchange 解決方案。提供更多速度選項。Direct Link Cloud Connect 解決方案提供 IBM Cloud 網路客戶的較低成本進入點。
 
-![图 2](/images/Direct-Link-Connect.PNG)
+![圖 2](/images/Direct-Link-Connect.png)
 
-* **终止位置：**{{site.data.keyword.BluSoftlayer_notm}} 存在点 (PoP)。
+* **終止位置：**{{site.data.keyword.BluSoftlayer_notm}} 連接點 (PoP)。
 
-* **典型部署时：**在线路到达交换后 5-10 天。部署时整体可能是 30-60 天，具体取决于您的位置和需求。
+* **一般部署時間：**電路聯繫交換之後 5-10 天。向 NSP 或通訊業者訂購電路時，部署時間可能整體為 30-60 天，視您的位置及需求而定。
 
-* **交叉连接详细信息：**Cloud Connect 互连的物理交叉连接在 {{site.data.keyword.BluSoftlayer_notm}} 与 Cloud Connect 提供商之间维护。客户向 Cloud Connect 提供商请求“虚拟电路”，这会在他们与 Cloud Connect 提供商互连时，建立与 {{site.data.keyword.BluSoftlayer_notm}} 的逻辑连接。
+* **交叉連接詳細資料：**{{site.data.keyword.BluSoftlayer_notm}} 與 Connect 提供者之間會維護安全的 Direct Link Connect 交互連接的實體交叉連接。客戶向 Cloud Connect 提供者要求虛擬電路，這樣會在交互連接至 Cloud Connect 提供者之後建立對 {{site.data.keyword.BluSoftlayer_notm}} 的邏輯連線功能。
 
-* **端口速度选项：**选择 50Mbps、100Mbps、200Mbps、500Mbps、1Gbps、2Gbps 或 5Gbps。
+* **埠速度選項：**選取 50Mbps、100Mbps、200Mbps、500Mbps、1Gbps、2Gbps 或 5Gbps。
 
-* **估计等待时间：**等待时间在当地区域（具有相同三个字母前缀的数据中心，如 DAL、AMS、MEL 等）大约为 1.5 毫秒。请参阅 http://lg.softlayer.com/ 以获取实时 PoP 到 PoP (P2P) 等待时间测量值。
+* **約略延遲：**本端區域（具有相同三個字母字首的資料中心，例如 DAL、AMS、MEL）內的延遲大約為 1.5ms。有關即時 PoP 至 PoP (P2P) 位置延遲測量，請參閱 http://lg.softlayer.com/。
 
-* **并置服务：**无。
+* **主機託管服務：**無。
 
-* **冗余：**要为 IBM Cloud Direct Link Connect 建立冗余，需要连接到 2 个以上的位置，也可以选择一个位置，也可以选择一个位置，而该位置要有 Cloud Connect 提供商可利用的辅助 XCR。
+* **備援：**若要建立 IBM Cloud Direct Link Connect 的備援，需要 2+ 位置的連線功能，或選擇具有 IBM Cloud Connect 提供者可用之次要 XCR 的位置。
 
-* **当地/全球路由选项：**通过当地路由选项，可以访问与 PoP 具有相同三个字母前缀（DAL、AMS、MEL 等）的数据中心。需要全球路由选项作为附加组件，以连接在那些位置外部的数据中心。
+* **本端/廣域遞送選項：**「本端遞送」選項提供對與 PoP 位置有相同三個字母字首（DAL、AMS、MEL）之資料中心的存取。需要「廣域遞送」選項作為附加程式，以便聯繫那些位置以外的資料中心。
 
-## IBM Cloud Direct Link Dedicated 解决方案
+## IBM Cloud Direct Link Dedicated 解決方案
 
-通过 IBM Cloud Direct Link Dedicated 解决方案，客户可以终止接入自己 {{site.data.keyword.BluSoftlayer_notm}} 专用网络的专用单模式光纤交叉连接。
+IBM Cloud Direct Link Dedicated 讓客戶將專用、單一模式的光纖交叉連接連入到他們自己的 {{site.data.keyword.BluSoftlayer_notm}} 專用網路。
 
- **常见用例：**_适用于混合工作负载、跨提供商工作负载、大型或频繁数据传输、专用工作负载和环境管理。通常在以下情况下会选择此选项：(1) 所需的 PoP 没有所需的 IBM Cloud Direct Link Exchange 提供商，(2) 为了获取需要高吞吐量的高性能工作负载，或者 (3) 为了实现 IBM Cloud Direct Link Exchange 实施模型无法满足的合规性需求。_
+ **一般使用案例：**_最適合使用混合式工作負載、跨提供者的工作負載、大量或頻繁的資料傳送、專用工作負載，以及環境管理。這個選項的選取時機通常為：(1) 想要的 PoP 沒有想要的 IBM Cloud Direct Link Exchange 提供者時，(2) 需要高傳輸量的高效能工作負載，或 (3) IBM Cloud Direct Link Exchange 實作模型所無法滿足的法規遵循需求。_
 
-![图 3](/images/Direct-link-Dedicated.PNG)
+![圖 3](/images/Direct-link-Dedicated.png)
 
- * **终止位置：**{{site.data.keyword.BluSoftlayer_notm}} 存在点 (PoP)。
+ * **終止位置：**{{site.data.keyword.BluSoftlayer_notm}} 連接點 (PoP)。
 
- * **典型部署时：**在新线路到达 POP 之后的 10-15 个工作日。部署时整体可能是 30-60 天，具体取决于您的位置和需求。
+ * **一般部署時間：**新的電路達到 POP 之後 10-15 個營業日。向 NSP 或通訊業者訂購電路時，部署時間可能整體為 30-60 天，視您的位置及需求而定。
 
- * **交叉连接详细信息：**{{site.data.keyword.BluSoftlayer_notm}} 提供授权证 (LOA)，客户使用该授权证来订购光纤以太网（仅限单模式光纤：1Gig-LX 或 10Gig-LR 光学），其运行范围从客户框架或提供商到 {{site.data.keyword.BluSoftlayer_notm}} CFA 终止点，从而系结到交叉连接路由器 (XCR) 基础架构。媒体必须为 1310nm 波长的光学媒体。
+ * **交叉連接詳細資料：**{{site.data.keyword.BluSoftlayer_notm}} 提供授權信 (LOA)，客戶用它來訂購從客戶機箱或提供者連到 {{site.data.keyword.BluSoftlayer_notm}}
+CFA 終止點的光纖乙太網路（僅限單一模式光纖、1Gig-LX 或 10Gig-LR 光學設備）。CFA 終止點將限制在交叉連接路由器 (XCR) 基礎架構。媒介必須是 1310nm 波長的光學設備。
 
- * **端口速度选项：**选择 1Gbps、2Gbps、5Gbps 或 10Gbps。
+ * **埠速度選項：**選取 1Gbps、2Gbps、5Gbps 或 10Gbps。
 
- * **估计等待时间：**等待时间在当地区域（具有相同三个字母前缀的数据中心，如 DAL、AMS、MEL 等）大约为 1.5 毫秒。请参阅 http://lg.softlayer.com/ 以获取实时 PoP 到 PoP (P2P) 等待时间测量值。
+ * **約略延遲：**本端區域（具有相同三個字母字首的資料中心，例如 DAL、AMS、MEL）內的延遲大約為 1.5ms。有關即時 PoP 至 PoP (P2P) 位置延遲測量，請參閱 http://lg.softlayer.com/。
 
- * **并置服务：**无。
+ * **主機託管服務：**無。
 
- * **冗余：**要建立冗余，IBM Cloud Direct Link 需要连接到超过 2 个位置，也可以选择一个位置，而该位置要有可用的辅助 XCR 和第二个 IBM Cloud Direct Link 连接请求。
+ * **備援：**若要建立備援，需要對 2+ 位置的 IBM Cloud Direct Link 連線功能，或選擇具有次要 XCR 可用的位置以及第二條 IBM Cloud Direct Link 連線的要求。
 
- * **当地/全球路由选项：**通过当地路由选项，可以访问与 PoP 具有相同三个字母前缀（DAL、AMS、MEL 等）的数据中心。需要全球路由选项作为附加组件，以连接在那些位置外部的数据中心。
+ * **本端/廣域遞送選項：**「本端遞送」選項提供對具有與 PoP 相同三個字母字首（DAL、AMS、MEL）之資料中心的存取。「廣域遞送」選項需要為附加程式，以便聯繫那些位置以外的資料中心。
 
-## IBM Cloud Direct Link Dedicated Hosting 解决方案
+## IBM Cloud Direct Link Dedicated Hosting 解決方案
 
-IBM Cloud Direct Link Dedicated Hosting 解决方案提供类似于 IBM Cloud Direct Link Dedicated 的连接，但是连接点邻近 {{site.data.keyword.BluSoftlayer_notm}} 数据中心，因此可以缩短等待时间，适合性能更高的用例。IBM Cloud 随此解决方案提供各种可定制并置服务。
+IBM Cloud Direct Link Dedicated Hosting 解決方案提供與 IBM Cloud Direct Link Dedicated 類似的連線功能，但連線點與 {{site.data.keyword.BluSoftlayer_notm}} 資料中心相鄰，這樣可改善較高效能使用案例的延遲。IBM Cloud 透過簡單計價，以此解決方案提供各種可自訂的主機託管服務。
 
-**常见用例：**_适用于非标准计算技术、专用存储器需求或利用现有 IT 投资。_
+**一般使用案例：**_最適合使用非標準的運算技術、專用儲存空間需求，或利用現有的 IT 投資。_
 
-![图 4](/images/Direct-Link-Dedicated-Hosting.png)
+![圖 4](/images/Direct-Link-Dedicated-Hosting.png)
 
-* **终止位置：**{{site.data.keyword.BluSoftlayer_notm}} 数据中心 (DC)。
+* **終止位置：**{{site.data.keyword.BluSoftlayer_notm}} 資料中心 (DC)。
 
- * **典型部署时：**最终完成所有需求并执行合同后的 30-60 天。
+ * **一般部署時間：**所有需求都確定且已執行合約之後 30-60 天。
 
- * **交叉连接详细信息：**在部署过程中，{{site.data.keyword.BluSoftlayer_notm}} 从 {{site.data.keyword.BluSoftlayer_notm}} 交叉连接路由器 (XCR) 基础架构向客户的并置环境提供 1G 或 10G 光纤连接。如果未请求并置服务（如果已经连接现有环境），那么 {{site.data.keyword.BluSoftlayer_notm}} 会提供授权证 (LOA)，客户使用该授权证来订购光纤以太网（仅限单模式光纤：1Gig-LX 或 10Gig-LR 光学），其运行范围从客户框架到 {{site.data.keyword.BluSoftlayer_notm}} CFA 终止点，从而系结到交叉连接路由器 (XCR) 基础架构。媒体必须为 1310nm 波长的光学媒体。
+ * **交叉連接詳細資料：**{{site.data.keyword.BluSoftlayer_notm}} 提供 1G 或 10G 光纖連線，從 {{site.data.keyword.BluSoftlayer_notm}} 交叉連接路由器 (XCR) 基礎架構到部署當中的客戶主機託管環境。如果未要求主機託管服務（如果現有環境已經連接的話），{{site.data.keyword.BluSoftlayer_notm}} 會提供授權信 (LOA)，客戶用它來訂購從客戶機箱連到 {{site.data.keyword.BluSoftlayer_notm}}
+CFA 終止點的光纖乙太網路（僅限單一模式光纖、1Gig-LX 或 10Gig-LR 光學設備）。CFA 終止點將限制在交叉連接路由器 (XCR) 基礎架構。媒介必須是 1310nm 波長的光學設備。
 
- * **端口速度选项：**选择 1Gbps、2Gbps、5Gbps 或 10Gbps。
+ * **埠速度選項：**選取 1Gbps、2Gbps、5Gbps 或 10Gbps。
 
- * **估计等待时间：**在当地数据中心内，等待时间大约为 0.5 毫秒。
+ * **約略延遲：**本端資料中心內的延遲大約為 0.5ms。
 
- * **并置服务：**是。
+ * **主機託管服務：**是。
 
- * **冗余：**作为产品的一部分，{{site.data.keyword.BluSoftlayer_notm}} 提供与两个交叉连接路由器 (XCR) 的连接。要建立冗余连接，客户使用等成本多路径 (ECMP) 配置 BGP。
+ * **備援：**{{site.data.keyword.BluSoftlayer_notm}} 在產品中提供對兩台交叉連接路由器 (XCR) 的連線。若要建立備援連線功能，客戶必須在每一個 Direct Link 連線上配置他們認為適合達到備援的 BGP。範例包括諸如這些選項：_偏好最低 MED_、_偏好最高的區域喜好設定_，或_偏好較短的 AS 路徑_。
 
- * **当地/全球路由选项：**通过当地路由选项，可以访问与 PoP 具有相同三个字母前缀（DAL、AMS、MEL 等）的数据中心。需要全球路由选项作为附加组件，以连接在那些位置外部的数据中心。
+ * **本端/廣域遞送選項：**「本端遞送」選項提供對具有與 PoP 相同三個字母字首（DAL、AMS、MEL）之資料中心的存取。「廣域遞送」選項需要為附加程式，以便聯繫那些位置以外的資料中心。

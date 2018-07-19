@@ -19,11 +19,11 @@ Direct Link
     how-to-order.md
     
       {: .topicgroup}
-      Overview Steps for Ordering
+      Visión general de los pasos a seguir para realizar la solicitud
          order-cloud-exchange.md
          order-connect.md
          order-nsp.md
-         order-colocation.md 
+         order-colocation.md
     cloud-exchange-automation.md
     cloud-exchange-connect.md
     subnet-configuration.md

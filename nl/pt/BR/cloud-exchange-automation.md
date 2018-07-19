@@ -55,6 +55,12 @@ Exchange.
 
 ![Etapa 3](/images/Equinix-Step3.png)
 
+** Etapa 3A: **
+
+Opcionalmente, se as portas Diversas estiverem acessíveis e você tiver provisionado anteriormente o primeiro Circuito Virtual, você verá uma tela semelhante à seguinte, mostrando duas portas, nas quais é possível selecionar seu segundo Circuito Virtual.
+
+![2-port-image](/images/exchange-2-ports-image.png)
+
 **Etapa 4:**
 
 No formulário de ordem, insira os parâmetros a seguir para configurar o Direct Link:
@@ -93,8 +99,7 @@ A figura a seguir mostra um exemplo do chamado que está sendo aberto:
 
 **Etapa 8:**
 
-Após concordar com os Termos e condições ao fazer o pedido, um chamado de suporte IBM será gerado após o pedido para continuar com o fornecimento do serviço. 
-O número do chamado será exibido na UI depois da execução do pedido. 
+Após concordar com os Termos e condições ao fazer o pedido, um chamado de suporte IBM será gerado após o pedido para continuar com o fornecimento do serviço. O número do chamado será exibido na UI depois da execução do pedido. 
 
 ![Etapa NE1](/images/Non-Equinix-Step1.png)
 

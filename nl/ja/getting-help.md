@@ -3,7 +3,7 @@
 
 
 copyright:
-  years: 2017,2018
+  years: 2017, 2018
 lastupdated: "2018-02-28"
 
 
@@ -32,7 +32,7 @@ lastupdated: "2018-02-28"
 # ヘルプとサポートの利用 
 {: #gettinghelp}
 
-IBM Cloud Direct Link を使用しているときに問題や質問がある場合は、以下にリストしたいずれかのフォーラムで、情報を検索したり質問したりして、支援を得ることができます。また、[カスタマー・ポータル ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/) でサポート・チケットを開くこともできます。
+IBM Cloud Direct Link を使用しているときに問題や質問がある場合は、以下にリストしたいずれかのフォーラムで、情報を検索したり質問したりして、支援を得ることができます。 また、[カスタマー・ポータル ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/) でサポート・チケットを開くこともできます。
 {:shortdesc}
 
 フォーラムを使用して質問する場合は、{{site.data.keyword.Bluemix_notm}} の開発チームの目に触れるように、質問にタグを付けます。

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-04"
+  years: 2017, 2018
+lastupdated: "2018-04-24"
 
 ---
 
@@ -42,11 +42,41 @@ Para intercambiar información de ruta con el entorno, {{site.data.keyword.BluSo
 
 3. **ECMP**: Para los clientes que eligen crear redundancia en una ubicación soportada, {{site.data.keyword.BluSoftlayer_notm}} soporta la implementación de ECMP (equal-cost multipath) para proporcionar equilibrio de carga y redundancia entre los dos enlaces. Esta configuración de ECMP se debe solicitar en el momento del pedido.
 
+## Especificaciones de BGP para IBM Cloud Direct Link 
+
+Las especificaciones de BGP son las siguientes:
+
+Como se ha comentado en la sección anterior, BGP es obligatorio para gestionar el direccionamiento a través de Direct Link. Una cuenta que solicite Direct Link se migrará al entorno VRF.
+
+**Advertencias para VLANS y VRF:**
+ * No se permite la expansión de VLAN entre cuentas en el entorno VRF. 
+ * El servicio VPN de IPSEC está limitado. 
+ 
+**Nota:** VRF no impide el acceso VPN de PPTP o SSL, pero su comportamiento cambia. Sin VRF, una conexión VPN es suficiente para ver todos los servidores de la cuenta. Con VRF, solo puede acceder a los recursos del mercado asociados a su VPN. Así, si se conecta al VPN DAL, solo puede conectarse a servidores DAL.
+
+ASN de IBM Cloud es **13884**, para los servicios públicos y privados. 
+ * El ASN predeterminado para un cliente cuando realiza el pedido es **64999**, pero el valor predeterminado se puede modificar mediante una solicitud del cliente. 
+ * Opcionalmente, se puede utilizar un ASN privado de 4 bytes comprendido entre 4201000000 y 4201064511.
+ * Si utiliza Direct Link Connect con un servicio de 3 capas, como IP VPN, IBM Cloud establecerá BGP con el ASN del proveedor de Direct Link Connect.
+   
+**Limitaciones estrictas en las asignaciones de IP:**
+ * Si utiliza la red 10.x.x.x, todavía no puede crear solapamientos con los hosts dentro de IBM Cloud ni con la red de servicios de IBM Cloud, que ocupa `10.0.0.0/14`, `10.198.0.0/15` y `10.200.0.0/14`.  
+
+ * No se permiten los siguientes rangos en el sistema Federal y los servidores IBM los rechazarán: `169.254.0.0/16`, `224.0.0.0/4`.
+
+**Recomendaciones, valores predeterminados y límites:**
+
+ * Se da soporte al tunelado (es decir, GRE) y se recomienda si el solapamiento de IP se convierte en un problema.
+ * Los valores predeterminados del temporizador BGP son `Keepalive:30`, `Holdtime:60.`
+ * La autenticación no está habilitada de forma predeterminada.
+ * BGP BFD no está habilitado de forma predeterminada.
+ * El límite en el máximo de prefijos recibidos (del cliente o del proveedor) es de 200 por VRF.
+
 ## Redundancia y diversidad
 
 IBM Cloud Direct Link proporciona diversidad y los clientes son responsables de aplicar la redundancia mediante esquemas BGP.
 
-Si selecciona ECMP para la redundancia, ambas sesiones BGP deberán existir en el mismo XCR, lo que significa que renuncia a la diversidad del direccionador y se expone a riesgos en caso de que el direccionador fallara. Gana una redundancia de 3 capas pero pierde una de 2.
+Si selecciona ECMP para la redundancia, ambas sesiones BGP deberán existir en el mismo XCR, lo que significa que renuncia a la diversidad del direccionador y se expone a riesgos en caso de que el direccionador fallara. Gana una redundancia de 3 capas pero pierde diversidad de direccionador.
 
 ## Más información sobre el uso de VRF
 
@@ -61,7 +91,7 @@ Una alternativa es utilizar la oferta IBM Cloud Direct Link para gestionar los s
 ## Uso de BYOIP y NAT con Direct Link
 IBM Cloud Direct Link no ofrece BYOIP en la red privada, excepto en circunstancias especiales que se tratan en la sección [Direccionamiento privado personalizado](#custom-private-addressing). Por lo tanto, el tráfico con una dirección IP de destino que no haya asignado {{site.data.keyword.BluSoftlayer_notm}} se descartará. Sin embargo, los clientes pueden encapsular tráfico entre la red remota y su red de {{site.data.keyword.BluSoftlayer_notm}} utilizando GRE, IPSec, o VXLAN.  
 
-Habitualmente, el entorno BYOIP se implementa en el ámbito de una Pasarela de red (Vyatta) o un despliegue de VMWare NSX. Esta configuración permite a los clientes utilizar cualquier espacio de IP deseable en el lado de {{site.data.keyword.BluSoftlayer_notm}}, y direccionar de nuevo a través del túnel a la red remota. Tenga en cuenta que esta configuración debe estar gestionada y soportada por el cliente, independiente de {{site.data.keyword.BluSoftlayer_notm}}. Además, esta configuración puede romper la conectividad a la red de servicios de {{site.data.keyword.BluSoftlayer_notm}} si el cliente asigna un bloque 10.x.x.x que {{site.data.keyword.BluSoftlayer_notm}} tenga en uso para los servicios. 
+Generalmente, el entorno BYOIP se implementa en el ámbito de una Pasarela de red (Vyatta) o un despliegue de VMWare NSX. Esta configuración permite a los clientes utilizar cualquier espacio de IP deseable en el lado de {{site.data.keyword.BluSoftlayer_notm}}, y direccionar de nuevo a través del túnel a la red remota. Tenga en cuenta que esta configuración debe estar gestionada y soportada por el cliente, independiente de {{site.data.keyword.BluSoftlayer_notm}}. Además, esta configuración puede romper la conectividad a la red de servicios de {{site.data.keyword.BluSoftlayer_notm}} si el cliente asigna un bloque 10.x.x.x que {{site.data.keyword.BluSoftlayer_notm}} tenga en uso para los servicios. 
 
 Esta solución también requiere que cada host que necesite conectividad a la red de servicios de {{site.data.keyword.BluSoftlayer_notm}} y a la red remota debe tener 2 direcciones IP asignadas: una debe estar asignada desde el bloque de IBM 10.x.x.x y otra desde el bloque de red remota. Las rutas estáticas deben establecerse en el host, para asegurarse de que el tráfico se direcciona adecuadamente. No se podrá asignar espacio de IP directamente en los hosts de {{site.data.keyword.BluSoftlayer_notm}} (BYOIP) y tenerlo direccionable en la red de {{site.data.keyword.BluSoftlayer_notm}} de forma inherente. La única forma de implementar esta capacidad es como se resaltó anteriormente, pero no está soportado por {{site.data.keyword.BluSoftlayer_notm}}.
 

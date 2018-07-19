@@ -47,6 +47,12 @@ Nachdem Sie auf die Schaltfläche **Direct Link Exchange bestellen** oben auf de
 
 ![Schritt 3](/images/Equinix-Step3.png)
 
+**Schritt 3a:**
+
+(Optional) Wenn diverse Ports zugänglich sind und Sie zuvor die erste virtuelle Verbindung bereitgestellt haben, wird eine Anzeige ähnlich der folgenden geöffnet. Die Anzeige enthält zwei Ports und ermöglicht Ihnen das Auswählen der zweiten virtuellen Verbindung.
+
+![Darstellung mit zwei Ports](/images/exchange-2-ports-image.png)
+
 **Schritt 4:**
 
 Im Bestellformular geben Sie die folgenden Parameter ein, um Direct Link zu konfigurieren:

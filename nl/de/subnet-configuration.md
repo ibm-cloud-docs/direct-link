@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-04"
+  years: 2017, 2018
+lastupdated: "2018-04-24"
 
 ---
 
@@ -42,11 +42,41 @@ Zum Austausch von Routeninformationen mit Ihrer Umgebung muss für {{site.data.k
 
 3. **ECMP**: Für Kunden, die eine Redundanz an einem unterstützten Standort schaffen möchten, unterstützt {{site.data.keyword.BluSoftlayer_notm}} die Implementierung von Equal Cost Multipath (ECMP), um Lastausgleich und Redundanz über beide Verbindungen hinweg bereitzustellen. Diese ECMP-Konfiguration sollte zum Zeitpunkt der Bestellung angefordert werden.
 
+## BGP-Spezifikationen für IBM Cloud Direct Link 
+
+Die BGP-Spezifikationen lauten wie folgt:
+
+Wie im vorherigen Abschnitt angegeben, ist BGP für die Verwaltung Ihrer Routenwahl über Direct Link obligatorisch. Ein Konto, über das Direct Link bestellt wird, wird in die VRF-Umgebung migriert.
+
+**Einschränkungen für VLANs und VRF:**
+ * Kontoübergreifendes VLAN-Spanning ist in der VRF-Umgebung nicht zulässig 
+ * Der IPSEC-VPN-Service ist eingeschränkt 
+ 
+**Hinweis:** VRF verhindert nicht den SSL- oder PPTP-VPN-Zugriff, aber es modifiziert das zugehörige Verhalten. Ohne VRF reicht eine einzige VPN-Verbindung aus, um alle Server in Ihrem Konto anzuzeigen. Mit VRF können Sie nur auf Ressourcen in dem Markt zugreifen, der Ihrem VPN zugeordnet ist. Beispiel: Wenn Sie die Verbindung zum DAL-VPN herstellen, sind nur Verbindungen zu DAL-Servern möglich.
+
+Die IBM Cloud-ASN-Nummer für öffentliche und private Services ist **13884**. 
+ * Die Standard-ASN-Nummer für Bestellungen ist **64999**. Diese Standardeinstellung kann auf Kundenanfrage geändert werden. 
+ * Optional kann eine 4 Byte umfassende, private ASN-Nummer von 4201000000 bis 4201064511 unterstützt werden.
+ * Wenn Sie Direct Link Connect mit einem Layer-3-Service wie IP VPN verwenden, wird BGP von IBM Cloud mit dem ASN des Direct Link Connect-Providers eingerichtet.
+   
+**Strikte Einschränkungen für IP-Zuordnungen:**
+ * Bei Verwendung des 10.x.x.x-Netzes dürfen weiterhin keine Überschneidungen mit Ihren Hosts in IBM Cloud und mit dem IBM Cloud-Servicenetz auftreten, das `10.0.0.0/14`, `10.198.0.0/15` und `10.200.0.0/14` umfasst.  
+
+ * Die folgenden Bereiche sind im US-System nicht zulässig und werden von IBM Servern abgelehnt: `169.254.0.0/16`, `224.0.0.0/4`.
+
+**Empfehlungen, Standardwerte und Einschränkungen:**
+
+ * Die Tunnelung (GRE) wird unterstützt und empfohlen, wenn IP-Überschneidungen ein Problem darstellen.
+ * Die Standardeinstellungen für den BGP-Zeitgeber sind `Keepalive:30` und `Holdtime:60.`
+ * Die Authentifizierung ist nicht standardmäßig aktiviert.
+ * BGP BFD ist nicht standardmäßig aktiviert.
+ * Der maximale Präfixgrenzwert für den Empfang (vom Kunden oder vom Provider) ist 200 pro VRF.
+
 ## Redundanz und Diversität
 
 IBM Cloud Direct Link bietet Diversität. Die Kunden sind für die Bereitstellung von Redundanz über ihre BGP-Schemas verantwortlich.
 
-Wenn Sie ECMP zwecks Redundanz auswählen, müssen beide BGP-Sitzungen auf demselben Router für Querverbindungen (XCR) vorhanden sein. Sie geben also die Diversität des Routers auf und sind bei Fehlern des Routers einem Risiko ausgesetzt. Sie erhalten Layer-3-Redundanz, verlieren aber die Layer-2-Redundanz.
+Wenn Sie ECMP zwecks Redundanz auswählen, müssen beide BGP-Sitzungen auf demselben Router für Querverbindungen (XCR) vorhanden sein. Sie geben also die Diversität des Routers auf und sind bei Fehlern des Routers einem Risiko ausgesetzt. Sie gewinnen Layer-3-Redundanz, verlieren jedoch Router-Diversität.
 
 ## Weitere Informationen zur Verwendung von VRF
 

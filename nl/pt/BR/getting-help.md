@@ -3,7 +3,7 @@
 
 
 copyright:
-  years: 2017,2018
+  years: 2017, 2018
 lastupdated: "2018-02-28"
 
 
@@ -46,8 +46,7 @@ para que ela possa ser vista pelas equipes de desenvolvimento do {{site.data.key
 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://stackoverflow.com/search?q=direct-link+ibm-cloud){:new_window} e
 identifique a sua pergunta com "direct-link" e "ibm-cloud".
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->
-* Para perguntas sobre o serviço e instruções de introdução, use o fórum [IBM developerWorks dW Answers ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/answers/topics/directlink.html?smartspace=ibm-cloud){:new_window}. 
-Inclua as tags "directlink" e "ibm-cloud".
+* Para perguntas sobre o serviço e instruções de introdução, use o fórum [IBM developerWorks dW Answers ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/answers/topics/directlink.html?smartspace=ibm-cloud){:new_window}. Inclua as tags "directlink" e "ibm-cloud".
 
 Consulte [Obtendo ajuda](https://console.bluemix.net/docs/support/index.html#getting-help) para mais detalhes sobre como usar os fóruns.
 

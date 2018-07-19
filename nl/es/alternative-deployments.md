@@ -24,13 +24,13 @@ Los despliegues predeterminados de Direct Link Connect y Direct Link Exchange no
 
 Muchos de nuestros clientes deciden crear despliegues redundantes configurando una conexión de Direct Link adicional. Este documento presenta algunas representaciones esquemáticas de despliegues de IBM Cloud Direct Link alternativos.
 
-![Exchange diverso](/images/Direct-Link-Exchange-Diverse.PNG)
+![Exchange diverso](/images/Direct-Link-Exchange-Diverse.png)
 
 **Figura 1 (arriba): Un despliegue de IBM Cloud Direct Link Exchange diverso**
 
 IBM Cloud Direct Link también facilita el establecimiento de despliegues de Connect diversos, tal como se muestra en la figura siguiente.
 
-![Connect diverso](/images/Direct-Link-Connect-Diverse.PNG)
+![Connect diverso](/images/Direct-Link-Connect-Diverse.png)
 
 
 **Figura 2 (arriba): Un despliegue de IBM Cloud Direct Link Connect redundante y diverso**
@@ -39,13 +39,13 @@ IBM Cloud Direct Link también facilita el establecimiento de despliegues de Con
 
 Algunos de nuestros clientes desean utilizar Direct Link Exchange junto con otros proveedores de nube, como por ejemplo AWS, Azure o Google Cloud. El esquema siguiente muestra una vista general sobre cómo establecer este tipo de conexión con un proveedor de Cloud Exchange.
 
-![Otras nubes](/images/Direct-Link-Exchange-Other-Clouds.PNG)
+![Otras nubes](/images/Direct-Link-Exchange-Other-Clouds.png)
 
 **Figura 3 (arriba): Utilización de IBM Cloud Direct Link Exchange junto con otras nubes**
 
 Algunos de nuestros clientes desean utilizar Direct Link Connect junto con otros proveedores de nube, como por ejemplo AWS, Azure o Google Cloud. El esquema siguiente muestra una vista general sobre cómo establecer este tipo de conexión con Telco/NSP.
 
-![Otras nubes](/images/Direct-Link-Connect-other-clouds.PNG)
+![Otras nubes](/images/Direct-Link-Connect-other-clouds.png)
 
 **Figura 4 (arriba): Utilización de IBM Cloud Direct Link Connect junto con otras nubes**
 

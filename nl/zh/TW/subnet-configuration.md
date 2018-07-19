@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-04"
+  years: 2017, 2018
+lastupdated: "2018-04-24"
 
 ---
 
@@ -16,63 +16,93 @@ lastupdated: "2017-12-04"
 
 # 配置 IBM Cloud Direct Link
 
-建立 IBM Cloud Direct Link 连接后，您可以按照本文档中指定的步骤来配置子网，以便与 IBM Cloud 交互。
+建立 IBM Cloud Direct Link 連線功能之後，您可以遵循本文件提供的步驟，配置您的子網路以和 IBM Cloud 互動。
 
-一般而言，要使 IBM Cloud Direct Link 连接运作，您需要执行一些基本的网络配置步骤，然后还需要设置边界网关协议 (BGP)。在设置过程中，IBM 工程师将与您一起合作，以使您的网络能够使用所需的虚拟路由功能 (VRF)。
+一般而言，若要讓您的 IBM Cloud Direct Link 連線運作，您需要進行一些基本網路配置步驟，然後設定「邊界閘道通訊協定 (BGP)」。在設定過程期間，IBM 工程師會與您合作，讓您的網路能使用「虛擬遞送功能 (VRF)」功能，此為必要項目。
 
-## 基本网络配置
+## 基本網路配置
 
-1. 使用标准 RFC1918 专用地址空间定义您的远程网络。 
- * 对于新环境而言，建议**不要**使用 10.0.0.0/8 空间。 
- * 对于利用 10.0.0.0/8 的现有环境而言，建议您获取更详细的评估，以确保与 {{site.data.keyword.BluSoftlayer_notm}} 服务网络或与已经分配给您帐户的网络没有冲突。
+1. 使用標準 RFC1918 專用位址空間定義您的遠端網路。 
+ * 若為新的環境，建議**不要**使用 10.0.0.0/8 空間。 
+ * 若為使用 10.0.0.0/8 的現有環境，我們建議您取得更詳細的評量，以確保不會與 {{site.data.keyword.BluSoftlayer_notm}} 服務網路衝突，或與已經指派給您帳戶的網路衝突。
 
-2. {{site.data.keyword.BluSoftlayer_notm}} 的员工为每个连接分配 /31 或 /30，并在 {{site.data.keyword.BluSoftlayer_notm}} 交叉连接路由器 (XCR) 基础架构上配置界面 IP 地址。  
+2. 我們的 {{site.data.keyword.BluSoftlayer_notm}} 人員會指派 /31 或 /30 給每個連線，並在 {{site.data.keyword.BluSoftlayer_notm}} 交叉連接路由器 (XCR) 基礎架構上配置介面 IP 位址。  
 
-3. 使用我们提供的 IP 地址，配置客户边缘路由器 (CER) 上的界面：将 {{site.data.keyword.BluSoftlayer_notm}}XCR IP 用作目标为 {{site.data.keyword.BluSoftlayer_notm}} 的任何流量的下一个中继段。 
+3. 在您的客戶邊緣路由器 (CER) 上使用我們提供的 IP 位址配置介面：利用 {{site.data.keyword.BluSoftlayer_notm}} XCR IP 作為目的地為 {{site.data.keyword.BluSoftlayer_notm}} 之任何資料流量的下個躍點。 
 
-4. 对于返回流量，{{site.data.keyword.BluSoftlayer_notm}} 将已分配的 CER IP 用作目标为远程网络的任何流量的下一个中继段，如通过 BGP 宣告的一样。
+4. 對於返回資料流量，{{site.data.keyword.BluSoftlayer_notm}} 會利用已指派的 CER IP，作為目的地為遠端網路之任何資料流量的下個躍點，如同 BGP 所通告。
 
 ## 配置 BGP
 
-要与您的环境交换路径信息，{{site.data.keyword.BluSoftlayer_notm}} 需要配置 BGP。  
+為了與您的環境交換路徑資訊，{{site.data.keyword.BluSoftlayer_notm}} 需要配置 BGP。  
 
-1. **ASN**：{{site.data.keyword.BluSoftlayer_notm}} 为每个客户用量分配专用 ASN。或者，您可以利用自己的公共 ASN。当您下订单时，会请求您的首选项。在实施过程中，会向您提供已分配的专用 ASN。
+1. **ASN**：{{site.data.keyword.BluSoftlayer_notm}} 指派專用 ASN 供每位客戶使用。或者，您也可以利用自己的公用 ASN。您的喜好設定會在您下單時要求。已指派的專用 ASN 會在實作過程期間提供給您。
 
-2. **VRF**：使用 VRF，{{site.data.keyword.BluSoftlayer_notm}} 会宣告分配给客户帐户的特定专用子网。您必须宣告您希望通过 {{site.data.keyword.BluSoftlayer_notm}} 专用网络连接的远程网络。以下网络已过滤掉，不能接受：0.0.0.0、10.0.0.0/14、10.198.0.0/15、10.200.0.0/14、169.254.0.0/16、224.0.0.0/4。您作为客户负责管理 IBM Cloud 网络之间的宣告。（有关 VRF 的更多信息包含在下一节中。）
+2. **VRF**：{{site.data.keyword.BluSoftlayer_notm}} 會使用 VRF 通告指派給您的客戶帳戶的特定專用子網路。您必須通告想要可以從 {{site.data.keyword.BluSoftlayer_notm}} 專用網路聯繫的遠端網路。下列網路會被過濾掉，無法接受：0.0.0.0、10.0.0.0/14、10.198.0.0/15、10.200.0.0/14、169.254.0.0/16、224.0.0.0/4。身為客戶的您必須負責管理與 IBM Cloud 網路之間的通告。（關於 VRF 的更多詳細資料包含於下一節。）
 
-3. **ECMP**：对于选择在受支持位置构建冗余的客户来说，{{site.data.keyword.BluSoftlayer_notm}} 支持实施等成本多路径 (ECMP) 以跨两个链接提供负载均衡和冗余。此 ECMP 设置应该在订购时请求。
+3. **ECMP**：對於選擇在支援的位置建置備援的客戶，{{site.data.keyword.BluSoftlayer_notm}} 支援實作等價多路徑 (ECMP) 以提供兩個鏈結之間的負載平衡和備援。這項 ECMP 設定應該在訂購時要求。
 
-## 冗余和多样性
+## IBM Cloud Direct Link 的 BGP 規格 
 
-IBM Cloud Direct Link 提供多样性，而客户则负责通过 BGP 模式实现冗余。
+BGP 規格如下所示：
 
-如果选择 ECMP 来提供冗余，那么两个 BGP 会话必须存在于同一个 XCR 上，因此您也就放弃了路由器多样性，一旦路由器发生故障就会暴露在风险中。您获得了第 3 层冗余，但却失去了第 2 层冗余。
+如前一節所述，BGP 是管理透過 Direct Link 的遞送時必要的項目。訂購 Direct Link 的帳戶將移轉至 VRF 環境。
 
-## 使用 VRF 的更多信息
+**對於 VLANS 及 VRF 的警示：**
+ * VRF 環境中不容許帳戶間的 VLAN 跨越。 
+ * IPSEC VPN 服務受限制。 
+ 
+**附註：**VRF 不會阻止 SSL 或 PPTP VPN 存取，但其行為會變更。沒有 VRF 的情況下，一個 VPN 連線就足以查看您帳戶上的所有伺服器。使用 VRF 時，您只能存取市場中與您的 VPN 相關聯的資源。因此，如果您連接至 DAL VPN，則只能連接至 DAL 伺服器。
 
-利用 IBM Cloud Direct Link 解决方案的所有帐户必须迁移到 VRF。使用 VRF，客户将可用的路径宣告到其自定义远程网络。请注意，此配置不允许您利用 {{site.data.keyword.BluSoftlayer_notm}} 网络上的自定义 IP 地址。
+IBM Cloud ASN 是適用於「公用」和「專用」服務的 **13884**。 
+ * 訂購時客戶的預設 ASN 為 **64999**，但可以應客戶要求變更此預設值。 
+ * 選擇性地，可支援 4201000000 與 4201064511 之間的 4 位元組「專用 ASN」。
+ * 如果您使用 Direct Link Connect 搭配第 3 層服務（例如 IP VPN），則 IBM Cloud 將透過 Direct Link Connect 提供者的 ASN 建立 BGP
+   
+**對於 IP 指派的嚴格限制：**
+ * 如果您使用 10.x.x.x 網路，您仍然無法與 IBM Cloud 內的主機或 IBM Cloud 服務網路（其佔用 `10.0.0.0/14`、`10.198.0.0/15` 及 `10.200.0.0/14`）建立重疊。  
 
-迁移到 VRF 在设置过程中完成。它需要一个简短的停机时间（对于具有多个 VLAN/位置的大型帐户，可达 30 分钟），在该期间，后端网络 VLAN 将在移动到 VRF 时失去彼此的连接。VRF 迁移由实施工程师计划。
+ * 下列範圍在 Federal 系統中不被接受，將遭到 IBM 伺服器拒絕：`169.254.0.0/16`、`224.0.0.0/4`。
 
-请注意，VRF 会消除帐户的“VLAN 生成”选项，包括任何帐户到帐户 VLAN 生成能力，这是因为所有 VLAN 都可以进行通信，除非引入网关设备来管理流量。VRF 还会限制使用 {{site.data.keyword.BluSoftlayer_notm}} VPN 服务的能力，因为它与 {{site.data.keyword.BluSoftlayer_notm}} SSL、PPTP 和 IPSec VPN 服务不兼容。   
+**建議、預設值和限制：**
 
-替代方法是使用 IBM Cloud Direct Link 产品本身来管理服务器，或者运行可以配置为不同类型 VPN 的自己的 VPN 解决方案（如 Vyatta）。迁移到 VRF 后，在对计算 VM 运行所在的相同数据中心位置进行 VPN 连接时，SSL VPN 通常会运作。
+ * 通道作業（亦即 GRE）受到支援，如果 IP 重疊變成問題時建議使用通道作業。
+ * BGP 計時器預設值為 `keepalive:30`、`holdtime:60`。
+ * 依預設，不會啟用鑑別。
+ * 依預設，不會啟用 BGP BFD。
+ * 每 VRF 的最大接收（來自客戶或提供者）字首限制為 200。
 
-## 搭配使用 BYOIP 和 NAT 和 Direct Link
-IBM Cloud Direct Link 在专用网络（在[定制专用定址](#custom-private-addressing)一节中所涵盖的特殊环境中除外）上不提供 BYOIP。因此，会舍弃具有未由 {{site.data.keyword.BluSoftlayer_notm}} 分配的目标 IP 地址的流量。但是，客户可以使用 GRE、IPSec 或 VXLAN，封装远程网络及其 {{site.data.keyword.BluSoftlayer_notm}} 之间的流量。  
+## 備援與多樣性
 
-最常见的是，BYOIP 环境在网关 (Vyatta) 或 VMWare NSX 部署的范围内实施。此配置使客户能够使用 {{site.data.keyword.BluSoftlayer_notm}} 端的任何所需 IP 空间，跨隧道路由回远程网络。请注意，此配置必须由客户管理和支持，与 {{site.data.keyword.BluSoftlayer_notm}} 无关。而且，如果客户为 {{site.data.keyword.BluSoftlayer_notm}} 服务分配 {{site.data.keyword.BluSoftlayer_notm}} 正在使用的 10.x.x.x 段，那么此配置还可以中断与服务网络的连接。 
+IBM Cloud Direct Link 提供多樣性，而客戶則負責透過他們的 BGP 綱目實作備援。
 
-此解决方案还要求每个需要与 {{site.data.keyword.BluSoftlayer_notm}} 服务网络和远程网络连接的主机必须已分配 2 个 IP 地址：一个必须从 IBM 10.x.x.x 段分配，另一个从远程网络段分配。主机上必须设置静态路由，以确保正确路由流量。您无法在 {{site.data.keyword.BluSoftlayer_notm}} 主机 (BYOIP) 上直接分配 IP 空间，让其在 {{site.data.keyword.BluSoftlayer_notm}} 网络上天生就可路由。实现此能力的唯一方法如之前所述，但是 {{site.data.keyword.BluSoftlayer_notm}} 并不支持此操作。
+如果您選取 ECMP 來進行備援，兩個 BGP 階段作業都必須存在於相同的 XCR，因此您便放棄了路由器多樣性，而冒著路由器萬一故障所致的風險。您得到第 3 層備援，但失去路由器多樣性。
 
-替代方法是客户频繁分配远程网络段，以在远程边缘路由器上配置的 NAT 表中使用。此配置允许客户限制这两个网络所需的更改，同时仍将流量转换为与这两个网络都兼容的网络地址空间。
+## 使用 VRF 的詳細資訊
 
-## 关于定制专用定址
+利用 IBM Cloud Direct Link 解決方案的所有帳戶都必須移轉至 VRF。藉由使用 VRF，客戶會通告自行定義之遠端網路的可用路徑。請注意，此配置不允許您在 {{site.data.keyword.BluSoftlayer_notm}} 網路上利用自行定義的 IP 位址。
 
-有时，在 IBM Cloud Direct Link 加载期间，客户使用之前说明的方法，无法解决内部部署和 {{site.data.keyword.BluSoftlayer_notm}} 专用网络之间的 IP 定址冲突。如果发生此情况，{{site.data.keyword.BluSoftlayer_notm}} 工程或销售代表可能会建议您使用_定制专用定址_ (CPA)。CPA 没有相关联的额外费用；但是，此功能有独特的需求和限制，您应该在同意使用之前对其进行彻底地了解。这些详细信息在建议 CPA 的 IBM Cloud 代表向您提供的文档中有所说明。 
+移轉至 VRF 會在設定過程期間完成。它需要短暫的中斷時間範圍（對於具有多個 VLAN/位置的大型帳戶最多 30 分鐘），在這期間後端網路 VLAN 移動到 VRF 時會失去彼此的連線功能。VRF 移轉由實作的工程師排定。
 
-_关键需求_是定制专用定址仅可以在新的空 {{site.data.keyword.BluSoftlayer_notm}} 帐户和新的 Direct Link 连接上激活。无法将现有资源转换或迁移到 CPA。
+請注意，VRF 刪除了您帳戶的「VLAN 跨距」選項，包括任何帳戶對帳戶的 VLAN 跨距功能，因為所有 VLAN 都能通訊，除非引入了「閘道應用裝置」來管理資料流量。VRF 限制了使用 {{site.data.keyword.BluSoftlayer_notm}} VPN 服務的能力，因為它與 {{site.data.keyword.BluSoftlayer_notm}} SSL、PPTP 及 IPSec VPN 服務並不完全相容。   
 
-定制专用定制可让您在所选择的有效专用 IPv4 地址范围（10.x.x.x、192.168.x.x 或 172.16.x.x）内托管 {{site.data.keyword.BluSoftlayer_notm}} 服务器。CPA 在特殊的内部路由地址范围 161.26.x.x 中提供一组常用 IBM Cloud 服务，该地址范围保留专用 IP 地址免费供客户使用。虽然 CPA 使您能够定义多达 5 个专用 IP 范围（称为 _CPA 网络_），但是每个 Direct Link 仅能与一个 CPA 网络连接。如果在帐户中存在其他 CPA 网络，那么将无法通过 Direct Link 连接这些网络。
+替代方案是使用 IBM Cloud Direct Link 供應項目本身來管理您的伺服器，或是自行執行可以配置為不同類型 VPN 的 VPN 解決方案（例如 Vyatta）。移轉至 VRF 之後，SSL VPN 通常會在對運算 VM 執行所在之相同資料中心位置建立 VPN 連線時運作，但它不允許廣域存取。
 
-定制专用地址利用 VRF 和 BGP。实施工程师将协助您详细了解 CPA 相关内容。
+## 使用 BYOIP 及 NAT 搭配 Direct Link
+IBM Cloud Direct Link 不在專用網路上提供 BYOIP，在[自訂專用定址](#custom-private-addressing)一節底下的特殊情況例外。因此，將會捨棄目的地 IP 位址不是由 {{site.data.keyword.BluSoftlayer_notm}} 指派的資料流量。不過，客戶可以使用 GRE、IPSec 或 VXLAN 封裝遠端網路與其 {{site.data.keyword.BluSoftlayer_notm}} 網路之間的資料流量。  
+
+最常見的情況是，BYOIP 環境是在網路閘道 (Vyatta) 或 VMWare NSX 部署的範圍內實作。此配置讓客戶能在 {{site.data.keyword.BluSoftlayer_notm}} 端使用任何想要的 IP 空間，以及透過通道遞送回遠端網路。請注意，此配置必須由客戶管理及支援，與 {{site.data.keyword.BluSoftlayer_notm}} 無關。再者，如果客戶指派了 {{site.data.keyword.BluSoftlayer_notm}} 用於服務的 10.x.x.x 區塊，此配置可能會岔斷與 {{site.data.keyword.BluSoftlayer_notm}} 服務網路的連線功能。 
+
+此解決方案還要求，需要連接至 {{site.data.keyword.BluSoftlayer_notm}} 服務網路及遠端網路的每台主機都必須被指派 2 個 IP 位址：一個必須從 IBM 10.x.x.x 區塊指派，另一個則從遠端網路區塊指派。主機上必須已設定靜態路徑，以確保適當地遞送資料流量。您無法直接在 {{site.data.keyword.BluSoftlayer_notm}} 主機 (BYOIP) 上指派 IP 空間，也無法讓該資料流量可在 {{site.data.keyword.BluSoftlayer_notm}} 網路上遞送。實作此功能的唯一方式就是執行上述方法，但 {{site.data.keyword.BluSoftlayer_notm}} 並不支援。
+
+或者，客戶可以經常指派遠端網路區塊，以在其遠端邊緣路由器上配置的 NAT 表格中使用。此配置讓客戶可以限制兩個網路所需的變更，同時仍將資料流量轉換成與兩個網路相容的網址空間。
+
+## 關於自訂專用定址
+
+有時，在 IBM Cloud Direct Link 上線期間，客戶無法使用上述方法解決其內部部署與 {{site.data.keyword.BluSoftlayer_notm}} 專用網路之間的 IP 位址衝突。如果發生這種狀況，{{site.data.keyword.BluSoftlayer_notm}} 工程師或業務代表可能會建議您使用_自訂專用定址_ (CPA)。CPA 並不會造成額外的相關聯費用；不過，此特性具有獨特的需求和限制，在同意使用之前，您應該徹底瞭解它。這些詳細資料將在推薦 CPA 的 IBM Cloud 代表提供給您的文件中進行說明。 
+
+_關鍵需求_ 是只能在新的空 {{site.data.keyword.BluSoftlayer_notm}} 帳戶和新的 Direct Link 連線上啟動自訂專用定址。無法將現有資源轉換或移轉至 CPA。
+
+自訂專用定址讓您可以在所選擇的有效專用 IPv4 位址範圍（10.x.x.x、192.168.x.x 或 172.16.x.x）中管理 {{site.data.keyword.BluSoftlayer_notm}} 伺服器。CPA 在一個特殊的內部遞送地址範圍 (161.26.x.x) 中提供一部分的常見 IBM Cloud 服務，這讓專用 IP 位址可供客戶自由使用。雖然 CPA 可讓您定義多達 5 個專用 IP 範圍（稱為 _CPA 網路_），但每一個 Direct Link 僅會連接一個 CPA 網路。如果帳戶中存在其他 CPA 網路，則無法透過 Direct Link 存取它們。
+
+自訂專用定址會利用 VRF 和 BGP。實作工程師將協助您瞭解與 CPA 相關的詳細資料。

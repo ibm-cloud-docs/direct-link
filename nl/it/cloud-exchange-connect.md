@@ -21,7 +21,7 @@ Questa pagina ti spiega come ordinare il servizio IBM Cloud Direct Link Connect.
 
 # Come ordinare Direct Link Connect
 
-Per eseguire il provisioning di un ordine IBM Cloud Direct Link Connect, completa la seguente procedura: 
+Per eseguire il provisioning di un ordine IBM Cloud Direct Link Connect, completa la seguente procedura:
 
 **Passo 1:**
 
@@ -50,7 +50,7 @@ Nel modulo d'ordine, immetti i seguenti parametri per configurare Direct Link:
   - Seleziona la velocità di collegamento richiesta per la connessione.
   - Seleziona l'opzione di instradamento richiesta per la connessione.
   - Immetti un numero ASN dall'intervallo fornito nella casella delle informazioni per gli scambi BGP.
-  - Seleziona il VRF per la connessione. 
+  - Seleziona il VRF per la connessione.
 
 **Passo 5:**
 
@@ -64,7 +64,7 @@ Dopo aver fornito i valori di input, la schermata della IU successiva mostra il 
 
 **Passo 7:**
 
-Devi ACCETTARE i termini e le condizioni prima di poter inserire l'ordine di IBM Cloud Direct Link. Leggi i _Termini e le condizioni_ attentamente, perché contengono le informazioni tecniche importanti che devi comprendere prima di procedere. Le seguenti figure mostrano le schermate che visualizzerai, dopo aver inserito l'ordine. 
+Devi ACCETTARE i termini e le condizioni prima di poter inserire l'ordine di IBM Cloud Direct Link. Leggi i _Termini e le condizioni_ attentamente, perché contengono le informazioni tecniche importanti che devi comprendere prima di procedere. Le seguenti figure mostrano le schermate che visualizzerai, dopo aver inserito l'ordine.
 
 La seguente figura mostra la schermata dei termini e delle condizioni:
 

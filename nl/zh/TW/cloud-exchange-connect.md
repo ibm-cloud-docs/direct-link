@@ -15,65 +15,65 @@ lastupdated: "2018-04-11"
 {:download: .download}
 
 
-# 分步骤：订购 IBM Cloud Direct Link Connect
+# 逐步：訂購 IBM Cloud Direct Link Connect
 
-此页面为您介绍如何订购 IBM Cloud Direct Link Connect 服务。在下订单之后，会生成 IBM 支持凭单。
+本頁面示範如何訂購 IBM Cloud Direct Link Connect 服務。下訂單之後，將會產生 IBM 支援問題單。
 
-# 如何订购 Direct Link Connect
+# 如何訂購 Direct Link Connect
 
-要供应 IBM Cloud Direct Link Connect 订单，请完成下列步骤：
+若要佈建 IBM Cloud Direct Link Connect 訂單，請完成下列步驟：
 
-**步骤 1：**
+**步驟 1：**
 
-在[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/) 登录客户帐户。
+在[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/) 上登入您的客戶帳戶。
   
-**步骤 2：**
+**步驟 2：**
 
-在**网络**选项卡下，选择 **Direct Link -> Connect** 以打开显示现有 IBM Cloud Direct Link 连接（如果有）的页面。
+在**網路**標籤下，選取 **Direct Link -> Connect**，這會開啟頁面顯示任何現有的 IBM Cloud Direct Link 連線。
 
-![步骤 2](images/Step2-Connect-Offering-Tab.png)
-![步骤 2a](images/Step2-Connect-List-Page.png)
+![步驟 2](images/Step2-Connect-Offering-Tab.png)
+![步驟 2a](images/Step2-Connect-List-Page.png)
 
-**步骤 3：**
+**步驟 3：**
 
-单击页面顶部的**订购 Direct Link Connect** 按钮，就会看到订购表单，可以在该表单中输入 IBM Cloud Direct Link Connect 订单的配置参数。
+按一下頁面頂端的**訂購 Direct Link Connect** 按鈕之後，您將會看到訂單表格，您可以在這裡輸入 IBM Cloud Direct Link Connect 訂單的配置參數。
 
-![步骤 3](images/Step3-Connect-Order-Page.png)
+![步驟 3](images/Step3-Connect-Order-Page.png)
 
-**步骤 4：**
+**步驟 4：**
 
-在订购表单中，输入用于配置 Direct Link 的下列参数：
+在訂單表格中，輸入下列參數以配置 Direct Link：
 
-  - 输入 IBM Cloud Direct Link 连接名称。
-  - 在列表中，选择要建立 IBM Cloud Direct Link 连接的 PoP 位置。
-  - 在列表中，选择首选的 Cloud Exchange 提供商名称。
-  - 选择连接所需的“链路速度”。
-  - 选择连接所需的路由选项。
-  - 输入在 BGP 交换的信息框中给定范围内的 ASN 编号。
-  - 选择连接的 VRF。
+  - 輸入 IBM Cloud Direct Link 連線名稱。
+  - 從清單中，選取您要建立 IBM Cloud Direct Link 連線的 PoP 位置。
+  - 從清單中，選取您喜好的 Cloud Exchange 提供者名稱。
+  - 選取連線所需的鏈結速度。
+  - 選取連線所需的遞送選項。
+  - 針對 BGP 交換，輸入來自資訊方框中所給定範圍的 ASN 號碼。
+  - 選取連線的 VRF。
 
-**步骤 5：**
+**步驟 5：**
 
-在选择或输入这些值时，您会在左侧面板中看到每月大约费用。
+當您選取或輸入這些值時，可以在左邊的畫面看到約略的每月費用。
 
-![步骤 5](images/Step5-Connect-Link-Speeds.png)
+![步驟 5](images/Step5-Connect-Link-Speeds.png)
 
-**步骤 6：**
+**步驟 6：**
 
-在提供输入值之后，下一个 UI 屏幕中会显示根据您所选择的选项算出的实际每月定价。
+提供輸入值之後，下一個使用者介面畫面會顯示根據您所選取選項的實際每月定價。
 
-**步骤 7：**
+**步驟 7：**
 
-您必须同意条款和条件，才能下 IBM Cloud Direct Link 订单。请详细阅读_条款和条件_，因为其中包含重要的技术信息，必须先理解这些信息才能继续。下图显示了在下订单之后您会看到的屏幕。
+您必須同意條款，然後才能訂購 IBM Cloud Direct Link。請仔細閱讀_條款_，因為它們包含您在繼續之前必須瞭解的重要技術資訊。接下來的圖顯示您下訂單之後會看到的畫面。
 
-下图显示了“条款和条件”屏幕：
+下圖顯示「條款」畫面：
 
-![步骤 7](images/Step7-Connect-Summary-Page.png)
+![步驟 7](images/Step7-Connect-Summary-Page.png)
 
-下图显示了在下订单之后您会看到的屏幕。该屏幕中显示了生成的凭单编号：
+下圖顯示您下訂單之後會看到的畫面。畫面上顯示產生的問題單號碼：
 
-![步骤 7a](images/Step7-Connect-Ticket-Generated.png)
+![步驟 7a](images/Step7-Connect-Ticket-Generated.png)
 
-下图显示了开具的凭单的示例：
+下圖顯示正在開立問題單的範例：
 
-![步骤 7b](images/Step7-Connect-Ticket-Details.png)
+![步驟 7b](images/Step7-Connect-Ticket-Details.png)

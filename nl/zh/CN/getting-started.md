@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-11"
+lastupdated: "2018-05-04"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2018-04-11"
 
 # IBM Cloud Direct Link 入门
 
-IBM Cloud Direct Link 是 IBM Cloud 的产品三套件。每个产品都可使客户能够在其远程网络环境与其 IBM Cloud 部署之间创建专用连接。最常见的情况是，实施这些产品以支持混合工作负载、跨提供商工作负载、大型或频繁数据传输、专用工作负载或使得 {{site.data.keyword.BluSoftlayer_notm}} 环境的管理工作更加轻松。
+IBM Cloud Direct Link 是 IBM Cloud Network 提供的四个产品的套件，在全球各个位置可用。每个产品支持客户在其远程网络环境与其 IBM Cloud 部署之间创建直接专用连接 - 无需接触公用因特网。最常见的情况是，实施这些产品以支持混合工作负载、跨提供商工作负载、大型或频繁数据传输、专用工作负载或使得 {{site.data.keyword.BluSoftlayer_notm}} 环境的管理工作更加轻松。
 
 **IBM Cloud Direct Link 解决方案**
 

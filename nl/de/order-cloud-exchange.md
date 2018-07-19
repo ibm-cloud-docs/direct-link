@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-04"
+  years: 2017, 2018
+lastupdated: "2018-06-25"
 
 ---
 
@@ -23,3 +23,22 @@ lastupdated: "2017-12-04"
 5. Bestellen Sie eine "virtuelle Verbindung" durch den Exchange-Provider und verweisen Sie auf die Ticket-ID der {{site.data.keyword.BluSoftlayer_notm}} Direct Link-Anforderung als Ihre "Anforderungs-ID" oder "Berechtigungs-ID".
 6. Die IP-Zuordnung für die Netzinfrastruktur von {{site.data.keyword.BluSoftlayer_notm}} erfolgt innerhalb von drei Werktagen nach erfolgreicher Abwicklung der Anforderung für eine virtuelle Verbindung.
  
+## Standorte
+ 
+ In der Tabelle sind die IBM Cloud-Rechenzentren aufgeführt, die Direct Link Exchange-Konnektivität bieten:
+ 
+| Exchange-Provider	| Code für IBM Rechenzentrum |
+|-------------|-----------------------|
+| AT Tokyo	| TOK02 |
+| Cologix	| MON02, TOR02 |
+| Equinix	| SNG02, SYD02, TOK01, AMS02, PAR02, CHI01, DAL03, NYC02, NYC03, SAO02, SJC02, TOR02, WDC02, LON01, FRA03 |									
+| InterXion	| FRA01, STO01 |
+| KINX	| SEO02* |
+| NextDC | 	MEL02* |
+| SK C&C | 	SEO01 |
+
+* Demnächst verfügbar
+
+## Preise
+
+Informationen zu Preisen finden Sie im [Preisdokument](pricing.html).

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-03-20"
+lastupdated: "2018-06-11"
 
 ---
 
@@ -22,3 +22,31 @@ lastupdated: "2018-03-20"
  * Peça a conectividade entre o seu provedor de rede e o provedor Connect.
  * Peça um "circuito virtual" por meio do provedor Connect e consulte o ID de chamado da solicitação do IBM Cloud Direct Link do {{site.data.keyword.BluSoftlayer_notm}} como o seu "ID de solicitação" ou "ID de autorização"
  * A designação de IP na infraestrutura de rede do {{site.data.keyword.BluSoftlayer_notm}} será concluída dentro de três dias úteis após a conclusão da solicitação de circuito virtual.
+ 
+
+## Locais
+
+Nossos provedores de parceiro do IBM Cloud Direct Link Connect incluem estes locais:
+
+| Parceiros | Data centers disponíveis |
+|--------------|--------------|
+| AT&T; NetBond® for Cloud | SNG02, FRA01, LON01, DAL03, SJC02, WDC02|
+| AT&T Cloud Gateway (anteriormente conhecido como RedFringe)| DAL03, WDC02 |
+| Bell Canada | MON02, TOR02 |
+| British Telecom |  LON01, FRA01, WDC02, SAO02*, HKG01* |
+| Colt | AMS02, FRA01, PAR02, LON01*, HKG01*, SNG02*, TOK01* |
+| IBM BlueFringe | DAL03, WDC02 |
+| CenturyLink | DAL03, SAO02, MIA01 * |
+| Megaport |  MEL02, SYD02, SNG02, AMS02, FRA01, LON03, STO01, DAL03, SJC02, TOR02, WDC05, HKG01* |
+| PacketFabric | DAL04*, SJC02*, WDC02* |
+| PCCW | HKG01* |
+| Tata | CHE01 |
+| Telia | STO01, OSL02 * |
+| Telstra | MEL02, SNG02, SYD02, NYC01, LON01* |
+| Verizon | SYD02, TOK01, AMS02, FRA01, DAL03, SJC02, WDC02 |
+
+* = Em breve
+
+## Precificação
+
+Para obter informações de precificação, consulte o [documento de precificação](pricing.html).

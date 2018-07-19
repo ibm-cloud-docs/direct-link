@@ -1,8 +1,8 @@
 ---
 
 copyright:
- years: 2017, 2018
-lastupdated: "2018-04-05"
+  years: 2017, 2018
+lastupdated: "2018-05-11"
 
 ---
 
@@ -14,66 +14,114 @@ lastupdated: "2018-04-05"
 {:tip: .tip}
 {:download: .download}
 
-# 常见问题及解答
+# 常見問題 (FAQ)
 
-本节包含一些有关 IBM Cloud Direct Link 常见问题的解答。 
+本節包含關於 IBM Cloud Direct Link 的部分常見問題的回答。 
 
-## IBM Cloud Direct Link 如何运作？
-对于每个 Direct Link 客户，IBM Cloud 团队会分配一个小型的专用子网，以在 {{site.data.keyword.BluSoftlayer_notm}} 交叉连接路由器 (XCR) 和客户的边缘路由器 (CER) 之间构建点到点网络。然后，{{site.data.keyword.BluSoftlayer_notm}} 和客户会配置 BGP 以便在环境之间交换路径。最后，{{site.data.keyword.BluSoftlayer_notm}} 会将客户置于 VRF 中，以允许实施客户远程网络专用地址空间的非唯一路径。
+## IBM Cloud Direct Link 如何運作？
+對於每位 Direct Link 客戶，IBM Cloud 團隊會指派小型的專用子網路來建置 {{site.data.keyword.BluSoftlayer_notm}} 交叉連接路由器 (XCR) 與客戶的邊緣路由器 (CER)
+之間的點對點網路。然後，{{site.data.keyword.BluSoftlayer_notm}} 與客戶會配置 BGP，以便在環境之間交換路徑。最後，{{site.data.keyword.BluSoftlayer_notm}} 會讓客戶進入 VRF，以允許實作對客戶遠端網路專用位址空間的非唯一路徑。
 
-## IBM Cloud 按照 Direct Link 产品的带宽用量计费吗？
-是的。IBM Cloud 会按照 Direct Link 产品的所有出站带宽用量计费。入站带宽是免费的，不按用量收费。
+## IBM Cloud 會計量 Direct Link 產品的頻寬嗎？
+是的。透過「客戶」與 IBM Cloud 之間的 Direct Link 服務所產生的頻寬使用免費且無計量，而從 IBM Cloud 服務到公用網際網路的出埠頻寬，IBM Cloud 會計量。
 
-## 使用 Direct Link 时会产生哪些额外的其他方费用？
-交换提供商和网络服务提供商可能会向您收取额外费用。请咨询您的提供商以获取他们的收费信息。
+## Direct Link 的計費何時開始？
+Direct Link Connect 的費用涵蓋 IBM Cloud 基礎架構上的服務終止的成本。 
 
-## 如何利用 IBM Cloud Direct Link 实现冗余？
-您可以通过连接到多个 IBM Cloud Direct Link Dedicated 提供商或 Exchange 提供商 {{site.data.keyword.BluSoftlayer_notm}} 来实现 Direct Link 的冗余。也可以利用其中一个为您的服务添加冗余的 IBM Cloud Direct Link 提供商。
+「基礎架構服務」會事先計費，並從接受客戶的訂單之後開始；不過，由於 IBM Cloud Direct Link 的本質，Direct Link 服務計費將在建立與 IBM Cloud 的「邊界閘道通訊協定 (BGP)」階段作業時開始，或在提供服務金鑰給客戶之後 30 天開始。 
 
-## 缺省“当地”路由与全球路由附加组件之间有何区别？
-使用我们的标准 Direct Link 产品，您可以在所选区域的数据中心之间发送流量。如果您需要访问指定区域外部的其他数据中心，那么您必须订购全球路由附加组件。此模型基于 ACL（访问控制表），其在您订购 Direct Link 连接时即已就位。 
+計費會在下列情況之後停止 (1) 客戶要求刪除電路，且 (2)「Connect 提供者」或「網路服務提供者」已取消佈建電路。
 
-## 对于全球路由附加组件来说，如何收取出站（输出）带宽超额费用？
-当超出所分配的带宽时会按月收取超额费用，但是仅限出站带宽。入站带宽是免费的，不按用量收费。出站带宽的收费以您数据所横跨的两个区域中的较高者为基础。例如，如果在 DAL03 中配置 Direct Link 且您的数据流量通过墨西哥，那么将根据墨西哥的带宽费率向您收取费用。
+## Direct Link 的其他方是否會產生額外費用？
+您可能會有來自 Exchange 提供者或網路服務提供者的其他費用。費用資訊請洽詢您的提供者。
 
-## 为什么存在全球路由附加组件包？
-我们添加全球路由附加组件是为了防止客户在穿越数据中心区域外部时经历意外数据丢失。这可使我们的大部分客户保持较低的成本，并让跻身国际市场的客户能够轻松地到达全球所有区域。但是，通常来说，客户仅需要当地带宽包。
+## 如何使用 IBM Cloud Direct Link 來達到備援？
+Direct Link 不提供固有的備援服務。Direct Link 可以提供「多樣化」連線，讓客戶能夠透過 BGP 來建立備援。若要透過 Direct Link 達到多樣性，您可以連接至多個 IBM Cloud Direct Link Dedicated 提供者或 {{site.data.keyword.BluSoftlayer_notm}} 的 Exchange 提供者。或者，透過 Exchange 與 Connect，您可以運用多樣化 NNI 來搭配 IBM Cloud Direct Link 提供者。
 
-## 什么是当地路由和全球路由选项？
-每个客户在订购 Direct Link 服务时，都会选择当地路由和全球路由选项。如果客户需要将流量路由到他们订购 Direct Link 区域中的 POP 的外部，那么他们必须添加全球路由选项；否则，他们的流量会限制在当地 POP 所提供的服务。
+## 預設的「本端」遞送與廣域遞送附加程式之間有什麼差異？
+使用我們的標準 Direct Link 供應項目，您可以在選取的地區的資料中心之間傳送資料流量。如果需要存取指定地區之外的其他資料中心，必須訂購廣域遞送附加程式。這個模型是根據在您訂購 Direct Link 連線時生效的 ACL（存取控制清單）。 
 
-每个月，使用 1G 线路的所有客户会分配 10TB 的免费输出流量；使用 10G 线路的客户会分配 50TB。超额基于下表，采用较高的市场费率。如果您选择全球路由，那么不会对任何当地输出流量向您收费，仅会对源自或终止在当地 POP 外部的流量进行收费。
+## 廣域遞送附加程式的出埠頻寬超額如何計費？
+當您超出頻寬配給時，超額會依月份計費，但這只會針對出埠頻寬。入埠頻寬免費，且不予計量。出埠頻寬的計費是根據您的資料跨越之兩個地區中較高的費率。例如，如果您的 Direct Link 配置在 DAL03，而資料流量通過了墨西哥，您會被依墨西哥的頻寬費率計費。
 
-|数据市场 1|数据市场 2|数据市场 3|
+## 為何有廣域遞送附加程式套件存在？
+我們已新增廣域遞送附加程式，避免客戶在資料中心地區之外遍訪時遭遇非預期的資料成本。它可讓大部份的客戶成本降低，也讓能全球上線的客戶能夠輕鬆地聯繫全球所有地區。不過，通常客戶只需要本端頻寬套件。
+
+## 何謂本端遞送與廣域遞送選項？
+本端遞送與廣域遞送選項是在每位客戶訂購 Direct Link 服務時選取。如果客戶需要將資料流量遞送到他們訂購 Direct Link 的區域內 POP 之外，則必須新增「廣域遞送」選項；否則他們的資料流量將限制在本端 POP 所提供的服務。
+
+每個月，使用 1G 電路的所有客戶會被分配到 10TB 的免費輸出資料流量；使用 10G 電路的客戶被分配到 50TB。超額會以下表為基準，並以較高的市場費率較普遍。如果您選取「廣域遞送」，則不會因為任何本端輸出資料流量而被計費，只會針對起點或終點在本端 POP 以外的資料流量計費。
+
+|資料市場|資料市場 2|資料市場 3|
 |---|---|---|
-|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
-**表 1：利用层**<br/>
-以星号 (*) 标记的市场中的 Direct Link 产品必须订购全球路由。
+|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
+**表 1：使用率層級**<br/>
+標示星號 (\*) 的市場中，Direct Link 供應項目「必須」訂購「廣域遞送」。
 
 
 
-## 如果我连接到某个区域（如达拉斯）中的 Direct Link NSP 或 Direct Link 云交换，我能够通过 Direct Link 访问美国的其他区域吗？
-可以。如果您选择全球路由附加组件，那么您可以访问您所在区域外的区域。如果未选择此选项，那么您的 Direct Link 流量将限制在您所选的 POP 的区域。
+## 如果我連接至某地區（例如達拉斯）中的 Direct Link Dedicated、Direct Link Connect 或 Direct Link Cloud Exchange，我能透過 Direct Link 存取美國的其他地區嗎？
+是的，如果您選擇「廣域遞送」附加程式，便可以存取地區之外的區域。如果未選取這個選項，則您的 Direct Link 資料流量將侷限在您所選 PoP 的地區。如需詳細資料，請參閱[定價文件](pricing.html)。
 
-## 我可以从给定 Direct Link 位置连接到任何可用的区域吗？
-可以。只要您订购具有全球路由附加组件的 Direct Link 就可以。
+## 我可以從給定的 Direct Link 位置連接至任何可用的地區嗎？
+是的，只要您訂購 Direct Link 時選取了「廣域遞送」附加程式。
 
-## 我可以限制我的 Direct Link 能够到达的区域吗？
-不可以。IBM Cloud 提供两个选项：(1) 仅限单个区域或者 (2) 所有区域（具有全球路由附加组件）。
+## 我可以限制我的 Direct Link 能聯繫的地區嗎？
+不可以。IBM Cloud 提供兩種選項：(1) 僅限單一地區，或 (2) 所有地區，使用「廣域遞送」附加程式。
 
-## 如果我使用自动订购流程订购 Equinix Cloud Exchange，并为我分配了与我的内部网络重叠的子网，那怎么办？
+## 我使用了 Equinix Cloud Exchange 的自動化訂購程序，且被指派了與內部網路重疊的子網路怎麼辦？
 
-自 2018 年 3 月起，建议的最佳做法是取消自动订购，并提交新的凭单以填写 Direct Link 调查表。您应该指明是否首选 10.254.x.x 范围或 172.32.x.x 范围内的其他子网。
+截至 2018 年三月，建議的最佳作法是取消您的自動化訂購並提供新的問題單，以填寫 Direct Link 問卷。您應該指出您喜好 10.254.x.x 範圍的另一個子網路，還是 172.32.x.x 範圍。
 
-## Direct Link Exchange 和 Direct Link Connect 有何区别？
+## Direct Link Exchange 和 Direct Link Connect 有什麼差異？
 
-这两种服务的相似之处在于，都具有 IBM Cloud Direct Link 相对成本较低、容许延迟、入口点速度快的优点。简而言之，Exchange 利用数据中心提供商，而 Connect 则利用 Telco 承运方。下面是其他一些详细信息：
+這兩項服務很類似，都相當低成本、容忍延遲，且能快速接觸 IBM Cloud Direct Link 的好處。簡括地說，Exchange 利用資料中心提供者，而 Connect 利用通訊業者。以下是一些額外的詳細資料：
 
-**Direct Link Exchange** 适用于更乐意利用数据中心内交换的客户。利用 Exchange 服务，客户可以支持快速建立与并置的多个云连接，因为底层电路已供应（其他这些云提供商的设施中必须已经存在物理互联）。
+對於偏好在資料中心內利用 Exchange 的客戶，建議使用 **Direct Link Exchange**。使用 Exchange 服務，客戶可以快速地啟用與其主機託管的多雲端連線功能，因為基礎電路已經佈建好（這些其他的雲端提供者必須已在設施內有實體交互連接）。
 
-Direct Link Exchange 可以允许通过单个云交换端口的多个云共享使用环境，该环境是由 NNI 连接在第 2 层在 IBM Cloud 和 Cloud Exchange 服务提供商之间创建的。端口速度最高可达 1Gb。
+Direct Link Exchange 容許透過單一雲端交換埠的多雲端共用環境，該環境是由 IBM Cloud 與 Cloud Exchange 服務提供者之間的第 2 層網路至網路 (NNI) 連線所建立。埠速度最高可以達到 1Gb。
 
-**Direct Link Connect** 适用于更乐意利用自己的内部部署与 IBM Cloud 之间现有网络的客户。利用 Direct Link Connect 服务，客户可以使用新的和现有的 Telco 网络（如 MPLS），通过预供应的底层电路来快速支持 IBM Cloud。
+**Direct Link Connect** 適合喜好利用自己內部部署與 IBM Cloud 之間現有網路的客戶。使用 Direct Link Connect 服務，客戶可以使用新的及現有的通訊業者網路（例如 MPLS）來快速啟用 IBM Cloud，因為能利用已經預先佈建的基礎電路。
 
-利用 Direct Link Connect，IBM 以及合作伙伴都会通过由 IBM 合作伙伴在世界各地运营的第 2 层 10G 网络到网络双接口 (NNI)，在第 2 层和第 3 层与客户连接。端口速度最高可达 5Gb。
+透過 Direct Link Connect，客戶可透過 Connect 提供者、經由「網路至網路 (NNI)」連線來連接至 IBM Cloud，並由全球設施中的 IBM 合作夥伴操作。埠速度最高可以達到 5Gb。
 
+## 我們可以透過 Direct Link 支援 IPv6 嗎？
+
+不適用於 BGP 階段作業。我們必須從 IPv4 中指派我們的 /30，而且我們需要客戶相同的回報。
+
+## 我們可以在專用網路上執行 IPV6 嗎？
+
+不可以。IPv6 只能公用。
+
+## Verizon SCI 是否有任何特殊需求？字首 / ASN / VLAN BGP / 等等？
+
+Verizon SCI 是數個 MPLS 型第 3 層 (IP VPN) 服務的其中一個。它需要 IBM 與 Verizon 之間建立 BGP，而不是直接面對客戶。然後，Verizon 與客戶之間建立 BGP，並據此通告路徑。有數個其他基於第 3 層的服務提供者會參與 Direct Link Connect 計劃。客戶需要知道他們訂購什麼，以及連接到 IBM Cloud 時其帳戶要如何處理。
+
+## Direct Link 是否支援任何類型的 QoS？
+
+我們無法支援任何 QoS 保證。QoS 需要我們的每一個服務供應商與 IBM Cloud 之間有 MPLS 對映。「雲端服務提供者」通常無法在此時支援 QoS，因為它必須從頭到尾涵蓋，而且涉及其間的每個裝置。透過「通道作業」或任何其他方法都無法提供暫行解決方法。
+
+## Direct Link 是否支援 Jumbo 訊框？
+
+Dedicated 和 Dedicated Hosting 支援 Jumbo 訊框（最多 9214 位元組）。
+理論上，支援 Connect 和 Exchange 是可行的，但需要「服務提供者」與 IBM 合作，並確保端對端連線支援「Jumbo 訊框」，包括基礎「網路至網路介面 (NNI)」。依預設，Exchange 及 Connect 已設定為具有 1500 位元組 MTU 支援。
+
+## 使用 Direct Link Connect 時，客戶如何確保透過相同通訊業者的路由器多樣性（範例：DAL03 中的 Verizon）？
+
+我們有不同的 XCR，可為通訊業者建立不同的 NNI 鏈結。從那個點開始，由通訊業者決定是否維持多樣性。
+
+## 若為 Direct Link Connect，客戶是否需要訂購 2 個鏈結以提供備援，或是 Direct Link Connect 原本就提供備援？
+
+訂購 2 個鏈結以提供多樣性。我們並未在交換器或路由器之間提供備援。客戶可在每一個 Direct Link 上建立具有其 BGP 配置的備援。
+
+## 要如何輕鬆升級我的連線頻寬（例如，從 1GB 到 5GB）？
+
+一般而言，我們會在 1G 光學設備上安裝 1G 以下的速度。若為 2G 到 10G 的速度，請安裝 10G 光學設備。因此，從 1G 升級至 5G 將需要指派或插入新的光學設備。它會是影響服務的事件。如果這是您預期的成長類型，則可以要求在 Direct Link 部署之初安裝 10G 光學設備，或一開始就訂購 2G，讓 10G 光學設備就定位。
+
+## ECMP 是處理備援連線應採取的方法嗎？是否有替代方案？
+
+請注意，ECMP 並不是為了備援連線，而是為了平衡兩個鏈結的負載。透過 ECMP，兩個連線都必須終止回到相同的 IBM Cloud 交叉連接路由器 (XCR)，而使它成為單一失敗點。（換句話說，當兩個階段作業是位於相同的 IBM Cloud XCR 上時，才能佈建 ECMP）。 
+
+ECMP 是 BGP 的一項特性。如果您要尋求備援，請取得兩個 Direct Link 連線，一個連線進入一個 XCR。如果您要使用 ECMP 並具有備援，則您需要每個 XCR 有兩個 Direct Link 連線，這樣您才能同時執行 2 個 ECMP 階段作業。
+
+或者，我們有些客戶將兩個鏈結設定到相同資料中心（例如，WDC02）的不同 XCR，然後視需要使用 BGP 配置進行失效接手。比起將 Direct Link 連線置於兩個不同的資料中心（例如 WDC02 和 WDC05），此配置較少備援（較不安全）。

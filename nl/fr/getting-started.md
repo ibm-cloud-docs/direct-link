@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-11"
+lastupdated: "2018-05-04"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2018-04-11"
 
 # Initiation à IBM Cloud Direct Link
 
-IBM Cloud Direct Link est une suite de trois offres d'IBM Cloud. Chaque offre permet aux clients de créer des connexions privées entre leurs environnements de réseau distant et leurs déploiements IBM Cloud. Le plus souvent, ces offres sont implémentées pour la prise en charge des charges de travail hybrides, des charges de travail inter-fournisseurs, des transferts de données volumineux ou fréquents, des charges de travail privées ou pour faciliter l'administration de l'environnement {{site.data.keyword.BluSoftlayer_notm}}.
+IBM Cloud Direct Link est une suite de quatre offres d'IBM Cloud, disponibles dans des emplacements du monde entier. Chaque offre permet aux clients de créer des connexions privées directe entre leurs environnements de réseau distant et leurs déploiements IBM Cloud, sans passer par l'internet public. Le plus souvent, ces offres sont implémentées pour la prise en charge des charges de travail hybrides, des charges de travail inter-fournisseurs, des transferts de données volumineux ou fréquents, des charges de travail privées ou pour faciliter l'administration de l'environnement {{site.data.keyword.BluSoftlayer_notm}}.
 
 **Solutions IBM Cloud Direct Link**
 

@@ -25,7 +25,7 @@ Para suministrar un pedido de IBM Cloud Direct Link Connect, siga estos pasos:
 
 **Paso 1:**
 
-Inicie sesión en la cuenta del cliente en el [Portal del cliente ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/)
+Inicie sesión en la cuenta del cliente en el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/)
   
 **Paso 2:**
 

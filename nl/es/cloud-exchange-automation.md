@@ -22,7 +22,7 @@ Esta página le indica cómo solicitar el servicio de IBM Cloud Direct Link Exch
 
 ## Requisitos previos
 
-Para utilizar la función de automatización, las VLAN privadas deben estar asociadas a un VRF en la red privada de IBM Cloud. Si no se cumple este requisito, se generará una incidencia de soporte de IBM cuando realice un pedido a través del portal del cliente.
+Para utilizar la función de automatización, las VLAN privadas deben estar asociadas a un VRF en la red privada de IBM Cloud. Si no se cumple este requisito, se generará una incidencia de soporte de IBM cuando realice un pedido a través del Portal de clientes.
 
  * [Cómo solicitar Cloud Exchange](#how-to-order-cloud-exchange)
  * [Cómo solicitar Cloud Exchange para Equinix](#how-to-order-cloud-exchange-for-equinix)
@@ -33,7 +33,7 @@ Para suministrar una conexión de IBM Cloud Direct Link Exchange, siga estos pas
 
 **Paso 1:**
 
-Inicie sesión en la cuenta del cliente en el [Portal de cliente ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/).
+Inicie sesión en la cuenta del cliente en el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/).
 
 **Paso 2:**
 
@@ -46,6 +46,12 @@ En el separador **Red**, seleccione **Direct Link -> Exchange**, para abrir una 
 Después de pulsar el botón **Solicitar Direct Link Exchange** en la parte superior de la página, verá el formulario de pedido en el que puede especificar los parámetros de configuración para la conexión de IBM Cloud Direct Link Exchange.
 
 ![Paso 3](/images/Equinix-Step3.png)
+
+**Paso 3A:**
+
+Opcionalmente, si se puede acceder a diversos puertos, y previamente ha suministrado el primer circuito virtual, verá una pantalla parecida a la siguiente, que muestra dos puertos, en la que puede seleccionar su segundo circuito virtual.
+
+![imagen de 2 puertos](/images/exchange-2-ports-image.png)
 
 **Paso 4:**
 

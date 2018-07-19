@@ -20,32 +20,32 @@ Questo documento illustra alcune alternative che i nostri clienti a volte scelgo
 
 ## Distribuzioni diverse per Exchange e Connect
 
-Le distribuzioni predefinite di Direct Link Connect e Direct Link Exchange non includono la configurazione ridondante, anche se possono essere distribuite in modo diverso su router separati. 
+Le distribuzioni predefinite di Direct Link Connect e Direct Link Exchange non includono la configurazione ridondante, anche se possono essere distribuite in modo diverso su router separati.
 
-Molti dei nostri clienti scelgono di creare le distribuzioni ridondanti configurando una ulteriore connessione Direct Link. Questo documento presenta alcune rappresentazioni schematiche delle distribuzioni IBM Cloud Direct Link alternative. 
+Molti dei nostri clienti scelgono di creare le distribuzioni ridondanti configurando una ulteriore connessione Direct Link. Questo documento presenta alcune rappresentazioni schematiche delle distribuzioni IBM Cloud Direct Link alternative.
 
-![Exchange diverso](/images/Direct-Link-Exchange-Diverse.PNG)
+![Exchange diverso](/images/Direct-Link-Exchange-Diverse.png)
 
 **Figura 1 (precedente): una distribuzione IBM Cloud Direct Link Exchange diversa**
 
-IBM Cloud Direct Link rende anche facile stabilire distribuzioni Connect diverse, come mostrato nella seguente figura. 
+IBM Cloud Direct Link rende anche facile stabilire distribuzioni Connect diverse, come mostrato nella seguente figura.
 
-![Connect diverso](/images/Direct-Link-Connect-Diverse.PNG)
+![Connect diverso](/images/Direct-Link-Connect-Diverse.png)
 
 
 **Figura 2 (precedente): una distribuzione IBM Cloud Direct Link Connect diversa e ridondante**
 
 ## Utilizzo di Exchange e Connect insieme ad altri cloud
 
-Alcuni dei nostri clienti vogliono utilizzare Direct Link Exchange insieme ad altri provider cloud, come AWS, Azure o Google Cloud. Il seguente schema mostra una panoramica su come stabilire questo tipo di connessione con un provider Cloud Exchange. 
+Alcuni dei nostri clienti vogliono utilizzare Direct Link Exchange insieme ad altri provider cloud, come AWS, Azure o Google Cloud. Il seguente schema mostra una panoramica su come stabilire questo tipo di connessione con un provider Cloud Exchange.
 
-![Altri cloud](/images/Direct-Link-Exchange-Other-Clouds.PNG)
+![Altri cloud](/images/Direct-Link-Exchange-Other-Clouds.png)
 
 **Figura 3 (precedente): utilizzo di IBM Cloud Direct Link Exchange insieme ad altri cloud**
 
 Alcuni dei nostri clienti vogliono utilizzare Direct Link Connect insieme ad altri provider cloud, come AWS, Azure o Google Cloud. Il seguente schema mostra una panoramica su come stabilire questo tipo di connessione con un Telco/NSP.
 
-![Altri cloud](/images/Direct-Link-Connect-other-clouds.PNG)
+![Altri cloud](/images/Direct-Link-Connect-other-clouds.png)
 
 **Figura 4 (precedente): utilizzo di IBM Cloud Direct Link Connect insieme ad altri cloud**
 

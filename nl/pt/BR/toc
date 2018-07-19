@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="direct-link" audience="direct-link" href="/docs/infrastructure/direct-link/getting-started.html"}
-Direct Link
+Link direto
 
     {: .navgroup id="learn"}
     getting-started.md
@@ -19,11 +19,11 @@ Direct Link
     how-to-order.md
     
       {: .topicgroup}
-      Overview Steps for Ordering
+      Etapas da visão geral para o pedido
          order-cloud-exchange.md
          order-connect.md
          order-nsp.md
-         order-colocation.md 
+         order-colocation.md
     cloud-exchange-automation.md
     cloud-exchange-connect.md
     subnet-configuration.md

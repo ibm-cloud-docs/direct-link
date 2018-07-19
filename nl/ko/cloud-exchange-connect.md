@@ -15,13 +15,13 @@ lastupdated: "2018-04-11"
 {:download: .download}
 
 
-# 단계별: IBM Cloud Direct Link 연결 주문
+# 단계별: IBM Cloud Direct Link Connect 주문
 
-이 페이지에서는 IBM Cloud Direct Link 연결 서비스를 주문하는 방법에 대해 설명합니다. 주문 후 IBM 지원 티켓이 생성됩니다.
+이 페이지에서는 IBM Cloud Direct Link Connect 서비스를 주문하는 방법에 대해 설명합니다. 주문 후 IBM 지원 티켓이 생성됩니다.
 
-# Direct Link 연결 주문 방법
+# Direct Link Connect 주문 방법
 
-IBM Cloud Direct Link 연결 주문을 프로비저닝하려면 다음 단계를 완료하십시오.
+IBM Cloud Direct Link Connect 주문을 프로비저닝하려면 다음 단계를 완료하십시오.
 
 **단계 1:**
 
@@ -29,14 +29,14 @@ IBM Cloud Direct Link 연결 주문을 프로비저닝하려면 다음 단계를
   
 **단계 2:**
 
-**네트워크** 탭에서 **Direct Link -> 연결**을 선택하여 기존 IBM Cloud Direct Link 연결(있는 경우)을 표시하는 페이지를 여십시오.
+**네트워크** 탭에서 **Direct Link -> Connect**를 선택하여 기존 IBM Cloud Direct Link 연결(있는 경우)을 표시하는 페이지를 여십시오.
 
 ![단계 2](images/Step2-Connect-Offering-Tab.png)
 ![단계 2a](images/Step2-Connect-List-Page.png)
 
 **단계 3:**
 
-페이지의 맨 위에 있는 **Direct Link 연결 주문** 단추를 클릭하면 IBM Cloud Direct Link 연결 주문에 대한 구성 매개변수를 입력할 수 있는 주문서가 표시됩니다.
+페이지의 맨 위에 있는 **Direct Link Connect 주문** 단추를 클릭하면 IBM Cloud Direct Link Connect 주문에 대한 구성 매개변수를 입력할 수 있는 주문서가 표시됩니다.
 
 ![단계 3](images/Step3-Connect-Order-Page.png)
 
@@ -46,7 +46,7 @@ IBM Cloud Direct Link 연결 주문을 프로비저닝하려면 다음 단계를
 
   - IBM Cloud Direct Link 연결 이름을 입력하십시오.
   - 목록에서 IBM Cloud Direct Link 연결을 설정할 PoP 위치를 선택하십시오.
-  - 목록에서 선호하는 클라우드 교환 제공자의 이름을 선택하십시오.
+  - 목록에서 선호하는 Cloud Exchange 제공자의 이름을 선택하십시오.
   - 연결에 필요한 링크 속도를 선택하십시오.
   - 연결에 필요한 라우팅 옵션을 선택하십시오.
   - BGP 교환에 대한 정보 상자에 제공된 범위의 ASN 번호를 입력하십시오.

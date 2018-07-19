@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-04"
+  years: 2017, 2018
+lastupdated: "2018-06-25"
 
 ---
 
@@ -23,3 +23,22 @@ lastupdated: "2017-12-04"
 5. 通过 Exchange 提供商订购“虚拟电路”，将 {{site.data.keyword.BluSoftlayer_notm}} Direct Link 请求的凭单标识引用为“请求标识”或“授权标识”。
 6. {{site.data.keyword.BluSoftlayer_notm}} 网络基础架构上的 IP 分配将在虚拟线路请求完成后的 3 个工作日内完成。
  
+## 位置
+ 
+ 下表显示了哪些 IBM Cloud 数据中心提供 Direct Link Exchange 连接：
+ 
+|Exchange 提供商|IBM 数据中心代码|
+|-------------|-----------------------|
+|AT Tokyo|TOK02|
+|Cologix|MON02, TOR02 |
+|Equinix|SNG02, SYD02, TOK01, AMS02, PAR02, CHI01, DAL03, NYC02, NYC03, SAO02, SJC02, TOR02, WDC02, LON01, FRA03|									
+|InterXion|FRA01, STO01|
+|KINX|SEO02*|
+|NextDC| 	MEL02*|
+|SK C&C| 	SEO01|
+
+* 即将推出
+
+## 定价
+
+有关定价信息，请参阅[定价文档](pricing.html)。

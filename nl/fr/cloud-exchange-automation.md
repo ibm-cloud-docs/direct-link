@@ -18,7 +18,7 @@ lastupdated: "2018-04-11"
 
 Cette page vous indique comment commander le service IBM Cloud Direct Link Exchange. Si vous commandez IBM Cloud Direct Link pour Equinix Cloud Exchange, la mise à disposition du service est automatique, ce qui signifie que vous pouvez passer une commande pour une connexion IBM Cloud Direct Link (Equinix) sans ouvrir un ticket de support IBM.
 
-**(Remarque : cette fonction de mise à disposition automatique est uniquement réservée à Equinix Cloud Exchange pour le moment. Dans les éditions suivantes, elle sera activée pour les autres fournisseurs).**
+**(Remarque : cette fonction de mise à disposition automatique est uniquement réservée à Equinix Cloud Exchange pour le moment. Dans les éditions suivantes, elle sera activée pour les autres fournisseurs.)**
 
 ## Conditions requises
 
@@ -46,6 +46,12 @@ Sous l'onglet **Réseau**, sélectionnez **Direct Link -> Exchange** pour ouvrir
 Après avoir cliqué sur le bouton de **commande de Direct Link Exchange** en haut de la page, vous verrez apparaître le formulaire de commande dans lequel vous pourrez entrer les paramètres de configuration de la connexion IBM Cloud Direct Link Exchange.
 
 ![Etape 3](/images/Equinix-Step3.png)
+
+**Etape 3A :**
+
+Eventuellement, si de nombreux ports sont accessibles et que le premier circuit virtuel a déjà été mis à votre disposition, un écran semblable a celui présenté ci-après s'affiche. Il contient deux ports parmi lesquels vous pouvez sélectionner votre second circuit virtuel. 
+
+![2-port-image](/images/exchange-2-ports-image.png)
 
 **Etape 4 :**
 
@@ -85,7 +91,7 @@ La figure suivante montre un exemple de ticket ouvert :
 
 **Etape 8 :**
 
-Après avoir accepté les dispositions générales, un ticket de support IBM est généré lorsque vous passez la commande pour procéder à la mise à disposition du service. Le numéro de ticket sera affiché dans l'interface utilisateur après avoir passé la commande.  
+Après avoir accepté les dispositions générales, un ticket de support IBM est généré lorsque vous passez la commande pour procéder à la mise à disposition du service. Le numéro de ticket sera affiché dans l'interface utilisateur après avoir passé la commande. 
 
 ![Etape NE1](/images/Non-Equinix-Step1.png)
 

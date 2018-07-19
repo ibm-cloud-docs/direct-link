@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-11"
+lastupdated: "2018-05-04"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2018-04-11"
 
 # Iniciación a IBM Cloud Direct Link
 
-IBM Cloud Direct Link es una suite de tres ofertas de IBM Cloud. Cada una de ellas permite a los clientes crear conexiones privadas entre su entorno de red remoto y sus despliegues de IBM Cloud. Habitualmente, estas ofertas se implementan para dar soporte a cargas de trabajo híbridas, cargas de trabajo de proveedor, transferencias de datos grandes o frecuentes, cargas de trabajo privadas, o para facilitar la administración del entorno de {{site.data.keyword.BluSoftlayer_notm}}.
+IBM Cloud Direct Link es una suite de cuatro ofertas de IBM Cloud Network, con disponibilidad en distintas ubicaciones en todo el mundo. Cada una de ellas permite a los clientes crear conexiones directas y privadas entre sus entornos de red remotos y sus despliegues de IBM Cloud, sin pasar por Internet pública. Generalmente, estas ofertas se implementan para dar soporte a cargas de trabajo híbridas, cargas de trabajo de proveedor, transferencias de datos grandes o frecuentes, cargas de trabajo privadas, o para facilitar la administración del entorno de {{site.data.keyword.BluSoftlayer_notm}}.
 
 **Soluciones de IBM Cloud Direct Link**
 
@@ -25,4 +25,4 @@ IBM Cloud Direct Link es una suite de tres ofertas de IBM Cloud. Cada una de ell
  * [IBM Cloud Direct Link Dedicated](about.html#the-direct-link-dedicated-solution)
  * [IBM Cloud Direct Link Dedicated Hosting](about.html#the-direct-dedicated-hosting-solution)
 
-Para empezar a utilizar IBM Cloud Direct Link, navegue a través de esta documentación y decida qué solución funcionará mejor para usted. Si desea más ayuda para empezar, puede abrir una incidencia mediante el [Portal de cliente ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/), o puede ponerse en contacto con su representante de ventas de IBM Cloud.
+Para empezar a utilizar IBM Cloud Direct Link, navegue a través de esta documentación y decida qué solución funcionará mejor para usted. Si desea más ayuda para empezar, puede abrir una incidencia mediante el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/), o puede ponerse en contacto con su representante de ventas de IBM Cloud.

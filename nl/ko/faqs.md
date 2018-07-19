@@ -1,8 +1,8 @@
 ---
 
 copyright:
- years: 2017, 2018
-lastupdated: "2018-04-05"
+  years: 2017, 2018
+lastupdated: "2018-05-11"
 
 ---
 
@@ -19,16 +19,23 @@ lastupdated: "2018-04-05"
 이 섹션에는 IBM Cloud Direct Link에 대해 자주 묻는 질문에 대한 답변이 포함되어 있습니다. 
 
 ## IBM Cloud Direct Link는 어떻게 작동합니까?
-모든 Direct Link 고객을 위해 IBM 클라우드 팀은 {{site.data.keyword.BluSoftlayer_notm}} 교차 연결 라우터(XCR) 및 고객의 에지 라우터(CER) 간의 지점간 네트워크를 빌드하도록 소형 사설 서브넷을 지정합니다. 그러면 {{site.data.keyword.BluSoftlayer_notm}} 및 고객은 환경 간의 라우트를 교환하기 위해 BGP를 구성합니다. 마지막으로, {{site.data.keyword.BluSoftlayer_notm}}는 고객의 원격 네트워크의 사설 주소 공간으로 고유하지 않은 라우트의 구현을 허용하기 위해 고객을 VRF에 배치합니다.
+모든 Direct Link 고객을 위해 IBM Cloud 팀은 {{site.data.keyword.BluSoftlayer_notm}} 교차 연결 라우터(XCR) 및 고객의 에지 라우터(CER) 간의 지점간 네트워크를 빌드하도록 소형 사설 서브넷을 지정합니다. 그러면 {{site.data.keyword.BluSoftlayer_notm}} 및 고객은 환경 간의 라우트를 교환하기 위해 BGP를 구성합니다. 마지막으로, {{site.data.keyword.BluSoftlayer_notm}}는 고객의 원격 네트워크의 사설 주소 공간으로 고유하지 않은 라우트의 구현을 허용하기 위해 고객을 VRF에 배치합니다.
 
-## IBM 클라우드는 Direct Link 제품에 대한 대역폭을 측정합니까?
-예. IBM 클라우드는 Direct Link 제품에서 모든 아웃바운드 대역폭을 측정합니다. 인바운드 대역폭은 무료이고 측정하지 않습니다.
+## IBM Cloud는 Direct Link 제품에 대한 대역폭을 측정합니까?
+예. 고객과 IBM Cloud 간의 Direct Link 서비스에서의 대역폭 사용은 무료이며 측정되지 않습니다. IBM Cloud는 IBM Cloud 서비스에서 공용 인터넷으로의 아웃바운드 대역폭을 측정합니다.
+
+## Direct Link에 대한 청구는 언제 시작됩니까?
+Direct Link Connect 요금에는 IBM Cloud 인프라의 서비스 종료 비용이 포함됩니다. 
+
+인프라 서비스는 사전에 청구되며 클라이언트의 주문을 수락할 때 시작됩니다. 그러나 IBM Cloud Direct Link의 속성으로 인해 IBM Cloud와의 BGP(Border Gateway Protocol) 세션이 설정되거나 서비스 키가 클라이언트에 제공되고 나서 30일 후에 Direct Link 서비스 청구가 시작됩니다. 
+
+다음이 발생한 후 청구가 중지됩니다. (1) 고객이 회선을 삭제하도록 요청합니다. 그리고 (2) Connect 제공자 또는 네트워크 서비스 제공자가 회선을 디프로비저닝했습니다.
 
 ## Direct Link의 다른 당사자로부터 어떤 추가 비용이 발생합니까?
 교환 제공자 또는 네트워크 서비스 제공자로부터 추가 비용이 있을 수 있습니다. 요금 정보는 제공자를 참조하십시오.
 
 ## IBM Cloud Direct Link로 중복성을 획득할 수 있는 방법은 무엇입니까?
-둘 이상의 IBM Cloud Direct Link 데디케이티드 제공자 또는 교환 제공자 {{site.data.keyword.BluSoftlayer_notm}}에 연결하여 Direct Link로 중복성을 획득할 수 있습니다. 또는 서비스에 중복성을 추가하는 IBM Cloud Direct Link 제공자 중 하나를 활용할 수 있습니다.
+Direct Link는 본질적으로 중복 서비스를 제공하지 않습니다. Direct Link는 다양한 연결을 제공하여 BGP를 통해 중복성을 작성할 수 있도록 합니다. 둘 이상의 {{site.data.keyword.BluSoftlayer_notm}}용 IBM Cloud Direct Link Dedicated 제공자 또는 Exchange 제공자에 연결하여 Direct Link로 다양성을 획득할 수 있습니다. 또는 Exchange 및 Connect를 사용하는 경우 IBM Cloud Direct Link 제공자와의 다양한 NNI를 활용할 수 있습니다.
 
 ## 기본 "로컬" 라우팅 및 글로벌 라우팅 추가 기능 사이의 차이점은 무엇입니까?
 표준 Direct Link 오퍼링을 사용하여 선택한 지역의 데이터 센터 사이에서 트래픽을 전송할 수 있습니다. 지정된 지역 외부의 다른 데이터 센터에 액세스해야 하는 경우, 글로벌 라우팅 추가 기능을 주문해야 합니다. 이 모델은 Direct Link 연결이 지시된 시간에 위치에 있었던 ACL(Access Control List)을 기반으로 합니다. 
@@ -42,36 +49,76 @@ lastupdated: "2018-04-05"
 ## 로컬 라우팅 및 글로벌 라우팅 옵션은 무엇입니까?
 모든 고객이 Direct Link 서비스를 주문할 때 로컬 라우팅 및 글로벌 라우팅 옵션이 선택됩니다. 고객이 그 안에서 Direct Link를 주문하는 영역에서 POP 외부로 자신의 트래픽을 라우트해야 하는 경우, 글로벌 라우팅 옵션을 추가해야 합니다. 그렇지 않으면 해당 트래픽이 로컬 POP에서 제공되는 서비스로 제한됩니다.
 
-매월 1G 회선을 사용하는 모든 고객은 10TB의 무료 발신(egress) 트래픽이 할당되며, 10G 회선을 사용하는 고객은 50TB가 할당됩니다. 공급 과잉은 더 높은 마켓 비율이 지배적인 다음 표를 기반으로 합니다. 글로벌 라우팅을 선택하는 경우, 로컬 발신 트래픽에 대해서는 비용이 청구되지 않고, 로컬 POP의 외부에서 시작하거나 종료되는 트래픽에 대해서만 청구됩니다.
+매월 1G 회선을 사용하는 모든 고객은 10TB의 무료 발신(egress) 트래픽이 할당되며, 10G 회선을 사용하는 고객은 50TB가 할당됩니다. 공급 과잉은 더 높은 마켓 비율이 지배적인 다음 표를 기반으로 합니다. 글로벌 라우팅을 선택하면 로컬 발신 트래픽에 대해서는 비용이 청구되지 않고 로컬 PoP의 외부에서 시작되거나 종료되는 트래픽에 대해서만 청구됩니다.
 
 |데이터 마켓 1|데이터 마켓 2|데이터 마켓 3|
 |---|---|---|
-|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
+|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
 **표 1: 활용 계층**<br/>
 별표(*)와 함께 표시된 마켓의 Direct Link 오퍼링은 글로벌 라우팅을 주문해야 합니다.
 
-## 달라스(Dallas)와 같은 지역에서 Direct Link NSP 또는 Direct Link 클라우드 교환에 연결된 경우, Direct Link를 통해 미국의 다른 지역에 대한 액세스 권한이 있습니까?
-예, 글로벌 라우팅 추가 기능을 선택하면 지역의 외부 영역에 대한 액세스 권한을 얻을 수 있습니다. 이 옵션이 선택되지 않은 경우, 사용자의 Direct Link 트래픽은 사용자가 선택한 POP에 대한 지역으로 제한됩니다.
+## 달라스와 같은 지역에서 Direct Link Dedicated, Direct Link Connect 또는 Direct Link Exchange에 연결된 경우 Direct Link를 통해 미국의 다른 지역에 대한 액세스할 수 있습니까?
+예, 글로벌 라우팅 추가 기능을 선택하면 지역의 외부 영역에 대한 액세스 권한을 얻을 수 있습니다. 이 옵션이 선택되지 않은 경우 Direct Link 트래픽은 사용자가 선택한 PoP 위치에 대한 지역으로 제한됩니다. 세부사항은 [가격 책정 문서](pricing.html)를 참조하십시오.
 
 ## 지정된 Direct Link 위치에서 사용 가능한 지역에 연결할 수 있습니까?
 예, 글로벌 라우팅 추가 기능으로 Direct Link를 주문하는 경우라면 가능합니다.
 
 ## 내 Direct Link가 연결할 수 있는 지역을 제한할 수 있습니까?
-아니오. IBM 클라우드는 다음 두 가지 옵션을 제공합니다. (1) 단일 지역만, (2) 글로벌 라우팅 추가 기능과 함께 모든 지역.
+아니오. IBM Cloud는 다음 두 가지 옵션을 제공합니다. (1) 단일 지역만, (2) 글로벌 라우팅 추가 기능과 함께 모든 지역.
 
-## Equinix 클라우드 교환에 자동화된 주문 프로세스를 사용했고 내 내부 네트워크와 겹치는 서브넷에 지정되었으면 어떻게 됩니까?
+## Equinix Cloud Exchange에 자동화된 주문 프로세스를 사용했고 내 내부 네트워크와 겹치는 서브넷에 지정되었으면 어떻게 됩니까?
 
 2018년 3월 현재, 권장되는 우수 사례는 자동화된 주문을 취소하고 새 티켓을 제출하여 Direct Link 질문지를 채우는 것입니다. 10.254.x.x 범위와 172.32.x.x 범위 중 선호하는 서브넷을 표시해야 합니다.
 
-## Direct Link 교환과 Direct Link 연결의 차이점은 무엇입니까?
+## Direct Link Exchange와 Direct Link Connect의 차이점은 무엇입니까?
 
-두 서비스는 유사하며 상대적으로 저비용이고 대기 시간을 허용하며 IBM Cloud Direct Link의 이점을 이용하는 빠른 시작점입니다. 즉, 교환은 데이터 센터 제공자를 이용하고 연결은 Telco 캐리어를 이용합니다. 다음은 추가 세부사항입니다.
+두 서비스는 유사하며 상대적으로 저비용이고 대기 시간을 허용하며 IBM Cloud Direct Link의 이점을 이용하는 빠른 시작점입니다. 즉, Exchange는 데이터 센터 제공자를 이용하고 Connect는 Telco 캐리어를 이용합니다. 다음은 추가 세부사항입니다.
 
-**Direct Link 교환**은 데이터 센터 내에서 교환을 이용하려는 고객을 위한 오퍼링입니다. 교환 서비스를 사용하면 기본 회선이 이미 프로비저닝되어 있으므로(이미 다른 클라우드 제공자에 설비 내 물리적 상호 연결이 있어야 함) 고객은 코로케이션에 대한 다중 클라우드 연결을 신속하게 사용할 수 있습니다.
+**Direct Link Exchange**는 데이터 센터 내에서 교환을 이용하려는 고객에게 권장됩니다. Exchange 서비스를 사용하면 기본 회선이 이미 프로비저닝되어 있으므로(이미 다른 클라우드 제공자에 설비 내 물리적 상호 연결이 있어야 함) 고객은 코로케이션에 대한 다중 클라우드 연결을 신속하게 사용할 수 있습니다.
 
-Direct Link 교환은 IBM Cloud와 클라우드 교환 서비스 제공자 간 계층 2의 NNI 연결로 작성된 단일 클라우드 교환 포트를 통해 다중 클라우드 공유 사용 환경을 허용할 수 있습니다. 포트 속도는 1Gb까지 사용 가능합니다.
+Direct Link Exchange는 IBM Cloud와  Cloud Exchange Service Provider 간 계층 2의 NNI(Network-to-Network Interface) 연결로 작성된 단일 클라우드 교환 포트를 통해 다중 클라우드 공유 사용 환경을 허용할 수 있습니다. 포트 속도는 1Gb까지 사용 가능합니다.
 
-**Direct Link 연결**은 고유 온프레미스 배치와 IBM Cloud 간에 기존 네트워크를 이용하려는 고객을 위한 오퍼링입니다. Direct Link 연결 서비스를 사용하면 고객은 사전 프로비저닝된 기본 회선을 활용하여 새 Telco 네트워크(예: MPLS) 및 기존 Telco 네트워크에서 IBM Cloud를 신속하게 사용할 수 있습니다.
+**Direct Link Connect**는 고유 온프레미스 배치와 IBM Cloud 간에 기존 네트워크를 이용하려는 고객을 위한 오퍼링입니다. Direct Link Connect 서비스를 사용하면 고객은 사전 프로비저닝된 기본 회선을 활용하여 새 Telco 네트워크(예: MPLS) 및 기존 Telco 네트워크에서 IBM Cloud를 신속하게 사용할 수 있습니다.
 
-Direct Link 연결에서는 IBM과 파트너 둘 다 전세계 설비에서 IBM 파트너가 운영하는 듀얼 계층-2 10G NNI(Network-to-Network Interfaces)를 통해 계층 2와 3의 고객과 연결됩니다. 포트 속도는 5Gb까지 사용 가능합니다.
+Direct Link Connect를 사용하는 경우 고객이 전세계 설비에서 IBM 파트너가 운영하는 NN(Network-to-Network Interfaces) 연결에서 Connect 제공자를 통해 IBM Cloud에 연결할 수 있습니다. 포트 속도는 5Gb까지 사용 가능합니다.
 
+## Direct Link를 통해 IPv6을 지원할 수 있습니까?
+
+BGP 세션에는 해당되지 않습니다. IPv4에서 /30을 지정해야 하며 고객으로부터 리턴되는 것도 동일해야 합니다.
+
+## 사설 네트워크에서 IPV6을 수행할 수 있습니까?
+
+아니오. IPv6을 공용으로만 사용됩니다.
+
+## Verizon SCI에 대한 특별 요구사항(접두부/ASN/VLAN BGP 등)이 있습니까?
+
+Verizon SCI는 여러 MPLS 기반 계층 3(IP VPN) 서비스 중 하나입니다. IBM에서 직접 고객과의 BGP를 설정하는 대신 Verizon과의 BGP를 설정해야 합니다. 그런 다음 Verizon이 고객과의 BGP를 설정하고 그에 따라 라우트를 광고합니다. 여러 다른 계층 3 기반 서비스 프로그램이 Direct Link Connect 프로그램에 참여합니다. 고객은 자신이 주문하는 내용과 IBM Cloud에 연결할 때 해당 계정이 작동하는 방식을 알고 있어야 합니다.
+
+## Direct Link는 모든 유형의 QoS를 지원합니까?
+
+QoS 보증을 지원할 수 없습니다. QoS에는 각 서비스 공급자와 IBM Cloud 간의 MPLS 맵핑이 필요합니다. 일반적으로 클라우드 서비스 제공자는 현재 QoS를 지원할 수 없습니다. 종단에서 종단으로 연결하고 중간에 모든 디바이스를 포함해야 하기 때문입니다. "터널링" 또는 다른 방법으로 사용 가능한 임시 해결책은 없습니다.
+
+## Direct Linkr가 Jumbo Frame을 지원합니까?
+
+Jumbo Frame(최대 9214바이트)은 Dedicated 및 Dedicated Hosting에서 지원됩니다.
+Connect 및 Exchange에 대한 지원이 이론적으로 가능하지만 서비스 제공자가 IBM과 협업하여 엔드-투-엔드 연결이 기본 NNI(Network-to Network-Interface)를 포함하여 Jumbo Frame을 지원하는지 확인해야 합니다. 기본적으로 Exchange 및 Connect는 1500바이트 MTU 지원으로 설정됩니다.
+
+## Direct Link Connect를 사용하는 경우 고객이 동일한 캐리어(예: DAL03의 Verizon)를 통해 라우터 다양성을 보장하는 방법은 무엇입니까?
+
+IBM에는 캐리어에 대한 다양한 NNI 링크를 작성하는 다양한 XCR이 있습니다. 이 지점에서 다양성을 유지하는 것은 캐리어의 책임입니다.
+
+## Direct Link Connect의 경우 고객이 중복성을 위해 두 개의 링크를 주문해야 합니까, 아니면 Direct Link Connect가 본질적으로 중복성을 제공합니까?
+
+다양성을 위해 두 개의 링크를 주문하십시오. 스위치 또는 라우터 간의 중복성을 제공하지 않습니다. 고객이 각 Direct Link에서 해당 BGP 구성을 사용하여 중복성을 작성합니다.
+
+## 내 연결 대역폭을 얼마나 쉽게 업그레이드할 수 있습니까(예: 1GB에서 5GB로)?
+
+일반적으로 1G 광학에 1G 이하의 속도로 설치합니다. 2G - 10G 속도의 경우 10G 광학을 설치합니다. 따라서 1G에서 5G로 업그레이드하려면 새 광학이 지정되거나 삽입되어야 합니다. 이는 서비스에 영향을 미치는 이벤트일 수 있습니다. 이러한 유형의 성장을 예상하는 경우 Direct Link 배치를 시작할 때 10G 광섬유가 설치되도록 요청하거나 10G 광학이 준비될 수 있도록 처음에 2G를 주문할 수 있습니다.
+
+## ECMP가 중복 연결을 얻을 수 있는 방법입니까? 어떤 대안이 있습니까?
+
+ECMP는 중복 연결에 사용되는 것이 아니라 두 개의 링크 간 로드를 밸런싱하는 데 사용됩니다. ECMP를 사용하면 두 개의 연결이 모두 동일한 IBM Cloud 교차 연결 라우터(XCR)로 종료되어야 하므로 단일 장애 지점이 됩니다. (즉, ECMP는 동일한 IBM Cloud XCR의 두 개 세션으로만 프로비저닝할 수 있습니다.) 
+
+ECMP는 BGP의 기능입니다. 중복성을 원하는 경우 두 개의 Direct Link 연결을 확보하십시오. 각 XCR마다 하나씩 연결됩니다. ECMP를 사용하고 중복성을 얻으려면 두 개의 ECMP 세션이 동시에 진행될 수 있도록 각 XCR에 두 개의 Direct Link 연결이 필요합니다. 
+
+또는 일부 고객은 동일한 데이터 센터(예: WDC02)의 다른 XCR에 대한 두 개의 링크를 설정한 다음 필요에 따라 BGP 구성을 사용하여 장애를 복구합니다. 이 구성은 두 개의 별도 데이터 센터(예: WDC02 및 WDC05)로의 Direct Link 연결을 보유하는 것보다 중복성이 낮습니다(덜 안전함).

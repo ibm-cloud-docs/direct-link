@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-04"
+  years: 2017, 2018
+lastupdated: "2018-06-25"
 
 ---
 
@@ -23,3 +23,22 @@ lastupdated: "2017-12-04"
 5. Commandez un "circuit virtuel" via le fournisseur Exchange et indiquez l'ID de ticket de la demande {{site.data.keyword.BluSoftlayer_notm}} Direct Link comme "ID de la demande" ou "ID d'autorisation"
 6. L'affectation d'une adresse IP sur l'infrastructure réseau {{site.data.keyword.BluSoftlayer_notm}} sera effective dans les trois jours ouvrables une fois la demande de circuit virtuel terminée.
  
+## Emplacements
+ 
+ Le tableau présente les centres de données IBM Cloud qui offrent la connectivité Direct Link Exchange :
+ 
+| Fournisseur Exchange | Code de centre de données IBM |
+|-------------|-----------------------|
+| AT Tokyo	| TOK02 |
+| Cologix	| MON02, TOR02 |
+| Equinix	| SNG02, SYD02, TOK01, AMS02, PAR02, CHI01, DAL03, NYC02, NYC03, SAO02, SJC02, TOR02, WDC02, LON01, FRA03 |									
+| InterXion	| FRA01, STO01 |
+| KINX	| SEO02* |
+| NextDC | 	MEL02* |
+| SK C&C | 	SEO01 |
+
+* Bientôt disponible
+
+## Tarification
+
+Pour obtenir des informations de tarification, voir la [rubrique sur la tarification](pricing.html).

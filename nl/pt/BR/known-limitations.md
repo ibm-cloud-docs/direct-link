@@ -14,11 +14,12 @@ lastupdated: "2018-04-11"
 {:tip: .tip}
 {:download: .download}
 
-## Limitações conhecidas
+# Limitações conhecidas
+
 Primeiro, esta seção aborda limitações que se aplicam a todas as três ofertas do IBM Cloud Direct Link e, em seguida,
 detalha algumas limitações de cada oferta individualmente.
 
-### Limitações gerais do IBM Cloud Direct Link
+## Limitações gerais do IBM Cloud Direct Link
  * Cada conexão do IBM Cloud Direct Link requer um pedido exclusivo. Se você precisar de múltiplas conexões, abra um pedido
 do IBM Cloud Direct Link para cada conexão.
  * A rede de serviços do {{site.data.keyword.BluSoftlayer_notm}} não é
@@ -34,7 +35,7 @@ destina a deixar suas redes remotas se comunicarem privadamente com a infraestru
  * O IBM Cloud Direct Link requer o BGP para estabelecer as rotas para uma rede remota do cliente.
  * Mudanças na infraestrutura do IBM Cloud Direct Link devem ser feitas entre 8h e 17h, fuso horário central dos EUA.
  
-### Limitações do IBM Cloud Direct Link Exchange e do Direct Link Connect
+## Limitações do IBM Cloud Direct Link Exchange e do Direct Link Connect
  * Os clientes são responsáveis por quaisquer taxas associadas ao acesso ao POP de uma rede remota e
 por quaisquer taxas incorridas com o provedor Cloud Exchange.
  * O {{site.data.keyword.BluSoftlayer_notm}} não colocará nenhum equipamento do cliente
@@ -42,7 +43,7 @@ junto de nossos POPs de rede. Os clientes devem trabalhar com seus provedores pa
  * A disponibilidade do Direct Link Cloud Exchange varia entre os locais. Os clientes podem entrar em
 contato com seu gerente de contas do IBM Cloud para confirmar disponibilidade atual ou futura.
  
-### Limitações do IBM Cloud Direct Link Dedicated
+## Limitações do IBM Cloud Direct Link Dedicated
  * As taxas do {{site.data.keyword.BluSoftlayer_notm}} para o IBM Cloud Direct Link Dedicated cobrem o custo de
 rescisão da porta na infraestrutura do {{site.data.keyword.BluSoftlayer_notm}}. Os clientes são responsáveis por quaisquer taxas associadas ao acesso ao PoP de uma rede remota e por quaisquer
 conexões cruzadas necessárias no recurso PoP.  O {{site.data.keyword.BluSoftlayer_notm}} não solicitará
@@ -50,7 +51,7 @@ uma conexão cruzada em nome de nenhum cliente.
  * O {{site.data.keyword.BluSoftlayer_notm}} não colocará nenhum equipamento do cliente junto de
 nossos PoPs de rede. Os clientes devem trabalhar com seus provedores para determinar se precisam colocar algum equipamento na instalação em que o PoP de rede do {{site.data.keyword.BluSoftlayer_notm}} existe.
 
-### Limitações do IBM Cloud Direct Link Dedicated Hosting
+## Limitações do IBM Cloud Direct Link Dedicated Hosting
  * O IBM Cloud Direct Link Dedicated Hosting requer um contrato específico entre
 {{site.data.keyword.BluSoftlayer_notm}} e o cliente. Este contrato define os termos e as condições
 para o produto, o preço para o ambiente de colocação e o termo de compromisso para os

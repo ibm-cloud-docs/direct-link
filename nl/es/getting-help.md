@@ -3,7 +3,7 @@
 
 
 copyright:
-  years: 2017,2018
+  years: 2017, 2018
 lastupdated: "2018-02-28"
 
 
@@ -32,7 +32,7 @@ lastupdated: "2018-02-28"
 # Obtención de ayuda y soporte 
 {: #gettinghelp}
 
-Si tiene problemas o preguntas al utilizar IBM Cloud Direct Link, puede obtener ayuda buscando información o mediante preguntas a través de uno de los foros listados más abajo. También puede abrir una incidencia de soporte en el [Portal de cliente ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/).
+Si tiene problemas o preguntas al utilizar IBM Cloud Direct Link, puede obtener ayuda buscando información o mediante preguntas a través de uno de los foros listados más abajo. También puede abrir una incidencia de soporte en el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/).
 {:shortdesc}
 
 Cuando utilice los foros para formular una pregunta, etiquétela para que la vean los equipos de desarrollo de {{site.data.keyword.Bluemix_notm}}.

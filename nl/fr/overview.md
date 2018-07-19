@@ -26,7 +26,7 @@ Les offres IBM Cloud Direct Link fournissent la connectivité depuis une source 
  
  * **IBM Cloud Direct Link Dedicated Hosting** offre une connectivité similaire à IBM Cloud Direct Link Dedicated, mais le point de connexion est adjacent à un centre de données {{site.data.keyword.BluSoftlayer_notm}}, ce qui améliore le temps d'attente pour les cas d'utilisation à performance accrue. IBM Cloud offre une large gamme de services de colocalisation personnalisables avec cette solution.
   
-Le service IBM Cloud Direct Link est un service OSI à trois couches routé. Il offre une connexion directe au réseau principal du réseau privé {{site.data.keyword.BluSoftlayer_notm}}, avec un faible temps d'attente et un débit accéléré jusqu'à 10 Gbps.
+Le service IBM Cloud Direct Link est un service OSI à trois couches routé. Il offre une connexion directe au réseau principal du réseau privé {{site.data.keyword.BluSoftlayer_notm}}, avec un faible temps d'attente et un débit accéléré jusqu'à 10 Gbit/s.
 Pour plus de flexibilité dans la création de cette connectivité à trois couches, IBM Cloud Direct Link permet aux clients d'utiliser :
  * Une double adresse IP pour les hôtes distants
  * La conversion NAT

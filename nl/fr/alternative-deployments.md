@@ -24,13 +24,13 @@ Les déploiements par défaut de Direct Link Connect et Direct Link Exchange n'i
 
 De nombreux clients choisissent de créer des déploiements redondants en établissant une connexion Direct Link supplémentaire. Ce document présente quelques représentations schématiques d'autres déploiements IBM Cloud Direct Link.
 
-![Autre déploiement d'Exchange](/images/Direct-Link-Exchange-Diverse.PNG)
+![Autre déploiement d'Exchange](/images/Direct-Link-Exchange-Diverse.png)
 
 **Figure 1 (ci-dessus) : autre déploiement d'IBM Cloud Direct Link Exchange**
 
 IBM Cloud Direct Link permet également des déploiements Connect distincts, comme le montre la figure suivante.
 
-![Autre déploiement de Connect](/images/Direct-Link-Connect-Diverse.PNG)
+![Autre déploiement de Connect](/images/Direct-Link-Connect-Diverse.png)
 
 
 **Figure 2 (ci-dessus) : déploiement redondant et différent d'IBM Cloud Direct Link Connect**
@@ -39,13 +39,13 @@ IBM Cloud Direct Link permet également des déploiements Connect distincts, com
 
 Certains de nos clients souhaitent utiliser Direct Link Exchange en conjonction avec d'autres fournisseurs de cloud comme AWS, Azure ou Google Cloud. Le schéma suivant montre comment établir ce type de connexion avec un fournisseur Cloud Exchange.
 
-![Autres clouds](/images/Direct-Link-Exchange-Other-Clouds.PNG)
+![Autres clouds](/images/Direct-Link-Exchange-Other-Clouds.png)
 
 **Figure 3 (ci-dessus) : utilisation d'IBM Cloud Direct Link Exchange en conjonction avec d'autres clouds**
 
 Certains de nos utilisateurs souhaitent utiliser Direct Link Connect en conjonction avec d'autres fournisseurs de cloud comme AWS, Azure ou Google Cloud. Le schéma suivant montre comment établir ce type de connexion avec un fournisseur télécom/NSP.
 
-![Autres clouds](/images/Direct-Link-Connect-other-clouds.PNG)
+![Autres clouds](/images/Direct-Link-Connect-other-clouds.png)
 
 **Figure 4 (ci-dessus) : utilisation d'IBM Cloud Direct Link Connect en conjonction avec d'autres clouds**
 
