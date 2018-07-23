@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-06"
+lastupdated: "2018-07-23"
 
 ---
 
@@ -38,7 +38,7 @@ The table below shows which IBM Cloud datacenters are able to accept customers f
 |  |  |  |  |  |  |
 | APAC |  SYD01 |  Sydney | DC (AZ1) | Global Switch  |  400 Harris Street aka 273 Pyrmont St. Ultimo |
 | APAC |  SNG01 |  Jurong East |  DC | DLR |  29a International Business Park, S180 |
-| APAC | TOK02  |  Koto-ku | DC (AZ1) | AT Tokyo  |  6-2-12 Toyosu |
+| APAC | TOK02  |  Koto-ku | DC (AZ1) | AT Tokyo  |  Koto-ku |
 |  |  |  |  |  |  |
 | EMEA | FRA02  | Frankfurt |  DC (AZ1) | Zenium   | Leonhard - Heisswolf Str. 4, Frankfurt am Main  |
 | EMEA | LON02  | Chessington | DC  | DLR  |  Fountain Court, Cox Lane, Suites 210 and 230 |
