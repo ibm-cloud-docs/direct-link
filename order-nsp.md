@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-07-23"
 
 ---
 
@@ -102,3 +102,5 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 ## Pricing
 
 For pricing information, please refer to the [pricing document](pricing.html).
+
+**If you require the exact address for TOK02, please contact your Direct Link offering management or sales team.**
