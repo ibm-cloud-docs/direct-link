@@ -75,8 +75,8 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | DAL10 | QTS | IRV | 6431 Longhorn Drive |
 | DAL12 |Digital Realty | DFW18 | 907 Security Row |
 | DAL13 | Cyrus One | Carrollton - Frankford | 1649 W. Frankford Rd |
-| DEN01* | Coresite | DE1 | 910 15th Street | 910 15th Street |
-| HOU02* | IBM | HOU02 | 855 Greens Parkway | 855 Greens Parkway |
+| DEN01* | Coresite | DE1 | 910 15th Street | 
+| HOU02* | IBM | HOU02 | 855 Greens Parkway | 
 | LAX01* | Coresite | LA1 | 624 S. Grand Ave. AKA 1 Wilshire Blvd |
 | MEX01 | Alestra | Alestra Queretaro Datacenter | Lateral Carretera Estatal 431,Parque Tecnologico Inovacion Lote 79, El Marqués |
 | MIA01* | Terremark / Verizon | NAP | 50 NE 9th Street |
