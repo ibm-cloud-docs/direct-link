@@ -45,3 +45,4 @@ The table below shows which IBM Cloud datacenters are able to accept customers f
 | EMEA | LON04 | London |  DC (AZ1) |  Vysiion |  A57 Cody Technology Park Old, Victor Way, Farnborough |
 | EMEA | MEL01 | Melbourne  |  DC |  DLR |  72 Radnor Drive, Deer Park |
 
+**If you require the exact address for TOK02, please contact your Direct Link offering management or sales team.**
