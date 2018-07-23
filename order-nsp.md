@@ -103,4 +103,4 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 
 For pricing information, please refer to the [pricing document](pricing.html).
 
-**If you require the exact address for TOK02, please contact your Direct Link offering management or sales team.**
+**If you require the exact address for TOK01 or TOK02, please contact your Direct Link offering management or sales team.**
