@@ -48,7 +48,7 @@ The IBM Cloud Dedicated Hosting minimum configuration includes one (1) rack with
 
 ## Local routing
 
-Local routing is included as a basic part of all IBM Cloud Direct Link offerings. It includes access to all of the datacenters connected directly to the PoP location, and it provides unlimited ingress and egress traffic. If you need to route your traffic outside the PoP location in the area within which you are ordering Direct Link, you must add the Global Routing option. Otherwise, your traffic is restricted to the services provided by the local PoP.
+Local routing is included as a basic part of all IBM Cloud Direct Link offerings. It includes access to all of the datacenters connected directly to the PoP location, and it provides unlimited ingress and egress traffic. If you need to route your traffic outside the PoP location in the area within which you are ordering Direct Link, you must add the Global Routing option. Otherwise, your traffic is restricted to the services provided by the local PoP. Local routing does not incur any overage fees.
 
 ## Pricing for Global Routing Add-on
 
@@ -70,7 +70,7 @@ If you select Global Routing, you are not charged for any local egress traffic, 
 |Mexico | $2,999 |
 |Brazil | $2,999 |
 
-## Overage fees
+## Global Routing Overage fees
 
 Each month, all customers using circuits below 10Gbps are allotted 10TB of free egress traffic; customers using 10G circuits are allotted 50TB. Overages are based on the table below, with the higher market rate prevailing. 
 
@@ -82,9 +82,9 @@ Each month, all customers using circuits below 10Gbps are allotted 10TB of free 
 
 
 ## Local Routing and Global Routing markets
-Local Routing and Global Routing options are selected by every customer when ordering Direct Link service. If customers need to route their traffic outside the POP in the area within which they are ordering Direct Link, they must add the Global Routing option; otherwise, their traffic is restricted to the services provided by the local POP.
+Local Routing and Global Routing options are selected by every customer when ordering Direct Link service. If customers need to route their traffic outside the POP in the area within which they are ordering Direct Link, they must add the Global Routing option; otherwise, their traffic is restricted to the services provided by the local POP. Local routing does not incur any overage fees.
 
-Each month, all customers using 1G Circuits are allotted 10TB of free egress traffic; customers using 10G circuits are allotted 50TB. Overages are based on the following table, with the higher market rate prevailing. If you select Global Routing, you are not charged for any local egress traffic, only for traffic that originates or terminates outside of the local POP.
+Each month, all Global Routing customers using 1G Circuits are allotted 10TB of free egress traffic; customers using 10G circuits are allotted 50TB. Overages are based on the following table, with the higher market rate prevailing. If you select Global Routing, you are not charged for any local egress traffic, only for traffic that originates or terminates outside of the local POP.
 
 |Data Market 1|Data Market 2|Data Market 3|
 |---|---|---|
