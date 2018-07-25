@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-13"
+lastupdated: "2018-07-25"
 
 ---
 
@@ -84,7 +84,7 @@ During migration, the customer VLANs are disconnected from the backbone and reco
 
 ## How you can initiate the conversion
 
-Our customer can open a support ticket through their [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) account, requesting to be migrated to a VRF. The ticket should state: “Private Network Question” and include the following text in the support ticket: 
+Our customers can open a support ticket through their [IBM Cloud Console ![External link icon](../../icons/launch-glyph.svg "External link icon")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) account, requesting to be migrated to a VRF. The ticket should state: “Private Network Question” and include the following text in the support ticket: 
 
 "We are requesting that account _fill in your account number_ is moved to its own VRF. We understand the risks and approve the change.  Please reply back with the scheduled window(s) of time where this change will be made so we can prepare for the migration." 
 
