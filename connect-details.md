@@ -25,7 +25,7 @@ Connections are offered at several speeds:
 * 200 mbps
 * 1 Gbps
 * 2 Gbps
-* 5 Gpbs
+* 5 Gbps
 
 ## Pricing
 
