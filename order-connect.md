@@ -38,7 +38,7 @@ Our IBM Cloud Direct Link Connect partner providers include these locations:
 | IBM BlueFringe | DAL03, WDC02 |
 | CenturyLink | DAL03, SAO02, MIA01* |
 | Megaport |  MEL02, SYD02, SNG02, AMS02, FRA01, LON03, STO01, DAL03, SJC02, TOR02, WDC05, HKG01* |
-| PacketFabric | DAL04*, SJC02, WDC02* |
+| PacketFabric | DAL04, SJC02, WDC02 |
 | PCCW | HKG01* |
 | Tata | CHE01 |
 | Telia | STO01, OSL02* |
