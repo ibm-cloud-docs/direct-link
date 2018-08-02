@@ -83,8 +83,8 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | MON01 | COLO-D | COLO-D1 | 2525 Rue Canadien |
 | MON02 | Cologix | MTL3 | 1155 University Street |
 | NYC01 | Digital Realty | JFK10 | 111 8th Ave |
-| NYC02 | Equinix | NY4 | 755 Secaucus Rd, Secaucus, NJ |
-| NYC03 | Equinix | NY5 | 800 Secaucus Rd, Secaucus, NJ |
+| NYC02* | Equinix | NY4 | 755 Secaucus Rd, Secaucus, NJ |
+| NYC03* | Equinix | NY5 | 800 Secaucus Rd, Secaucus, NJ |
 | SAO01 | Ascenty | SP1 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
 | SAO02 | Equinix | SP2 | Alameda Araguaia, 3641 - Alphaville, Barueri |
 | SEA02* | The Westin Building | WBX | 2001 6th Avenue |
