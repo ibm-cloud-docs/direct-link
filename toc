@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="direct-link" audience="direct-link" href="/docs/infrastructure/direct-link/getting-started.html"}
+{: .toc subcollection="direct-link" audience="direct-link" arm="3662737" href="/docs/infrastructure/direct-link/getting-started.html"}
 Direct Link
 
     {: .navgroup id="learn"}
