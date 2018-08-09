@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-08-09"
 
 ---
 
@@ -44,7 +44,7 @@ The IBM Cloud Direct Link Exchange solution lets customers leverage a Cloud Exch
 
  * **Redundancy:** To establish redundancy for IBM Cloud Direct Link Exchange, connectivity into 2+ locations is required, or the selection of a location with a secondary XCR available that can be leveraged by the Cloud Exchange provider.
 
- * **Local/Global Routing Options:** The Local Routing option provides access to datacenters with the same three-letter prefix as the PoP location (such as DAL, AMS, MEL). The Global Routing option is required as an add-on to reach datacenters outside those locations.
+ * **Local/Global Routing Options:** The Local Routing option is the default routing option. It provides access to datacenters within the same Market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your in-market IBM cloud resources to other IBM Cloud resources in datacenters outside the local market. It is used to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
  
 ## The IBM Cloud Direct Link Connect solution
 
@@ -66,7 +66,7 @@ The IBM Cloud Direct Link Exchange solution lets customers leverage a Cloud Exch
 
 * **Redundancy:** To establish redundancy for IBM Cloud Direct Link Connect, connectivity into 2+ locations is required, or the selection of a location with a secondary XCR available that can be leveraged by the IBM Cloud Connect provider.
 
-* **Local/Global Routing Options:** The Local Routing option provides access to datacenters with the same three-letter prefix as the PoP location (such as DAL, AMS, MEL). The Global Routing option is required as an add-on to reach datacenters outside those locations.
+* **Local/Global Routing Options:** The Local Routing option is the default routing option. It provides access to datacenters within the same Market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your in-market IBM cloud resources to other IBM Cloud resources in datacenters outside the local market. It is used to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
 
 ## The IBM Cloud Direct Link Dedicated solution
 
@@ -90,7 +90,7 @@ The IBM Cloud Direct Link Dedicated solution lets customers terminate a dedicate
 
  * **Redundancy:** To establish redundancy requires IBM Cloud Direct Link connectivity into 2+ locations, or the selection of a location with a secondary XCR available and a second IBM Cloud Direct Link connection request.
 
- * **Local/Global Routing Options:** The Local Routing option provides access to data centers with the same three-letter prefix as the PoP (such as DAL, AMS, MEL). The Global Routing option is required as an add-on to reach data centers outside those locations.
+ * **Local/Global Routing Options:** The Local Routing option is the default routing option. It provides access to datacenters within the same Market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your in-market IBM cloud resources to other IBM Cloud resources in datacenters outside the local market. It is used to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
 
 ## The IBM Cloud Direct Link Dedicated Hosting solution
 
@@ -114,4 +114,4 @@ The IBM Cloud Direct Link Dedicated Hosting solution provides connectivity simil
 
  * **Redundancy:** {{site.data.keyword.BluSoftlayer_notm}} provides connections to two cross-connect routers (XCRs) as part of the product. To establish redundant connectivity, customers must configure BGP on each Direct Link connection as they see fit to achieve redundancy. Examples include options such as these: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
- * **Local/Global Routing Options:** The Local Routing option provides access to datacenters with the same three-letter prefix as the PoP (such as DAL, AMS, MEL). The Global Routing option is required as an add-on to reach data centers outside those locations.
+ * **Local/Global Routing Options:** The Local Routing option is the default routing option. It provides access to datacenters within the same Market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your in-market IBM cloud resources to other IBM Cloud resources in datacenters outside the local market. It is used to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
