@@ -33,13 +33,14 @@ Our IBM Cloud Direct Link Connect partner providers include these locations:
 | AT&T; NetBond® for Cloud | SNG02, FRA01, LON01, DAL03, SJC02, WDC02|
 | AT&T Cloud Gateway (formerly known as RedFringe)| DAL03, WDC02 |
 | Bell Canada | MON02, TOR02 |
-| British Telecom |  LON01, FRA01, WDC02, SAO02*, HKG01* |
-| Colt | AMS02, FRA01, PAR02, LON01*, HKG01*, SNG02*, TOK01 |
+| British Telecom |  LON01, FRA01, WDC02, SAO02, HKG01* |
+| Colt | AMS02, FRA01, PAR02, TOK01, LON01*, HKG01*, SNG02*, |
+| Console Connect by PCCW | HKG01 |
 | IBM BlueFringe | DAL03, WDC02 |
-| CenturyLink | DAL03, SAO02, MIA01* |
-| Megaport |  MEL02, SYD02, SNG02, AMS02, FRA01, LON03, STO01, DAL03, SJC02, TOR02, WDC05, HKG01* |
+| CenturyLink | DAL03, SAO02, MIA01 |
+| Megaport |  MEL02, SYD02, SNG02, AMS02, FRA01, LON03, STO01, DAL03, SJC02, TOR02, WDC02, HKG01* |
 | PacketFabric | DAL04, SJC02, WDC02 |
-| PCCW | HKG01* |
+| SES Networks | WDC02 |
 | Tata | CHE01 |
 | Telia | STO01, OSL02* |
 | Telstra | MEL02, SNG02, SYD02, NYC01, LON01* |
