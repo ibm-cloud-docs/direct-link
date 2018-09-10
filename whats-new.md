@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2018
-lastupdated: "2018-07-13"
+lastupdated: "2018-08-23"
 ---
 
 {:shortdesc: .shortdesc}
@@ -10,6 +10,29 @@ lastupdated: "2018-07-13"
 # What's New
 
 Check back regularly to see what's new with IBM Cloud Direct Link. We're growing daily!
+
+## August
+
+### CenturyLink Connects to IBM Cloud
+ 
+CenturyLink Cloud Connect Solutions now deliver private, secure network connectivity to IBM Cloud, helping organizations innovate more efficiently by establishing low-latency connections on a global basis across a private network to the IBM Cloud through IBM Cloud Direct Link. This extended collaboration between Century Link and IBM builds on Century Link's existing support for IBM Business Resiliency Services and IBM Cloud Managed Services.
+ 
+**Learn More:**
+* Press Release:[CenturyLink Connects to IBM Cloud](http://news.centurylink.com/2018-08-01-CenturyLink-Connects-Enterprises-to-IBM-Cloud)
+* Blog: [Century Link and IBM Collaborate to Enhance Network Experiences](https://www.ibm.com/blogs/bluemix/2018/08/centurylink-ibm-enhance-network-experiences/)
+
+## July 2018
+
+### Digital Realty adds direct, secure access to IBM Cloud in 15 global metros
+ 
+Direct access to IBM Cloud is now available through the Digital Realty Service Exchange and IBM Cloud Direct via more than 70  Digital Realty data centers and multiple continents around the globe. The Digital Realty Service Exchange provides private, secure, high-throughput, and low-latency access over a single interface to IBM Cloud, helping customers overcome some of the limitations of the public Internet and helping to eliminate network congestion and enable critical workloads that may have not been previously feasible, such as AI, machine learning, and Blockain.
+ 
+**Learn More:**
+* Press Release:[Digital Realty adds direct, secure access to IBM Cloud in 15 global metros](http://investor.digitalrealty.com/investor-relations/news-and-events/news/news-details/2018/Digital-Realty-Adds-Direct-Secure-Access-to-IBM-Cloud-in-15-Global-Metros/default.aspx?_ga=2.4622768.2004310000.1533067916-309713252.1509692838)
+* Blog: [Built for Enterprise Cloud](https://www.ibm.com/blogs/bluemix/2018/07/digital-realty-ibm-cloud-direct-link-expand-network/)
+* Partner Page: [Digital Realty and IBM Direct Link](https://www.digitalrealty.com/partners/alliance-partners/ibm-direct-link/)
+* Interview: [Digital Realty and IBM Deal a Proximity Play](https://www.lightreading.com/data-center/data-center-infrastructure/digital-realty-ibm-deal-a-proximity-play/d/d-id/744870)
+
 
 ## June 2018
 
