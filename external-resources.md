@@ -3,7 +3,7 @@
 copyright:
   years: 2017, 2018
 
-lastupdated: "2018-06-27"
+lastupdated: "2018-08-23"
 
 ---
 
@@ -40,8 +40,16 @@ These resources are created by IBM and some of our partners and customers.
 
     Choosing to co-locate at Digital Realty’s hub locations in APAC and the U.S. puts IBM Cloud Data Centers right next door to Digital Realty’s world-class data center deployments, with direct dark fiber connection between them.
 
-## Blogs
+## Blogs on the IBM Website
+
+* [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/blogs/bluemix/2017/12/megaport-and-ibm-empower-enterprise-cloud/), by Matt Simpson and Jill Tempelmeyer
 
 * [Supporting the next generation cloud applications with IBM Cloud Direct Link](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/), by Gabriel Montanti
 
 * [IBM and Colt: Enabling Enterprise Digital Transformation](https://www.ibm.com/blogs/bluemix/2018/06/ibm-colt-enterprise-digital-transformation/), by Paul Hertzfeldt
+
+* [Digital Realty and IBM Cloud Direct Link: Built for Enterprise Cloud](https://www.ibm.com/blogs/bluemix/2018/07/digital-realty-ibm-cloud-direct-link-expand-network/), by Paul Hertzfeldt
+
+* [PacketFabric and IBM Cloud Enable Secure Enterprise Connections](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/), by Paul Hertzfeldt
+
+* [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/), by Paul Hertzfeldt
