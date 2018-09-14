@@ -29,6 +29,7 @@ Direct Link
     cloud-exchange-connect.md
     subnet-configuration.md
     direct-link-to-cos.md
+    edit-link-speed-connect.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
