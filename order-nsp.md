@@ -68,7 +68,7 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | **IBM PoP / Data Center Code** | **Meet Me Room Operator** | **Operator Site Code** |
 | **Americas** |  |  |
 | ATL01*| Digital Realty | ATL13 | 56 Marietta Street |
-| CHI01* | Equinix | CH4 | 350 E. Cermak |
+| CHI01 | Equinix | CH4 | 350 E. Cermak |
 | DAL03 | Equinix | DA1 | 1950 N. Stemmons Freeway |
 | DAL04 | Digital Realty | DFW14 | 2323 Bryan St |
 | DAL09 | Digital Realty | DFW35 | 900 Quality Way |
