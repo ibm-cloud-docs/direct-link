@@ -33,8 +33,6 @@ The table below shows which IBM Cloud datacenters are able to accept customers f
 | Americas | DAL12 | Richardson |	DC (AZ2) | DLR | 907 Security Row |
 | Americas | DAL13 | Carrollton | DC (AZ3) | CyrusOne | 1649 Frankford Rd. |
 | Americas | MON01 | Drummond  | DC | Colo-D  | 2525 Rue Canadien |
-| Americas | NYC02 | Secaucus |	PoP |	Equinix |	755 Secaucus Rd |
-| Americas | NYC03 | Secaucus |	PoP |	Equinix |	800 Secaucus Rd |
 | Americas | SAO01 | Sao Paulo | DC | Ascenty | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II, Jundial|
 | Americas | SAO02 | Sao Paulo | PoP | Equinix | Alameda Araguaia |
 | Americas | SJC02 | San Jose |	PoP |	Equinix |	11 Great Oaks Way |
