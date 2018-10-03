@@ -60,4 +60,4 @@ The table below shows which IBM Cloud datacenters are able to accept customers f
 
 
 
-**If you require the exact address for TOK02, please contact your Direct Link offering management or sales team.**
+**If you require the exact address for Tokyo, please contact your Direct Link offering management or sales team.**
