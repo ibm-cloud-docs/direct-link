@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-12"
+lastupdated: "2018-10-17"
 
 ---
 
@@ -120,3 +120,7 @@ Alternatively, some of our customers have set up two links into different XCR in
 ## Is there an SLA on the XCR connections up to the account’s BCR connection?
 
 There is no SLA on DirectLink today. Customers can achieve 99.999% effectively with 2 or more Direct Links properly configured for failover using BGP, but IBM cannot control that or provide an SLA on it.
+
+## How can I set up HA for my Direct Link Dedicated Hosting deployment?
+
+We offer 2 diverse ports with Direct Link Dedicated Hosting solutions. The customer has to set up the BGP failover, because the ports are not redundant to each other. That is, HA is created by the customer on the infrastructure we provide. For more information, see this document:  https://console.bluemix.net/docs/infrastructure/direct-link/diversity-models.html#models-for-diversity-and-redundancy-in-direct-link
