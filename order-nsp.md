@@ -44,8 +44,11 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | SYD01 | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
 | SYD02 | Equinix | SY3 | 47 Bourke Rd |
 | SYD04 | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
-| TOK01 | Equinix | TY2 | Shinagawa-ku |
-| TOK02 | At Tokyo | CC2 | Koto-ku |
+| TOK01 | Equinix | TY2 |
+| TOK02 | At Tokyo | CC2 | 
+| TOK03 | Equinix | 
+| TOK04 | SoftBank |
+| TOK05 | NTT |
 | **EMEA** |  |  |
 | AMS02 | Equinix | AM1 / AM2 | Larrderhoogtweg 57 |
 | AMS03 | KPN | Amsterdam 3 | Rondebeltweg 62 |
