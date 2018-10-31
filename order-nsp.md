@@ -44,14 +44,18 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | SYD01 | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
 | SYD02 | Equinix | SY3 | 47 Bourke Rd |
 | SYD04 | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
-| TOK01 | Equinix | TY2 | Shinagawa-ku |
-| TOK02 | At Tokyo | CC2 | Koto-ku |
+| TOK01 | Equinix | TY2 |
+| TOK02 | At Tokyo | CC2 | 
+| TOK03 | Equinix | 
+| TOK04 | SoftBank |
+| TOK05 | NTT |
 | **EMEA** |  |  |
 | AMS02 | Equinix | AM1 / AM2 | Larrderhoogtweg 57 |
 | AMS03 | KPN | Amsterdam 3 | Rondebeltweg 62 |
 | FRA01 | InterXion | FRA01 | Hanauer Landstrasse 302 |
 | FRA02 | Zenium | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
 | FRA03 | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
+| FRA04 | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H | 
 | FRA05 | InterXion | FRA05 | Weismüllerstraße 40 |
 | LON01 | Telecity | LD1 | 6/7 Harbour Exchange  E14 9GE |
 | LON02 | Digital Realty | LHR13 | Fountain Court, Cox Lane |
