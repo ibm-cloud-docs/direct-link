@@ -52,6 +52,7 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | FRA01 | InterXion | FRA01 | Hanauer Landstrasse 302 |
 | FRA02 | Zenium | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
 | FRA03 | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
+| FRA04 | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H | 
 | FRA05 | InterXion | FRA05 | Weismüllerstraße 40 |
 | LON01 | Telecity | LD1 | 6/7 Harbour Exchange  E14 9GE |
 | LON02 | Digital Realty | LHR13 | Fountain Court, Cox Lane |
