@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-08-09"
 
 ---
 
@@ -44,7 +44,7 @@ La solución IBM Cloud Direct Link Exchange permite a los clientes aprovechar un
 
  * **Redundancia:** Para establecer la redundancia de IBM Cloud Direct Link Exchange, se necesita conectividad en más de 2 ubicaciones, o la selección de una ubicación con XCR secundario disponible que pueda aprovechar el proveedor de Cloud Exchange.
 
- * **Opciones de direccionamiento locales/globales:** La opción de direccionamiento local proporciona acceso a los centros de datos con el mismo prefijo de tres letras que la ubicación PoP (DAL, AMS, MEL, etc). La opción de direccionamiento global es necesaria como un complemento para llegar a centros de datos fuera de dichas ubicaciones.
+ * ** Opciones de direccionamiento local/global:** La opción Direccionamiento local es la opción de direccionamiento predeterminada. Proporciona acceso a los centros de datos dentro del mismo mercado que Direct Link PoP (indicado, por ejemplo, como DAL, AMS o MEL). La opción de direccionamiento global es necesaria como un complemento para conectar sus recursos de IBM Cloud en el mercado con otros recursos de IBM Cloud en centros de datos fuera del mercado local. Se utiliza para compartir cargas de trabajo entre los recursos de IBM Cloud (por ejemplo, Dallas a Ashburn, o Dallas a Frankfurt).
  
 ## La solución IBM Cloud Direct Link Connect
 
@@ -66,7 +66,7 @@ La solución IBM Cloud Direct Link Exchange permite a los clientes aprovechar un
 
 * **Redundancia:** Para establecer la redundancia para IBM Cloud Direct Link Connect, se necesita la conectividad en más de 2 ubicaciones, o la selección de una ubicación con XCR secundario disponible que pueda aprovechar el proveedor de IBM Cloud Connect.
 
-* **Opciones de direccionamiento locales/globales:** La opción de direccionamiento local proporciona acceso a los centros de datos con el mismo prefijo de tres letras que la ubicación PoP (DAL, AMS, MEL, etc). La opción de direccionamiento global es necesaria como un complemento para llegar a centros de datos fuera de dichas ubicaciones.
+* **Opciones de direccionamiento local/global:** La opción Direccionamiento local es la opción de direccionamiento predeterminada. Proporciona acceso a los centros de datos dentro del mismo mercado que Direct Link PoP (indicado, por ejemplo, como DAL, AMS o MEL). La opción de direccionamiento global es necesaria como un complemento para conectar sus recursos de IBM Cloud en el mercado con otros recursos de IBM Cloud en centros de datos fuera del mercado local. Se utiliza para compartir cargas de trabajo entre los recursos de IBM Cloud (por ejemplo, Dallas a Ashburn, o Dallas a Frankfurt).
 
 ## La solución IBM Cloud Direct Link Dedicated
 
@@ -90,7 +90,7 @@ La solución IBM Cloud Direct Link Dedicated permite a los clientes terminar una
 
  * **Redundancia:** Para establecer la redundancia, se requiere conectividad de IBM Cloud Direct Link en más de 2 ubicaciones, o la selección de una ubicación con un XCR secundario disponible y una segunda solicitud de conexión de IBM Cloud Direct Link.
 
- * **Opciones de direccionamiento locales/globales:** La opción de direccionamiento local proporciona acceso a los centros de datos con el mismo prefijo de tres letras que PoP (DAL, AMS, MEL, etc). La opción de direccionamiento global es necesaria como un complemento para llegar a centros de datos fuera de dichas ubicaciones.
+ * **Opciones de direccionamiento local/global:** La opción Direccionamiento local es la opción de direccionamiento predeterminada. Proporciona acceso a los centros de datos dentro del mismo mercado que Direct Link PoP (indicado, por ejemplo, como DAL, AMS o MEL). La opción de direccionamiento global es necesaria como un complemento para conectar sus recursos de IBM Cloud en el mercado con otros recursos de IBM Cloud en centros de datos fuera del mercado local. Se utiliza para compartir cargas de trabajo entre los recursos de IBM Cloud (por ejemplo, Dallas a Ashburn, o Dallas a Frankfurt).
 
 ## La solución IBM Cloud Direct Link Dedicated Hosting
 
@@ -114,4 +114,4 @@ La solución IBM Cloud Direct Link Dedicated Hosting proporciona conectividad si
 
  * **Redundancia:** {{site.data.keyword.BluSoftlayer_notm}} proporciona conexiones a dos direccionadores de conexión (XCR) como parte del producto. Para establecer conectividad redundante, los clientes deben configurar BGP en cada conexión de Direct Link, tal y como lo consideren adecuado para lograr redundancia. Los ejemplos incluyen opciones como estas: _preferible el MED más bajo_, _preferible la preferencia local más alta_ o _preferible las vías de acceso AS más cortas_.
 
- * **Opciones de direccionamiento locales/globales:** La opción de direccionamiento local proporciona acceso a los centros de datos con el mismo prefijo de tres letras que PoP (DAL, AMS, MEL, etc). La opción de direccionamiento global es necesaria como un complemento para llegar a centros de datos fuera de dichas ubicaciones.
+ * **Opciones de direccionamiento local/global:** La opción Direccionamiento local es la opción de direccionamiento predeterminada. Proporciona acceso a los centros de datos dentro del mismo mercado que Direct Link PoP (indicado, por ejemplo, como DAL, AMS o MEL). La opción de direccionamiento global es necesaria como un complemento para conectar sus recursos de IBM Cloud en el mercado con otros recursos de IBM Cloud en centros de datos fuera del mercado local. Se utiliza para compartir cargas de trabajo entre los recursos de IBM Cloud (por ejemplo, Dallas a Ashburn, o Dallas a Frankfurt).

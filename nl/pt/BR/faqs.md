@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-11"
+lastupdated: "2018-07-12"
 
 ---
 
@@ -63,22 +63,6 @@ maioria dos nossos clientes e permite que clientes com uma presença global atin
 todas as regiões ao redor do mundo facilmente. Geralmente, no entanto, um cliente requer apenas um pacote de
 largura da banda local.
 
-## Quais são as opções de Roteamento Local e de Global Routing?
-As opções de Local Routing e Global Routing são selecionadas por cada cliente ao solicitar o
-serviço do Direct Link. Se os clientes precisam rotear o tráfego fora do POP na área em que eles solicitam
-o Direct Link, eles devem incluir a opção Global Routing; caso contrário, o tráfego será restrito aos
-serviços fornecidos pelo POP local.
-
-Cada mês, todos os clientes que usam circuitos de 1 G recebem 10 TB de tráfego de egresso livre e
-os que clientes que usam circuitos 10 G recebem 50 TB. Os excedentes são baseados na tabela a seguir, com a
-maior taxa de mercado prevalecendo. Se você selecionar Roteamento Global, não será cobrado por nenhum tráfego local de egresso, somente pelo tráfego que se origina ou finaliza fora do PoP local.
-
-|Dados de Mercado 1|Dados de Mercado 2|Dados de Mercado 3|
-|---|---|---|
-|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
-**Tabela 1: Camadas de utilização**<br/>
-As ofertas do Direct Link nos mercados marcados com um asterisco (*) DEVEM solicitar o Global Routing.
-
 ## Se eu estiver conectado a um Direct Link Dedicated, Direct Link Connect ou Direct Link Exchange em uma região como Dallas, eu terei acesso a outras regiões nos EUA por meio do Direct Link?
 Sim, você é capaz de obter acesso a áreas fora de sua região se você escolher o complemento Global Routing. Se essa opção não for selecionada, o seu tráfego do Direct Link será limitado à região para o local do PoP que você selecionou. Consulte o [documento de precificação](pricing.html) para obter detalhes.
 
@@ -113,6 +97,10 @@ existentes (como MPLS) para ativar o IBM Cloud rapidamente, aproveitando os circ
 Com o Direct Link Connect, os clientes podem se conectar ao IBM Cloud por meio do provedor Connect, por meio de uma conexão Network to Network (NNI), operada por parceiros da IBM em instalações no mundo todo. As
 velocidades da porta estão disponíveis até 5 Gb.
 
+## Como os provedores Direct Link Connect e Direct Link Exchange são comparados?
+
+Os provedores Connect são Telcos que possuem um alcance de rede além do data center. Os provedores Exchange são limitados a seus data centers. Ambos podem permitir a experiência de várias nuvens para clientes. Os provedores Exchange geralmente requerem colocação em seus data centers, enquanto os provedores Connect podem alcançar um site local e data centers do cliente.
+
 ## Podemos suportar o IPv6 sobre o Direct Link?
 
 Não para a Sessão BGP. Temos que designar o nosso /30 do IPv4 e precisamos do mesmo no retorno do cliente.
@@ -123,7 +111,7 @@ Não. O IPv6 é público apenas.
 
 ## Há algum requisito especial para o Verizon SCI? Prefixo / ASN / VLAN BGP / e assim por diante?
 
-O Verizon SCI é um dos vários serviços baseados em MPLS da Camada 3 (VPN de IP). Ele requer que a IBM estabeleça o BGP com a Verizon em vez de diretamente com o cliente. A Verizon, então, estabelece o BGP com o cliente e anuncia rotas de acordo. Vários outros provedores de serviços baseados na Camada 3 participam do programa Direct Link Connect. Os clientes precisam estar cientes do que eles estão ordenando e como sua conta se comportará ao se conectar ao IBM Cloud.
+O Verizon SCI é um dos vários serviços baseados em MPLS da Camada 3 (VPN de IP). Ele requer que a IBM estabeleça o BGP com a Verizon em vez de diretamente com o cliente. A Verizon, então, estabelece o BGP com o cliente e anuncia rotas de acordo. Vários outros provedores de serviços baseados na Camada 3 participam do programa Direct Link Connect. Os clientes precisam estar cientes do que eles estão pedindo e como sua conta se comportará ao se conectar ao IBM Cloud.
 
 ## O Direct Link suporta qualquer tipo de QoS?
 
@@ -131,7 +119,7 @@ Não é possível suportar nenhuma garantia de QoS. O QoS requer o mapeamento do
 
 ## O Direct Link suporta quadros Jumbo?
 
-Os quadros Jumbo (até 9214 bytes) são suportados no Dedicated e Dedicated Hosting.
+Os quadros Jumbo (até 9214 bytes) são suportados no Dedicated e Dedicated Hosting. 
 O suporte no Connect e no Exchange é teoricamente possível, mas requer que o Provedor de Serviços trabalhe com a IBM e assegure que a conexão de ponta a ponta suporte Quadros Jumbo, incluindo a Network-to Network-Interface (NNI) subjacente.
 Por padrão, o Exchange e o Connect são configurados com suporte de MTU de 1500 bytes.
 
@@ -147,10 +135,14 @@ Pedir 2 links para a diversidade. Nós não oferecemos redundância entre comuta
 
 Geralmente, nós instalamos velocidades de 1 G e abaixo em óticas de 1 G. Para velocidades de 2 G a 10 G, nós instalamos as óticas de 10 G. Assim, o upgrade de 1 G para 5 G exigiria que novas óticas fossem designadas ou inseridas. Seria um evento que afeta o serviço. Se você antecipar esse tipo de crescimento, é possível solicitar que fibras óticas de 10 G sejam instaladas no início de sua implementação do Direct Link, ou solicitar o 2 G inicialmente para que as óticas de 10 G existam.
 
-## O ECMP é a maneira de ir para conexões redundantes? Quais alternativas existem?
+## O ECMP é a melhor solução para conexões redundantes?  Quais alternativas existem?
 
 Observe que o ECMP não se destina a conexões redundantes, mas ao balanceamento da carga sobre os dois links. Com o ECMP, ambas as conexões devem ser finalizadas para o mesmo IBM Cloud Cross-connect Router (XCR), o que o torna um ponto único de falha. (Em outras palavras, o ECMP pode ser provisionado apenas como duas sessões no mesmo IBM Cloud XCR.) 
 
 ECMP é um recurso do BGP. Se você estiver procurando redundância, obtenha duas conexões do Direct Link, uma em cada XCR. Se desejar usar o ECMP e tiver redundância, serão necessárias duas conexões do Direct Link em cada XCR, para que seja possível ter duas sessões de ECMP simultaneamente.
 
 Como alternativa, alguns de nossos clientes configuraram dois links em XCR diferente no mesmo data center, por exemplo, WDC02, em seguida, realizaram failover conforme necessário usando configurações de BGP. Essa configuração é menos redundante (menos segura) do que ter conexões do Direct Link em dois data centers separados, como WDC02 e WDC05.
+
+## Há um SLA nas conexões XCR até a conexão BCR da conta?
+
+Não há nenhum SLA no DirectLink atualmente. Os clientes podem alcançar 99,999% efetivamente com 2 ou mais Direct Links configurados corretamente para failover usando BGP, mas a IBM não pode controlá-lo ou fornecer um SLA nele.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-08-09"
 
 ---
 
@@ -24,9 +24,9 @@ lastupdated: "2018-04-12"
 
 ## IBM Cloud Direct Link Exchange ソリューション
 
-IBM Cloud Direct Link Exchange ソリューションを使用すると、お客様は Cloud Exchange プロバイダーを利用して {{site.data.keyword.BluSoftlayer_notm}} ロケーションへの接続を実現できます。{{site.data.keyword.BluSoftlayer_notm}} から Cloud Exchange プロバイダーへの物理的な接続は既に設置済みであり、他のお客様と共有されるため、このオファリングは通常、低コストで接続を提供します。
+IBM Cloud Direct Link Exchange ソリューションを使用すると、お客様は Cloud Exchange プロバイダーを利用して {{site.data.keyword.BluSoftlayer_notm}} ロケーションへの接続を実現できます。 {{site.data.keyword.BluSoftlayer_notm}} から Cloud Exchange プロバイダーへの物理的な接続は既に設置済みであり、他のお客様と共有されるため、このオファリングは通常、低コストで接続を提供します。
 
-**一般的なユース・ケース:** _ハイブリッド・ワークロード、プロバイダー間ワークロード、高い発信帯域幅を使用する大量または頻繁なデータ転送、プライベート・ワークロード、および環境管理に最適です。このオプションは、通常、必要な PoP ロケーションに必要な IBM Cloud Direct Link Exchange プロバイダーが既に存在する場合に選択されます。_
+**一般的なユース・ケース:** _ハイブリッド・ワークロード、プロバイダー間ワークロード、高い発信帯域幅を使用する大量または頻繁なデータ転送、プライベート・ワークロード、および環境管理に最適です。  このオプションは、通常、必要な PoP ロケーションに必要な IBM Cloud Direct Link Exchange プロバイダーが既に存在する場合に選択されます。_
 
 ![図 1](/images/Direct-Link-Exchange.png)
 
@@ -34,7 +34,7 @@ IBM Cloud Direct Link Exchange ソリューションを使用すると、お客�
 
  * **標準的な導入時間:** Equinix プロバイダーの場合、標準的な導入時間は数時間です。 他のプロバイダーの場合、回線が交換局に到達後 5 日から 10 日です。 導入時間は、場所、および NSP またはキャリアに回線を注文する際の要件に応じて、全体で 30 日から 60 日かかる可能性があります。
 
- * **相互接続の詳細:** セキュア Cloud Exchange 相互接続用の物理的な相互接続は、{{site.data.keyword.BluSoftlayer_notm}} と Cloud Exchange プロバイダーの間で維持されます。お客様は、Cloud Exchange プロバイダーに相互接続されたら、Cloud Exchange プロバイダーに「バーチャル・サーキット」を要求します。これにより {{site.data.keyword.BluSoftlayer_notm}} への論理接続が確立されます。
+ * **相互接続の詳細:** セキュア Cloud Exchange 相互接続用の物理的な相互接続は、{{site.data.keyword.BluSoftlayer_notm}} と Cloud Exchange プロバイダーの間で維持されます。 お客様は、Cloud Exchange プロバイダーに相互接続されたら、Cloud Exchange プロバイダーに「バーチャル・サーキット」を要求します。これにより {{site.data.keyword.BluSoftlayer_notm}} への論理接続が確立されます。
 
  * **ポート速度オプション:** 50 Mbps、100 Mbps、200 Mbps、500 Mbps、または 1 Gbps を選択します。
 
@@ -44,7 +44,7 @@ IBM Cloud Direct Link Exchange ソリューションを使用すると、お客�
 
  * **冗長性:** IBM Cloud Direct Link Exchange に冗長性を確立するには、2 つ以上のロケーションへの接続が必要です。あるいは、Cloud Exchange プロバイダーが利用できる 2 次 XCR を備えたロケーションを選択する必要があります。
 
- * **ローカル/グローバル・ルーティング・オプション:** 「ローカル・ルーティング」オプションは、PoP ロケーションと同じ 3 文字の接頭部 (DAL、AMS、MEL など) を持つデータ・センターへのアクセスを提供します。「グローバル・ルーティング」オプションは、そうしたロケーションの外部にあるデータ・センターに到達するためのアドオンとして必要です。
+ * **ローカル/グローバル・ルーティング・オプション** ローカル・ルーティング・オプションが、デフォルトのルーティング・オプションです。Direct Link PoP と同じ市場 (例えば、DAL、AMS、MEL で示されるもの) の中のデータ・センターへのアクセスを提供します。「グローバル・ルーティング」オプションは、市場内の IBM Cloud リソースを、ローカル市場の外部にあるデータ・センター内の他の IBM Cloud リソースに接続するためのアドオンとして必要です。この「グローバル・ルーティング」オプションを使用して、IBM Cloud リソース間 (例えば、ダラスとアッシュバーン、ダラスとフランクフルトなど) でワークロードを共有します。
  
 ## IBM Cloud Direct Link Connect ソリューション
 
@@ -56,7 +56,7 @@ IBM Cloud Direct Link Exchange ソリューションを使用すると、お客�
 
 * **標準的な導入時間:** 回線が交換局に到達後 5 日から 10 日。 導入時間は、場所、および NSP またはキャリアに回線を注文する際の要件に応じて、全体で 30 日から 60 日かかる可能性があります。
 
-* **相互接続の詳細:** Direct Link Connect 相互接続用の物理的な相互接続は、{{site.data.keyword.BluSoftlayer_notm}} と Connect プロバイダーの間で維持されます。お客様は、Cloud Connect プロバイダーに相互接続されたら、Cloud Connect プロバイダーに「バーチャル・サーキット」を要求します。これにより {{site.data.keyword.BluSoftlayer_notm}} への論理接続が確立されます。
+* **相互接続の詳細:** Direct Link Connect 相互接続用の物理的な相互接続は、{{site.data.keyword.BluSoftlayer_notm}} と Connect プロバイダーの間で維持されます。 お客様は、Cloud Connect プロバイダーに相互接続されたら、Cloud Connect プロバイダーに「バーチャル・サーキット」を要求します。これにより {{site.data.keyword.BluSoftlayer_notm}} への論理接続が確立されます。
 
 * **ポート速度オプション:** 50 Mbps、100 Mbps、200 Mbps、500 Mbps、1 Gbps、2 Gbps、または 5 Gbps を選択します。
 
@@ -66,7 +66,7 @@ IBM Cloud Direct Link Exchange ソリューションを使用すると、お客�
 
 * **冗長性:** IBM Cloud Direct Link Connect に冗長性を確立するには、2 つ以上のロケーションへの接続が必要です。あるいは、IBM Cloud Connect プロバイダーが利用できる 2 次 XCR を備えたロケーションを選択する必要があります。
 
-* **ローカル/グローバル・ルーティング・オプション:** 「ローカル・ルーティング」オプションは、PoP ロケーションと同じ 3 文字の接頭部 (DAL、AMS、MEL など) を持つデータ・センターへのアクセスを提供します。「グローバル・ルーティング」オプションは、そうしたロケーションの外部にあるデータ・センターに到達するためのアドオンとして必要です。
+* **ローカル/グローバル・ルーティング・オプション** ローカル・ルーティング・オプションが、デフォルトのルーティング・オプションです。Direct Link PoP と同じ市場 (例えば、DAL、AMS、MEL で示されるもの) の中のデータ・センターへのアクセスを提供します。「グローバル・ルーティング」オプションは、市場内の IBM Cloud リソースを、ローカル市場の外部にあるデータ・センター内の他の IBM Cloud リソースに接続するためのアドオンとして必要です。この「グローバル・ルーティング」オプションを使用して、IBM Cloud リソース間 (例えば、ダラスとアッシュバーン、ダラスとフランクフルトなど) でワークロードを共有します。
 
 ## IBM Cloud Direct Link Dedicated ソリューション
 
@@ -90,7 +90,7 @@ IBM Cloud Direct Link Dedicated ソリューションを使用すると、お客
 
  * **冗長性:** 冗長性を確立するには、IBM Cloud Direct Link を 2 つ以上のロケーションに接続する必要があります。あるいは、2 次 XCR が使用可能であり、2 次 IBM Cloud Direct Link 接続要求が可能なロケーションを選択する必要があります。
 
- * **ローカル/グローバル・ルーティング・オプション:** 「ローカル・ルーティング」オプションは、PoP と同じ 3 文字の接頭部 (DAL、AMS、MEL など) を持つデータ・センターへのアクセスを提供します。 「グローバル・ルーティング」オプションは、そうしたロケーションの外部にあるデータ・センターに到達するためのアドオンとして必要です。
+ * **ローカル/グローバル・ルーティング・オプション** ローカル・ルーティング・オプションが、デフォルトのルーティング・オプションです。Direct Link PoP と同じ市場 (例えば、DAL、AMS、MEL で示されるもの) の中のデータ・センターへのアクセスを提供します。「グローバル・ルーティング」オプションは、市場内の IBM Cloud リソースを、ローカル市場の外部にあるデータ・センター内の他の IBM Cloud リソースに接続するためのアドオンとして必要です。この「グローバル・ルーティング」オプションを使用して、IBM Cloud リソース間 (例えば、ダラスとアッシュバーン、ダラスとフランクフルトなど) でワークロードを共有します。
 
 ## IBM Cloud Direct Link Dedicated Hosting ソリューション
 
@@ -112,6 +112,6 @@ IBM Cloud Direct Link Dedicated Hosting ソリューションは、IBM Cloud Dir
 
  * **コロケーション・サービス:** あり。
 
- * **冗長性:** {{site.data.keyword.BluSoftlayer_notm}} は、製品の一部として、2 つの相互接続ルーター (XCR) への接続を提供します。 冗長な接続を確立するには、お客様は、冗長性を実現するために適していると思われる各 Direct Link 接続で BGP を構成する必要があります。例として、「_prefer Lowest MED_」、「_prefer highest local-preference_」、「_prefer shorter AS paths_」のようなオプションがあります。
+ * **冗長性:** {{site.data.keyword.BluSoftlayer_notm}} は、製品の一部として、2 つの相互接続ルーター (XCR) への接続を提供します。 冗長な接続を確立するには、お客様は、冗長性を実現するために適していると思われる各 Direct Link 接続で BGP を構成する必要があります。 例として、「_prefer Lowest MED_」、「_prefer highest local-preference_」、「_prefer shorter AS paths_」のようなオプションがあります。
 
- * **ローカル/グローバル・ルーティング・オプション:** 「ローカル・ルーティング」オプションは、PoP と同じ 3 文字の接頭部 (DAL、AMS、MEL など) を持つデータ・センターへのアクセスを提供します。 「グローバル・ルーティング」オプションは、そうしたロケーションの外部にあるデータ・センターに到達するためのアドオンとして必要です。
+ * **ローカル/グローバル・ルーティング・オプション** ローカル・ルーティング・オプションが、デフォルトのルーティング・オプションです。Direct Link PoP と同じ市場 (例えば、DAL、AMS、MEL で示されるもの) の中のデータ・センターへのアクセスを提供します。「グローバル・ルーティング」オプションは、市場内の IBM Cloud リソースを、ローカル市場の外部にあるデータ・センター内の他の IBM Cloud リソースに接続するためのアドオンとして必要です。この「グローバル・ルーティング」オプションを使用して、IBM Cloud リソース間 (例えば、ダラスとアッシュバーン、ダラスとフランクフルトなど) でワークロードを共有します。

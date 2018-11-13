@@ -16,7 +16,7 @@ lastupdated: "2018-06-11"
 
 # Questionário do IBM Cloud Direct Link Connect
 
-Obrigado por abrir uma solicitação para o IBM Cloud Direct Link Connect. Para finalizar a sua solicitação, gostaríamos de reunir algumas informações adicionais de você.  É possível falar com um engenheiro a qualquer momento durante o processo de questionário.  Após você ter concluído o questionário, ele será revisado por nossa equipe de Engenharia de design de nuvem e escalado para a Engenharia de rede para implementação.
+Obrigado por abrir uma solicitação para o IBM Cloud Direct Link Connect.  Para finalizar a sua solicitação, gostaríamos de reunir algumas informações adicionais de você.  É possível falar com um engenheiro a qualquer momento durante o processo de questionário.  Após você ter concluído o questionário, ele será revisado por nossa equipe de Engenharia de design de nuvem e escalado para a Engenharia de rede para implementação.
 
 ## Você reconhece e concorda com os itens a seguir?
 
@@ -32,7 +32,7 @@ Obrigado por abrir uma solicitação para o IBM Cloud Direct Link Connect. Para
   * Para obter mais informações, veja **Seção 5 - Encargos** no Cloud Services Agreement no link a seguir: [ibm.biz/service-agreement](ibm.biz/service-agreement)
   * Como alternativa, o faturamento poderá ser parado para um cliente se ele for notificado de que o serviço Direct Link será desligado e não funcionará mais.
 
-3. Pedindo o serviço Direct Link, você será responsável por quaisquer taxas associadas ao acesso do ponto de Presença (PoP) por meio de sua rede remota e por qualquer conexão cruzada necessária dentro da instalação do PoP para acessar o seu provedor do Exchange. Você (ou o seu provedor) também será responsável por comprar o circuito virtual para o IBM Cloud. Se o seu provedor exigir que um roteador ou outro dispositivo esteja fisicamente no PoP, você também será responsável pelos custos associados à instalação desse equipamento. Confirme se seu provedor de Rede ou PoP pode atingir o Direct Link Connect e precificar os custos associados.
+3. Pedindo o serviço Direct Link, você será responsável por quaisquer taxas associadas ao acesso do ponto de Presença (PoP) por meio de sua rede remota e por qualquer conexão cruzada necessária dentro da instalação do PoP para acessar o seu provedor do Exchange. Você (ou o seu provedor) também será responsável por comprar o circuito virtual para o IBM Cloud. Se o seu provedor exigir que um roteador ou outro dispositivo esteja fisicamente no PoP, você também será responsável pelos custos associados à instalação desse equipamento.  Confirme se seu provedor de Rede ou PoP pode atingir o Direct Link Connect e precificar os custos associados.
 
 4. O IBM Cloud não instalará nenhum equipamento do cliente em nossos POPs de rede.  Você precisará trabalhar com o seu provedor para determinar se precisa ou não instalar qualquer equipamento no mesmo local em que o IBM Cloud PoP existe.
 

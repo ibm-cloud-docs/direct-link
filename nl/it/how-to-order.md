@@ -23,16 +23,16 @@ Quando ti prepari ad ordinare il tipo di IBM Cloud Direct Link che meglio soddis
 * [Come ordinare IBM Cloud Direct Link Dedicato](order-nsp.html)
 * [Come ordinare IBM Cloud Direct Link Dedicated Hosting ](order-colocation.html)
 
-## Come posso sapere quale tipo di IBM Cloud Direct Link ordinare? 
+## Come posso sapere quale tipo di IBM Cloud Direct Link ordinare?
 
-Puoi utilizzare il diagramma di flusso nella figura per aiutarti a decidere. 
+Puoi utilizzare il diagramma di flusso nella figura per aiutarti a decidere.
 
 ![direct-link-decision-tree](/images/direct-link-decision-tree.png)
 
 
-## Cosa succede poi 
+## Cosa succede poi
 
-Ti verrà richiesto di completare un questionario del cliente, che puoi rivedere a questi link: 
+Ti verrà richiesto di completare un questionario del cliente, che puoi rivedere a questi link:
 
 * [Exchange](questionnaire-exchange.html)
 * [Connect](questionnaire-connect.html)

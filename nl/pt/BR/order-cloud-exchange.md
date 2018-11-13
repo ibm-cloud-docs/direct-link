@@ -28,11 +28,12 @@ associado.
  
  A tabela mostra quais data centers do IBM Cloud oferecem conectividade do Direct Link Exchange:
  
-| Provedor do Exchange | Código do Data Center IBM |
+| Provedor do Exchange	| Código do Data Center IBM |
 |-------------|-----------------------|
 | AT Tokyo	| TOK02 |
+| Ascenty | SAO01 * |
 | Cologix	| MON02, TOR02 |
-| Equinix	| SNG02, SYD02, TOK01, AMS02, PAR02, CHI01, DAL03, NYC02, NYC03, SAO02, SJC02, TOR02, WDC02, LON01, FRA03 |									
+| Equinix	| HKG01,SNG02, SYD02, TOK01, AMS02, PAR02, CHI01, DAL03, NYC02, NYC03, SAO02, SJC02, TOR02, WDC02, LON01, FRA03 |							
 | InterXion	| FRA01, STO01 |
 | KINX	| SEO02 * |
 | NextDC | 	MEL02* |

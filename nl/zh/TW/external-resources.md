@@ -3,7 +3,7 @@
 copyright:
   years: 2017, 2018
 
-lastupdated: "2018-05-07"
+lastupdated: "2018-08-23"
 
 ---
 
@@ -18,6 +18,8 @@ lastupdated: "2018-05-07"
 # 外部資源
 
 這些資源是由 IBM 以及我們的一些合作夥伴和客戶所建立。
+
+## 文件及個案研討
 
 * [**混合式雲端白皮書**](https://public.dhe.ibm.com/cloud/bluemix/network/direct-link/ibm-hybrid-cloud-whitepaper.pdf)
 
@@ -37,3 +39,17 @@ lastupdated: "2018-05-07"
     在伺服器部署、雲端和客戶之間設置額外步驟的遞送系統太慢而且間接，無法提供 IBM Cloud 承諾其客戶的低延遲和高傳輸量。 
 
     選擇主機託管於 APAC 和美國的 Digital Realty 中心位置，等於將「IBM Cloud 資料中心」設置在 Digital Realty 世界級資料中心部署的隔壁，它們之間具有直接光纖連線。
+
+## IBM 網站上的部落格
+
+* [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/blogs/bluemix/2017/12/megaport-and-ibm-empower-enterprise-cloud/)，作者 Matt Simpson 及 Jill Tempelmeyer
+
+* [Supporting the next generation cloud applications with IBM Cloud Direct Link](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/)，作者 Gabriel Montanti
+
+* [IBM and Colt: Enabling Enterprise Digital Transformation](https://www.ibm.com/blogs/bluemix/2018/06/ibm-colt-enterprise-digital-transformation/)，作者 Paul Hertzfeldt
+
+* [Digital Realty and IBM Cloud Direct Link: Built for Enterprise Cloud](https://www.ibm.com/blogs/bluemix/2018/07/digital-realty-ibm-cloud-direct-link-expand-network/)，作者 Paul Hertzfeldt
+
+* [PacketFabric and IBM Cloud Enable Secure Enterprise Connections](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/)，作者 Paul Hertzfeldt
+
+* [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/)，作者 Paul Hertzfeldt

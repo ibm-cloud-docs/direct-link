@@ -16,11 +16,11 @@ lastupdated: "2018-05-30"
 
 # Modèles de diversité et de redondance dans Direct Link
 
-Le présent document contient une série de schémas relatifs à des questions de redondance et de diversité, destinés à vous aider à trouver un modèle à utiliser pour créer le déploiement Direct Link le plus adapté à vos besoins. Les schémas sont organisés par niveaux croissants de complexité et en fonction de l'offre Direct Link qu'ils illustrent. Direct Link n'est pas un service intrinsèquement redondant au niveau du routeur XCR, il incombe aux clients de créer de la redondance via leurs schémas BGP.  
+Le présent document contient une série de schémas relatifs à des questions de redondance et de diversité, destinés à vous aider à trouver un modèle à utiliser pour créer le déploiement Direct Link le plus adapté à vos besoins. Les schémas sont organisés par niveaux croissants de complexité et en fonction de l'offre Direct Link qu'ils illustrent. Direct Link n'est pas un service intrinsèquement redondant au niveau du routeur XCR, il incombe aux clients de créer de la redondance via leurs schémas BGP. 
 
 ## Section 1 : Remarques relativement simples pour obtenir de la diversité
 
-Les configurations décrites dans ce groupe s'appuient sur le fait que tous les actifs se trouvent dans le même emplacement de point de présence et sur le même marché mondial. 
+Les configurations décrites dans ce groupe s'appuient sur le fait que tous les actifs se trouvent dans le même emplacement de point de présence et sur le même marché mondial.
 
 **Figure 1 : Direct Link Exchange avec diversité, dans le même emplacement de point de présence (hors zone de disponibilité)**
 
@@ -68,7 +68,7 @@ Les configurations décrites dans ce groupe offrent des options de connexion dan
 
 ## En savoir plus sur ECMP
 
-ECMP est une fonction de BGP. Certains clients nous ont demandé s'il était possible d'utiliser ECMP pour obtenir de la redondance. Utilisé seul, ECMP n'est pas suffisant. Cette section explique pourquoi. 
+ECMP est une fonction de BGP. Certains clients nous ont demandé s'il était possible d'utiliser ECMP pour obtenir de la redondance. Utilisé seul, ECMP n'est pas suffisant. Cette section explique pourquoi.
 
 **Q : ECMP doit-il être utilisé pour créer des connexions redondantes ? Existe-t-il d'autres méthodes ?**
 
@@ -80,7 +80,7 @@ ECMP n'a pas été conçu pour créer des connexions redondantes mais pour obten
 
 ### Comment obtenir diversité et redondance
 
-Si vous recherchez une haute disponibilité ou une redondance totale, configurez deux liaisons dans des routeurs XCR différents dans le même centre de données (par exemple, DAL03). Ensuite, effectuez une reprise en ligne si nécessaire à l'aide des configurations BGP. 
+Si vous recherchez une haute disponibilité ou une redondance totale, configurez deux liaisons dans des routeurs XCR différents dans le même centre de données (par exemple, DAL03). Ensuite, effectuez une reprise en ligne si nécessaire à l'aide des configurations BGP.
 
 **Figure 11 : ECMP avec des routeurs XCR doubles**
 

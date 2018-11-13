@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-11"
+lastupdated: "2018-07-12"
 
 ---
 
@@ -46,17 +46,6 @@ Direct Link는 본질적으로 중복 서비스를 제공하지 않습니다. Di
 ## 글로벌 라우팅 추가 기능 패키지가 있는 이유는 무엇입니까?
 데이터 센터의 지역 외부를 순회할 때 고객이 예기치 않은 데이터 비용을 경험하지 않도록 글로벌 라우팅 추가 기능을 추가했습니다. 이는 대부분의 우리 고객에게 더 낮은 비용을 유지하고, 쉽게 전세계의 모든 지역에 접속하기 위한 글로벌 인식으로 고객을 위한 기능을 제공합니다. 그러나 일반적으로 고객에게는 로컬 대역폭 패키지만 필요합니다.
 
-## 로컬 라우팅 및 글로벌 라우팅 옵션은 무엇입니까?
-모든 고객이 Direct Link 서비스를 주문할 때 로컬 라우팅 및 글로벌 라우팅 옵션이 선택됩니다. 고객이 그 안에서 Direct Link를 주문하는 영역에서 POP 외부로 자신의 트래픽을 라우트해야 하는 경우, 글로벌 라우팅 옵션을 추가해야 합니다. 그렇지 않으면 해당 트래픽이 로컬 POP에서 제공되는 서비스로 제한됩니다.
-
-매월 1G 회선을 사용하는 모든 고객은 10TB의 무료 발신(egress) 트래픽이 할당되며, 10G 회선을 사용하는 고객은 50TB가 할당됩니다. 공급 과잉은 더 높은 마켓 비율이 지배적인 다음 표를 기반으로 합니다. 글로벌 라우팅을 선택하면 로컬 발신 트래픽에 대해서는 비용이 청구되지 않고 로컬 PoP의 외부에서 시작되거나 종료되는 트래픽에 대해서만 청구됩니다.
-
-|데이터 마켓 1|데이터 마켓 2|데이터 마켓 3|
-|---|---|---|
-|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
-**표 1: 활용 계층**<br/>
-별표(*)와 함께 표시된 마켓의 Direct Link 오퍼링은 글로벌 라우팅을 주문해야 합니다.
-
 ## 달라스와 같은 지역에서 Direct Link Dedicated, Direct Link Connect 또는 Direct Link Exchange에 연결된 경우 Direct Link를 통해 미국의 다른 지역에 대한 액세스할 수 있습니까?
 예, 글로벌 라우팅 추가 기능을 선택하면 지역의 외부 영역에 대한 액세스 권한을 얻을 수 있습니다. 이 옵션이 선택되지 않은 경우 Direct Link 트래픽은 사용자가 선택한 PoP 위치에 대한 지역으로 제한됩니다. 세부사항은 [가격 책정 문서](pricing.html)를 참조하십시오.
 
@@ -82,6 +71,10 @@ Direct Link Exchange는 IBM Cloud와  Cloud Exchange Service Provider 간 계층
 
 Direct Link Connect를 사용하는 경우 고객이 전세계 설비에서 IBM 파트너가 운영하는 NN(Network-to-Network Interfaces) 연결에서 Connect 제공자를 통해 IBM Cloud에 연결할 수 있습니다. 포트 속도는 5Gb까지 사용 가능합니다.
 
+## Direct Link Connect 및 Direct Link Exchange 제공자를 어떻게 비교합니까?
+
+Connect 제공자는 데이터 센터 이상의 네트워크 범위를 갖는 통신 회사입니다. Exchange 제공자는 해당 데이터 센터로 제한됩니다. 두 경우 모두 고객을 위한 다중 클라우드 환경을 사용하도록 설정할 수 있습니다. Exchange 제공자는 보통 데이터 센터에 코로케이션이 필요한 반면 Connect 제공자는 고객의 온프레미스 사이트 및 데이터 센터에 접속할 수 있습니다. 
+
 ## Direct Link를 통해 IPv6을 지원할 수 있습니까?
 
 BGP 세션에는 해당되지 않습니다. IPv4에서 /30을 지정해야 하며 고객으로부터 리턴되는 것도 동일해야 합니다.
@@ -90,7 +83,7 @@ BGP 세션에는 해당되지 않습니다. IPv4에서 /30을 지정해야 하�
 
 아니오. IPv6을 공용으로만 사용됩니다.
 
-## Verizon SCI에 대한 특별 요구사항(접두부/ASN/VLAN BGP 등)이 있습니까?
+## Verizon SCI에 대한 특별 요구사항 (접두부/ASN/VLAN BGP 등)이 있습니까?
 
 Verizon SCI는 여러 MPLS 기반 계층 3(IP VPN) 서비스 중 하나입니다. IBM에서 직접 고객과의 BGP를 설정하는 대신 Verizon과의 BGP를 설정해야 합니다. 그런 다음 Verizon이 고객과의 BGP를 설정하고 그에 따라 라우트를 광고합니다. 여러 다른 계층 3 기반 서비스 프로그램이 Direct Link Connect 프로그램에 참여합니다. 고객은 자신이 주문하는 내용과 IBM Cloud에 연결할 때 해당 계정이 작동하는 방식을 알고 있어야 합니다.
 
@@ -100,8 +93,9 @@ QoS 보증을 지원할 수 없습니다. QoS에는 각 서비스 공급자와 I
 
 ## Direct Linkr가 Jumbo Frame을 지원합니까?
 
-Jumbo Frame(최대 9214바이트)은 Dedicated 및 Dedicated Hosting에서 지원됩니다.
-Connect 및 Exchange에 대한 지원이 이론적으로 가능하지만 서비스 제공자가 IBM과 협업하여 엔드-투-엔드 연결이 기본 NNI(Network-to Network-Interface)를 포함하여 Jumbo Frame을 지원하는지 확인해야 합니다. 기본적으로 Exchange 및 Connect는 1500바이트 MTU 지원으로 설정됩니다.
+Jumbo Frame(최대 9214바이트)은 Dedicated 및 Dedicated Hosting에서 지원됩니다. 
+Connect 및 Exchange에 대한 지원이 이론적으로 가능하지만 서비스 제공자가 IBM과 협업하여 엔드-투-엔드 연결이 기본 NNI(Network-to Network-Interface)를 포함하여 Jumbo Frame을 지원하는지 확인해야 합니다.
+기본적으로 Exchange 및 Connect는 1500바이트 MTU 지원으로 설정됩니다.
 
 ## Direct Link Connect를 사용하는 경우 고객이 동일한 캐리어(예: DAL03의 Verizon)를 통해 라우터 다양성을 보장하는 방법은 무엇입니까?
 
@@ -115,10 +109,14 @@ IBM에는 캐리어에 대한 다양한 NNI 링크를 작성하는 다양한 XCR
 
 일반적으로 1G 광학에 1G 이하의 속도로 설치합니다. 2G - 10G 속도의 경우 10G 광학을 설치합니다. 따라서 1G에서 5G로 업그레이드하려면 새 광학이 지정되거나 삽입되어야 합니다. 이는 서비스에 영향을 미치는 이벤트일 수 있습니다. 이러한 유형의 성장을 예상하는 경우 Direct Link 배치를 시작할 때 10G 광섬유가 설치되도록 요청하거나 10G 광학이 준비될 수 있도록 처음에 2G를 주문할 수 있습니다.
 
-## ECMP가 중복 연결을 얻을 수 있는 방법입니까? 어떤 대안이 있습니까?
+## ECMP가 중복 연결을 얻을 수 있는 방법입니까?  어떤 대안이 있습니까?
 
 ECMP는 중복 연결에 사용되는 것이 아니라 두 개의 링크 간 로드를 밸런싱하는 데 사용됩니다. ECMP를 사용하면 두 개의 연결이 모두 동일한 IBM Cloud 교차 연결 라우터(XCR)로 종료되어야 하므로 단일 장애 지점이 됩니다. (즉, ECMP는 동일한 IBM Cloud XCR의 두 개 세션으로만 프로비저닝할 수 있습니다.) 
 
-ECMP는 BGP의 기능입니다. 중복성을 원하는 경우 두 개의 Direct Link 연결을 확보하십시오. 각 XCR마다 하나씩 연결됩니다. ECMP를 사용하고 중복성을 얻으려면 두 개의 ECMP 세션이 동시에 진행될 수 있도록 각 XCR에 두 개의 Direct Link 연결이 필요합니다. 
+ECMP는 BGP의 기능입니다. 중복성을 원하는 경우 두 개의 Direct Link 연결을 확보하십시오. 각 XCR마다 하나씩 연결됩니다. ECMP를 사용하고 중복성을 얻으려면 두 개의 ECMP 세션이 동시에 진행될 수 있도록 각 XCR에 두 개의 Direct Link 연결이 필요합니다.
 
 또는 일부 고객은 동일한 데이터 센터(예: WDC02)의 다른 XCR에 대한 두 개의 링크를 설정한 다음 필요에 따라 BGP 구성을 사용하여 장애를 복구합니다. 이 구성은 두 개의 별도 데이터 센터(예: WDC02 및 WDC05)로의 Direct Link 연결을 보유하는 것보다 중복성이 낮습니다(덜 안전함).
+
+## 계정의 BCR 연결까지 XCR 연결에 SLA가 있습니까?
+
+현재 DirectLink에 SLA는 없습니다. 고객은 BGP를 사용하여 장애 복구에 대해 적절히 구성된 2개 이상의 Direct Link를 통해 99.999% 효과적으로 달성할 수 있으나, IBM은 이를 제어하거나 이에 대한 SLA를 제공할 수 없습니다. 

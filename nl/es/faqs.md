@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-11"
+lastupdated: "2018-07-12"
 
 ---
 
@@ -46,17 +46,6 @@ Los excesos de datos se facturan mensualmente cuando se supera la cuota de ancho
 ## ¿Por qué existe un paquete de complementos de direccionamiento global?
 Hemos añadido el complemento de direccionamiento global para evitar que nuestros clientes experimenten costes de datos inesperados al atravesar fuera de la región de su centro de datos. Mantiene los costes más bajos para la mayoría de nuestros clientes y ofrece a los clientes la posibilidad de tener una presencia global y de llegar a todas las regiones del mundo fácilmente. Normalmente, sin embargo, un cliente sólo requiere un paquete de ancho de banda local.
 
-## ¿Qué son las opciones de direccionamiento local y de direccionamiento global?
-Las opciones de direccionamiento local y de direccionamiento global las selecciona cada cliente al solicitar el servicio de Direct Link. Si los clientes necesitan direccionar su tráfico fuera del POP en el área dentro de la cual están solicitando Direct Link, deben añadir la opción de direccionamiento global; de lo contrario, su tráfico se restringirá a los servicios proporcionados por el POP local.
-
-Cada mes, a todos los clientes que utilizan circuitos de 1 G se les asignan 10 TB de tráfico de salida gratuito; a los clientes que utilizan circuitos de 10 G se les asignan 50 TB. Los excesos de datos se basan en la tabla siguiente, con la mayor tasa de mercado imperante. Si selecciona direccionamiento global, no se le cobrará ningún tráfico de salida local, solo el tráfico que se origina o termina fuera del POP local.
-
-|Datos del mercado 1|Datos del mercado 2|Datos del mercado 3|
-|---|---|---|
-|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
-**Tabla 1: Utilización de capas**<br/>
-Las ofertas de Direct Link en los mercados marcados con un asterisco (*) DEBEN solicitar direccionamiento global.
-
 ## Si estoy conectado a un Direct Link Dedicated, Direct Link Connect o Direct Link Exchange en una región como Dallas, ¿tendré acceso a otras regiones de EE.UU. mediante Direct Link?
 Sí, podrá tener acceso a áreas fuera de su región si elige el complemento de direccionamiento global. Si no se selecciona esta opción, el tráfico de Direct Link se limitará a la región para el PoP que haya seleccionado. Consulte el [documento sobre precios](pricing.html) para obtener más información.
 
@@ -81,6 +70,10 @@ Direct Link Exchange puede permitir un entorno compartido multinube mediante un 
 **Direct Link Connect** es para los clientes que prefieren utilizar una red existente entre su propio despliegue local e IBM Cloud. Con un servicio de Direct Link Connect, los clientes pueden utilizar redes Telco nuevas y existentes (como por ejemplo MPLS) para habilitar IBM Cloud rápidamente, optimizando circuitos subyacentes subministrados previamente.
 
 Con Direct Link Connect, los clientes pueden conectarse a IBM Cloud a través del proveedor de Connect, a través de una conexión de red a red (NNI), con el soporte de asociados de IBM en instalaciones de todo el mundo. Hay disponibles velocidades de puerto de hasta 5 Gb.
+
+## ¿Cómo se comparan los proveedores de Direct Link Connect y Direct Link Exchange?
+
+Los proveedores de Connect son Telcos que tienen un alcance de red más allá del centro de datos. Los proveedores de Exchange están limitados a sus centros de datos. Ambos pueden habilitar la experiencia multinube para los clientes. Los proveedores de Exchange suelen necesitar la coubicación en sus centros de datos, mientras que los proveedores de Connect pueden llegar al sitio local del cliente y a los centros de datos.
 
 ## ¿Podemos dar soporte a IPv6 a través de Direct Link?
 
@@ -123,3 +116,7 @@ Tenga en cuenta que ECMP no está pensado para conexiones redundantes, sino para
 ECMP es una característica de BGP. Si busca redundancia, obtenga dos conexiones de Direct Link, una para cada XCR. Si desea utilizar ECMP y tiene redundancia, necesitará dos conexiones de Direct Link en cada XCR, de modo que pueda tener 2 sesiones de ECMP al mismo tiempo.
 
 Como alternativa, algunos de nuestros clientes han configurado dos enlaces en diferentes XCR en el mismo centro de datos, por ejemplo WDC02, y luego han realizado la migración tras error cuando lo han necesitado mediante configuraciones de BGP. Esta configuración es menos redundante (menos segura) que tener conexiones Direct Link en dos centros de datos distintos, como por ejemplo WDC02 y WDC05.
+
+## ¿Hay un SLA en las conexiones XCR hasta la conexión BCR de la cuenta?
+
+Actualmente no hay ningún SLA en DirectLink. Los clientes pueden conseguir 99,999% de forma efectiva con 2 o más Direct Links configurados correctamente para la migración tras error utilizando BGP, pero IBM no puede controlar esto ni proporcionar un SLA en el mismo.

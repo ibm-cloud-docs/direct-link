@@ -160,7 +160,7 @@ Consulta [COS Endpoints](https://console.bluemix.net/docs/infrastructure/cloud-o
 
 #### Suggerimenti:
 
- * Per rafforzare la resilienza e il ridimensionamento, distribuisci più server proxy associati a endpoint differenti. 
+ * Per rafforzare la resilienza e il ridimensionamento, distribuisci più server proxy associati a endpoint differenti.
  * Utilizza il DNS round robin nel lato del client per le funzionalità di bilanciamento del carico e di failover elementari.
  * I server proxy possono essere posizionati dietro il VRA (Virtual Router Appliance) per la protezione e la registrazione centralizzata.
 

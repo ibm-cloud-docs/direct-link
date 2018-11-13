@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-08-09"
 
 ---
 
@@ -26,7 +26,7 @@ lastupdated: "2018-04-12"
 
 IBM Cloud Direct Link Exchange 솔루션을 사용하면 고객이 Cloud Exchange 제공자를 활용하여 {{site.data.keyword.BluSoftlayer_notm}} 위치에 대한 연결을 제공할 수 있습니다. {{site.data.keyword.BluSoftlayer_notm}}에서 Cloud Exchange 제공자로의 실제 연결이 이미 이루어져서, 다른 고객들 간에 공유되고 있기 때문에 이 오퍼링은 일반적으로 절감된 비용으로 연결을 제공합니다.
 
-**공통 유스 케이스:** _하이브리드 워크로드, 교차 제공자 워크로드, 높은 발신 대역폭을 통한 대형 또는 빈번한 데이터 전송, 개인용 워크로드 및 환경 관리에 가장 적합합니다. 일반적으로 이 옵션은 원하는 PoP 위치에 원하는 IBM Cloud Direct Link Exchange 제공자가 이미 있는 경우에 선택됩니다._
+**공통 유스 케이스:** _하이브리드 워크로드, 교차 제공자 워크로드, 높은 발신 대역폭을 통한 대형 또는 빈번한 데이터 전송, 개인용 워크로드 및 환경 관리에 가장 적합합니다.  일반적으로 이 옵션은 원하는 PoP 위치에 원하는 IBM Cloud Direct Link Exchange 제공자가 이미 있는 경우에 선택됩니다._
 
 ![그림 1](/images/Direct-Link-Exchange.png)
 
@@ -44,7 +44,7 @@ IBM Cloud Direct Link Exchange 솔루션을 사용하면 고객이 Cloud Exchang
 
  * **중복성:** IBM Cloud Direct Link Exchange에 대한 중복성을 설정하려면 둘 이상의 위치에 연결이 필요하거나, Cloud Exchange 제공자가 활용할 수 있는 보조 XCR이 사용 가능한 위치를 선택해야 합니다.
 
- * **로컬/글로벌 라우팅 옵션:** 로컬 라우팅 옵션은 PoP 위치(예: DAL, AMS, MEL)와 동일한 세 개의 문자로 된 접두부가 있는 데이터 센터에 대한 액세스를 제공합니다. 해당 위치 외부의 데이터 센터에 연결하기 위한 추가 기능으로 글로벌 라우팅 옵션이 필요합니다.
+ * **로컬/글로벌 라우팅 옵션:** 로컬 라우팅 옵션이 기본 라우팅 옵션입니다. Direct Link PoP(예를 들어, DAL, AMS 또는 MEL로 표기됨)과 동일한 마켓 내의 데이터 센터에 액세스할 수 있습니다. 인마켓 IBM Cloud 리소스를 로컬 마켓 외부의 데이터 센터에 있는 다른 IBM Cloud 리소스에 연결하기 위한 추가 기능으로 글로벌 라우팅 옵션이 필요합니다. IBM Cloud 리소스 간의 워크로드를 공유하는 데 사용됩니다(예: 댈러스와 애슈번 또는 댈러스와 프랑크푸르트).
  
 ## IBM Cloud Direct Link Connect 솔루션
 
@@ -66,7 +66,7 @@ IBM Cloud Direct Link Exchange 솔루션을 사용하면 고객이 Cloud Exchang
 
 * **중복성:** IBM Cloud Direct Link 연결에 대한 중복성을 설정하려면 둘 이상의 위치에 대한 연결이 필요하거나 IBM Cloud Connect 제공자가 활용할 수 있는 보조 XCR이 사용 가능한 위치를 선택해야 합니다.
 
-* **로컬/글로벌 라우팅 옵션:** 로컬 라우팅 옵션은 PoP 위치(예: DAL, AMS, MEL)와 동일한 세 개의 문자로 된 접두부가 있는 데이터 센터에 대한 액세스를 제공합니다. 해당 위치 외부의 데이터 센터에 연결하기 위한 추가 기능으로 글로벌 라우팅 옵션이 필요합니다.
+* **로컬/글로벌 라우팅 옵션:** 로컬 라우팅 옵션이 기본 라우팅 옵션입니다. Direct Link PoP(예를 들어, DAL, AMS 또는 MEL로 표기됨)과 동일한 마켓 내의 데이터 센터에 액세스할 수 있습니다. 인마켓 IBM Cloud 리소스를 로컬 마켓 외부의 데이터 센터에 있는 다른 IBM Cloud 리소스에 연결하기 위한 추가 기능으로 글로벌 라우팅 옵션이 필요합니다. IBM Cloud 리소스 간의 워크로드를 공유하는 데 사용됩니다(예: 댈러스와 애슈번 또는 댈러스와 프랑크푸르트).
 
 ## IBM Cloud Direct Link Dedicated 솔루션
 
@@ -84,13 +84,13 @@ IBM Cloud Direct Link Dedicated 솔루션을 사용하면 고객이 자신의 {{
 
  * **포트 속도 옵션:** 1Gbps, 2Gbps, 5Gbps 또는 10Gbps를 선택하십시오.
 
- * **대략적인 대기 시간:** 로컬 영역(DAL, AMS, MEL와 같이 동일한 세 개의 문자로 된 접두부가 있는 데이터 센터) 내에서 대기 시간은 대략적으로 1.5밀리초입니다. 실시간 P2P(PoP-to-PoP) 위치 대기 시간 측정에 대해서는 http://lg.softlayer.com/을 참조하십시오.
+ * **대략적인 대기 시간:** 로컬 영역(DAL, AMS, MEL와 같이 동일한 세 개의 문자로 된 접두부가 있는 데이터 센터) 내에서 대기 시간은 대략적으로 1.5밀리초입니다.  실시간 P2P(PoP-to-PoP) 위치 대기 시간 측정에 대해서는 http://lg.softlayer.com/을 참조하십시오.
 
  * **코로케이션 서비스:** 없음.
 
  * **중복성:** 중복성 설정을 위해 둘 이상의 위치로 IBM Cloud Direct Link 연결이 필요하거나, 보조 XCR이 사용 가능하고 보조 IBM Cloud Direct Link 연결 요청이 있는 위치를 선택해야 합니다.
 
- * **로컬/글로벌 라우팅 옵션:** 로컬 라우팅 옵션은 PoP(예: DAL, AMS, MEL)와 동일한 세 개의 문자로 된 접두부가 있는 데이터 센터에 대한 액세스를 제공합니다. 해당 위치 외부의 데이터 센터에 연결하기 위한 추가 기능으로 글로벌 라우팅 옵션이 필요합니다.
+ * **로컬/글로벌 라우팅 옵션:** 로컬 라우팅 옵션이 기본 라우팅 옵션입니다. Direct Link PoP(예를 들어, DAL, AMS 또는 MEL로 표기됨)과 동일한 마켓 내의 데이터 센터에 액세스할 수 있습니다. 인마켓 IBM Cloud 리소스를 로컬 마켓 외부의 데이터 센터에 있는 다른 IBM Cloud 리소스에 연결하기 위한 추가 기능으로 글로벌 라우팅 옵션이 필요합니다. IBM Cloud 리소스 간의 워크로드를 공유하는 데 사용됩니다(예: 댈러스와 애슈번 또는 댈러스와 프랑크푸르트).
 
 ## IBM Cloud Direct Link Dedicated Hosting 솔루션
 
@@ -114,4 +114,4 @@ IBM Cloud Direct Link Dedicated Hosting 솔루션은 IBM Cloud Direct Link Dedic
 
  * **중복성:** {{site.data.keyword.BluSoftlayer_notm}}는 제품의 일부로 두 개의 교차 연결 라우터(XCR)에 대한 연결을 제공합니다. 중복 연결을 설정하려면 고객이 중복성을 획득하기에 적절하다고 생각하는 대로 각 Direct Link 연결에 BGP를 구성해야 합니다. 예에는 _가장 낮은 MED 선호_, _가장 높은 로컬 환경 설정 선호_ 또는 _더 짧은 AS 경로 선호_와 같은 옵션이 포함됩니다.
 
- * **로컬/글로벌 라우팅 옵션:** 로컬 라우팅 옵션은 PoP(예: DAL, AMS, MEL)와 동일한 세 개의 문자로 된 접두부가 있는 데이터 센터에 대한 액세스를 제공합니다. 해당 위치 외부의 데이터 센터에 연결하기 위한 추가 기능으로 글로벌 라우팅 옵션이 필요합니다.
+ * **로컬/글로벌 라우팅 옵션:** 로컬 라우팅 옵션이 기본 라우팅 옵션입니다. Direct Link PoP(예를 들어, DAL, AMS 또는 MEL로 표기됨)과 동일한 마켓 내의 데이터 센터에 액세스할 수 있습니다. 인마켓 IBM Cloud 리소스를 로컬 마켓 외부의 데이터 센터에 있는 다른 IBM Cloud 리소스에 연결하기 위한 추가 기능으로 글로벌 라우팅 옵션이 필요합니다. IBM Cloud 리소스 간의 워크로드를 공유하는 데 사용됩니다(예: 댈러스와 애슈번 또는 댈러스와 프랑크푸르트).

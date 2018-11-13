@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-11"
+lastupdated: "2018-07-12"
 
 ---
 
@@ -22,22 +22,22 @@ Cette section contient les réponses aux questions les plus fréquentes sur IBM 
 Pour chaque client Direct Link, l'équipe IBM Cloud affecte un petit sous-réseau privé pour construire un réseau point à point entre le routeur d'interconnexion (XCR) {{site.data.keyword.BluSoftlayer_notm}} et le routeur edge du client (CER). Puis, {{site.data.keyword.BluSoftlayer_notm}} et le client configurent BGP pour échanger les routes entre les environnements. Et enfin, {{site.data.keyword.BluSoftlayer_notm}} met le client dans une instance VRF pour permettre l'implémentation de routes non uniques vers l'espace d'adresse privé du réseau distant de ce client.
 
 ## Est-ce qu'IBM Cloud mesure la bande passante pour les produits Direct Link ?
-Oui. L'utilisation de la bande passante dans le service Direct Link entre les clients et IBM Cloud est gratuite et non mesurée. IBM Cloud ne mesure pas la bande passante sortante à partir des services IBM Cloud vers l'internet public. 
+Oui. L'utilisation de la bande passante dans le service Direct Link entre les clients et IBM Cloud est gratuite et non mesurée. IBM Cloud ne mesure pas la bande passante sortante à partir des services IBM Cloud vers l'internet public.
 
 ## A quelle moment la facturation commence-t-elle pour Direct Link ?
-Les frais relatifs à Direct Link Connect couvrent le coût lié à la résiliation du service sur l'infrastructure IBM Cloud.  
+Les frais relatifs à Direct Link Connect couvrent le coût lié à la résiliation du service sur l'infrastructure IBM Cloud. 
 
-Les services d'infrastructure sont facturés à l'avance et cette facturation commence dès l'acceptation de la commande de notre client ; cependant, en raison de la nature d'IBM Cloud Direct Link, la facturation du service Direct Link commence lorsqu'une session BGP (Border Gateway Protocol) est établie avec IBM Cloud, ou 30 jours après la communication de la clé de service au client.  
+Les services d'infrastructure sont facturés à l'avance et cette facturation commence dès l'acceptation de la commande de notre client ; cependant, en raison de la nature d'IBM Cloud Direct Link, la facturation du service Direct Link commence lorsqu'une session BGP (Border Gateway Protocol) est établie avec IBM Cloud, ou 30 jours après la communication de la clé de service au client. 
 
-La facturation cesse après (1) qu'un client a demandé la suppression d'un circuit ET (2) que le fournisseur Connect Provider ou Network Service Provider a annulé la mise à disposition du circuit. 
+La facturation cesse après (1) qu'un client a demandé la suppression d'un circuit ET (2) que le fournisseur Connect Provider ou Network Service Provider a annulé la mise à disposition du circuit.
 
 ## Quels sont les frais supplémentaires encourus pour les parties prenantes avec Direct Link ?
 Vous pourrez avoir des frais supplémentaires facturés par votre fournisseur d'échange ou votre fournisseur de services réseau. Consultez votre ou vos fournisseurs pour obtenir les informations concernant leurs tarifs.
 
 ## Comment peut-on établir la redondance avec IBM Cloud Direct Link ?
-Direct Link ne fournit pas de service intrinsèquement redondant. Direct Link peut fournir plusieurs connexions, qui permettent aux clients de créer la redondance via BGP. Vous pouvez atteindre la diversité avec Direct Link en connectant plusieurs fournisseurs IBM Cloud Direct Link Dedicated ou Exchange à {{site.data.keyword.BluSoftlayer_notm}}. Sinon, avec Exchange et Connect, vous pouvez optimiser plusieurs NNI avec les fournisseurs IBM Cloud Direct Link. 
+Direct Link ne fournit pas de service intrinsèquement redondant. Direct Link peut fournir plusieurs connexions, qui permettent aux clients de créer la redondance via BGP. Vous pouvez atteindre la diversité avec Direct Link en connectant plusieurs fournisseurs IBM Cloud Direct Link Dedicated ou Exchange à {{site.data.keyword.BluSoftlayer_notm}}. Sinon, avec Exchange et Connect, vous pouvez optimiser plusieurs NNI avec les fournisseurs IBM Cloud Direct Link.
 
-## Quelle est la différence entre un routage "local" par défaut et le module complémentaire Routage mondial ? 
+## Quelle est la différence entre un routage "local" par défaut et le module complémentaire Routage mondial ?
 Avec notre offre Direct Link standard, vous pouvez envoyer du trafic entre les centres de données de votre région sélectionnée. Si vous devez accéder à d'autres centres de données situés hors de la région spécifiée, vous devez commander le module complémentaire Routage mondial. Ce modèle est basé sur des listes de contrôle d'accès (ACL) mises en place lors de votre commande de connexion Direct Link. 
 
 ## Comment les dépassements de bande passante sortante sont-ils facturés pour le module complémentaire Routage mondial ?
@@ -45,17 +45,6 @@ Les dépassements sont facturés par mois si vous dépassez la bande passante qu
 
 ## Pourquoi un module complémentaire Routage mondial ?
 Nous avons ajouté le module complémentaire Routage mondial pour éviter à nos clients de faire l'expérience de coûts de données imprévus lorsqu'ils franchissent la région de leur centre de données. Cela permet de réduire les coûts pour la majorité de nos clients tout en leur donnant la possibilité d'être présents au niveau international pour atteindre facilement toutes les régions du monde. En règle générale, un client ne nécessite qu'un module de bande passante local.
-
-## Que sont les options Routage local et Routage mondial ?
-Les options Routage local et Routage mondial sont sélectionnées par tous les clients lorsqu'ils commandent le service Direct Link. Si les clients ont besoin de router leur trafic hors du point de présence (POP) dans la zone dans laquelle ils commandent Direct Link, ils doivent ajouter l'option Routage mondial, autrement leur trafic sera limité aux services fournis par le POP local.
-
-Chaque mois, tous les clients utilisant des circuits 1G obtiennent 10 To de trafic sortant gratuit, les clients utilisant des circuits 10G en obtiennent 50 To. Les dépassements sont basés sur le tableau suivant avec le taux en vigueur le plus élevé du marché. Si vous sélectionnez le routage mondial, vous n'êtes pas facturé pour le trafic sortant local, mais uniquement pour le trafic en provenance ou à destination d'un emplacement qui ne figure pas dans le POP local.
-
-|Marché de données 1|Marché de données 2|Marché de données 3|
-|---|---|---|
-|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
-**Tableau 1 : Niveaux d'utilisation**<br/>
-Les offres Direct Link sur les marchés marqués d'un astérisque (*) DOIVENT commander le module complémentaire Routage mondial. 
 
 ## Si je suis connecté à Direct Link Dedicated, Direct Link Connect ou Direct Link Exchange dans une région telle que Dallas, ai-je accès à d'autres régions aux Etats-Unis via Direct Link ?
 Oui, vous pouvez accéder à des zones situées hors de votre région si vous choisissez le module complémentaire Routage mondial. Si cette option n'est pas sélectionnée, votre trafic Direct Link sera limité à la région de l'emplacement de point de présence que vous avez sélectionné. Pour plus d'informations, voir la [rubrique sur la tarification](pricing.html).
@@ -82,13 +71,17 @@ Direct Link Exchange peut permettre un environnement d'utilisation partagée et 
 
 Avec Direct Link Connect, les clients peuvent se connecter à IBM Cloud via le fournisseur Connect, sur une connexion réseau à réseau (NNI) exploitée par des partenaires IBM dans des installations du monde entier. Les vitesses de port disponibles vont jusqu'à 5 Gbit/s.
 
+## Comment peut-on comparer les fournisseurs Direct Link Connect et Direct Link Exchange ?
+
+Les fournisseurs Connect sont des entreprises de télécommunications qui ont une portée réseau au-delà du centre de données. Les fournisseurs Exchange sont limités à leurs centres de données. Les deux peuvent permettre aux clients de profiter de l'expérience multi-cloud. Les fournisseurs d'accès Exchange ont généralement besoin d'une colocalisation dans leurs centres de données, tandis que les fournisseurs Connect peuvent atteindre le site et les centres de données locaux d'un client. 
+
 ## Peut-on prendre en charge IPv6 sur Direct Link ?
 
-Pas pour la session BGP. Nous avons affecté /30 à partir de IPv4 et nous avons utilisé la même valeur en retour à partir du client. 
+Pas pour la session BGP. Nous avons affecté /30 à partir de IPv4 et nous avons utilisé la même valeur en retour à partir du client.
 
 ## Peut-on prendre en charge IPv6 sur le réseau privé ?
 
-Non, IPv6 est public uniquement. 
+Non, IPv6 est public uniquement.
 
 ## Existe-t-il des exigences particulières pour Verizon SCI ? Préfixe/ASN/VLAN BGP/etc ?
 
@@ -96,17 +89,17 @@ Verizon SCI est l'une des différentes connexions MPLS basées sur des services 
 
 ## Tous les types de qualité de service sont-ils pris en charge par Direct Link ?
 
-Nous ne pouvons pas prendre en charge toutes les garanties de qualité de service. La qualité de service requiert un mappage MPLS entre chacun des fournisseurs de serveur et IBM Cloud. La plupart des fournisseurs de service Cloud ne peuvent pas prendre en charge la qualité de service pour l'instant, car elle doit être établie de bout en bout et impliquer chaque unité entre ces deux extrémités. Il n'existe pas de solution de contournement disponible via la tunnellisation ou toute autre méthode. 
+Nous ne pouvons pas prendre en charge toutes les garanties de qualité de service. La qualité de service requiert un mappage MPLS entre chacun des fournisseurs de serveur et IBM Cloud. La plupart des fournisseurs de service Cloud ne peuvent pas prendre en charge la qualité de service pour l'instant, car elle doit être établie de bout en bout et impliquer chaque unité entre ces deux extrémités. Il n'existe pas de solution de contournement disponible via la tunnellisation ou toute autre méthode.
 
 ## Les trames jumbo sont-elles prises en charge par Direct Link ?
 
-Les trames Jumbo (jusqu'à 9214 octets) sont prises en charge sur Dedicated et Dedicated Hosting.
+Les trames Jumbo (jusqu'à 9214 octets) sont prises en charge sur Dedicated et Dedicated Hosting. 
 La prise en charge sur Connect et Exchange est théoriquement possible, mais elle nécessite que votre fournisseur de services collabore avec IBM et s'assure que la connexion de bout en bout prenne en charge les trames Jumbo, y compris l'interface réseau à réseau (NNI) sous-jacente.
-Par défaut, Exchange et Connect sont configurés avec une prise en charge MTU de 1500 octets. 
+Par défaut, Exchange et Connect sont configurés avec une prise en charge MTU de 1500 octets.
 
 ## Avec Direct Link Connect, comment un client peut-il s'assurer de la diversité des routeurs via le même transporteur (par exemple, Verizon dans DAL03) ?
 
-Nous avons différents routeurs XCR qui créent plusieurs liens NNI vers le transporteur. Il incombe au transporteur de maintenir la diversité à partir de là. 
+Nous avons différents routeurs XCR qui créent plusieurs liens NNI vers le transporteur. Il incombe au transporteur de maintenir la diversité à partir de là.
 
 ## Pour Direct Link Connect, un client doit-il commander 2 liaisons pour la redondance ou Direct Link Connect est-il intrinsèquement redondant ?
 
@@ -114,12 +107,16 @@ Commandez 2 liaisons pour la diversité. Nous n'offrons pas la redondance entre 
 
 ## Est-il facile à mettre à niveau ma bande passante de connexion, par exemple de 1 Go à 5 Go ?
 
-En général, nous installons des vitesses de 1G et inférieures sur des fibres optiques de 1G. Pour les vitesses de 2G à 10G, nous installons des fibres optiques de 10G. Par conséquent, la mise à niveau à partir de 1G vers 5G nécessiterait d'affecter ou d'insérer de nouvelles fibres optiques. Cet événement pourrait affecter le service. Si vous anticipez le type de croissance, il est possible de demander l'installation de fibres optiques de 10G dès le début de votre déploiement Direct Link ou de commander initialement 2G de sorte que les fibres optiques de 10G soient en place. 
+En général, nous installons des vitesses de 1G et inférieures sur des fibres optiques de 1G. Pour les vitesses de 2G à 10G, nous installons des fibres optiques de 10G. Par conséquent, la mise à niveau à partir de 1G vers 5G nécessiterait d'affecter ou d'insérer de nouvelles fibres optiques. Cet événement pourrait affecter le service. Si vous anticipez le type de croissance, il est possible de demander l'installation de fibres optiques de 10G dès le début de votre déploiement Direct Link ou de commander initialement 2G de sorte que les fibres optiques de 10G soient en place.
 
-## ECMP doit-il être utilisé pour créer des connexions redondantes ? Existe-t-il d'autres méthodes ?
+## ECMP doit-il être utilisé pour créer des connexions redondantes ?  Existe-t-il d'autres méthodes ?
 
 Notez que ECMP ne permet pas de créer des connexions redondantes, mais d'obtenir l'équilibrage de la charge sur deux liaisons. Avec ECMP, les deux connexions doivent aller jusqu'au même routeur d'interconnexion (XCR) IBM Cloud, ce qui en fait un point de défaillance unique. (En d'autres termes, ECMP peut être mis à disposition uniquement sous forme de deux sessions sur le même routeur XCR IBM Cloud.) 
 
-ECMP est une fonction de BGP. Si vous cherchez à établir de la redondance, procurez-vous deux connexions Direct Link, une pour chaque routeur XCR. Si vous souhaitez utiliser ECMP et disposer de redondance, vous aurez besoin de deux connexions Direct Link sur chaque routeur XCR, de sorte que 2 sessions ECMP soient actives simultanément. 
+ECMP est une fonction de BGP. Si vous cherchez à établir de la redondance, procurez-vous deux connexions Direct Link, une pour chaque routeur XCR. Si vous souhaitez utiliser ECMP et disposer de redondance, vous aurez besoin de deux connexions Direct Link sur chaque routeur XCR, de sorte que 2 sessions ECMP soient actives simultanément.
 
 Sinon, certains de nos clients ont configuré deux liaisons dans des routeurs XCR différents dans le même centre de données (par exemple, WDC02), puis le basculement nécessaire à l'aide de configurations BGP. Cette configuration est moins redondante (moins sécurisée) que l'établissement de deux connexions Direct Link dans des centres de données distincts, par exemple, WDC02 et WDC05.
+
+## Existe-t-il un accord sur les niveaux de service pour les connexions XCR jusqu'à la connexion BCR du compte ?
+
+Il n'existe pas d'accord sur les niveaux de services pour DirectLink à l'heure actuelle. Les clients peuvent atteindre un taux de succès de 99,999% avec 2 Direct Links ou plus correctement configurés pour le basculement à l'aide de BGP, mais IBM ne peut pas contrôler cela ou fournir un accord sur les niveaux de service pour cela.

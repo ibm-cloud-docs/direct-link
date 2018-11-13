@@ -27,11 +27,12 @@ lastupdated: "2018-06-25"
  
  다음 표는 Direct Link Exchange 연결을 제공하는 IBM Cloud 데이터 센터를 표시합니다.
  
-| Exchange 제공자 | IBM 데이터 센터 코드  |
+| Exchange 제공자	| IBM 데이터 센터 코드 |
 |-------------|-----------------------|
 | AT Tokyo	| TOK02 |
+| Ascenty | SAO01* |
 | Cologix	|MON02, TOR02 |
-| Equinix	| SNG02, SYD02, TOK01, AMS02, PAR02, CHI01, DAL03, NYC02, NYC03, SAO02, SJC02, TOR02, WDC02, LON01, FRA03 |									
+| Equinix	| HKG01,SNG02, SYD02, TOK01, AMS02, PAR02, CHI01, DAL03, NYC02, NYC03, SAO02, SJC02, TOR02, WDC02, LON01, FRA03 |							
 | InterXion	| FRA01, STO01 |
 | KINX	| SEO02* |
 | NextDC | 	MEL02* |

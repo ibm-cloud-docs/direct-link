@@ -3,7 +3,7 @@
 copyright:
   years: 2017, 2018
 
-lastupdated: "2018-05-07"
+lastupdated: "2018-08-23"
 
 ---
 
@@ -18,6 +18,8 @@ lastupdated: "2018-05-07"
 # Recursos externos
 
 Estos recursos han sido creados por IBM y por algunos de nuestros socios y clientes.
+
+## Documentos técnicos y casos prácticos
 
 * [**Libro blanco sobre nube híbrida**](https://public.dhe.ibm.com/cloud/bluemix/network/direct-link/ibm-hybrid-cloud-whitepaper.pdf)
 
@@ -37,3 +39,17 @@ Estos recursos han sido creados por IBM y por algunos de nuestros socios y clien
     Los sistemas de suministro en los que se incluían pasos adicionales entre despliegues del servidor, nube y clientes resultaban demasiado lentos e indirectos para ofrecer la baja latencia y alto rendimiento que IBM Cloud quería brindar a sus clientes. 
 
     Al elegir la coubicación con concentradores de Digital Realty en APAC y en Estados Unidos, los centros de datos de IBM Cloud se colocan a la altura de los despliegues de centro de datos de Digital Realty de primer orden, con conexiones directas de fibra oscura entre los mismos.
+
+## Blogs en el sitio web de IBM
+
+* [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/blogs/bluemix/2017/12/megaport-and-ibm-empower-enterprise-cloud/), por Matt Simpson y Jill Tempelmeyer
+
+* [Soporte para las aplicaciones de nube de próxima generación con IBM Cloud Direct Link ](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/), por Gabriel Montanti
+
+* [IBM y Colt: Habilitación de la transformación digital empresarial](https://www.ibm.com/blogs/bluemix/2018/06/ibm-colt-enterprise-digital-transformation/), por Paul Hertzfeldt
+
+* [Digital Realty e IBM Cloud Direct Link: Creado para cloud empresarial](https://www.ibm.com/blogs/bluemix/2018/07/digital-realty-ibm-cloud-direct-link-expand-network/), por Paul Hertzfeldt
+
+* [PacketFabric e IBM Cloud permiten conexiones empresariales seguras](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/), por Paul Hertzfeldt
+
+* [AT TOKYO se conecta a IBM Cloud para soportar aplicaciones de misión crítica](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/), por Paul Hertzfeldt

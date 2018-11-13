@@ -3,7 +3,7 @@
 copyright:
   years: 2017, 2018
 
-lastupdated: "2018-05-07"
+lastupdated: "2018-08-23"
 
 ---
 
@@ -18,6 +18,8 @@ lastupdated: "2018-05-07"
 # 外部資料
 
 以下の資料は、IBM、一部の IBM のパートナーおよびお客様によって作成されています。
+
+## ホワイト・ペーパーと導入事例
 
 * [**ハイブリッド・クラウドのホワイト・ペーパー**](https://public.dhe.ibm.com/cloud/bluemix/network/direct-link/ibm-hybrid-cloud-whitepaper.pdf)
 
@@ -37,3 +39,17 @@ lastupdated: "2018-05-07"
     サーバー・デプロイメント、クラウド、およびお客様の間に追加のステップが入るデリバリー・システムは遅すぎ、間接的すぎたため、IBM Cloud がお客様に約束する低遅延および高スループットを実現できていませんでした。 
 
     APAC および米国にある Digital Realty のハブ・ロケーションにコロケーションすることを選択することで、IBM Cloud データ・センターは、Digital Realty の世界的なデータ・センター・デプロイメントのすぐ近くに位置することになりました。これらは、直接のダーク・ファイバー接続で結ばれています。
+
+## IBM Web サイトのブログ
+
+* [Megaport と IBM でエンタープライズ・クラウドを強化 (Megaport and IBM Empower Enterprise Cloud)](https://www.ibm.com/blogs/bluemix/2017/12/megaport-and-ibm-empower-enterprise-cloud/)、著者: Matt Simpson、Jill Tempelmeyer
+
+* [IBM Cloud Direct Link による次世代クラウド・アプリケーションのサポート (Supporting the next generation cloud applications with IBM Cloud Direct Link)](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/)、著者: Gabriel Montanti
+
+* [IBM と Colt: エンタープライズ・デジタル・トランスフォーメーションの実現 (IBM and Colt: enabling enterprise digital transformation)](https://www.ibm.com/blogs/bluemix/2018/06/ibm-colt-enterprise-digital-transformation/)、著者: Paul Hertzfeldt
+
+* [Digital Realty と IBM Cloud Direct Link: エンタープライズ・クラウドに向けて (Digital Realty and IBM Cloud Direct Link: Built for Enterprise Cloud)](https://www.ibm.com/blogs/bluemix/2018/07/digital-realty-ibm-cloud-direct-link-expand-network/)、著者: Paul Hertzfeldt
+
+* [PacketFabric と IBM Cloud でセキュア・エンタープライズ接続を実現 (Enable Secure Enterprise Connections)](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/)、著者: Paul Hertzfeldt
+
+* [AT TOKYO が IBM Cloud に接続してミッション・クリティカル・アプリケーションをサポート (AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications)](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/)、著者: Paul Hertzfeldt

@@ -48,7 +48,7 @@ IBM Cloud Direct Link Connect에 대한 요청을 열어 주셔서 감사합니�
 
 10. VRF는 IBM Cloud SSL, PPTP 및 IPSEC VPN 서비스와 호환 가능하지 않습니다. 대안은 Direct Link 자체를 사용하여 서버를 관리하거나 여러 유형의 VPN으로 구성할 수 있는 사용자 고유의 VPN 솔루션(예: Vyatta)을 실행하는 것입니다. VRF로 마이그레이션한 후에 일반적으로 액세스되는 컴퓨팅과 동일한 DC 위치에 대한 VPN 연결이 설정될 때 SSL VPN이 작동하지만 글로벌하게 액세스를 허용하지 않습니다.
 
-11. 고객의 원격 네트워크에 대한 라우트를 구현하려면 IBM Cloud Direct Link Connect에 BGP가 필요합니다. Direct Link 서비스가 배치되면 IBM Cloud에서 계정에 지정된 모든 사설 서브넷을 광고합니다. IBM Cloud는 고객의 원격 BGP 피어에 대한 광고에 사용자 정의 필터, AS 경로 추가 및 사용자 정의 로컬 환경 설정을 구현하지 않습니다. IBM Cloud는 IBM Cloud에 수신된 광고에 대한 필터를 구현하지 않습니다. 고객이 고객의 에지 라우터에서 IBM Cloud를 오가는 광고를 적절히 관리해야 합니다.
+11. 고객의 원격 네트워크에 대한 라우트를 구현하려면 IBM Cloud Direct Link Connect에 BGP가 필요합니다.Direct Link 서비스가 배치되면 IBM Cloud에서 계정에 지정된 모든 사설 서브넷을 광고합니다.IBM Cloud는 고객의 원격 BGP 피어에 대한 광고에 사용자 정의 필터, AS 경로 추가 및 사용자 정의 로컬 환경 설정을 구현하지 않습니다.IBM Cloud는 IBM Cloud에 수신된 광고에 대한 필터를 구현하지 않습니다.고객이 고객의 에지 라우터에서 IBM Cloud를 오가는 광고를 적절히 관리해야 합니다.
 
 ## 기타 질문
 
@@ -58,7 +58,7 @@ IBM Cloud Direct Link Connect에 대한 요청을 열어 주셔서 감사합니�
 
 * **IBM Cloud에 대한 중복 연결을 설정하기 위해 ECMP로 BGP 다중 경로가 구성되어야 합니까?** 
 
-    _구성되어야 하는 경우 다른 연결에 대한 티켓 ID를 포함시키십시오. 티켓 번호 ____________ (ECMP는 동일한 IBM Cloud XCR의 두 세션에만 프로비저닝될 수 있습니다. ECMP를 원하는 경우 두 Direct Link가 모두 동일한 라우터에 도달해야 합니다.)_
+    _구성되어야 하는 경우 다른 연결에 대한 티켓 ID를 포함시키십시오. 티켓 번호 ____________ (ECMP는 동일한 IBM Cloud XCR의 두 세션에만 프로비저닝될 수 있습니다.  ECMP를 원하는 경우 두 Direct Link가 모두 동일한 라우터에 도달해야 합니다.)_
 
 * **로컬 또는 글로벌 라우팅 액세스가 필요합니까?**
 

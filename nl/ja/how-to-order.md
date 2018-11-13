@@ -16,7 +16,7 @@ lastupdated: "2018-06-11"
 
 # IBM Cloud Direct Link の注文
 
-お客様のニーズに最適なタイプの IBM Cloud Direct Link を注文する準備ができたら、以下のリンクをたどって、各タイプの IBM Cloud Direct Link サービスのプロセスの概要を確認することができます。注文を行う準備ができたら、この資料の一連の「ステップバイステップ」の記述の個所で、注文プロセスについてのステップバイステップの説明を確認することができます。
+お客様のニーズに最適なタイプの IBM Cloud Direct Link を注文する準備ができたら、以下のリンクをたどって、各タイプの IBM Cloud Direct Link サービスのプロセスの概要を確認することができます。 注文を行う準備ができたら、この資料の一連の「ステップバイステップ」の記述の個所で、注文プロセスについてのステップバイステップの説明を確認することができます。
 
 * [IBM Cloud Direct Link Exchange の注文方法](order-cloud-exchange.html)
 * [IBM Cloud Direct Link Connect の注文方法](order-connect.html)

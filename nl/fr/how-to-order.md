@@ -25,7 +25,7 @@ Lorsque vous vous préparez à commander le type de service IBM Cloud Direct Lin
 
 ## Comment savoir quel type de service IBM Cloud Direct Link commander ?
 
-Vous pouvez utiliser le diagramme illustré ci-après pour vous aider à choisir. 
+Vous pouvez utiliser le diagramme illustré ci-après pour vous aider à choisir.
 
 ![direct-link-decision-tree](/images/direct-link-decision-tree.png)
 

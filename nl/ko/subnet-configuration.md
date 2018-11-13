@@ -91,7 +91,7 @@ IBM Cloud Direct Link 솔루션을 이용하는 모든 계정이 VRF로 마이�
 ## Direct Link와 함께 BYOIP 및 NAT 사용하기
 IBM Cloud Direct Link는 [사용자 정의 사설 주소 지정](#custom-private-addressing)에 대한 섹션 아래에서 다루는 특수한 상황을 제외하고 사설 네트워크에서 BYOIP를 제공하지 않습니다. 따라서 {{site.data.keyword.BluSoftlayer_notm}}에서 지정되지 않은 대상 IP 주소가 있는 트래픽은 삭제됩니다. 그러나 고객은 원격 네트워크와 GRE, IPSec 또는 VXLAN을 사용하는 자신의 {{site.data.keyword.BluSoftlayer_notm}} 네트워트 사이의 트래픽을 캡슐화할 수 있습니다.  
 
-일반적으로 BYOIP 환경은 네트워크 게이트웨이(Vyatta) 또는 VMWare NSX 배치의 범위 내에서 구현됩니다. 이 구성은 고객이 {{site.data.keyword.BluSoftlayer_notm}} 측에서 원하는 IP 공간을 사용하고, 터널에서 원격 네트워크로 다시 라우트할 수 있게 합니다. 이 구성은 {{site.data.keyword.BluSoftlayer_notm}}와 별개로 고객이 관리하고 지원해야 합니다. 또한, 고객이 {{site.data.keyword.BluSoftlayer_notm}}가 서비스에 사용하고 있는 10.x.x.x 블록을 지정하는 경우,이 구성은 {{site.data.keyword.BluSoftlayer_notm}} 서비스 네트워크에 대한 연결을 중단할 수 있습니다. 
+일반적으로 BYOIP 환경은 네트워크 게이트웨이(Vyatta) 또는 VMWare NSX 배치의 범위 내에서 구현됩니다. 이 구성은 고객이 {{site.data.keyword.BluSoftlayer_notm}} 측에서 원하는 IP 공간을 사용하고, 터널에서 원격 네트워크로 다시 라우팅할 수 있게 합니다. 이 구성은 {{site.data.keyword.BluSoftlayer_notm}}와 별개로 고객이 관리하고 지원해야 합니다. 또한, 고객이 {{site.data.keyword.BluSoftlayer_notm}}가 서비스에 사용하고 있는 10.x.x.x 블록을 지정하는 경우,이 구성은 {{site.data.keyword.BluSoftlayer_notm}} 서비스 네트워크에 대한 연결을 중단할 수 있습니다. 
 
 또한 이 솔루션을 위해서는 {{site.data.keyword.BluSoftlayer_notm}} 서비스 네트워크와 원격 네트워크에 연결해야 하는 각 호스트에 두 개의 IP 주소가 지정되어야 합니다. 하나는 IBM 10.x.x.x 블록에서 지정되어야 하고 다른 하나는 원격 네트워크 블록에서 지정되어야 합니다. 트래픽이 올바르게 라우트되도록 정적 라우트를 호스트에 설정해야 합니다. {{site.data.keyword.BluSoftlayer_notm}} 호스트(BYOIP)에서 직접 IP 주소를 지정할 수 없게 되며, 본질적으로 {{site.data.keyword.BluSoftlayer_notm}} 네트워크에서 라우트 가능하게 만듭니다. 이 기능을 구현하는 유일한 방법은 이전에 그 개요가 설명되었지만, {{site.data.keyword.BluSoftlayer_notm}}에서 지원되지 않습니다.
 

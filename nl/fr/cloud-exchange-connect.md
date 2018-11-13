@@ -64,7 +64,7 @@ Après avoir fourni les valeurs, l'écran suivant de l'interface utilisateur aff
 
 **Etape 7 :**
 
-Vous devez ACCEPTER les dispositions générales avant de pouvoir passer la commande d'IBM Cloud Direct Link. Veuillez lire attentivement les _dispositions_ car elles contiennent des informations techniques importantes que vous devez comprendre avant de procéder. Les figures ci-dessous montrent les écrans qui s'affichent après avoir passé la commande.
+Vous devez ACCEPTER les dispositions avant de pouvoir passer la commande d'IBM Cloud Direct Link. Veuillez lire attentivement les _dispositions_ car elles contiennent des informations techniques importantes que vous devez comprendre avant de procéder. Les figures ci-dessous montrent les écrans qui s'affichent après avoir passé la commande.
 
 La figure suivante montre l'écran des dispositions :
 

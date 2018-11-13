@@ -31,13 +31,13 @@ Danke für Ihre Anforderung von IBM Cloud Direct Link Dedicated. Für die Bearbe
    * der Exchange-Provider oder Netzserviceprovider die Bereitstellung der Verbindung zurückgenommen hat.
   * Weitere Informationen finden Sie in **Abschnitt 5 - Gebühren** in der Cloud Services-Vereinbarung über den folgenden Link: [ibm.biz/service-agreement](ibm.biz/service-agreement).
 
-3. Nach der Bestellung des Direct Link-Service sind Sie für alle Gebühren verantwortlich, die für das Erreichen des Bereitstellungspunkts über Ihr fernes Netz anfallen, sowie für alle erforderlichen Querverbindungen innerhalb der Einrichtung am Bereitstellungspunkt. Wenn Ihr Provider die physische Präsenz eines Routers oder eines anderen Geräts am Bereitstellungspunkt erfordert, sind Sie außerdem für die Kosten der Zusammenstellung dieser Ausrüstung verantwortlich. 
+3. Nach der Bestellung des Direct Link-Service sind Sie für alle Gebühren verantwortlich, die für das Erreichen des Bereitstellungspunkts über Ihr fernes Netz anfallen, sowie für alle erforderlichen Querverbindungen innerhalb der Einrichtung am Bereitstellungspunkt. Wenn Ihr Provider die physische Präsenz eines Routers oder eines anderen Geräts am Bereitstellungspunkt erfordert, sind Sie außerdem für die Kosten der Zusammenstellung dieser Ausrüstung verantwortlich.
 
 4. IBM Cloud bestellt keine Querverbindungen im Namen das Kunden.
 
 5. IBM Cloud stellt keine Kundengeräte an unseren Netzbereitstellungspunkten zusammen. Wir akzeptieren nur 'Querverbindungen' in Form von Ethernet-Glasfaserkabeln (nur Einzelmodus-Glasfaser mit 1Gig-LX- oder 10Gig-LR 1310nm), die von Ihrem Gehäuse oder Provider ausgehen. Wir akzeptieren keine T1s-, DS3s-, ISDN- und POTs-Leitungen usw. Ermitteln Sie in Zusammenarbeit mit Ihrem Provider, ob Sie Geräte in derselben Einrichtung zusammenstellen müssen, in der sich der IBM Cloud-Netzbereitstellungspunkt befindet.
 
-6. Der Direct Link-Service wird so bereitgestellt, dass sowohl Ihr Link als auch der IBM Cloud-Router (beide können als Endpunkt für den Service dienen), ein Single Point of Failure (SPOF) ist. Wenn Sie Redundanz über den Direct Link-Service bereitstellen möchten, müssen Sie entweder zwei Verbindungen zu einem Direct Link-Standort mit einem sekundären Router bestellen, oder die Links müssen an zwei separaten IBM Cloud-Bereitstellungspunkten enden. 
+6. Der Direct Link-Service wird so bereitgestellt, dass sowohl Ihr Link als auch der IBM Cloud-Router (beide können als Endpunkt für den Service dienen), ein Single Point of Failure (SPOF) ist. Wenn Sie Redundanz über den Direct Link-Service bereitstellen möchten, müssen Sie entweder zwei Verbindungen zu einem Direct Link-Standort mit einem sekundären Router bestellen, oder die Links müssen an zwei separaten IBM Cloud-Bereitstellungspunkten enden.
 
 7. Das IBM Cloud-Servicenetz ist über Ihre fernen Netze nicht direkt zugänglich. Über künftige Änderungen werden Sie zu gegebener Zeit von uns benachrichtigt.
 
@@ -49,7 +49,7 @@ Danke für Ihre Anforderung von IBM Cloud Direct Link Dedicated. Für die Bearbe
 
 11. VRF ist nicht kompatibel mit den SSL-, PPTP- und IPSEC-VPN-Services von IBM Cloud (früher SoftLayer). Eine Alternative ist die Verwendung eines direkten Links zum Verwalten Ihrer Server oder die Ausführung einer eigenen VPN-Lösung (z. B. Vyatta), die mit unterschiedlichen VPN-Typen konfiguriert werden kann. Nach der Migration auf eine VRF-Instanz kann SSL VPN in der Regel verwendet werden, wenn eine VPN-Verbindung zu dem Rechenzentrumsstandort hergestellt wird, an dem eine Compute-VM ausgeführt wird. Der globale Zugriff ist hierbei jedoch nicht zulässig.
 
-12. IBM Cloud Direct Link Dedicated erfordert BGP zum Implementieren der Routen zum fernen Netz eines Kunden. Nach dem Implementieren Ihres Direct Link-Service macht IBM Cloud alle privaten Teilnetze zugänglich, die Ihrem Konto zugeordnet sind. IBM Cloud implementiert keine angepassten Filter als Pfadpräfix und als angepasste lokale Vorgaben für Mitteilungen an den fernen BGP-Peer des Kunden. IBM Cloud implementiert keine Filter für die von IBM Cloud empfangenen Mitteilungen. Die Kunden müssen die Mitteilungen für/von IBM Cloud über den Edge-Router des Kunden ordnungsgemäß verwalten. 
+12. IBM Cloud Direct Link Dedicated erfordert BGP zum Implementieren der Routen zum fernen Netz eines Kunden. Nach dem Implementieren Ihres Direct Link-Service macht IBM Cloud alle privaten Teilnetze zugänglich, die Ihrem Konto zugeordnet sind.IBM Cloud implementiert keine angepassten Filter als Pfadpräfix und als angepasste lokale Vorgaben für Mitteilungen an den fernen BGP-Peer des Kunden. IBM Cloud implementiert keine Filter für die von IBM Cloud empfangenen Mitteilungen. Die Kunden müssen die Mitteilungen für/von IBM Cloud über den Edge-Router des Kunden ordnungsgemäß verwalten. 
 
 ## Weitere Fragen
 
@@ -59,7 +59,7 @@ Danke für Ihre Anforderung von IBM Cloud Direct Link Dedicated. Für die Bearbe
 
 * **Soll BGP MultiPath mit ECMP für das Einrichten einer redundanten Verbindung zu IBM Cloud konfiguriert werden?**  
 
-    _Wenn dies zutrifft, geben Sie die Ticket-ID für die andere Verbindung an. Ticketnummer ____________  (beachten Sie, dass ECMP nur in zwei Sitzungen auf demselben IBM Cloud-XCR-Router bereitgestellt werden kann. Wenn Sie ECMP benötigen, ist zu beachten, dass beide Direct Link-Verbindungen zum selben Router führen müssen.) 
+    _Wenn dies zutrifft, geben Sie die Ticket-ID für die andere Verbindung an. Ticketnummer ____________  (beachten Sie, dass ECMP nur in zwei Sitzungen auf demselben IBM Cloud-XCR-Router bereitgestellt werden kann.  Wenn Sie ECMP benötigen, ist zu beachten, dass beide Direct Link-Verbindungen zum selben Router führen müssen.)
 
 * **Benötigen Sie Local Routing- oder Global Routing-Zugriff?**
 
@@ -72,13 +72,13 @@ Danke für Ihre Anforderung von IBM Cloud Direct Link Dedicated. Für die Bearbe
 
 ### Preise für Global Routing
 
-|Global Routing (eingehend) |Global Routing (ausgehend) |
+| Global Routing (eingehend) | Global Routing (ausgehend) |
 |---|---|
-|Kostenlos | Verbindung mit 1, 2 oder 5 Gb/s; 10 TB Bandbreite kostenlos |
-|Kostenlos | Verbindung mit 10 Gb/s; 50 TB Bandbreite kostenlos |
+| Kostenlos | Verbindung mit 1, 2 oder 5 Gb/s; 10 TB Bandbreite kostenlos |
+| Kostenlos | Verbindung mit 10 Gb/s; 50 TB Bandbreite kostenlos |
 
 
-|Gebühren bei Überschreitung der Bandbreite |
+| Gebühren bei Überschreitung der Bandbreite |
 |---|
 | Markt 1: 0,05 USD pro GB |
 | Markt 2: 0,10 USD pro GB |

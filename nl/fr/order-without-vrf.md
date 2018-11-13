@@ -1,6 +1,14 @@
+---
+
+copyright:
+  years: 2017, 2018
+lastupdated: "2018-07-06"
+
+---
+
 ## Comment commander sans VRF ?
 
-1.Pour les comptes sans VRF, la zone **Sélectionner VRF** n'est pas affichée dans le formulaire de commande. Après avoir passé une commande, un ticket de support IBM est généré. Le numéro de ticket et les détails sont affichés sur l'écran de l'interface utilisateur une fois que la commande est passée.
+Pour les comptes sans VRF, la zone **Sélectionner le VRF** ne s'affiche pas dans le formulaire de commande. Après avoir passé une commande, un ticket de support IBM est généré. Le numéro de ticket et les détails sont affichés sur l'écran de l'interface utilisateur une fois que la commande est passée.
 
 ![Etape NV1](/images/No-VRF-Step1.png)
 

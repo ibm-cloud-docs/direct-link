@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-11"
+lastupdated: "2018-07-12"
 
 ---
 
@@ -46,19 +46,6 @@ Direct Link 并不提供固有冗余的服务。Direct Link 可以提供多种�
 ## 为什么存在全球路由附加组件包？
 我们添加全球路由附加组件是为了防止客户在穿越数据中心区域外部时经历意外数据丢失。这可使我们的大部分客户保持较低的成本，并让跻身国际市场的客户能够轻松地到达全球所有区域。但是，通常来说，客户仅需要当地带宽包。
 
-## 什么是当地路由和全球路由选项？
-每个客户在订购 Direct Link 服务时，都会选择当地路由和全球路由选项。如果客户需要将流量路由到他们订购 Direct Link 区域中的 POP 的外部，那么他们必须添加全球路由选项；否则，他们的流量会限制在当地 POP 所提供的服务。
-
-每个月，使用 1G 线路的所有客户会分配 10TB 的免费输出流量；使用 10G 线路的客户会分配 50TB。超额基于下表，采用较高的市场费率。如果选择全球路由，那么不会向您收取任何当地输出流量的费用，而仅对在当地 PoP 外部发起或终止的流量收费。
-
-|数据市场 1|数据市场 2|数据市场 3|
-|---|---|---|
-|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
-**表 1：利用层**<br/>
-以星号 (*) 标记的市场中的 Direct Link 产品必须订购全球路由。
-
-
-
 ## 如果我连接到某个区域（如达拉斯）中的 Direct Link Dedicated、Direct Link Connect 或 Direct Link Exchange，我能够通过 Direct Link 访问美国的其他区域吗？
 可以。如果您选择全球路由附加组件，那么您可以访问您所在区域外的区域。如果未选择此选项，那么您的 Direct Link 流量将限制在您所选的 PoP 位置的区域。请参阅[定价文档](pricing.html)了解详细信息。
 
@@ -83,6 +70,10 @@ Direct Link Exchange 可以允许通过单个云交换端口来访问多云共�
 **Direct Link Connect** 适用于更乐意利用自己的内部部署与 IBM Cloud 之间现有网络的客户。利用 Direct Link Connect 服务，客户可以使用新的和现有的 Telco 网络（如 MPLS），通过预供应的底层电路来快速支持 IBM Cloud。
 
 利用 Direct Link Connect，客户可以通过由 IBM 合作伙伴在世界各地设施运营的网络到网络 (NNI) 连接，经由 Connect 提供商连接到 IBM Cloud。端口速度最高可达 5Gb。
+
+## Direct Link Connect 与 Direct Link Exchange 提供商相比较如何？
+
+Connect 提供商是在数据中心外提供网络连接的 Telco。Exchange 提供商局限于其数据中心内。两者都可支持客户的多云体验。Exchange 提供商通常需要在其数据中心内进行主机托管，而 Connect 提供商可连接客户的内部部署站点和数据中心。
 
 ## 可以通过 Direct Link 支持 IPv6 吗？
 
@@ -123,3 +114,7 @@ Dedicated 和 Dedicated Hosting 上支持巨型帧（最多 9214 字节）。理
 ECMP 是 BGP 的一个功能。如果需要冗余，请获取两个 Direct Link 连接，每个 XCR 对应一个连接。如果要使用 ECMP 并具有冗余性，那么每个 XCR 上都需要两个 Direct Link 连接，以便可以同时进行 2 个 ECMP 会话。
 
 或者，我们的一些客户在同一数据中心（例如 WDC02）中设置了两个接入不同 XCR 的链路，然后根据需要使用 BGP 配置进行故障转移。此配置的冗余性（安全性）不如建立与两个独立数据中心（例如 WDC02 和 WDC05）的 Direct Link 连接。
+
+## XCR 连接上是否有 SLA 连接到帐户的 BCR？
+
+目前，DirectLink 上没有 SLA。客户使用 BGP 正确配置 2 个或更多个 Direct Link 进行故障转移，可实现 99.999% 的有效性，但 IBM 无法控制这一点或在其上提供 SLA。

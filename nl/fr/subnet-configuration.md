@@ -46,18 +46,18 @@ Pour échanger des informations de route avec votre environnement, {{site.data.k
 
 Les spécifications de protocole BGP sont les suivantes :
 
-Comme indiqué dans la section précédente, le protocole BGP est obligatoire pour gérer votre routage via Direct Link. Un compte qui commande Direct Link sera migré vers l'environnement VRF. 
+Comme indiqué dans la section précédente, le protocole BGP est obligatoire pour gérer votre routage via Direct Link. Un compte qui commande Direct Link sera migré vers l'environnement VRF.
 
 **Avertissements relatifs aux VLAN et à l'environnement VRF :**
- * Le spanning VLAN entre les comptes n'est pas admis dans l'environnement VRF.  
+ * Le spanning VLAN entre les comptes n'est pas admis dans l'environnement VRF. 
  * Le service VPN IPSEC est limité. 
  
 **Remarque :** VRF n'empêche pas l'accès SSL ou VPN PPTP, mais son comportement change. Sans VRF, une connexion VPN suffit pour voir tous les serveurs sur votre compte. Avec VRF, vous ne pouvez accéder qu'aux ressources présentes sur le marché associé à votre réseau privé virtuel (VPN). Par conséquent, si vous vous connectez au VPN DAL, vous ne pouvez vous connecter qu'aux serveurs DAL.
 
 Le numéro de système autonome (ASN) d'IBM Cloud est **13884**, pour les services publics et privés. 
- * L'ASN par défaut d'un client lors d'une commande est **64999**, mais elle peut être modifiée à la demande du client.  
- * Un ASN privé de 4 octets compris entre 4201000000 et 4201064511 peut éventuellement être pris en charge. 
- * Si vous utilisez Direct Link Connect avec un service à 3 couches, par exemple, IP VPN, IBM Cloud établit un protocole BGP avec l'ASN du fournisseur Direct Link Connect. 
+ * L'ASN par défaut d'un client lors d'une commande est **64999**, mais elle peut être modifiée à la demande du client. 
+ * Un ASN privé de 4 octets compris entre 4201000000 et 4201064511 peut éventuellement être pris en charge.
+ * Si vous utilisez Direct Link Connect avec un service à 3 couches, par exemple, IP VPN, IBM Cloud établit un protocole BGP avec l'ASN du fournisseur Direct Link Connect.
    
 **Limitations strictes pour les affectations d'adresse IP :**
  * Si vous utilisez le réseau 10.x.x.x, vous ne pouvez toujours pas créer un chevauchement avec vos hôtes dans IBM Cloud ni avec le réseau des services IBM Cloud, qui occupe `10.0.0.0/14`, `10.198.0.0/15` et `10.200.0.0/14`.  
@@ -66,17 +66,17 @@ Le numéro de système autonome (ASN) d'IBM Cloud est **13884**, pour les servic
 
 **Recommandations, valeurs par défaut et limites :**
 
- * La tunnellisation (c'est-à-dire GRE) est prise en charge et recommandée si le chevauchement d'adresses IP devient un problème. 
+ * La tunnellisation (c'est-à-dire GRE) est prise en charge et recommandée si le chevauchement d'adresses IP devient un problème.
  * Les valeurs par défaut du temporisateur BGP sont `Keepalive:30`, `Holdtime:60.`
  * L'authentification n'est pas activée par défaut.
- * BGP BFD n'est pas activé par défaut. 
+ * BGP BFD n'est pas activé par défaut.
  * La limite de réception maximale (de la part des clients ou des fournisseurs) est 200 par VRF.
 
 ## Redondance et diversité
 
 IBM Cloud Direct Link offre la diversité et les clients sont responsables d'implémenter la redondance à travers leurs schémas BGP.
 
-Si vous sélectionnez ECMP pour la redondance, les deux sessions BGP doivent exister sur le même XCR, et vous renoncez donc à la diversité du routeur et êtes exposé à des risques en cas de défaillance du routeur. Vous gagnez la redondance de la couche 3 mais vous perdez la diversité du routeur. 
+Si vous sélectionnez ECMP pour la redondance, les deux sessions BGP doivent exister sur le même XCR, et vous renoncez donc à la diversité du routeur et êtes exposé à des risques en cas de défaillance du routeur. Vous gagnez la redondance de la couche 3 mais vous perdez la diversité du routeur.
 
 ## En savoir plus sur VRF
 
@@ -86,7 +86,7 @@ La migration vers une instance VRF s'effectue lors du processus de configuration
 
 Notez que VRF élimine l'option "Spanning VLAN" de votre compte, y compris les fonctions éventuelles de spanning VLAN de compte à compte, car tous les réseaux VLAN sont en mesure de communiquer sauf si un dispositif de passerelle est mis en place pour gérer le trafic. VRF limite également la possibilité d'utiliser les services VPN {{site.data.keyword.BluSoftlayer_notm}}, car ce n'est pas compatible avec les services VPN SSL, PPTP et IPSec de {{site.data.keyword.BluSoftlayer_notm}}.   
 
-En guise d'alternative, vous pouvez utiliser l'offre IBM Cloud Direct Link même pour gérer vos serveurs ou pour exécuter votre propre solution VPN (par exemple Vyatta) pouvant être configurée avec différents types de VPN. Après avoir effectué la migration sur VRF, le réseau VPN SSL fonctionne en principe lorsqu'une connexion VPN est réalisée avec le même emplacement de centre de données dans lequel s'exécute une machine virtuelle (VM) de calcul, mais il n'autorise pas l'accès mondial. 
+En guise d'alternative, vous pouvez utiliser l'offre IBM Cloud Direct Link même pour gérer vos serveurs ou pour exécuter votre propre solution VPN (par exemple Vyatta) pouvant être configurée avec différents types de VPN. Après avoir effectué la migration sur VRF, le réseau VPN SSL fonctionne en principe lorsqu'une connexion VPN est réalisée avec le même emplacement de centre de données dans lequel s'exécute une machine virtuelle (VM) de calcul, mais il n'autorise pas l'accès mondial.
 
 ## Utilisation de BYOIP et NAT avec Direct Link
 IBM Cloud Direct Link n'offre pas BYOIP sur le réseau privé, sauf dans certaines circonstances traitées à la section sur l'[adressage privé personnalisé](#custom-private-addressing). Par conséquent, le trafic avec une adresse IP de destination qui n'a pas été affectée par {{site.data.keyword.BluSoftlayer_notm}} ne sera pas traité. Les clients peuvent toutefois encapsuler le trafic entre le réseau distant et leur réseau {{site.data.keyword.BluSoftlayer_notm}} à l'aide de GRE, IPSec ou VXLAN.  

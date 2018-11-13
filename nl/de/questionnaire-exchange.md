@@ -48,7 +48,7 @@ Danke für Ihre Anforderung von IBM Cloud Direct Link Exchange. Für die Bearbei
 
 10. VRF ist nicht kompatibel mit SSL-, PPTP- und IPSEC-VPN-Services von IBM Cloud. Eine Alternative ist die Verwendung eines direkten Links zum Verwalten Ihrer Server oder die Ausführung einer eigenen VPN-Lösung (z. B. Vyatta), die mit unterschiedlichen VPN-Typen konfiguriert werden kann. Nach der Migration auf eine VRF-Instanz kann SSL VPN in der Regel verwendet werden, wenn eine VPN-Verbindung zu dem Rechenzentrumsstandort hergestellt wird, an dem eine Compute-VM ausgeführt wird. Der globale Zugriff ist hierbei jedoch nicht zulässig.
 
-11. IBM Cloud Direct Link Exchange erfordert BGP zum Implementieren der Routen zum fernen Netz des Kunden. Nach dem Implementieren Ihres Direct Link-Service macht IBM Cloud alle privaten Teilnetze zugänglich, die Ihrem Konto zugeordnet sind. IBM Cloud implementiert keine angepassten Filter als Pfadpräfix und als lokale Vorgaben für Mitteilungen an den fernen BGP-Peer des Kunden. IBM Cloud implementiert keine Filter für die von IBM Cloud empfangenen Mitteilungen. Die Kunden müssen die Mitteilungen für/von IBM Cloud über den Edge-Router des Kunden ordnungsgemäß verwalten. 
+11. IBM Cloud Direct Link Exchange erfordert BGP zum Implementieren der Routen zum fernen Netz des Kunden.Nach dem Implementieren Ihres Direct Link-Service macht IBM Cloud alle privaten Teilnetze zugänglich, die Ihrem Konto zugeordnet sind.IBM Cloud implementiert keine angepassten Filter als Pfadpräfix und als lokale Vorgaben für Mitteilungen an den fernen BGP-Peer des Kunden. IBM Cloud implementiert keine Filter für die von IBM Cloud empfangenen Mitteilungen. Die Kunden müssen die Mitteilungen für/von IBM Cloud über den Edge-Router des Kunden ordnungsgemäß verwalten. 
 
 ## Weitere Fragen
 
@@ -58,7 +58,7 @@ Danke für Ihre Anforderung von IBM Cloud Direct Link Exchange. Für die Bearbei
 
 * **Soll BGP MultiPath mit ECMP für das Einrichten einer redundanten Verbindung zu IBM Cloud konfiguriert werden?**  
 
-    _Wenn dies zutrifft, geben Sie die Ticket-ID für die andere Verbindung an. Ticketnummer ____________  (beachten Sie, dass ECMP nur in zwei Sitzungen auf demselben IBM Cloud-XCR-Router bereitgestellt werden kann. Wenn Sie ECMP benötigen, ist zu beachten, dass beide Direct Link-Verbindungen zum selben Router führen müssen.) 
+    _Wenn dies zutrifft, geben Sie die Ticket-ID für die andere Verbindung an. Ticketnummer ____________  (beachten Sie, dass ECMP nur in zwei Sitzungen auf demselben IBM Cloud-XCR-Router bereitgestellt werden kann.  Wenn Sie ECMP benötigen, ist zu beachten, dass beide Direct Link-Verbindungen zum selben Router führen müssen.)
 
 * **Benötigen Sie Local Routing- oder Global Routing-Zugriff?**
 
@@ -71,13 +71,13 @@ Danke für Ihre Anforderung von IBM Cloud Direct Link Exchange. Für die Bearbei
 
 ### Preise für Global Routing
 
-|Global Routing (eingehend) |Global Routing (ausgehend) |
+| Global Routing (eingehend) | Global Routing (ausgehend) |
 |---|---|
-|Kostenlos | Verbindung mit 1, 2 oder 5 Gb/s; 10 TB Bandbreite kostenlos |
-|Kostenlos | Verbindung mit 10 Gb/s; 50 TB Bandbreite kostenlos |
+| Kostenlos | Verbindung mit 1, 2 oder 5 Gb/s; 10 TB Bandbreite kostenlos |
+| Kostenlos | Verbindung mit 10 Gb/s; 50 TB Bandbreite kostenlos |
 
 
-|Gebühren bei Überschreitung der Bandbreite |
+| Gebühren bei Überschreitung der Bandbreite |
 |---|
 | Markt 1: 0,05 USD pro GB |
 | Markt 2: 0,10 USD pro GB |

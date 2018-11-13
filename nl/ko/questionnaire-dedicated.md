@@ -31,7 +31,7 @@ IBM Cloud Direct Link Dedicated에 대한 요청을 열어 주셔서 감사합�
    * Exchange 제공자 또는 네트워크 서비스 제공자가 회선을 디프로비저닝했습니다.
   * 자세한 정보는 클라우드 서비스 계약([ibm.biz/service-agreement](ibm.biz/service-agreement))의 **5절 - 대금**을 참조하십시오.
 
-3. Direct Link 서비스를 주문하면 사용자가 원격 네트워크에서 PoP(Point of Presence)에 도달하는 데 관련된 모든 비용을 부담하며 PoP 설비 내에 필요한 교차 연결을 담당합니다. 제공자가 물리적으로 PoP에 장착된 라우터 또는 기타 디바이스를 요구하는 경우 해당 장비의 코로케이션과 연관된 비용도 사용자가 부담하게 됩니다. 
+3. Direct Link 서비스를 주문하면 사용자가 원격 네트워크에서 PoP(Point of Presence)에 도달하는 데 관련된 모든 비용을 부담하며 PoP 설비 내에 필요한 교차 연결을 담당합니다. 제공자가 물리적으로 PoP에 장착된 라우터 또는 기타 디바이스를 요구하는 경우 해당 장비의 코로케이션과 연관된 비용도 사용자가 부담하게 됩니다.
 
 4. IBM Cloud는 고객을 대신하여 교차 연결을 주문하지 않습니다.
 
@@ -49,7 +49,7 @@ IBM Cloud Direct Link Dedicated에 대한 요청을 열어 주셔서 감사합�
 
 11. VRF는 IBM Cloud(레거시 SoftLayer) SSL, PPTP 및 IPSEC VPN 서비스와 호환 가능하지 않습니다. 대안은 Direct Link 자체를 사용하여 서버를 관리하거나 여러 유형의 VPN으로 구성할 수 있는 사용자 고유의 VPN 솔루션(예: Vyatta)을 실행하는 것입니다. VRF로 마이그레이션한 후에 일반적으로 액세스되는 컴퓨팅과 동일한 DC 위치에 대한 VPN 연결이 설정될 때 SSL VPN이 작동하지만 글로벌하게 액세스를 허용하지 않습니다.
 
-12. 고객의 원격 네트워크에 대한 라우트를 구현하려면 IBM Cloud Direct Link Dedicated에 BGP가 필요합니다. Direct Link 서비스가 배치되면 IBM Cloud에서 계정에 지정된 모든 사설 서브넷을 광고합니다. IBM Cloud는 고객의 원격 BGP 피어에 대한 광고에 사용자 정의 필터, AS 경로 추가 및 사용자 정의 로컬 환경 설정을 구현하지 않습니다. IBM Cloud는 IBM Cloud에 수신된 광고에 대한 필터를 구현하지 않습니다. 고객이 고객의 에지 라우터에서 IBM Cloud를 오가는 광고를 적절히 관리해야 합니다.
+12. 고객의 원격 네트워크에 대한 라우트를 구현하려면 IBM Cloud Direct Link Dedicated에 BGP가 필요합니다. Direct Link 서비스가 배치되면 IBM Cloud에서 계정에 지정된 모든 사설 서브넷을 광고합니다.IBM Cloud는 고객의 원격 BGP 피어에 대한 광고에 사용자 정의 필터, AS 경로 추가 및 사용자 정의 로컬 환경 설정을 구현하지 않습니다.IBM Cloud는 IBM Cloud에 수신된 광고에 대한 필터를 구현하지 않습니다.고객이 고객의 에지 라우터에서 IBM Cloud를 오가는 광고를 적절히 관리해야 합니다.
 
 ## 기타 질문
 
@@ -59,7 +59,7 @@ IBM Cloud Direct Link Dedicated에 대한 요청을 열어 주셔서 감사합�
 
 * **IBM Cloud에 대한 중복 연결을 설정하기 위해 ECMP로 BGP 다중 경로가 구성되어야 합니까?** 
 
-    _구성되어야 하는 경우 다른 연결에 대한 티켓 ID를 포함시키십시오. 티켓 번호 ____________ (ECMP는 동일한 IBM Cloud XCR의 두 세션에만 프로비저닝될 수 있습니다. ECMP를 원하는 경우 두 Direct Link가 모두 동일한 라우터에 도달해야 합니다.)_
+    _구성되어야 하는 경우 다른 연결에 대한 티켓 ID를 포함시키십시오. 티켓 번호 ____________ (ECMP는 동일한 IBM Cloud XCR의 두 세션에만 프로비저닝될 수 있습니다.  ECMP를 원하는 경우 두 Direct Link가 모두 동일한 라우터에 도달해야 합니다.)_
 
 * **로컬 또는 글로벌 라우팅 액세스가 필요합니까?**
 
@@ -78,7 +78,7 @@ IBM Cloud Direct Link Dedicated에 대한 요청을 열어 주셔서 감사합�
 | 무료 | 10Gbps 회선 - 50TB 무료 대역폭 |
 
 
-|대역폭 초과 요금|
+|대역폭 초과 요금 |
 |---|
 | 마켓 1: GB당 $0.05 |
 | 마켓 2: GB당 $0.10 |

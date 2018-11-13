@@ -1,4 +1,12 @@
+---
 
+copyright:
+  years: 2017, 2018
+lastupdated: "2018-07-06"
+
+---
+
+# 定价表
 
 |地区|50 Mbps|100 Mbps|200 Mbps|500 Mbps|1 Gbps |2 Gbps |5 Gbps |10 Gbps|
 |----|----|----|----|----|----|----|----|----|

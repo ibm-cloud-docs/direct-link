@@ -25,7 +25,7 @@ IBM Cloud Direct Link Connect 让客户能够通过合作伙伴建立的连接�
 * 200 Mbps
 * 1 Gbps
 * 2 Gbps
-* 5 Gpbs
+* 5 Gbps 
 
 ## 定价
 

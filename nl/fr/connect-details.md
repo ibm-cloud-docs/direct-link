@@ -29,5 +29,5 @@ Plusieurs vitesses de connexion sont disponibles :
 
 ## Tarification
 
-La tarification d'IBM Cloud Direct Link Connect est indiquée dans le [document Tarification](pricing.html). 
+La tarification d'IBM Cloud Direct Link Connect est indiquée dans le [document Tarification](pricing.html).
 

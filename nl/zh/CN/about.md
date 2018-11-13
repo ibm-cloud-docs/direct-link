@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-08-09"
 
 ---
 
@@ -44,7 +44,7 @@ lastupdated: "2018-04-12"
 
  * **冗余：**要为 IBM Cloud Direct Link Exchange 建立冗余，需要连接到 2 个以上的位置，也可以选择一个位置，而该位置要有 Cloud Exchange 提供商可利用的辅助 XCR。
 
- * **当地/全球路由选项：**通过当地路由选项，可以访问与 PoP 位置具有相同三字母前缀（如 DAL、AMS、MEL）的数据中心。需要全球路由选项作为附加组件，以连接在那些位置外部的数据中心。
+ * **当地/全球路由选项：**缺省路由选项是当地路由选项。通过该选项，可以访问与 Direct Link PoP 具有相同市场的数据中心（以诸如 DAL、AMS 或 MEL 等表示）。需要全球路由选项作为附加组件，以将市场内的 IBM Cloud 资源与当地市场外的数据中心的其他 IBM Cloud 资源相连。该选项用于在 IBM Cloud 资源之间共享工作负载（例如达拉斯到阿什本，或达拉斯到法兰克福）。
  
 ## IBM Cloud Direct Link Connect 解决方案
 
@@ -66,7 +66,7 @@ lastupdated: "2018-04-12"
 
 * **冗余：**要为 IBM Cloud Direct Link Connect 建立冗余，需要连接到 2 个以上的位置，也可以选择一个位置，而该位置要有 IBM Cloud Connect 提供商可利用的辅助 XCR。
 
-* **当地/全球路由选项：**通过当地路由选项，可以访问与 PoP 位置具有相同三字母前缀（如 DAL、AMS、MEL）的数据中心。需要全球路由选项作为附加组件，以连接在那些位置外部的数据中心。
+* **当地/全球路由选项：**缺省路由选项是当地路由选项。通过该选项，可以访问与 Direct Link PoP 具有相同市场的数据中心（以诸如 DAL、AMS 或 MEL 等表示）。需要全球路由选项作为附加组件，以将市场内的 IBM Cloud 资源与当地市场外的数据中心的其他 IBM Cloud 资源相连。该选项用于在 IBM Cloud 资源之间共享工作负载（例如达拉斯到阿什本，或达拉斯到法兰克福）。
 
 ## IBM Cloud Direct Link Dedicated 解决方案
 
@@ -90,7 +90,7 @@ lastupdated: "2018-04-12"
 
  * **冗余：**要建立冗余，IBM Cloud Direct Link 需要连接到超过 2 个位置，也可以选择一个位置，而该位置要有可用的辅助 XCR 和第二个 IBM Cloud Direct Link 连接请求。
 
- * **当地/全球路由选项：**通过当地路由选项，可以访问与 PoP 具有相同三字母前缀（如 DAL、AMS、MEL）的数据中心。需要全球路由选项作为附加组件，以连接在那些位置外部的数据中心。
+ * **当地/全球路由选项：**缺省路由选项是当地路由选项。通过该选项，可以访问与 Direct Link PoP 具有相同市场的数据中心（以诸如 DAL、AMS 或 MEL 等表示）。需要全球路由选项作为附加组件，以将市场内的 IBM Cloud 资源与当地市场外的数据中心的其他 IBM Cloud 资源相连。该选项用于在 IBM Cloud 资源之间共享工作负载（例如达拉斯到阿什本，或达拉斯到法兰克福）。
 
 ## IBM Cloud Direct Link Dedicated Hosting 解决方案
 
@@ -114,4 +114,4 @@ IBM Cloud Direct Link Dedicated Hosting 解决方案提供类似于 IBM Cloud Di
 
  * **冗余：**作为产品的一部分，{{site.data.keyword.BluSoftlayer_notm}} 提供与两个交叉连接路由器 (XCR) 的连接。要建立冗余连接，客户必须在每个 Direct Link 连接上根据实现冗余的需要来配置 BGP。示例包括诸如以下内容的选项：_首选最低 MED_、_首选最高 local-preference_ 或_首选更短 AS 路径_。
 
- * **当地/全球路由选项：**通过当地路由选项，可以访问与 PoP 具有相同三字母前缀（如 DAL、AMS、MEL）的数据中心。需要全球路由选项作为附加组件，以连接在那些位置外部的数据中心。
+ * **当地/全球路由选项：**缺省路由选项是当地路由选项。通过该选项，可以访问与 Direct Link PoP 具有相同市场的数据中心（以诸如 DAL、AMS 或 MEL 等表示）。需要全球路由选项作为附加组件，以将市场内的 IBM Cloud 资源与当地市场外的数据中心的其他 IBM Cloud 资源相连。该选项用于在 IBM Cloud 资源之间共享工作负载（例如达拉斯到阿什本，或达拉斯到法兰克福）。

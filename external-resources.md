@@ -3,7 +3,7 @@
 copyright:
   years: 2017, 2018
 
-lastupdated: "2018-08-23"
+lastupdated: "2018-11-02"
 
 ---
 
@@ -39,6 +39,16 @@ These resources are created by IBM and some of our partners and customers.
     Delivery systems that put extra steps between server deployments, cloud and customers were too slow and indirect to deliver the low latency and high throughput IBM Cloud promises its customers. 
 
     Choosing to co-locate at Digital Realty’s hub locations in APAC and the U.S. puts IBM Cloud Data Centers right next door to Digital Realty’s world-class data center deployments, with direct dark fiber connection between them.
+    
+## Featured Announcements
+
+* [InterCloud Offers Dedicated Connectivity to IBM Cloud](https://info.intercloud.com/intercloud-offers-dedicated-connectivity-to-ibm-cloud)
+
+    Discover how IBM Cloud and InterCloud are helping to enable national railway company, Société des Chemins de fer Français (SNCF) migrate business-critical applications to the cloud over a secure, dedicated connection.
+    
+* [IBM Cloud Solves Last Mile Challenges with Satellite](https://www.satellitetoday.com/mobility/2018/10/25/ibm-cloud-solves-last-mile-challenges-with-satellite/), by Adrienne Harebottle
+
+    Learn how SES Network's decision to partner with IBM Cloud to help customers overcome key connectivity challenges by harnessing the power of satellite.
 
 ## Blogs on the IBM Website
 
@@ -53,3 +63,7 @@ These resources are created by IBM and some of our partners and customers.
 * [PacketFabric and IBM Cloud Enable Secure Enterprise Connections](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/), by Paul Hertzfeldt
 
 * [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/), by Paul Hertzfeldt
+
+* [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services](https://www.ibm.com/blogs/bluemix/2018/09/interxion-enterprise-ibm-cloud-services/), by Paul Hertzfeldt
+
+* [Improve Digital Experiences with SES Networks and IBM](https://www.ibm.com/blogs/bluemix/2018/10/improve-digital-experiences-with-ses-networks-and-ibm/), by Paul Hertzfeldt

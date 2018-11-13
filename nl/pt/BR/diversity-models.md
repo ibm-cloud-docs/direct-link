@@ -70,7 +70,7 @@ As configurações mostradas nesse grupo oferecem opções para conexão entre z
 
 ECMP é um recurso do BGP. Alguns clientes nos perguntaram sobre o uso do ECMP como uma forma de obter redundância. No entanto, só o ECMP não é suficiente. Esta seção explica o motivo.
 
-**P: O ECMP é a maneira de ir para conexões redundantes? Quais alternativas existem? **
+**P: O ECMP é a melhor solução para conexões redundantes? Quais alternativas existem? **
 
 O ECMP não foi projetado para criar conexões redundantes, mas para balancear a carga sobre dois links. Com o ECMP no IBM Cloud, ambas as conexões devem ser finalizadas no mesmo IBM Cloud Cross-connect Router (XCR), o que o torna um ponto único de falha. (Em outras palavras, o ECMP pode ser provisionado apenas como duas sessões no mesmo IBM Cloud XCR.)
 

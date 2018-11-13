@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-04"
+lastupdated: "2018-07-13"
 
 ---
 
@@ -21,12 +21,19 @@ implementadas para suportar cargas de trabalho híbridas, cargas de trabalho ent
 dados grandes ou frequentes, cargas de trabalho privadas ou para facilitar a administração do ambiente
 do {{site.data.keyword.BluSoftlayer_notm}}.
 
-**Soluções do IBM Cloud Direct Link**
+## Soluções do IBM Cloud Direct Link
 
- * [IBM Cloud Direct Link Exchange](about.html#the-direct-link-cloud-exchange-solution)
- * [IBM Cloud Direct Link Connect](about.html#the-direct-link-connect-solution)
- * [IBM Cloud Direct Link Dedicated](about.html#the-direct-link-dedicated-solution)
- * [IBM Cloud Direct Link Dedicated Hosting](about.html#the-direct-dedicated-hosting-solution)
+ * [IBM Cloud Direct Link Exchange](about.html#the-ibm-cloud-direct-link-exchange-solution)
+ * [IBM Cloud Direct Link Connect](about.html#the-ibm-cloud-direct-link-connect-solution)
+ * [IBM Cloud Direct Link Dedicated](about.html#the-ibm-cloud-direct-link-dedicated-solution)
+ * [IBM Cloud Direct Link Dedicated Hosting](about.html#the-ibm-cloud-dedicated-hosting-solution)
 
 Para começar a usar o IBM Cloud Direct Link, navegue nessa documentação e decida qual solução funcionará
 melhor para você. Se você deseja mais ajuda com a introdução, é possível abrir um chamado por meio do [Portal do Cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/) ou é possível entrar em contato com seu representante de vendas do IBM Cloud.
+
+
+## Como saber qual tipo de IBM Cloud Direct Link eu preciso?
+
+É possível usar o fluxograma na figura para ajudá-lo a se decidir.
+
+![direct-link-decision-tree](/images/direct-link-decision-tree.png)

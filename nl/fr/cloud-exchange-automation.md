@@ -49,7 +49,7 @@ Après avoir cliqué sur le bouton de **commande de Direct Link Exchange** en ha
 
 **Etape 3A :**
 
-Eventuellement, si de nombreux ports sont accessibles et que le premier circuit virtuel a déjà été mis à votre disposition, un écran semblable a celui présenté ci-après s'affiche. Il contient deux ports parmi lesquels vous pouvez sélectionner votre second circuit virtuel. 
+Eventuellement, si de nombreux ports sont accessibles et que le premier circuit virtuel a déjà été mis à votre disposition, un écran semblable a celui présenté ci-après s'affiche. Il contient deux ports parmi lesquels vous pouvez sélectionner votre second circuit virtuel.
 
 ![2-port-image](/images/exchange-2-ports-image.png)
 
@@ -75,13 +75,13 @@ Après avoir fourni les valeurs, l'écran suivant de l'interface utilisateur aff
 
 **Etape 7 :**
 
-Vous devez **ACCEPTER** les dispositions générales avant de pouvoir commander IBM Cloud Direct Link. Veuillez lire attentivement les dispositions générales car elles contiennent des informations techniques importantes que vous devez comprendre avant de procéder. **(Remarque : si les dispositions générales ne sont pas acceptées, un ticket de support IBM sera généré lors de la passation de commande).** Les figures ci-dessous montrent les écrans qui s'affichent suivant la sélection effectuée à cette étape.
+Vous devez **ACCEPTER** les dispositions avant de pouvoir commander IBM Cloud Direct Link. Veuillez lire attentivement les dispositions car elles contiennent des informations techniques importantes que vous devez comprendre avant de procéder. **(Remarque : si les dispositions ne sont pas acceptées, un ticket de support IBM sera généré lors de la passation de commande).** Les figures ci-dessous montrent les écrans qui s'affichent suivant la sélection effectuée à cette étape.
 
 La figure suivante montre l'écran des dispositions :
 
 ![Etape 7](images/Equinix-Step7.png)
 
-La figure suivante montre l'écran qui s'affiche si vous n'acceptez pas les dispositions générales lorsque vous passez la commande. L'écran illustre le numéro de ticket généré :
+La figure suivante montre l'écran qui s'affiche si vous n'acceptez pas les dispositions lorsque vous passez la commande. L'écran illustre le numéro de ticket généré :
 
 ![Etape 7 acceptation](/images/Equinix-Step7-NoAgree.png)
 
@@ -91,7 +91,7 @@ La figure suivante montre un exemple de ticket ouvert :
 
 **Etape 8 :**
 
-Après avoir accepté les dispositions générales, un ticket de support IBM est généré lorsque vous passez la commande pour procéder à la mise à disposition du service. Le numéro de ticket sera affiché dans l'interface utilisateur après avoir passé la commande. 
+Après avoir accepté les dispositions, un ticket de support IBM est généré lorsque vous passez la commande pour procéder à la mise à disposition du service. Le numéro de ticket sera affiché dans l'interface utilisateur après avoir passé la commande. 
 
 ![Etape NE1](/images/Non-Equinix-Step1.png)
 

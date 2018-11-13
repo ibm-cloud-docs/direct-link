@@ -26,13 +26,13 @@ IBM Cloud Direct Link Dedicated Hosting에 대한 요청을 열어 주셔서 감
 
 3. Direct Link Dedicated Hosting에서는 VRF(Virtual Routing and Forwarding) 인스턴스를 활용해야 합니다. 이를 통해 고객은 원격 네트워크에서 사용할 고유 원격 IP 주소를 정의할수 있습니다. 그러나 10.x.x.x 네트워크를 활용하는 경우에는 여전히 IBM Cloud 내의 호스트 및 SIBM Cloud 서비스 네트워크(10.0.0.0/14, 10.198.0.0/15 및 10.200.0.0/14)와 겹치지 않아야 한다는 점에 유의해야 합니다. 사용자 계정을 VRF로 전환하려면 각각의 VLAN이 새 구성으로 마이그레이션될 때 사설 네트워크의 가동이 잠시 중단되어야 합니다. 네트워크 엔지니어링 팀에서 사용자와 함께 작업하여 이 활동에 대한 기간을 정의합니다.
 
-4. VRF는 IBM Cloud SSL, PPTP 및 IPsec VPN의 동작을 변경합니다. 이는 일반적으로 액세스되는 컴퓨팅 리소스와 동일한 데이터 센터에 대한 VPN 연결이 설정될 때 작동하지만 글로벌하게 액세스를 허용하지 않습니다. 대안은 Direct Link 자체를 사용하여 서버를 관리하거나 여러 유형의 VPN으로 구성할 수 있는 사용자 고유의 VPN 솔루션(예: Vyatta)을 실행하는 것입니다.  
+4. VRF는 IBM Cloud SSL, PPTP 및 IPsec VPN의 동작을 변경합니다. 이는 일반적으로 액세스되는 컴퓨팅 리소스와 동일한 데이터 센터에 대한 VPN 연결이 설정될 때 작동하지만 글로벌하게 액세스를 허용하지 않습니다.  대안은 Direct Link 자체를 사용하여 서버를 관리하거나 여러 유형의 VPN으로 구성할 수 있는 사용자 고유의 VPN 솔루션(예: Vyatta)을 실행하는 것입니다. 
 
 5. 고객의 원격 네트워크에 대한 라우트를 구현하려면 Direct Link Dedicated Hosting에 호스팅에 BGP가 필요합니다. IBM Cloud는 IBM Cloud에 작성된 광고에 대한 필터를 구현하지 않습니다. IBM Cloud에서 계정에 지정된 모든 사설 서브넷을 광고합니다. 고객이 IBM Cloud에 수신된 광고를 적절히 관리해야 합니다.
 
 6. IBM Cloud는 고객이 중복 연결을 설정할 수 있도록 IBM Cloud의 교차 연결 라우터마다 하나씩 이중 업링크를 제공합니다. 이는 ECMP 기능을 활용하거나 단순히 연결에 가중치를 지정하여 BGP 세션을 통해 고객의 라우터에서 수행됩니다.
 
-7. IBM Cloud 서비스 네트워크는 사용자의 Dedicated Hosting 또는 원격 네트워크에서 직접 액세스할 수 없습니다. 
+7. IBM Cloud 서비스 네트워크는 사용자의 Dedicated Hosting 또는 원격 네트워크에서 직접 액세스할 수 없습니다.
 
 8. IBM Cloud는 사용자가 IBM Cloud 백본에서 원격 사이트 간에 트래픽을 백홀(back-haul)하도록 허용하지 않습니다. Direct Link 서비스는 원격 네트워크에서 IBM Cloud 인프라와 개인적으로 통신할 수 있도록 디자인되었습니다.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-11"
+lastupdated: "2018-07-12"
 
 ---
 
@@ -47,19 +47,6 @@ Direct Link 不提供固有的備援服務。Direct Link 可以提供「多樣�
 ## 為何有廣域遞送附加程式套件存在？
 我們已新增廣域遞送附加程式，避免客戶在資料中心地區之外遍訪時遭遇非預期的資料成本。它可讓大部份的客戶成本降低，也讓能全球上線的客戶能夠輕鬆地聯繫全球所有地區。不過，通常客戶只需要本端頻寬套件。
 
-## 何謂本端遞送與廣域遞送選項？
-本端遞送與廣域遞送選項是在每位客戶訂購 Direct Link 服務時選取。如果客戶需要將資料流量遞送到他們訂購 Direct Link 的區域內 POP 之外，則必須新增「廣域遞送」選項；否則他們的資料流量將限制在本端 POP 所提供的服務。
-
-每個月，使用 1G 電路的所有客戶會被分配到 10TB 的免費輸出資料流量；使用 10G 電路的客戶被分配到 50TB。超額會以下表為基準，並以較高的市場費率較普遍。如果您選取「廣域遞送」，則不會因為任何本端輸出資料流量而被計費，只會針對起點或終點在本端 POP 以外的資料流量計費。
-
-|資料市場|資料市場 2|資料市場 3|
-|---|---|---|
-|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
-**表 1：使用率層級**<br/>
-標示星號 (\*) 的市場中，Direct Link 供應項目「必須」訂購「廣域遞送」。
-
-
-
 ## 如果我連接至某地區（例如達拉斯）中的 Direct Link Dedicated、Direct Link Connect 或 Direct Link Cloud Exchange，我能透過 Direct Link 存取美國的其他地區嗎？
 是的，如果您選擇「廣域遞送」附加程式，便可以存取地區之外的區域。如果未選取這個選項，則您的 Direct Link 資料流量將侷限在您所選 PoP 的地區。如需詳細資料，請參閱[定價文件](pricing.html)。
 
@@ -85,6 +72,10 @@ Direct Link Exchange 容許透過單一雲端交換埠的多雲端共用環境�
 
 透過 Direct Link Connect，客戶可透過 Connect 提供者、經由「網路至網路 (NNI)」連線來連接至 IBM Cloud，並由全球設施中的 IBM 合作夥伴操作。埠速度最高可以達到 5Gb。
 
+## Direct Link Connect 和 Direct Link Exchange 提供者的比較
+
+Connect 提供者是網路可達到資料中心之外的電信公司。Exchange 提供者限制在資料中心內。兩者都可以為客戶啟用多雲端體驗。Exchange 提供者通常在他們的資料中心裡需要主機託管，而 Connect 提供者可以達到客戶的內部部署網站與資料中心。
+
 ## 我們可以透過 Direct Link 支援 IPv6 嗎？
 
 不適用於 BGP 階段作業。我們必須從 IPv4 中指派我們的 /30，而且我們需要客戶相同的回報。
@@ -101,10 +92,10 @@ Verizon SCI 是數個 MPLS 型第 3 層 (IP VPN) 服務的其中一個。它需�
 
 我們無法支援任何 QoS 保證。QoS 需要我們的每一個服務供應商與 IBM Cloud 之間有 MPLS 對映。「雲端服務提供者」通常無法在此時支援 QoS，因為它必須從頭到尾涵蓋，而且涉及其間的每個裝置。透過「通道作業」或任何其他方法都無法提供暫行解決方法。
 
-## Direct Link 是否支援 Jumbo 訊框？
+## Direct Link 是否支援巨大訊框？
 
-Dedicated 和 Dedicated Hosting 支援 Jumbo 訊框（最多 9214 位元組）。
-理論上，支援 Connect 和 Exchange 是可行的，但需要「服務提供者」與 IBM 合作，並確保端對端連線支援「Jumbo 訊框」，包括基礎「網路至網路介面 (NNI)」。依預設，Exchange 及 Connect 已設定為具有 1500 位元組 MTU 支援。
+Dedicated 和 Dedicated Hosting 支援巨大訊框（最多 9214 位元組）。
+理論上，支援 Connect 和 Exchange 是可行的，但需要服務提供者與 IBM 合作，並確保端對端連線支援「巨大訊框」，包括基礎「網路至網路介面 (NNI)」。依預設，Exchange 及 Connect 已設定為具有 1500 位元組 MTU 支援。
 
 ## 使用 Direct Link Connect 時，客戶如何確保透過相同通訊業者的路由器多樣性（範例：DAL03 中的 Verizon）？
 
@@ -125,3 +116,7 @@ Dedicated 和 Dedicated Hosting 支援 Jumbo 訊框（最多 9214 位元組）�
 ECMP 是 BGP 的一項特性。如果您要尋求備援，請取得兩個 Direct Link 連線，一個連線進入一個 XCR。如果您要使用 ECMP 並具有備援，則您需要每個 XCR 有兩個 Direct Link 連線，這樣您才能同時執行 2 個 ECMP 階段作業。
 
 或者，我們有些客戶將兩個鏈結設定到相同資料中心（例如，WDC02）的不同 XCR，然後視需要使用 BGP 配置進行失效接手。比起將 Direct Link 連線置於兩個不同的資料中心（例如 WDC02 和 WDC05），此配置較少備援（較不安全）。
+
+## 帳戶 BCR 連線的 XCR 連線有 SLA 嗎？
+
+目前沒有 DirectLink 的 SLA。客戶實際上可以藉由針對使用 BGP 的失效接手適當配置 2 個以上的 Direct Link 而達到 99.999%，但 IBM 無法控制或提供其 SLA。

@@ -35,13 +35,13 @@ Grazie per aver aperto una richiesta per IBM Cloud Direct Link Dedicated. Per fi
 
 4. IBM Cloud non ordinerà una connessione trasversale al posto di un cliente.
 
-5. IBM Cloud non co-posizionerà alcuna apparecchiatura del cliente nei nostri PoP di rete. Accettiamo solo ‘connessioni trasversali’ che sono un ethernet fiber (solo fibre a modalità singola, ottiche 1Gig-LX o 10Gig-LR 1310nm) eseguita dal tuo cage o provider. Non accettiamo T1s, DS3s, ISDN, POTs line, ecc. Dovrai collaborare con il tuo provider per determinare se devi collocare o meno le apparecchiature nella stessa struttura in cui si trova il PoP della rete di IBM Cloud. 
+5. IBM Cloud non co-posizionerà alcuna apparecchiatura del cliente nei nostri PoP di rete. Accettiamo solo ‘connessioni trasversali’ che sono un ethernet fiber (solo fibre a modalità singola, ottiche 1Gig-LX o 10Gig-LR 1310nm) eseguita dal tuo cage o provider. Non accettiamo T1s, DS3s, ISDN, POTs line, ecc. Dovrai collaborare con il tuo provider per determinare se devi collocare o meno le apparecchiature nella stessa struttura in cui si trova il PoP della rete di IBM Cloud.
 
 6. Il servizio Direct Link viene fornito in un modo in cui quando ti colleghi e il router di IBM Cloud viene terminato sono entrambi singoli punti di errore (SPOF). Se desideri ottenere la ridondanza tramite il servizio Direct Link, dovrai ordinare due connessioni in un'ubicazione Direct Link con un router secondario o terminare i link in due PoP di IBM Cloud separati.
 
-7. La rete dei servizi IBM Cloud non sarà accessibile direttamente dalle tue reti remote. Se questa funzionalità viene modificata in futuro, ti verrà inviata una notifica. 
+7. La rete dei servizi IBM Cloud non sarà accessibile direttamente dalle tue reti remote. Se questa funzionalità viene modificata in futuro, ti verrà inviata una notifica.
 
-8. IBM Cloud non consentirà ai clienti il backhaul del traffico dei loro siti remoti tramite il backbone di IBM Cloud. Il prodotto Direct Link è destinato alle tue reti remote in modo che possano comunicare privatamente con l'infrastruttura IBM Cloud. 
+8. IBM Cloud non consentirà ai clienti il backhaul del traffico dei loro siti remoti tramite il backbone di IBM Cloud. Il prodotto Direct Link è destinato alle tue reti remote in modo che possano comunicare privatamente con l'infrastruttura IBM Cloud.
 
 9. Dopo aver confermato che il tuo circuito ha raggiunto il PoP ed è stato completato dal vettore, avrai bisogno di ordinare la connessione trasversale al XCR (cross connect router) di IBM Cloud che di solito impiega tra 2 e 10 giorni lavorativi per il completamento. Questa include la patch alla porta di terminazione SoftLayer.  Una volta completata, ti verrà richiesto di fornire a IBM Cloud l'avviso di completamento della connessione trasversale dalla struttura del fornitore. L'assegnazione dell'IP nell'infrastruttura di rete sarà completata in 3 giorni lavorativi dopo il completamento della connessione trasversale.
 
@@ -49,7 +49,7 @@ Grazie per aver aperto una richiesta per IBM Cloud Direct Link Dedicated. Per fi
 
 11. VRF non è compatibile con i servizi IBM Cloud (legacy SoftLayer) SSL, PPTP e IPSEC VPN. Un'alternativa è di utilizzare lo stesso Direct Link per la gestione dei tuoi server o di eseguire la tua soluzione VPN (come Vyatta) che può essere configurata con diversi tipi di VPN. Dopo aver eseguito la migrazione a una VRF, la VPN SSL normalmente funziona quando viene effettuata una connessione VPN alla stessa ubicazione DC del calcolo a cui si sta accedendo, ma non concede l'accesso globalmente.
 
-12. IBM Cloud Direct Link Dedicated richiede BGP per poter implementare le rotte in una rete remota del cliente. Quando il tuo servizio Direct Link è stato distribuito, IBM Cloud annuncerà tutte le sottoreti private assegnate al tuo account. IBM Cloud non implementerà i filtri personalizzati, l'anteposizione del percorso AS e le preferenze di locale personalizzate agli avvisi al peer BGP remoto del cliente. IBM Cloud non implementerà i filtri sugli avvisi ricevuti da IBM Cloud.I clienti dovranno gestire correttamente gli avvisi a/da IBM Cloud dal router edge del cliente.
+12. IBM Cloud Direct Link Dedicated richiede BGP per poter implementare le rotte in una rete remota del cliente. Quando il tuo servizio Direct Link è stato distribuito, IBM Cloud annuncerà tutte le sottoreti private assegnate al tuo account.IBM Cloud non implementerà i filtri personalizzati, l'anteposizione del percorso AS e le preferenze di locale personalizzate agli avvisi al peer BGP remoto del cliente.IBM Cloud non implementerà i filtri sugli avvisi ricevuti da IBM Cloud.I clienti dovranno gestire correttamente gli avvisi a/da IBM Cloud dal router edge del cliente.
 
 ## Altre domande
 

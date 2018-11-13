@@ -16,7 +16,7 @@ lastupdated: "2018-06-11"
 
 # Questionário do IBM Cloud Direct Link Exchange
 
-Obrigado por abrir uma solicitação para o IBM Cloud Direct Link Exchange. Para finalizar a sua solicitação, gostaríamos de reunir algumas informações adicionais de você.  É possível falar com um engenheiro a qualquer momento durante o processo de questionário.  Após você ter concluído o questionário, ele será revisado por nossa equipe de Engenharia de design de nuvem e escalado para a Engenharia de rede para implementação.
+Obrigado por abrir uma solicitação para o IBM Cloud Direct Link Exchange.  Para finalizar a sua solicitação, gostaríamos de reunir algumas informações adicionais de você.  É possível falar com um engenheiro a qualquer momento durante o processo de questionário.  Após você ter concluído o questionário, ele será revisado por nossa equipe de Engenharia de design de nuvem e escalado para a Engenharia de rede para implementação.
 
 ## Você reconhece e concorda com os itens a seguir?
 
@@ -32,7 +32,7 @@ Obrigado por abrir uma solicitação para o IBM Cloud Direct Link Exchange. Par
   * Para obter mais informações, veja **Seção 5 - Encargos** no Cloud Services Agreement no link a seguir: [ibm.biz/service-agreement](ibm.biz/service-agreement)
   * Como alternativa, o faturamento poderá ser parado para um cliente se ele for notificado de que o serviço Direct Link será desligado e não funcionará mais.
 
-3. Pedindo o serviço Direct Link, você será responsável por quaisquer taxas associadas ao acesso do ponto de Presença (PoP) por meio de sua rede remota e por qualquer conexão cruzada necessária dentro da instalação do PoP para acessar o seu provedor do Exchange. Você (ou o seu provedor) também será responsável por comprar o circuito virtual para o IBM Cloud. Se o seu provedor exigir que um roteador ou outro dispositivo esteja fisicamente no PoP, você também será responsável pelos custos associados à instalação desse equipamento. Confirme se o provedor de Rede ou PoP pode atingir o Direct Link Exchange e precificar os custos associados.
+3. Pedindo o serviço Direct Link, você será responsável por quaisquer taxas associadas ao acesso do ponto de Presença (PoP) por meio de sua rede remota e por qualquer conexão cruzada necessária dentro da instalação do PoP para acessar o seu provedor do Exchange. Você (ou o seu provedor) também será responsável por comprar o circuito virtual para o IBM Cloud. Se o seu provedor exigir que um roteador ou outro dispositivo esteja fisicamente no PoP, você também será responsável pelos custos associados à instalação desse equipamento.  Confirme se o provedor de Rede ou PoP pode atingir o Direct Link Exchange e precificar os custos associados.
 
 4. O IBM Cloud não instalará nenhum equipamento do cliente em nossos POPs de rede.  Você precisará trabalhar com o seu provedor para determinar se precisa ou não instalar qualquer equipamento no mesmo local em que o IBM Cloud PoP existe.
 
@@ -44,7 +44,7 @@ Obrigado por abrir uma solicitação para o IBM Cloud Direct Link Exchange. Par
 
 8. Depois de ter confirmado que seu circuito atingiu o PoP do Direct Link Exchange, será necessário fazer um pedido no provedor de troca de nuvem e fornecer todas as informações relevantes para o provedor de troca de nuvem e o IBM Cloud. Para provedores do Equinix, o tempo de implementação típico pode levar horas. O tempo de implementação típico para a oferta do IBM Cloud Direct Link Exchange leva de 5 a 10 dias para ser concluído. 
 
-9. O IBM Cloud Direct Link Exchange requer a utilização de uma instância VRF (Virtual Routing and Forwarding) no lado do IBM Cloud Network. Isso permite que o cliente defina os próprios endereços IP remotos para uso na rede remota; no entanto, você deve estar ciente de que, se for capaz de utilizar a rede 10.x.x.x, mesmo assim não poderá a sobrepor a seus hosts dentro do IBM Cloud nem à rede de serviços do IBM Cloud (10.0.0.0/14, 10.198.0.0/15 e 10.200.0.0/14). A transição de sua conta para um VRF requererá uma breve indisponibilidade de rede privada conforme cada VLAN for migrada para a nova configuração.  A equipe de Engenharia de rede trabalhará com você para definir uma janela para essa atividade.
+9. O IBM Cloud Direct Link Exchange requer a utilização de uma instância VRF (Virtual Routing and Forwarding) no lado do IBM Cloud Network.  Isso permite que o cliente defina os próprios endereços IP remotos para uso na rede remota; no entanto, você deve estar ciente de que, se for capaz de utilizar a rede 10.x.x.x, mesmo assim não poderá a sobrepor a seus hosts dentro do IBM Cloud nem à rede de serviços do IBM Cloud (10.0.0.0/14, 10.198.0.0/15 e 10.200.0.0/14). A transição de sua conta para um VRF requererá uma breve indisponibilidade de rede privada conforme cada VLAN for migrada para a nova configuração.  A equipe de Engenharia de rede trabalhará com você para definir uma janela para essa atividade.
 
 10. O VRF não é compatível com os serviços de SSL, PPTP e IPSEC VPN do IBM Cloud.  Uma alternativa é usar o próprio Direct Link para o gerenciamento de seus servidores ou executar a sua própria solução de VPN (como um Vyatta) que pode ser configurada com tipos diferentes de VPN.  Após migrar para um VRF, a VPN de SSL geralmente funcionará quando uma conexão de VPN for feita com o mesmo local do DC no qual o cálculo está sendo acessado, mas não permitirá acesso globalmente.
 
@@ -54,7 +54,7 @@ Obrigado por abrir uma solicitação para o IBM Cloud Direct Link Exchange. Par
 
 * **Você reconhece e aceita a precificação de _SEU LOCAL_ para a conexão do IBM Cloud Direct Link Exchange?**
 
-* **O IBM Cloud designará um ASN privado para você para propósitos de configuração do BGP para anunciar suas redes remotas em sua rede privada do IBM Cloud. Isso é aceitável ou você prefere utilizar o seu próprio ASN público?**
+* **O IBM Cloud designará um ASN privado para você para propósitos de configuração do BGP para anunciar suas redes remotas em sua rede privada do IBM Cloud.  Isso é aceitável ou você prefere utilizar o seu próprio ASN público?**
 
 * **Você requer que o BGP MultiPath com ECMP seja definido para configurar uma conexão redundante com o IBM Cloud?**  
 

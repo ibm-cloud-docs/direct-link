@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-08-09"
 
 ---
 
@@ -38,13 +38,13 @@ IBM Cloud Direct Link Exchange 解決方案可讓客戶運用 Cloud Exchange 提
 
  * **埠速度選項：**選取 50Mbps、100Mbps、200Mbps、500Mbps 或 1Gbps。
 
- * **約略延遲：**本端區域（具有相同三個字母字首，例如 DAL、AMS、MEL 資料中心）內的延遲大約為 1.5ms。有關即時 PoP 至 PoP (P2P) 位置延遲測量，請參閱 http://lg.softlayer.com/。
+ * **約略延遲：**本端區域（具有相同三個字母字首，例如 DAL、AMS、MEL 資料中心）內的延遲大約為 1.5ms。有關即時 PoP 至 PoP (P2P) 位置延遲測量，請參閱 http://lg.softlayer.com/
 
  * **主機託管服務：**無。
 
  * **備援：**若要建立 IBM Cloud Direct Link Exchange 的備援，需要 2+ 位置的連線功能，或選擇具有 Cloud Exchange 提供者可用之次要 XCR 的位置。
 
- * **本端/廣域遞送選項：**「本端遞送」選項提供對與 PoP 位置有相同三個字母字首（DAL、AMS、MEL）之資料中心的存取。需要「廣域遞送」選項作為附加程式，以便聯繫那些位置以外的資料中心。
+ * **本端/廣域遞送選項：**本端遞送選項是預設的遞送選項。它提供對與 Direct Link PoP 相同市場內的資料中心存取（以例如 DAL、AMS 或 MEL 表示）。需要「廣域遞送」選項作為附加程式，以便將市場內的 IBM Cloud 資源連接到本端市場外資料中心的其他 IBM Cloud 資源。它用來在 IBM Cloud 資源之間共用工作負載（例如達拉斯對阿什本，或達拉斯對法蘭克福）。
  
 ## IBM Cloud Direct Link Connect 解決方案
 
@@ -60,13 +60,13 @@ IBM Cloud Direct Link Exchange 解決方案可讓客戶運用 Cloud Exchange 提
 
 * **埠速度選項：**選取 50Mbps、100Mbps、200Mbps、500Mbps、1Gbps、2Gbps 或 5Gbps。
 
-* **約略延遲：**本端區域（具有相同三個字母字首的資料中心，例如 DAL、AMS、MEL）內的延遲大約為 1.5ms。有關即時 PoP 至 PoP (P2P) 位置延遲測量，請參閱 http://lg.softlayer.com/。
+* **約略延遲：**本端區域（具有相同三個字母字首的資料中心，例如 DAL、AMS、MEL）內的延遲大約為 1.5ms。有關即時 PoP 至 PoP (P2P) 位置延遲測量，請參閱 http://lg.softlayer.com/
 
 * **主機託管服務：**無。
 
 * **備援：**若要建立 IBM Cloud Direct Link Connect 的備援，需要 2+ 位置的連線功能，或選擇具有 IBM Cloud Connect 提供者可用之次要 XCR 的位置。
 
-* **本端/廣域遞送選項：**「本端遞送」選項提供對與 PoP 位置有相同三個字母字首（DAL、AMS、MEL）之資料中心的存取。需要「廣域遞送」選項作為附加程式，以便聯繫那些位置以外的資料中心。
+* **本端/廣域遞送選項：**本端遞送選項是預設的遞送選項。它提供對與 Direct Link PoP 相同市場內的資料中心存取（以例如 DAL、AMS 或 MEL 表示）。需要「廣域遞送」選項作為附加程式，以便將市場內的 IBM Cloud 資源連接到本端市場外資料中心的其他 IBM Cloud 資源。它用來在 IBM Cloud 資源之間共用工作負載（例如達拉斯對阿什本，或達拉斯對法蘭克福）。
 
 ## IBM Cloud Direct Link Dedicated 解決方案
 
@@ -85,13 +85,13 @@ CFA 終止點的光纖乙太網路（僅限單一模式光纖、1Gig-LX 或 10Gi
 
  * **埠速度選項：**選取 1Gbps、2Gbps、5Gbps 或 10Gbps。
 
- * **約略延遲：**本端區域（具有相同三個字母字首的資料中心，例如 DAL、AMS、MEL）內的延遲大約為 1.5ms。有關即時 PoP 至 PoP (P2P) 位置延遲測量，請參閱 http://lg.softlayer.com/。
+ * **約略延遲：**本端區域（具有相同三個字母字首的資料中心，例如 DAL、AMS、MEL）內的延遲大約為 1.5ms。有關即時 PoP 至 PoP (P2P) 位置延遲測量，請參閱 http://lg.softlayer.com/
 
  * **主機託管服務：**無。
 
  * **備援：**若要建立備援，需要對 2+ 位置的 IBM Cloud Direct Link 連線功能，或選擇具有次要 XCR 可用的位置以及第二條 IBM Cloud Direct Link 連線的要求。
 
- * **本端/廣域遞送選項：**「本端遞送」選項提供對具有與 PoP 相同三個字母字首（DAL、AMS、MEL）之資料中心的存取。「廣域遞送」選項需要為附加程式，以便聯繫那些位置以外的資料中心。
+ * **本端/廣域遞送選項：**本端遞送選項是預設的遞送選項。它提供對與 Direct Link PoP 相同市場內的資料中心存取（以例如 DAL、AMS 或 MEL 表示）。需要「廣域遞送」選項作為附加程式，以便將市場內的 IBM Cloud 資源連接到本端市場外資料中心的其他 IBM Cloud 資源。它用來在 IBM Cloud 資源之間共用工作負載（例如達拉斯對阿什本，或達拉斯對法蘭克福）。
 
 ## IBM Cloud Direct Link Dedicated Hosting 解決方案
 
@@ -116,4 +116,4 @@ CFA 終止點的光纖乙太網路（僅限單一模式光纖、1Gig-LX 或 10Gi
 
  * **備援：**{{site.data.keyword.BluSoftlayer_notm}} 在產品中提供對兩台交叉連接路由器 (XCR) 的連線。若要建立備援連線功能，客戶必須在每一個 Direct Link 連線上配置他們認為適合達到備援的 BGP。範例包括諸如這些選項：_偏好最低 MED_、_偏好最高的區域喜好設定_，或_偏好較短的 AS 路徑_。
 
- * **本端/廣域遞送選項：**「本端遞送」選項提供對具有與 PoP 相同三個字母字首（DAL、AMS、MEL）之資料中心的存取。「廣域遞送」選項需要為附加程式，以便聯繫那些位置以外的資料中心。
+ * **本端/廣域遞送選項：**本端遞送選項是預設的遞送選項。它提供對與 Direct Link PoP 相同市場內的資料中心存取（以例如 DAL、AMS 或 MEL 表示）。需要「廣域遞送」選項作為附加程式，以便將市場內的 IBM Cloud 資源連接到本端市場外資料中心的其他 IBM Cloud 資源。它用來在 IBM Cloud 資源之間共用工作負載（例如達拉斯對阿什本，或達拉斯對法蘭克福）。

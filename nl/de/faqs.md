@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-11"
+lastupdated: "2018-07-12"
 
 ---
 
@@ -46,17 +46,6 @@ Mit unserem Standardangebot für Direct Link können Daten zwischen den Rechenze
 ## Warum gibt es das Add-on-Paket 'Global Routing'?
 Das Add-on 'Global Routing' wurde hinzugefügt, um zu verhindern, dass für Kunden unerwartete Kosten in Bezug auf ihre Daten entstehen, wenn der Datenverkehr außerhalb der Rechenzentren der entsprechenden Region läuft. Es hält die Kosten für die Mehrheit unserer Kunden gering und es bietet Kunden mit einer globalen Präsenz die Möglichkeit, alle Regionen weltweit einfach zu erreichen. Normalerweise benötigt ein Kunde jedoch nur ein Paket für lokale Bandbreite.
 
-## Was sind die Optionen 'Local Routing' und 'Global Routing'?
-Die Optionen 'Local Routing' und 'Global Routing' werden von jedem Kunden beim Bestellen des Direct Link-Service ausgewählt. Wenn Kunden ihren Datenverkehr außerhalb des Bereitstellungspunkts in dem Bereich verlagern möchten, in dem sie Direct Link bestellen, müssen sie die Option 'Global Routing' hinzufügen; andernfalls wird der Datenverkehr auf die Services beschränkt, die über den lokalen Bereitstellungspunkt verfügbar sind.
-
-Die ersten 10 TB ausgehenden Datenverkehrs sind bei Direct Link-Verbindungen mit 1 Gb/s ohne gesonderte Berechnung enthalten; bei Verbindungen mit 10 Gb/s sind die ersten 50 TB ausgehenden Datenverkehrs ohne gesonderte Berechnung enthalten. Überschreitungen basieren auf der nachfolgenden Tabelle, wobei der höhere Marktpreis gilt. Wenn Sie 'Global Routing' auswählen, ist der gesamte eingehende Datenverkehr kostenlos. Es wird nur der Datenverkehr berechnet, der außerhalb des lokalen Bereitstellungspunkts fließt.
-
-|Daten Markt 1|Daten Markt 2|Daten Markt 3|
-|---|---|---|
-|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
-**Tabelle 1: Nutzungsstufen**<br/>
-Direct Link-Angebote in den mit einem Stern (*) gekennzeichneten Märkten MÜSSEN 'Global Routing' bestellen.
-
 ## Wenn ich die Angebote 'Direct Link Dedicated', 'Direct Link Connect' oder 'Direct Link Exchange' in einer Region wie Dallas verwende, habe ich dann Zugriff auf andere Regionen in den USA über Direct Link?
 Ja. Wenn Sie das Add-on 'Global Routing' auswählen, haben Sie Zugriff auf Bereiche außerhalb Ihrer Region. Wenn diese Option nicht ausgewählt ist, wird der Direct Link-Datenverkehr auf die Region für den von Ihnen gewählten Bereitstellungspunkt begrenzt. Details finden Sie im [Preisdokument](pricing.html).
 
@@ -82,6 +71,10 @@ Direct Link Exchange kann eine gemeinsam genutzte Umgebung mit mehreren Clouds �
 
 Mit Direct Link Connect können Kunden Verbindungen zu IBM Cloud über den Connect-Provider durch eine NNI-Verbindung herstellen, die von IBM Partnern in Einrichtungen weltweit betrieben werden. Es sind Portgeschwindigkeiten bis zu 5 Gb verfügbar.
 
+## Worin unterscheiden sich Direct Link Connect- und Direct Link Exchange-Anbieter?
+
+Direct Link Connect-Anbieter sind Telcos, die über eine Netzreichweite über das Rechenzentrum hinaus verfügen. Exchange-Anbieter sind auf ihre Rechenzentren beschränkt. Von beiden können dem Kunden mehrere Clouds bereitgestellt werden. Für Exchange-Anbieter ist in der Regel eine Zusammenstellung in ihren Rechenzentren erforderlich, von Connect-Anbietern können dagegen lokale Sites und Rechenzentren eines Kunden erreicht werden.
+
 ## Kann IPv6 über Direct Link unterstützt werden?
 
 Nicht für die BGP-Sitzung. Wir müssen unser Präfix /30 aus IPv4 zuweisen, das auch vom Kunden zurückgegeben werden muss.
@@ -100,9 +93,9 @@ Wir können keine Gewährleistung für die Servicequalität bieten. Die Serviceq
 
 ## Bietet Direct Link Unterstützung für Jumbo-Frames?
 
-Jumbo-Frames (bis 9214 Byte) werden von Dedicated und von Dedicated Hosting unterstützt.
+Jumbo-Frames (bis 9214 Byte) werden von Dedicated und von Dedicated Hosting unterstützt. 
 Die Unterstützung durch Connect und Exchange ist theoretisch möglich, erfordert jedoch die Zusammenarbeit Ihres Service-Providers mit IBM, um sicherzustellen, dass die End-to-End-Verbindung (einschließlich der zugrundeliegenden NNI-Schnittstelle) Jumbo-Frames unterstützt.
-Exchange und Connect werden standardmäßig mit 1500-Byte-MTU-Unterstützung eingerichtet. 
+Exchange und Connect werden standardmäßig mit 1500-Byte-MTU-Unterstützung eingerichtet.
 
 ## Wie kann ein Kunde mit Direct Link Connect die Router-Diversität über denselben Netzbetreiber sicherstellen (z. B. Verizon in DAL03)?
 
@@ -116,10 +109,14 @@ Bestellen Sie 2 Links für die Diversität. Wir stellen keine Redundanz zwischen
 
 Für Geschwindigkeiten bis 1 G installieren wir in der Regel 1-G-Glasfaserkabel. Für Geschwindigkeiten von 2 G bis 10 G installieren wir 10-G-Glasfaserkabel. Für das Upgrade von 1 G auf 5 G müssten daher neue Glasfaserkabel zugewiesen oder eingebaut werden. Das Upgrade wäre folglich ein servicerelevantes Ereignis. Wenn Sie eine Zunahme in dieser Größenordnung erwarten, können Sie bereits zu Beginn Ihrer Direct Link-Bereitstellung die Installation von 10-G-Glasfaserkabeln anfordern oder sofort die Geschwindigkeitsstufe 2 G bestellen, damit von Anfang an 10-G-Glasfaserkabel verwendet werden.
 
-## Ist ECMP eine geeignete Methode für redundante Verbindungen? Welche Alternativen gib es?
+## Ist ECMP eine geeignete Methode für redundante Verbindungen?  Welche Alternativen gib es?
 
 Beachten Sie, dass ECMP nicht für redundante Verbindungen konzipiert wurde, sondern für den Lastausgleich über zwei Links. Bei Verwendung von ECMP müssen beide Verbindungen auf demselben IBM Cloud-Router für Querverbindungen (XCR-Router) enden, der dadurch zu einem  Single Point of Failure wird. (Mit anderen Worten: ECMP kann nur in zwei Sitzungen auf demselben IBM Cloud-XCR-Router bereitgestellt werden.) 
 
 ECMP ist eine Funktion von BGP. Wenn Sie Redundanz bereitstellen möchten, fordern Sie zwei Direct Link-Verbindungen an, die jeweils zu einem der beiden XCR-Router führen. Wenn Sie ECMP und Redundanz gleichzeitig verwenden möchten., benötigen Sie zwei Direct Link-Verbindungen auf jedem XCR-Router, damit zwei ECMP-Sitzungen gleichzeitig ausgeführt werden können.
 
 Wenn einige Ihrer Kunden zwei Links zu verschiedenen XCR-Routern im selben Rechenzentrum eingerichtet haben (z. B. WDC02) kann die Funktionsübernahme nach Bedarf durch BGP-Konfigurationen erfolgen. Diese Konfiguration bietet eine geringere Redundanz (und Sicherheit) als Direct Link-Verbindungen zu zwei separaten Rechenzentren wie WDC02 und WDC05.
+
+## Gibt es eine SLA für die XCR-Verbindungen bis zur BCR-Verbindung des Kontos?
+
+Derzeit gibt es keine SLA für Direct Link. Kunden können 99,999% effektiv mit 2 oder mehr Direct Links erreichen, die ordnungsgemäß für ein Failover mit BGP konfiguriert sind; IBM kann dies jedoch nicht steuern oder eine SLA dafür bereitstellen.

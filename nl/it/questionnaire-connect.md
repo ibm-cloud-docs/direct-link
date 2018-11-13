@@ -18,39 +18,39 @@ lastupdated: "2018-06-11"
 
 Grazie per aver aperto una richiesta per IBM Cloud Direct Link Connect. Per finalizzare la tua richiesta, ci piacerebbe raccogliere alcune informazioni aggiuntive da te. Puoi parlare con un ingegnere in qualsiasi momento durante il processo del questionario. Una volta completato il questionario, verrà esaminato dal nostro team Cloud Design Engineering e inoltrato a Network Engineering per l'implementazione.
 
-## Riconosci e accetti quanto segue? 
+## Riconosci e accetti quanto segue?
 
-1. Ogni connessione Direct Link richiede un ordine univoco. Se richiedi più connessioni, apri ordini Direct Link separati per ognuna di esse. 
+1. Ogni connessione Direct Link richiede un ordine univoco. Se richiedi più connessioni, apri ordini Direct Link separati per ognuna di esse.
 
 2. Gli addebiti per il tuo servizio Direct Link Connect coprono il costo della terminazione del servizio nell'infrastruttura IBM Cloud. 
 
- * I servizi dell'infrastruttura vengono fatturati in anticipo e iniziano con l'accettazione del tuo ordine; tuttavia a causa della natura di IBM Cloud Direct Link, la fatturazione del servizio Direct Link inizia all'avvio di una sessione BGP (Border Gateway Protocol) con IBM Cloud o 30 giorni dopo che la chiave del servizio viene fornita al client.  
+ * I servizi dell'infrastruttura vengono fatturati in anticipo e iniziano con l'accettazione del tuo ordine; tuttavia a causa della natura di IBM Cloud Direct Link, la fatturazione del servizio Direct Link inizia all'avvio di una sessione BGP (Border Gateway Protocol) con IBM Cloud o 30 giorni dopo che la chiave del servizio viene fornita al client. 
 
  * La fatturazione si arresta dopo che:
    * Un cliente richiede che un circuito venga eliminato, **e** 
    * Che il provider Connect o del servizio di rete abbia annullato il provisioning del circuito.
   * Per ulteriori informazioni, consulta la **Section 5 - Charges** in Cloud Services Agreement al seguente link: [ibm.biz/service-agreement](ibm.biz/service-agreement)
-  * In alternativa, la fatturazione può arrestarsi se un cliente riceve una notifica che il proprio servizio Direct Link sarà disattivato e non funzionerà più. 
+  * In alternativa, la fatturazione può arrestarsi se un cliente riceve una notifica che il proprio servizio Direct Link sarà disattivato e non funzionerà più.
 
-3. Ordinando il servizio Direct Link, sarai responsabile di tutte le tariffe associate al raggiungimento del PoP (Point of Presence) dalla tua rete remota e di tutte le connessioni trasversali necessarie nella struttura del PoP per raggiungere il tuo provider di scambio. Tu (o il tuo provider) sarai inoltre responsabile dell'acquisto del circuito virtuale per IBM Cloud. Se il tuo provider richiede che un router o un altro dispositivo sia posizionato fisicamente nel PoP, sarai responsabile anche dei costi associati al posizionamento di tale apparecchiatura. Conferma che il tuo provider di rete o PoP possa raggiungere Direct Link Connect e pagare i costi associati. 
+3. Ordinando il servizio Direct Link, sarai responsabile di tutte le tariffe associate al raggiungimento del PoP (Point of Presence) dalla tua rete remota e di tutte le connessioni trasversali necessarie nella struttura del PoP per raggiungere il tuo provider di scambio. Tu (o il tuo provider) sarai inoltre responsabile dell'acquisto del circuito virtuale per IBM Cloud. Se il tuo provider richiede che un router o un altro dispositivo sia posizionato fisicamente nel PoP, sarai responsabile anche dei costi associati al posizionamento di tale apparecchiatura. Conferma che il tuo provider di rete o PoP possa raggiungere Direct Link Connect e pagare i costi associati.
 
-4. IBM Cloud non posizionerà alcuna apparecchiatura del cliente nei nostri PoP di rete. Dovrai collaborare con il tuo provider per determinare se devi collocare o meno le apparecchiature nella stessa struttura in cui si trova il PoP di IBM Cloud. 
+4. IBM Cloud non posizionerà alcuna apparecchiatura del cliente nei nostri PoP di rete. Dovrai collaborare con il tuo provider per determinare se devi collocare o meno le apparecchiature nella stessa struttura in cui si trova il PoP di IBM Cloud.
 
-5. Il servizio Direct Link Exchange viene fornito in un modo in cui il tuo link e il router IBM Cloud possono essere terminati poiché sono entrambi singoli punti di errore (SPOF). Se desideri ottenere la ridondanza tramite il servizio Direct Link Connect, dovrai terminare i link in due PoP di rete IBM Cloud separati o ordinare due connessioni in un'ubicazione Direct Link Connect con un router secondario. 
+5. Il servizio Direct Link Exchange viene fornito in un modo in cui il tuo link e il router IBM Cloud possono essere terminati poiché sono entrambi singoli punti di errore (SPOF). Se desideri ottenere la ridondanza tramite il servizio Direct Link Connect, dovrai terminare i link in due PoP di rete IBM Cloud separati o ordinare due connessioni in un'ubicazione Direct Link Connect con un router secondario.
 
-6. La rete dei servizi IBM Cloud non sarà accessibile direttamente dalle tue reti remote. Se queste modifiche saranno apportate in futuro, ti verrà inviata una notifica. 
+6. La rete dei servizi IBM Cloud non sarà accessibile direttamente dalle tue reti remote. Se queste modifiche saranno apportate in futuro, ti verrà inviata una notifica.
 
-7. IBM Cloud non consentirà ai clienti il backhaul del traffico dei loro siti remoti tramite il backbone di IBM Cloud. Il prodotto Direct Link Connect è destinato alle tue reti remote in modo che possano comunicare privatamente con l'infrastruttura IBM Cloud. 
+7. IBM Cloud non consentirà ai clienti il backhaul del traffico dei loro siti remoti tramite il backbone di IBM Cloud. Il prodotto Direct Link Connect è destinato alle tue reti remote in modo che possano comunicare privatamente con l'infrastruttura IBM Cloud.
 
-8. Dopo che hai confermato che il tuo circuito ha raggiunto il PoP di Direct Link Connect, dovrai effettuare un ordine con il tuo provider Connect e fornire tutte le informazioni rilevanti al provider e a IBM Cloud. Per i provider Equinix, il tempo di distribuzione tipico può essere di ore. Il tempo di distribuzione tipico per l'offerta IBM Cloud Direct Link Connect richiede 5-10 giorni per il completamento.  
+8. Dopo che hai confermato che il tuo circuito ha raggiunto il PoP di Direct Link Connect, dovrai effettuare un ordine con il tuo provider Connect e fornire tutte le informazioni rilevanti al provider e a IBM Cloud. Per i provider Equinix, il tempo di distribuzione tipico può essere di ore. Il tempo di distribuzione tipico per l'offerta IBM Cloud Direct Link Connect richiede 5-10 giorni per il completamento. 
 
 9. IBM Cloud Direct Link Connect richiede l'utilizzo di un'istanza VRF (Virtual Routing and Forwarding) nel lato della rete di IBM Cloud. Questo consente al cliente di definire i propri indirizzi IP remoti per l'utilizzo nella propria rete remota; tuttavia, devi essere consapevole che se sei in grado di utilizzare la rete 10.x.x.x, non puoi ancora sovrapporre gli host in IBM Cloud né con la rete di servizi IBM Cloud (10.0.0.0/14, 10.198.0.0/15 e 10.200.0.0/14). La transizione del tuo account a una VRF richiede una breve interruzione della rete privata in quanto ciascuna VLAN viene migrata nella nuova configurazione. Il team Network Engineering lavorerà con te per definire una finestra per questa attività.
 
 10. VRF non è compatibile con i servizi IBM Cloud SSL, PPTP e IPSEC VPN.  Un'alternativa è di utilizzare lo stesso Direct Link per la gestione dei tuoi server o di eseguire la tua soluzione VPN (come Vyatta) che può essere configurata con diversi tipi di VPN. Dopo aver eseguito la migrazione a una VRF, la VPN SSL normalmente funziona quando viene effettuata una connessione VPN alla stessa ubicazione DC del calcolo a cui si sta accedendo, ma non concede l'accesso globalmente.
 
-11. IBM Cloud Direct Link Connect richiede BGP per poter implementare le rotte in una rete remota del cliente. Quando il tuo servizio Direct Link è stato distribuito, IBM Cloud annuncerà tutte le sottoreti private assegnate al tuo account. IBM Cloud non implementerà i filtri personalizzati, l'anteposizione del percorso AS e le preferenze di locale personalizzate agli avvisi al peer BGP remoto del cliente. IBM Cloud non implementerà i filtri sugli avvisi ricevuti da IBM Cloud. I clienti dovranno gestire correttamente gli avvisi a/da IBM Cloud dal router edge del cliente. 
+11. IBM Cloud Direct Link Connect richiede BGP per poter implementare le rotte in una rete remota del cliente.Quando il tuo servizio Direct Link è stato distribuito, IBM Cloud annuncerà tutte le sottoreti private assegnate al tuo account.IBM Cloud non implementerà i filtri personalizzati, l'anteposizione del percorso AS e le preferenze di locale personalizzate agli avvisi al peer BGP remoto del cliente.IBM Cloud non implementerà i filtri sugli avvisi ricevuti da IBM Cloud.I clienti dovranno gestire correttamente gli avvisi a/da IBM Cloud dal router edge del cliente.
 
-## Altre domande 
+## Altre domande
 
 * **Riconosci e accetti i prezzi della _TUA UBICAZIONE_ per la connessione IBM Cloud Direct Link?**
 
@@ -58,7 +58,7 @@ Grazie per aver aperto una richiesta per IBM Cloud Direct Link Connect. Per fina
 
 * **Hai bisogno che BGP MultiPath con ECMP sia configurato per l'impostazione di una connessione ridondante a IBM Cloud?**  
 
-    _Se sì, includi l'ID del ticket dell'altra connessione. Numero ticket ____________  (nota che ECMP può essere fornito solo su due sessioni nello stesso XCR IBM Cloud. Se desideri ECMP, sappi che entrambi i Direct Link devono trovarsi sullo stesso router.)_
+    _Se sì, includi l'ID del ticket dell'altra connessione. Numero ticket ____________  (nota che ECMP può essere fornito solo su due sessioni nello stesso XCR IBM Cloud.  Se desideri ECMP, sappi che entrambi i Direct Link devono trovarsi sullo stesso router.)_
 
 * **Hai bisogno dell'accesso all'instradamento globale o locale?**
 
@@ -69,7 +69,7 @@ Grazie per aver aperto una richiesta per IBM Cloud Direct Link Connect. Per fina
     _L'instradamento locale include l'accesso a tutti i data center collegati direttamente al PoP e fornisce traffico in entrata/uscita illimitato. L'instradamento globale espande l'accesso per includere tutti i data center di IBM Cloud globalmente. La larghezza di banda viene misurata quando il servizio può misurare il traffico. Quando la larghezza di banda viene misurata, ti verrà addebitata mensilmente in base al prezzo di mercato, come mostrato nella seguente tabella._
 
 
-### Prezzo dell'instradamento globale 
+### Prezzo dell'instradamento globale
 
 | Instradamento globale in entrata | Instradamento globale in uscita |
 |---|---|

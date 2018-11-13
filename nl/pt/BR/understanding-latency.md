@@ -11,7 +11,7 @@ lastupdated: "2018-05-07"
 
 _Fique híbrido com o IBM Cloud Direct Link: fazendo com que suas cargas de trabalho sejam executadas mais rápido, no mundo inteiro_
 
-O IBM Cloud oferece data centers com recursos do Direct Link ao redor do globo. Portanto, é possível contar com a latência mínima ao usar o Direct Link para criar sua solução de nuvem híbrida vinculando seu IBM Cloud à sua infraestrutura existente.
+O IBM Cloud oferece data centers com recursos do Direct Link ao redor do globo. Portanto, é possível contar com a latência mínima ao usar o Direct Link para criar sua solução de nuvem híbrida vinculando seu IBM Cloud à infraestrutura existente.
 
 Independentemente de você ter uma loja on-line, de executar grandes soluções de dados ou de ter seus funcionários configurados em uma rede com acesso a arquivos ao redor do mundo — você nunca desejará ouvir que o carregamento lento de uma página na web, ou a transferência lenta de dados de um banco de dados, está impedindo que você realize uma venda ou reduzindo a produtividade do funcionário. As lentidões podem ser causadas por latência de rede, que é a medida da rapidez como que os dados viajam entre dois pontos conectados na Internet. Pode-se pensar nisso como a quantidade de tempo que leva para um pacote de dados ir de um lugar para outro.
 

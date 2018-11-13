@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="direct-link" audience="direct-link" href="/docs/infrastructure/direct-link/getting-started.html"}
+{: .toc subcollection="direct-link" audience="direct-link" arm="4032931" arm="4032949" arm="3662735" arm="43662737" href="/docs/infrastructure/direct-link/getting-started.html"}
 Link direto
 
     {: .navgroup id="learn"}
@@ -10,6 +10,7 @@ Link direto
     about.md
     whats-new.md
     alternative-deployments.md
+    vrf-on-ibm-cloud.md
     diversity-models.md
     connect-details.md
     pricing.md
@@ -19,7 +20,7 @@ Link direto
     how-to-order.md
     
       {: .topicgroup}
-      Etapas da visão geral para o pedido
+      Etapas de visão geral para solicitação
          order-cloud-exchange.md
          order-connect.md
          order-nsp.md
@@ -28,11 +29,13 @@ Link direto
     cloud-exchange-connect.md
     subnet-configuration.md
     direct-link-to-cos.md
+    edit-link-speed-connect.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     external-resources.md
     understanding-latency.md
+    vrf-on-ibm-cloud.md
     {: .navgroup-end}
     
     {: .navgroup id="help"}

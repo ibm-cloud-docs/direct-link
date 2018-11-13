@@ -42,11 +42,11 @@ Per scambiare le informazioni della rotta con il tuo ambiente, {{site.data.keywo
 
 3. **ECMP**: per i clienti che scelgono di creare la ridondanza nell'ubicazione supportata, {{site.data.keyword.BluSoftlayer_notm}} supporta l'implementazione di ECMP (equal-cost multipath) per fornire il bilanciamento del carico e la ridondanza tra i due link. Questa configurazione ECMP deve essere richiesta al momento dell'ordine.
 
-## Specifiche per IBM Cloud Direct Link  
+## Specifiche per IBM Cloud Direct Link 
 
-Le specifiche BGP sono le seguenti: 
+Le specifiche BGP sono le seguenti:
 
-Come indicato nella sezione precedente, BGP è obbligatorio per la gestione del tuo instradamento tramite Direct Link. Un account che ordina Direct Link verrà migrato nell'ambiente VRF. 
+Come indicato nella sezione precedente, BGP è obbligatorio per la gestione del tuo instradamento tramite Direct Link. Un account che ordina Direct Link verrà migrato nell'ambiente VRF.
 
 **Avvertimenti per le VLAN e VRF:**
  * Lo spanning della VLAN tra gli account non è consentito nell'ambiente VRF. 
@@ -56,8 +56,8 @@ Come indicato nella sezione precedente, BGP è obbligatorio per la gestione del 
 
 L'ASN di IBM Cloud è **13884**, per i servizi pubblico e privato. 
  * L'ASN predefinito per un cliente quando ordina è **64999**, ma il valore predefinito può essere modificato dalla richiesta del cliente. 
- * Facoltativamente, può essere supportato un ASN privato a 4-byte compreso tra 4201000000 e 4201064511. 
- * Se stai utilizzando Direct Link Connect con un servizio layer-3, come ad esempio IP VPN, IBM Cloud stabilirà BGP con l'ASN del provider Direct Link Connect 
+ * Facoltativamente, può essere supportato un ASN privato a 4-byte compreso tra 4201000000 e 4201064511.
+ * Se stai utilizzando Direct Link Connect con un servizio layer-3, come ad esempio IP VPN, IBM Cloud stabilirà BGP con l'ASN del provider Direct Link Connect
    
 **Limitazioni rigorose sulle assegnazioni IP:**
  * Se utilizzi la rete 10.x.x.x, non puoi ancora creare una sovrapposizione con i tuoi host in IBM Cloud né con la rete dei servizi IBM Cloud, che occupa `10.0.0.0/14`, `10.198.0.0/15` e `10.200.0.0/14`.  
@@ -66,11 +66,11 @@ L'ASN di IBM Cloud è **13884**, per i servizi pubblico e privato.
 
 **Consigli, valori predefiniti e limiti:**
 
- * Il tunneling (ossia, GRE) è supportato e consigliato se la sovrapposizione IP diventa un problema. 
+ * Il tunneling (ossia, GRE) è supportato e consigliato se la sovrapposizione IP diventa un problema.
  * I valori predefiniti del timer BGP sono `Keepalive:30`, `Holdtime:60.`
- * L'autenticazione non è abilitata per impostazione predefinita. 
+ * L'autenticazione non è abilitata per impostazione predefinita.
  * BGP BFD non è abilitato per impostazione predefinita.
- * Il limite massimo di prefisso ricevuto (dal cliente o provider) è 200 per VRF. 
+ * Il limite massimo di prefisso ricevuto (dal cliente o provider) è 200 per VRF.
 
 ## Ridondanza e diversità
 

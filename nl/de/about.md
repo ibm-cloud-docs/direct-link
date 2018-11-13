@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-08-09"
 
 ---
 
@@ -26,7 +26,7 @@ Dieser Abschnitt enthält weitere Details zu den Hauptmerkmalen und Vorteilen de
 
 Mit der Lösung IBM Cloud Direct Link Exchange können Kunden einen Cloud Exchange-Provider nutzen, um Konnektivität zu {{site.data.keyword.BluSoftlayer_notm}}-Standorten bereitzustellen. Dieses Angebot bietet in der Regel Konnektivität zu geringeren Kosten, da die physische Verbindung zwischen {{site.data.keyword.BluSoftlayer_notm}} und dem Cloud-Provider für den Datenaustausch bereits vorhanden ist und von anderen Kunden gemeinsam genutzt wird.
 
-**Gängige Anwendungsfälle:** _Optimal für hybride Workloads, providerübergreifende Workloads, umfangreiche oder häufige Datenübertragungen mit großer ausgehender Bandbreite, private Workloads und die Umgebungsverwaltung. Diese Option wird in der Regel gewählt, wenn der gewünschte Bereitstellungspunkt bereits über den gewünschten IBM Cloud Direct Link Exchange-Provider verfügt._
+**Gängige Anwendungsfälle:** _Optimal für hybride Workloads, providerübergreifende Workloads, umfangreiche oder häufige Datenübertragungen mit großer ausgehender Bandbreite, private Workloads und die Umgebungsverwaltung.  Diese Option wird in der Regel gewählt, wenn der gewünschte Bereitstellungspunkt bereits über den gewünschten IBM Cloud Direct Link Exchange-Provider verfügt._
 
 ![Abbildung 1](/images/Direct-Link-Exchange.png)
 
@@ -44,7 +44,7 @@ Mit der Lösung IBM Cloud Direct Link Exchange können Kunden einen Cloud Exchan
 
  * **Redundanz:** Zur Schaffung von Redundanz für IBM Cloud Direct Link Exchange ist Konnektivität zu mindestens 2 Standorten erforderlich. Alternativ muss ein Standort mit einem verfügbaren sekundären Router für Querverbindungen (XCR) ausgewählt sein, der vom Cloud-Provider für den Datenaustausch genutzt werden kann.
 
- * **Optionen für Local/Global Routing:** Mit der Option 'Local Routing' erhalten Sie Zugriff auf Rechenzentren mit demselben Präfix aus drei Buchstaben wie der PoP-Standort (z. B. DAL, AMS, MEL). Die Option 'Global Routing' ist ein erforderliches Add-on, um Rechenzentren außerhalb dieser Standorte zu erreichen.
+ * **Optionen für Local/Global Routing:** Die Option 'Local Routing' ist die Standardoption für die Routenwahl. Sie bietet Zugriff auf Rechenzentren in demselben Markt mit demselben Präfix aus drei Buchstaben wie der Direct Link-PoP-Standort (zum Beispiel DAL, AMS oder MEL). Die Option 'Global Routing' ist als Add-on erforderlich, um die IBM Cloud-Ressourcen in einem Markt mit anderen IBM Cloud-Ressourcen mit Rechenzentren außerhalb des lokalen Marktes zu verbinden. Sie wird verwendet, um Workloads von IBM Cloud-Ressourcen gemeinsame zu nutzen (zum Beispiel von Dallas und Ashburn oder von Dallas und Frankfurt).
  
 ## Die Lösung IBM Cloud Direct Link Connect
 
@@ -54,7 +54,7 @@ Mit der Lösung IBM Cloud Direct Link Exchange können Kunden einen Cloud Exchan
 
 * **Abschlussort:** {{site.data.keyword.BluSoftlayer_notm}}-Bereitstellungspunkt (PoP).
 
-* **Typische Bereitstellungszeit:** 5 bis 10 Tage, nachdem die Verbindung den Austauschprovider erreicht. Die gesamte Bereitstellungszeit kann je nach Standort und Anforderungen zwischen 30 und 60 Tagen liegen, wenn eine Verbindung bei einem NSP oder einem Netzbetreiber bestellt wird.r carrier.
+* **Typische Bereitstellungszeit:** 5 bis 10 Tage, nachdem die Verbindung den Austauschprovider erreicht. Die gesamte Bereitstellungszeit kann je nach Standort und Anforderungen zwischen 30 und 60 Tagen liegen, wenn eine Verbindung bei einem NSP oder einem Netzbetreiber bestellt wird.
 
 * **Details zu Querverbindungen:** Für die sichere Direct Link Connect-Verbindung werden physische Querverbindungen zwischen {{site.data.keyword.BluSoftlayer_notm}} und dem Connect-Provider verwaltet. Kunden fordern eine "virtuelle Verbindung" vom Cloud Connect-Provider an, die die logische Konnektivität zu {{site.data.keyword.BluSoftlayer_notm}} herstellt, nachdem sie mit dem Cloud Connect-Provider verbunden wurden.
 
@@ -66,7 +66,7 @@ Mit der Lösung IBM Cloud Direct Link Exchange können Kunden einen Cloud Exchan
 
 * **Redundanz:** Zum Bereitstellen der Redundanz für IBM Cloud Direct Link Connect ist Konnektivität zu mindestens 2 Standorten erforderlich. Alternativ kann ein Standort mit einem verfügbaren sekundären Router für Querverbindungen (XCR-Router) ausgewählt werden, der vom IBM Cloud Connect-Provider genutzt werden kann.
 
-* **Optionen für Local/Global Routing:** Mit der Option 'Local Routing' erhalten Sie Zugriff auf Rechenzentren mit demselben Präfix aus drei Buchstaben wie der PoP-Standort (z. B. DAL, AMS, MEL). Die Option 'Global Routing' ist ein erforderliches Add-on, um Rechenzentren außerhalb dieser Standorte zu erreichen.
+* **Optionen für Local/Global Routing:** Die Option 'Local Routing' ist die Standardoption für die Routenwahl. Sie beitet Zugriff auf Rechenzentren in demselben Markt mit demselben Präfix aus drei Buchstaben wie der Direct Link-PoP-Standort (zum Beispiel DAL, AMS oder MEL). Die Option 'Global Routing' ist als Add-on erforderlich, um die IBM Cloud-Ressourcen im Markt mit anderen IBM Cloud-Ressourcen in Rechenzentren außerhalb des lokalen Marktes zu verbinden. Sie wird verwendet, um Workloads von IBM Cloud-Ressourcen gemeinsame zu nutzen (zum Beispiel von Dallas und Ashburn oder von Dallas und Frankfurt).
 
 ## Die Lösung IBM Cloud Direct Link Dedicated
 
@@ -78,19 +78,19 @@ Mit der Lösung IBM Cloud Direct Link Dedicated können Kunden eine dedizierte E
 
  * **Abschlussort:** {{site.data.keyword.BluSoftlayer_notm}}-Bereitstellungspunkt (PoP).
 
- * **Typische Bereitstellungszeit:** 10 bis 15 Werktage, nachdem die neue Verbindung den Bereitstellungspunkt erreicht. Die gesamte Bereitstellungszeit kann je nach Standort und Anforderungen zwischen 30 und 60 Tagen liegen, wenn eine Verbindung bei einem NSP oder einem Netzbetreiber bestellt wird.r carrier.
+ * **Typische Bereitstellungszeit:** 10 bis 15 Werktage, nachdem die neue Verbindung den Bereitstellungspunkt erreicht. Die gesamte Bereitstellungszeit kann je nach Standort und Anforderungen zwischen 30 und 60 Tagen liegen, wenn eine Verbindung bei einem NSP oder einem Netzbetreiber bestellt wird.
 
  * **Details zu Querverbindungen:** {{site.data.keyword.BluSoftlayer_notm}} stellt ein Bevollmächtigungsschreiben (LOA, Letter of Authorization) bereit, mit dem ein Kunde Ethernet-Glasfaserverbindungen (nur Einzelmodus-Glasfaserverbindungen, entweder 1Gig-LX oder 10Gig-LR) bestellen kann, die von einen Kunden oder Provider zu einem {{site.data.keyword.BluSoftlayer_notm}} CFA-Abschlusspunkt verlaufen, der an die Infrastruktur des XCR-Routers angebunden ist. Die Wellenlänge hierbei muss 1310 nm betragen.
 
  * **Optionen für Portgeschwindigkeiten:** Sie können zwischen 1 Gb/s, 2 Gb/s, 5 Gb/s oder 10 Gb/s auswählen.
 
- * **Ungefähre Latenz:** Die Latenz beträgt ungefähr 1,5 ms im Nahbereich (Rechenzentren mit demselben Präfix aus drei Buchstaben wie DAL, AMS, MEL). Unter http://lg.softlayer.com/ finden Sie Latenzmessungen für aktive PoP/PoP-Verbindungen (P2P-Verbindungen).
+ * **Ungefähre Latenz:** Die Latenz beträgt ungefähr 1,5 ms im Nahbereich (Rechenzentren mit demselben Präfix aus drei Buchstaben wie DAL, AMS, MEL).  Unter http://lg.softlayer.com/ finden Sie Latenzmessungen für aktive PoP/PoP-Verbindungen (P2P-Verbindungen).
 
  * **Colocation-Services:** Keine.
 
  * **Redundanz:** Zur Schaffung von Redundanz ist Konnektivität für IBM Cloud Direct Link zu mindestens 2 Standorten erforderlich. Alternativ müssen ein Standort mit einem verfügbaren sekundären Router für Querverbindungen (XCR) sowie eine zweite IBM Cloud Direct Link-Verbindungsanforderung ausgewählt sein.
 
- * **Option für Local/Global Routing:** Mit der Option 'Local Routing_ erhalten Sie Zugriff auf Rechenzentren mit demselben Präfix aus drei Buchstaben wie der Bereitstellungspunkt (z. B. DAL, AMS, MEL). Die Option 'Global Routing' ist ein erforderliches Add-on, um Rechenzentren außerhalb dieser Standorte zu erreichen.
+ * **Optionen für Local/Global Routing:** Die Option 'Local Routing' ist die Standardoption für die Routenwahl. Sie bietet Zugriff auf Rechenzentren in demselben Markt mit demselben Präfix aus drei Buchstaben wie der Direct Link-PoP-Standort (zum Beispiel DAL, AMS oder MEL). Die Option 'Global Routing' ist als Add-on erforderlich, um die IBM Cloud-Ressourcen im Markt mit anderen IBM Cloud-Ressourcen in Rechenzentren außerhalb des lokalen Marktes zu verbinden. Sie wird verwendet, um Workloads von IBM Cloud-Ressourcen gemeinsame zu nutzen (zum Beispiel von Dallas und Ashburn oder von Dallas und Frankfurt).
 
 ## Die Lösung IBM Cloud Direct Link Dedicated Hosting
 
@@ -114,4 +114,4 @@ Die Lösung IBM Cloud Direct Link Dedicated Hosting bietet eine ähnliche Konnek
 
  * **Redundanz:** {{site.data.keyword.BluSoftlayer_notm}} bietet Verbindungen zu zwei Routern für Querverbindungen (XCR) als Teil des Produkts. Zum Einrichten der redundanten Konnektivität müssen die Kunden für jede Direct Link-Verbindung nach Bedarf BGP konfigurieren, um Redundanz bereitzustellen. Als Beispiele können Optionen wie die folgenden angegeben werden: _prefer Lowest MED_, _prefer highest local-preference_ oder _prefer shorter AS paths_.
 
- * **Optionen für Local/Global Routing:** Mit der Option 'Local Routing' erhalten Sie Zugriff auf Rechenzentren mit demselben Präfix aus drei Buchstaben wie der Bereitstellungspunkt (z. B. DAL, AMS, MEL). Die Option 'Global Routing' ist ein erforderliches Add-on, um Rechenzentren außerhalb dieser Standorte zu erreichen.
+ * **Optionen für Local/Global Routing:** Die Option 'Local Routing' ist die Standardoption für die Routenwahl. Sie bietet Zugriff auf Rechenzentren in demselben Markt mit demselben Präfix aus drei Buchstaben wie der Direct Link-PoP-Standort (zum Beispiel DAL, AMS oder MEL). Die Option 'Global Routing' ist als Add-on erforderlich, um die IBM Cloud-Ressourcen im Markt mit anderen IBM Cloud-Ressourcen in Rechenzentren außerhalb des lokalen Marktes zu verbinden. Sie wird verwendet, um Workloads von IBM Cloud-Ressourcen gemeinsame zu nutzen (zum Beispiel von Dallas und Ashburn oder von Dallas und Frankfurt).

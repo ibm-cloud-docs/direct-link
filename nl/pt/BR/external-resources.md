@@ -3,7 +3,7 @@
 copyright:
   years: 2017, 2018
 
-lastupdated: "2018-05-07"
+lastupdated: "2018-08-23"
 
 ---
 
@@ -18,6 +18,8 @@ lastupdated: "2018-05-07"
 # Recursos externos
 
 Esses recursos foram criados pela IBM e alguns de nossos parceiros e clientes.
+
+## Documentos e estudos de caso
 
 * [**White paper de nuvem híbrida**](https://public.dhe.ibm.com/cloud/bluemix/network/direct-link/ibm-hybrid-cloud-whitepaper.pdf)
 
@@ -37,3 +39,17 @@ Esses recursos foram criados pela IBM e alguns de nossos parceiros e clientes.
     Os sistemas de entrega que colocam etapas extras entre as implementações do servidor, a nuvem e os clientes eram muito lentos e indiretos para entregar a baixa latência e o alto rendimento que o IBM Cloud promete aos seus clientes. 
 
     Optar por colocalizar nos locais de hub do Digital Realty no APAC e nos EUA coloca os Data Centers do IBM Cloud ao lado de implementações de data centers de classe mundial do Digital Realty, com a conexão de fibra escura direta entre eles.
+
+## Blogs no IBM Website
+
+* [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/blogs/bluemix/2017/12/megaport-and-ibm-empower-enterprise-cloud/), de Matt Simpson e Jill Tempelmeyer
+
+* [Supporting the next generation cloud applications with IBM Cloud Direct Link](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/), de Gabriel Montanti
+
+* [IBM and Colt: Enabling Enterprise Digital Transformation](https://www.ibm.com/blogs/bluemix/2018/06/ibm-colt-enterprise-digital-transformation/), de Paul Hertzfeldt
+
+* [Digital Realty and IBM Cloud Direct Link: Built for Enterprise Cloud](https://www.ibm.com/blogs/bluemix/2018/07/digital-realty-ibm-cloud-direct-link-expand-network/), de Paul Hertzfeldt
+
+* [PacketFabric and IBM Cloud Enable Secure Enterprise Connections](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/), de Paul Hertzfeldt
+
+* [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/), de Paul Hertzfeldt

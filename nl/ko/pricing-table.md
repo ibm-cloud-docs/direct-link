@@ -1,4 +1,12 @@
+---
 
+copyright:
+  years: 2017, 2018
+lastupdated: "2018-07-06"
+
+---
+
+# 가격 책정 표
 
 |지역 |50mbps |100mbps |200mbps |500mbps |1Gbps |2Gbps |5Gbps | 10Gbps |
 |----|----|----|----|----|----|----|----|----|

@@ -25,7 +25,7 @@ IBM Cloud Direct Link Connect は、設備ベースのネットワークを所�
 * 200 mbps
 * 1 Gbps
 * 2 Gbps
-* 5 Gpbs
+* 5 Gbps
 
 ## 料金
 
