@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-11-19"
 
 ---
 
@@ -89,7 +89,7 @@ Please note that VRF eliminates the "VLAN Spanning" option for your account, inc
 An alternative is to use the IBM Cloud Direct Link offering itself to manage your servers, or to run your own VPN solution (such as a Vyatta) that can be configured with different types of VPN. After migrating to a VRF, SSL VPN typically works when a VPN connection is made to the same data center location in which a compute VM is running, but it does not allow access globally.
 
 ## Using BYOIP and NAT with Direct Link
-IBM Cloud Direct Link does not offer BYOIP on the private network, except in special circumstances covered under the section on [Custom Private Addressing](#custom-private-addressing). Therefore, traffic with a destination IP address that was not assigned by {{site.data.keyword.BluSoftlayer_notm}} will be dropped. However, customers can encapsulate traffic between the remote network and their {{site.data.keyword.BluSoftlayer_notm}} network using GRE, IPSec, or VXLAN.  
+IBM Cloud Direct Link does not offer BYOIP on the private network, except in special circumstances covered under the section on [Custom Private Addressing](#about-custom-private-addressing). Therefore, traffic with a destination IP address that was not assigned by {{site.data.keyword.BluSoftlayer_notm}} will be dropped. However, customers can encapsulate traffic between the remote network and their {{site.data.keyword.BluSoftlayer_notm}} network using GRE, IPSec, or VXLAN.  
 
 Most commonly, the BYOIP environment is implemented within the scope of either a Network Gateway (Vyatta) or a VMWare NSX deployment. This configuration enables customers to use any desirable IP space on the {{site.data.keyword.BluSoftlayer_notm}} side, and to route back across the tunnel to the remote network. Note that this configuration must be managed and supported by the customer, independent of {{site.data.keyword.BluSoftlayer_notm}}. Furthermore, this configuration can break connectivity to the {{site.data.keyword.BluSoftlayer_notm}} services network if the customer assigns a 10.x.x.x block that {{site.data.keyword.BluSoftlayer_notm}} has in use for services. 
 
