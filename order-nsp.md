@@ -57,7 +57,7 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | FRA03 | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
 | FRA04 | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H | 
 | FRA05 | InterXion | FRA05 | Weismüllerstraße 40 |
-| LON01 | Telecity | LD1 | 6/7 Harbour Exchange  E14 9GE |
+| LON01 | Equinix (fTelecity) | LD8 | 6/7 Harbour Exchange  E14 9GE |
 | LON02 | Digital Realty | LHR13 | Fountain Court, Cox Lane |
 | LON03 | Equinix | LD5 | 8 Buckingham Ave |
 | LON04 | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
