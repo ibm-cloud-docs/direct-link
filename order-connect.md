@@ -36,7 +36,7 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | British Telecom |  LON01, FRA01, WDC02, SAO02, HKG01* |
 | CenturyLink | DAL03, SAO02, MIA01 |
 | Chief Telecomm | HKG01* |
-| Colt | AMS02, FRA01, PAR02, TOK01, LON01*, HKG01*, SNG02*, |
+| Colt | AMS02, FRA01, PAR02, TOK01, SNG02, LON01*, HKG01*,  |
 | Console Connect by PCCW | HKG01 |
 | Epsilon | AMS02*, DAL03*, FRA01*, HKG01*, LON01*, SNG02*, WDC02* |
 | IBM BlueFringe | DAL03, WDC02 |
