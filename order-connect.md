@@ -39,7 +39,7 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | Colt | AMS02, FRA01, PAR02, TOK01, LON01*, HKG01*, SNG02*, |
 | Console Connect by PCCW | HKG01 |
 | Epsilon | AMS02*, DAL03*, FRA01*, HKG01*, LON01*, SNG02*, WDC02* |
-| IBM BlueFringe | DAL03, WDC02 |
+| IBM BlueFringe | DAL03, WDC02, CHE01 |
 | Intercloud | FRA03*, AMS02* |
 | Megaport |  MEL02, SYD02, SNG02, AMS02, FRA01, LON03, STO01, DAL03, SJC02, TOR02, WDC02, HKG01* |
 | PacketFabric | DAL04, SJC02, WDC02 |
