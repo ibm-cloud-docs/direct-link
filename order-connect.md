@@ -47,7 +47,7 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | SES Networks | WDC02 |
 | Tata | CHE01 |
 | Telia | STO01, OSL02* |
-| Telstra | MEL02, SNG02, SYD02, NYC01, LON01* |
+| Telstra | MEL02, SYD02 |
 | Verizon | SYD02, TOK01, AMS02, FRA01, DAL03, SJC02, WDC02 |
 | Zayo | DAL03*, WDC02*, MON01* |
 
