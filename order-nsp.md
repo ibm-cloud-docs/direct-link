@@ -83,7 +83,7 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | HOU02* | IBM | HOU02 | 855 Greens Parkway | 
 | LAX01* | Coresite | LA1 | 624 S. Grand Ave. AKA 1 Wilshire Blvd |
 | MEX01 | Alestra | Alestra Queretaro Datacenter | Lateral Carretera Estatal 431,Parque Tecnologico Inovacion Lote 79, El Marqués |
-| MIA01* | Terremark / Verizon | NAP | 50 NE 9th Street |
+| MIA01 | Terremark / Verizon | NAP | 50 NE 9th Street |
 | MON01 | COLO-D | COLO-D1 | 2525 Rue Canadien |
 | MON02 | Cologix | MTL3 | 1155 University Street |
 | NYC01 | Digital Realty | JFK10 | 111 8th Ave |
@@ -91,7 +91,7 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | NYC03* | Equinix | NY5 | 800 Secaucus Rd, Secaucus, NJ |
 | SAO01 | Ascenty | SP1 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
 | SAO02 | Equinix | SP2 | Alameda Araguaia, 3641 - Alphaville, Barueri |
-| SEA02* | The Westin Building | WBX | 2001 6th Avenue |
+| SEA02 | The Westin Building | WBX | 2001 6th Avenue |
 | SJC02 | Equinix | SV1 | 11 Great Oaks Blvd |
 | SJC03 | Digital Realty | SJC31 | 1100 Space Park Drive |
 | SJC04 | Infomart | SJC1 | 2001 Fortune Drive |
