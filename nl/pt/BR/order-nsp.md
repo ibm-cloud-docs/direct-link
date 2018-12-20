@@ -44,16 +44,20 @@ A tabela fornece detalhes sobre os data centers do IBM Cloud nos quais o Direct 
 | SYD01 | Comutador global | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
 | SYD02 | Equinix | SY3 | 47 Bourke Rd |
 | SYD04 | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
-| TOK01 | Equinix | TY2 | Shinagawa-ku |
-| TOK02 | Em Tóquio | CC2 | Koto-ku |
+| TOK01 | Equinix | TY2 |
+| TOK02 | Em Tóquio | CC2 | 
+| TOK03 | Equinix | 
+| TOK04 | SoftBank |
+| TOK05 | NTT |
 | **EMEA** |  |  |
 | AMS02 | Equinix | AM1 / AM2 | Larrderhoogtweg 57 |
 | AMS03 | KPN | Amsterdã 3 | Rondebeltweg 62 |
 | FRA01 | InterXion | FRA01 | Hanauer Landstrasse 302 |
 | FRA02 | Zenium | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
 | FRA03 | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
+| FRA04 | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H | 
 | FRA05 | InterXion | FRA05 | Weismüllerstraße 40 |
-| LON01 | Telecity | LD1 | 6/7 Harbour Exchange E14 9GE |
+| LON01 | Equinix (fTelecity) | LD8 | 6/7 Harbour Exchange E14 9GE |
 | LON02 | Digital Realty | LHR13 | Fountain Court, Cox Lane |
 | LON03 | Equinix | LD5 | 8 Buckingham Ave |
 | LON04 | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
@@ -79,7 +83,7 @@ A tabela fornece detalhes sobre os data centers do IBM Cloud nos quais o Direct 
 | HOU02 * | IBM | HOU02 | 855 Verdes Parkway | 
 | LAX01* | Coresite | LA1 | 624 S. Grand Ave. AKA 1 Wilshire Blvd |
 | MEX01 | Alestra | Datacenter da Alestra Queretaro | Lateral Carretera Estatal 431,Parque Tecnologico Inovacion Lote 79, El Marqués |
-| MIA01 * | TerUNK / Verizon | NAP | 50 NE 9th Street |
+| MIA01 | TerUNK / Verizon | NAP | 50 NE 9th Street |
 | MON01 | COLO-D | COLO-D1 | 2525 Rue Canadien |
 | MON02 | Cologix | MTL3 | 1155 University Street |
 | NYC01 | Digital Realty | JFK10 | 111 8th Ave |
@@ -87,7 +91,7 @@ A tabela fornece detalhes sobre os data centers do IBM Cloud nos quais o Direct 
 | NYC03 * | Equinix | NY5 | 800 Secaucus Rd, Secaucus, NJ |
 | SAO01 | Ascenty | SP1 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
 | SAO02 | Equinix | SP2 | Alameda Araguaia, 3641 - Alphaville, Barueri |
-| SEA02* | The Westin Building | WBX | 6ª Avenida, 2001 |
+| SEA02 | The Westin Building | WBX | 6ª Avenida, 2001 |
 | SJC02 | Equinix | SV1 | 11 Grandes Oaks Blvd |
 | SJC03 | Digital Realty | SJC31 | 1100 Space Park Drive |
 | SJC04 | Infomart | SJC1 | Fortune Drive de 2001 |

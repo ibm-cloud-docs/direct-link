@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-08-20"
+lastupdated: "2018-10-24"
 
 ---
 
@@ -61,17 +61,17 @@ Se seu navegador mostrar essa tabela com velocidades menores que 1 Gbps, selecio
 
 | Região |  1 Gbps | 2 Gbps | 5 Gbps | 10 Gbps |
 |----|----|----|----|----|
-| EUA | U$ 1.199 | U$ 1.999 | U$ 3.750 | U$ 4.999 |
-| Canadá/Amsterdã | U$ 1.235 | U$ 2.059 | U$ 3.863 | $5,149 |
-| Asia | U$ 1.355 | U$ 2.259 | U$ 4.238 | U$ 5.649 |
-| Coreia | U$ 1.319 | U$ 2.199 | U$ 4.125 | $5,499 |
-| Austrália | U$ 1.439 | U$ 2.399 | U$ 4.500| $5,999 |
-| Índia | U$ 1.439 | U$ 2.399 | U$ 4.500| $5,999 |
-| Paris/Frankfurt/Milão | U$ 1.319 | U$ 2.199 | U$ 4.125 | $5,499 |
-| Londres | U$ 1.283 | U$ 2.139 | U$ 4.013 | $5,349 |
-| Noruega | U$ 1.283 | U$ 2.139 | U$ 4.013 | $5,349 |
-| México| U$ 1.283 | U$ 2.139 | U$ 4.013 | $5,349 |
-| Brasil | U$ 1.439 | U$ 2.399 | U$ 4.500| $5,999 |
+| EUA | U$ 1.199 | U$ 1.999 | U$ 3.750 | US$ 4.999 |
+| Canadá/Amsterdã | U$ 1.235 | U$ 2.059 | U$ 3.863 | US$ 5.149 |
+| Asia | U$ 1.355 | U$ 2.259 | U$ 4.238 | US$ 5.649 |
+| Coreia | U$ 1.319 | U$ 2.199 | U$ 4.125 | US$ 5.499 |
+| Austrália | U$ 1.439 | U$ 2.399 | U$ 4.500| US$ 5.999 |
+| Índia | U$ 1.439 | U$ 2.399 | U$ 4.500| US$ 5.999 |
+| Paris/Frankfurt/Milão | U$ 1.319 | U$ 2.199 | U$ 4.125 | US$ 5.499 |
+| Londres | U$ 1.283 | U$ 2.139 | U$ 4.013 | US$ 5.349 |
+| Noruega | U$ 1.283 | U$ 2.139 | U$ 4.013 | US$ 5.349 |
+| México| U$ 1.283 | U$ 2.139 | U$ 4.013 | US$ 5.349 |
+| Brasil | U$ 1.439 | U$ 2.399 | U$ 4.500| US$ 5.999 |
 
 ## Precificação para o IBM Cloud Dedicated Hosting
 
@@ -125,6 +125,6 @@ maior taxa de mercado prevalecendo. Se você selecionar Roteamento Global, não 
 
 |Dados de Mercado 1|Dados de Mercado 2|Dados de Mercado 3|
 |---|---|---|
-|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
+|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li><li>LON</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
 **Tabela 1: Camadas de utilização**<br/>
 As ofertas do Direct Link nos mercados marcados com um asterisco (*) DEVEM solicitar o Global Routing.

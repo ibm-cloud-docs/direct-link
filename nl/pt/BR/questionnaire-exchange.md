@@ -16,7 +16,8 @@ lastupdated: "2018-06-11"
 
 # Questionário do IBM Cloud Direct Link Exchange
 
-Obrigado por abrir uma solicitação para o IBM Cloud Direct Link Exchange.  Para finalizar a sua solicitação, gostaríamos de reunir algumas informações adicionais de você.  É possível falar com um engenheiro a qualquer momento durante o processo de questionário.  Após você ter concluído o questionário, ele será revisado por nossa equipe de Engenharia de design de nuvem e escalado para a Engenharia de rede para implementação.
+Obrigado por abrir uma solicitação para o IBM Cloud Direct Link Exchange.  Para finalizar a sua solicitação, gostaríamos de reunir algumas informações adicionais de você.  É possível falar com um engenheiro a qualquer momento durante o processo de questionário.  Depois de concluir o questionário, ele será revisado por nossa
+equipe de Engenharia de Design de Nuvem e escalado para os Serviços Especiais de Rede para implementação.
 
 ## Você reconhece e concorda com os itens a seguir?
 
@@ -44,7 +45,8 @@ Obrigado por abrir uma solicitação para o IBM Cloud Direct Link Exchange.  Pa
 
 8. Depois de ter confirmado que seu circuito atingiu o PoP do Direct Link Exchange, será necessário fazer um pedido no provedor de troca de nuvem e fornecer todas as informações relevantes para o provedor de troca de nuvem e o IBM Cloud. Para provedores do Equinix, o tempo de implementação típico pode levar horas. O tempo de implementação típico para a oferta do IBM Cloud Direct Link Exchange leva de 5 a 10 dias para ser concluído. 
 
-9. O IBM Cloud Direct Link Exchange requer a utilização de uma instância VRF (Virtual Routing and Forwarding) no lado do IBM Cloud Network.  Isso permite que o cliente defina os próprios endereços IP remotos para uso na rede remota; no entanto, você deve estar ciente de que, se for capaz de utilizar a rede 10.x.x.x, mesmo assim não poderá a sobrepor a seus hosts dentro do IBM Cloud nem à rede de serviços do IBM Cloud (10.0.0.0/14, 10.198.0.0/15 e 10.200.0.0/14). A transição de sua conta para um VRF requererá uma breve indisponibilidade de rede privada conforme cada VLAN for migrada para a nova configuração.  A equipe de Engenharia de rede trabalhará com você para definir uma janela para essa atividade.
+9. O IBM Cloud Direct Link Exchange requer a utilização de uma instância VRF (Virtual Routing and Forwarding) no lado do IBM Cloud Network.   Isso permite que o cliente defina os próprios endereços IP remotos para uso na rede remota; no entanto, você deve estar ciente de que, se for capaz de utilizar a rede 10.x.x.x, mesmo assim não poderá a sobrepor a seus hosts dentro do IBM Cloud nem à rede de serviços do IBM Cloud (10.0.0.0/14, 10.198.0.0/15 e 10.200.0.0/14). A transição de sua conta para um VRF requererá uma breve indisponibilidade de rede privada conforme cada VLAN for migrada para a nova configuração.   A equipe de Serviços Especiais de Rede trabalhará com você para definir um período para essa atividade. A equipe de Serviços Especiais de Rede normalmente está disponível de segunda a sexta-feira, das 8h às 17h CST (horário padrão central dos EUA). Qualquer atividade de ativação fora desse período deverá ser solicitada por meio de chamado e aprovada com antecedência se os engenheiros
+estiverem disponíveis. 
 
 10. O VRF não é compatível com os serviços de SSL, PPTP e IPSEC VPN do IBM Cloud.  Uma alternativa é usar o próprio Direct Link para o gerenciamento de seus servidores ou executar a sua própria solução de VPN (como um Vyatta) que pode ser configurada com tipos diferentes de VPN.  Após migrar para um VRF, a VPN de SSL geralmente funcionará quando uma conexão de VPN for feita com o mesmo local do DC no qual o cálculo está sendo acessado, mas não permitirá acesso globalmente.
 

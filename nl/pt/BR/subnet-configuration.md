@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-11-19"
 
 ---
 
@@ -129,7 +129,7 @@ globalmente.
 
 ## Usando BYOIP e NAT com o Direct Link
 O IBM Cloud Direct Link não oferece BYOIP na rede privada, exceto em circunstâncias especiais abordadas
-na seção em [Endereçamento privado customizado](#custom-private-addressing). Portanto, o
+na seção em [Endereçamento privado customizado](#about-custom-private-addressing). Portanto, o
 tráfego com um endereço IP de destino que não foi designado pelo
 {{site.data.keyword.BluSoftlayer_notm}} será eliminado. No entanto, os clientes podem encapsular o
 tráfego entre a rede remota e sua rede do {{site.data.keyword.BluSoftlayer_notm}} usando GRE,

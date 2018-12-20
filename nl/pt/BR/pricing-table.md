@@ -2,11 +2,13 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-06"
+lastupdated: "2018-11-19"
 
 ---
 
 # Tabela de precificação
+
+A tabela a seguir contém a lista completa de precificação para o IBM Cloud Exchange, Connect e Dedicated
 
 | Região | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps | 2 Gbps | 5 Gbps | 10 Gbps |
 |----|----|----|----|----|----|----|----|----|
