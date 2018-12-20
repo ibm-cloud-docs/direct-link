@@ -3,7 +3,7 @@
 copyright:
   years: 2017, 2018
 
-lastupdated: "2018-08-23"
+lastupdated: "2018-11-02"
 
 ---
 
@@ -39,6 +39,16 @@ Ces ressources sont créées par IBM et certains de nos partenaires et clients
     Des systèmes de distribution qui rajoutaient des étapes supplémentaires entre les déploiements de serveur, le cloud et les clients étaient trop lents et indirects pour fournir les faibles temps d'attente et le débit élevé promis par IBM Cloud à ses clients. 
 
     Choisir la colocalisation avec les emplacements centraux de Digital Realty situés dans la zone APAC et aux Etats-Unis, c'est placer les centres de données IBM Cloud Data juste à côté des déploiements de centre de données de renommée mondiale développés par Digital Realty, en les raccordant au moyen de la fibre optique noire.
+    
+## Annonces à la une
+
+* [InterCloud offre une connectivité dédiée à IBM Cloud](https://info.intercloud.com/intercloud-offers-dedicated-connectivity-to-ibm-cloud)
+
+    Découvrez comment IBM Cloud et InterCloud aide une entreprise ferroviaire nationale, la Société des Chemins de fer Français (SNCF) à migrer des applications métier critiques vers le cloud via une connexion sécurisée dédiée.
+    
+* [IBM Cloud Solves Last Mile Challenges with Satellite](https://www.satellitetoday.com/mobility/2018/10/25/ibm-cloud-solves-last-mile-challenges-with-satellite/), par Adrienne Harebottle
+
+    Apprenez comment la décision de partenariat de SES Network avec IBM Cloud aide les clients à surmonter les principaux défis de connectivité en exploitant la puissance du satellite.
 
 ## Blogues disponibles sur le site Web IBM
 
@@ -53,3 +63,7 @@ Ces ressources sont créées par IBM et certains de nos partenaires et clients
 * [PacketFabric and IBM Cloud Enable Secure Enterprise Connections](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/), par Paul Hertzfeldt
 
 * [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Application](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/), par Paul Hertzfeldt
+
+* [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services](https://www.ibm.com/blogs/bluemix/2018/09/interxion-enterprise-ibm-cloud-services/), par Paul Hertzfeldt
+
+* [Improve Digital Experiences with SES Networks and IBM](https://www.ibm.com/blogs/bluemix/2018/10/improve-digital-experiences-with-ses-networks-and-ibm/), par Paul Hertzfeldt

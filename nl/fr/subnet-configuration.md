@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-11-19"
 
 ---
 
@@ -89,7 +89,7 @@ Notez que VRF élimine l'option "Spanning VLAN" de votre compte, y compris les f
 En guise d'alternative, vous pouvez utiliser l'offre IBM Cloud Direct Link même pour gérer vos serveurs ou pour exécuter votre propre solution VPN (par exemple Vyatta) pouvant être configurée avec différents types de VPN. Après avoir effectué la migration sur VRF, le réseau VPN SSL fonctionne en principe lorsqu'une connexion VPN est réalisée avec le même emplacement de centre de données dans lequel s'exécute une machine virtuelle (VM) de calcul, mais il n'autorise pas l'accès mondial.
 
 ## Utilisation de BYOIP et NAT avec Direct Link
-IBM Cloud Direct Link n'offre pas BYOIP sur le réseau privé, sauf dans certaines circonstances traitées à la section sur l'[adressage privé personnalisé](#custom-private-addressing). Par conséquent, le trafic avec une adresse IP de destination qui n'a pas été affectée par {{site.data.keyword.BluSoftlayer_notm}} ne sera pas traité. Les clients peuvent toutefois encapsuler le trafic entre le réseau distant et leur réseau {{site.data.keyword.BluSoftlayer_notm}} à l'aide de GRE, IPSec ou VXLAN.  
+IBM Cloud Direct Link n'offre pas BYOIP sur le réseau privé, sauf dans certaines circonstances traitées à la section sur l'[adressage privé personnalisé](#about-custom-private-addressing). Par conséquent, le trafic avec une adresse IP de destination qui n'a pas été affectée par {{site.data.keyword.BluSoftlayer_notm}} ne sera pas traité. Les clients peuvent toutefois encapsuler le trafic entre le réseau distant et leur réseau {{site.data.keyword.BluSoftlayer_notm}} à l'aide de GRE, IPSec ou VXLAN.  
 
 En règle générale, l'environnement BYOIP est implémenté dans le cadre d'une passerelle de réseau (Vyatta) ou d'un déploiement VMWare NSX. Cette configuration permet aux clients d'utiliser tout espace IP souhaitable côté {{site.data.keyword.BluSoftlayer_notm}} et d'effectuer un routage inverse via le tunnel vers le réseau distant. Notez que cette configuration doit être gérée et prise en charge par le client, indépendamment de {{site.data.keyword.BluSoftlayer_notm}}. De plus, cette configuration peut interrompre la connectivité au réseau de services {{site.data.keyword.BluSoftlayer_notm}} si le client affecte un bloc 10.x.x.x utilisé par {{site.data.keyword.BluSoftlayer_notm}} pour les services. 
 

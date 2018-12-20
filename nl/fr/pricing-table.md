@@ -2,11 +2,13 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-06"
+lastupdated: "2018-11-19"
 
 ---
 
-# Table des tarifs
+# Tableau de tarification
+
+Le tableau suivant contient la liste complète des tarifications pour IBM Cloud Exchange, Connect et Dedicated
 
 | Région | 50 Mbit/s | 100 Mbit/s | 200 Mbit/s | 500 Mbit/s | 1 Gbit/s | 2 Gbit/s | 5 Gbit/s | 10 Gbit/s |
 |----|----|----|----|----|----|----|----|----|

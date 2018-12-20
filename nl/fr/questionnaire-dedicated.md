@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-06-11"
+lastupdated: "2018-10-15"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2018-06-11"
 
 # Questionnaire concernant IBM Cloud Direct Link Dedicated
 
-Merci d'avoir ouvert une demande pour IBM Cloud Direct Link Dedicated. Afin de pouvoir finaliser votre demande, nous aurions besoin d'informations supplémentaires. Vous pouvez parler avec un ingénieur à tout moment durant le questionnaire. Une fois le questionnaire rempli, il sera examiné par notre équipe d'ingénieurs spécialisés dans la conception de cloud et transmis à l'équipe d'ingénieurs spécialistes des réseaux pour implémentation.
+Merci d'avoir ouvert une demande pour IBM Cloud Direct Link Dedicated. Afin de pouvoir finaliser votre demande, nous aurions besoin d'informations supplémentaires. Vous pouvez parler avec un ingénieur à tout moment durant le questionnaire. Une fois le questionnaire rempli, il sera examiné par notre équipe d'ingénieurs spécialisés dans la conception de cloud et transmis aux spécialistes des réseaux pour implémentation.
 
 ## Reconnaissez-vous et acceptez-vous ce qui suit ?
 
@@ -45,7 +45,7 @@ Merci d'avoir ouvert une demande pour IBM Cloud Direct Link Dedicated. Afin de p
 
 9. Une fois que vous avez vérifié que votre circuit a atteint le point de présence et a été traité par le transporteur, vous devez commander l'interconnexion au routeur XCR IBM Cloud, ce qui prend généralement 2 à 10 jours ouvrables. Cela inclut l'application du correctif sur le port d'arrêt SoftLayer. Une fois l'opération terminée, vous devez fournir à IBM Cloud l'avis d'achèvement de l'interconnexion que vous obtenez auprès du fournisseur de site. L'affectation d'une adresse IP sur l'infrastructure réseau IBM Cloud sera effective dans les trois jours ouvrables une fois une fois l'interconnexion terminée.
 
-10. IBM Cloud Direct Link Dedicated requiert l'utilisation d'une instance VRF (Virtual Routing and Forwarding). Cela permet au client de définir ses propres adresses IP distantes pour les utiliser dans son réseau distant ; cependant, sachez que si vous utilisez le réseau 10.x.x.x, vous ne pouvez toujours pas créer un chevauchement avec vos hôtes dans IBM Cloud ni avec le réseau des services IBM Cloud (10.0.0.0/14, 10.198.0.0/15 et 10.200.0.0/14). La transition de votre compte vers une instance VRF requiert une brève indisponibilité du réseau privé lorsque chaque VLAN est migré dans la nouveau configuration. L'équipe d'ingénieurs spécialistes des réseaux travaillera avec vous afin de définir une fenêtre pour cette activité.
+10. IBM Cloud Direct Link Dedicated requiert l'utilisation d'une instance VRF (Virtual Routing and Forwarding). Cette fonctionnalité permet aux clients de définir leurs propres adresses IP distantes pour les utiliser dans leur réseau distant ; cependant, sachez que si vous utilisez le réseau 10.x.x.x, vous ne pouvez toujours pas créer un chevauchement avec vos hôtes dans IBM Cloud ni avec le réseau des services IBM Cloud (10.0.0.0/14, 10.198.0.0/15 et 10.200.0.0/14). La transition de votre compte vers une instance VRF requiert une brève indisponibilité du réseau privé lorsque chaque VLAN est migré dans la nouveau configuration. L'équipe de spécialistes des réseaux travaillera avec vous afin de définir une fenêtre pour cette activité. L'équipe de spécialistes des réseaux est à votre disposition du lundi au vendredi de 8 h à 17 h (heure d'été du Centre des E-U). Toute activité d'activation en dehors de ce créneau doit faire l'objet d'une demande via un ticket et doit être préalablement approuvée si des ingénieurs sont disponibles.
 
 11. VRF n'est pas compatible avec les services IBM Cloud (ancien nom SoftLayer) SSL, PPTP et IPSEC VPN. En guise d'alternative, vous pouvez utiliser Direct Link à proprement parler pour gérer vos serveurs ou pour exécuter votre propre solution VPN (par exemple Vyatta) pouvant être configurée avec différents types de VPN. Après la migration vers une instance VRF, en principe, le réseau VPN SSL fonctionne lorsqu'une connexion VPN est établie avec le même emplacement de centre de données que celui où réside le centre de calcul qui fait l'objet d'un accès, mais il n'autorise pas l'accès mondial.
 
