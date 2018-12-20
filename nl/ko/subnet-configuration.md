@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-11-19"
 
 ---
 
@@ -49,7 +49,7 @@ BGP 스펙은 다음과 같습니다.
 이전 섹션에 설명된 대로 Direct Link를 통해 라우팅을 관리하려면 BGP가 반드시 필요합니다. Direct Link를 주문하는 계정이 VRF 환경으로 마이그레이션됩니다.
 
 **VLANS 및 VRF에 대한 제한사항:**
- * VRF 환경에서는 계정 간 VLAN 스패닝이 허용되지 않습니다. 
+ * VRF 환경에서는 계정 간 VLAN Spanning이 허용되지 않습니다. 
  * IPSEC VPN 서비스가 제한됩니다. 
  
 **참고:** VRF는 SSL 또는 PPTP VPN 액세스를 방지하지 않지만 해당 동작이 변경됩니다. VRF가 없으면 하나의 VPN 연결로 계정의 모든 서버를 볼 수 있습니다. VRF를 사용하는 경우 해당 VPN과 연관된 마켓의 리소스에만 액세스할 수 있습니다. 따라서 DAL VPN에 연결하는 경우 DAL 서버에만 연결할 수 있습니다.
@@ -84,12 +84,12 @@ IBM Cloud Direct Link 솔루션을 이용하는 모든 계정이 VRF로 마이�
 
 설정 프로세스 중에 VRF로 마이그레이션이 완료되었습니다. 가동 중단 창(다중 VLAN/위치가 있는 대형 계정의 경우 최대 30분)이 필요하며, 그 동안에 백엔드 네트워크 VLAN이 VRF로 이동하면서 상호 연결을 잃게 됩니다. VRF 마이그레이션은 구현 엔지니어와 함께 스케줄링됩니다.
 
-게이트웨이 어플라이언스가 트래픽 관리를 위해 도입되지 않으면 모든 VLAN이 통신할 수 있기 때문에 VRF가 계정 간 VLAN 스패닝 기능을 포함하는 사용자의 계정에 대한 "VLAN Spanning" 옵션을 제거한다는 점을 참고하십시오. 또한, VRF는 {{site.data.keyword.BluSoftlayer_notm}} VPN 서비스가 {{site.data.keyword.BluSoftlayer_notm}} SSL, PPTP 및 IPSec VPN 서비스와 호환 가능하지 않기 때문에 해당 서비스 사용 기능을 제한합니다.   
+게이트웨이 어플라이언스가 트래픽 관리를 위해 도입되지 않으면 모든 VLAN이 통신할 수 있기 때문에 VRF가 계정 간 VLAN Spanning 기능을 포함하는 사용자의 계정에 대한 "VLAN Spanning" 옵션을 제거한다는 점을 참고하십시오. 또한, VRF는 {{site.data.keyword.BluSoftlayer_notm}} VPN 서비스가 {{site.data.keyword.BluSoftlayer_notm}} SSL, PPTP 및 IPSec VPN 서비스와 호환 가능하지 않기 때문에 해당 서비스 사용 기능을 제한합니다.   
 
 대안은 IBM Cloud Direct Link 오퍼링 자체를 사용하여 서버를 관리하거나 여러 유형의 VPN으로 구성할 수 있는 사용자 고유의 VPN 솔루션(예: Vyatta)을 실행하는 것입니다. VRF로 마이그레이션한 후에 SSL VPN은 일반적으로 VPN 연결이 컴퓨팅 VM이 실행 중인 같은 데이터 센터 위치에 작성될 때 작동하지만, 글로벌하게 액세스를 허용하지 않습니다.
 
 ## Direct Link와 함께 BYOIP 및 NAT 사용하기
-IBM Cloud Direct Link는 [사용자 정의 사설 주소 지정](#custom-private-addressing)에 대한 섹션 아래에서 다루는 특수한 상황을 제외하고 사설 네트워크에서 BYOIP를 제공하지 않습니다. 따라서 {{site.data.keyword.BluSoftlayer_notm}}에서 지정되지 않은 대상 IP 주소가 있는 트래픽은 삭제됩니다. 그러나 고객은 원격 네트워크와 GRE, IPSec 또는 VXLAN을 사용하는 자신의 {{site.data.keyword.BluSoftlayer_notm}} 네트워트 사이의 트래픽을 캡슐화할 수 있습니다.  
+IBM Cloud Direct Link는 [사용자 정의 사설 주소 지정](#about-custom-private-addressing)에 대한 섹션 아래에서 다루는 특수한 상황을 제외하고 사설 네트워크에서 BYOIP를 제공하지 않습니다. 따라서 {{site.data.keyword.BluSoftlayer_notm}}에서 지정되지 않은 대상 IP 주소가 있는 트래픽은 삭제됩니다. 그러나 고객은 원격 네트워크와 GRE, IPSec 또는 VXLAN을 사용하는 자신의 {{site.data.keyword.BluSoftlayer_notm}} 네트워트 사이의 트래픽을 캡슐화할 수 있습니다.  
 
 일반적으로 BYOIP 환경은 네트워크 게이트웨이(Vyatta) 또는 VMWare NSX 배치의 범위 내에서 구현됩니다. 이 구성은 고객이 {{site.data.keyword.BluSoftlayer_notm}} 측에서 원하는 IP 공간을 사용하고, 터널에서 원격 네트워크로 다시 라우팅할 수 있게 합니다. 이 구성은 {{site.data.keyword.BluSoftlayer_notm}}와 별개로 고객이 관리하고 지원해야 합니다. 또한, 고객이 {{site.data.keyword.BluSoftlayer_notm}}가 서비스에 사용하고 있는 10.x.x.x 블록을 지정하는 경우,이 구성은 {{site.data.keyword.BluSoftlayer_notm}} 서비스 네트워크에 대한 연결을 중단할 수 있습니다. 
 

@@ -94,7 +94,7 @@ IBM Cloud Direct Link Dedicated 솔루션을 사용하면 고객이 자신의 {{
 
 ## IBM Cloud Direct Link Dedicated Hosting 솔루션
 
-IBM Cloud Direct Link Dedicated Hosting 솔루션은 IBM Cloud Direct Link Dedicated와 유사한 연결을 제공하지만, 연결 위치가 {{site.data.keyword.BluSoftlayer_notm}} 데이터 센터에 인접해 있어 고성능의 유스 케이스에 대한 대기 시간을 개선합니다. IBM Cloud는 단순 가격 책정으로 이 솔루션을 통해 사용자 정의할 수 있는 다양한 코로케이션 서비스를 제공합니다.
+IBM Cloud Direct Link Dedicated Hosting 솔루션은 IBM Cloud Direct Link Dedicated와 유사한 연결을 제공하지만, 연결 위치가 {{site.data.keyword.BluSoftlayer_notm}} 데이터 센터에 인접해 있어 고성능의 유스 케이스에 대한 대기 시간을 개선합니다. IBM Cloud는 단순 가격으로 이 솔루션을 통해 사용자 정의할 수 있는 다양한 코로케이션 서비스를 제공합니다.
 
 **공통 유스 케이스:** _비표준 컴퓨팅 기술에 대한 작업, 전용 스토리지 요구사항 또는 기존 IT 투자 활용에 가장 적합합니다._
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-10-30"
 
 ---
 
@@ -28,7 +28,7 @@ IBM Cloud Object Storage 내에 저장된 정보는 암호화되어 여러 지�
 
 IBM COS는 **교차 지역**, **지역별** 및 **단일 사이트**의 세 가지 구성으로 사용할 수 있습니다.
 
- * 교차 지역 서비스는 단일 지역을 사용하는 것보다 더 높은 내구성과 가용성을 제공하지만 대기 시간이 다소 높습니다. 이 서비스는 현재 미국 및 유럽에서 사용 가능합니다.
+ * 교차 지역 서비스는 단일 지역을 사용하는 것보다 더 높은 내구성과 가용성을 제공하지만 대기 시간이 다소 높습니다. 이 서비스는 현재 미국 및 유럽에서 사용 가능합니다. (가상 라우터 어플라이언스(VRA)를 사용하는 경우 Direct Link를 사용하여 아시아 태평양 지역의 COS에 연결할 수도 있습니다.)
  
  * 지역별 서비스는 그 반대를 제공합니다. 이 서비스는 단일 지역 내의 여러 가용성 구역에 오브젝트를 분산시킵니다. 지정된 지역 또는 가용성 구역에 액세스할 수 없는 경우 오브젝트 저장소가 계속 원활하게 작동합니다. 액세스 불가능한 데이터 센터가 다시 온라인 상태가 되면 누락된 모든 변경사항이 적용됩니다.
   
@@ -68,7 +68,7 @@ COS에 대해 작업하는 모든 샘플 클라이언트 코드는 _역방향 �
 
 다음에 나오는 NginX 역방향 프록시 서버 설정에 대한 지시사항 및 구성 정보를 사용자 맞게 조정한 후 작업할 수 있습니다. 중단되거나 추가 정보가 필요한 경우 [Nginx 문서](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)의 역방향 프록시 부분을 참조하거나 [stackoverflow](http://stackoverflow.com)에서 예제를 검색하십시오.
 
-1. 최소 **RHEL** 또는 **CentOS** Linux 빌드로 VSI 또는 베어메탈 서버를 프로비저닝하십시오(권장).
+1. 최소 **RHEL** 또는 **CentOS** Linux 빌드로 VSI 또는 Bare Metal Server를 프로비저닝하십시오(권장).
 2. 각 VSI에 대해 공용 인터페이스에서 `allow_http`, `allow_https`, `allow_outbound` 및 `allow_ssh` 보안 그룹 규칙을 사용으로 설정하십시오.
 3. 각 VSI에 대해 개인용 인터페이스에 대한 `allow_all` 및 `allow_outbound` 규칙을 사용으로 설정하고 **저장**을 선택하십시오.
 4. Windows의 **PuTTY** 또는 데스크탑의 터미널 프로그램을 사용하여 루트로 새 서버에 `ssh`하십시오.
@@ -168,9 +168,9 @@ http {
 
 이 섹션에서는 IBM Cloud Direct Link를 사용하여 연결할 수 있는 일부 IBM Cloud PaaS 및 SaaS 오퍼링에 대한 문서에 대한 빠른 링크를 제공합니다.
 
-### 베어메탈 서버를 프로비저닝하는 방법
+### Bare Metal Server를 프로비저닝하는 방법
 
-베어메탈 서버를 프로비저닝하는 방법에 대한 자세한 지시사항은 [Bare Metal Servers 안내서](https://console.bluemix.net/docs/bare-metal/about.html#getting-started-with-bare-metal-servers)를 참조하십시오.
+Bare Metal Server를 프로비저닝하는 방법에 대한 자세한 지시사항은 [Bare Metal Servers 안내서](https://console.bluemix.net/docs/bare-metal/about.html#getting-started-with-bare-metal-servers)를 참조하십시오.
 
 ### 가상 라우터 어플라이언스(VRA)를 프로비저닝하는 방법
 

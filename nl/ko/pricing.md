@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-08-20"
+lastupdated: "2018-10-24"
 
 ---
 
@@ -15,17 +15,17 @@ lastupdated: "2018-08-20"
 {:download: .download}
 
 
-# IBM Cloud Direct Link에 대한 가격 책정 
+# IBM Cloud Direct Link의 가격 
 
-IBM Cloud Direct Link Exchange, Connect 및 Dedicated 오퍼링에 대한 가격 책정은 다음 표에 표시된 대로 동등한 지역 및 대역폭에 대해 일관적입니다.
+IBM Cloud Direct Link Exchange, Connect 및 Dedicated 오퍼링의 가격은 다음 표에 표시된 대로 동등한 지역 및 대역폭에 대해 일관적입니다.
 
-## IBM Cloud Exchange, Connect 및 Dedicated에 대한 가격 책정
+## IBM Cloud Exchange, Connect 및 Dedicated의 가격
 
 브라우저에서 1Gbps 미만의 속도가 포함된 표를 표시하는 경우 다음 링크를 선택하여 전체 표를 표시하고 마우스 또는 트랙패드를 사용하여 이 페이지를 가로로 스크롤하거나 이 페이지의 맨 위에 있는 "GitHub에서 편집"을 클릭하여 원시 파일을 확인하십시오.
 
 [전체 표](pricing-table.html)
 
-## Direct Link Exchange에 대한 가격 책정
+## Direct Link Exchange의 가격
 
 |지역 |50mbps |100mbps |200mbps |500mbps |1Gbps |
 |----|----|----|----|----|----|
@@ -41,7 +41,7 @@ IBM Cloud Direct Link Exchange, Connect 및 Dedicated 오퍼링에 대한 가격
 |멕시코|$107 |$161 |$321 |$696 |$1,283 | 
 |브라질 |$120 |$180 |$360 |$780 |$1,439 |
 
-## Direct Link Connect에 대한 가격 책정
+## Direct Link Connect의 가격
 
 |지역 |50mbps |100mbps |200mbps |500mbps |1Gbps |2Gbps |5Gbps |
 |----|----|----|----|----|----|----|----|
@@ -57,7 +57,7 @@ IBM Cloud Direct Link Exchange, Connect 및 Dedicated 오퍼링에 대한 가격
 |멕시코|$107 |$161 |$321 |$696 |$1,283 |$2,139 |$4,013 | 
 |브라질 |$120 |$180 |$360 |$780 |$1,439 |$2,399 |$4,500|
 
-## Direct Link Dedicated에 대한 가격 책정
+## Direct Link Dedicated의 가격
 
 |지역 |1Gbps |2Gbps |5Gbps | 10Gbps |
 |----|----|----|----|----|
@@ -73,17 +73,17 @@ IBM Cloud Direct Link Exchange, Connect 및 Dedicated 오퍼링에 대한 가격
 |멕시코|$1,283 |$2,139 |$4,013 | $5,349 |
 |브라질 |$1,439 |$2,399 |$4,500| $5,999 |
 
-## IBM Cloud Dedicated Hosting에 대한 가격 책정
+## IBM Cloud Dedicated Hosting의 가격
 
-IBM Cloud Direct Link Dedicated Hosting 요청 및 가격 책정은 공급업체 가용성 및 가격 책정의 지역 차이를 고려하여 트랜잭션을 기준으로 처리됩니다.
+IBM Cloud Direct Link Dedicated Hosting 요청 및 가격은 공급업체 가용성 및 가격의 지역 차이를 고려하여 트랜잭션을 기준으로 처리됩니다.
 
 IBM Cloud Dedicated Hosting의 최소 구성에는 5Kw 전원을 사용하는 랙 1개와 선택한 속도의 포트 2개가 포함됩니다. 추가로 코로케이션 추가 기능이 사용 가능합니다.
 
 ## 로컬 라우팅
 
-로컬 라우팅은 모든 IBM Cloud Direct Link 오퍼링의 기본 부분으로 포함됩니다. 로컬 라우팅은 PoP 위치에 직접 연결된 모든 데이터 센터에 대한 액세스를 포함하며 무제한 수신 및 발신 트래픽을 제공합니다. Direct Link를 주문 중인 영역의 PoP 위치 외부로 트래픽을 라우트해야 하는 경우 글로벌 라우팅 옵션을 추가해야 합니다. 그렇지 않으면 트래픽이 로컬 PoP에서 제공하는 서비스로 제한됩니다. 로컬 라우팅에는 초과 요금이 발생하지 않습니다. 
+로컬 라우팅은 모든 IBM Cloud Direct Link 오퍼링의 기본 부분으로 포함됩니다. 로컬 라우팅은 PoP 위치에 직접 연결된 모든 데이터 센터에 대한 액세스를 포함하며 무제한 수신 및 발신 트래픽을 제공합니다. Direct Link를 주문 중인 영역의 PoP 위치 외부로 트래픽을 라우트해야 하는 경우 글로벌 라우팅 옵션을 추가해야 합니다. 그렇지 않으면 트래픽이 로컬 PoP에서 제공하는 서비스로 제한됩니다. 로컬 라우팅에는 초과 요금이 발생하지 않습니다.
 
-## 글로벌 라우팅 추가 기능에 대한 가격 책정
+## 글로벌 라우팅 추가 기능의 가격
 
 글로벌 라우팅은 전세계 모든 IBM Cloud 데이터 센터를 포함하도록 액세스를 확장합니다. 대역폭은 마켓 기반으로 월별로 측정되어 비용이 청구됩니다. 마켓에 대한 세부사항과 기타 고려사항은 [FAQ 파일](faqs.html#what-are-the-local-routing-and-global-routing-options)에서 찾을 수 있습니다.
 
@@ -114,13 +114,13 @@ IBM Cloud Dedicated Hosting의 최소 구성에는 5Kw 전원을 사용하는 �
 | 마켓 3: | GB당 $0.15 |
 
 
-## 로컬 라우팅 및 글로벌 라우팅 시장
-모든 고객이 Direct Link 서비스를 주문할 때 로컬 라우팅 및 글로벌 라우팅 옵션이 선택됩니다. 고객이 그 안에서 Direct Link를 주문하는 영역에서 POP 외부로 자신의 트래픽을 라우트해야 하는 경우, 글로벌 라우팅 옵션을 추가해야 합니다. 그렇지 않으면 해당 트래픽이 로컬 POP에서 제공되는 서비스로 제한됩니다. 로컬 라우팅에는 초과 요금이 발생하지 않습니다. 
+## 로컬 라우팅 및 글로벌 라우팅 마켓
+모든 고객이 Direct Link 서비스를 주문할 때 로컬 라우팅 및 글로벌 라우팅 옵션이 선택됩니다. 고객이 그 안에서 Direct Link를 주문하는 영역에서 POP 외부로 자신의 트래픽을 라우트해야 하는 경우, 글로벌 라우팅 옵션을 추가해야 합니다. 그렇지 않으면 해당 트래픽이 로컬 POP에서 제공되는 서비스로 제한됩니다. 로컬 라우팅에는 초과 요금이 발생하지 않습니다.
 
-매월 1G 회선을 사용하는 모든 글로벌 라우팅 고객은 10TB의 무료 발신(egress) 트래픽이 할당되며, 10G 회선을 사용하는 고객은 50TB가 할당됩니다. 공급 과잉은 더 높은 마켓 비율이 지배적인 다음 표를 기반으로 합니다. 글로벌 라우팅을 선택하면 로컬 발신 트래픽에 대해서는 비용이 청구되지 않고 로컬 PoP의 외부에서 시작되거나 종료되는 트래픽에 대해서만 청구됩니다.
+매월 1G 회선을 사용하는 모든 글로벌 라우팅 고객은 10TB의 무료 발신(egress) 트래픽이 할당되며, 10G 회선을 사용하는 고객은 50TB가 할당됩니다. 초과분은 다음 표를 기반으로 하며 더 높은 마켓 비율이 우세합니다. 글로벌 라우팅을 선택하면 로컬 발신 트래픽에 대해서는 비용이 청구되지 않고 로컬 PoP의 외부에서 시작되거나 종료되는 트래픽에 대해서만 청구됩니다.
 
 |데이터 마켓 1|데이터 마켓 2|데이터 마켓 3|
 |---|---|---|
-|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
+|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li><li>LON</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
 **표 1: 활용 계층**<br/>
 별표(*)와 함께 표시된 마켓의 Direct Link 오퍼링은 글로벌 라우팅을 주문해야 합니다.

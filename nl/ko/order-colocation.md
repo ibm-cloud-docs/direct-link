@@ -35,7 +35,7 @@ lastupdated: "2018-07-23"
 | 미국 | MON01 | 드러먼드  | DC | Colo-D  | 2525 Rue Canadien |
 | 미국 | SAO01 | 상파울루 | DC | Ascenty | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II, Jundial|
 | 미국 | SAO02 | 상파울루 | PoP | Equinix | Alameda Araguaia |
-| 미국 | SJC02 | 산호세   |	PoP |	 Equinix |	11 Great Oaks Way |
+| 미국 | SJC02 | 산호세 |	PoP |	 Equinix |	11 Great Oaks Way |
 | 미국 | SJC03 | 산타클라라 |  DC | DLR | 1100 Space Park Drive |
 | 미국 | TOR01 | 마컴 | DC | DLR | 371 Gough Rd. |
 | 미국 | WDC02 | 애슈번 | PoP | Equinix | 21715 Filigree Ct |
@@ -49,7 +49,7 @@ lastupdated: "2018-07-23"
 | APAC | TOK01 |	시나가와구 | PoP | Equinix |	시나가와구 |
 | APAC | TOK02  |  고토 구 | DC(AZ1) | AT Tokyo  |  고토 구 |
 |  |  |  |  |  |  |
-| EMEA | AMS02 |	암스테르담    |	PoP |	 Equinix |	Larrderhoogtweg 57 |
+| EMEA | AMS02 |	암스테르담 |	PoP |	 Equinix |	Larrderhoogtweg 57 |
 | EMEA | FRA02  | 프랑크푸르트 |  DC(AZ1) | Zenium   | Leonhard - Heisswolf Str. 4 |
 | EMEA | FRA03 |	 프랑크푸르트 |	PoP |	 Equinix |	Larchenstrasse 110 |
 | EMEA | LON02  | 체싱턴 | DC  | DLR  |  Fountain Court |

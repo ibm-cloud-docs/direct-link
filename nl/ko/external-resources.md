@@ -3,7 +3,7 @@
 copyright:
   years: 2017, 2018
 
-lastupdated: "2018-08-23"
+lastupdated: "2018-11-02"
 
 ---
 
@@ -39,6 +39,16 @@ lastupdated: "2018-08-23"
     서버 배치, 클라우드 및 고객 사이에 추가 단계를 배치하는 전달 시스템은 너무 느리고 간접적이어서 IBM Cloud에서 고객에게 약속한 낮은 대기 시간과 높은 처리량을 제공하지 못했습니다. 
 
     APAC 및 미국의 Digital Realty 허브 위치에 공동으로 배치하도록 선택하면 IBM Cloud 데이터 센터가 Digital Realty의 세계적인 데이터 센터 배치 바로 옆에 배치되며 둘 사이에 직접 다크 파이버 연결이 설정됩니다.
+    
+## 주요 공지사항
+
+* [InterCloud Offers Dedicated Connectivity to IBM Cloud](https://info.intercloud.com/intercloud-offers-dedicated-connectivity-to-ibm-cloud)
+
+    IBM Cloud 및 InterCloud가 국영 철도 회사인 SNCF(Société des Chemins de fer Français)에서 비즈니스에 중요한 애플리케이션을 안전한 전용 연결을 통해 클라우드에 마이그레이션할 수 있도록 지원하는 방법에 대해 알아봅니다.
+    
+* [IBM Cloud Solves Last Mile Challenges with Satellite](https://www.satellitetoday.com/mobility/2018/10/25/ibm-cloud-solves-last-mile-challenges-with-satellite/)(Adrienne Harebottle 작성)
+
+    IBM Cloud와의 파트너십을 통해 고객이 위성의 기능을 이용하여 주요 연결 문제를 해결할 수 있도록 지원하기 위한 SES Network의 결정에 대해 알아봅니다.
 
 ## IBM 웹 사이트의 블로그
 
@@ -53,3 +63,7 @@ lastupdated: "2018-08-23"
 * [PacketFabric and IBM Cloud Enable Secure Enterprise Connections](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/)(Paul Hertzfeldt 작성)
 
 * [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/)(Paul Hertzfeldt 작성)
+
+* [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services](https://www.ibm.com/blogs/bluemix/2018/09/interxion-enterprise-ibm-cloud-services/)(Paul Hertzfeldt 작성)
+
+* [Improve Digital Experiences with SES Networks and IBM](https://www.ibm.com/blogs/bluemix/2018/10/improve-digital-experiences-with-ses-networks-and-ibm/)(Paul Hertzfeldt 작성)

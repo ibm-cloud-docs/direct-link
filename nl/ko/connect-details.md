@@ -27,7 +27,7 @@ IBM Cloud Direct Link Connect는 설비 기반 네트워크를 소유하고 작�
 * 2Gbps
 * 5Gbps
 
-## 가격 책정
+## 가격
 
-IBM Cloud Direct Link Connect에 대한 가격 책정은 [가격 책정 문서](pricing.html)에 표시되어 있습니다.
+IBM Cloud Direct Link Connect의 가격은 [가격 문서](pricing.html)에 표시되어 있습니다.
 
