@@ -3,7 +3,7 @@
 copyright:
   years: 2017, 2018
 
-lastupdated: "2018-08-23"
+lastupdated: "2018-11-02"
 
 ---
 
@@ -39,6 +39,16 @@ lastupdated: "2018-08-23"
     在伺服器部署、雲端和客戶之間設置額外步驟的遞送系統太慢而且間接，無法提供 IBM Cloud 承諾其客戶的低延遲和高傳輸量。 
 
     選擇主機託管於 APAC 和美國的 Digital Realty 中心位置，等於將「IBM Cloud 資料中心」設置在 Digital Realty 世界級資料中心部署的隔壁，它們之間具有直接光纖連線。
+    
+## 特色公告
+
+* [InterCloud Offers Dedicated Connectivity to IBM Cloud](https://info.intercloud.com/intercloud-offers-dedicated-connectivity-to-ibm-cloud)
+
+    探索 IBM Cloud 與 InterCloud 如何協助讓國營鐵路公司 Société des Chemins de fer Français (SNCF) 透過安全的專用連線，將重要商業應用程式移轉到雲端。
+    
+* [IBM Cloud Solves Last Mile Challenges with Satellite](https://www.satellitetoday.com/mobility/2018/10/25/ibm-cloud-solves-last-mile-challenges-with-satellite/)，作者 Adrienne Harebottle
+
+    了解 SES Network 與 IBM Cloud 合作協助客戶的決定，如何因為強化衛星功能而克服重要的連線挑戰。
 
 ## IBM 網站上的部落格
 
@@ -53,3 +63,7 @@ lastupdated: "2018-08-23"
 * [PacketFabric and IBM Cloud Enable Secure Enterprise Connections](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/)，作者 Paul Hertzfeldt
 
 * [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/)，作者 Paul Hertzfeldt
+
+* [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services](https://www.ibm.com/blogs/bluemix/2018/09/interxion-enterprise-ibm-cloud-services/)，作者 Paul Hertzfeldt
+
+* [Improve Digital Experiences with SES Networks and IBM](https://www.ibm.com/blogs/bluemix/2018/10/improve-digital-experiences-with-ses-networks-and-ibm/)，作者 Paul Hertzfeldt

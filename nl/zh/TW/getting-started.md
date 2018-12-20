@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-13"
+lastupdated: "2018-11-19"
 
 ---
 
@@ -23,7 +23,7 @@ IBM Cloud Direct Link 是來自 IBM Cloud 網路的一套四個的供應項目�
  * [IBM Cloud Direct Link Exchange](about.html#the-ibm-cloud-direct-link-exchange-solution)
  * [IBM Cloud Direct Link Connect](about.html#the-ibm-cloud-direct-link-connect-solution)
  * [IBM Cloud Direct Link Dedicated](about.html#the-ibm-cloud-direct-link-dedicated-solution)
- * [IBM Cloud Direct Link Dedicated Hosting](about.html#the-ibm-cloud-dedicated-hosting-solution)
+ * [IBM Cloud Direct Link Dedicated Hosting](about.html#the-ibm-cloud-direct-link-dedicated-hosting-solution)
 
 若要開始使用 IBM Cloud Direct Link，請瀏覽本文件然後找出最適合您的解決方案。如果您想要更多關於開始使用的協助，可以透過[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/) 開立問題單，或與您的 IBM Cloud 業務代表聯絡。
 
