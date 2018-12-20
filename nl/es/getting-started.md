@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-13"
+lastupdated: "2018-11-19"
 
 ---
 
@@ -23,7 +23,7 @@ IBM Cloud Direct Link es una suite de cuatro ofertas de IBM Cloud Network, con d
  * [IBM Cloud Direct Link Exchange](about.html#the-ibm-cloud-direct-link-exchange-solution)
  * [IBM Cloud Direct Link Connect](about.html#the-ibm-cloud-direct-link-connect-solution)
  * [IBM Cloud Direct Link Dedicated](about.html#the-ibm-cloud-direct-link-dedicated-solution)
- * [IBM Cloud Direct Link Dedicated Hosting](about.html#the-ibm-cloud-dedicated-hosting-solution)
+ * [IBM Cloud Direct Link Dedicated Hosting](about.html#the-ibm-cloud-direct-link-dedicated-hosting-solution)
 
 Para empezar a utilizar IBM Cloud Direct Link, navegue a través de esta documentación y decida qué solución funcionará mejor para usted. Si desea más ayuda para empezar, puede abrir una incidencia mediante el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/), o puede ponerse en contacto con su representante de ventas de IBM Cloud.
 

@@ -80,7 +80,7 @@ El proceso de conversión implica una interrupción de la red, mientras que las 
 
 ![El proceso de conversión](/images/vrf-on-ibm-cloud.png)
 
-Durante la migración, las VLAN de cliente se desconectan de la red troncal y se reconecta a VRF del cliente. La duración de la interrupción varía en función de la cantidad de LAN, POD y centros de datos implicados. El tráfico entre las VLAN se ha interrumpido, pero los servidores se mantienen conectados a la red. La aplicación puede o no verse afectada, dependiendo de su sensibilidad a la pérdida de paquetes.
+Durante la migración, las VLAN de cliente se desconectan de la red troncal y se reconecta a VRF del cliente.  La duración de la interrupción varía en función de la cantidad de LAN, POD y centros de datos implicados. El tráfico entre las VLAN se ha interrumpido, pero los servidores se mantienen conectados a la red. La aplicación puede o no verse afectada, dependiendo de su sensibilidad a la pérdida de paquetes.
 
 ## Cómo puede iniciar la conversión
 
