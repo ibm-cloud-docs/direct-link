@@ -26,7 +26,7 @@ lastupdated: "2018-08-30"
 
 ## Ubicazioni
 
-I nostri provider di IBM Cloud Direct Link Connect includono queste ubicazioni: 
+I nostri provider di IBM Cloud Direct Link Connect includono queste ubicazioni:
 
 | Partner | Mercati disponibili |
 |--------------|--------------|
@@ -36,10 +36,10 @@ I nostri provider di IBM Cloud Direct Link Connect includono queste ubicazioni:
 | British Telecom |  LON01, FRA01, WDC02, SAO02, HKG01* |
 | CenturyLink | DAL03, SAO02, MIA01 |
 | Chief Telecomm | HKG01* |
-| Colt | AMS02, FRA01, PAR02, TOK01, LON01*, HKG01*, SNG02*, |
+| Colt | AMS02, FRA01, PAR02, TOK01, SNG02, LON01*, HKG01*,  |
 | Console Connect by PCCW | HKG01 |
 | Epsilon | AMS02*, DAL03*, FRA01*, HKG01*, LON01*, SNG02*, WDC02* |
-| IBM BlueFringe | DAL03, WDC02 |
+| IBM BlueFringe | DAL03, WDC02, CHE01 |
 | Intercloud | FRA03*, AMS02* |
 | Megaport |  MEL02, SYD02, SNG02, AMS02, FRA01, LON03, STO01, DAL03, SJC02, TOR02, WDC02, HKG01* |
 | PacketFabric | DAL04, SJC02, WDC02 |
@@ -47,7 +47,7 @@ I nostri provider di IBM Cloud Direct Link Connect includono queste ubicazioni:
 | SES Networks | WDC02 |
 | Tata | CHE01 |
 | Telia | STO01, OSL02* |
-| Telstra | MEL02, SNG02, SYD02, NYC01, LON01* |
+| Telstra | MEL02, SYD02 |
 | Verizon | SYD02, TOK01, AMS02, FRA01, DAL03, SJC02, WDC02 |
 | Zayo | DAL03*, WDC02*, MON01* |
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-08-20"
+lastupdated: "2018-10-24"
 
 ---
 
@@ -29,49 +29,49 @@ Se il tuo browser mostra questa tabella con velocità inferiori a 1Gbps, selezio
 
 | Regione | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps |
 |----|----|----|----|----|----|
-| USA |  $100 | $150 | $300 | $650 | $1,199 | 
-| Canada/Amsterdam |  $103 | $155 | $309 | $670 | $1,235 |
-| Asia | $113 | $170 | $339 | $735 | $1,355 |
-| Corea | $110 | $165 | $330 | $715 | $1,319 |
-| Australia | $120 | $180 | $360 | $780 | $1,439 |
-| India | $120 | $180 | $360 | $780 | $1,439 |
-| Parigi/Francoforte/Milano |  $110 | $165 | $330 | $715 | $1,319 |
-| Londra |  $107 | $161 | $321 | $696 | $1,283 | 
-| Norvegia | $107 | $161 | $321 | $696 | $1,283 | 
-| Messico| $107 | $161 | $321 | $696 | $1,283 | 
-| Brasile | $120 | $180 | $360 | $780 | $1,439 |
+| USA |  $100 | $150 | $300 | $650 | $1.199 | 
+| Canada/Amsterdam |  $103 | $155 | $309 | $670 | $1.235 |
+| Asia | $113 | $170 | $339 | $735 | $1.355 |
+| Corea | $110 | $165 | $330 | $715 | $1.319 |
+| Australia | $120 | $180 | $360 | $780 | $1.439 |
+| India | $120 | $180 | $360 | $780 | $1.439 |
+| Parigi/Francoforte/Milano |  $110 | $165 | $330 | $715 | $1.319 |
+| Londra |  $107 | $161 | $321 | $696 | $1.283 | 
+| Norvegia | $107 | $161 | $321 | $696 | $1.283 | 
+| Messico| $107 | $161 | $321 | $696 | $1.283 | 
+| Brasile | $120 | $180 | $360 | $780 | $1.439 |
 
 ## Prezzi per Direct Link Connect
 
 | Regione | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps | 2 Gbps | 5 Gbps |
 |----|----|----|----|----|----|----|----|
-| USA |  $100 | $150 | $300 | $650 | $1,199 | $1,999 | $3,750 | 
-| Canada/Amsterdam |  $103 | $155 | $309 | $670 | $1,235 | $ 2,059 | $3,863 | 
-| Asia | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 | 
-| Corea | $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 | 
-| Australia | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500| 
-| India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
-| Parigi/Francoforte/Milano |  $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 | 
-| Londra |  $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
-| Norvegia | $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 | 
-| Messico| $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 | 
-| Brasile | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
+| USA |  $100 | $150 | $300 | $650 | $1.199 | $1.999 | $3.750 | 
+| Canada/Amsterdam |  $103 | $155 | $309 | $670 | $1.235 | $ 2,059 | $3.863 | 
+| Asia | $113 | $170 | $339 | $735 | $1.355 | $2.259 | $4.238 | 
+| Corea | $110 | $165 | $330 | $715 | $1.319 | $2.199 | $4.125 | 
+| Australia | $120 | $180 | $360 | $780 | $1.439 | $2.399 | $4.500| 
+| India | $120 | $180 | $360 | $780 | $1.439 | $2.399 | $4.500|
+| Parigi/Francoforte/Milano |  $110 | $165 | $330 | $715 | $1.319 | $2.199 | $4.125 | 
+| Londra |  $107 | $161 | $321 | $696 | $1.283 | $2.139 | $4.013 |
+| Norvegia | $107 | $161 | $321 | $696 | $1.283 | $2.139 | $4.013 | 
+| Messico| $107 | $161 | $321 | $696 | $1.283 | $2.139 | $4.013 | 
+| Brasile | $120 | $180 | $360 | $780 | $1.439 | $2.399 | $4.500|
 
 ## Prezzi per Direct Link Dedicated
 
 | Regione |  1 Gbps | 2 Gbps | 5 Gbps | 10 Gbps |
 |----|----|----|----|----|
-| USA | $1,199 | $1,999 | $3,750 | $4,999 |
-| Canada/Amsterdam | $1,235 | $ 2,059 | $3,863 | $5,149 |
-| Asia | $1,355 | $2,259 | $4,238 | $5,649 |
-| Corea | $1,319 | $2,199 | $4,125 | $5,499 |
-| Australia | $1,439 | $2,399 | $4,500| $5,999 |
-| India | $1,439 | $2,399 | $4,500| $5,999 |
-| Parigi/Francoforte/Milano | $1,319 | $2,199 | $4,125 | $5,499 |
-| Londra | $1,283 | $2,139 | $4,013 | $5,349 |
-| Norvegia | $1,283 | $2,139 | $4,013 | $5,349 |
-| Messico| $1,283 | $2,139 | $4,013 | $5,349 |
-| Brasile | $1,439 | $2,399 | $4,500| $5,999 |
+| USA | $1.199 | $1.999 | $3.750 | $4.999 |
+| Canada/Amsterdam | $1.235 | $ 2.059 | $3.863 | $5.149 |
+| Asia | $1.355 | $2.259 | $4.238 | $5.649 |
+| Corea | $1.319 | $2.199 | $4.125 | $5.499 |
+| Australia | $1.439 | $2.399 | $4.500| $5.999 |
+| India | $1.439 | $2.399 | $4.500| $5.999 |
+| Parigi/Francoforte/Milano | $1.319 | $2.199 | $4.125 | $5.499 |
+| Londra | $1.283 | $2.139 | $4.013 | $5.349 |
+| Norvegia | $1.283 | $2.139 | $4.013 | $5.349 |
+| Messico| $1.283 | $2.139 | $4.013 | $5.349 |
+| Brasile | $1.439 | $2.399 | $4.500| $5.999 |
 
 ## Prezzi per IBM Cloud Dedicated Hosting
 
@@ -91,17 +91,17 @@ Se selezioni l'instradamento globale, non ti viene addebitato tutto il traffico 
 
 | Regione | Prezzo |
 |---------|----------|
-|USA | $2,999 |
-|Canada/Amsterdam | $2,999 |
-|Asia | $2,999 |
-|Corea | $2,999 |
-|Australia | $2,999 |
-|India | $2,999 |
-|Parigi/Francoforte/Milano | $2,999 |
-|Londra | $2,999 |
-|Norvegia | $2,999 |
-|Messico | $2,999 |
-|Brasile | $2,999 |
+|USA | $2.999 |
+|Canada/Amsterdam | $2.999 |
+|Asia | $2.999 |
+|Corea | $2.999 |
+|Australia | $2.999 |
+|India | $2.999 |
+|Parigi/Francoforte/Milano | $2.999 |
+|Londra | $2.999 |
+|Norvegia | $2.999 |
+|Messico | $2.999 |
+|Brasile | $2.999 |
 
 ## Costi aggiuntivi dell'instradamento globale
 
@@ -109,9 +109,9 @@ Ogni mese, a tutti i clienti che utilizzano i circuiti al di sotto di 10Gbps ven
 
 |Area | Tariffa |
 |--------|--------|
-| Market 1: | $0.05 per GB |
-| Market 2: | $0.10 per GB |
-| Market 3: | $0.15 per GB |
+| Market 1: | $0,05 per GB |
+| Market 2: | $0,10 per GB |
+| Market 3: | $0,15 per GB |
 
 
 ## Mercati dell'instradamento locale e globale
@@ -121,6 +121,6 @@ Ogni mese, a tutti i clienti dell'instradamento globale che utilizzano 1G di cir
 
 |Mercato dati 1|Mercato dati 2|Mercato dati 3|
 |---|---|---|
-|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
+|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li><li>LON</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
 **Tabella 1: livelli di utilizzo**<br/>
 L'offerta Direct Link nei mercanti contrassegnati con un asterisco (*) DEVE ordinare l'instradamento globale.

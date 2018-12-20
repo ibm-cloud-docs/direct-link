@@ -11,7 +11,7 @@ lastupdated: "2018-05-07"
 
 _Modalità ibrida con IBM Cloud Direct Link: rendi l'esecuzione dei tuoi carichi di lavoro più veloce, in tutto il mondo_
 
-IBM Cloud offre dei data center con la funzionalità Direct Link in tutto il mondo. Pertanto, puoi contare sulla latenza minima quando utilizzi Direct Link per creare la tua soluzione cloud ibrida collegando il tuo IBM Cloud alla tua infrastruttura esistente. 
+IBM Cloud offre dei data center con la funzionalità Direct Link in tutto il mondo. Pertanto, puoi contare sulla latenza minima quando utilizzi Direct Link per creare la tua soluzione cloud ibrida collegando il tuo IBM Cloud alla tua infrastruttura esistente.
 
 Se disponi di un negozio online, esegui le soluzioni big data o configura i tuoi dipendenti su una rete con l'accesso ai file in tutto il mondo-non vuoi sentire per alcun motivo che il lento caricamento della pagina o il lento trasferimento dei dati da un database, ti impedisce una vendita o riduce la produttività dei tuoi dipendenti. I rallentamenti possono essere causati dalla latenza di rete, che è la misurazione di quanto velocemente i dati si spostano tra due punti collegati su internet. Puoi considerarla come la quantità di tempo che un pacchetto di dati impiega per passare da un posto all'altro.
 

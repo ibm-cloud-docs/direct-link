@@ -50,6 +50,6 @@ La seguente figura mostra la schermata dei termini e delle condizioni con il mes
 ![Passo 16](/images/PSRL-Step4A.png)
 
 ### Passo 4B:
-Se tenti di modificare la velocità di connessione prima della scadenza di 30 giorni, viene visualizzato un messaggio di errore. La seguente figura mostra la schermata dei termini e delle condizioni con il messaggio di errore visualizzato. 
+Se tenti di modificare la velocità di connessione prima della scadenza di 30 giorni, viene visualizzato un messaggio di errore. La seguente figura mostra la schermata dei termini e delle condizioni con il messaggio di errore visualizzato.
 
 ![Passo 17](/images/PSRL-Step4B.png)

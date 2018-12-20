@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2018
-lastupdated: "2018-08-23"
+lastupdated: "2018-11-02"
 ---
 
 {:shortdesc: .shortdesc}
@@ -11,7 +11,41 @@ lastupdated: "2018-08-23"
 
 Controlla regolarmente per vedere le novità di IBM Cloud Direct Link. Stiamo crescendo giornalmente!
 
-## Agosto 
+## Novembre 2018
+
+* 1° novembre: Megaport è ora disponibile per Connect in SJC02.
+
+## Ottobre 2018
+
+* 16 ottobre: Kinx è ora attivo come un provider Exchange in Seoul02, con diversità.
+* 2 ottobre: Megaport è ora disponibile in Hong Kong per Connect, per il momento non diverso.
+
+### Nuove opzioni di connettività per Direct Link
+ 
+IBM Cloud è lieto di annunciare nuove ed ampliate collaborazioni con InterCloud, SES Networks e CenturyLink. Consulta i link di seguito per saperne di più. 
+ 
+* [InterCloud offers dedicated connectivity to IBM Cloud](https://digitalisationworld.com/news/55529/intercloud-offers-dedicated-connectivity-to-ibm-cloud)
+* [SES Networks enables direct connectivity to IBM Cloud via global satellite network](https://www.ses.com/press-release/ses-networks-enables-direct-connectivity-ibm-cloud-global-satellite-network)
+* [CenturyLink expands cloud offerings in Latin America](http://news.centurylink.com/2018-10-04-CenturyLink-expands-cloud-offerings-in-Latin-America)
+
+
+## Settembre 2018
+
+* 8 settembre: Megaport è ora diverso in WDC02 per Connect.
+* 8 settembre: SES Networks è ora disponibile con la diversità in WDC02 per Connect.
+* 8 settembre: BT è ora disponibile senza la diversità a San Paolo del Brasile per Connect.
+* 8 settembre: Centurylink è ora disponibile senza la diversità a Miami per Connect.
+
+### IBM Cloud Direct Link continua le collaborazioni di connettività
+
+Il servizio IBM Cloud Direct Link continua ad espandersi globalmente. Alla luce del recente annuncio del Programma provider servizio IBM Cloud, abbiamo di recente presentato degli ulteriori annunci. Visualizza queste risorse chiave per saperne di più:
+ 
+* Blog di IBM Cloud: [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services](https://www.ibm.com/blogs/bluemix/2018/09/interxion-enterprise-ibm-cloud-services/)
+* Blog di IBM Cloud: [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/)
+* Blog di IBM Cloud per il Giappone: [AT TOKYO announcement - Japanese Translation](https://www.ibm.com/blogs/solutions/jp-ja/tokyo-connects-ibm-cloud-support-mission-critical-applications-httpswww-ibm-comblogssolutionsjp-ja/)
+* Blog di IBM Cloud: [PackerFabric and IBM Cloud Enable Secure Enterprise Connections](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/)
+
+## Agosto 2018
 
 ### CenturyLink si collega IBM Cloud
  
