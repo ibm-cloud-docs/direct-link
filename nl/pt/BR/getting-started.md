@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-13"
+lastupdated: "2018-11-19"
 
 ---
 
@@ -26,7 +26,7 @@ do {{site.data.keyword.BluSoftlayer_notm}}.
  * [IBM Cloud Direct Link Exchange](about.html#the-ibm-cloud-direct-link-exchange-solution)
  * [IBM Cloud Direct Link Connect](about.html#the-ibm-cloud-direct-link-connect-solution)
  * [IBM Cloud Direct Link Dedicated](about.html#the-ibm-cloud-direct-link-dedicated-solution)
- * [IBM Cloud Direct Link Dedicated Hosting](about.html#the-ibm-cloud-dedicated-hosting-solution)
+ * [IBM Cloud Direct Link Dedicated Hosting](about.html#the-ibm-cloud-direct-link-dedicated-hosting-solution)
 
 Para começar a usar o IBM Cloud Direct Link, navegue nessa documentação e decida qual solução funcionará
 melhor para você. Se você deseja mais ajuda com a introdução, é possível abrir um chamado por meio do [Portal do Cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/) ou é possível entrar em contato com seu representante de vendas do IBM Cloud.

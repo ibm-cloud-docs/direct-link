@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-06-11"
+lastupdated: "2018-10-15"
 
 ---
 
@@ -16,7 +16,8 @@ lastupdated: "2018-06-11"
 
 # Questionário Dedicado do IBM Cloud Direct Link
 
-Obrigado por abrir uma solicitação para o IBM Cloud Direct Link Dedicated.  Para finalizar a sua solicitação, gostaríamos de reunir algumas informações adicionais de você.  É possível falar com um engenheiro a qualquer momento durante o processo de questionário.  Após você ter concluído o questionário, ele será revisado por nossa equipe de Engenharia de design de nuvem e escalado para a Engenharia de rede para implementação.
+Obrigado por abrir uma solicitação para o IBM Cloud Direct Link Dedicated.  Para finalizar a sua solicitação, gostaríamos de reunir algumas informações adicionais de você.  É possível falar com um engenheiro a qualquer momento durante o processo de questionário.  Depois de concluir o questionário, ele será revisado por nossa
+equipe de Engenharia de Design de Nuvem e escalado para os Serviços Especiais de Rede para implementação.
 
 ## Você reconhece e concorda com os itens a seguir?
 
@@ -45,7 +46,12 @@ Obrigado por abrir uma solicitação para o IBM Cloud Direct Link Dedicated.  P
 
 9. Depois de ter confirmado que seu circuito atingiu o PoP e foi concluído pela operadora, será necessário pedir a conexão cruzada com o IBM Cloud XCR (roteador de conexão cruzada) que geralmente leva entre 2 a 10 dias úteis para ser concluído. Isso inclui a correção até a porta de finalização da SoftLayer.  Depois de concluído, será solicitado que você forneça ao IBM Cloud o aviso de conclusão de conexão cruzada do provedor de recursos. A volta do IP na infraestrutura de rede do IBM Cloud será concluída dentro de 3 dias úteis após a conclusão da conexão cruzada.
 
-10. O IBM Cloud Direct Link Dedicated requer a utilização de uma instância VRF (Virtual Routing and Forwarding).  Isso permite que o cliente defina seus próprios endereços IP remotos para uso em sua rede remota; no entanto, deve-se estar ciente de que, se você utilizar a rede 10.x.x.x, ainda não poderá se sobrepor com seus hosts dentro do IBM Cloud nem com a rede de serviços do IBM Cloud (10.0.0.0/14, 10.198.0.0/15 e 10.200.0.0/14). A transição de sua conta para um VRF requererá uma breve indisponibilidade de rede privada conforme cada VLAN for migrada para a nova configuração.  A equipe de Engenharia de rede trabalhará com você para definir uma janela para essa atividade.
+10. O IBM Cloud Direct Link Dedicated requer a utilização de uma instância VRF (Virtual Routing and Forwarding). Esse recurso permite que os clientes definam seus próprios endereços IP remotos para uso em
+sua rede remota; no entanto, esteja ciente de que, se você usar a rede 10.x.x.x, ainda não será possível
+sobrepor a seus hosts dentro do IBM Cloud nem à rede de serviços do IBM Cloud (10.0.0.0/14, 10.198.0.0/15
+e 10.200.0.0/14). A transição de sua conta para um VRF requererá uma breve indisponibilidade de rede privada conforme cada VLAN for migrada para a nova configuração. A equipe de Serviços Especiais de Rede trabalhará com você para definir um período para
+essa atividade. A equipe de Serviços Especiais de Rede está disponível de segunda a sexta-feira, das 8h às 17h CST (horário padrão central dos EUA). Qualquer atividade de ativação fora desse período deverá ser solicitada
+por chamado e aprovada com antecedência quando os engenheiros estiverem disponíveis.
 
 11. O VRF não é compatível com os serviços de SSL, PPTP e VPN IPSEC do IBM Cloud (SoftLayer anterior).  Uma alternativa é usar o próprio Direct Link para o gerenciamento de seus servidores ou executar a sua própria solução de VPN (como um Vyatta) que pode ser configurada com tipos diferentes de VPN.  Após migrar para um VRF, a VPN de SSL geralmente funcionará quando uma conexão de VPN for feita com o mesmo local do DC no qual o cálculo está sendo acessado, mas não permitirá acesso globalmente.
 

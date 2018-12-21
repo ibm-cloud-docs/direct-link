@@ -80,12 +80,12 @@ O processo de conversão envolve uma interrupção na rede, enquanto as VLANs e 
 
 ![The conversion process](/images/vrf-on-ibm-cloud.png)
 
-Durante a migração, as VLANs do cliente são desconectadas do backbone e reconectadas ao VRF do cliente. A duração da interrupção varia, dependendo da quantidade de VLANs, de PODs e de data centers envolvidos. O tráfego entre as VLANs é interrompido e, mesmo assim, os servidores permanecem conectados à rede. O aplicativo pode ou não ser afetado, dependendo de sua sensibilidade à perda de pacote.
+Durante a migração, as VLANs do cliente são desconectadas do backbone e reconectadas ao VRF do cliente.  A duração da interrupção varia, dependendo da quantidade de VLANs, de PODs e de data centers envolvidos. O tráfego entre as VLANs é interrompido e, mesmo assim, os servidores permanecem conectados à rede. O aplicativo pode ou não ser afetado, dependendo de sua sensibilidade à perda de pacote.
 
 ## Como é possível iniciar a conversão
 
 Nossos clientes podem abrir um chamado de suporte por meio de sua conta do [IBM Cloud Console ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")]( https://control.bluemix.net/support/unifiedConsole/tickets/add), solicitando que seja migrada para um VRF. O chamado deve afirmar: "Pergunta da rede privada" e incluir o texto a seguir no chamado de suporte: 
 
-"Estamos solicitando que a conta _preencha o número da sua conta_ seja movida para seu próprio VRF. Entendemos os riscos e aprovamos a mudança. Responda novamente com as janelas de tempo planejadas em que essa mudança será feita para que possamos nos preparar para a migração". 
+"Estamos solicitando que a conta _preencha o número da sua conta_ seja movida para seu próprio VRF. Entendemos os riscos e aprovamos a mudança.  Responda novamente com as janelas de tempo planejadas em que essa mudança será feita para que possamos nos preparar para a migração". 
 
 A migração foi concluída pela equipe do IBM Cloud Network Engineering. Nenhuma outra informação é necessária do cliente, exceto um planejamento acordado. Geralmente, a perda de pacote pode durar de 15 a 30 minutos, dependendo da complexidade da conta. (Poderá demorar mais se um cliente tiver conexões anteriores do Direct Link). O processo é altamente automatizado. Ele envolve interação mínima da equipe da IBM e deve ser transparente para um cliente.
