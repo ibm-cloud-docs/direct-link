@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-10-30"
 
 ---
 
@@ -28,7 +28,7 @@ Le informazioni archiviate in IBM Cloud Object Storage vengono crittografate e d
 
 IBM COS è disponibile in tre configurazioni: **Cross Region**, **Regional** e **Single Site**.
 
- * Il servizio Cross Region fornisce una disponibilità e una durata maggiori rispetto all'utilizzo di una sola regione, ma al costo di una leggermente maggiore latenza. Questo servizio è disponibile oggi negli Stati Uniti e in Europa.
+ * Il servizio Cross Region fornisce una disponibilità e una durata maggiori rispetto all'utilizzo di una sola regione, ma al costo di una leggermente maggiore latenza. Questo servizio è disponibile oggi negli Stati Uniti e in Europa. (Nota che, utilizzando una VRA (Virtual Router Appliance), potresti anche utilizzare Direct Link per stabilire una connessione a COS nella regione Asia Pacifico).
  
  * Il servizio Regional fornisce il contrario: distribuisce gli oggetti in più zone di disponibilità all'interno di una sola regione. Se una zona di disponibilità o una regione non è disponibile, l'archiviazione oggetti continua a funzionare correttamente. Tutte le modifiche mancanti vengono applicate quando il data center non accessibile torna online.
   
