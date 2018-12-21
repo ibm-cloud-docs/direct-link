@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-10-30"
 
 ---
 
@@ -28,7 +28,7 @@ Les informations stockées dans IBM Cloud Object Storage sont chiffrées et rép
 
 IBM COS est disponible dans trois types de configuration : **Inter-régional**, **Régional** et **Site unique**.
 
- * Le service de type Inter-régional fournit une plus grande durabilité et une meilleure disponibilité que lorsqu'une seule région est utilisée, mais au détriment de temps d'attente légèrement plus élevés. Ce service est disponible aujourd'hui aux Etats-Unis et dans l'UE.
+ * Le service de type Inter-régional fournit une plus grande durabilité et une meilleure disponibilité que lorsqu'une seule région est utilisée, mais au détriment de temps d'attente légèrement plus élevés. Ce service est disponible aujourd'hui aux Etats-Unis et dans l'UE. (L'utilisation d'un dispositif de routeur virtuel vous permet également d'utiliser Direct Link pour vous connecter à COS dans la région Asie-Pacifique.)
  
  * Le service de type Régional fournit le contraire : il distribue des objets sur plusieurs zones de disponibilité dans une seule région. Si une région ou une zone de disponibilité donnée est inaccessible, le conteneur d'objets continue de fonctionner sans problèmes. Les éventuelles modifications manquées sont appliquées lorsque le centre de données inaccessible est à nouveau en ligne.
   

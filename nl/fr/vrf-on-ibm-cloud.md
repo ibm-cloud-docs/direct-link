@@ -32,7 +32,7 @@ Ce document utilise le terme **VRF client** pour décrire la connectivité rése
 
 ## Aperçu du VRF client
 
-Le routage et transfert virtuel (VRF) permet à plusieurs instances d'une table de routage d'exister dans un routeur et de travailler simultanément. Avec le service de routage et transfert virtuel, le réseau VRF de chaque client est segmenté au sein de sa table de routage. Cette segmentation permet les chevauchements d'adresses IP et ne crée aucune interaction ou interférence avec les VRF des autres clients. IBM Cloud utilise une grande majorité du réseau `10.0.0.0/8` qui peut chevaucher les réseaux distants de nombreux clients.  
+Le routage et transfert virtuel (VRF) permet à plusieurs instances d'une table de routage d'exister dans un routeur et de travailler simultanément. Avec le service de routage et transfert virtuel, le réseau VRF de chaque client est segmenté au sein de sa table de routage. Cette segmentation permet les chevauchements d'adresses IP et ne crée aucune interaction ou interférence avec les VRF des autres clients. IBM Cloud utilise une grande majorité du réseau `10.0.0.0/8` qui peut chevaucher les réseaux distants de nombreux clients. 
 
 En utilisant le VRF, les clients sont autorisés à utiliser des adresses IP distantes qui, normalement, ne se chevauchent pas dans la table globale. IBM réserve néanmoins les adresses lien-local suivantes définies par la RFC 1918 et les adresses de multidiffusion qui ne peuvent pas être routées à partir de ce service VRF.
 
@@ -80,12 +80,12 @@ Le processus de conversion implique une interruption du réseau pendant que les 
 
 ![Le processus de conversion](/images/vrf-on-ibm-cloud.png)
 
-Pendant la migration, les réseaux locaux virtuels du client sont déconnectés du réseau principal et reconnectés au VRF client. La durée de l'interruption varie en fonction du nombre de réseaux locaux virtuels, de pods et de centres de données impliqués. Le trafic entre les réseaux locaux virtuels est perturbé, mais les serveurs restent connectés au réseau. L'application peut être affectée ou non, selon sa sensibilité à la perte de paquets.
+Pendant la migration, les réseaux locaux virtuels du client sont déconnectés du réseau principal et reconnectés au VRF client.  La durée de l'interruption varie en fonction du nombre de réseaux locaux virtuels, de pods et de centres de données impliqués. Le trafic entre les réseaux locaux virtuels est perturbé, mais les serveurs restent connectés au réseau. L'application peut être affectée ou non, selon sa sensibilité à la perte de paquets.
 
-## Comment lancer la conversion ? 
+## Comment lancer la conversion ?
 
 Nos clients peuvent ouvrir un ticket de demande de service via leur compte [IBM Cloud Console ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) et demander à être migrés vers un VRF. Le ticket doit indiquer “Question de réseau privé” et inclure le texte suivant : 
 
-"Nous demandons que le compte _entrez votre numéro de compte_ soit déplacé vers son propre VRF. Nous comprenons les risques et approuvons le changement. Veuillez répondre en indiquant les fenêtres de temps prévues pour ce changement afin que nous puissions nous préparer à la migration."  
+"Nous demandons que le compte _entrez votre numéro de compte_ soit déplacé vers son propre VRF. Nous comprenons les risques et approuvons le changement. Veuillez répondre en indiquant les fenêtres de temps prévues pour ce changement afin que nous puissions nous préparer à la migration." 
 
 La migration est effectuée par l'équipe IBM Cloud Network Engineering. Aucune autre information n'est requise de la part du client, à l'exception d'un calendrier convenu. En général, la perte de paquets peut durer de 15 à 30 minutes, selon la complexité du compte. La durée peut être supérieure si un client a des connexions Direct Link existantes. Le processus est largement automatisé. Il implique une interaction minimale de la part de l'équipe IBM et doit être transparent pour le client.
