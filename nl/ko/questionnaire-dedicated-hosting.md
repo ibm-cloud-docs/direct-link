@@ -42,9 +42,9 @@ IBM Cloud Direct Link Dedicated Hosting에 대한 요청을 열어 주셔서 감
 
 11. IBM Cloud를 통해 코로케이션 서비스를 구매하지 않을 경우 사용자 환경과 IBM Cloud 간의 교차 연결을 주문하고 비용을 지불하는 것은 사용자의 책임입니다. 연결되면 연결 승인과 연결될 위치에 대해 자세히 설명하는 LOA(Letter of Authorization)를 제공합니다.
 
-12. Direct Link에 대한 다음의 가격 책정에 동의하는지 확인하십시오.
- * 1Gbps: _위치 기반 가격 책정_ 
-* 2Gbps: _위치 기반 가격 책정_
-* 5Gbps: _위치 기반 가격 책정_
-* 10Gbps: _위치 기반 가격 책정_
+12. Direct Link에 대한 다음의 가격에 동의하는지 확인하십시오.
+ * 1Gbps: _위치 기반 가격_ 
+* 2Gbps: _위치 기반 가격_
+* 5Gbps: _위치 기반 가격_
+* 10Gbps: _위치 기반 가격_
 * 선택적 글로벌 라우팅

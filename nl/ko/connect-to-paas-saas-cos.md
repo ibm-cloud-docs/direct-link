@@ -16,7 +16,7 @@ lastupdated: "2018-04-24"
 
 # IBM Cloud Direct Link 및 IBM Cloud Object Storage 함께 사용
 
-이 문서에서는 IBM Cloud Object Storage 및 기타 IBM Cloud 서비스에 액세스할 수 있도록 IBM Cloud Direct Link를 구성하는 방법에 대해 설명합니다. 실제로 IaaS 백본을 나가지 않고 IBM Cloud Direct Link가 있는 사설 IBM Cloud IaaS 네트워크에서 IBM Cloud PaaS 및 SaaS 기능을 지원하는 "공용" 네트워크로 브릿지하는 몇 가지 방법이 있습니다. 
+이 문서에서는 IBM Cloud Object Storage 및 기타 IBM Cloud 서비스에 액세스할 수 있도록 IBM Cloud Direct Link를 구성하는 방법에 대해 설명합니다. 실제로 IaaS 백본을 나가지 않고 IBM Cloud Direct Link가 있는 사설 IBM Cloud IaaS 네트워크에서 IBM Cloud PaaS 및 SaaS 기능을 지원하는 "공용" 네트워크로 브릿지하는 몇 가지 방법이 있습니다.
 
 현재 정책에 따라 IBM Cloud Direct Link를 통해 IBM Cloud 개인 서비스 엔드포인트에 액세스할 수 없습니다. 이 문서에 설명된 기술은 IBM Cloud에서 호스팅되는 시스템을 통한 간접 액세스에 의존합니다. Direct Link를 사용하여 개인 서비스 엔드포인트에 연결할 수 없지만 고객의 개인용 서버 및 어플라이언스는 연결 가능하게 될 수 있습니다.
 
@@ -36,7 +36,7 @@ IBM Cloud Direct Link는 고객에게 해당 원격 네트워크 환경과 IBM C
 
 IBM Cloud Direct Link의 연결 솔루션 제품군은 IaaS 서비스에 대한 사설 WAN 연결을 허용하기 위한 IaaS 오퍼링입니다. 대부분의 IBM Cloud PaaS 및 SaaS 솔루션이 IaaS 위에 빌드됩니다. 따라서 IBM Cloud 내에서 이러한 유형의 연결을 시작할 수 있습니다.
 
-다음과 같은 세 가지 접근 방식을 통해 IBM Cloud Direct Link를 사용하여 IBM Cloud PaaS 및 SaaS에 연결할 수 있습니다. 현재 방법 #3이 가장 철저히 테스트되었으므로 권장되는 접근 방식입니다. 
+다음과 같은 세 가지 접근 방식을 통해 IBM Cloud Direct Link를 사용하여 IBM Cloud PaaS 및 SaaS에 연결할 수 있습니다. 현재 방법 #3이 가장 철저히 테스트되었으므로 권장되는 접근 방식입니다.
 
 ## Direct Link를 사용하여 PaaS 및 SaaS에 연결하는 세 가지 방법
 
@@ -62,7 +62,7 @@ IBM Cloud Direct Link의 연결 솔루션 제품군은 IaaS 서비스에 대한 
 
 ![역방향 프록시](images/reverse-proxy.png)
 
-**기본 전제: COS 신임 정보로 클라우드 서버 보안**
+**기본 전제: COS 인증 정보로 클라우드 서버 보안**
 
  * 클라이언트가 IBM Cloud에 하나 이상의 서버, VSI 또는 Bare Metal을 프로비저닝합니다.
  * 각 서버가 해당 개인용 인터페이스에서만 연결 및 요청을 청취하도록 웹 기반 또는 스크립트(Java, Python, PHP 등) 애플리케이션을 호스팅합니다.
@@ -77,7 +77,7 @@ IBM Cloud Direct Link의 연결 솔루션 제품군은 IaaS 서비스에 대한 
 
 이 방법이 현재 권장되는 접근 방식입니다.
 
-**기본 전제: COS 신임 정보로 온프레미스 클라이언트 호출자 보안**
+**기본 전제: COS 인증 정보로 온프레미스 클라이언트 호출자 보안**
 
  
 
@@ -96,7 +96,7 @@ IBM Cloud Direct Link의 연결 솔루션 제품군은 IaaS 서비스에 대한 
  
 이 섹션에서는 IBM Cloud Direct Link를 사용하여 연결할 수 있는 일부 IBM Cloud PaaS 및 SaaS 오퍼링에 대한 문서에 대한 빠른 링크를 제공합니다.
 
-## 베어메탈 서버를 프로비저닝하는 방법
+## Bare Metal Server를 프로비저닝하는 방법
 
 베어메탈을 프로비저닝하는 방법에 대한 자세한 자시사항은 [이 문서](https://console.bluemix.net/docs/bare-metal/about.html#getting-started-with-bare-metal-servers)를 참조하십시오.
 

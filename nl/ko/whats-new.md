@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2018
-lastupdated: "2018-08-23"
+lastupdated: "2018-11-02"
 ---
 
 {:shortdesc: .shortdesc}
@@ -11,11 +11,45 @@ lastupdated: "2018-08-23"
 
 IBM Cloud Direct Link의 새로운 기능을 정기적으로 확인하십시오. 매일 성장하고 있습니다.
 
-## 8월
+## 2018년 11월
+
+* 11월 1일: 이제 SJC02에서 Connect용 Megaport를 사용할 수 있습니다.
+
+## 2018년 10월
+
+* 10월 16일: 이제 Kinx가 서울02에서 Exchange 제공자로 활성화되었습니다(다양성 포함).
+* 10월 2일: 이제 홍콩에서 Connect용 Megaport를 사용할 수 있습니다(지금은 다양하지 않음).
+
+### Direct Link를 위한 새로운 연결 옵션
+ 
+IBM Cloud에 InterCloud, SES Networks 및 CenturyLink와의 새로운 확장 협업이 도입되었습니다. 자세한 정보는 아래의 링크를 확인하십시오. 
+ 
+* [InterCloud offers dedicated connectivity to IBM Cloud](https://digitalisationworld.com/news/55529/intercloud-offers-dedicated-connectivity-to-ibm-cloud)
+* [SES Networks enables direct connectivity to IBM Cloud via global satellite network](https://www.ses.com/press-release/ses-networks-enables-direct-connectivity-ibm-cloud-global-satellite-network)
+* [CenturyLink expands cloud offerings in Latin America](http://news.centurylink.com/2018-10-04-CenturyLink-expands-cloud-offerings-in-Latin-America)
+
+
+## 2018년 9월
+
+* 9월 8일: 이제 Megaport가 WDC02에서 Connect에 대한 다양성을 제공합니다.
+* 9월 8일: 이제 WDC02에서 Connect용 SES Networks를 사용할 수 있습니다(다양성 포함).
+* 9월 8일: 이제 상파울루에서 Connect용 BT를 사용할 수 있습니다(다양성 제외).
+* 9월 8일: 이제 마이애미에서 Connect용 Centurylink를 사용할 수 있습니다(다양성 제외).
+
+### IBM Cloud Direct Link는 연결 협업을 계속 진행함
+
+IBM Cloud Direct Link 서비스는 계속해서 글로벌로 확장됩니다! 최근 IBM Cloud Service 서비스 제공자 프로그램 공지사항에 따르면 최근에 몇 가지 추가적인 공지사항이 발표되었습니다. 자세한 정보는 다음과 같은 주요 자원을 참조하십시오.
+ 
+* IBM Cloud 블로그: [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services](https://www.ibm.com/blogs/bluemix/2018/09/interxion-enterprise-ibm-cloud-services/)
+* IBM Cloud 블로그: [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/)
+* IBM Cloud 일본 블로그: [AT TOKYO announcement - Japanese Translation](https://www.ibm.com/blogs/solutions/jp-ja/tokyo-connects-ibm-cloud-support-mission-critical-applications-httpswww-ibm-comblogssolutionsjp-ja/)
+* IBM Cloud 블로그: [PackerFabric and IBM Cloud Enable Secure Enterprise Connections](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/)
+
+## 2018년 8월
 
 ### CenturyLink과 IBM Cloud 연결
  
-CenturyLink Cloud Connect 솔루션은 이제 IBM Cloud에 대한 프라이빗하고 안전한 네트워크 연결을 제공하며, 조직이 IBM Cloud Direct Link를 통해 IBM Cloud에 대한 사설 네트워크에서 글로벌 방식으로 짧은 대기 시간 연결을 설정함으로써 보다 효율적으로 혁신하도록 지원합니다. Century Link와 IBM 간의 이러한 협업의 확장은 IBM Business Resiliency Services 및 IBM Cloud Managed Services에 대한 Century Link의 기존 지원을 기반으로 합니다.
+CenturyLink Cloud Connect 솔루션은 이제 IBM Cloud에 대한 개인적이고 안전한 네트워크 연결을 제공하며, 조직이 IBM Cloud Direct Link를 통해 사설 네트워크에서 IBM Cloud로 글로벌 기반의 저 대기 시간 연결을 설정함으로써 보다 효율적으로 혁신할 수 있도록 지원합니다. Century Link와 IBM 간의 이러한 협업의 확장은 IBM Business Resiliency Services 및 IBM Cloud Managed Services에 대한 Century Link의 기존 지원을 기반으로 합니다.
  
 **자세히 보기:**
 * 보도 자료:[CenturyLink Connects to IBM Cloud](http://news.centurylink.com/2018-08-01-CenturyLink-Connects-Enterprises-to-IBM-Cloud)
@@ -25,7 +59,7 @@ CenturyLink Cloud Connect 솔루션은 이제 IBM Cloud에 대한 프라이빗�
 
 ### Digital Realty에서 전 세계 15개 도시의 IBM Cloud에 대한 안전하고 직접적인 액세스 제공
  
-IBM Cloud에 대한 직접 액세스는 이제 70개가 넘는 Digital Realty 데이터 센터 및 전 세계 여러 대륙을 거쳐 Digital Realty Service Exchange와 IBM Cloud Direct를 통해 사용 가능합니다. Digital Realty Service Exchange에서는 IBM Cloud에 대한 단일 인터페이스에서 프라이빗하고 안전하며 처리량이 많고 대기 시간이 낮은 액세스를 제공하며 고객들이 공용 인터넷의 일부 제한사항을 극복하도록 도와주고, 네트워크 정체를 해소하고 AI, 기계 학습 및 블록 체인과 같은 이전에 실현 가능하지 않았던 중요한 워크로드를 사용 가능하도록 지원합니다. 
+IBM Cloud에 대한 직접 액세스는 이제 70개가 넘는 Digital Realty 데이터 센터 및 전 세계 여러 대륙을 거쳐 Digital Realty Service Exchange와 IBM Cloud Direct를 통해 사용 가능합니다. Digital Realty Service Exchange에서는 IBM Cloud에 대한 단일 인터페이스에서 개인적이고 안전하며 처리량이 많고 대기 시간이 낮은 액세스를 제공하며 고객들이 공용 인터넷의 일부 제한사항을 극복하도록 도와주고, 네트워크 정체를 해소하고 AI, 기계 학습 및 블록 체인과 같은 이전에 실현 가능하지 않았던 중요한 워크로드를 사용 가능하도록 지원합니다.
  
 **자세히 보기:**
 * 보도 자료:[Digital Realty adds direct, secure access to IBM Cloud in 15 global metros](http://investor.digitalrealty.com/investor-relations/news-and-events/news/news-details/2018/Digital-Realty-Adds-Direct-Secure-Access-to-IBM-Cloud-in-15-Global-Metros/default.aspx?_ga=2.4622768.2004310000.1533067916-309713252.1509692838)
@@ -38,7 +72,7 @@ IBM Cloud에 대한 직접 액세스는 이제 70개가 넘는 Digital Realty �
 
 ### IBM Cloud Direct Link 서비스 제공자 프로그램
 
-IBM은 엔터프라이즈에서 로컬 및 글로벌 제공업체의 강력한 에코시스템에서 선택을 결정하고, 요구에 가장 적합하도록 IBM Cloud에 개인용 연결을 작성할 수 있는 새로운 IBM Cloud Direct Link 서비스 제공자 프로그램에 대해 알려드립니다. IBM은 서비스 제공업체에서 전 세계 어느 곳에서든 클라우드에 대한 안정적인 엔터프라이즈 연결을 제공할 수 있도록 기술적 지원 및 훈련을 제공하기 위해 긴밀히 협력할 것입니다. 이를 통해 공동 고객들이 고가용성의 안전한 하이브리드 연결을 설정하기 위해 가장 적합한 제공자, 서비스 속도, 위치 및 배치 모델을 선택할 수 있는 최고의 선택 옵션을 제공합니다. 
+IBM은 기업이 로컬 및 글로벌 제공자의 강력한 에코시스템들 중에서 선택하고 기업의 요구에 가장 적합한 IBM Cloud에 대한 개인적인 연결을 작성할 수 있는 새로운 IBM Cloud Direct Link 서비스 제공자 프로그램을 발표하게 된 것을 기쁘게 생각합니다. IBM은 서비스 제공자가 전 세계 어느 곳에서든 클라우드에 대한 안정적인 엔터프라이즈 연결을 제공할 수 있도록 기술적 지원 및 훈련을 제공하기 위해 긴밀히 협력할 것입니다. 이를 통해 공동 고객들이 고가용성의 안전한 하이브리드 연결을 설정하기 위해 가장 적합한 제공자, 서비스 속도, 위치 및 배치 모델을 선택할 수 있는 최고의 선택 옵션을 제공합니다.
  
 **자세히 보기:**
 * Cloud 블로그 의견: [Supporting the next generation of apps with IBM Cloud Direct Link](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/)
@@ -46,7 +80,7 @@ IBM은 엔터프라이즈에서 로컬 및 글로벌 제공업체의 강력한 �
 
 ### Colt에서 제공하는 IBM Cloud Direct Link에 대한 직접 액세스
 
-IBM은 Colt와의 협업을 확장하게 됨을 알려드립니다. Colt사의 DCA(Dedicated Cloud Access) 서비스 덕분에 이제 고객들은 데이터 센터, 사무실 또는 코로케이션 환경에서 개인용 연결을 설정하여, 네트워크 비용을 줄이고, 대역폭 처리량을 높이고, 인터넷 기반 연결보다 더 지속적인 네트워크 환경을 제공할 수 있게 되었습니다.  
+IBM은 Colt와의 협업 확장을 발표하게 된 것을 기쁘게 생각합니다. Colt사의 DCA(Dedicated Cloud Access) 서비스 덕분에 이제 고객들은 데이터 센터, 사무실 또는 코로케이션 환경에서 개인용 연결을 설정하여, 네트워크 비용을 줄이고, 대역폭 처리량을 높이고, 인터넷 기반 연결보다 더 지속적인 네트워크 환경을 제공할 수 있게 되었습니다. 
  
 **자세히 보기:**
 
@@ -70,7 +104,7 @@ IBM은 Colt와의 협업을 확장하게 됨을 알려드립니다. Colt사의 D
  
 ### Interxion의 프랑크푸르트 및 스톡홀름 캠퍼스가 IBM Cloud Direct Link에 연결되었습니다.
  
-유럽에서 클라우드 중립 코로케이션 데이터 센터 서비스를 주도하는 업계 선두 기업 Interxion에서는 Cloud Connect, Interxion의 클라우드 상호 연결 플랫폼을 통해 이제 유럽 지역 내에서 IBM Cloud 서비스에 대한 직접 액세스가 가능하다고 발표했습니다. 
+유럽에서 클라우드 중립 코로케이션 데이터 센터 서비스를 주도하는 업계 선두 기업 Interxion에서는 Cloud Connect, Interxion의 클라우드 상호 연결 플랫폼을 통해 이제 유럽 지역 내에서 IBM Cloud 서비스에 대한 직접 액세스가 가능하다고 발표했습니다.
 
 **자세히 보기**
 
@@ -80,7 +114,7 @@ IBM은 Colt와의 협업을 확장하게 됨을 알려드립니다. Colt사의 D
 
 ### PacketFabric에서 IBM Cloud에 대한 연결 제공
 
-PacketFabric 고객들은 댈러스, 텍사스, 샌프란시스코, 캘리포니아 및 워싱톤 DC 등 PacketFabric 네트워크의 위치에서 IBM Cloud 서비스에 액세스할 수 있습니다. 
+PacketFabric 고객들은 댈러스, 텍사스, 샌프란시스코, 캘리포니아 및 워싱톤 DC 등 PacketFabric 네트워크의 위치에서 IBM Cloud 서비스에 액세스할 수 있습니다.
 
 **자세히 보기**
 

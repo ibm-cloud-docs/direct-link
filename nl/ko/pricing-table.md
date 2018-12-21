@@ -2,11 +2,13 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-06"
+lastupdated: "2018-11-19"
 
 ---
 
-# 가격 책정 표
+# 가격표
+
+다음 표에는 IBM Cloud Exchange, Connect 및 Dedicated에 대한 전체 가격 목록이 포함되어 있습니다.
 
 |지역 |50mbps |100mbps |200mbps |500mbps |1Gbps |2Gbps |5Gbps | 10Gbps |
 |----|----|----|----|----|----|----|----|----|

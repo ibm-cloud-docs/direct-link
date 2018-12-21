@@ -44,16 +44,20 @@ lastupdated: "2018-07-23"
 | SYD01 | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
 | SYD02 | Equinix | SY3 | 47 Bourke Rd |
 | SYD04 | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
-| TOK01 | Equinix | TY2 | Shinagawa-ku |
-| TOK02 | At Tokyo | CC2 |  고토 구 |
+| TOK01 | Equinix | TY2 |
+| TOK02 | At Tokyo | CC2 | 
+| TOK03 | Equinix | 
+| TOK04 | SoftBank |
+| TOK05 | NTT |
 | **EMEA** |  |  |
 | AMS02 | Equinix | AM1 / AM2 | Larrderhoogtweg 57 |
 | AMS03 | KPN | Amsterdam 3 | Rondebeltweg 62 |
 | FRA01 | InterXion | FRA01 | Hanauer Landstrasse 302 |
 | FRA02 | Zenium | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
 | FRA03 | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
+| FRA04 | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H | 
 | FRA05 | InterXion | FRA05 | Weismüllerstraße 40 |
-| LON01 | Telecity | LD1 | 6/7 Harbour Exchange  E14 9GE |
+| LON01 | Equinix (fTelecity) | LD8 | 6/7 Harbour Exchange  E14 9GE |
 | LON02 | Digital Realty | LHR13 | Fountain Court, Cox Lane |
 | LON03 | Equinix | LD5 | 8 Buckingham Ave |
 | LON04 | ARK | A103 |  A57 Cody Technology Park Old, Victor Way, Farnborough |
@@ -79,7 +83,7 @@ lastupdated: "2018-07-23"
 | HOU02* |IBM | HOU02 | 855 Greens Parkway | 
 | LAX01* | Coresite | LA1 | 624 S. Grand Ave. AKA 1 Wilshire Blvd |
 | MEX01 | Alestra | Alestra Queretaro Datacenter | Lateral Carretera Estatal 431,Parque Tecnologico Inovacion Lote 79, El Marqués |
-| MIA01* | Terremark / Verizon | NAP | 50 NE 9th Street |
+| MIA01 | Terremark / Verizon | NAP | 50 NE 9th Street |
 | MON01 | COLO-D | COLO-D1 | 2525 Rue Canadien |
 | MON02 | Cologix | MTL3 | 1155 University Street |
 | NYC01 | Digital Realty | JFK10 | 111 8th Ave |
@@ -87,7 +91,7 @@ lastupdated: "2018-07-23"
 | NYC03* | Equinix | NY5 | 800 Secaucus Rd, Secaucus, NJ |
 | SAO01 | Ascenty | SP1 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
 | SAO02 | Equinix | SP2 | Alameda Araguaia, 3641 - Alphaville, Barueri |
-| SEA02* | The Westin Building | WBX | 2001 6th Avenue |
+| SEA02 | The Westin Building | WBX | 2001 6th Avenue |
 | SJC02 | Equinix | SV1 | 11 Great Oaks Blvd |
 | SJC03 | Digital Realty | SJC31 | 1100 Space Park Drive |
 | SJC04 | Infomart | SJC1 | 2001 Fortune Drive |
@@ -99,8 +103,8 @@ lastupdated: "2018-07-23"
 | WDC06 | Raging Wire | VA2 | 44610 Guilford Drive |
 | WDC07 | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr|
 
-## 가격 책정
+## 가격
 
-가격 책정 정보는 [가격 책정 문서](pricing.html)를 참조하십시오.
+가격 정보는 [가격 문서](pricing.html)를 참조하십시오.
 
 **TOK01 또는 TOK02에 대한 정확한 주소가 필요한 경우에는 Direct Link 오퍼링 관리 또는 영업 팀에 문의하십시오.**

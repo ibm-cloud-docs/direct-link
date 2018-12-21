@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-13"
+lastupdated: "2018-11-19"
 
 ---
 
@@ -23,12 +23,12 @@ IBM Cloud Direct Link는 전 세계의 위치에서 사용 가능한 IBM Cloud �
  * [IBM Cloud Direct Link Exchange](about.html#the-ibm-cloud-direct-link-exchange-solution)
  * [IBM Cloud Direct Link Connect](about.html#the-ibm-cloud-direct-link-connect-solution)
  * [IBM Cloud Direct Link Dedicated](about.html#the-ibm-cloud-direct-link-dedicated-solution)
- * [IBM Cloud Direct Link Dedicated Hosting](about.html#the-ibm-cloud-dedicated-hosting-solution)
+ * [IBM Cloud Direct Link Dedicated Hosting](about.html#the-ibm-cloud-direct-link-dedicated-hosting-solution)
 
 IBM Cloud Direct Link 사용을 시작하려면 이 문서를 찾아보고 어떤 솔루션이 사용자에게 가장 적합할 것인지 결정하십시오. 시작하기에 더 도움이 필요한 경우, [고객 포털 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/)을 통해 티켓을 열거나 IBM Cloud 영업 담당자에게 문의할 수 있습니다.
 
 
-## 내가 필요한 IBM Cloud Direct Link의 유형을 어떻게 알 수 있습니까?
+## 필요한 IBM Cloud Direct Link의 유형을 어떻게 알 수 있습니까?
 
 그림의 플로우 차트를 사용하여 결정하는 데 도움을 받을 수 있습니다.
 
