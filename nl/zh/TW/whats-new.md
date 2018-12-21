@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2018
-lastupdated: "2018-08-23"
+lastupdated: "2018-11-02"
 ---
 
 {:shortdesc: .shortdesc}
@@ -11,7 +11,41 @@ lastupdated: "2018-08-23"
 
 請定期回來查看 IBM Cloud Direct Link 的新增功能。我們每天都在成長！
 
-## 8 月
+## 2018 年 11 月
+
+* 11 月 1 日：Megaport 現在可用於 SJC02 的 Connect。
+
+## 2018 年 10 月
+
+* 10 月 16 日：Kinx 現在已在作用中，成為 Seoul02 的 Exchange 提供者，並具有多樣性。
+* 10 月 2 日：Megaport 現在可用於香港的 Connect，目前無多樣性。
+
+### Direct Link 的新連線功能選項
+ 
+IBM Cloud 很高興能宣布與 InterCloud、SES Networks 及 CenturyLink 展開新的與延伸的協同作業。請參考底下的鏈結以便進一步瞭解： 
+ 
+* [InterCloud offers dedicated connectivity to IBM Cloud](https://digitalisationworld.com/news/55529/intercloud-offers-dedicated-connectivity-to-ibm-cloud)
+* [SES Networks enables direct connectivity to IBM Cloud via global satellite network](https://www.ses.com/press-release/ses-networks-enables-direct-connectivity-ibm-cloud-global-satellite-network)
+* [CenturyLink expands cloud offerings in Latin America](http://news.centurylink.com/2018-10-04-CenturyLink-expands-cloud-offerings-in-Latin-America)
+
+
+## 2018 年 9 月
+
+* 9 月 8 日：Megaport 現在在 WDC02 中對於 Connect 具多樣性。
+* 9 月 8 日：SES Networks 現在可用於 WDC02 中的 Connect，且具有多樣性。
+* 9 月 8 日：BT 現在可用於聖保羅中的 Connect，不具多樣性。
+* 9 月 8 日：Centurylink 現在可用於邁阿密中的 Connect，不具多樣性。
+
+### IBM Cloud Direct Link 持續進行連線功能協同作業
+
+IBM Cloud Direct Link 服務繼續在全球擴展！鑑於最近的 IBM Cloud 服務提供者計畫公告，我們最近做了數項額外的公告。請參考這些重要資源以便進一步瞭解：
+ 
+* IBM Cloud 部落格：[Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services](https://www.ibm.com/blogs/bluemix/2018/09/interxion-enterprise-ibm-cloud-services/)
+* IBM Cloud 部落格：[AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/)
+* IBM Cloud 日本部落格：[AT TOKYO announcement - Japanese Translation](https://www.ibm.com/blogs/solutions/jp-ja/tokyo-connects-ibm-cloud-support-mission-critical-applications-httpswww-ibm-comblogssolutionsjp-ja/)
+* IBM Cloud 部落格：[PackerFabric and IBM Cloud Enable Secure Enterprise Connections](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/)
+
+## 2018 年 8 月
 
 ### CenturyLink 連接至 IBM Cloud
  

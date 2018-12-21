@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-06-11"
+lastupdated: "2018-10-15"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2018-06-11"
 
 # IBM Cloud Direct Link Dedicated 問卷
 
-謝謝您提出對 IBM Cloud Direct Link Dedicated 的要求。為了完成您的要求，我們想要向您收集一些其他資訊。在問卷處理期間，您隨時可以與工程師交談。完成問卷之後，我們的 Cloud Design Engineering 團隊將檢閱它，並將其呈報「網路工程」以進行實作。
+謝謝您提出對 IBM Cloud Direct Link Dedicated 的要求。為了完成您的要求，我們想要向您收集一些其他資訊。在問卷處理期間，您隨時可以與工程師交談。完成問卷之後，我們的 Cloud Design Engineering 團隊將檢閱它，並將其呈報給 Special Network Services 以進行實作。
 
 ## 您確認並同意下列事項嗎？
 
@@ -45,7 +45,7 @@ lastupdated: "2018-06-11"
 
 9. 確認電路已達到 PoP 且由通訊業者完成之後，您需要訂購交叉連接至 IBM Cloud XCR（交叉連接路由器），其通常需要 2 到 10 個營業日才能完成。這包括向下連接到 SoftLayer 終止埠。完成後，您需要向 IBM Cloud 提供來自設施提供者的交叉連接完成通知。出現在 IBM Cloud 網路基礎架構上的 IP 將在交叉連接完成之後的三個營業日之內完成。
 
-10. IBM Cloud Direct Link Dedicated 需要您使用 VRF（虛擬遞送及轉遞）實例。這可讓客戶定義自己要使用於其遠端網路的遠端 IP 位址；不過，您必須知道，即使您使用 10.x.x.x 網路，仍然無法與 IBM Cloud 內的主機或 IBM Cloud 服務網路（10.0.0.0/14、10.198.0.0/15 及 10.200.0.0/14）重疊。當每個 VLAN 移轉至新的配置時，將您的帳戶轉移至 VRF 需要使專用網路短暫中斷。「網路工程」團隊將與您一起定義此活動的時間範圍。
+10. IBM Cloud Direct Link Dedicated 需要您使用 VRF（虛擬遞送及轉遞）實例。此功能可讓客戶定義自己要使用於其遠端網路的遠端 IP 位址；但請了解，即使您使用 10.x.x.x 網路，仍然無法與 IBM Cloud 內的主機或 IBM Cloud 服務網路（10.0.0.0/14、10.198.0.0/15 及 10.200.0.0/14）重疊。當每個 VLAN 移轉至新的配置時，將您的帳戶轉移至 VRF 需要使專用網路短暫中斷。Special Network Services 團隊將與您一起定義此活動的時間範圍。Special Network Services 團隊上班時間為星期一到五的 8-5 CST（美國中部標準時間）。在此時間範圍外的任何啟動活動，將需要事先透過問題單要求並核准（在工程師有空之時）。
 
 11. VRF 與 IBM Cloud（舊式 SoftLayer）SSL、PPTP 及 IPSEC VPN 服務並不相容。替代方案是使用 Direct Link 本身來管理您的伺服器，或執行您自己的 VPN 解決方案（例如，Vyatta），它可以用不同類型的 VPN 來配置。移轉至 VRF 之後，與所存取之運算系統相同的 DC 位置之間建立 VPN 連線時，SSL VPN 通常會正常運作，但不容許廣域存取。
 

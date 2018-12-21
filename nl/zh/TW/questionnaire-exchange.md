@@ -16,7 +16,7 @@ lastupdated: "2018-06-11"
 
 # IBM Cloud Direct Link Exchange 問卷
 
-謝謝您提出對 IBM Cloud Direct Link Exchange 的要求。為了完成您的要求，我們想要向您收集一些其他資訊。在問卷處理期間，您隨時可以與工程師交談。完成問卷之後，我們的 Cloud Design Engineering 團隊將檢閱它，並將其呈報「網路工程」以進行實作。
+謝謝您提出對 IBM Cloud Direct Link Exchange 的要求。為了完成您的要求，我們想要向您收集一些其他資訊。在問卷處理期間，您隨時可以與工程師交談。完成問卷之後，我們的 Cloud Design Engineering 團隊將檢閱它，並將其呈報給 Special Network Services 以進行實作。
 
 ## 您確認並同意下列事項嗎？
 
@@ -44,7 +44,7 @@ lastupdated: "2018-06-11"
 
 8. 在確認電路已達到 Direct Link Exchange PoP 之後，您需要向 Cloud Exchange 提供者下訂單，並將所有相關資訊提供給 Cloud Exchange 提供者及 IBM Cloud。若為 Equinix 提供者，一般部署時間可能需要數小時。IBM Cloud Direct Link Exchange 供應項目的一般部署時間需要 5-10 天才能完成。 
 
-9. IBM Cloud Direct Link Exchange 需要在 IBM Cloud 網路端使用 VRF（虛擬遞送與轉遞）實例。這可讓客戶定義自己要使用於其遠端網路的遠端 IP 位址；不過，您必須知道，即使您可以使用 10.x.x.x 網路，但仍然無法與 IBM Cloud 內的主機或 IBM Cloud 服務網路（10.0.0.0/14、10.198.0.0/15 及 10.200.0.0/14）重疊。當每個 VLAN 移轉至新的配置時，將您的帳戶轉移至 VRF 需要使專用網路短暫中斷。「網路工程」團隊將與您一起定義此活動的時間範圍。
+9. IBM Cloud Direct Link Exchange 需要在 IBM Cloud 網路端使用 VRF（虛擬遞送與轉遞）實例。這可讓客戶定義自己要使用於其遠端網路的遠端 IP 位址；不過，您必須知道，即使您可以使用 10.x.x.x 網路，但仍然無法與 IBM Cloud 內的主機或 IBM Cloud 服務網路（10.0.0.0/14、10.198.0.0/15 及 10.200.0.0/14）重疊。當每個 VLAN 移轉至新的配置時，將您的帳戶轉移至 VRF 需要使專用網路短暫中斷。Special Network Services 團隊將與您一起定義此活動的時間範圍，且正常上班時間為星期一到五的 8-5 CST（美國中部標準時間）。在此時間範圍外的任何啟動活動，將需要事先透過問題單要求並核准，如果工程師有空的話。 
 
 10. VRF 與 IBM Cloud SSL、PPTP 及 IPSEC VPN 服務並不相容。替代方案是使用 Direct Link 本身來管理您的伺服器，或執行您自己的 VPN 解決方案（例如，Vyatta），它可以用不同類型的 VPN 來配置。移轉至 VRF 之後，與所存取之運算系統相同的 DC 位置之間建立 VPN 連線時，SSL VPN 通常會正常運作，但不容許廣域存取。
 
