@@ -3,7 +3,7 @@
 copyright:
   years: 2017, 2018
 
-lastupdated: "2018-08-23"
+lastupdated: "2018-11-02"
 
 ---
 
@@ -39,6 +39,16 @@ lastupdated: "2018-08-23"
     サーバー・デプロイメント、クラウド、およびお客様の間に追加のステップが入るデリバリー・システムは遅すぎ、間接的すぎたため、IBM Cloud がお客様に約束する低遅延および高スループットを実現できていませんでした。 
 
     APAC および米国にある Digital Realty のハブ・ロケーションにコロケーションすることを選択することで、IBM Cloud データ・センターは、Digital Realty の世界的なデータ・センター・デプロイメントのすぐ近くに位置することになりました。これらは、直接のダーク・ファイバー接続で結ばれています。
+    
+## 重要な発表
+
+* [InterCloud が IBM Cloud への専用接続を提供 (InterCloud Offers Dedicated Connectivity to IBM Cloud)](https://info.intercloud.com/intercloud-offers-dedicated-connectivity-to-ibm-cloud)
+
+    国有鉄道会社 Société des Chemins de fer Français (SNCF) がセキュアな専用接続を介してビジネスに不可欠なアプリケーションをクラウドにマイグレーションするために、IBM Cloud と InterCloud がどのように支援しているかを説明します。
+    
+* [IBM Cloud がサテライトによりラストマイルの課題を解決 (IBM Cloud Solves Last Mile Challenges with Satellite)](https://www.satellitetoday.com/mobility/2018/10/25/ibm-cloud-solves-last-mile-challenges-with-satellite/)、著者: Adrienne Harebottle
+
+    お客様がサテライトの機能を活用して主要な接続の課題を克服できるように、SES Network の決定が IBM Cloud と提携する方法を説明します。
 
 ## IBM Web サイトのブログ
 
@@ -53,3 +63,7 @@ lastupdated: "2018-08-23"
 * [PacketFabric と IBM Cloud でセキュア・エンタープライズ接続を実現 (Enable Secure Enterprise Connections)](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/)、著者: Paul Hertzfeldt
 
 * [AT TOKYO が IBM Cloud に接続してミッション・クリティカル・アプリケーションをサポート (AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications)](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/)、著者: Paul Hertzfeldt
+
+* [Interxion が IBM Cloud サービスを使用してエンタープライズ・ハイブリッドおよびマルチクラウド戦略を最適化する (Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services)](https://www.ibm.com/blogs/bluemix/2018/09/interxion-enterprise-ibm-cloud-services/)、著者: Paul Hertzfeldt
+
+* [SES Networks と IBM によるデジタル・エクスペリエンスの向上 (Improve Digital Experiences with SES Networks and IBM)](https://www.ibm.com/blogs/bluemix/2018/10/improve-digital-experiences-with-ses-networks-and-ibm/)、著者: Paul Hertzfeldt

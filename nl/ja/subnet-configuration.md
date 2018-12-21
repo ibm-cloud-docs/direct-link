@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-24"
+lastupdated: "2018-11-19"
 
 ---
 
@@ -89,7 +89,7 @@ VRF では、アカウントの「VLAN スパンニング」オプション (す
 代替方法の 1 つは、IBM Cloud Direct Link オファリング自体を使用してサーバーを管理するか、別のタイプの VPN を使用して構成できる独自の VPN ソリューション (Vyatta など) を実行することです。 VRF へのマイグレーション後、計算 VM が稼働しているデータ・センターと同じ場所に VPN 接続が行われた場合、通常 SSL VPN は機能しますが、グローバルなアクセスは許可しません。
 
 ## Direct Link での BYOIP および NAT の使用
-IBM クラウド Direct Link は、プライベート・ネットワークに BYOIP を提供しません (ただし、[カスタム・プライベート・アドレッシング](#custom-private-addressing)に関するセクションに含まれている特別な環境を除きます)。 そのため、{{site.data.keyword.BluSoftlayer_notm}} が割り当てたものではない宛先 IP アドレスを持つトラフィックはドロップされます。 ただし、お客様は、GRE、IPSec、または VXLAN を使用して、リモート・ネットワークと {{site.data.keyword.BluSoftlayer_notm}} ネットワーク間のトラフィックをカプセル化することができます。  
+IBM クラウド Direct Link は、プライベート・ネットワークに BYOIP を提供しません (ただし、[カスタム・プライベート・アドレッシング](#about-custom-private-addressing)に関するセクションに含まれている特別な環境を除きます)。 そのため、{{site.data.keyword.BluSoftlayer_notm}} が割り当てたものではない宛先 IP アドレスを持つトラフィックはドロップされます。 ただし、お客様は、GRE、IPSec、または VXLAN を使用して、リモート・ネットワークと {{site.data.keyword.BluSoftlayer_notm}} ネットワーク間のトラフィックをカプセル化することができます。  
 
 最も一般的には、BYOIP 環境は、ネットワーク・ゲートウェイ (Vyatta) または VMWare NSX デプロイメントの有効範囲内に実装されます。 この構成では、お客様は {{site.data.keyword.BluSoftlayer_notm}} サイドの任意の望ましい IP スペースを使用し、トンネル経由でルーティングしてリモート・ネットワークに戻すことができます。 この構成は、{{site.data.keyword.BluSoftlayer_notm}} から独立して、お客様が管理してサポートする必要があります。 さらに、この構成では、{{site.data.keyword.BluSoftlayer_notm}} がサービスに使用中の 10.x.x.x ブロックをお客様が割り当てた場合、{{site.data.keyword.BluSoftlayer_notm}} サービス・ネットワークの接続を切断するおそれがあります。 
 

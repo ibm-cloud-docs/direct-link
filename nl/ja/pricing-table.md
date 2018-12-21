@@ -2,11 +2,13 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-06"
+lastupdated: "2018-11-19"
 
 ---
 
-# 料金設定テーブル
+# 料金表
+
+次の表に、IBM Cloud Exchange、Connect、および Dedicated の料金の完全なリストを示します。
 
 | 地域 | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps | 2 Gbps | 5 Gbps | 10 Gbps |
 |----|----|----|----|----|----|----|----|----|
