@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2017, 2018
+  years: 2017, 2018, 2019
 
-lastupdated: "2018-11-02"
+lastupdated: "2019-01-04"
 
 ---
 
@@ -15,9 +15,13 @@ lastupdated: "2018-11-02"
 {:tip: .tip}
 {:download: .download}
 
-# External Resources
+# Related Resources
 
 These resources are created by IBM and some of our partners and customers.
+
+## IBM Cloud solution tutorials
+
+* [**Isolate workloads with a secure private network**](https://console.bluemix.net/docs/tutorials/secure-network-enclosure.html#isolate-workloads-with-a-secure-private-network)
 
 ## Papers and case studies
 
@@ -40,7 +44,7 @@ These resources are created by IBM and some of our partners and customers.
 
     Choosing to co-locate at Digital Realty’s hub locations in APAC and the U.S. puts IBM Cloud Data Centers right next door to Digital Realty’s world-class data center deployments, with direct dark fiber connection between them.
     
-## Featured Announcements
+## Featured announcements
 
 * [InterCloud Offers Dedicated Connectivity to IBM Cloud](https://info.intercloud.com/intercloud-offers-dedicated-connectivity-to-ibm-cloud)
 
@@ -50,7 +54,7 @@ These resources are created by IBM and some of our partners and customers.
 
     Learn how SES Network's decision to partner with IBM Cloud to help customers overcome key connectivity challenges by harnessing the power of satellite.
 
-## Blogs on the IBM Website
+## Blogs on the IBM website
 
 * [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/blogs/bluemix/2017/12/megaport-and-ibm-empower-enterprise-cloud/), by Matt Simpson and Jill Tempelmeyer
 
