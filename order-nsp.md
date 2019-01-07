@@ -39,7 +39,6 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | PER01 | Metronode | F1Z | 60 Randell St, Shenton Park, Western Australia |
 | SEO01 | C&C | Seoul01 | 46, Pangyo-ro 255beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do |
 | SEO02 | KINX | KINX Bundang IDC | 3F Hostway IDC ,343-1 Yatap-dong , Gyeonggi-do |
-| SNG01 | Digital Realty | SIN10 | 29A International Business Park, S180 |
 | SNG02 | Equinix | SG1 | 20 Ayer Rajan Crescent Industrial Park |
 | SYD01 | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
 | SYD02 | Equinix | SY3 | 47 Bourke Rd |
