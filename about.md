@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-08-09"
+  years: 2017, 2018, 2019
+lastupdated: "2019-01-08"
 
 ---
 
@@ -26,7 +26,7 @@ This section lets you browse more details about the key features and benefits of
 
 The IBM Cloud Direct Link Exchange solution lets customers leverage a Cloud Exchange provider to deliver connectivity to {{site.data.keyword.BluSoftlayer_notm}} locations. This offering typically provides connectivity at a reduced cost, because the physical connectivity from {{site.data.keyword.BluSoftlayer_notm}} to the Cloud Exchange Provider is already in place, shared amongst other customers.
 
-**Common Use Cases:** _Best for hybrid workloads, cross-provider workloads, large or frequent data transfers with high-egress bandwisth, private workloads, and environment administration.  This option usually is selected when the desired PoP location already has the desired IBM Cloud Direct Link Exchange provider._
+**Common Use Cases:** _Best for hybrid workloads, cross-provider workloads, large or frequent data transfers with high-egress bandwidth, private workloads, and environment administration.  This option usually is selected when the desired PoP location already has the desired IBM Cloud Direct Link Exchange provider._
 
 ![Figure 1](/images/Direct-Link-Exchange.png)
 
