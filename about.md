@@ -40,7 +40,7 @@ The IBM Cloud Direct Link Exchange solution lets customers leverage a Cloud Exch
 
  * **Approximate Latency:** Latency is approximately 1.5ms within the local area (datacenters with the same three-letter prefix, such as DAL, AMS, MEL). See http://lg.softlayer.com/ for live PoP-to-PoP (P2P) location latency measurements.
 
- * **Colocation Services:** None.
+ * **IBM Colocation Services:** None.
 
  * **Redundancy:** To establish redundancy for IBM Cloud Direct Link Exchange, connectivity into 2+ locations is required, or the selection of a location with a secondary XCR available that can be leveraged by the Cloud Exchange provider.
 
@@ -62,7 +62,7 @@ The IBM Cloud Direct Link Exchange solution lets customers leverage a Cloud Exch
 
 * **Approximate Latency:** Latency is approximately 1.5ms within the local area (datacenters with the same three-letter prefix, such as DAL, AMS, MEL). See http://lg.softlayer.com/ for live PoP-to-PoP (P2P) location latency measurements.
 
-* **Colocation Services:** None.
+* **IBM Colocation Services:** None.
 
 * **Redundancy:** To establish redundancy for IBM Cloud Direct Link Connect, connectivity into 2+ locations is required, or the selection of a location with a secondary XCR available that can be leveraged by the IBM Cloud Connect provider.
 
@@ -86,7 +86,7 @@ The IBM Cloud Direct Link Dedicated solution lets customers terminate a dedicate
 
  * **Approximate Latency:** Latency is approxiately 1.5ms within the local area (datacenters with the same three-letter prefix, such as DAL, AMS, MEL).  See http://lg.softlayer.com/ for live PoP-to-PoP (P2P) location latency measurements.
 
- * **Colocation Services:** None.
+ * **IBM Colocation Services:** None.
 
  * **Redundancy:** To establish redundancy requires IBM Cloud Direct Link connectivity into 2+ locations, or the selection of a location with a secondary XCR available and a second IBM Cloud Direct Link connection request.
 
@@ -110,7 +110,7 @@ The IBM Cloud Direct Link Dedicated Hosting solution provides connectivity simil
 
  * **Approximate Latency:** Latency is approximately 0.5ms within the local datacenter.
 
- * **Colocation Services:** Yes.
+ * **IBM Colocation Services:** Yes.
 
  * **Redundancy:** {{site.data.keyword.BluSoftlayer_notm}} provides connections to two cross-connect routers (XCRs) as part of the product. To establish redundant connectivity, customers must configure BGP on each Direct Link connection as they see fit to achieve redundancy. Examples include options such as these: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
