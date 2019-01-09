@@ -30,7 +30,7 @@ In general, the IBM Cloud Platform offers two options for routing across our pri
 
 This document uses the term **Customer VRF** to describe _multiple isolation_ network connectivity.
 
-## Customer VRF Overview
+## VRF Overview (multiple isolation technology)
 
 Virtual routing and forwarding (VRF) allows multiple instances of a routing table to exist in a router and to work simultaneously. With virtual routing and forwarding (VRF), each cloud tenant's VRF network is segmented within its routing table. This segmentation allows for IP address overlaps, and it doesn’t create any interaction or interference with other tenant VRFs. IBM Cloud utilizes a large majority of the `10.0.0.0/8` network, which may overlap with many remote networks, for example networks deployed at customer datacenters. 
 
@@ -54,9 +54,9 @@ Each tenant on the backbone who utilizes Virtual Routing and Forwarding (VRF) ma
 
 * The Customer VRF is a connectivity service that provides isolation among tenants. Any additional controls needed within a tenancy must be provisioned separately, using a gateway, security groups, or host-based controls.
 
-## Benefits of moving to a Customer VRF
+## Benefits of moving to VRF
 
-**The primary benefits of a Customer VRF include:**
+**The primary benefits include:**
 
 * Industry-proven and widely accepted _multiple isolation_ separation technology. Many cloud customers find the Level-3 VPN approach more palatable (than ACLs) to their auditors and compliance officers.   
 
@@ -64,7 +64,7 @@ Each tenant on the backbone who utilizes Virtual Routing and Forwarding (VRF) ma
 
 * Tenant-specific routing tables narrow the aperture for IP address overlap, without the risk of overlap with other tenants' subnets or other parts of the network that are not applicable. 
 
-**A few minor trade-offs come with the Customer VRF, compared to the older ACL model:**  
+**A few minor trade-offs, compared to the older ACL model:**  
 
 * Converting to a Customer VRF requires a maintenance window, which causes a brief disruption of backbone traffic flows.
 
