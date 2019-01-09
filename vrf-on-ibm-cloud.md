@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-25"
+  years: 2017, 2018, 2019
+lastupdated: "2019-01-10"
 
 ---
 
@@ -32,9 +32,9 @@ This document uses the term **Customer VRF** to describe _multiple isolation_ ne
 
 ## Customer VRF Overview
 
-Virtual routing and forwarding (VRF) allows multiple instances of a routing table to exist in a router and to work simultaneously. With virtual routing and forwarding (VRF), each customer's VRF network is segmented within its routing table. This segmentation allows for IP address overlaps, and it doesn’t create any interaction or interference with other customer VRFs. IBM Cloud utilizes a large majority of the `10.0.0.0/8` network, which may overlap with many customer's remote networks. 
+Virtual routing and forwarding (VRF) allows multiple instances of a routing table to exist in a router and to work simultaneously. With virtual routing and forwarding (VRF), each cloud tenant's VRF network is segmented within its routing table. This segmentation allows for IP address overlaps, and it doesn’t create any interaction or interference with other tenant VRFs. IBM Cloud utilizes a large majority of the `10.0.0.0/8` network, which may overlap with many remote networks, for example networks deployed at customer datacenters. 
 
-Using Virtual Routing and Forwarding (VRF), customers are allowed to use remote IP addresses that normally would not be allowed to overlap in the Global table. IBM still reserves the following RFC 1918, link-local addresses, and multicast addresses, which are unrouteable from this VRF service:
+Using Virtual Routing and Forwarding (VRF), IBM Cloud tenants are allowed to use remote IP addresses that normally would not be allowed to overlap in the Global table. IBM still reserves the following RFC 1918, link-local addresses, and multicast addresses, which are unrouteable from this VRF service:
 
 * `10.0.0.0/14` 
 * `10.200.0.0/14` 
@@ -44,23 +44,23 @@ Using Virtual Routing and Forwarding (VRF), customers are allowed to use remote 
 * `166.9.0.0/16`(which the private endpoint service uses)
 * Any IP ranges assigned to your VLANs on the IBM platform.
 
-IBM is moving forward with a next-generation Cloud deployment to enable Virtual Private Cloud (VPC ) in our Availability Zones (AZs). This new VPC capability enables customers to use Bring Your own IP ( BYoIP) in the VPC-enabled AZ’s., which are located in Dallas, Washington DC, London, Frankfurt, Tokyo, and Sydney. 
+IBM is moving forward with a next-generation Cloud deployment to enable Virtual Private Cloud (VPC) in our Availability Zones. This new VPC capability enables Bring Your own IP (BYoIP) in the VPC-enabled Availability Zones (AZs), which are located in Dallas, Washington DC, London, Frankfurt, Tokyo, and Sydney. 
 
-Each tenant on the backbone who utilizes Virtual Routing and Forwarding (VRF) may have one (and only one) _Customer VRF_ per Direct Link, which provides connectivity amongst all the tenant’s servers, regardless of location. However, a customer may have more than one Direct Link account that feeds into a single cross-connect router.  
+Each tenant on the backbone who utilizes Virtual Routing and Forwarding (VRF) may have one (and only one) _Customer VRF_ per Direct Link, which provides connectivity amongst all the tenant’s servers, regardless of location. However, an IBM Cloud tenant may have more than one Direct Link account that feeds into a single cross-connect router.  
 
 * A tenant’s servers in any VLAN, in any pod, in any datacenter worldwide can reach all of that tenant’s other servers globally. 
 
 * Every tenant’s Customer VRF is connected to the common shared services network, to provide private reachability for those servers to use DNS, shared storage, monitoring, patching, and so forth.
 
-* The customer VRF is a connectivity service that provides isolation among tenants. Any additional controls needed within a tenancy must be provisioned separately, using a gateway, security groups, or host-based controls.
+* The Customer VRF is a connectivity service that provides isolation among tenants. Any additional controls needed within a tenancy must be provisioned separately, using a gateway, security groups, or host-based controls.
 
 ## Benefits of moving to a Customer VRF
 
 **The primary benefits of a Customer VRF include:**
 
-* Industry-proven and widely accepted _multiple isolation_ separation technology. Many customers find the Level-3 VPN approach more palatable (than ACLs) to their auditors and compliance officers.   
+* Industry-proven and widely accepted _multiple isolation_ separation technology. Many cloud customers find the Level-3 VPN approach more palatable (than ACLs) to their auditors and compliance officers.   
 
-* Customers can extend or migrate the reach of their network significantly, due to addition of new sites or applications throughout the IBM network. 
+* IBM Cloud customers can extend or migrate the reach of their network significantly, due to addition of new sites or applications throughout the IBM network. 
 
 * Tenant-specific routing tables narrow the aperture for IP address overlap, without the risk of overlap with other tenants' subnets or other parts of the network that are not applicable. 
 
@@ -70,22 +70,22 @@ Each tenant on the backbone who utilizes Virtual Routing and Forwarding (VRF) ma
 
 * Remote access by means of the managed VPN services (SSL, IPSec) is limited to the local datacenter; however, the shared ACL backbone allows global access from any entry point.
 
-* VLAN spanning within a customer's _multiple isolation_ tenancy not available.
+* VLAN spanning within your _multiple isolation_ tenancy is not available.
 
 ## What happens during account conversion process
 
-Many customers are currently operating in a shared tenancy model on the IBM Cloud network. During conversion, the tenancy is converted to use a Customer VRF, most commonly with a new Direct Link subscription, or as otherwise required or requested.  
+Many IBM Cloud customers currently operate with a shared tenancy model on the IBM Cloud network. During conversion, the tenancy is converted to use a Customer VRF, most commonly with a new Direct Link subscription, or as otherwise required or requested.  
 
-The conversion process involves a network disruption, while the VLANs and their subnets are detached from the ACL backbone and then attached to the Customer VRF. This process results in a few moments of packet loss for traffic entering or exiting the VLANs. Packets within the VLAN continue to flow. In the cases where a network gateway, such as a FortiGate Security Appliance or Virtual Router Appliance is involved, no disruption occurs among the VLANs attached to that gateway. The servers see no network outage themselves, and most workloads automatically recover when the traffic flow resumes. The total duration of the disruption depends on the extent of the tenant’s topology, that is, the number of subnets, VLANs, and pods the that tenancy includes.
+The conversion process involves a network disruption, while the VLANs and their subnets are detached from the ACL backbone and then attached to the Customer VRF. This process results in a few moments of packet loss for traffic entering or exiting the VLANs. Packets within the VLAN continue to flow. In the cases where a network gateway, such as a FortiGate Security Appliance or Virtual Router Appliance is involved, no disruption occurs among the VLANs attached to that gateway. The servers see no network outage themselves, and most workloads automatically recover when the traffic flow resumes. The total duration of the disruption depends on the extent of the tenant’s topology, that is, the number of subnets, VLANs, and pods that your tenancy includes.
 
 ![The conversion process](/images/vrf-on-ibm-cloud.png)
 
-During migration, the customer VLANs are disconnected from the backbone and reconnected to the Customer’s VRF.  The duration of disruption varies, depending on the quantity of VLANs, PODs, and datacenters involved. Traffic among VLANs is disrupted, yet the servers stay connected to the network. The application may or may not be affected, depending on its sensitivity to packet loss.
+During migration, the VLANs are disconnected from the backbone and reconnected to the Customer VRF.  The duration of disruption varies, depending on the quantity of VLANs, PODs, and datacenters involved. Traffic among VLANs is disrupted, yet the servers stay connected to the network. The application may or may not be affected, depending on its sensitivity to packet loss.
 
 ## How you can initiate the conversion
 
-Our customers can open a support ticket through their [IBM Cloud Console ![External link icon](../../icons/launch-glyph.svg "External link icon")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) account, requesting to be migrated to a VRF. The ticket should state: “Private Network Question” and include the following text in the support ticket: 
+Existing IBM Cloud customers can open a support ticket through their [IBM Cloud Console ![External link icon](../../icons/launch-glyph.svg "External link icon")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) account, requesting to be migrated to a VRF. The ticket should state: “Private Network Question” and include the following text in the support ticket: 
 
-"We are requesting that account _fill in your account number_ is moved to its own VRF. We understand the risks and approve the change.  Please reply back with the scheduled window(s) of time where this change will be made so we can prepare for the migration." 
+"We are requesting that account _fill in your account number_ is moved to its own VRF. We understand the risks and approve the change. Please reply back with the scheduled window(s) of time where this change will be made so we can prepare for the migration." 
 
-Migration is completed by the IBM Cloud Network Engineering team. No other information is required from the customer, except  an agreed-to schedule. Typically, packet loss may last 15-30 minutes, depending on the complexity of the account. (It may be longer if a customer has legacy Direct Link connections). The process is highly automated. It involves minimal interaction by the IBM team, and it should be transparent to a customer.
+Migration is completed by the IBM Cloud Network Engineering team. No other information is required from you, except an agreed-to schedule. Typically, packet loss may last 15-30 minutes, depending on the complexity of your account. (It may be longer if your account has legacy Direct Link connections). The process is highly automated, requiring minimal interaction by the IBM team, and it should be transparent.
