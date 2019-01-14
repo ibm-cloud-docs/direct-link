@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-24"
+  years: 2018, 2019
+lastupdated: "2019-01-14"
 
 ---
 
@@ -19,13 +19,13 @@ lastupdated: "2018-10-24"
 
 Pricing for IBM Cloud Direct Link Exchange, Connect, and Dedicated offerings is consistent for equivalent regions and bandwidth, as shown in the following table:
 
-## Pricing for IBM Cloud Exchange, Connect, and Dedicated
+## Pricing per month for IBM Cloud Exchange, Connect, and Dedicated
 
 If your browser shows this table with speeds less than 1Gbps, please select the following link to see the complete table, use your mouse or trackpad to scroll this page horizontally, or click "Edit in GitHub" at the top of this page to see the raw file.
 
 [Complete table](pricing-table.html)
 
-## Pricing for Direct Link Exchange
+## Pricing per month for Direct Link Exchange
 
 | Region | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps |
 |----|----|----|----|----|----|
@@ -41,7 +41,7 @@ If your browser shows this table with speeds less than 1Gbps, please select the 
 | Mexico| $107 | $161 | $321 | $696 | $1,283 | 
 | Brazil | $120 | $180 | $360 | $780 | $1,439 |
 
-## Pricing for Direct Link Connect
+## Pricing per month for Direct Link Connect
 
 | Region | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps | 2 Gbps | 5 Gbps |
 |----|----|----|----|----|----|----|----|
@@ -57,7 +57,7 @@ If your browser shows this table with speeds less than 1Gbps, please select the 
 | Mexico| $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 | 
 | Brazil | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
 
-## Pricing for Direct Link Dedicated
+## Pricing per month for Direct Link Dedicated
 
 | Region |  1 Gbps | 2 Gbps | 5 Gbps | 10 Gbps |
 |----|----|----|----|----|
@@ -83,9 +83,9 @@ The IBM Cloud Dedicated Hosting minimum configuration includes one (1) rack with
 
 Local routing is included as a basic part of all IBM Cloud Direct Link offerings. It includes access to all of the datacenters connected directly to the PoP location, and it provides unlimited ingress and egress traffic. If you need to route your traffic outside the PoP location in the area within which you are ordering Direct Link, you must add the Global Routing option. Otherwise, your traffic is restricted to the services provided by the local PoP. Local routing does not incur any overage fees.
 
-## Pricing for Global Routing Add-on
+## Pricing per month for Global Routing Add-on
 
-Global routing expands access to include all IBM Cloud datacenters globally. Bandwidth is metered and charged monthly based on the market. Details on the markets and other considerations can be found in our [FAQs file](faqs.html#what-are-the-local-routing-and-global-routing-options)
+Global routing expands access to include all IBM Cloud datacenters globally. Bandwidth is metered and charged monthly based on the market. Details on the markets and other considerations can be found in our [FAQs file](faqs.html#what-is-the-difference-between-the-default-local-routing-and-the-global-routing-add-on-for-direct-link)
 
 If you select Global Routing, you are not charged for any local egress traffic, only for traffic that originates or terminates outside of the local PoP.
 
@@ -109,9 +109,9 @@ Each month, all customers using circuits below 10Gbps are allotted 10TB of free 
 
 |Area | Fee |
 |--------|--------|
-| Market 1: | $0.05 per GB |
-| Market 2: | $0.10 per GB |
-| Market 3: | $0.15 per GB |
+| Market 1: | $0.05 per GB per month |
+| Market 2: | $0.10 per GB per month |
+| Market 3: | $0.15 per GB per month |
 
 
 ## Local Routing and Global Routing markets
@@ -124,3 +124,19 @@ Each month, all Global Routing customers using 1G Circuits are allotted 10TB of 
 |<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li><li>LON</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
 **Table 1: Utilization tiers**<br/>
 Direct Link offerings in the markets marked with an asterisk (*) MUST order Global Routing.
+
+## Special fees for special services
+
+Some special configuration services are available for additional cost. Most of the fees are one-time fees for setup, denoted by "NRC" in the table.
+
+| Type of service | Fee |
+|-----------------|------|
+| Special Network Services (SNS) fee | $3000 MRC (monthly) per Account |
+| Multi-Vlan Tenants | $1000 MRC (monthly) per Direct Link |
+| BCR Peering | $1000 MRC (monthly) per POD |
+| Static Route | $100 NRC |
+| ASN Prepend | $100 NRC |
+| Custom BGP Export Policy | $250 NRC |
+| Custom BGP Import Policy | $250 NRC |
+| Custom inbound ACL on XCR | $250 NRC |
+| Custom outbound ACL on XCR | $250 NRC |
