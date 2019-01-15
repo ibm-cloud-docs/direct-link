@@ -125,9 +125,9 @@ Each month, all Global Routing customers using 1G Circuits are allotted 10TB of 
 **Table 1: Utilization tiers**<br/>
 Direct Link offerings in the markets marked with an asterisk (*) MUST order Global Routing.
 
-## Special fees for special services
+## Additional fees for Customization 
 
-Some special configuration services are available for additional cost. Most of the fees are one-time fees for setup, denoted by "NRC" in the table.
+Several Customized, non-standard configurations are available for additional cost. Most of the fees are one-time fees for setup, denoted by "NRC" in the table.
 
 | Type of service | Fee |
 |-----------------|------|
