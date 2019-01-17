@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-14"
+lastupdated: "2019-01-16"
 
 ---
 
@@ -127,7 +127,7 @@ Direct Link offerings in the markets marked with an asterisk (*) MUST order Glob
 
 ## Additional fees for Customization 
 
-Several Customized, non-standard configurations are available for additional cost. Most of the fees are one-time fees for setup, denoted by "NRC" in the table.
+Several Customized, non-standard configurations are available for additional cost. Most of the fees are one-time fees for setup, denoted by "NRC" in the table. These options require an Exception review by the offering management (OM) and SNS teams before approval.
 
 | Type of service | Fee |
 |-----------------|------|
