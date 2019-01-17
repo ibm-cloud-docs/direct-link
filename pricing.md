@@ -127,7 +127,7 @@ Direct Link offerings in the markets marked with an asterisk (*) MUST order Glob
 
 ## Additional fees for Customization 
 
-Several Customized, non-standard configurations are available for additional cost. Most of the fees are one-time fees for setup, denoted by "NRC" in the table.
+Several Customized, non-standard configurations are available for additional cost. Most of the fees are one-time fees for setup, denoted by "NRC" in the table. These options require Exception reveiw by OM and SNS team before approval.
 
 | Type of service | Fee |
 |-----------------|------|
