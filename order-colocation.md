@@ -56,7 +56,6 @@ The table below shows which IBM Cloud datacenters are able to accept customers f
 | EMEA | FRA03 |	Frankfurt |	PoP |	Equinix |	Larchenstrasse 110 |
 | EMEA | LON02  | Chessington | DC  | DLR  |  Fountain Court |
 | EMEA | LON03 | Slough |	PoP |	Equinix |	8 Buckingham Ave |
-| EMEA | LON04 | London |  DC (AZ1) |  Vysiion |  A57 Cody Technology Park Old |
 | EMEA | LON06 | London |	DC (AZ3) |	Zenium |	12 Liverpool Rd |
 | EMEA | PAR02 | Paris | PoP | Equinix |	114 Rue Ambroise Croizat |
 
