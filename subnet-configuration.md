@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-19"
+  years: 2017, 2018, 2019
+lastupdated: "2019-01-21"
 
 ---
 
@@ -13,10 +13,11 @@ lastupdated: "2018-11-19"
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # Configure IBM Cloud Direct Link
 
-Once your IBM Cloud Direct Link connectivity has been established, you can follow the steps given in this document to configure your subnet to interact with IBM Cloud.
+Once your {{site.data.keyword.cloud}} Direct Link connectivity has been established, you can follow the steps given in this document to configure your subnet to interact with IBM Cloud.
 
 In general, to get your IBM Cloud Direct Link connection working, you'll need to do some basic network configuration steps, and then you'll need to set up Border Gateway Protocol (BGP). During the setup process, an IBM engineer will work with you to enable your network to use Virtual Routing Function (VRF) capability, which is required.
 
