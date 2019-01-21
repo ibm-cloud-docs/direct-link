@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-23"
+  years: 2017, 2018, 2019
+lastupdated: "2019-01-18"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2018-07-23"
 
 # How to order IBM Cloud Direct Link Dedicated Hosting
 
-1. Identify your colocation and connectivity requirements, and work with the IBM sales team to finalize and execute a contract and technical addendum.
+1. Identify your colocation and connectivity requirements, and work with the {{site.data.keyword.cloud}} sales team to finalize and execute a contract and technical addendum.
 2. {{site.data.keyword.BluSoftlayer_notm}} executes a build order with the colocation provider for the requested environment and services. Deployment typically is completed within 30 days from when the build order is placed.
 
 3. When the build of your colocation cage is complete, the process to interconnect between your colocation cage and the {{site.data.keyword.BluSoftlayer_notm}} POD environment's XCR gear will follow the ordering process for [IBM Cloud Direct Link Dedicated](order-nsp.html#how-to-order-ibm-cloud-direct-link-dedicated), starting at Step 3.

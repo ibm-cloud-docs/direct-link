@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-16"
+lastupdated: "2019-01-18"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2019-01-16"
 
 # Pricing for IBM Cloud Direct Link 
 
-Pricing for IBM Cloud Direct Link Exchange, Connect, and Dedicated offerings is consistent for equivalent regions and bandwidth, as shown in the following table:
+Pricing for {{site.data.keyword.cloud}} Direct Link Exchange, Connect, and Dedicated offerings is consistent for equivalent regions and bandwidth, as shown in the following table:
 
 ## Pricing per month for IBM Cloud Exchange, Connect, and Dedicated
 

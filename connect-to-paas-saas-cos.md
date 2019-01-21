@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-04-24"
+  years: 2018, 2019
+lastupdated: "2019-01-18"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2018-04-24"
 
 # Together: IBM Cloud Direct Link and IBM Cloud Object Storage
 
-This document describes how to configure IBM Cloud Direct Link so that you have access to IBM Cloud Object Storage and other IBM Cloud services. Several methods exist for bridging from the private IBM Cloud IaaS network, upon which IBM Cloud Direct Link exists, to the “public” network that supports IBM Cloud PaaS and SaaS capabilities, without actually leaving the IaaS backbone.
+This document describes how to configure {{site.data.keyword.cloud}} Direct Link so that you have access to IBM Cloud Object Storage and other IBM Cloud services. Several methods exist for bridging from the private IBM Cloud IaaS network, upon which IBM Cloud Direct Link exists, to the “public” network that supports IBM Cloud PaaS and SaaS capabilities, without actually leaving the IaaS backbone.
 
 By current policy, IBM Cloud private service endpoints are not accessible through IBM Cloud Direct Link. The techniques described in this document rely on indirect access through systems hosted by IBM Cloud. While private service endpoints are not reachable by means of Direct Link, a customer's private servers and appliances can become reachable.
 

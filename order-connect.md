@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-08-30"
+  years: 2018, 2019
+lastupdated: "2019-01-18"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2018-08-30"
 # How to order IBM Cloud Direct Link Connect
 
  * Verify your network provider's capabilities to reach the appropriate PoP and cross-connect into the associated Connect provider.
- * Use the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) to open an IBM Cloud Direct Link Connect request and complete the requested information. (Assistance from IBM sales engineers can be requested.) 
+ * Use the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) to open an {{site.data.keyword.cloud}} Direct Link Connect request and complete the requested information. (Assistance from IBM sales engineers can be requested.) 
  * Contact your Connect provider and negotiate connectivity to your exchange.
  * Order connectivity between your network provider and the Connect provider.
  * Order a "virtual circuit" through the Connect provider, and refer the Ticket ID of the {{site.data.keyword.BluSoftlayer_notm}} IBM Cloud Direct Link request as your "Request ID" or "Authorization ID"

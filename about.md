@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-01-08"
+lastupdated: "2019-01-18"
 
 ---
 
@@ -16,7 +16,8 @@ lastupdated: "2019-01-08"
 
 # About IBM Cloud Direct Link
 
-This section lets you browse more details about the key features and benefits of each of the four IBM Cloud Direct Link solutions.
+This section lets you browse more details about the key features and benefits of each of the four {{site.data.keyword.cloud}}
+ Direct Link solutions.
   * [**IBM Cloud Direct Link Exchange**](#the-ibm-cloud-direct-link-exchange-solution)
   * [**IBM Cloud Direct Link Connect**](#the-ibm-cloud-direct-link-connect-solution)
   * [**IBM Cloud Direct Link Dedicated**](#the-ibm-cloud-direct-link-dedicated-solution)

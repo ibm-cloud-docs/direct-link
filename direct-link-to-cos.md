@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-30"
+  years: 2017, 2018, 2019
+lastupdated: "2019-01-18"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2018-10-30"
 
 # Using IBM Cloud Direct Link to connect to IBM Cloud Object Storage
 
-This document describes how to configure IBM Cloud Direct Link so that you have access to IBM Cloud Object Storage (COS). Although the methods described here were designed and tested with COS, they may work for certain other IBM Cloud services.
+This document describes how to configure {{site.data.keyword.cloud}} Direct Link so that you have access to IBM Cloud Object Storage (COS). Although the methods described here were designed and tested with COS, they may work for certain other IBM Cloud services.
 
 By current policy, IBM Cloud Direct Link denies access to IBM Cloud private service endpoints, including those used by IBM Cloud Object Storage (COS). The technique described in this document relies on indirect access to COS through servers hosted in a customer's IBM Cloud account. After setup, each customer's server can forward traffic bidirectionally between IBM Cloud private service endpoints and their remote networks connected by Direct Link.
 

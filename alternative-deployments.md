@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-04-12"
+  years: 2018, 2019
+lastupdated: "2019-01-18"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2018-04-12"
 
 # Alternatives for your IBM Cloud Direct Link Deployment
 
-This document illustrates some alternatives that our customers sometimes choose as use cases for their IBM Cloud Direct Link deployments.
+This document illustrates some alternatives that our customers sometimes choose as use cases for their {{site.data.keyword.cloud}} Direct Link deployments.
 
 ## Diverse deployments for Exchange and Connect
 

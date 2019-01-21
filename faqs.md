@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-13"
+  years: 2017, 2018, 2019
+lastupdated: "2019-01-18"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2018-11-13"
 
 # FAQs
 
-This section contains answers to some frequently asked questions about IBM Cloud Direct Link. 
+This section contains answers to some frequently asked questions about {{site.data.keyword.cloud}} Direct Link. 
 
 ## How does IBM Cloud Direct Link work?
 {: faq}

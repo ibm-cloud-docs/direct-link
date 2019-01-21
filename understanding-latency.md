@@ -9,7 +9,7 @@ lastupdated: "2018-05-07"
 
 # Understanding Latency
 
-_Go Hybrid with IBM Cloud Direct Link: making your workloads run faster, worldwide_
+_Go Hybrid with {{site.data.keyword.cloud}} Direct Link: making your workloads run faster, worldwide_
 
 IBM Cloud offers data centers with Direct Link capabilities around the globe. Therefore, you can count on minimal latency when you use Direct Link to create your Hybrid cloud solution by linking your IBM Cloud to your existing infrastructure.
 

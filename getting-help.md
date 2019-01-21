@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-02-28"
+  years: 2017, 2018, 2019
+lastupdated: "2019-01-18"
 
 
 
@@ -32,7 +32,7 @@ lastupdated: "2018-02-28"
 # Getting help and support 
 {: #gettinghelp}
 
-If you have problems or questions when using IBM Cloud Direct Link, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/).
+If you have problems or questions when using {{site.data.keyword.cloud}} Direct Link, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/).
 {:shortdesc}
 
 When using the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.

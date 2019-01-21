@@ -1,14 +1,14 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-19"
+  years: 2017, 2018, 2019
+lastupdated: "2019-01-18"
 
 ---
 
 # Pricing table
 
-The following table contains the complete list of pricing for IBM Cloud Exchange, Connect, and Dedicated
+The following table contains the complete list of pricing for {{site.data.keyword.cloud}} Exchange, Connect, and Dedicated
 
 | Region | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps | 2 Gbps | 5 Gbps | 10 Gbps |
 |----|----|----|----|----|----|----|----|----|

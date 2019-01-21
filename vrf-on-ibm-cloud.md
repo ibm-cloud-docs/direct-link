@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-01-10"
+lastupdated: "2019-01-18"
 
 ---
 
@@ -20,7 +20,7 @@ By definition, virtual routing and forwarding (VRF) is a technology included in 
 
 ## Connectivity Options for IBM Cloud
 
-**Dispersed cloud resources** are resources in more than one location, or even in more than one subnet or VLAN. These resources require a routing function to communicate amongst themselves, even within a private network context. This document describes a "multiple isolation" tenancy communication option, which often is called a _Customer VRF_. It is implemented as an MPLS Layer-3 VPN (RFC 4364) across the global IBM Cloud backbone.
+**Dispersed cloud resources** are resources in more than one location, or even in more than one subnet or VLAN. These resources require a routing function to communicate amongst themselves, even within a private network context. This document describes a "multiple isolation" tenancy communication option, which often is called a _Customer VRF_. It is implemented as an MPLS Layer-3 VPN (RFC 4364) across the global {{site.data.keyword.cloud}} backbone.
 
 In general, the IBM Cloud Platform offers two options for routing across our private network, providing connectivity across pods and datacenters: 
 

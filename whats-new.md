@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2018
-lastupdated: "2018-11-02"
+  years: 2018, 2019
+lastupdated: "2019-01-18"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,7 +9,7 @@ lastupdated: "2018-11-02"
 
 # What's New
 
-Check back regularly to see what's new with IBM Cloud Direct Link. We're growing daily!
+Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link. We're growing daily!
 
 ## November 2018
 
