@@ -44,7 +44,7 @@ The table below shows which IBM Cloud datacenters are able to accept customers f
 | APAC | MEL01 |  Melbourne  |  DC |  DLR |  72 Radnor Drive, Deer Park |
 | APAC |  SYD01 |  Sydney | DC (AZ1) | Global Switch  |  400 Harris Street aka 273 Pyrmont St. Ultimo |
 | APAC |	SYD02 |	 Sydney |	PoP |	Equinix |	47 Bourke Rd |
-| APAC |	SYD03 |	 Sydney |	PoP |	Equinix |	4 Eden Park Drive |
+| APAC |	SYD03 |	 Sydney |	PoP |	NextDC |	4 Eden Park Drive |
 | APAC |	SYD05 |	 Sydney |	DC (AZ3) |	Equinix |	200 Bourke Rd |
 | APAC |  SNG01 |  Jurong East |  DC | DLR |  29a International Business Park, S180 |
 | APAC |  SNG02 |	Ayer Rajan	| PoP |	Equinix |	20 Ayer Rajan Crescent Industrial Park |
@@ -57,6 +57,8 @@ The table below shows which IBM Cloud datacenters are able to accept customers f
 | EMEA | LON02  | Chessington | DC  | DLR  |  Fountain Court |
 | EMEA | LON03 | Slough |	PoP |	Equinix |	8 Buckingham Ave |
 | EMEA | LON06 | London |	DC (AZ3) |	Zenium |	12 Liverpool Rd |
+| EMEA | PAR01 | Paris | DC | Global Switch | Société par Actions Simplifiée Unipersonnelle
+7-9 rue Petit |
 | EMEA | PAR02 | Paris | PoP | Equinix |	114 Rue Ambroise Croizat |
 
 
