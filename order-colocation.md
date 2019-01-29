@@ -48,7 +48,6 @@ The table below shows which IBM Cloud datacenters are able to accept customers f
 | APAC |	SYD05 |	 Sydney |	DC (AZ3) |	Equinix |	200 Bourke Rd |
 | APAC |  SNG01 |  Jurong East |  DC | DLR |  29a International Business Park, S180 |
 | APAC |  SNG02 |	Ayer Rajan	| PoP |	Equinix |	20 Ayer Rajan Crescent Industrial Park |
-| APAC | TOK01 |	Shinagawa-ku | PoP | Equinix |	Shinagawa-ku |
 | APAC | TOK02  |  Koto-ku | DC (AZ1) | AT Tokyo  |  Koto-ku |
 |  |  |  |  |  |  |
 | EMEA | AMS02 |	Amsterdam |	PoP |	Equinix |	Larrderhoogtweg 57 |
@@ -57,8 +56,7 @@ The table below shows which IBM Cloud datacenters are able to accept customers f
 | EMEA | LON02  | Chessington | DC  | DLR  |  Fountain Court |
 | EMEA | LON03 | Slough |	PoP |	Equinix |	8 Buckingham Ave |
 | EMEA | LON06 | London |	DC (AZ3) |	Zenium |	12 Liverpool Rd |
-| EMEA | PAR01 | Paris | DC | Global Switch | Société par Actions Simplifiée Unipersonnelle
-7-9 rue Petit |
+| EMEA | PAR01 | Paris | DC | Global Switch | Société par Actions Simplifiée Unipersonnelle 7-9 rue Petit Clichy 92582 |
 | EMEA | PAR02 | Paris | PoP | Equinix |	114 Rue Ambroise Croizat |
 
 
