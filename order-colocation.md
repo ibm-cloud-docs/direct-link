@@ -45,14 +45,17 @@ The table below shows which IBM Cloud datacenters are able to accept customers f
 | APAC |  SYD01 |  Sydney | DC (AZ1) | Global Switch  |  400 Harris Street aka 273 Pyrmont St. Ultimo |
 | APAC |	SYD02 |	 Sydney |	PoP |	Equinix |	47 Bourke Rd |
 | APAC |	SYD03 |	 Sydney |	PoP |	NextDC |	4 Eden Park Drive |
+| APAC |	SYD04 |	 Sydney |	DC |	DLR |	1-11 Templar Rd, Erskine Park |
 | APAC |	SYD05 |	 Sydney |	DC (AZ3) |	Equinix |	200 Bourke Rd |
 | APAC |  SNG01 |  Jurong East |  DC | DLR |  29a International Business Park, S180 |
 | APAC |  SNG02 |	Ayer Rajan	| PoP |	Equinix |	20 Ayer Rajan Crescent Industrial Park |
 | APAC | TOK02  |  Koto-ku | DC (AZ1) | AT Tokyo  |  Koto-ku |
+| APAC | TOK05  |  Kawasaki | DC (AZ3) | NTT |  Kawasaki |
 |  |  |  |  |  |  |
 | EMEA | AMS02 |	Amsterdam |	PoP |	Equinix |	Larrderhoogtweg 57 |
 | EMEA | FRA02  | Frankfurt |  DC (AZ1) | Zenium   | Leonhard - Heisswolf Str. 4 |
 | EMEA | FRA03 |	Frankfurt |	PoP |	Equinix |	Larchenstrasse 110 |
+| EMEA | FRA05 |	Frankfurt |	DC |	InterXion |	Weismüllerstraße 40 |
 | EMEA | LON02  | Chessington | DC  | DLR  |  Fountain Court |
 | EMEA | LON03 | Slough |	PoP |	Equinix |	8 Buckingham Ave |
 | EMEA | LON06 | London |	DC (AZ3) |	Zenium |	12 Liverpool Rd |
