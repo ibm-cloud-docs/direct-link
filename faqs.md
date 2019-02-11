@@ -13,7 +13,7 @@ lastupdated: "2019-01-18"
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
-{: faq: data-hd-content-type=‘faq’}
+{: faq: data-hd-content-type='faq'}
 
 # FAQs
 
