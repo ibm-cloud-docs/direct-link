@@ -84,7 +84,7 @@ This method is the currently recommended approach.
  * As an adaptation of Method 2, instead of hosting Web apps on Cloud servers, host HTTPS servers (for example,  NGINX) configured for reverse proxy.
  * Each server listens on HTTPS, with self-issued certificate, and passes requests directly to private COS endpoint(s) which are given in the document referenced below:
  
- ![COS Endpoints](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html)
+* [COS Endpoints](docs/services/cloud-object-storage/basics?topic=cloud-object-storage-endpoints#endpoints)
  
 ### View an example of how to improve your cloud's reliability and performance (not specific to COS):`serverfault.com`
 
@@ -98,14 +98,14 @@ This section provides quick links to documentation for some IBM Cloud PaaS and S
 
 ## How to provision bare metal servers
 
-For detailed instructions on how to provision bare metal, refer to [this document](https://console.bluemix.net/docs/bare-metal/about.html#getting-started-with-bare-metal-servers).
+For detailed instructions on how to provision bare metal, refer to [this document](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-about-bare-metal-servers).
 
 ## How to provision a Virtual Router Appliance (VRA)
 
-For detailed instructions on how to provision a VRA, please refer to [this document](https://console.bluemix.net/docs/infrastructure/virtual-router-appliance/getting-started.html#getting-started).
+For detailed instructions on how to provision a VRA, please refer to [this document](/docs/infrastructure/virtual-router-appliance?topic=virtual-router-appliance-getting-started-with-ibm-virtual-router-appliance#getting-started).
 
 ## How to provision IBM Cloud Object Storage (COS)
 
- * For detailed instructions on how to provision COS, refer to [this document](https://console.bluemix.net/catalog/services/cloud-object-storage).
+ * For detailed instructions on how to provision COS, refer to [this document](https://cloud.ibm.com/catalog/services/cloud-object-storage).
  
  * Use one of the private endpoints (listed previously) to interface with your bucket or object in your provisioned COS account.

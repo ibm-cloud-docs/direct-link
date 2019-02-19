@@ -12,6 +12,7 @@ lastupdated: "2019-01-18"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:download: .download}
 
 # How to order IBM Cloud Direct Link Dedicated
@@ -107,6 +108,7 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 
 ## Pricing
 
-For pricing information, please refer to the [pricing document](pricing.html).
+For pricing information, please refer to the [pricing document](/docs/infrastructure/direct-link/pricing.html).
 
-**If you require the exact address for TOK01 or TOK02, please contact your Direct Link offering management or sales team.**
+If you require the exact address for TOK01 or TOK02, please contact your Direct Link offering management or sales team.
+{:note}

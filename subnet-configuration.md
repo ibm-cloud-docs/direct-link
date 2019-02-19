@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-01-21"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -13,11 +13,10 @@ lastupdated: "2019-01-21"
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
-{:DomainName: data-hd-keyref="DomainName"}
 
 # Configure IBM Cloud Direct Link
 
-Once your {{site.data.keyword.cloud}} Direct Link connectivity has been established, you can follow the steps given in this document to configure your subnet to interact with IBM Cloud.
+Once your IBM Cloud Direct Link connectivity has been established, you can follow the steps given in this document to configure your subnet to interact with IBM Cloud.
 
 In general, to get your IBM Cloud Direct Link connection working, you'll need to do some basic network configuration steps, and then you'll need to set up Border Gateway Protocol (BGP). During the setup process, an IBM engineer will work with you to enable your network to use Virtual Routing Function (VRF) capability, which is required.
 
@@ -97,3 +96,5 @@ Most commonly, the BYOIP environment is implemented within the scope of either a
 This solution also requires that each host needing connectivity to the {{site.data.keyword.BluSoftlayer_notm}} services network and the remote network must have 2 IP addresses assigned: one must be assigned from the IBM 10.x.x.x block, and one from the remote network block. Static routes must be set up on the host, to ensure that traffic is routed appropriately. You will not be able to assign IP space directly on the {{site.data.keyword.BluSoftlayer_notm}} hosts (BYOIP) and have it routable on the {{site.data.keyword.BluSoftlayer_notm}} network inherently. The only way to implement this ability is as outlined previously, but it is not supported by {{site.data.keyword.BluSoftlayer_notm}}.
 
 Alternatively, customers frequently assign a remote network block for use in a NAT table configured on their remote edge router. This configuration allows customers to limit the changes required to both networks, while still translating traffic into a network address space that is compatible with both networks.
+
+

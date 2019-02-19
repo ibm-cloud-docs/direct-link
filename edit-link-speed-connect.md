@@ -20,7 +20,7 @@ You can edit your connection's Link Speed on either side of the connection, star
 
 ## Step 1: 
 
-Follow steps 1 and 2 from the [Cloud Exchange ordering procedure](cloud-exchange-automation.html).
+Follow steps 1 and 2 from the [Cloud Exchange ordering procedure](/docs/infrastructure/direct-link/cloud-exchange-automation.html).
 
 ## Step 2:
 
@@ -37,7 +37,7 @@ In the order form, you can select the new Link Speed. As you select the Link Spe
 
 ## Step 4:
 
-Follow steps 2 through 5 from the [Cloud Exchange for Equinix ordering procedure](cloud-exchange-automation.html#how-to-order-cloud-exchange-for-equinix).
+Follow steps 2 through 5 from the [Cloud Exchange for Equinix ordering procedure](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix).
 
 ### Step 4A:
 You must **AGREE** to the Terms and Conditions before you can place your IBM Cloud Direct Link order. Please read the Terms and Conditions carefully, because they contain important technical information that you must understand before proceeding. 

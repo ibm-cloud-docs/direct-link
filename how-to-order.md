@@ -16,12 +16,14 @@ lastupdated: "2019-01-18"
 
 # Order IBM Cloud Direct Link
 
-As you prepare to order the type of {{site.data.keyword.cloud}} Direct Link that best suits your needs, you can follow these links to see a general overview of the process for each type of IBM Cloud Direct Link service. When you're ready to place your order, you can find step-by-step instructions that take you through the ordering process, in our "Step-by-step" series of documents.
+As you prepare to order the type of {{site.data.keyword.cloud}} Direct Link that best suits your needs, you can follow these links to see a general overview of the process your organization will follow for obtaining each type of IBM Cloud Direct Link service, including the locations where each service is available, globally. 
 
-* [How to order IBM Cloud Direct Link Exchange](order-cloud-exchange.html)
-* [How to order IBM Cloud Direct Link Connect](order-connect.html)
-* [How to order IBM Cloud Direct Link Dedicated](order-nsp.html)
-* [How to order IBM Cloud Direct Link Dedicated Hosting](order-colocation.html)
+When you're ready to place your order for **Exchange** or **Connect**, you can find step-by-step instructions that take you through the ordering process, in our "Provisioning" series of documents. To order **Dedicated** or **Dedicated Hosting** services, you'll also work closely with an IBM Cloud representative during the first part of the process.
+
+* [How to order IBM Cloud Direct Link Exchange](/docs/infrastructure/direct-link/order-cloud-exchange.html)
+* [How to order IBM Cloud Direct Link Connect](/docs/infrastructure/direct-link/order-connect.html)
+* [How to order IBM Cloud Direct Link Dedicated](/docs/infrastructure/direct-link/order-nsp.html)
+* [How to order IBM Cloud Direct Link Dedicated Hosting](/docs/infrastructure/direct-link/order-colocation.html)
 
 ## How do I know which type of IBM Cloud Direct Link to order?
 
@@ -34,7 +36,7 @@ You can use the flow chart in the figure to help you decide.
 
 You’ll be asked to complete a customer questionnaire, which you can review at these links:
 
-* [Exchange](questionnaire-exchange.html)
-* [Connect](questionnaire-connect.html)
-* [Dedicated](questionnaire-dedicated.html)
-* [Hosting](questionnaire-dedicated-hosting.html)
+* [Exchange](/docs/infrastructure/direct-link/questionnaire-exchange.html)
+* [Connect](/docs/infrastructure/direct-link/questionnaire-connect.html)
+* [Dedicated](/docs/infrastructure/direct-link/questionnaire-dedicated.html)
+* [Hosting](/docs/infrastructure/direct-link/questionnaire-dedicated-hosting.html)

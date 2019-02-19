@@ -29,5 +29,5 @@ Connections are offered at several speeds:
 
 ## Pricing
 
-Pricing for IBM Cloud Direct Link Connect is shown in the [Pricing document](pricing.html).
+Pricing for IBM Cloud Direct Link Connect is shown in the [Pricing document](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-direct-link-connect).
 

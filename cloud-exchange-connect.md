@@ -12,14 +12,18 @@ lastupdated: "2019-01-18"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:download: .download}
 
 
-# Step-by-step: Order an IBM Cloud Direct Link Connect
+# Provision IBM Cloud Direct Link Connect from the UI Console
 
-This page tells you how to order the {{site.data.keyword.cloud}} Direct Link Connect service. After placing the order, an IBM support ticket will be generated.
+This page tells you how to order the {{site.data.keyword.cloud}} Direct Link Connect service from the IBM Cloud UI Console. 
 
-# How to order Direct Link Connect
+After you place the order, an IBM support ticket will be generated.
+{:note}
+
+## Steps to order Direct Link Connect
 
 To provision an IBM Cloud Direct Link Connect order, complete the following steps:
 

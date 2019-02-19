@@ -14,7 +14,7 @@ lastupdated: "2019-01-18"
 {:tip: .tip}
 {:download: .download}
 
-# IBM Cloud Direct Link Dedicated Questionnaire
+# IBM Cloud Direct Link Dedicated Hosting Questionnaire
 
 Thank you for opening a request for {{site.data.keyword.cloud}} Direct Link Dedicated Hosting.  To finalize your request, we’d like to gather some additional information from you.  You can speak with an engineer at any time during the questionnaire process.  Once you've completed the questionnaire, it will be reviewed by our Cloud Design Engineering team and escalated to Network Engineering for implementation.
 

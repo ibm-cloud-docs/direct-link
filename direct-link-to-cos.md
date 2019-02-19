@@ -13,6 +13,7 @@ lastupdated: "2019-01-18"
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # Using IBM Cloud Direct Link to connect to IBM Cloud Object Storage
 
@@ -66,7 +67,7 @@ Any sample client code that works with COS should also work through a _reverse p
 #### Installing Your Nginx Reverse Proxy
 **NginX** is a mature, compact, and fast open-source Web server that excels at specialized tasks, including the _reverse proxy_ server role mentioned previously.
 
-The instructions and configuration information that follows--for setting up an NginX reverse proxy server--can work once you've adapted it to your environment. If you get stuck or need additional information, consult the reverse proxy portion of the [Nginx documentation](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) or search [stackoverflow](http://stackoverflow.com) for examples.
+The instructions and configuration information that follows--for setting up an NginX reverse proxy server--can work once you've adapted it to your environment. If you get stuck or need additional information, consult the reverse proxy portion of the [Nginx documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) or search [stackoverflow ![External link icon](../../icons/launch-glyph.svg "External link icon")]](http://stackoverflow.com) for examples.
 
 1. Provision your VSI or bare metal servers with minimal **RHEL** or **CentOS** Linux build (recommended)
 2. For each VSI, enable the following security group rules on the public interface: `allow_http`, `allow_https`, `allow_outbound`, `allow_ssh`
@@ -93,7 +94,7 @@ The instructions and configuration information that follows--for setting up an N
 
 #### Configuration file: `nginx.conf`
 
-The sample configuration file is shownin the folllowing section. You can copy and paste it.
+The sample configuration file is shown in the folllowing section. You can copy and paste it.
 
 ```
 user nginx;
@@ -129,7 +130,7 @@ http {
     proxy_intercept_errors on;
 
     # IBM COS Endpoints
-    # https://console.bluemix.net/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints
+    # https://cloud.ibm.com/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-endpoints#select-regions-and-endpoints
     # US
     server {
         listen       443 ssl http2;
@@ -156,7 +157,7 @@ http {
 }
 ```
 
-See [COS Endpoints](https://console.bluemix.net/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints) for a list of private endpoints for use in the `proxy_pass` entries above.
+See [COS Endpoints](https://{DomainName}/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints) for a list of private endpoints for use in the `proxy_pass` entries above.
 
 #### Tips:
 
@@ -170,16 +171,15 @@ This section provides quick links to documentation for some IBM Cloud PaaS and S
 
 ### How to provision bare metal servers
 
-For detailed instructions on how to provision bare metal servers, refer to the [Guide to Bare Metal Servers](https://console.bluemix.net/docs/bare-metal/about.html#getting-started-with-bare-metal-servers).
+For detailed instructions on how to provision bare metal servers, refer to the [Guide to Bare Metal Servers](https://{DomainName}/docs/bare-metal?topic=bare-metal-about#about).
 
 ### How to provision a Virtual Router Appliance (VRA)
 
 For detailed instructions on how to provision a VRA, please refer to the 
-[VRA Getting Started Guide](https://console.bluemix.net/docs/infrastructure/virtual-router-appliance/getting-started.html#getting-started).
+[VRA Getting Started Guide](https://{DomainName}/docs/infrastructure/virtual-router-appliance/getting-started.html#getting-started).
 
 ### How to provision IBM Cloud Object Storage (COS)
 
- * For detailed instructions on how to provision COS, refer to the [Cloud Object Storage Guide](https://console.bluemix.net/catalog/services/cloud-object-storage).
+ * For detailed instructions on how to provision COS, refer to the [Cloud Object Storage Guide](https://{DomainName}/catalog/services/cloud-object-storage).
 
- * Use one of the private endpoints (listed previously) to create an interface with your bucket or any
- object in your provisioned COS account.
+ * Use one of the private endpoints (listed previously) to create an interface with your bucket or any object in your provisioned COS account.
