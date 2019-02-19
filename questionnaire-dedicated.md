@@ -29,7 +29,7 @@ Thank you for opening a request for {{site.data.keyword.cloud}} Direct Link Dedi
  * Billing stops after:
    * A customer requests a circuit to be deleted, **and** 
    * The Exchange Provider or Network Service Provider has de-provisioned the circuit.
-  * For more information see **Section 5 - Charges** in the Cloud Services Agreement at the following link: [https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html)
+  * For more information see **Section 5 - Charges** in the Cloud Services Agreement at the following link: [https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). For example, customers in the United States would view [this Cloud Services contract document](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en).
 
 3. By ordering the Direct Link service, you will be responsible for any fees associated with reaching the Point of Presence (PoP) from your remote network and any cross connects needed within the PoP facility.  If your provider requires that a router or other device physically sit in the PoP, you will be responsible for the costs associated with collocating that equipment as well. 
 
