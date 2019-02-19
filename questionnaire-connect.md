@@ -29,7 +29,7 @@ Thank you for opening a request for {{site.data.keyword.cloud}} Direct Link Conn
  * Billing stops after:
    * A customer requests a circuit to be deleted, **and** 
    * The Connect Provider or Network Service Provider has de-provisioned the circuit.
-  * For more information see **Section 5 - Charges** in Cloud Services Agreement at the following link: [ibm.biz/service-agreement](ibm.biz/service-agreement)
+  * For more information see **Section 5 - Charges** in Cloud Services Agreement at the following link: [https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html)
   * Alternatively, billing can stop for a customer if a customer is notified that their Direct Link service will be turned off and no longer work.
 
 3. By ordering the Direct Link service, you will be responsible for any fees associated with reaching the Point of Presence (PoP) from your remote network and any cross-connects needed within the PoP facility to reach your exchange provider. You (or your provider) will also be responsible for buying the virtual circuit to IBM Cloud. If your provider requires that a router or other device physically sit in the PoP, you will be responsible for the costs associated with collocating that equipment as well.  Please confirm that your Network or PoP provider can reach the Direct Link Connect and can price out the associated costs.
