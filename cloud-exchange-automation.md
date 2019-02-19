@@ -12,7 +12,7 @@ lastupdated: "2019-01-18"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
-(:note: .note}
+{:note: .note}
 {:download: .download}
 
 # Provisioning IBM Cloud Direct Link Exchange
