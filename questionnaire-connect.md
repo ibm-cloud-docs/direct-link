@@ -22,12 +22,12 @@ Thank you for opening a request for {{site.data.keyword.cloud}} Direct Link Conn
 
 1. Each Direct Link connection requires a unique order.  If you require multiple connections, please open separate Direct Link orders for each connection.
 
-2. The fees for your Direct Link Connect service cover the cost of service termination on the IBM Cloud infrastructure. 
+2. The fees for your Direct Link Connect service cover the cost of service termination on the IBM Cloud infrastructure.
 
- * Infrastructure Services are billed in advance and begin upon acceptance of your order; however due to the nature of IBM Cloud Direct Link, the Direct Link service billing will begin upon the initiation of a Border Gateway Protocol (BGP) session with IBM Cloud, or 30 days after the service key is provided to the client. 
+ * Infrastructure Services are billed in advance and begin upon acceptance of your order; however due to the nature of IBM Cloud Direct Link, the Direct Link service billing will begin upon the initiation of a Border Gateway Protocol (BGP) session with IBM Cloud, or 30 days after the service key is provided to the client.
 
  * Billing stops after:
-   * A customer requests a circuit to be deleted, **and** 
+   * A customer requests a circuit to be deleted, **and**
    * The Connect Provider or Network Service Provider has de-provisioned the circuit.
   * For more information see **Section 5 - Charges** in Cloud Services Agreement at the following link: [https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). For example, customers in the United States would view [this Cloud Services contract document](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en).
   * Alternatively, billing can stop for a customer if a customer is notified that their Direct Link service will be turned off and no longer work.
@@ -42,9 +42,9 @@ Thank you for opening a request for {{site.data.keyword.cloud}} Direct Link Conn
 
 7. IBM Cloud will not allow customers to back haul traffic between their remote sites across the IBM Cloud backbone. The Direct Link Connect product is meant for your remote networks to be able to privately communicate with your IBM Cloud infrastructure.
 
-8. After you’ve confirmed your circuit has reached the Direct Link Connect PoP, you will need to place an order with your Connect provider and supply all relevant information to the cloud exchange provider and IBM Cloud. For Equinix providers, typical deployment time can take hours. The typical deployment time for the IBM Cloud Direct Link Connect offering takes 5-10 days to complete. 
+8. After you’ve confirmed your circuit has reached the Direct Link Connect PoP, you will need to place an order with your Connect provider and supply all relevant information to the cloud exchange provider and IBM Cloud. For Equinix providers, typical deployment time can take hours. The typical deployment time for the IBM Cloud Direct Link Connect offering takes 5-10 days to complete.
 
-9. IBM Cloud Direct Link Connect requires utilizing a VRF (Virtual Routing and Forwarding) instance on the IBM Cloud Network side.  This allows the customer to define their own remote IP addresses for use in their remote network; however, you must be aware that if you’re able to utilize the 10.x.x.x network, you still cannot overlap with your hosts within IBM Cloud nor with the IBM Cloud services network (10.0.0.0/14, 10.198.0.0/15, and 10.200.0.0/14). Transition of your account to a VRF requires a brief private network outage as each VLAN is migrated into the new configuration.  The Specail Network Services team will work with you to define a window for this activity. The Special Network Services team is normally available Monday through Friday, 8-5 CST ( US Central Standard time) . Any activation activity outside this window will need to be requested via ticket  and approved in advance if engineers are available.
+9. IBM Cloud Direct Link Connect requires utilizing a VRF (Virtual Routing and Forwarding) instance on the IBM Cloud Network side.  This allows the customer to define their own remote IP addresses for use in their remote network; however, you must be aware that if you’re able to utilize the 10.x.x.x network, you still cannot overlap with your hosts within IBM Cloud nor with the IBM Cloud services network (10.0.0.0/14, 10.198.0.0/15, and 10.200.0.0/14). Transition of your account to a VRF requires a brief private network outage as each VLAN is migrated into the new configuration. The Special Network Services team will work with you to define a window for this activity. The Special Network Services team is normally available Monday through Friday, 8-5 CST ( US Central Standard time). Any activation activity outside this window will need to be requested via ticket and approved in advance if engineers are available.
 
 10. VRF is not compatible with IBM Cloud SSL, PPTP, and IPSEC VPN services.  An alternative is to use the direct link itself for management of your servers or run your own VPN solution (such as a Vyatta) that can be configured with different types of VPN.  After migrating to a VRF, SSL VPN typically works when a VPN connection is made to the same DC location as the compute that is being accessed, but does not allow access globally.
 
@@ -56,7 +56,7 @@ Thank you for opening a request for {{site.data.keyword.cloud}} Direct Link Conn
 
 * **IBM Cloud will assign a private ASN to you for purposes of configuring BGP to advertise your remote networks to your IBM Cloud private network.  Is this acceptable or would you prefer to utilize your own public ASN?**
 
-* **Do you require BGP MultiPath with ECMP to be configured for setting up a redundant connection to IBM Cloud?**  
+* **Do you require BGP MultiPath with ECMP to be configured for setting up a redundant connection to IBM Cloud?** 
 
     _If yes, please include the ticket ID for the other connection. Ticket Number ____________  (note that ECMP can only be provisioned on two sessions on the same IBM Cloud XCR.  If ECMP is your desire, know that both Direct Links must land on the same router.)_
 

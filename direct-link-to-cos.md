@@ -30,9 +30,9 @@ Information stored within IBM Cloud Object Storage is encrypted and dispersed ac
 IBM COS is available in three configurations: **Cross Region**, **Regional** and **Single Site**.
 
  * Cross Region service provides higher durability and availability than using a single region, but at the cost of slightly higher latency. This service is available today in the US and the EU. (Note that by using a Virtual Router Appliance (VRA) you also could use Direct Link to connect to COS in the Asia Pacific region.)
- 
+
  * Regional service provides the reverse: It distributes objects across multiple availability zones within a single region. If a given region or availability zone is inaccessible, the object store continues to function smoothly. Any missed changes are applied when the inaccessible datacenter comes back online.
-  
+
  * Single Site service offers affordable access to Cloud Object Storage in a selected datacenter.
 
 ### COS Private and Public Endpoints
@@ -43,7 +43,7 @@ Servers provisioned within IBM Cloud use private API endpoints for services, inc
 COS public endpoints provide IBM Cloud customers with access to the same COS data that is accessible from within IBM Cloud, but public endpoints permit access from any internet-equipped location.
 
 Two caveats apply to COS public endpoints:
- * Use of public endpoints can incur metered costs for bandwidth beyond the usage charges imposed by the COS service. 
+ * Use of public endpoints can incur metered costs for bandwidth beyond the usage charges imposed by the COS service.
  * Even though all data is encrypted in transit, customers may have privacy concerns or regulatory restrictions related to data transmitted through the internet.
 
 ## What is IBM Cloud Direct Link?
@@ -51,7 +51,7 @@ IBM Cloud Direct Link is a product suite that gives customers the ability to cre
 
 ## Using Cloud Object Storage (COS) over IBM Cloud Direct Link
 IBM engineers have developed a method that allows an IBM Cloud customer who purchases COS and Direct Link to make remote connections to COS private endpoints. This type of connection extends the advantages of private service endpoints, so they can be used by client systems outside of IBM Cloud facilities.
- 
+
 This solution is diagrammed and described in the sections that follow.
 
 ### Reverse Proxy
@@ -94,7 +94,7 @@ The instructions and configuration information that follows--for setting up an N
 
 #### Configuration file: `nginx.conf`
 
-The sample configuration file is shown in the folllowing section. You can copy and paste it.
+The sample configuration file is shown in the following section. You can copy and paste it.
 
 ```
 user nginx;
@@ -175,7 +175,7 @@ For detailed instructions on how to provision bare metal servers, refer to the [
 
 ### How to provision a Virtual Router Appliance (VRA)
 
-For detailed instructions on how to provision a VRA, please refer to the 
+For detailed instructions on how to provision a VRA, please refer to the
 [VRA Getting Started Guide](https://{DomainName}/docs/infrastructure/virtual-router-appliance/getting-started.html#getting-started).
 
 ### How to provision IBM Cloud Object Storage (COS)

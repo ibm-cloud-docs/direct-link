@@ -24,7 +24,7 @@ To get started using IBM Cloud Direct Link, browse through this documentation an
 
 When you're ready to order, follow the step by step instructions for the specific Direct Link solution that you need, [here](/docs/infrastructure/direct-link?topic=direct-link-order-ibm-cloud-direct-link).
 
-After you've placed your order, you'll be asked to fill out a questionaire related to your solution and your workload's requirements, and you can review our terms of service. 
+After you've placed your order, you'll be asked to fill out a questionnaire related to your solution and your workload's requirements, and you can review our terms of service.
 
 ## IBM Cloud Direct Link solution descriptions
 
@@ -42,6 +42,6 @@ You can use the flow chart in the figure to help you decide.
 
 ## Learn more
 
-If you require a diverse and redundant Direct Link deployment, you can review our [Models for Diversity and Redunancy document](/docs/infrastructure/direct-link?topic=direct-link-models-for-diversity-and-redundancy-in-direct-link).
+If you require a diverse and redundant Direct Link deployment, you can review our [Models for Diversity and Redundancy document](/docs/infrastructure/direct-link?topic=direct-link-models-for-diversity-and-redundancy-in-direct-link).
 
 If you require a diverse, redundant, or multi-cloud deployment for Direct Link Exchange or Direct Link Connect, you can review our [Alternatives document](/docs/infrastructure/direct-link?topic=direct-link-alternatives-for-your-ibm-cloud-direct-link-deployment).

@@ -22,7 +22,7 @@ By current policy, IBM Cloud private service endpoints are not accessible throug
 
 ## What is IBM Cloud Object Storage (COS)?
 
-IBM Cloud Object Storage is a web-scale platform that stores unstructured data. It provides reliability, security, availability, and disaster recovery without replication. 
+IBM Cloud Object Storage is a web-scale platform that stores unstructured data. It provides reliability, security, availability, and disaster recovery without replication.
 
 Information stored with IBM Cloud Object Storage is encrypted and dispersed across multiple geographic locations. It is accessible through an implementation of the S3 API. This service makes use of the distributed storage technologies provided by the IBM Cloud Object Storage service.
 
@@ -30,7 +30,7 @@ IBM COS is available in two configurations: **Cross Region** and **Regional**. C
 
 ## What is IBM Cloud Direct Link?
 
-IBM Cloud Direct Link is a product suite that gives customers the ability to create private connections between their remote network environments and their IBM Cloud deployments. 
+IBM Cloud Direct Link is a product suite that gives customers the ability to create private connections between their remote network environments and their IBM Cloud deployments.
 
 ## Using Cloud Object Storage (COS) over IBM Cloud Direct Link
 
@@ -42,7 +42,7 @@ These three approaches can help you connect to IBM Cloud PaaS and SaaS using IBM
 
 
 ### Method 1: Use a Virtual Router Appliance (VRA, sometimes called a Vyatta) to create a “hop to public”
- 
+
 ![vyatta-flow.png](images/vyatta-flow.png)
 
 
@@ -54,8 +54,8 @@ These three approaches can help you connect to IBM Cloud PaaS and SaaS using IBM
 * On their on-premise router, the customer adds routes to specific subnets, thereby to ensure smooth traffic flows using IBM Cloud Direct Link
 * On their VRA, the customer creates a route to traverse the public network and to reach the public endpoint for IBM COS services
 * The customer must provision an HA pair of VRA hardware (@x)
-* Each VRA member recevies 20TB per month of included bandwidth, to offset the charges to your Public cloud metering and billing
-* Use bandwidth pooling across your hosted servers to accumulate prepaid bandwisth.
+* Each VRA member receives 20TB per month of included bandwidth, to offset the charges to your Public cloud metering and billing
+* Use bandwidth pooling across your hosted servers to accumulate prepaid bandwidth.
 
 
 ### Method 2: Cloud server pass-through (private-to-private)
@@ -79,21 +79,21 @@ This method is the currently recommended approach.
 
 **Basic premise: Trust on-prem client callers with COS credentials**
 
- 
+
 
  * As an adaptation of Method 2, instead of hosting Web apps on Cloud servers, host HTTPS servers (for example,  NGINX) configured for reverse proxy.
  * Each server listens on HTTPS, with self-issued certificate, and passes requests directly to private COS endpoint(s) which are given in the document referenced below:
- 
+
 * [COS Endpoints](docs/services/cloud-object-storage/basics?topic=cloud-object-storage-endpoints#endpoints)
- 
+
 ### View an example of how to improve your cloud's reliability and performance (not specific to COS):`serverfault.com`
 
- * To boost scale and resiliency, multiple proxy servers can be deployed. 
+ * To boost scale and resiliency, multiple proxy servers can be deployed.
  * Use round-robin DNS on the client side for rudimentary failover and load balancing capabilities.
  * Proxy servers can be placed behind VRA for protection, and for centralized logging.
- 
- ## Managing and Provisioning IBM Cloud capabilities 
- 
+
+ ## Managing and Provisioning IBM Cloud capabilities
+
 This section provides quick links to documentation for some IBM Cloud PaaS and SaaS offerings that you might connect to using IBM Cloud Direct Link.
 
 ## How to provision bare metal servers
@@ -107,5 +107,5 @@ For detailed instructions on how to provision a VRA, please refer to [this docum
 ## How to provision IBM Cloud Object Storage (COS)
 
  * For detailed instructions on how to provision COS, refer to [this document](https://cloud.ibm.com/catalog/services/cloud-object-storage).
- 
+
  * Use one of the private endpoints (listed previously) to interface with your bucket or object in your provisioned COS account.
