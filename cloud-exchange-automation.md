@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -16,6 +16,7 @@ lastupdated: "2019-01-18"
 {:download: .download}
 
 # Provisioning IBM Cloud Direct Link Exchange
+{: #provisioning-ibm-cloud-direct-link-exchange}
 
 This page tells you how to order the {{site.data.keyword.cloud}} Direct Link Exchange service. If the IBM Cloud Direct Link order is for the Equinix Cloud Exchange, the service provisioning is fully automated, which means that you can [place an order for an IBM Cloud Direct Link connection (Equinix) without opening an IBM support ticket]/(docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix) as described in a related document.
 

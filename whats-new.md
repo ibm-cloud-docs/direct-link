@@ -1,13 +1,14 @@
 ---
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-02-19"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # What's New
+{: #what-s-new}
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link. We're growing daily!
 

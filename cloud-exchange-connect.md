@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -17,6 +17,7 @@ lastupdated: "2019-01-18"
 
 
 # Provision IBM Cloud Direct Link Connect from the UI Console
+{: #provision-ibm-cloud-direct-link-connect-from-the-ui-console}
 
 This page tells you how to order the {{site.data.keyword.cloud}} Direct Link Connect service from the IBM Cloud UI Console. 
 

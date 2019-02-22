@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -16,6 +16,7 @@ lastupdated: "2019-01-18"
 {:download: .download}
 
 # How to order IBM Cloud Direct Link Dedicated
+{: #how-to-order-ibm-cloud-direct-link-dedicated}
 
 1. Verify your network provider's capabilities to reach the appropriate PoP and cross-connect into the {{site.data.keyword.BluSoftlayer_notm}} environment.
 2. Open an {{site.data.keyword.cloud}} Direct Link Dedicated request and complete the requested information. (Assistance from IBM sales engineers can be requested.)

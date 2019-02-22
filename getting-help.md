@@ -30,7 +30,7 @@ lastupdated: "2019-01-18"
 
 <!-- Add a heading and content for how to get help and support. Use this template for beta and GA services:  -->
 # Getting help and support 
-{: #gettinghelp}
+{: #getting-help-and-support}
 
 If you have problems or questions when using {{site.data.keyword.cloud}} Direct Link, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the [IBM Cloud Console ![External link icon](../../icons/launch-glyph.svg "External link icon")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) or [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/).
 {:shortdesc}

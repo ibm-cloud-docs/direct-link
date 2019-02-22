@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,6 +15,7 @@ lastupdated: "2019-01-18"
 {:download: .download}
 
 # How to edit the Link Speed for an IBM Cloud Direct Link Exchange connection
+{: #how-to-edit-the-link-speed-for-an-ibm-cloud-direct-link-exchange-connection}
 
 You can edit your connection's Link Speed on either side of the connection, starting from the {{site.data.keyword.cloud}} side or the Provider's edge server. You are allowed to change the link speed only once per month.
 

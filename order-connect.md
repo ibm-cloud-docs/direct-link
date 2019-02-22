@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,6 +15,7 @@ lastupdated: "2019-01-18"
 {:download: .download}
 
 # How to order IBM Cloud Direct Link Connect
+{: #how-to-order-ibm-cloud-direct-link-connect}
 
  * Verify your network provider's capabilities to reach the appropriate PoP and cross-connect into the associated Connect provider.
  * Use the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) to open an {{site.data.keyword.cloud}} Direct Link Connect request and complete the requested information. (Assistance from IBM sales engineers can be requested.) 
@@ -41,9 +42,7 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | Epsilon | AMS02*, DAL03*, FRA01*, HKG01*, LON01*, SNG02*, WDC02* |
 | IBM BlueFringe | DAL03, WDC02, CHE01 |
 | Intercloud | FRA01, FRA03, AMS02 |
-| Megaport |  MEL02, SYD02, SNG02, AMS02, FRA01, LON03, STO01, DAL04, SJC02, TOR02, WDC02, HKG01* |
-| MWS GNPP | DAL03, WDC02*, FRA03, AMS02 | 
-| Neutrona | WDC02 |
+| Megaport |  MEL02, SYD02, SNG02, AMS02, FRA01, LON03, STO01, DAL03, SJC02, TOR02, WDC02, HKG01* |
 | PacketFabric | DAL04, SJC02, WDC02 |
 | Softbank | TOK04* |
 | SES Networks | WDC02 |

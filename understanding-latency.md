@@ -1,13 +1,14 @@
 ---
 copyright:
-  years: 1994, 2017, 2018
-lastupdated: "2018-05-07"
+  years: 1994, 2017, 2018, 2019
+lastupdated: "2019-02-19"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Understanding Latency
+{: #understanding-latency}
 
 _Go Hybrid with {{site.data.keyword.cloud}} Direct Link: making your workloads run faster, worldwide_
 

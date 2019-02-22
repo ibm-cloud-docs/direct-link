@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,6 +15,7 @@ lastupdated: "2019-01-18"
 {:download: .download}
 
 # How to order IBM Cloud Direct Link Exchange
+{ # how-to-order-ibm-cloud-direct-link-exchange}
 
 1. Verify your network provider's capabilities to reach the appropriate PoP and cross-connect into the associated Exchange provider.
 2. Use the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) to open an {{site.data.keyword.cloud}} Direct Link Exchange request and complete the requested information. (Assistance from IBM sales engineers can be requested.) If you use the Equinix provider, you can use [automated ordering](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix).
@@ -29,16 +30,16 @@ lastupdated: "2019-01-18"
  
 | Exchange Provider	| IBM Data Center Code |
 |-------------|-----------------------|
-| AT Tokyo	| TOK02 |
+| AT Tokyo | TOK02 |
 | Ascenty | SAO01* |
-| Cologix	| MON02, TOR02 |
+| Cologix | MON02, TOR02 |
 | Cyrus One | DAL13 |
 | DE-CIX | FRA01 |
-| Equinix	| HKG01,SNG02, SYD02, TOK01, AMS02, PAR02, CHI01, DAL03, NYC02, NYC03, SAO02, SJC02, TOR02, WDC02, LON01, FRA03 |							
-| InterXion	| FRA01, STO01 |
+| Equinix | HKG01,SNG02, SYD02, TOK01, AMS02, PAR02, CHI01, DAL03, NYC02, NYC03, SAO02, SJC02, TOR02, WDC02, LON01, FRA03 |							
+| InterXion | FRA01, STO01 |
 | KINX	| SEO02 |
-| NextDC | 	MEL02, SYD03* |
-| SK C&C | 	SEO01 |
+| NextDC | MEL02, SYD03* |
+| SK C&C | SEO01 |
 
 * Coming Soon
 

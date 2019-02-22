@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,6 +15,7 @@ lastupdated: "2019-01-18"
 {:download: .download}
 
 # Overview of Virtual Routing and Forwarding (VRF) on IBM Cloud
+{: #overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud}
 
 By definition, virtual routing and forwarding (VRF) is a technology included in Internet Protocol (IP) network routers. It is delivered as an inherent backbone service.
 
@@ -83,6 +84,7 @@ The conversion process involves a network disruption, while the VLANs and their 
 During migration, the VLANs are disconnected from the backbone and reconnected to the Customer VRF.  The duration of disruption varies, depending on the quantity of VLANs, PODs, and datacenters involved. Traffic among VLANs is disrupted, yet the servers stay connected to the network. The application may or may not be affected, depending on its sensitivity to packet loss.
 
 ## How you can initiate the conversion
+{: #how-you-can-initiate-the-conversion}
 
 Existing IBM Cloud customers can open a support ticket through their [IBM Cloud Console ![External link icon](../../icons/launch-glyph.svg "External link icon")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) account, requesting to be migrated to a VRF. The ticket should state: “Private Network Question” and include the following text in the support ticket:
 

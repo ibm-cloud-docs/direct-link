@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -16,6 +16,7 @@ lastupdated: "2019-01-18"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Using IBM Cloud Direct Link to connect to IBM Cloud Object Storage
+{: #using-ibm-cloud-direct-link-to-connect-to-ibm-cloud-object-storage}
 
 This document describes how to configure {{site.data.keyword.cloud}} Direct Link so that you have access to IBM Cloud Object Storage (COS). Although the methods described here were designed and tested with COS, they may work for certain other IBM Cloud services.
 

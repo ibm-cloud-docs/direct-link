@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-08"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -16,6 +16,7 @@ lastupdated: "2019-02-08"
 {:faq: data-hd-content-type='faq'}
 
 # FAQs
+{: #faqs}
 
 This section contains answers to some frequently asked questions about {{site.data.keyword.cloud}} Direct Link. 
 

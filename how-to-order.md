@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,6 +15,7 @@ lastupdated: "2019-01-18"
 {:download: .download}
 
 # Order IBM Cloud Direct Link
+{ #order-ibm-cloud-direct-link}
 
 As you prepare to order the type of {{site.data.keyword.cloud}} Direct Link that best suits your needs, you can follow these links to see a general overview of the process your organization will follow for obtaining each type of IBM Cloud Direct Link service, including the locations where each service is available, globally. 
 

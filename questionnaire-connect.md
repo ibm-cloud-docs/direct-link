@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,6 +15,7 @@ lastupdated: "2019-01-18"
 {:download: .download}
 
 # IBM Cloud Direct Link Connect Questionnaire
+{: #ibm-cloud-direct-link-connect-questionnaire}
 
 Thank you for opening a request for {{site.data.keyword.cloud}} Direct Link Connect.  To finalize your request, we’d like to gather some additional information from you.  You can speak with an engineer at any time during the questionnaire process.  Once you've completed the questionnaire, it will be reviewed by our Cloud Design Engineering team and escalated to Special Network Services for implementation.
 

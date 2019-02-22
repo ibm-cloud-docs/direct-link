@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,6 +15,7 @@ lastupdated: "2019-01-18"
 {:download: .download}
 
 # Known Limitations
+{: #known-limitations}
 
 First, this section covers limitations that apply to all three {{site.data.keyword.cloud}} Direct Link offerings, and then it details some limitations of each offering individually.
 

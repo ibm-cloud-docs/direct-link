@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,6 +15,7 @@ lastupdated: "2019-01-18"
 {:download: .download}
 
 # Alternatives for your IBM Cloud Direct Link Deployment
+{: #alternatives-for-your-ibm-cloud-direct-link-deployment}
 
 This document illustrates some alternatives that our customers sometimes choose as use cases for their {{site.data.keyword.cloud}} Direct Link deployments.
 

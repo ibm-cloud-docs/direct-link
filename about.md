@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,6 +15,7 @@ lastupdated: "2019-01-18"
 {:download: .download}
 
 # About IBM Cloud Direct Link
+{: #about-ibm-cloud-direct-link}
 
 This section lets you browse more details about the key features and benefits of each of the four {{site.data.keyword.cloud}}
  Direct Link solutions.
