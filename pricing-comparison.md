@@ -29,7 +29,7 @@ A 10Gbps Dedicated Direct Link connection currently is priced at $4,999 in North
 The following comparisons reflect the tipping point against hypothetical examples. The table at the end of this article shows a detailed summary of this price comparison, by geographic region.
 
 ## Company A
-{ #Company A}
+{: #Company A}
 
 Company “A” offers a metered offering that lends itself to cheap Ingress but significant variable pricing on Egress.
 * The Company “A” 10Gbps pricing is comprised of port hours at a $1,620 monthly recurring charge (MRC) plus a $.02/GB transfer fee on egress (in North America).
@@ -47,7 +47,7 @@ Company G offers a metered offering that lends itself to cheap Ingress but signi
 * For a more stark comparison, assuming a Company “G” customer has 50% usage (or 1.7 PB) egressed in a month, it would cost $35,772, versus the $4,999 price for a 10Gbps Direct Link connection.
 
 ## Company M
-{ #Company M}
+{: #Company M}
 
 Company "M" (like Company "A" and Company "G") presents a metered offering that lends itself to inexpensive ingress but significantly variable pricing on egress. Company "M" also offers an unlimited pricing table. Both options are compared in the next sections.
 
