@@ -17,7 +17,7 @@ lastupdated: "2019-02-19"
 # Competitive pricing overview
 {: #competitive-pricing-overview}
 
-Enterprises choose to use private cloud interconnection such as {{site.data.keyword.cloud}} Direct Link, AWS Direct Connect, Google Cloud Interconnect, and Microsoft Azure ExpressRoute for many reasons, including superior network performance, security and privacy requirements, and reduction of bandwidth costs. Although your company may adopt a private cloud interconnection network architecture because of the performance and security advantages, the associated reduction of network costs is a metric that clearly favors IBM Cloud Direct Link in many usage scenarios. 
+Enterprises choose to use private cloud interconnection such as {{site.data.keyword.cloud}} Direct Link for many reasons, including superior network performance, security and privacy requirements, and reduction of bandwidth costs. Although your company may adopt a private cloud interconnection network architecture because of the performance and security advantages, the associated reduction of network costs is a metric that clearly favors IBM Cloud Direct Link in many usage scenarios. 
 
 ## Why choose IBM Direct Link?
 {: #why-choose-ibm-cloud-direct-link}
@@ -26,44 +26,44 @@ IBM’s standard rates for Direct Link reflect a significant value for customers
 
 A 10Gbps Dedicated Direct Link connection currently is priced at $4,999 in North America. This offering grants unlimited ingress and egress to IBM Cloud resources across the connection. Direct Link does not have a metered option.
 
-The following comparisons reflect the tipping point against the largest competition. The table at the end of this article shows a detailed summary of this price comparison, by geographic region.
+The following comparisons reflect the tipping point against hypothetical examples. The table at the end of this article shows a detailed summary of this price comparison, by geographic region.
 
-## AWS
-{ #aws}
+## Company A
+{ #Company A}
 
-AWS (like Google and Microsoft) presents a metered offering that lends itself to inexpensive ingress but significantly variable pricing on egress.
-* The AWS 10Gbps pricing is comprised of port hours at a $1,620 monthly recurring charge (MRC) plus a $.02/GB transfer fee on egress (in North America).
-* For an apples-to-apples perspective to IBM Cloud Direct Link Dedicated, an AWS Direct Connect 10Gbps connection at 5% usage (or 170TB) egressed in a month would cost a customer $5,020, versus $4,999 for a Direct Link 10Gbps connection. Any data egress above 5% (or 170TB) in a month would favor Direct Link’s flat rate pricing model.
-* For a more stark comparison, assuming an AWS customer has 50% usage (or 1.7PB) egressed in a month, it would cost $35,620, versus the $4,999 price for a 10Gbps Direct Link connection.
+Company “A” offers a metered offering that lends itself to cheap Ingress but significant variable pricing on Egress.
+* The Company “A” 10Gbps pricing is comprised of port hours at a $1,620 monthly recurring charge (MRC) plus a $.02/GB transfer fee on egress (in North America).
+* For an apples-to-apples perspective to IBM Cloud Direct Link Dedicated, a Company “A” Direct Link equivalent  10Gbps connection at 5% usage (or 170TB) egressed in a month would cost a customer $5,020, versus $4,999 for a Direct Link 10Gbps connection. Any data egress above 5% (or 170TB) in a month would favor Direct Link’s flat rate pricing model.
+* For a more stark comparison, assuming an Company “A” customer has 50% usage (or 1.7PB) egressed in a month, it would cost $35,620, versus the $4,999 price for a 10Gbps Direct Link connection.
 
-## Google
-{: #google}
+## Company G
+{: #Company G}
 
-Google (like AWS and Microsoft) presents a metered offering that lends itself to inexpensive ingress but significantly variable pricing on egress.
+Company G offers a metered offering that lends itself to cheap Ingress but significant variable pricing on Egress.
 
-* The Google 10Gbps pricing is set at $1,750 MRC plus a $.02/GB transfer fee on egress (in North America).
-* For an apples-to-apples perspective to IBM Cloud Direct Link Dedicated, a Google Cloud (GCP) 10Gbps port at 5% usage,  (170TB) egressed in a month would cost a customer $5,172 versus $4,999 for Direct Link 10Gbps connection. 
+* The Company G 10Gbps pricing is set at $1,750 MRC plus a $.02/GB transfer fee on egress (in North America).
+* For an apples-to-apples perspective to IBM Cloud Direct Link Dedicated, a Company “G” Direct Link equivalent  10Gbps port at 5% usage,  (170TB) egressed in a month would cost a customer $5,172 versus $4,999 for Direct Link 10Gbps connection. 
 * Any data egress above 5% (or 170TB) in a month would favor Direct Link’s flat rate pricing model.
-* For a more stark comparison, assuming a Google customer has 50% usage (or 1.7 PB) egressed in a month, it would cost $35,772, versus the $4,999 price for a 10Gbps Direct Link connection.
+* For a more stark comparison, assuming a Company “G” customer has 50% usage (or 1.7 PB) egressed in a month, it would cost $35,772, versus the $4,999 price for a 10Gbps Direct Link connection.
 
-## Microsoft
-{ #microsoft}
+## Company M
+{ #Company M}
 
-Microsoft (like Google and AWS) presents a metered offering that lends itself to inexpensive ingress but significantly variable pricing on egress. Microsoft also offers an unlimited pricing table. Both options are compared in the next sections.
+Company "M" (like Company "A" and Company "G") presents a metered offering that lends itself to inexpensive ingress but significantly variable pricing on egress. Company "M" also offers an unlimited pricing table. Both options are compared in the next sections.
 
 ### Metered
 {: #metered}
 
-* The Microsoft Azure 10Gbps pricing consists of a port fee ($5,000 MRC) plus a $.02/GB transfer fee on egress (in North America). Right from the start, ANY data transferred out will be more expensive than IBM Cloud Direct Link!!!
-* For an apples-to-apples perspective to IBM Cloud Direct Link Dedicated, a Microsoft Azure Express Route 10Gbps port at 5% usage (or 170TB) egressed in a month would cost a customer $8,400, versus $4,999 for a Direct Link 10Gbps connection. 
+* The Company "M" 10Gbps pricing consists of a port fee ($5,000 MRC) plus a $.02/GB transfer fee on egress (in North America). Right from the start, ANY data transferred out will be more expensive than IBM Cloud Direct Link!!!
+* For an apples-to-apples perspective to IBM Cloud Direct Link Dedicated, a Company “M” Direct Link equivalent  10Gbps port at 5% usage (or 170TB) egressed in a month would cost a customer $8,400, versus $4,999 for a Direct Link 10Gbps connection. 
 * Any data egress above 1TB in a month would favor Direct Link’s flat pricing model.
-* For a more stark comparison, assuming a Microsoft Azure customer has 50% usage (or 1.7 PB) egressed in a month, it would cost $47,500, versus the $4,999 price for a 10Gbps Direct Link connection.
+* For a more stark comparison, assuming a Company “M”  customer has 50% usage (or 1.7 PB) egressed in a month, it would cost $47,500, versus the $4,999 price for a 10Gbps Direct Link connection.
 
 
 ### Unmetered 
 {: #unmetered}
 
-* The Microsoft Azure 10Gbps pricing consists of a port fee of $51,000 MRC for unlimited ingress and egress.
+* The Company “M” Direct Link equivalent  10Gbps pricing consists of a port fee of $51,000 MRC for unlimited ingress and egress.
 
 * For an apples-to-apples perspective to IBM Cloud Direct Link Dedicated, this monthly cost amounts to $51,000, versus $4,999 for a 10Gbps Direct Link connection. 
 
@@ -78,7 +78,7 @@ Please scroll horizontally as needed to view all 5 columns of comparison.
 * **Usage is based on 5 Gbps sustained or 1.7 PB of data transfer per month.**
 
 
-| Region | IBM Unlimited | Azure Unlimited | Azure Metered | AWS Metered (intra-region) |
+| Region | IBM Unlimited | Company “M” Unlimited | Company “M” Metered | Company “A” Metered (intra-region) |
 |-----|-----|-----|-----|-----|
 | USA | $4,999 | $51,300 | $47,500 | $35,620 |
 | TOR/MON/AMS | $5,149 | $51,300 | $47,500 | $35,620 |
