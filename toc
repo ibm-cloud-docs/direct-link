@@ -14,7 +14,6 @@ Direct Link
     diversity-models.md
     connect-details.md
     pricing.md
-    pricing-comparison.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
