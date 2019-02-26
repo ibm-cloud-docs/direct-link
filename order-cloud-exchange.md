@@ -15,7 +15,7 @@ lastupdated: "2019-02-19"
 {:download: .download}
 
 # How to order IBM Cloud Direct Link Exchange
-{ # how-to-order-ibm-cloud-direct-link-exchange}
+{: # how-to-order-ibm-cloud-direct-link-exchange}
 
 1. Verify your network provider's capabilities to reach the appropriate PoP and cross-connect into the associated Exchange provider.
 2. Use the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) to open an {{site.data.keyword.cloud}} Direct Link Exchange request and complete the requested information. (Assistance from IBM sales engineers can be requested.) If you use the Equinix provider, you can use [automated ordering](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix).
