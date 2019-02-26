@@ -15,7 +15,7 @@ lastupdated: "2019-02-19"
 {:download: .download}
 
 # Overview of Direct Link Offerings
-{ #overview-of-direct-link-offerings}
+{: #overview-of-direct-link-offerings}
 
 The {{site.data.keyword.cloud}} Direct Link offerings provide connectivity from an external source into a customer's IBM Cloud private network. Direct Link can be viewed as an alternative to a traditional site-to-site VPN solution, designed for customers that need more consistent, higher-throughput connectivity between a remote network and their IBM Cloud environments. Four types of connections are available:
  
