@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-26"
+
+keywords: provisioning, order, Exchange, Equinix, automated, status, connection
+
+subcollection: direct-link
 
 ---
 

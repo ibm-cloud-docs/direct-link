@@ -1,7 +1,12 @@
 ---
 copyright:
   years: 1994, 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-26"
+
+keywords: hybrid, solution, latency, connected, milliseconds, high-capacity, performance, security, data, path, resiliency, PoPs, globe, infrastructure, backbone, traffic, workloads
+
+subcollection: direct-link
+
 ---
 
 {:shortdesc: .shortdesc}

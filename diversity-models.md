@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-26"
+
+keywords: diversity, redundancy, schematics, deployment, configuration, global routing, ECMP, Dual XCRs, model
+
+subcollection: direct-link
 
 ---
 

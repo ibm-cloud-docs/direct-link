@@ -3,7 +3,12 @@
 copyright:
   years: 2017, 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-26"
+
+
+keywords: tutorials, solution, case study, white paper, announcement, blog, 
+
+subcollection: direct-link
 
 ---
 
@@ -22,7 +27,7 @@ These resources are created by {{site.data.keyword.cloud}} and some of our partn
 
 ## IBM Cloud solution tutorials
 
-* [**Isolate workloads with a secure private network** ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/docs/tutorials/secure-network-enclosure.html#isolate-workloads-with-a-secure-private-network)
+* [**Isolate workloads with a secure private network** ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-secure-network-enclosure#isolate-workloads-with-a-secure-private-network)
 
 ## Papers and case studies
 

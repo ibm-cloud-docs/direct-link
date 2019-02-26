@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-26"
+
+keywords: hybrid, solutions, features, benefits, port speed, cross-connect, use cases, latency, routing, options, colocation
+
+subcollection: direct-link
 
 ---
 

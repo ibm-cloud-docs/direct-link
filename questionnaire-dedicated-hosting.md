@@ -2,7 +2,12 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-26"
+
+
+keywords: Dedicated, Hosting, finalize, questionnaire, Network Engineering, billing, fees, VRF, BGP, ticket, cross-connects, datacenters, data, center, backhaul, single mode, single-mode, fiber, Letter of Authorization, LOA, contract
+
+subcollection: direct-link
 
 ---
 
@@ -45,7 +50,7 @@ Thank you for opening a request for {{site.data.keyword.cloud}} Direct Link Dedi
 
 12. Please confirm that you agree to the following pricing for Direct Link:
  * 1Gbps: _LOCATION BASED PRICING_ 
-* 2Gbps: _LOCATION BASED PRICING_
-* 5Gbps: _LOCATION BASED PRICING_
-* 10Gbps: _LOCATION BASED PRICING_
-* Optional Global Routing
+ * 2Gbps: _LOCATION BASED PRICING_
+ * 5Gbps: _LOCATION BASED PRICING_
+ * 10Gbps: _LOCATION BASED PRICING_
+ * Optional Global Routing

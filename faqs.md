@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-26"
+
+keywords: faq, faqs, questions, answer, billing, fees, point-to-point, bandwidth, charges, redundancy, Global Routing, diversity, IPv6, BGP, charges, jumbo frames
+
+subcollection: direct-link
 
 ---
 
@@ -21,16 +25,19 @@ lastupdated: "2019-02-19"
 This section contains answers to some frequently asked questions about {{site.data.keyword.cloud}} Direct Link. 
 
 ## How does IBM Cloud Direct Link work?
+{: #how-does-ibm-cloud-direct-link-work}
 {:faq}
 
 For every Direct Link customer, the IBM Cloud team assigns a small private subnet to build a point-to-point network between the {{site.data.keyword.BluSoftlayer_notm}} cross-connect router (XCR) and the customer's edge router (CER). Then, {{site.data.keyword.BluSoftlayer_notm}} and the customer configure BGP in order to exchange routes between the environments. Finally, {{site.data.keyword.BluSoftlayer_notm}} places the customer into a VRF to allow for the implementation of non-unique routes to the private address space of the customer's remote network.
 
 ## Does IBM Cloud meter bandwidth for Direct Link products?
+{: #does-ibm-cloud-meter-bandwidth-for-direct-link-products}
 {:faq}
 
 Yes. Bandwidth usage across the Direct Link service between Customers and IBM Cloud is free and unmetered, IBM Cloud does meter outbound bandwidth from IBM Cloud services to the public internet.
 
 ## When does billing begin with Direct Link?
+{: #when-does-billing-begin-with-direct-link}
 {:faq}
 
 The fees for Direct Link Connect cover the cost of service termination on the IBM Cloud infrastructure. 
@@ -40,11 +47,13 @@ Infrastructure Services are billed in advance and begin upon acceptance of our c
 Billing stops after (1) a customer requests a circuit to be deleted AND (2) the Connect Provider or Network Service Provider has de-provisioned the circuit.
 
 ## What additional charges will I incur from other parties with Direct Link?
+{: #what-additional-charges-will-i-incur-from-other-parties-with-direct-link}
 {:faq}
 
 You may have additional charges from your exchange provider or network service provider. Please refer to your provider(s) for their fee information.
 
 ## How can I achieve redundancy with IBM Cloud Direct Link?
+{: #how-can-i-achieve-redundancy-with-ibm-cloud-direct-link}
 {:faq}
 
 Direct Link does not provide an inherently Redundant service. Direct Link can provide Diverse connections, that enable customers to create redundancy via BGP. You can achieve diversity with Direct Link by connecting to more than one IBM Cloud Direct Link Dedicated provider or Exchange provider for {{site.data.keyword.BluSoftlayer_notm}}. Alternatively, with Exchange and Connect you can leverage diverse NNIs with the IBM Cloud Direct Link providers.
@@ -103,11 +112,13 @@ With Direct Link Connect, customers can connect to IBM Cloud through the Connect
 Connect providers are Telcos who have network reach beyond the datacenter. Exchange providers are limited to their datacenters. Both can enable the multi-cloud experience for customers. Exchange providers usually require co-location in their datacenters, while Connect providers can reach a customer's on-premise site and datacenters.
 
 ## Can IBM support IPv6 over Direct Link?
+{: #can-ibm-support-ipv6-over-direct-link}
 {:faq}
 
 Not for the BGP Session. We have to assign our /30 from IPv4, and we need the same in return from the customer.
 
 ## Can IBM do IPV6 on the private network?
+{: #can-ibm-do-ipv6-on-the-private-network}
 {:faq}
 
 No. IPv6 is public only.
@@ -123,6 +134,7 @@ Verizon SCI is one of several MPLS based, Layer-3 (IP VPN) services. It requires
 We are unable to support any QoS guarantees. QoS requires MPLS mapping between each of our service suppliers and IBM Cloud. Cloud Service Providers generally cannot support QoS at this time, because it must reach from end to end and involve every device in between. There is no workaround available by "tunneling" or any other method.
 
 ## Does Direct Link support Jumbo frames?
+{: #does-direct-link-support-jumbo-frames}
 {:faq}
 
 Jumbo frames (up to 9214 bytes) are supported on Dedicated and Dedicated Hosting. 
@@ -159,11 +171,13 @@ Alternatively, some of our customers have set up two links into different XCR in
 There is no SLA on Direct Link today. Customers can achieve 99.999% effectively with 2 or more Direct Links properly configured for failover using BGP, but IBM cannot control that or provide an SLA on it.
 
 ## Where can I get help setting up a Direct Link?
+{: #where-can-i-get-help-setting-up-a-direct-link}
 {:faq}
 
 For connecting to Direct Link, see [Configure {{site.data.keyword.cloud_notm}} Direct Link](/docs/infrastructure/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-dedicated). If you need more help, you can request engineering support in the ticket that was opened for the new service. Even if it is an API service with Equinix, opening a ticket will enable an engineer to look at it. Or you can contact your IBM Sales representative.
 
 ## On Direct Link Exchange, does IBM set a BGP password?
+{: #on-direct-link-exchange-does-ibm-set-a-bgp-password}
 {:faq}
 
 We don’t set any BGP password for Direct Link Exchange by default. There is an option to specify BGP ASN and we assign BGP IP addresses. Also, it is possible to set up a BGP password for authentication purposes, we just have to let the engineers know.

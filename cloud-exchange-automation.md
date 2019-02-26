@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-26"
+
+keywords: provisioning, Exchange, order, support, ticket, diverse, virtual circuit, parameters, Terms and Conditions
+
+subcollection: direct-link
 
 ---
 
@@ -18,7 +22,7 @@ lastupdated: "2019-02-19"
 # Provisioning IBM Cloud Direct Link Exchange
 {: #provisioning-ibm-cloud-direct-link-exchange}
 
-This page tells you how to order the {{site.data.keyword.cloud}} Direct Link Exchange service. If the IBM Cloud Direct Link order is for the Equinix Cloud Exchange, the service provisioning is fully automated, which means that you can [place an order for an IBM Cloud Direct Link connection (Equinix) without opening an IBM support ticket]/(docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix) as described in a related document.
+This page tells you how to order the {{site.data.keyword.cloud}} Direct Link Exchange service. If the IBM Cloud Direct Link order is for the Equinix Cloud Exchange, the service provisioning is fully automated, which means that you can [place an order for an IBM Cloud Direct Link connection (Equinix) without opening an IBM support ticket](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix) as described in a related document.
 
 Automation capabilities currently are limited to the Equinix Cloud Exchange. In subsequent releases, automation will be enabled for other providers.
 {:note}
@@ -78,7 +82,12 @@ After you provide the input values, the next UI screen shows the actual monthly 
 
 **Step 7:**
 
-You must **AGREE** to the Terms and Conditions before you can place the IBM Cloud Direct Link order. Please read the Terms and Conditions carefully, because they contain important technical information that you must understand before proceeding. **(Note: If the terms and conditions are not accepted, an IBM support ticket will be generated upon placing the order.)** The  figures that follow show the screens you may see, based on your selection at this step.
+You must **AGREE** to the Terms and Conditions before you can place the IBM Cloud Direct Link order. Please read the Terms and Conditions carefully, because they contain important technical information that you must understand before proceeding. 
+
+If the terms and conditions are not accepted, an IBM support ticket will be generated upon placing the order.
+{:note}
+
+The figures that follow show the screens you may see, based on your selection at this step.
 
 The following figure shows the Terms and Conditions screen:
 

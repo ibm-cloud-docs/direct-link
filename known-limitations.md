@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-26"
+
+keywords: limitations, VRF, account-to-account, VPN, BGP, fees, contract, Exchange, Connect, Dedicated, Hosting
+
+subcollection: direct-link
 
 ---
 
@@ -24,7 +28,7 @@ First, this section covers limitations that apply to all three {{site.data.keywo
  * The {{site.data.keyword.BluSoftlayer_notm}} services network is not accessible directly from your remote networks.
  * {{site.data.keyword.BluSoftlayer_notm}} will not permit customers to back haul traffic between their remote sites across the {{site.data.keyword.BluSoftlayer_notm}} backbone. The IBM Cloud Direct Link product is meant to let your remote networks communicate privately with your {{site.data.keyword.BluSoftlayer_notm}} infrastructure.
  * IBM Cloud Direct Link requires you to use a VRF (Virtual Routing and Forwarding) instance.
- * VRF is not fully compatible with the {{site.data.keyword.BluSoftlayer_notm}} SSL, PPTP, and IPSec VPN services.
+ * VRF is not fully compatible with the {{site.data.keyword.BluSoftlayer_notm}} SSL and IPSec VPN services.
  * VRF is not compatible with {{site.data.keyword.BluSoftlayer_notm}} account-to-account VLAN spanning.
  * IBM Cloud Direct Link requires BGP in order to establish the routes to a customer's remote network.
  * Changes to the IBM Cloud Direct Link infrastructure must be made between 8AM and 5PM, U.S. Central time zone.

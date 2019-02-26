@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-26"
+
+keywords: provision, Connect, console, order, support, ticket
+
+subcollection: direct-link
 
 ---
 
