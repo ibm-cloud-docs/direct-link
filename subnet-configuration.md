@@ -15,7 +15,7 @@ lastupdated: "2019-02-19"
 {:download: .download}
 
 # Configure IBM Cloud Direct Link
-{ #configure-ibm-cloud-direct-link}
+{: #configure-ibm-cloud-direct-link}
 
 Once your IBM Cloud Direct Link connectivity has been established, you can follow the steps given in this document to configure your subnet to interact with IBM Cloud.
 
