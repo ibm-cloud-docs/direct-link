@@ -16,7 +16,7 @@ lastupdated: "2019-02-19"
 {:download: .download}
 
 # Related Resources
-{ #related-resources}
+{: #related-resources}
 
 These resources are created by {{site.data.keyword.cloud}} and some of our partners and customers.
 
