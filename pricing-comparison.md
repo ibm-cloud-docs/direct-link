@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-26"
+
+keywords: pricing, competition, AWS, Microsoft, Azure, Google, metered, Dedicated, performance, bandwidth, ingress, egress, charges, unmetered, flat rate, apples-to-apples, enterprise, private cloud, costs
+
+subcollection: direct-link
 
 ---
 
@@ -90,4 +94,3 @@ Please scroll horizontally as needed to view all 5 columns of comparison.
 | MEL/SYD | $5,999 |$82,000 | $90,000 | $73,020 |
 | CHE | $5,999 |$82,000 | $90,000 | $78,120 |
 | SAO | $5,999 |$82,000 | $242,350 | $188,620 |
-
