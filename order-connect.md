@@ -46,7 +46,9 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | Epsilon | AMS02*, DAL03*, FRA01*, HKG01*, LON01*, SNG02*, WDC02* |
 | IBM BlueFringe | DAL03, WDC02, CHE01 |
 | Intercloud | FRA01, FRA03, AMS02 |
-| Megaport |  MEL02, SYD02, SNG02, AMS02, FRA01, LON03, STO01, DAL03, SJC02, TOR02, WDC02, HKG01* |
+| Megaport | MEL02, SYD02, SNG02, AMS02, FRA01, LON03, STO01, DAL03, SJC02, TOR02, WDC02, HKG01* |
+| MWS GNPP | AMS02, FRA03, DAL03, WDC02 |
+| Neutrona | WDC02 |
 | PacketFabric | DAL04, SJC02, WDC02 |
 | Softbank | TOK04* |
 | SES Networks | WDC02 |
@@ -54,7 +56,7 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | Telia | STO01, OSL02* |
 | Telstra | MEL02, SYD02 |
 | Verizon | SYD02, TOK01, AMS02, FRA01, DAL03, SJC02, WDC02 |
-| Zayo | DAL03*, WDC02*, MON01* |
+| Zayo | WDC02, DAL03*,  MON01* |
 
 * = Coming Soon
 
