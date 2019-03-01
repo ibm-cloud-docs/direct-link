@@ -35,28 +35,29 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 
 | Partners | Available Markets |
 |--------------|--------------|
-| AT&T; NetBond® for Cloud | SNG02, FRA01, LON01, DAL03, SJC02, WDC02|
-| AT&T Cloud Gateway (formerly known as RedFringe)| DAL03, WDC02 |
-| Bell Canada | MON02, TOR02 |
-| British Telecom |  LON01, FRA01, WDC02, SAO02, HKG01* |
-| CenturyLink | DAL03, SAO02, MIA01 |
-| Chief Telecomm | HKG01* |
-| Colt | AMS02, FRA01, PAR02, TOK01, SNG02, LON01*, HKG01*,  |
-| Console Connect by PCCW | HKG01, TOK01, SNG02, LON01, SJC02 |
-| Epsilon | AMS02*, DAL03*, FRA01*, HKG01*, LON01*, SNG02*, WDC02* |
-| IBM BlueFringe | DAL03, WDC02, CHE01 |
-| Intercloud | FRA01, FRA03, AMS02 |
-| Megaport | MEL02, SYD02, SNG02, AMS02, FRA01, LON03, STO01, DAL03, SJC02, TOR02, WDC02, HKG01* |
-| MWS GNPP | AMS02, FRA03, DAL03, WDC02 |
-| Neutrona | WDC02 |
-| PacketFabric | DAL04, SJC02, WDC02 |
-| Softbank | TOK04* |
-| SES Networks | WDC02 |
-| Tata | CHE01 |
-| Telia | STO01, OSL02* |
-| Telstra | MEL02, SYD02 |
-| Verizon | SYD02, TOK01, AMS02, FRA01, DAL03, SJC02, WDC02 |
-| Zayo | WDC02, DAL03*,  MON01* |
+| AT&T; NetBond® for Cloud | Singapore 02, Frankfurt 01, London 01, Dallas 03, San Jose 02, Washington DC02|
+| AT&T Cloud Gateway (formerly known as RedFringe)| Dallas 03, Washington DC02 |
+| Bell Canada | Montreal 02, Toronto 02 |
+| British Telecom |  London 01, Frankfurt 01, Washington DC02, Sao Paulo 02, HKG01* |
+| CenturyLink | Dallas 03, Sao Paulo 02, Miami 01 |
+| Chief Telecomm | Hong Kong 01* |
+| Colt | Amsterdam 02, Frankfurt 01, Paris 02, Tokyo 01, Singapore 02, London 01*, Hong Kong 01*,  |
+| Console Connect by PCCW | Hong Kong 01, Tokyo 01, Singapore 02, London 01, San Jose 02 |
+| Epsilon | Amsterdam 02*, Dallas 03*, Frankfurt 01*, Hong Kong 01*, London 01*, Singapore 02*, Washington DC02* |
+| IBM BlueFringe | Dallas 03, Washington DC02, Chennai 01 |
+| Intercloud | Frankfurt 01, Frankfurt 03, Amsterdam 02 |
+| Megaport | Melbourne 02, Sydney 02, Singapore 02, Amsterdam 02, Frankfurt 01, London 03, Stockholm 01, Dallas 03, San Jose 02, Toronto 02, Washington DC02, Hong Kong 01* |
+| MWS GNPP | Amsterdam 02, Frankfurt 03, Dallas 03, Washington DC02 |
+| Neutrona | Washington DC02 |
+| NTT | Tokyo 05 |
+| PacketFabric | Dallas 04, San Jose 02, Washington DC02 |
+| Softbank | Tokyo 04* |
+| SES Networks | Washington DC02 |
+| Tata | Chennai 01 |
+| Telia | Stockholm 01, Oslo 02* |
+| Telstra | Melbourne 02, Sydney 02 |
+| Verizon | Sydney 02, Tokyo 01, Amsterdam 02, Frankfurt 01, Dallas 03, San Jose 02, Washington DC02 |
+| Zayo | Washington DC02, Dallas 03*,  Montreal 02* |
 
 * = Coming Soon
 
