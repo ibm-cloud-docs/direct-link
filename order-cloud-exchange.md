@@ -34,16 +34,16 @@ subcollection: direct-link
  
 | Exchange Provider	| IBM Data Center Code |
 |-------------|-----------------------|
-| AT Tokyo | TOK02 |
-| Ascenty | SAO01* |
-| Cologix | MON02, TOR02 |
-| Cyrus One | DAL13 |
-| DE-CIX | FRA01 |
-| Equinix | HKG01,SNG02, SYD02, TOK01, AMS02, PAR02, CHI01, DAL03, NYC02, NYC03, SAO02, SJC02, TOR02, WDC02, LON01, FRA03 |							
-| InterXion | FRA01, STO01 |
-| KINX	| SEO02 |
-| NextDC | MEL02, SYD03* |
-| SK C&C | SEO01 |
+| AT Tokyo | Tokyo 02 |
+| Ascenty | Sao Paulo 1* |
+| Cologix | Montreal 02, Toronto 02 |
+| Cyrus One | Dallas 13 |
+| DE-CIX | Frankfurt 01 |
+| Equinix | Hong Kong 01,Singapore 02, Sydney 02, Tokyo 01, Amsterdam 02, Paris 02, Chicago 01, Dallas 03, New York City 02, New York City 02, Sao Paulo 02, San Jose 02, Toronto 02, Washington DC02, London 01, Frankfurt 03 |							
+| InterXion | Frankfurt 01, Stockholm 01 |
+| KINX	| Seoul 02 |
+| NextDC | Melbourne 02, Sydney 03* |
+| SK C&C | Seoul 01 |
 
 * Coming Soon
 
