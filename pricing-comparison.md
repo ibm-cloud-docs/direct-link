@@ -23,7 +23,7 @@ subcollection: direct-link
 
 Enterprises choose to use private cloud interconnection such as {{site.data.keyword.cloud}} Direct Link for many reasons, including superior network performance, security and privacy requirements, and reduction of bandwidth costs. Although your company may adopt a private cloud interconnection network architecture because of the performance and security advantages, the associated reduction of network costs is a metric that clearly favors IBM Cloud Direct Link in many usage scenarios. 
 
-## Why choose IBM Direct Link?
+## Why choose IBM Cloud Direct Link?
 {: #why-choose-ibm-cloud-direct-link}
 
 IBM’s standard rates for Direct Link reflect a significant value for customers that use cloud resources on an active basis. This fact is borne out in calculating TCO for a Direct Link against its competition.
