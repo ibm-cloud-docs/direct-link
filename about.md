@@ -42,7 +42,7 @@ The IBM Cloud Direct Link Exchange solution lets customers leverage a Cloud Exch
 
  * **Cross-Connect Details:** Physical cross-connects for the secure Cloud Exchange interconnect are maintained between {{site.data.keyword.BluSoftlayer_notm}} and the Cloud Exchange provider. Customers request a "Virtual Circuit" from the Cloud Exchange Provider, which establishes logical connectivity to {{site.data.keyword.BluSoftlayer_notm}}, once they are interconnected to the Cloud Exchange Provider.
 
- * **Port Speed Options:** Select 50Mbps, 100Mbps, 200Mbps, 500Mbps, or 1Gbps.
+ * **Port Speed Options:** Select 50Mbps, 100Mbps, 200Mbps, 500Mbps, 1Gbps, 2Gbps, or 5Gbps.
 
  * **Approximate Latency:** Latency is approximately 1.5ms within the local area (datacenters with the same three-letter prefix, such as DAL, AMS, MEL). See http://lg.softlayer.com/ for live PoP-to-PoP (P2P) location latency measurements.
 
