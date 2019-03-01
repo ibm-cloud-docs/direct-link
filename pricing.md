@@ -30,19 +30,19 @@ If your browser shows this table with speeds less than 1Gbps, use your mouse or 
 
 ## Pricing for Direct Link Exchange
 
-| Region | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps |
-|----|----|----|----|----|----|
-| USA |  $100 | $150 | $300 | $650 | $1,199 | 
-| Canada/Amsterdam |  $103 | $155 | $309 | $670 | $1,235 |
-| Asia | $113 | $170 | $339 | $735 | $1,355 |
-| Korea | $110 | $165 | $330 | $715 | $1,319 |
-| Australia | $120 | $180 | $360 | $780 | $1,439 |
-| India | $120 | $180 | $360 | $780 | $1,439 |
-| Paris/Frankfurt/Milan |  $110 | $165 | $330 | $715 | $1,319 |
-| London |  $107 | $161 | $321 | $696 | $1,283 | 
-| Norway | $107 | $161 | $321 | $696 | $1,283 | 
-| Mexico| $107 | $161 | $321 | $696 | $1,283 | 
-| Brazil | $120 | $180 | $360 | $780 | $1,439 |
+| Region | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps |2 Gbps | 5 Gbps |
+|----|----|----|----|----|----|----|----|
+| USA |  $100 | $150 | $300 | $650 | $1,199 | $1,999 | $3,750 | 
+| Canada/Amsterdam |  $103 | $155 | $309 | $670 | $1,235 | $ 2,059 | $3,863 | 
+| Asia | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 | 
+| Korea | $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 | 
+| Australia | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500| 
+| India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
+| Paris/Frankfurt/Milan |  $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 | 
+| London |  $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
+| Norway | $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 | 
+| Mexico| $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 | 
+| Brazil | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
 
 ## Pricing for Direct Link Connect
 
@@ -135,11 +135,3 @@ Several customized, non-standard configurations are available for additional cos
 | Type of service | Fee |
 |-----------------|------|
 | Special Network Services (SNS) fee | $3000 MRC (monthly) per Account |
-| Multi-Vlan Tenants | $1000 MRC (monthly) per Direct Link |
-| BCR Peering | $1000 MRC (monthly) per POD |
-| Static Route | $100 NRC |
-| ASN Prepend | $100 NRC |
-| Custom BGP Export Policy | $250 NRC |
-| Custom BGP Import Policy | $250 NRC |
-| Custom inbound ACL on XCR | $250 NRC |
-| Custom outbound ACL on XCR | $250 NRC |
