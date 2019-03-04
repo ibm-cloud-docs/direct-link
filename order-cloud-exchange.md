@@ -34,16 +34,16 @@ subcollection: direct-link
  
 | Exchange Provider	| IBM Data Center Code |
 |-------------|-----------------------|
-| AT Tokyo | Tokyo 02 |
+| AT Tokyo | Tokyo 2 |
 | Ascenty | Sao Paulo 1* |
-| Cologix | Montreal 02, Toronto 02 |
+| Cologix | Montreal 2, Toronto 2 |
 | Cyrus One | Dallas 13 |
-| DE-CIX | Frankfurt 01 |
-| Equinix | Hong Kong 01,Singapore 02, Sydney 02, Tokyo 01, Amsterdam 02, Paris 02, Chicago 01, Dallas 03, New York City 02, New York City 02, Sao Paulo 02, San Jose 02, Toronto 02, Washington DC02, London 01, Frankfurt 03 |							
-| InterXion | Frankfurt 01, Stockholm 01 |
-| KINX	| Seoul 02 |
-| NextDC | Melbourne 02, Sydney 03* |
-| SK C&C | Seoul 01 |
+| DE-CIX | Frankfurt 1 |
+| Equinix | Hong Kong 1,Singapore 2, Sydney 2, Tokyo 1, Amsterdam 2, Paris 2, Chicago 1, Dallas 3, New York City 2, New York City 2, Sao Paulo 2, San Jose 2, Toronto 2, Washington DC 2, London 1, Frankfurt 3 |							
+| InterXion | Frankfurt 1, Stockholm 1 |
+| KINX	| Seoul 2 |
+| NextDC | Melbourne 2, Sydney 3* |
+| SK C&C | Seoul 1 |
 
 * Coming Soon
 
