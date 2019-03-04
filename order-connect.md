@@ -35,29 +35,29 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 
 | Partners | Available Markets |
 |--------------|--------------|
-| AT&T; NetBond® for Cloud | Singapore 02, Frankfurt 01, London 01, Dallas 03, San Jose 02, Washington DC02|
-| AT&T Cloud Gateway (formerly known as RedFringe)| Dallas 03, Washington DC02 |
-| Bell Canada | Montreal 02, Toronto 02 |
-| British Telecom |  London 01, Frankfurt 01, Washington DC02, Sao Paulo 02, HKG01* |
-| CenturyLink | Dallas 03, Sao Paulo 02, Miami 01 |
-| Chief Telecomm | Hong Kong 01* |
-| Colt | Amsterdam 02, Frankfurt 01, Paris 02, Tokyo 01, Singapore 02, London 01*, Hong Kong 01*,  |
-| Console Connect by PCCW | Hong Kong 01, Tokyo 01, Singapore 02, London 01, San Jose 02 |
-| Epsilon | Amsterdam 02*, Dallas 03*, Frankfurt 01*, Hong Kong 01*, London 01*, Singapore 02*, Washington DC02* |
-| IBM BlueFringe | Dallas 03, Washington DC02, Chennai 01 |
-| Intercloud | Frankfurt 01, Frankfurt 03, Amsterdam 02 |
-| Megaport | Melbourne 02, Sydney 02, Singapore 02, Amsterdam 02, Frankfurt 01, London 03, Stockholm 01, Dallas 03, San Jose 02, Toronto 02, Washington DC02, Hong Kong 01* |
-| MWS GNPP | Amsterdam 02, Frankfurt 03, Dallas 03, Washington DC02 |
-| Neutrona | Washington DC02 |
-| NTT | Tokyo 05 |
-| PacketFabric | Dallas 04, San Jose 02, Washington DC02 |
-| Softbank | Tokyo 04* |
-| SES Networks | Washington DC02 |
-| Tata | Chennai 01 |
-| Telia | Stockholm 01, Oslo 02* |
-| Telstra | Melbourne 02, Sydney 02 |
-| Verizon | Sydney 02, Tokyo 01, Amsterdam 02, Frankfurt 01, Dallas 03, San Jose 02, Washington DC02 |
-| Zayo | Washington DC02, Dallas 03*,  Montreal 02* |
+| AT&T; NetBond® for Cloud | Singapore 2, Frankfurt 1, London 1, Dallas 3, San Jose 2, Washington DC 2|
+| AT&T Cloud Gateway (formerly known as RedFringe)| Dallas 3, Washington DC 2 |
+| Bell Canada | Montreal 2, Toronto 2 |
+| British Telecom |  London 1, Frankfurt 1, Washington DC 2, Sao Paulo 2, Hong Kong 1* |
+| CenturyLink | Dallas 3, Sao Paulo 2, Miami 1 |
+| Chief Telecomm | Hong Kong 1* |
+| Colt | Amsterdam 2, Frankfurt 1, Paris 2, Tokyo 1, Singapore 2, London 1*, Hong Kong 1*,  |
+| Console Connect by PCCW | Hong Kong 1, Tokyo 1, Singapore 2, London 1, San Jose 2 |
+| Epsilon | Amsterdam 2*, Dallas 3*, Frankfurt 1*, Hong Kong 1*, London 1*, Singapore 2*, Washington DC 2* |
+| IBM BlueFringe | Dallas 3, Washington DC 2, Chennai 1 |
+| Intercloud | Frankfurt 1, Frankfurt 3, Amsterdam 2 |
+| Megaport | Melbourne 2, Sydney 2, Singapore 2, Amsterdam 2, Frankfurt 1, London 3, Stockholm 1, Dallas 3, San Jose 2, Toronto 2, Washington DC 2, Hong Kong 1* |
+| MWS GNPP | Amsterdam 2, Frankfurt 3, Dallas 3, Washington DC 2 |
+| Neutrona | Washington DC 2 |
+| NTT | Tokyo 5 |
+| PacketFabric | Dallas 4, San Jose 2, Washington DC 2 |
+| Softbank | Tokyo 4* |
+| SES Networks | Washington DC 2 |
+| Tata | Chennai 1 |
+| Telia | Stockholm 1, Oslo 2* |
+| Telstra | Melbourne 2, Sydney 2 |
+| Verizon | Sydney 2, Tokyo 1, Amsterdam 2, Frankfurt 1, Dallas 3, San Jose 2, Washington DC 2 |
+| Zayo | Washington DC 2, Dallas 3*,  Montreal 2* |
 
 * = Coming Soon
 
