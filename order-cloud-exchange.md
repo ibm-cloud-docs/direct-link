@@ -38,7 +38,7 @@ subcollection: direct-link
 | Ascenty | Sao Paulo 1* |
 | Cologix | Montreal 2, Toronto 2 |
 | Cyrus One | Dallas 13 |
-| DE-CIX | Frankfurt 1 |
+| DE-CIX | Frankfurt 3 |
 | Equinix | Hong Kong 1,Singapore 2, Sydney 2, Tokyo 1, Amsterdam 2, Paris 2, Chicago 1, Dallas 3, New York City 2, New York City 2, Sao Paulo 2, San Jose 2, Toronto 2, Washington DC 2, London 1, Frankfurt 3 |							
 | InterXion | Frankfurt 1, Stockholm 1 |
 | KINX	| Seoul 2 |
