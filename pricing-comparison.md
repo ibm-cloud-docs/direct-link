@@ -38,7 +38,7 @@ The following comparisons reflect the tipping point against hypothetical example
 Company “A” offers a metered offering that lends itself to cheap Ingress but significant variable pricing on Egress.
 * The Company “A” 10Gbps pricing is comprised of port hours at a $1,620 monthly recurring charge (MRC) plus a $.02/GB transfer fee on egress (in North America).
 * For an apples-to-apples perspective to IBM Cloud Direct Link Dedicated, a Company “A” Direct Link equivalent  10Gbps connection at 5% usage (or 170TB) egressed in a month would cost a customer $5,020, versus $4,999 for a Direct Link 10Gbps connection. Any data egress above 5% (or 170TB) in a month would favor Direct Link’s flat rate pricing model.
-* For a more stark comparison, assuming 20% usage ( or 6.8 TB) egressed in a month would cost an Company “A” customer $15,220 in a given month vs. $4,999 for a 10Gbps Direct Link connection.
+* For a more stark comparison, assuming 20% usage ( or 680 TB) egressed in a month would cost an Company “A” customer $15,220 in a given month vs. $4,999 for a 10Gbps Direct Link connection.
 
 ## Company G
 {: #Company G}
@@ -48,7 +48,7 @@ Company G offers a metered offering that lends itself to cheap Ingress but signi
 * The Company G 10Gbps pricing is set at $1,750 MRC plus a $.02/GB transfer fee on egress (in North America).
 * For an apples-to-apples perspective to IBM Cloud Direct Link Dedicated, a Company “G” Direct Link equivalent  10Gbps port at 5% usage,  (170TB) egressed in a month would cost a customer $5,172 versus $4,999 for Direct Link 10Gbps connection. 
 * Any data egress above 5% (or 170TB) in a month would favor Direct Link’s flat rate pricing model.
-* For a more stark comparison, assuming 20% usage ( or 6.8 TB) egressed in a month would cost an Company “G” customer $15,330 in a given month vs. $4,999 for a 10Gbps Direct Link connection.
+* For a more stark comparison, assuming 20% usage ( or 680 TB) egressed in a month would cost an Company “G” customer $15,330 in a given month vs. $4,999 for a 10Gbps Direct Link connection.
 
 ## Company M
 {: #Company M}
@@ -61,7 +61,7 @@ Company "M" (like Company "A" and Company "G") presents a metered offering that 
 * The Company "M" 10Gbps pricing consists of a port fee ($5,000 MRC) plus a $.02/GB transfer fee on egress (in North America). Right from the start, ANY data transferred out will be more expensive than IBM Cloud Direct Link!!!
 * For an apples-to-apples perspective to IBM Cloud Direct Link Dedicated, a Company “M” Direct Link equivalent  10Gbps port at 5% usage (or 170TB) egressed in a month would cost a customer $8,400, versus $4,999 for a Direct Link 10Gbps connection. 
 * Any data egress above 1TB in a month would favor Direct Link’s flat pricing model.
-* For a more stark comparison, assuming 20% usage ( or 6.8 TB) egressed in a month would cost an Company “M” customer $22,000 in a given month vs. $4,999 for a 10Gbps Direct Link connection.
+* For a more stark comparison, assuming 20% usage ( or 680 TB) egressed in a month would cost an Company “M” customer $22,000 in a given month vs. $4,999 for a 10Gbps Direct Link connection.
 
 
 ### Unmetered 
@@ -79,7 +79,7 @@ Please scroll horizontally as needed to view all 5 columns of comparison.
 **Notes:**
 
 * **10 Gbps connection size is used for price comparison.**
-* **Usage is based on 2 Gbps sustained or 6.8 TB of data transfer per month.**
+* **Usage is based on 2 Gbps sustained or 680 TB of data transfer per month.**
 
 
 | Region | IBM Unlimited | Company “M” Unlimited | Company “M” Metered | Company “A” Metered (intra-region) |
