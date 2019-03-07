@@ -84,13 +84,42 @@ The IBM Cloud Dedicated Hosting minimum configuration includes one (1) rack with
 
 ## Local routing
 
-Local routing is included as a basic part of all IBM Cloud Direct Link offerings. It includes access to all of the datacenters connected directly to the PoP location, and it provides unlimited ingress and egress traffic. If you need to route your traffic outside the PoP location in the area within which you are ordering Direct Link, you must add the Global Routing option. Otherwise, your traffic is restricted to the services provided by the local PoP. Local routing does not incur any overage fees.
+Local routing is included as a basic part of all IBM Cloud Direct Link offerings. It includes access to all of the datacenters connected directly to the PoP location, and it provides unlimited ingress and egress traffic across the Direct Link. If you need to route your traffic outside the local markets defined below, you must add the Global Routing option. Otherwise, your traffic is restricted to the services provided by the local market. Local routing does not incur any overage fees.
+
+## Expanded IBM Direct Link Local Markets
+
+To route network traffic outside of the Local Market in which the Direct Link is connected (at a PoP or datacenter), you must add the Global Routing option, which expands your access to include all IBM Cloud datacenters, globally.
+
+However, we've recently expanded our Direct Link Local Markets to provide more local routing options to our customers across the globe. The new Local Market assignments are listed in the table that follows. 
+
+| Local Market | Sites |
+|--------|----------------------|
+| Dallas | DAL01, DAL02, DAL03, DAL04, DAL07, DAL08, DAL09, DAL10, DAL12, DAL13, Denver 1 *, Houston 2 *, Chicago 1 *  |
+| San Jose | SJC01, SJC02, SJC03, SJC04, Los Angeles 1 * |
+| Seattle | SEA01, SEA02 |
+| Washington, D.C. | WDC01, WDC02, WDC03, WDC04, WDC05, WDC06, WDC07, Atlanta 1 *, Miami 1 *, New York City 2 *, New York City 3 * |
+| Mexico City | MEX01 |
+| Montreal | MON01, MON02 |
+| Toronto | TOR01, TOR02 |
+| Sao Paulo | SAO01, SAO02 |
+| Amsterdam | AMS01, AMS02, AMS03 |
+| Frankfurt | FRA01, FRA02, FRA03, FRA04, FRA05 |
+| London | LON01, LON02, LON03, LON04, LON05, LON06
+| Milan | MIL01, MIL02 |
+| Oslo | OSL01, OSL02, Stockholm 1 * |
+| Paris | PAR01, PAR02 |
+| Chennai | CHE01, Mumbai 1** |
+| Hong Kong | HKG01, HKG02, HKG03 **, Taipei 1 ** |
+| Melbourne | MEL01, MEL02 |
+| Seoul | SEO01, SEO02 |
+| Singapore | SNG01, SNG02 |
+| Sydney | SYD01, SYD02, SYD03, SYD04, SYD05, Perth 1 * |
+| Tokyo | TOK01, TOK02, TOK04, TOK05, Osaka 1** |
+
 
 ## Pricing for Global Routing Add-on
 
-Global routing expands access to include all IBM Cloud datacenters globally. Bandwidth is metered and charged monthly based on the market. Details on the markets and other considerations can be found in our [FAQs file](/docs/infrastructure/direct-link?topic=direct-link-faqs#what-are-the-local-routing-and-global-routing-options)
-
-If you select Global Routing, you are not charged for any local egress traffic, only for traffic that originates or terminates outside of the local PoP.
+Global routing expands access to include all IBM Cloud datacenters globally. Bandwidth is un-metered and charged monthly based on the market. Details on the markets and other considerations can be found in our [FAQs file](/docs/infrastructure/direct-link?topic=direct-link-faqs#what-are-the-local-routing-and-global-routing-options)
 
 | Region | Price |
 |---------|----------|
@@ -105,28 +134,8 @@ If you select Global Routing, you are not charged for any local egress traffic, 
 |Norway | $2,999 |
 |Mexico | $2,999 |
 |Brazil | $2,999 |
+|Japan | $2,999 |
 
-## Global Routing Overage fees
-
-Each month, all customers using circuits below 10Gbps are allotted 10TB of free egress traffic; customers using 10G circuits are allotted 50TB. Overages are based on the table below, with the higher market rate prevailing. 
-
-|Area | Fee |
-|--------|--------|
-| Market 1: | $0.05 per GB |
-| Market 2: | $0.10 per GB |
-| Market 3: | $0.15 per GB |
-
-
-## Local Routing and Global Routing markets
-Local Routing and Global Routing options are selected by every customer when ordering Direct Link service. If customers need to route their traffic outside the POP in the area within which they are ordering Direct Link, they must add the Global Routing option; otherwise, their traffic is restricted to the services provided by the local POP. Local routing does not incur any overage fees.
-
-Each month, all Global Routing customers using 1G Circuits are allotted 10TB of free egress traffic; customers using 10G circuits are allotted 50TB. Overages are based on the following table, with the higher market rate prevailing. If you select Global Routing, you are not charged for any local egress traffic, only for traffic that originates or terminates outside of the local POP.
-
-|Data Market 1|Data Market 2|Data Market 3|
-|---|---|---|
-|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li><li>LON</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
-**Table 1: Utilization tiers**<br/>
-Direct Link offerings in the markets marked with an asterisk (*) MUST order Global Routing.
 
 ## Additional fees for Customization 
 
