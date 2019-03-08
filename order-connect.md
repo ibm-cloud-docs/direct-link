@@ -53,7 +53,7 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | PacketFabric | Dallas 4, San Jose 2, Washington DC 2 |
 | Softbank | Tokyo 4* |
 | SES Networks | Washington DC 2 |
-| Tata | Chennai 1 |
+| Tata | Chennai 1, Hong Kong 1 | 
 | Telia | Stockholm 1, Oslo 2* |
 | Telstra | Melbourne 2, Sydney 2 |
 | Verizon | Sydney 2, Tokyo 1, Amsterdam 2, Frankfurt 1, Dallas 3, San Jose 2, Washington DC 2 |
