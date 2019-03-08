@@ -88,33 +88,33 @@ Local routing is included as a basic part of all IBM Cloud Direct Link offerings
 
 ## Expanded IBM Direct Link Local Markets
 
-To route network traffic outside of the Local Market in which the Direct Link is connected (at a PoP or datacenter), you must add the Global Routing option, which expands your access to include all IBM Cloud datacenters, globally.
+To reach IBM Cloud resources outside of the Local Market in which the Direct Link is connected (at a PoP or datacenter), you must add the Global Routing option, which expands your access to include all IBM Cloud datacenters, globally.
 
 However, we've recently expanded our Direct Link Local Markets to provide more local routing options to our customers across the globe. The new Local Market assignments are listed in the table that follows. 
 
 | Local Market | Sites |
 |--------|----------------------|
-| Dallas | DAL01, DAL02, DAL03, DAL04, DAL07, DAL08, DAL09, DAL10, DAL12, DAL13, Denver 1 *, Houston 2 *, Chicago 1 *  |
+| Dallas | DAL01, DAL02, DAL03, DAL04, DAL07, DAL09, DAL10, DAL12, DAL13, Denver 1 , Houston 2 , Chicago 1   |
 | San Jose | SJC01, SJC02, SJC03, SJC04, Los Angeles 1 * |
 | Seattle | SEA01, SEA02 |
-| Washington, D.C. | WDC01, WDC02, WDC03, WDC04, WDC05, WDC06, WDC07, Atlanta 1 *, Miami 1 *, New York City 2 *, New York City 3 * |
+| Washington, D.C. | WDC01, WDC02, WDC04, WDC05, WDC06, WDC07, Atlanta 1 , Miami 1 , New York City 2 , New York City 3  |
 | Mexico City | MEX01 |
 | Montreal | MON01, MON02 |
 | Toronto | TOR01, TOR02 |
 | Sao Paulo | SAO01, SAO02 |
 | Amsterdam | AMS01, AMS02, AMS03 |
 | Frankfurt | FRA01, FRA02, FRA03, FRA04, FRA05 |
-| London | LON01, LON02, LON03, LON04, LON05, LON06
+| London | LON01, LON02, LON03, LON04, LON05, LON06 |
 | Milan | MIL01, MIL02 |
-| Oslo | OSL01, OSL02, Stockholm 1 * |
+| Oslo | OSL01, OSL02, Stockholm 1 |
 | Paris | PAR01, PAR02 |
 | Chennai | CHE01, Mumbai 1** |
-| Hong Kong | HKG01, HKG02, HKG03 **, Taipei 1 ** |
+| Hong Kong | HKG01, HKG02, HKG03**, Taipei 1**  |
 | Melbourne | MEL01, MEL02 |
 | Seoul | SEO01, SEO02 |
 | Singapore | SNG01, SNG02 |
-| Sydney | SYD01, SYD02, SYD03, SYD04, SYD05, Perth 1 * |
-| Tokyo | TOK01, TOK02, TOK04, TOK05, Osaka 1** |
+| Sydney | SYD01, SYD02, SYD03, SYD04, SYD05, Perth 1  |
+| Tokyo | TOK01, TOK02, TOK03, TOK04, TOK05, Osaka 1** |
 
 
 ## Pricing for Global Routing Add-on
