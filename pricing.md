@@ -88,7 +88,7 @@ Local routing is included as a basic part of all IBM Cloud Direct Link offerings
 
 ## Expanded IBM Direct Link Local Markets
 
-To route network traffic outside of the Local Market in which the Direct Link is connected (at a PoP or datacenter), you must add the Global Routing option, which expands your access to include all IBM Cloud datacenters, globally.
+To reach IBM Cloud resources outside of the Local Market in which the Direct Link is connected (at a PoP or datacenter), you must add the Global Routing option, which expands your access to include all IBM Cloud datacenters, globally.
 
 However, we've recently expanded our Direct Link Local Markets to provide more local routing options to our customers across the globe. The new Local Market assignments are listed in the table that follows. 
 
