@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-11"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-04-11"
 {:download: .download}
 
 # 已知限制
+{: #known-limitations}
 
-本节首先介绍了适用于所有三个 IBM Cloud Direct Link 产品的限制，然后再分别详细说明每个产品的一些限制。
+本节首先介绍了适用于所有三个 {{site.data.keyword.cloud}} Direct Link 产品的限制，然后再分别详细说明每个产品的一些限制。
 
 ## 通用 IBM Cloud Direct Link 限制
  * 每个 IBM Cloud Direct Link 连接都需要唯一的订单。如果您需要多个连接，请为每个连接开具一张 IBM Cloud Direct Link 订单。

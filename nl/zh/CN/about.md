@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-08-09"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-08-09"
 {:download: .download}
 
 # 关于 IBM Cloud Direct Link
+{: #about-ibm-cloud-direct-link}
 
-在本节中，您可以浏览有关四个 IBM Cloud Direct Link 解决方案各自的主要功能和好处的更多详细信息。
+在本节中，您可以浏览有关四个 {{site.data.keyword.cloud}} Direct Link 解决方案各自的主要功能和好处的更多详细信息。
   * [**IBM Cloud Direct Link Exchange**](#the-ibm-cloud-direct-link-exchange-solution)
   * [**IBM Cloud Direct Link Connect**](#the-ibm-cloud-direct-link-connect-solution)
   * [**IBM Cloud Direct Link Dedicated**](#the-ibm-cloud-direct-link-dedicated-solution)
@@ -40,7 +41,7 @@ lastupdated: "2018-08-09"
 
  * **估计等待时间：**等待时间在当地区域（具有相同三字母前缀（如 DAL、AMS、MEL 等）的数据中心）大约为 1.5 毫秒。请参阅 http://lg.softlayer.com/ 以获取实时 PoP 到 PoP (P2P) 位置等待时间测量值。
 
- * **并置服务：**无。
+ * **IBM 并置服务：**无。
 
  * **冗余：**要为 IBM Cloud Direct Link Exchange 建立冗余，需要连接到 2 个以上的位置，也可以选择一个位置，而该位置要有 Cloud Exchange 提供商可利用的辅助 XCR。
 
@@ -62,7 +63,7 @@ lastupdated: "2018-08-09"
 
 * **估计等待时间：**等待时间在当地区域（具有相同三字母前缀（如 DAL、AMS、MEL 等）的数据中心）大约为 1.5 毫秒。请参阅 http://lg.softlayer.com/ 以获取实时 PoP 到 PoP (P2P) 位置等待时间测量值。
 
-* **并置服务：**无。
+* **IBM 并置服务：**无。
 
 * **冗余：**要为 IBM Cloud Direct Link Connect 建立冗余，需要连接到 2 个以上的位置，也可以选择一个位置，而该位置要有 IBM Cloud Connect 提供商可利用的辅助 XCR。
 
@@ -86,7 +87,7 @@ lastupdated: "2018-08-09"
 
  * **估计等待时间：**等待时间在当地区域（具有相同三字母前缀（如 DAL、AMS、MEL 等）的数据中心）大约为 1.5 毫秒。请参阅 http://lg.softlayer.com/ 以获取实时 PoP 到 PoP (P2P) 位置等待时间测量值。
 
- * **并置服务：**无。
+ * **IBM 并置服务：**无。
 
  * **冗余：**要建立冗余，IBM Cloud Direct Link 需要连接到超过 2 个位置，也可以选择一个位置，而该位置要有可用的辅助 XCR 和第二个 IBM Cloud Direct Link 连接请求。
 
@@ -110,7 +111,7 @@ IBM Cloud Direct Link Dedicated Hosting 解决方案提供类似于 IBM Cloud Di
 
  * **估计等待时间：**在当地数据中心内，等待时间大约为 0.5 毫秒。
 
- * **并置服务：**是。
+ * **IBM 并置服务：**是。
 
  * **冗余：**作为产品的一部分，{{site.data.keyword.BluSoftlayer_notm}} 提供与两个交叉连接路由器 (XCR) 的连接。要建立冗余连接，客户必须在每个 Direct Link 连接上根据实现冗余的需要来配置 BGP。示例包括诸如以下内容的选项：_首选最低 MED_、_首选最高 local-preference_ 或_首选更短 AS 路径_。
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-23"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -12,14 +12,16 @@ lastupdated: "2018-07-23"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:download: .download}
 
 # 如何订购 IBM Cloud Direct Link Dedicated Hosting
+{: #how-to-order-ibm-cloud-direct-link-dedicated-hosting}
 
-1. 识别您的并置和连接需求，并与 IBM 销售团队一起合作，最终确定并执行合同和技术附录。
-2. {{site.data.keyword.BluSoftlayer_notm}} 针对所请求的环境和服务，与并置提供商执行构建订单。部署通常在下达构建订单后的 30 天内完成。
+1. 识别您的并置和连接需求，并与 {{site.data.keyword.cloud}} 销售团队一起合作，最终确定并执行合同和技术附录。
+2. {{site.data.keyword.BluSoftlayer_notm}} 针对所请求的环境和服务，与主机托管提供商执行构建订单。部署通常在下达构建订单后的 30 天内完成。
 
-3. 当并置框架的构建完成时，并置框架与 {{site.data.keyword.BluSoftlayer_notm}} POD 环境 XCR 设备之间的互连过程将遵循 [IBM Cloud Direct Link Dedicated](order-nsp.html#how-to-order-ibm-cloud-direct-link-dedicated) 的订购流程，从步骤 3 开始。
+3. 当并置框架的构建完成时，并置框架与 {{site.data.keyword.BluSoftlayer_notm}} POD 环境 XCR 设备之间的互连过程将遵循 [IBM Cloud Direct Link Dedicated](/docs/infrastructure/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-dedicated) 的订购流程，从步骤 3 开始。
 
 ## 位置
 
@@ -44,6 +46,8 @@ lastupdated: "2018-07-23"
 |亚太地区|MEL01|墨尔本|DC|DLR|72 Radnor Drive, Deer Park|
 |亚太地区|SYD01|悉尼|DC (AZ1)|Global Switch|400 Harris Street aka 273 Pyrmont St. Ultimo|
 |亚太地区|	SYD02|	 悉尼|	PoP|	Equinix|	47 Bourke Rd|
+|亚太地区|	SYD03|	 悉尼|	PoP|	Equinix|	4 Eden Park Drive|
+|亚太地区|	SYD05|	 悉尼|	DC (AZ3)|	Equinix|	200 Bourke Rd|
 |亚太地区|SNG01|裕廊东|DC|DLR|29a International Business Park, S180|
 |亚太地区|SNG02|	Ayer Rajan|PoP|	Equinix|	20 Ayer Rajan Crescent Industrial Park|
 |亚太地区|TOK01|	品川区|PoP|Equinix|	品川区|
@@ -54,10 +58,10 @@ lastupdated: "2018-07-23"
 |欧洲、中东和非洲 |FRA03|	法兰克福|	PoP|	Equinix|	Larchenstrasse 110|
 |欧洲、中东和非洲 |LON02|切辛顿|DC|DLR|Fountain Court|
 |欧洲、中东和非洲 |LON03|斯劳|	PoP|	Equinix|	8 Buckingham Ave|
-|欧洲、中东和非洲 |LON04|伦敦 |DC (AZ1)|Vysiion|A57 Cody Technology Park Old|
 |欧洲、中东和非洲 |LON06|伦敦 |	DC (AZ3)|	Zenium|	12 Liverpool Rd|
 |欧洲、中东和非洲 |PAR02|巴黎|PoP|Equinix|	114 Rue Ambroise Croizat|
 
 
 
-**如果您需要东京的准确地址，请联系 Direct Link 产品管理或销售团队。**
+如果您需要 Tokyo 的准确地址，请联系 Direct Link 产品管理或销售团队。
+{:note}

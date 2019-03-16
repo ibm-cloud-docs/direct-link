@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-05-30"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-05-30"
 {:download: .download}
 
 # IBM Cloud Direct Link Connect 详细信息
+{: #ibm-cloud-direct-link-connect-details}
 
-IBM Cloud Direct Link Connect 让客户能够通过合作伙伴建立的连接（合作伙伴拥有并运营基于设施的网络）来连接到自己的 IBM Cloud 部署。IBM 以及合作伙伴都会通过第 2 层 10G 网络到网络双接口 (NNI) 在第 2 层和第 3 层与客户连接。
+{{site.data.keyword.cloud}} Direct Link Connect 让客户能够通过拥有并运营基于设施的网络的合作伙伴，连接到自己的 IBM Cloud 部署。IBM 以及合作伙伴都会通过第 2 层 10G 网络到网络双接口 (NNI) 在第 2 层和第 3 层与客户连接。
 
 提供的连接速度有：
 
@@ -29,5 +30,5 @@ IBM Cloud Direct Link Connect 让客户能够通过合作伙伴建立的连接�
 
 ## 定价
 
-IBM Cloud Direct Link Connect 的定价在[定价文档](pricing.html)中说明。
+IBM Cloud Direct Link Connect 的定价在[定价文档](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-direct-link-connect)中说明。
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-06-11"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-06-11"
 {:download: .download}
 
 # IBM Cloud Direct Link Dedicated 调查表
+{: #ibm-cloud-direct-link-dedicated-questionnaire}
 
-感谢您提交 IBM Cloud Direct Link Dedicated 请求。为了最终完成您的请求，我们希望向您收集一些额外的信息。在填写调查表过程中，您可以随时与工程师交谈。完成调查表后，我们的云设计工程团队将对其进行复查，并将其上报到网络工程部以进行实施。
+感谢您开具 {{site.data.keyword.cloud}} Direct Link Dedicated 请求。为了最终完成您的请求，我们希望向您收集一些额外的信息。在填写调查表过程中，您可以随时与工程师交谈。完成调查表后，我们的云设计工程团队将对其进行复查，并将其上报到特殊网络服务以进行实施。
 
 ## 您是否确认并同意以下内容？
 
@@ -29,7 +30,7 @@ lastupdated: "2018-06-11"
  * 发生以下情况时，计费即停止：
    * 客户请求删除电路，**以及** 
    * Exchange 提供商或网络服务提供商已取消供应电路。
-  * 有关更多信息，请参阅位于以下链接的“云服务协议”中的**第 5 节 - 费用**：[ibm.biz/service-agreement](ibm.biz/service-agreement)
+  * 有关更多信息，请参阅位于以下链接的“云服务协议”中的**第 5 节 - 费用**：[https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html)。例如，美国的客户将看到[此云服务合同文档](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en)。
 
 3. 通过订购 Direct Link 服务，您将负责支付与从远程网络访问存在点 (PoP) 相关联的任何费用，以及与 PoP 设施中所需任何交叉连接相关联的任何费用。如果您的提供商需要路由器或其他设备实际位于 PoP 中，那么与并置该设备相关联的成本也由您负责支付。
 
@@ -45,7 +46,7 @@ lastupdated: "2018-06-11"
 
 9. 确认电路已到达 PoP 并已由承运方完成之后，您需要订购与 IBM Cloud XCR（交叉连接路由器）的交叉连接，通常需要 2 到 10 个工作日才能完成。这包括向下一直到 SoftLayer 终止端口的补丁。完成后，您需要向 IBM Cloud 提供设施提供商的交叉连接完成通知。IBM Cloud 网络基础架构上的 IP 发现将在交叉连接完成后的 3 个工作日内完成。
 
-10. IBM Cloud Direct Link Dedicated 需要利用 VRF（虚拟路由和转发）实例。这允许客户定义自己的远程 IP 地址以用于远程网络；但是，您必须知道的是，如果利用 10.x.x.x 网络，您仍然不能与 IBM Cloud 中的主机或与 IBM Cloud 服务网络（(10.0.0.0/14、10.198.0.0/15 和 10.200.0.0/14）重叠。在将帐户转换到 VRF 的过程中，在每个 VLAN 迁移到新配置时，都需要短暂的专用网络中断。网络工程团队将与您合作为此活动定义一个时段。
+10. IBM Cloud Direct Link Dedicated 需要利用 VRF（虚拟路由和转发）实例。此功能允许客户定义自己的远程 IP 地址以用于远程网络；但是，您必须知道的是，如果利用 10.x.x.x 网络，您仍然不能与 IBM Cloud 中的主机或与 IBM Cloud 服务网络（10.0.0.0/14、10.198.0.0/15 和 10.200.0.0/14）重叠。在将帐户转换到 VRF 的过程中，在每个 VLAN 迁移到新配置时，都需要短暂的专用网络中断。特殊网络服务团队将与您合作来为此活动定义一个时段。特殊网络服务团队在周一到周五的 8-5 CST（美国中央标准时间）提供服务。任何此时段之外的激活活动都必须通过凭单提出请求，并且在工程师在线时先由其批准。
 
 11. VRF 与 IBM Cloud（原先的 SoftLayer）SSL、PPTP 和 IPSEC VPN 服务不兼容。替代方法是使用 Direct Link 本身来管理服务器，或者运行您自己的可以配置为使用不同类型 VPN 的 VPN 解决方案（如 Vyatta）。迁移到 VRF 之后，SSL VPN 通常会在与正在访问但不允许全球访问的计算所在的 DC 位置建立 VPN 连接时生效。
 

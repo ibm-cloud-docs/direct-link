@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-24"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,6 +15,7 @@ lastupdated: "2018-04-24"
 {:download: .download}
 
 # 配置 IBM Cloud Direct Link
+{ #configure-ibm-cloud-direct-link}
 
 建立 IBM Cloud Direct Link 连接后，您可以按照本文档中指定的步骤来配置子网，以便与 IBM Cloud 交互。
 
@@ -89,7 +90,7 @@ IBM Cloud Direct Link 提供多样性，而客户则负责通过 BGP 模式实�
 替代方法是使用 IBM Cloud Direct Link 产品本身来管理服务器，或者运行可以配置为不同类型 VPN 的自己的 VPN 解决方案（如 Vyatta）。迁移到 VRF 后，在对计算 VM 运行所在的相同数据中心位置进行 VPN 连接时，SSL VPN 通常会运作。
 
 ## 搭配使用 BYOIP 和 NAT 和 Direct Link
-IBM Cloud Direct Link 在专用网络（在[定制专用定址](#custom-private-addressing)一节中所涵盖的特殊环境中除外）上不提供 BYOIP。因此，会舍弃具有未由 {{site.data.keyword.BluSoftlayer_notm}} 分配的目标 IP 地址的流量。但是，客户可以使用 GRE、IPSec 或 VXLAN，封装远程网络及其 {{site.data.keyword.BluSoftlayer_notm}} 之间的流量。  
+IBM Cloud Direct Link 在专用网络上不提供 BYOIP。因此，会舍弃具有未由 {{site.data.keyword.BluSoftlayer_notm}} 分配的目标 IP 地址的流量。但是，客户可以使用 GRE、IPSec 或 VXLAN，封装远程网络及其 {{site.data.keyword.BluSoftlayer_notm}} 之间的流量。  
 
 最常见的是，BYOIP 环境在网关 (Vyatta) 或 VMWare NSX 部署的范围内实施。此配置使客户能够使用 {{site.data.keyword.BluSoftlayer_notm}} 端的任何所需 IP 空间，跨隧道路由回远程网络。请注意，此配置必须由客户管理和支持，与 {{site.data.keyword.BluSoftlayer_notm}} 无关。而且，如果客户为 {{site.data.keyword.BluSoftlayer_notm}} 服务分配 {{site.data.keyword.BluSoftlayer_notm}} 正在使用的 10.x.x.x 段，那么此配置还可以中断与服务网络的连接。 
 
@@ -97,12 +98,4 @@ IBM Cloud Direct Link 在专用网络（在[定制专用定址](#custom-private-
 
 替代方法是客户频繁分配远程网络段，以在远程边缘路由器上配置的 NAT 表中使用。此配置允许客户限制这两个网络所需的更改，同时仍将流量转换为与这两个网络都兼容的网络地址空间。
 
-## 关于定制专用定址
 
-有时，在 IBM Cloud Direct Link 加载期间，客户使用之前说明的方法，无法解决内部部署和 {{site.data.keyword.BluSoftlayer_notm}} 专用网络之间的 IP 定址冲突。如果发生此情况，{{site.data.keyword.BluSoftlayer_notm}} 工程或销售代表可能会建议您使用_定制专用定址_ (CPA)。CPA 没有相关联的额外费用；但是，此功能有独特的需求和限制，您应该在同意使用之前对其进行彻底地了解。这些详细信息在建议 CPA 的 IBM Cloud 代表向您提供的文档中有所说明。 
-
-_关键需求_是定制专用定址仅可以在新的空 {{site.data.keyword.BluSoftlayer_notm}} 帐户和新的 Direct Link 连接上激活。无法将现有资源转换或迁移到 CPA。
-
-定制专用定制可让您在所选择的有效专用 IPv4 地址范围（10.x.x.x、192.168.x.x 或 172.16.x.x）内托管 {{site.data.keyword.BluSoftlayer_notm}} 服务器。CPA 在特殊的内部路由地址范围 161.26.x.x 中提供一组常用 IBM Cloud 服务，该地址范围保留专用 IP 地址免费供客户使用。虽然 CPA 使您能够定义多达 5 个专用 IP 范围（称为 _CPA 网络_），但是每个 Direct Link 仅能与一个 CPA 网络连接。如果在帐户中存在其他 CPA 网络，那么将无法通过 Direct Link 连接这些网络。
-
-定制专用地址利用 VRF 和 BGP。实施工程师将协助您详细了解 CPA 相关内容。
