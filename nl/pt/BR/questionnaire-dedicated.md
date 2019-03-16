@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-15"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-10-15"
 {:download: .download}
 
 # Questionário Dedicado do IBM Cloud Direct Link
+{: #ibm-cloud-direct-link-dedicated-questionnaire}
 
-Obrigado por abrir uma solicitação para o IBM Cloud Direct Link Dedicated.  Para finalizar a sua solicitação, gostaríamos de reunir algumas informações adicionais de você.  É possível falar com um engenheiro a qualquer momento durante o processo de questionário.  Depois de concluir o questionário, ele será revisado por nossa
+Obrigado por abrir uma solicitação para o {{site.data.keyword.cloud}} Direct Link Dedicated. Para finalizar a sua solicitação, gostaríamos de reunir algumas informações adicionais de você.  É possível falar com um engenheiro a qualquer momento durante o processo de questionário.  Depois de concluir o questionário, ele será revisado por nossa
 equipe de Engenharia de Design de Nuvem e escalado para os Serviços Especiais de Rede para implementação.
 
 ## Você reconhece e concorda com os itens a seguir?
@@ -30,7 +31,11 @@ equipe de Engenharia de Design de Nuvem e escalado para os Serviços Especiais d
  * O faturamento é interrompido após:
    * Um cliente solicita que um circuito seja excluído **e** 
    * O Exchange Provider ou o Network Service Provider desprovisionou o circuito.
-  * Para obter mais informações, consulte **Seção 5 - Encargos** no Contrato de Serviços de nuvem no link a seguir: [ibm.biz/service-agreement](ibm.biz/service-agreement)
+  * Para obter mais informações, consulte a **Seção 5: Encargos** no Contrato de Prestação de Serviços de
+Nuvem no link a seguir:
+[https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). Por exemplo, os clientes nos Estados Unidos visualizariam
+[esse documento do Contrato de
+Prestação de Serviços de Nuvem](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en).
 
 3. Ao solicitar o serviço do Direct Link, você será responsável por quaisquer taxas associadas ao acesso ao Ponto de Presença (PoP) de sua rede remota e por qualquer conexão cruzada necessária dentro do recurso PoP.  Se o seu provedor exigir que um roteador ou outro dispositivo esteja fisicamente no PoP, você também será responsável pelos custos associados à instalação desse equipamento. 
 

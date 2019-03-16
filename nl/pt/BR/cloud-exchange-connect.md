@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-11"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -12,15 +12,20 @@ lastupdated: "2018-04-11"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:download: .download}
 
 
-# Passo a passo: peça um IBM Cloud Direct Link Connect
+# Fornecimento do IBM Cloud Direct Link Connect por meio do console da IU
+{: #provision-ibm-cloud-direct-link-connect-from-the-ui-console}
 
-Essa página informa como pedir o serviço do IBM Cloud Direct Link Connect. Após fazer o pedido, um chamado de suporte IBM será
-gerado.
+Esta página informa como pedir o serviço {{site.data.keyword.cloud}} Direct Link Connect por meio do console da
+IU do IBM Cloud. 
 
-# Como pedir o Direct Link Connect
+Após a realização do pedido, um chamado de suporte IBM é gerado.
+{:note}
+
+## Etapas para pedir o Direct Link Connect
 
 Para fornecer um pedido do IBM Cloud Direct Link Connect, conclua as etapas a seguir:
 

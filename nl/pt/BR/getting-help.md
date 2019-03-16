@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-02-28"
+  years: 2017, 2018, 2019
+lastupdated: "2019-01-18"
 
 
 
@@ -30,12 +30,10 @@ lastupdated: "2018-02-28"
 
 <!-- Add a heading and content for how to get help and support. Use this template for beta and GA services:  -->
 # Obtendo Ajuda e Suporte 
-{: #gettinghelp}
+{: #getting-help-and-support}
 
-Se você tiver problemas ou perguntas ao usar o IBM Cloud Direct Link, será possível obter ajuda procurando
-informações ou fazendo perguntas por meio de um dos fóruns listados abaixo. Também é possível abrir um
-chamado de suporte no [Portal do Cliente
-![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/).
+Se você tiver problemas ou perguntas ao usar o {{site.data.keyword.cloud}} Direct Link, será possível obter
+ajuda procurando informações ou fazendo perguntas por meio de um dos fóruns listados abaixo. Também é possível abrir um chamado de suporte no [IBM Cloud Console ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) ou no Portal do Cliente do [ ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/).
 {:shortdesc}
 
 Ao usar os fóruns para fazer uma pergunta, marque a sua pergunta
@@ -48,7 +46,7 @@ identifique a sua pergunta com "direct-link" e "ibm-cloud".
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->
 * Para perguntas sobre o serviço e instruções de introdução, use o fórum [IBM developerWorks dW Answers ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/answers/topics/directlink.html?smartspace=ibm-cloud){:new_window}. Inclua as tags "directlink" e "ibm-cloud".
 
-Consulte [Obtendo ajuda](https://console.bluemix.net/docs/support/index.html#getting-help) para mais detalhes sobre como usar os fóruns.
+Consulte [Obtendo ajuda](https://cloud.ibm.com/docs/support/index.html#getting-help) para mais detalhes sobre como usar os fóruns.
 
-Para obter informações sobre a abertura de um chamado de suporte IBM ou sobre níveis de suporte e gravidades de chamados, veja [Entrando em contato com o suporte](https://console.bluemix.net/docs/support/index.html#contacting-support).
+Para obter informações sobre a abertura de um chamado de suporte IBM ou sobre níveis de suporte e gravidades de chamados, veja [Entrando em contato com o suporte](/docs/get-support?topic=get-support-getting-customer-support).
 

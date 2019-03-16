@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-11"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,15 +15,23 @@ lastupdated: "2018-06-11"
 {:download: .download}
 
 # Peça o IBM Cloud Direct Link
+{ #order-ibm-cloud-direct-link}
 
-À medida que você se prepara para pedir o tipo de IBM Cloud Direct Link que melhor atende às suas necessidades, é possível seguir esses links para ter uma visão geral do processo para cada tipo de serviço do IBM Cloud Direct Link. Quando estiver pronto para fazer seu
-pedido, será possível localizar as instruções passo a passo que o levarão pelo processo do pedido, em nossa série de documentos "passo a
-passo".
+À medida que você se preparar para pedir o tipo de {{site.data.keyword.cloud}} Direct Link que se adequa melhor
+às suas necessidades, será possível seguir esses links para ter uma visão geral do processo que a sua organização seguirá
+para obter cada tipo de serviço do IBM Cloud Direct Link, incluindo as localizações em que cada serviço está
+disponível no mundo todo. 
 
-* [Como pedir o IBM Cloud Direct Link Exchange](order-cloud-exchange.html)
-* [Como pedir o IBM Cloud Direct Link Connect](order-connect.html)
-* [Como pedir o IBM Cloud Direct Link Dedicated](order-nsp.html)
-* [Como pedir o IBM Cloud Direct Link Dedicated Hosting](order-colocation.html)
+Quando você estiver pronto para fazer seu pedido do **Exchange** ou do **Connect**,
+será possível localizar as instruções passo a passo que o guiarão no processo de pedido, em nossa
+série de documentos "Fornecimento". Para solicitar os serviços **Dedicated** ou **Dedicated
+Hosting**, você também trabalhará em estreita colaboração com um representante do IBM Cloud durante
+a primeira parte do processo.
+
+* [Como pedir o IBM Cloud Direct Link Exchange](/docs/infrastructure/direct-link/order-cloud-exchange.html)
+* [Como pedir o IBM Cloud Direct Link Connect](/docs/infrastructure/direct-link/order-connect.html)
+* [Como pedir o IBM Cloud Direct Link Dedicated](/docs/infrastructure/direct-link/order-nsp.html)
+* [Como pedir o IBM Cloud Direct Link Dedicated Hosting](/docs/infrastructure/direct-link/order-colocation.html)
 
 ## Como sei qual tipo de IBM Cloud Direct Link pedir?
 
@@ -36,7 +44,7 @@ passo".
 
 Será solicitado que você preencha um questionário do cliente, que pode ser revisado nestes links:
 
-* [Exchange](questionnaire-exchange.html)
-* [Connect](questionnaire-connect.html)
-* [Dedicated](questionnaire-dedicated.html)
-* [Hosting](questionnaire-dedicated-hosting.html)
+* [Exchange](/docs/infrastructure/direct-link/questionnaire-exchange.html)
+* [Connect](/docs/infrastructure/direct-link/questionnaire-connect.html)
+* [Dedicated](/docs/infrastructure/direct-link/questionnaire-dedicated.html)
+* [Hosting](/docs/infrastructure/direct-link/questionnaire-dedicated-hosting.html)

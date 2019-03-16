@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-19"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,6 +15,7 @@ lastupdated: "2018-11-19"
 {:download: .download}
 
 # Configure o IBM Cloud Direct Link
+{ #configure-ibm-cloud-direct-link}
 
 Assim que a conectividade do IBM Cloud Direct Link tenha sido estabelecida, é possível seguir as etapas
 fornecidas neste documento para configurar sua sub-rede para interagir com o IBM Cloud.
@@ -128,8 +129,7 @@ local do data center no qual uma VM de cálculo está em execução, mas não pe
 globalmente.
 
 ## Usando BYOIP e NAT com o Direct Link
-O IBM Cloud Direct Link não oferece BYOIP na rede privada, exceto em circunstâncias especiais abordadas
-na seção em [Endereçamento privado customizado](#about-custom-private-addressing). Portanto, o
+O IBM Cloud Direct Link não oferece BYOIP na rede privada. Portanto, o
 tráfego com um endereço IP de destino que não foi designado pelo
 {{site.data.keyword.BluSoftlayer_notm}} será eliminado. No entanto, os clientes podem encapsular o
 tráfego entre a rede remota e sua rede do {{site.data.keyword.BluSoftlayer_notm}} usando GRE,
@@ -157,26 +157,4 @@ tabela NAT configurada em seu roteador de borda remoto. Essa configuração
 permite que os clientes limitem as mudanças necessárias para ambas as redes, enquanto ainda converte o
 tráfego em um espaço de endereço de rede que seja compatível com ambas as redes.
 
-## Sobre o Endereçamento Privado Customizado
 
-Ocasionalmente, durante a migração do IBM Cloud Direct Link, um cliente não conseguirá resolver conflitos de endereçamento de IP entre suas redes locais e redes privados do {{site.data.keyword.BluSoftlayer_notm}} usando os métodos descritos anteriormente. Se essa situação ocorrer, um
-engenheiro ou um representante de vendas do {{site.data.keyword.BluSoftlayer_notm}}
-poderá recomendar o uso do _Endereçamento Privado Customizado_ (CPA). Não há nenhum custo
-adicional associado ao CPA; no entanto, este recurso possui requisitos e limitações exclusivos que devem
-ser entendidos completamente antes de concordar com seu uso. Esses detalhes são descritos na documentação que
-será fornecida para você pelo representante do IBM Cloud que recomenda o CPA. 
-
-O _requisito chave_ é que o endereçamento privado customizado seja ativado apenas
-em uma nova conta vazia do {{site.data.keyword.BluSoftlayer_notm}} e em uma nova conexão do Direct
-Link. Não é possível converter ou migrar recursos existentes para o CPA.
-
-O endereçamento privado customizado permite hospedar
-servidores do {{site.data.keyword.BluSoftlayer_notm}}
-em um intervalo de endereços IPv4 privados válidos de sua escolha (10.x.x.x, 192.168.x.x ou
-172.16.x.x). O CPA fornece um subconjunto de serviços comuns do IBM Cloud em um intervalo de endereços
-especiais roteados internamente, 161.26.x.x, que deixa endereços IP privados livres para uso do cliente. Embora o CPA permita definir até 5 intervalos de IP privados (referidos como _Redes CPA_), cada
-Direct Link se conecta a apenas uma Rede CPA. Se Redes de CPA adicionais existirem na conta, elas não
-estarão acessíveis por meio do Direct Link.
-
-O endereçamento privado customizado alavanca o VRF e o BGP. O engenheiro de implementação o ajudará com
-os detalhes relacionados ao CPA.

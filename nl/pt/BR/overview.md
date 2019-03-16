@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-03-14"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -14,10 +14,11 @@ lastupdated: "2018-03-14"
 {:tip: .tip}
 {:download: .download}
 
-# Visão geral de recursos
+# Visão geral das ofertas do Direct Link
+{ #overview-of-direct-link-offerings}
 
-As ofertas do IBM Cloud Direct Link fornecem conectividade de uma origem externa para uma rede privada do IBM Cloud do
-cliente. O Direct Link pode ser visualizado como uma alternativa para uma solução
+As ofertas do {{site.data.keyword.cloud}} Direct Link fornecem conectividade de uma origem externa para
+uma rede privada do IBM Cloud do cliente. O Direct Link pode ser visualizado como uma alternativa para uma solução
 VPN entre sites tradicional, projetada para clientes que precisam de uma conectividade mais consistente e de
 maior rendimento entre uma rede remota e seus ambientes do IBM Cloud. Quatro tipos de conexões estão disponíveis:
  
@@ -45,3 +46,5 @@ Para maior flexibilidade na criação desta conectividade de camada 3, o IBM Clo
  * IP dual para hosts remotos
  * NAT
  * Tunelamento para BYOIP
+ 
+ Para obter descrições detalhadas de cada oferta, consulte [Sobre o IBM Cloud Direct Link](/docs/infrastructure/direct-link?topic=direct-link-about-ibm-cloud-direct-link).

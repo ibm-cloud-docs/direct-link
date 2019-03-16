@@ -1,15 +1,15 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-06"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
-## Como pedir quando não há nenhum VRF presente
+# Como pedir o Exchange quando não há nenhum VRF presente
+{: #how-to-order-exchange-when-there-is-no-vrf-present}
 
-Para as contas sem VRF presente, o campo **Selecionar VRF** não é exibido no formulário de pedido. Depois de
-fazer um pedido neste caso, um chamado de suporte IBM é gerado. O número e os detalhes do chamado são mostrados na tela da UI
+Para as contas sem VRF presente, o campo **Selecionar VRF** não é exibido no formulário de pedido. Depois de fazer um pedido nesse caso, um chamado de suporte do {{site.data.keyword.cloud}} é gerado. O número e os detalhes do chamado são mostrados na tela da UI
 depois da execução do pedido.
 
 ![Etapa NV1](/images/No-VRF-Step1.png)

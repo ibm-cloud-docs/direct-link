@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-08-09"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,10 @@ lastupdated: "2018-08-09"
 {:download: .download}
 
 # Sobre o IBM Cloud Direct Link
+{: #about-ibm-cloud-direct-link}
 
-Esta seção permite pesquisar mais detalhes sobre os principais recursos e benefícios de cada uma das quatro soluções do IBM Cloud Direct Link.
+Esta seção permite procurar mais detalhes sobre os recursos-chave e os benefícios de cada uma das quatro soluções
+do {{site.data.keyword.cloud}} Direct Link.
   * [**IBM Cloud Direct Link Exchange**](#the-ibm-cloud-direct-link-exchange-solution)
   * [**IBM Cloud Direct Link Connect**](#the-ibm-cloud-direct-link-connect-solution)
   * [**IBM Cloud Direct Link Dedicated**](#the-ibm-cloud-direct-link-dedicated-solution)
@@ -29,7 +31,9 @@ geralmente fornece conectividade a um custo reduzido, já que a conectividade f�
 {{site.data.keyword.BluSoftlayer_notm}} com o provedor Cloud Exchange já está em vigor e
 compartilhada entre outros clientes.
 
-**Casos de uso comuns:** _melhor para cargas de trabalho híbridas, cargas de trabalho de provedor cruzado, transferências de dados grandes ou frequentes com largura da banda de alto egresso, cargas de trabalho privadas e administração do ambiente.  Essa opção geralmente é selecionada quando o local de PoP desejado já tem o provedor IBM Cloud Direct Link Exchange desejado._
+**Casos de uso comuns:** _melhor para cargas de trabalho híbridas, cargas de trabalho de
+provedor cruzado, transferências de dados grandes ou frequentes com largura da banda de alto egresso, cargas de
+trabalho privadas e administração do ambiente. Essa opção geralmente é selecionada quando o local de PoP desejado já tem o provedor IBM Cloud Direct Link Exchange desejado._
 
 ![Figura 1](/images/Direct-Link-Exchange.png)
 
@@ -45,7 +49,7 @@ provedor Cloud Exchange.
 
  * **Latência aproximada:** a Latência é de aproximadamente 1,5 m dentro da área local (data centers com o mesmo prefixo de três letras, como DAL, AMS, MEL). Consulte http://lg.softlayer.com/ para ver as medidas de latência de localização de PoP-to-PoP (P2P) em tempo real.
 
- * **Serviços de colocação:** nenhum.
+ * **Serviços de colocação IBM:** nenhum.
 
  * **Redundância:** para estabelecer redundância para o IBM Cloud Direct Link Exchange, a conectividade em
 mais 2 locais é necessária ou a seleção de um local com um XCR secundário disponível que possa ser utilizado pelo provedor
@@ -73,7 +77,7 @@ vez que eles são interconectados com o provedor Cloud Connect.
 
 * **Latência aproximada:** a Latência é de aproximadamente 1,5 m dentro da área local (data centers com o mesmo prefixo de três letras, como DAL, AMS, MEL). Consulte http://lg.softlayer.com/ para ver as medidas de latência de localização de PoP-to-PoP (P2P) em tempo real.
 
-* **Serviços de colocação:** nenhum.
+* **Serviços de colocação IBM:** nenhum.
 
 * **Redundância:** para estabelecer redundância para o IBM Cloud Direct Link Connect, é necessária a conectividade em mais de dois locais, ou a seleção de um local com um XCR secundário disponível que pode ser alavancado pelo provedor IBM Cloud Connect.
 
@@ -108,7 +112,7 @@ cruzada (XCR). A mídia deve ser uma ótica de comprimento de onda de 1310 nm.
 
  * ** Latência aproximada:** a latência é de aproximadamente 1,5 ms dentro da área local (data centers com o mesmo prefixo de três letras, como DAL, AMS, MEL).  Consulte http://lg.softlayer.com/ para ver as medidas de latência de localização de PoP-to-PoP (P2P) em tempo real.
 
- * **Serviços de colocação:** nenhum.
+ * **Serviços de colocação IBM:** nenhum.
 
  * **Redundância:** para estabelecer redundância requer a conectividade do IBM Cloud Direct Link
 em mais 2 locais ou a seleção de um local com um XCR secundário disponível e uma segunda solicitação de conexão do IBM Cloud Direct
@@ -147,7 +151,7 @@ ligado à infraestrutura do roteador de conexão cruzada (XCR). A mídia deve se
 
  * **Latência aproximada:** a latência é de aproximadamente 0,5 ms dentro do data center local.
 
- * **Serviços de colocação:** sim.
+ * **Serviços de colocação IBM:** sim.
 
  * **Redundância:** o {{site.data.keyword.BluSoftlayer_notm}} fornece conexões com dois roteadores
 de conexão cruzada (XCRs) como parte do produto. Para estabelecer a conectividade redundante, os clientes devem configurar o BGP em cada conexão do Direct Link conforme eles se ajustem para obter redundância. Exemplos incluem opções como estas: _preferem MED mais baixa_, _preferem preferência local mais alta_ ou _preferem caminhos de AS mais curtos_.

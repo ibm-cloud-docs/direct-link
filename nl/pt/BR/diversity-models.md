@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-05-30"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,12 @@ lastupdated: "2018-05-30"
 {:download: .download}
 
 # Modelos para diversidade e redundância no Direct Link
+{: #models-for-diversity-and-redundancy-in-direct-link}
 
-Este documento fornece uma série de esquemas relacionados a problemas de redundância e diversidade, o que pode ajudar a localizar um modelo para criar a implementação do Direct Link mais bem-sucedida para atender às suas necessidades. Os esquemas são organizados em níveis crescentes de complexidade e também de acordo com a oferta do Direct Link que cada um estiver ilustrando. O Direct Link não é um serviço inerentemente redundante no XCR, os clientes têm a responsabilidade de criar redundância por meio de seus esquemas de BGP. 
+Este documento fornece uma série de esquemas relacionados a problemas de redundância e diversidade, o que pode ajudar a
+localizar um modelo para criar a implementação mais bem-sucedida do {{site.data.keyword.cloud}} Direct Link para atender às suas necessidades. Os esquemas são organizados em níveis crescentes de complexidade e também de acordo com a oferta do Direct Link que cada um estiver ilustrando. O
+Direct Link não é um serviço inerentemente redundante no roteador de conexão cruzada (XCR). Os clientes têm a
+responsabilidade de criar redundância por meio de seus esquemas de Protocolo de Roteamento de Borda (BGP). 
 
 ## Seção 1: configurações relativamente simples que atingem a diversidade
 
