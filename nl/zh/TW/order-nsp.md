@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-23"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -12,12 +12,14 @@ lastupdated: "2018-07-23"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:download: .download}
 
 # 如何訂購 IBM Cloud Direct Link Dedicated
+{: #how-to-order-ibm-cloud-direct-link-dedicated}
 
 1. 驗證您的網路提供者能夠聯繫適當的 PoP 並交叉連接至 {{site.data.keyword.BluSoftlayer_notm}} 環境。
-2. 開立 IBM Cloud Direct Link Dedicated 要求並填寫所要求的資訊。（可以要求 IBM 業務工程師協助。）
+2. 開立 {{site.data.keyword.cloud}} Direct Link Dedicated 要求並填寫所要求的資訊。（可以要求 IBM 業務工程師協助。）
 3. {{site.data.keyword.BluSoftlayer_notm}} 提供連線的授權信 (LOA)。
 4. 確認您的電路已聯繫 PoP 並且已由通訊業者完成。
 5. 使用 LOA 中的 {{site.data.keyword.BluSoftlayer_notm}} CFA（客戶設施指派）資訊訂購交叉連接，這通常需要 2 到 10 個營業日才能完成。（此時間範圍取決於設備供應商，以及客戶所下訂單的優先順序類型。）此處理程序包含設定 {{site.data.keyword.BluSoftlayer_notm}} 終止埠的修補程式。
@@ -43,7 +45,9 @@ lastupdated: "2018-07-23"
 | SNG02 | Equinix | SG1 | 20 Ayer Rajan Crescent Industrial Park |
 | SYD01 | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
 | SYD02 | Equinix | SY3 | 47 Bourke Rd |
+| SYD03 | NextDC | 4 Eden Park Drive, Macquarie Park |
 | SYD04 | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
+| SYD05 | Equinix | 200 Bourke Rd |
 | TOK01 | Equinix | TY2 |
 | TOK02 | At Tokyo | CC2 | 
 | TOK03 | Equinix | 
@@ -62,10 +66,11 @@ lastupdated: "2018-07-23"
 | LON03 | Equinix | LD5 | 8 Buckingham Ave |
 | LON04 | ARK | A103 |  A57 Cody Technology Park Old, Victor Way, Farnborough |
 | LON06 | Zenium | LON1 | 12 Liverpool Rd, Trading Estate |
+| MIL01 | Data IV | Via Monzoro 101-105 , 20010 Cornaredo (MI) |
 | MIL02 | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21|
 | OSL01 | EVRY | DigiPlex - Fetsund | 9,, Heiaveien, 1900 Fetsund |
 | OSL02 | Verizon | Verizon Oslo | Hans Møller Gassmanssvei 9 |
-| PAR01 | IBM | PAR01 | Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit |
+| PAR01 | Global Switch | PAR01 | Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit |
 | PAR02 | Equinix | PA2 | 114 Rue Ambroise Croizat, St Denis |
 | STO01 | InterXion | STO01 | Esbogatan 11 |
 |  |  |  |
@@ -105,6 +110,7 @@ lastupdated: "2018-07-23"
 
 ## 定價
 
-如需計價資訊，請參閱[定價文件](pricing.html)。
+如需計價資訊，請參閱[定價文件](/docs/infrastructure/direct-link/pricing.html)。
 
-**如果您需要 TOK01 或 TOK02 的確切地址，請與 Direct Link 供應項目管理或銷售團隊聯絡。**
+如果您需要 TOK01 或 TOK02 的確切地址，請與 Direct Link 供應項目管理或銷售團隊聯絡。
+{:note}

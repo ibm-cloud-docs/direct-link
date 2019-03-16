@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-19"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,6 +15,7 @@ lastupdated: "2018-11-19"
 {:download: .download}
 
 # 配置 IBM Cloud Direct Link
+{ #configure-ibm-cloud-direct-link}
 
 建立 IBM Cloud Direct Link 連線功能之後，您可以遵循本文件提供的步驟，配置您的子網路以和 IBM Cloud 互動。
 
@@ -89,7 +90,7 @@ IBM Cloud Direct Link 提供多樣性，而客戶則負責透過他們的 BGP �
 替代方案是使用 IBM Cloud Direct Link 供應項目本身來管理您的伺服器，或是自行執行可以配置為不同類型 VPN 的 VPN 解決方案（例如 Vyatta）。移轉至 VRF 之後，SSL VPN 通常會在對運算 VM 執行所在之相同資料中心位置建立 VPN 連線時運作，但它不允許廣域存取。
 
 ## 使用 BYOIP 及 NAT 搭配 Direct Link
-IBM Cloud Direct Link 不在專用網路上提供 BYOIP，在[自訂專用定址](#about-custom-private-addressing)一節底下的特殊情況例外。因此，將會捨棄目的地 IP 位址不是由 {{site.data.keyword.BluSoftlayer_notm}} 指派的資料流量。不過，客戶可以使用 GRE、IPSec 或 VXLAN 封裝遠端網路與其 {{site.data.keyword.BluSoftlayer_notm}} 網路之間的資料流量。  
+IBM Cloud Direct Link 不在專用網路上提供 BYOIP。因此，將會捨棄目的地 IP 位址不是由 {{site.data.keyword.BluSoftlayer_notm}} 指派的資料流量。不過，客戶可以使用 GRE、IPSec 或 VXLAN 封裝遠端網路與其 {{site.data.keyword.BluSoftlayer_notm}} 網路之間的資料流量。  
 
 最常見的情況是，BYOIP 環境是在網路閘道 (Vyatta) 或 VMWare NSX 部署的範圍內實作。此配置讓客戶能在 {{site.data.keyword.BluSoftlayer_notm}} 端使用任何想要的 IP 空間，以及透過通道遞送回遠端網路。請注意，此配置必須由客戶管理及支援，與 {{site.data.keyword.BluSoftlayer_notm}} 無關。再者，如果客戶指派了 {{site.data.keyword.BluSoftlayer_notm}} 用於服務的 10.x.x.x 區塊，此配置可能會岔斷與 {{site.data.keyword.BluSoftlayer_notm}} 服務網路的連線功能。 
 
@@ -97,12 +98,4 @@ IBM Cloud Direct Link 不在專用網路上提供 BYOIP，在[自訂專用定址
 
 或者，客戶可以經常指派遠端網路區塊，以在其遠端邊緣路由器上配置的 NAT 表格中使用。此配置讓客戶可以限制兩個網路所需的變更，同時仍將資料流量轉換成與兩個網路相容的網址空間。
 
-## 關於自訂專用定址
 
-有時，在 IBM Cloud Direct Link 上線期間，客戶無法使用上述方法解決其內部部署與 {{site.data.keyword.BluSoftlayer_notm}} 專用網路之間的 IP 位址衝突。如果發生這種狀況，{{site.data.keyword.BluSoftlayer_notm}} 工程師或業務代表可能會建議您使用_自訂專用定址_ (CPA)。CPA 並不會造成額外的相關聯費用；不過，此特性具有獨特的需求和限制，在同意使用之前，您應該徹底瞭解它。這些詳細資料將在推薦 CPA 的 IBM Cloud 代表提供給您的文件中進行說明。 
-
-_關鍵需求_ 是只能在新的空 {{site.data.keyword.BluSoftlayer_notm}} 帳戶和新的 Direct Link 連線上啟動自訂專用定址。無法將現有資源轉換或移轉至 CPA。
-
-自訂專用定址讓您可以在所選擇的有效專用 IPv4 位址範圍（10.x.x.x、192.168.x.x 或 172.16.x.x）中管理 {{site.data.keyword.BluSoftlayer_notm}} 伺服器。CPA 在一個特殊的內部遞送地址範圍 (161.26.x.x) 中提供一部分的常見 IBM Cloud 服務，這讓專用 IP 位址可供客戶自由使用。雖然 CPA 可讓您定義多達 5 個專用 IP 範圍（稱為 _CPA 網路_），但每一個 Direct Link 僅會連接一個 CPA 網路。如果帳戶中存在其他 CPA 網路，則無法透過 Direct Link 存取它們。
-
-自訂專用定址會利用 VRF 和 BGP。實作工程師將協助您瞭解與 CPA 相關的詳細資料。

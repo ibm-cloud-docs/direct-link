@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-05-30"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-05-30"
 {:download: .download}
 
 # Direct Link 中的多樣性及備援性的模型
+{: #models-for-diversity-and-redundancy-in-direct-link}
 
-本文件提供一系列與備援性和多樣性問題相關的圖表，可協助您尋找建立最成功 Direct Link 部署的模型，以符合您的需求。這些圖表是按照遞增的複雜性層次來排列，同時亦根據每個圖表所說明的 Direct Link 供應項目來排列。Direct Link 不是 XCR 上的固有備援服務，客戶有責任透過其 BGP 綱目來建立備援。 
+本文件提供一系列與備援性和多樣性問題相關的圖表，可協助您尋找建立最成功 {{site.data.keyword.cloud}} Direct Link 部署的模型，以符合您的需求。這些圖表是按照遞增的複雜性層次來排列，同時亦根據每個圖表所說明的 Direct Link 供應項目來排列。Direct Link 不是交叉連接路由器 (XCR) 上的固有備援服務，客戶有責任透過其邊界閘道通訊協定 (BGP) 綱目來建立備援。 
 
 ## 第 1 節：達成多樣性的超簡單配置
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-11"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,13 +15,16 @@ lastupdated: "2018-06-11"
 {:download: .download}
 
 # 訂購 IBM Cloud Direct Link
+{ #order-ibm-cloud-direct-link}
 
-在您準備訂購最適合您需要的 IBM Cloud Direct Link 類型時，可以遵循下列鏈結，以查看 IBM Cloud Direct Link 服務每一種類型的程序之概觀。當您準備好下訂單時，可以在我們的「逐步」系列文件找到逐步指示，帶領您完成訂購程序。
+在您準備訂購最符合您需求的 {{site.data.keyword.cloud}} Direct Link 類型時，可以遵循下列鏈結，以查看程序的一般概觀，您的組織會遵循該程序來取得每一種 IBM Cloud Direct Link 服務類型，包括每個服務的全球可用位置。 
 
-* [如何訂購 IBM Cloud Direct Link Exchange](order-cloud-exchange.html)
-* [如何訂購 IBM Cloud Direct Link Connect](order-connect.html)
-* [如何訂購 IBM Cloud Direct Link Dedicated](order-nsp.html)
-* [如何訂購 IBM Cloud Direct Link Dedicated Hosting](order-colocation.html)
+當您準備好下訂單訂購 **Exchange** 或 **Connect** 時，可以在我們的「佈建」系列文件找到逐步指示，帶領您完成訂購程序。若要訂購 **Dedicated** 或 **Dedicated Hosting** 服務，也需要在程序第一個部分期間，與 IBM Cloud 代表緊密合作。
+
+* [如何訂購 IBM Cloud Direct Link Exchange](/docs/infrastructure/direct-link/order-cloud-exchange.html)
+* [如何訂購 IBM Cloud Direct Link Connect](/docs/infrastructure/direct-link/order-connect.html)
+* [如何訂購 IBM Cloud Direct Link Dedicated](/docs/infrastructure/direct-link/order-nsp.html)
+* [如何訂購 IBM Cloud Direct Link Dedicated Hosting](/docs/infrastructure/direct-link/order-colocation.html)
 
 ## 我怎麼知道要訂購哪一種類型的 IBM Cloud Direct Link？
 
@@ -34,7 +37,7 @@ lastupdated: "2018-06-11"
 
 系統會要求您完成客戶問卷，您可以在這些鏈結上檢閱：
 
-* [Exchange](questionnaire-exchange.html)
-* [Connect](questionnaire-connect.html)
-* [Dedicated](questionnaire-dedicated.html)
-* [Hosting](questionnaire-dedicated-hosting.html)
+* [Exchange](/docs/infrastructure/direct-link/questionnaire-exchange.html)
+* [Connect](/docs/infrastructure/direct-link/questionnaire-connect.html)
+* [Dedicated](/docs/infrastructure/direct-link/questionnaire-dedicated.html)
+* [Hosting](/docs/infrastructure/direct-link/questionnaire-dedicated-hosting.html)

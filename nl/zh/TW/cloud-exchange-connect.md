@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-11"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -12,14 +12,18 @@ lastupdated: "2018-04-11"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:download: .download}
 
 
-# 逐步：訂購 IBM Cloud Direct Link Connect
+# 從使用者介面主控台佈建 IBM Cloud Direct Link Connect
+{: #provision-ibm-cloud-direct-link-connect-from-the-ui-console}
 
-本頁面示範如何訂購 IBM Cloud Direct Link Connect 服務。下訂單之後，將會產生 IBM 支援問題單。
+本頁面示範如何從「IBM Cloud 使用者介面主控台」訂購 {{site.data.keyword.cloud}} Direct Link Connect 服務。 
 
-# 如何訂購 Direct Link Connect
+下訂單之後，將會產生 IBM 支援問題單。{:note}
+
+## Direct Link Connect 訂購步驟
 
 若要佈建 IBM Cloud Direct Link Connect 訂單，請完成下列步驟：
 

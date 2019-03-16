@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-03-14"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -14,9 +14,10 @@ lastupdated: "2018-03-14"
 {:tip: .tip}
 {:download: .download}
 
-# 特性概觀
+# Direct Link 供應項目概觀
+{ #overview-of-direct-link-offerings}
 
-IBM Cloud Direct Link 供應項目提供從外部來源到客戶 IBM Cloud 專用網路的連線功能。Direct Link 可以視為傳統網站對網站之 VPN 解決方案的替代方案，其設計適合在遠端網路與其 IBM Cloud 環境之間需要更一致、更高傳輸量連線功能的客戶。有四種連線類型可用：
+{{site.data.keyword.cloud}} Direct Link 供應項目提供從外部來源到客戶 IBM Cloud 專用網路的連線功能。Direct Link 可以視為傳統網站對網站之 VPN 解決方案的替代方案，其設計適合在遠端網路與其 IBM Cloud 環境之間需要更一致、更高傳輸量連線功能的客戶。有四種連線類型可用：
  
  * **IBM Cloud Direct Link Exchange** 讓客戶能利用 Exchange 提供者，提供對其 IBM Cloud 的連線功能。Exchange 提供者是已經使用多方承租戶高傳輸量鏈結連上 IBM Cloud 網路的通訊業者或網路提供者。客戶通常能向此提供者購買虛擬電路，得到成本較低的連線功能，因為從 {{site.data.keyword.BluSoftlayer_notm}} 到 Exchange 提供者的實體連線功能已經就緒，並與其他客戶共用。
  
@@ -30,3 +31,5 @@ IBM Cloud Direct Link 服務是經過遞送的 OSI 第 3 層服務。它提供�
  * 遠端主機的雙重 IP
  * NAT
  * BYOIP 的通道作業
+ 
+ 如需每個供應項目的詳細說明，請參閱[關於 IBM Cloud Direct Link](/docs/infrastructure/direct-link?topic=direct-link-about-ibm-cloud-direct-link)。

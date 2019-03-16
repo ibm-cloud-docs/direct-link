@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-15"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-10-15"
 {:download: .download}
 
 # IBM Cloud Direct Link Dedicated 問卷
+{: #ibm-cloud-direct-link-dedicated-questionnaire}
 
-謝謝您提出對 IBM Cloud Direct Link Dedicated 的要求。為了完成您的要求，我們想要向您收集一些其他資訊。在問卷處理期間，您隨時可以與工程師交談。完成問卷之後，我們的 Cloud Design Engineering 團隊將檢閱它，並將其呈報給 Special Network Services 以進行實作。
+謝謝您提出對 {{site.data.keyword.cloud}} Direct Link Dedicated 的要求。為了完成您的要求，我們想要向您收集一些其他資訊。在問卷處理期間，您隨時可以與工程師交談。完成問卷之後，我們的 Cloud Design Engineering 團隊將檢閱它，並將其呈報給 Special Network Services 以進行實作。
 
 ## 您確認並同意下列事項嗎？
 
@@ -29,7 +30,7 @@ lastupdated: "2018-10-15"
  * 計費將在發生下列情況之後停止：
    * 客戶要求要刪除電路，**且** 
    * 「Exchange 提供者」或「網路服務提供者」已取消佈建電路。
-  * 如需相關資訊，請參閱下列鏈結的「雲端服務合約」中的**第 5 項 - 費用**：[ibm.biz/service-agreement](ibm.biz/service-agreement)
+  * 如需相關資訊，請參閱下列鏈結的「雲端服務合約」中的**第 5 節 - 費用**：[https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html)。例如，美國的客戶檢閱[此雲端服務合約文件](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en)。
 
 3. 訂購 Direct Link 服務之後，從您的遠端網路連上「據點 (PoP)」以及在 PoP 設施內所需要的任何交叉連接，其任何相關聯費用將由您負責。如果您的提供者需要路由器或其他裝置實際位於 PoP 中，則主機託管該設備的相關聯成本也將由您負責。
 
