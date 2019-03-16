@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-06-11"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,12 +15,13 @@ lastupdated: "2018-06-11"
 {:download: .download}
 
 # Cuestionario de IBM Cloud Direct Link Exchange
+{: #ibm-cloud-direct-link-exchange-questionnaire}
 
-Gracias para abrir una solicitud de IBM Cloud Direct Link Exchange.  Para finalizar su solicitud, nos gustaría obtener alguna información adicional. Puede ponerse en contacto con un ingeniero en cualquier momento durante el proceso del cuestionario.  Una vez que haya completado el cuestionario, nuestro equipo de ingenieros de diseño de nube lo revisará y lo escalará al equipo de servicios de red especiales para su implementación.
+Gracias para abrir una solicitud de {{site.data.keyword.cloud}} Direct Link Exchange. Para finalizar su solicitud, nos gustaría obtener alguna información adicional. Puede ponerse en contacto con un ingeniero en cualquier momento durante el proceso del cuestionario.  Una vez que haya completado el cuestionario, nuestro equipo de ingenieros de diseño de nube lo revisará y lo escalará al equipo de servicios de red especiales para su implementación.
 
 ## ¿Está de acuerdo y acepta las siguientes afirmaciones?
 
-1. Cada conexión de Direct Link requiere una solicitud exclusiva. Si necesita varias conexiones, abra una solicitud de Direct Link para cada conexión.
+1. Cada conexión de Direct Link requiere una solicitud exclusiva.  Si necesita varias conexiones, abra una solicitud de Direct Link para cada conexión.
 
 2. Las tarifas del servicio Direct Link Exchange cubren el coste de la terminación del servicio en la infraestructura de IBM Cloud. 
 
@@ -29,7 +30,7 @@ Gracias para abrir una solicitud de IBM Cloud Direct Link Exchange.  Para final
  * La facturación finaliza después de que:
    * Un cliente solicite que se suprima un circuito, **y** 
    * El proveedor de intercambio o el proveedor de servicios de red haya desaprovisionado el circuito.
-  * Para obtener más información, consulte la **Sección 5 - Cargos** del Acuerdo de servicios en la nube en el enlace siguiente: [ibm.biz/service-agreement](ibm.biz/service-agreement)
+  * Para obtener más información, consulte la **Sección 5 - Cargos** del Acuerdo de servicios en la nube en el siguiente enlace: [https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). Por ejemplo, los clientes de Estados Unidos visualizarían [este documento de contrato de servicios en la nube](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en).
   * De forma alternativa, la facturación puede detenerse para un cliente si se notifica al mismo que su servicio de Direct Link se ha desactivado y va a dejar de funcionar.
 
 3. Cuando solicita el servicio Direct Link, el cliente es el responsable de los gastos asociados al acceso al PoP (punto de presencia) desde su red remota y de cualquier interconexión necesaria dentro del recurso de PoP para acceder al proveedor de intercambio. El cliente (o su proveedor) también es el responsable de adquirir de IBM Cloud el circuito virtual. Si el proveedor requiere que se instale físicamente un direccionador u otro dispositivo en el PoP, el cliente será el responsable de los costes asociados a la instalación de dicho equipo. Confirme que su proveedor de red o de PoP puede acceder a Direct Link Exchange y puede estimar los costes asociados.
@@ -44,7 +45,7 @@ Gracias para abrir una solicitud de IBM Cloud Direct Link Exchange.  Para final
 
 8. Después de confirmar que el circuito ha accedido al PoP de Direct Link Exchange, tendrá que realizar un pedido con el proveedor de intercambio de nube y proporcionar toda la información pertinente al proveedor de intercambio de nube y a IBM Cloud. Para los proveedores de Equinix, el tiempo de despliegue puede llevar horas. El tiempo de despliegue típico para la oferta IBM Cloud Direct Link Exchange es de entre 5 y 10 días. 
 
-9. IBM Cloud Direct Link Exchange requiere que se utilice una instancia de VRF (Virtual Routing and Forwarding) en el lado de IBM Cloud Network.   Esto permite al cliente definir sus propias direcciones IP remotas para utilizarlas en su red remota; sin embargo, debe ser consciente de que, aunque pueda utilizar la red 10.x.x.x, todavía no puede solapar con sus hosts dentro de IBM Cloud ni con la red de servicios de IBM Cloud (10.0.0.0/14, 10.198.0.0/15 y 10.200.0.0/14). La transición de su cuenta a un VRF requiere una breve interrupción de la red privada, ya que cada VLAN se migra a la nueva configuración.   El equipo de servicios de red especiales trabajará con usted para definir una ventana para esta actividad. El equipo de servicios normalmente está disponible de lunes a viernes de 8 a 5 CST (huso horario de EE.UU. Central Estándar). Cualquier actividad de activación fuera de este periodo deberá solicitarse mediante incidencia y aprobarse por adelantado si hay ingenieros disponibles. 
+9. IBM Cloud Direct Link Exchange requiere que se utilice una instancia de VRF (Virtual Routing and Forwarding) en el lado de IBM Cloud Network.  Esto permite al cliente definir sus propias direcciones IP remotas para utilizarlas en su red remota; sin embargo, debe ser consciente de que, aunque pueda utilizar la red 10.x.x.x, todavía no puede solapar con sus hosts dentro de IBM Cloud ni con la red de servicios de IBM Cloud (10.0.0.0/14, 10.198.0.0/15 y 10.200.0.0/14). La transición de su cuenta a un VRF requiere una breve interrupción de la red privada, ya que cada VLAN se migra a la nueva configuración.  El equipo de servicios de red especiales trabajará con usted para definir una ventana para esta actividad. El equipo de servicios normalmente está disponible de lunes a viernes de 8 a 5 CST (huso horario de EE. UU. Central Estándar). Cualquier actividad de activación fuera de este periodo deberá solicitarse mediante incidencia y aprobarse por adelantado si hay ingenieros disponibles. 
 
 10. VRF no es compatible con los servicios de IBM Cloud SSL, PPTP e IPSEC VPN.  Una alternativa consiste en utilizar el propio enlace directo para gestionar los servidores o en ejecutar su propia solución de VPN (como por ejemplo Vyatta), que se puede configurar con distintos tipos de VPN. Tras la migración a VRF, la VPN de SSL normalmente funciona cuando se realiza una conexión VPN con la ubicación del centro de datos en el que está el equipo al que se está accediendo, pero no permite el acceso de forma global.
 
@@ -54,7 +55,7 @@ Gracias para abrir una solicitud de IBM Cloud Direct Link Exchange.  Para final
 
 * **¿Reconoce y acepta los precios de _SU UBICACIÓN_ para la conexión de IBM Cloud Direct Link Exchange?**
 
-* ** IBM Cloud le asignará un ASN privado a fin de configurar BGP para anunciar sus redes remotas en su red privada de IBM Cloud.  ¿Le parece aceptable o preferiría utilizar su propio ASN público?**
+* **IBM Cloud le asignará un ASN privado a fin de configurar BGP para anunciar sus redes remotas en su red privada de IBM Cloud.  ¿Le parece aceptable o preferiría utilizar su propio ASN público?**
 
 * **¿Necesita que se configure BGP MultiPath con ECMP para configurar una conexión redundante con IBM Cloud?**  
 
@@ -66,7 +67,7 @@ Gracias para abrir una solicitud de IBM Cloud Direct Link Exchange.  Para final
 
 * **¿Está de acuerdo con la tarifa de direccionamiento global, incluido el cargo mensual de _SU UBICACIÓN_ y los cargos por excedente que se describen a continuación?**
 
-    _El direccionamiento local incluye acceso a todos los centros de datos conectados directamente al PoP y proporciona un tráfico ilimitado de entrada/salida. El direccionamiento global amplía el acceso para incluir todos los centros de datos de IBM Cloud de forma global.  El ancho de banda se calcula cuando el servicio puede medir el tráfico. Cuando se calcule el ancho de banda, se le facturará mensualmente según el precio de mercado, tal como se muestra en la tabla siguiente. _
+    _El direccionamiento local incluye acceso a todos los centros de datos conectados directamente al PoP y proporciona un tráfico ilimitado de entrada/salida. El direccionamiento global amplía el acceso para incluir todos los centros de datos de IBM Cloud de forma global.  El ancho de banda se calcula cuando el servicio puede medir el tráfico. Cuando se calcule el ancho de banda, se le facturará mensualmente según el precio de mercado, tal como se muestra en la tabla siguiente._
 
 
 ### Precios de direccionamiento global

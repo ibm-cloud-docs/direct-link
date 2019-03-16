@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-19"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,6 +15,7 @@ lastupdated: "2018-11-19"
 {:download: .download}
 
 # Configurar IBM Cloud Direct Link
+{ #configure-ibm-cloud-direct-link}
 
 Una vez se haya establecido la conectividad de IBM Cloud Direct Link, puede seguir los pasos descritos en este documento para configurar la subred e interactuar con IBM Cloud.
 
@@ -89,7 +90,7 @@ Tenga en cuenta que VRF elimina la opción "VLAN Spanning" para su cuenta, inclu
 Una alternativa es utilizar la oferta IBM Cloud Direct Link para gestionar los servidores o ejecutar su propia solución de VPN (por ejemplo, Vyatta), que puede configurarse con distintos tipos de VPN. Después de migrar a un VRF, SSL VPN normalmente funciona cuando se realiza una conexión VPN en la ubicación del mismo centro de datos en la que se ejecuta una máquina virtual de cálculo, pero no permite el acceso global.
 
 ## Uso de BYOIP y NAT con Direct Link
-IBM Cloud Direct Link no ofrece BYOIP en la red privada, excepto en circunstancias especiales que se tratan en la sección [Direccionamiento privado personalizado](#about-custom-private-addressing). Por lo tanto, el tráfico con una dirección IP de destino que no haya asignado {{site.data.keyword.BluSoftlayer_notm}} se descartará. Sin embargo, los clientes pueden encapsular tráfico entre la red remota y su red de {{site.data.keyword.BluSoftlayer_notm}} utilizando GRE, IPSec, o VXLAN.  
+IBM Cloud Direct Link no ofrece BYOIP en la red privada. Por lo tanto, el tráfico con una dirección IP de destino que no haya asignado {{site.data.keyword.BluSoftlayer_notm}} se descartará. Sin embargo, los clientes pueden encapsular tráfico entre la red remota y su red de {{site.data.keyword.BluSoftlayer_notm}} utilizando GRE, IPSec, o VXLAN.  
 
 Generalmente, el entorno BYOIP se implementa en el ámbito de una Pasarela de red (Vyatta) o un despliegue de VMWare NSX. Esta configuración permite a los clientes utilizar cualquier espacio de IP deseable en el lado de {{site.data.keyword.BluSoftlayer_notm}}, y direccionar de nuevo a través del túnel a la red remota. Tenga en cuenta que esta configuración debe estar gestionada y soportada por el cliente, independiente de {{site.data.keyword.BluSoftlayer_notm}}. Además, esta configuración puede romper la conectividad a la red de servicios de {{site.data.keyword.BluSoftlayer_notm}} si el cliente asigna un bloque 10.x.x.x que {{site.data.keyword.BluSoftlayer_notm}} tenga en uso para los servicios. 
 
@@ -97,12 +98,4 @@ Esta solución también requiere que cada host que necesite conectividad a la re
 
 Como alternativa, los clientes suelen asignar un bloque de red remoto para su uso en una tabla NAT configurada en su direccionador de extremo remoto. Esta configuración permite a los clientes limitar los cambios necesarios para ambas redes, mientras que sigue convirtiendo tráfico a un espacio de direcciones de red compatible con las dos redes.
 
-## Acerca del Direccionamiento privado personalizado
 
-Ocasionalmente, durante la incorporación de IBM Cloud Direct Link, un cliente puede resolver conflictos de direccionamiento de IP entre sus redes locales y privadas de {{site.data.keyword.BluSoftlayer_notm}} utilizando los métodos descritos anteriormente. Si se produce esta situación, un ingeniero o un representante de ventas de {{site.data.keyword.BluSoftlayer_notm}} puede recomendar que se utilice _Direccionamiento privado personalizado_ (CPA). No hay ningún coste adicional asociado con CPA; sin embargo, esta característica tiene requisitos y limitaciones exclusivos que debería comprender completamente antes de aceptar su uso. Estos detalles se describen en la documentación que le proporcionará el representante de IBM Cloud que recomienda CPA. 
-
-El _requisito clave_ es que el direccionamiento privado personalizado se pueda activar sólo en una cuenta nueva y vacía de {{site.data.keyword.BluSoftlayer_notm}} y en una nueva conexión de Direct Link. No es posible convertir ni migrar recursos existentes a CPA.
-
-El direccionamiento privado personalizado le permite alojar servidores de {{site.data.keyword.BluSoftlayer_notm}} en un rango de direcciones válido y de IPv4 privado de su elección (10.x.x.x, 192.168.x.x o 172.16.x.x). CPA proporciona un subconjunto de servicios comunes de IBM Cloud en un rango de direcciones especiales direccionadas internamente, 161.26.x.x, que deja libres a las direcciones IP privadas para uso del cliente. Mientras que CPA le permite definir hasta 5 rangos de IP privadas (a las que se hace referencia como _Redes de CPA_), cada Direct Link se conecta con una sola Red de CPA. Si existen Redes de CPA adicionales en la cuenta, no estarán accesibles mediante Direct Link.
-
-El direccionamiento privado personalizado aprovecha VRF y BGP. El ingeniero de implementación le ayudará con los detalles relacionados con CPA.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-24"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,21 +15,20 @@ lastupdated: "2018-10-24"
 {:download: .download}
 
 
-# Precios para IBM Cloud Direct Link 
+# Precios para IBM Cloud Direct Link
+{: #pricing-for-ibm-cloud-direct-link}
 
-Los precios correspondientes a las ofertas IBM Cloud Direct Link Exchange, Connect y Dedicated son coherentes para regiones y anchos de banda equivalentes, tal como se muestra en la siguiente tabla:
+Los precios correspondientes a las ofertas {{site.data.keyword.cloud}} Direct Link Exchange, Connect y Dedicated son coherentes para regiones y anchos de banda equivalentes, tal como se muestra en la siguiente tabla:
 
 ## Precios para IBM Cloud Exchange, Connect y Dedicated
 
-Si el navegador muestra esta tabla con velocidades inferiores a 1 Gbps, seleccione el siguiente enlace para ver la tabla completa, utilice el ratón o el trackpad para desplazarse horizontalmente en esta página, o pulse "Editar en GitHub" en la parte superior de esta página para ver el archivo sin formato.
-
-[Tabla completa](pricing-table.html)
+Si el navegador muestra esta tabla con velocidades inferiores a 1 Gbps, utilice el ratón o el trackpad para desplazarse horizontalmente en esta página, o pulse "Editar en GitHub" en la parte superior de esta página para ver el archivo sin formato.
 
 ## Precios para Direct Link Exchange
 
 | Región | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps |
 |----|----|----|----|----|----|
-| EE.UU. |  100 $ | 150 $ | 300 $ | 650 $ | 1.199 $ | 
+| EE. UU. |  100 $ | 150 $ | 300 $ | 650 $ | 1.199 $ | 
 | Canadá/Amsterdam |  103 $ | 155 $ | 309 $ | 670 $ | 1.235 $ |
 | Asia | 113 $ | 170 $ | 339 $ | 735 $ | 1.355 $ |
 | Corea | 110 $ | 165 $ | 330 $ | 715 $ | 1.319 $ |
@@ -45,7 +44,7 @@ Si el navegador muestra esta tabla con velocidades inferiores a 1 Gbps, seleccio
 
 | Región | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps | 2 Gbps | 5 Gbps |
 |----|----|----|----|----|----|----|----|
-| EE.UU. |  100 $ | 150 $ | 300 $ | 650 $ | 1.199 $ | 1.999 $ | 3.750 $ | 
+| EE. UU. |  100 $ | 150 $ | 300 $ | 650 $ | 1.199 $ | 1.999 $ | 3.750 $ | 
 | Canadá/Amsterdam |  103 $ | 155 $ | 309 $ | 670 $ | 1.235 $ | 2.059 $ | 3.863 $ | 
 | Asia | 113 $ | 170 $ | 339 $ | 735 $ | 1.355 $ | 2.259 $ | 4.238 $ | 
 | Corea | 110 $ | 165 $ | 330 $ | 715 $ | 1.319 $ | 2.199 $ | 4.125 $ | 
@@ -61,7 +60,7 @@ Si el navegador muestra esta tabla con velocidades inferiores a 1 Gbps, seleccio
 
 | Región |  1 Gbps | 2 Gbps | 5 Gbps | 10 Gbps |
 |----|----|----|----|----|
-| EE.UU. | 1.199 $ | 1.999 $ | 3.750 $ | 4.999 $ |
+| EE. UU. | 1.199 $ | 1.999 $ | 3.750 $ | 4.999 $ |
 | Canadá/Amsterdam | 1.235 $ | 2.059 $ | 3.863 $ | 5.149 $ |
 | Asia | 1.355 $ | 2.259 $ | 4.238 $ | 5.649 $ |
 | Corea | 1.319 $ | 2.199 $ | 4.125 $ | 5.499 $ |
@@ -85,13 +84,13 @@ El direccionamiento local se incluye como una parte básica de todas las ofertas
 
 ## Precios del complemento de direccionamiento global
 
-El direccionamiento global amplía el acceso para incluir todos los centros de datos de IBM Cloud de forma global. El ancho de banda se mide y se factura mensualmente según el mercado. Encontrará detalles sobre los mercados y otras consideraciones en nuestro [archivo de preguntas frecuentes](faqs.html#what-are-the-local-routing-and-global-routing-options)
+El direccionamiento global amplía el acceso para incluir todos los centros de datos de IBM Cloud de forma global. El ancho de banda se mide y se factura mensualmente según el mercado. Encontrará detalles sobre los mercados y otras consideraciones en nuestro [archivo de preguntas frecuentes](/docs/infrastructure/direct-link?topic=direct-link-faqs#what-are-the-local-routing-and-global-routing-options)
 
 Si selecciona direccionamiento global, no se le cobrará ningún tráfico de salida local, solo el tráfico que se origina o termina fuera del PoP local.
 
 | Región | Precio |
 |---------|----------|
-|EE.UU. | 2.999 $ |
+|EE. UU. | 2.999 $ |
 |Canadá/Amsterdam | 2.999 $ |
 |Asia | 2.999 $ |
 |Corea | 2.999 $ |
@@ -124,3 +123,19 @@ Cada mes, a todos los clientes de direccionamiento global que utilizan circuitos
 |<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li><li>LON</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
 **Tabla 1: Utilización de capas**<br/>
 Las ofertas de Direct Link en los mercados marcados con un asterisco (*) DEBEN solicitar direccionamiento global.
+
+## Tasas adicionales para la personalización 
+
+Hay varias configuraciones personalizadas no estándares disponibles con un coste adicional. La mayoría de las tasas son tasas únicas para la configuración, lo que se indica con "NRC" en la tabla. Estas opciones requieren una revisión de la excepción por parte de los equipos de gestión de ofertas (OM) y de SNS antes de su aprobación.
+
+| Tipo de servicio | Tarifa |
+|-----------------|------|
+| Tarifa de servicios especiales de red (SNS) | MRC de 3000 $ (mensuales) por cuenta |
+| Arrendatarios de varias VLAN | MRC de 1000 $ (mensuales) por Direct Link |
+| BCR Peering | MRC de 1000 $ (mensuales) por POD |
+| Ruta estática | 100 $ NRC |
+| Anexo de ASN | 100 $ NRC |
+| Política de exportación de BGP personalizada | 250 $ NRC |
+| Política de importación de BGP personalizada | 250 $ NRC |
+| ACL de entrada personalizada en XCR | 250 $ NRC |
+| ACL de salida personalizada en XCR | 250 $ NRC |

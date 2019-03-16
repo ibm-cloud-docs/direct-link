@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-06-11"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -14,9 +14,10 @@ lastupdated: "2018-06-11"
 {:tip: .tip}
 {:download: .download}
 
-# Cuestionario de IBM Cloud Direct Link Dedicated
+# Cuestionario de IBM Cloud Direct Link Dedicated Hosting
+{: #ibm-cloud-direct-link-dedicated-hosting-questionnaire}
 
-Gracias para abrir una solicitud de IBM Cloud Direct Link Dedicated Hosting.  Para finalizar su solicitud, nos gustaría obtener alguna información adicional. Puede ponerse en contacto con un ingeniero en cualquier momento durante el proceso del cuestionario.  Una vez que haya completado el cuestionario, nuestro equipo de ingenieros de diseño de nube lo revisará y lo escalará al equipo de ingenieros de red para su implementación.
+Gracias para abrir una solicitud de {{site.data.keyword.cloud}} Direct Link Dedicated Hosting.  Para finalizar su solicitud, nos gustaría obtener alguna información adicional. Puede ponerse en contacto con un ingeniero en cualquier momento durante el proceso del cuestionario.  Una vez que haya completado el cuestionario, nuestro equipo de ingenieros de diseño de nube lo revisará y lo escalará al equipo de ingenieros de red para su implementación.
 
 ## Reconocimientos
 

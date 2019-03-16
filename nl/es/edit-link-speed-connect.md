@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-09-12"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,16 +15,17 @@ lastupdated: "2018-09-12"
 {:download: .download}
 
 # Cómo editar la velocidad de enlace para una conexión de IBM Cloud Direct Link Exchange
+{: #how-to-edit-the-link-speed-for-an-ibm-cloud-direct-link-exchange-connection}
 
-Puede editar la velocidad de enlace de la conexión en cualquiera de los lados de la conexión, empezando desde el lado de IBM Cloud o el servidor Edge del proveedor. Se le permite cambiar la velocidad del enlace sólo una vez al mes.
+Puede editar la velocidad de enlace de la conexión en cualquiera de los lados de la conexión, empezando desde el lado de {{site.data.keyword.cloud}} o del servidor de extremo del proveedor. Se le permite cambiar la velocidad del enlace sólo una vez al mes.
 
 ## Paso 1: 
 
-Siga los pasos 1 y 2 desde el [procedimiento de pedido de Cloud Exchange](cloud-exchange-automation.html).
+Siga los pasos 1 y 2 desde el [procedimiento de pedido de Cloud Exchange](/docs/infrastructure/direct-link/cloud-exchange-automation.html).
 
 ## Paso 2:
 
-Si la conexión está en estado ** Suministrado**, **Activo** o **Inactivo**, puede editar la conexión pulsando la columna **Acciones** que hay junto a la conexión, tal como se muestra en la figura siguiente.
+Si la conexión está en estado **Suministrado**, **Activo** o **Inactivo**, puede editar la conexión pulsando la columna **Acciones** que hay junto a la conexión, tal como se muestra en la figura siguiente.
 
 ![Paso 14](/images/PSRL-Step2.png)
 
@@ -37,7 +38,7 @@ En el formulario de pedido, puede seleccionar la nueva velocidad de enlace. A me
 
 ## Paso 4:
 
-Siga los pasos del 2 al 5 desde el [procedimiento de pedido de Cloud Exchange for Equinix](cloud-exchange-automation.html#how-to-order-cloud-exchange-for-equinix).
+Siga los pasos del 2 al 5 desde el [procedimiento de pedido de Cloud Exchange for Equinix](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix).
 
 ### Paso 4A:
 Debe **ACEPTAR** los términos y condiciones antes de poder realizar un pedido de IBM Cloud Direct Link. Lea los términos y condiciones cuidadosamente, ya que contienen información técnica importante que debe comprender antes de continuar. 

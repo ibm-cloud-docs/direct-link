@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-30"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -13,10 +13,12 @@ lastupdated: "2018-10-30"
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # Utilización de IBM Cloud Direct Link para conectar con IBM Cloud Object Storage
+{: #using-ibm-cloud-direct-link-to-connect-to-ibm-cloud-object-storage}
 
-En este documento se describe cómo configurar IBM Cloud Direct Link de forma que tenga acceso a IBM Cloud Object Storage (COS). Aunque los métodos aquí descritos se han diseñado y probado con COS, pueden funcionar para algunos otros servicios de IBM Cloud.
+En este documento se describe cómo configurar {{site.data.keyword.cloud}} Direct Link de forma que tenga acceso a IBM Cloud Object Storage (COS). Aunque los métodos aquí descritos se han diseñado y probado con COS, pueden funcionar para algunos otros servicios de IBM Cloud.
 
 De acuerdo con la política actual, IBM Cloud Direct Link deniega el acceso a los puntos finales de servicio privado de IBM Cloud, incluidos los que utiliza IBM Cloud Object Storage (COS). La técnica que se describe en este documento se basa en el acceso indirecto a COS a través de servidores alojados en la cuenta de IBM Cloud del cliente. Después de la configuración, el servidor de cada cliente puede reenviar el tráfico bidireccionalmente entre los puntos finales de servicio privados de IBM Cloud y sus redes remotas conectadas por Direct Link.
 
@@ -29,9 +31,9 @@ La información almacenada en IBM Cloud Object Storage está cifrada y distribui
 IBM COS está disponible en tres configuraciones: **Cross Region (varias regiones)**, **Regional** y **Single Site (un solo sitio)**.
 
  * El servicio Cross Region proporciona una mayor durabilidad y disponibilidad que el uso de una sola región, pero a costa de una latencia ligeramente superior. Este servicio está disponible actualmente en Estados Unidos y en la UE. (Tenga en cuenta que utilizando un Virtual Router Appliance (VRA) también podría utilizar Direct Link para conectar a COS en la región de Asia-Pacífico).
- 
+
  * El servicio Regional proporciona lo contrario: distribuye los objetos en varias zonas de disponibilidad dentro de una sola región. Si no se puede acceder a una determinada región o zona de disponibilidad, el almacén de objetos continúa funcionando correctamente. Los cambios que falten se aplicarán cuando el centro de datos inaccesible vuelva a estar en línea.
-  
+
  * El servicio Single Site ofrece un acceso asequible a Cloud Object Storage en un centro de datos seleccionado.
 
 ### Puntos finales privados y públicos de COS
@@ -42,7 +44,7 @@ Los servidores suministrados en IBM Cloud utilizan puntos finales de API para se
 Los puntos finales públicos de COS proporcionan a los clientes de IBM Cloud acceso a los mismos datos de COS a los que se puede acceder desde dentro de IBM Cloud, pero los puntos finales públicos permiten el acceso desde cualquier ubicación equipada con Internet.
 
 Hay que tener en cuenta estos dos puntos en cuanto a los puntos finales públicos de COS:
- * El uso de puntos finales públicos puede incurrir en costes de ancho de banda además de los cargos de uso impuestos por el servicio COS. 
+ * El uso de puntos finales públicos puede incurrir en costes de ancho de banda además de los cargos de uso impuestos por el servicio COS.
  * Aunque todos los datos se cifran durante la transferencia, es posible que los clientes tengan restricciones o dudas en cuanto a privacidad relacionadas con los datos que se aplican a través de Internet.
 
 ## ¿Qué es IBM Cloud Direct Link?
@@ -50,7 +52,7 @@ IBM Cloud Direct Link es una suite de productos que proporciona a los clientes l
 
 ## Utilización de Cloud Object Storage (COS) sobre IBM Cloud Direct Link
 Los ingenieros de IBM han desarrollado un método que permite a un cliente de IBM Cloud que adquiere COS y Direct Link establecer conexiones remotas con puntos finales privados de COS. Este tipo de conexión amplía las ventajas de los puntos finales de servicio privados, ya que pueden ser utilizados por sistemas cliente externos a las instalaciones de IBM Cloud.
- 
+
 Encontrará diagramas y descripciones de esta solución en las siguientes secciones.
 
 ### Proxy inverso
@@ -66,7 +68,7 @@ Cualquier código de cliente de ejemplo que funcione con COS también debería f
 #### Instalación del proxy inverso Nginx
 **NginX** es un servidor web de código abierto rápido, compacto y maduro que destaca en tareas especializadas, que incluyen el rol de servidor _proxy inverso_ mencionado anteriormente.
 
-Las instrucciones y la información de configuración que se muestran a continuación para configurar un servidor proxy inverso NginX pueden funcionar una vez que las haya adaptado a su entorno. Si se atasca o necesita más información, consulte la parte sobre proxy inverso de la [documentación de Nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) o busque [stackoverflow](http://stackoverflow.com) para ver ejemplos.
+Las instrucciones y la información de configuración que se muestran a continuación para configurar un servidor proxy inverso NginX pueden funcionar una vez que las haya adaptado a su entorno. Si se atasca o necesita información adicional, consulte la parte sobre proxy inverso de la [documentación de Nginx ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) o busque [stackoverflow ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")]](http://stackoverflow.com) para ver ejemplos.
 
 1. Suministre sus servidores VSI o nativos con una compilación mínima **RHEL** o **CentOS** Linux (recomendado)
 2. Para cada VSI, habilite las siguientes reglas de grupo de seguridad en la interfaz pública: `allow_http`, `allow_https`, `allow_outbound`, `allow_ssh`
@@ -93,7 +95,7 @@ Las instrucciones y la información de configuración que se muestran a continua
 
 #### Archivo de configuración: `nginx.conf`
 
-El archivo de configuración de ejemplo se muestra en la siguiente sección. Puede copiarlo y pegarlo.
+En la siguiente sección se muestra el archivo de configuración de ejemplo. Puede copiarlo y pegarlo.
 
 ```
 user nginx;
@@ -129,7 +131,7 @@ http {
     proxy_intercept_errors on;
 
     # IBM COS Endpoints
-    # https://console.bluemix.net/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints
+    # https://cloud.ibm.com/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-endpoints#select-regions-and-endpoints
     # US
     server {
         listen       443 ssl http2;
@@ -156,7 +158,7 @@ http {
 }
 ```
 
-Consulte [Puntos finales de COS](https://console.bluemix.net/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints) para ver una lista de puntos finales privados que puede utilizar en las entradas `proxy_pass` anteriores.
+Consulte [Puntos finales de COS](https://{DomainName}/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints) para ver una lista de puntos finales privados que puede utilizar en las entradas `proxy_pass` anteriores.
 
 #### Sugerencias:
 
@@ -170,14 +172,14 @@ Esta sección contiene enlaces rápidos a la documentación de algunas ofertas d
 
 ### Cómo suministrar servidores nativos
 
-Para obtener instrucciones detalladas sobre cómo suministrar servidores nativos, consulte la publicación [Guide to Bare Metal Servers](https://console.bluemix.net/docs/bare-metal/about.html#getting-started-with-bare-metal-servers).
+Para obtener instrucciones detalladas sobre cómo suministrar servidores nativos, consulte la publicación [Guide to Bare Metal Servers](https://{DomainName}/docs/bare-metal?topic=bare-metal-about#about).
 
 ### Cómo suministrar un dispositivo direccionador virtual (VRA)
 
-Para obtener instrucciones detalladas sobre cómo suministrar un VRA, consulte la publicación [VRA Getting Started Guide](https://console.bluemix.net/docs/infrastructure/virtual-router-appliance/getting-started.html#getting-started).
+Para obtener instrucciones detalladas sobre cómo suministrar un VRA, consulte la publicación [VRA Getting Started Guide](https://{DomainName}/docs/infrastructure/virtual-router-appliance/getting-started.html#getting-started).
 
 ### Cómo suministrar IBM Cloud Object Storage (COS)
 
- * Para obtener instrucciones detalladas sobre cómo suministrar COS, consulte la publicación [Cloud Object Storage Guide](https://console.bluemix.net/catalog/services/cloud-object-storage).
+ * Para obtener instrucciones detalladas sobre cómo suministrar COS, consulte la publicación [Cloud Object Storage Guide](https://{DomainName}/catalog/services/cloud-object-storage).
 
  * Utilice uno de los puntos finales privados (mostrados anteriormente) para crear una interfaz con el contenedor o cualquier objeto de su cuenta de COS suministrada.

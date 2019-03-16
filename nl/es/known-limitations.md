@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-11"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-04-11"
 {:download: .download}
 
 # Limitaciones conocidas
+{: #known-limitations}
 
-En primer lugar, esta sección cubre las limitaciones que se aplican a las tres ofertas de IBM Cloud Direct Link, y luego detalla algunas limitaciones de cada oferta individualmente.
+En primer lugar, esta sección cubre las limitaciones que se aplican a las tres ofertas de {{site.data.keyword.cloud}} Direct Link, y luego detalla algunas limitaciones de cada oferta individualmente.
 
 ## Limitaciones generales de IBM Cloud Direct Link
  * Cada conexión de IBM Cloud Direct Link requiere una solicitud exclusiva. Si necesita varias conexiones, abra una solicitud de IBM Cloud Direct Link para cada conexión.
@@ -26,7 +27,7 @@ En primer lugar, esta sección cubre las limitaciones que se aplican a las tres 
  * VRF no es totalmente compatible con los servicios de SSL, PPTP, e IPSec VPN de {{site.data.keyword.BluSoftlayer_notm}}.
  * VRF no es compatible con la expansión de VLAN de cuenta a cuenta de {{site.data.keyword.BluSoftlayer_notm}}.
  * IBM Cloud Direct Link requiere BGP para establecer las rutas a una red remota del cliente.
- * Los cambios en la infraestructura de IBM Cloud Direct Link se deben realizar entre las 8:00 y las 17:00, del huso horario de EE.UU. Central.
+ * Los cambios en la infraestructura de IBM Cloud Direct Link se deben realizar entre las 8:00 y las 17:00, del huso horario de EE. UU. Central.
  
 ## Limitaciones generales de IBM Cloud Direct Link Exchange y Direct Link Connect
  * Los clientes son responsables de los gastos asociados con alcanzar el POP desde una red remota y cualquier gasto efectuado con el proveedor de Cloud Exchange.
