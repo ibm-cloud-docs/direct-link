@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-11"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -12,16 +12,21 @@ lastupdated: "2018-04-11"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:download: .download}
 
 
-# Schritt für Schritt: Bestellung von IBM Cloud Direct Link Connect
+# IBM Cloud Direct Link Connect über die Benutzerschnittstellenkonsole bereitstellen
+{: #provision-ibm-cloud-direct-link-connect-from-the-ui-console}
 
-Auf dieser Seite erfahren Sie, wie der IBM Cloud Direct Link Connect-Service bestellt wird. Nach dem Aufgeben der Bestellung wird ein IBM Support-Ticket generiert.
+Auf dieser Seite erfahren Sie, wie der {{site.data.keyword.cloud}} Direct Link Connect-Service über die Benutzerschnittstellenkonsole von IBM Cloud bestellt wird.  
 
-# Vorgehensweise zur Bestellung von Direct Link Connect
+Nachdem Sie die Bestellung aufgegeben haben, wird ein IBM Support-Ticket generiert.
+{:note}
 
-Um eine Bestellung für IBM Cloud Direct Link Connect aufzugeben, gehen Sie nach folgenden Schritten vor:
+## Schritte zur Bestellung von Direct Link Connect
+
+Um eine Bestellung für IBM Cloud Direct Link Connect aufzugeben, führen Sie die folgenden Schritte aus: 
 
 **Schritt 1:**
 

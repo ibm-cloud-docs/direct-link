@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-05-30"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-05-30"
 {:download: .download}
 
 # Modelle für Diversität und Redundanz in Direct Link
+{: #models-for-diversity-and-redundancy-in-direct-link}
 
-Dieses Dokument enthält eine Reihe schematischer Darstellungen im Zusammenhang mit Redundanz und Diversität, die Sie beim Auswählen eines Modells für die Erstellung einer geeigneten Direct Link-Bereitstellung unterstützen, die auf Ihre Anforderungen abgestimmt ist. Die schematischen Darstellungen sind nach zunehmender Komplexität und nach dem dargestellten Direct Link-Angebot geordnet. Direct Link ist kein Service mit inhärenter Redundanz und XCR-Funktionalität, d. h. die Kunden sind für die Bereitstellung von Redundanz über ihre BGP-Schemas verantwortlich. 
+Dieses Dokument enthält eine Reihe schematischer Darstellungen im Zusammenhang mit Redundanz und Diversität, die Sie beim Auswählen eines Modells für die Erstellung der besten {{site.data.keyword.cloud}} Direct Link-Bereitstellung für Ihre Anforderungen unterstützen. Die schematischen Darstellungen sind nach zunehmender Komplexität und nach dem dargestellten Direct Link-Angebot geordnet. Direct Link ist kein Service mit inhärenter Redundanz am Router für Querverbindungen (XCR-Router); die Kunden sind für die Bereitstellung von Redundanz über ihre BGP-Schemas (Border Gateway Protocol) verantwortlich.  
 
 ## Abschnitt 1: Einfache Konfigurationen, die Diversität ermöglichen
 

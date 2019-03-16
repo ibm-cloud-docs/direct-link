@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-04-12"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-04-12"
 {:download: .download}
 
 # Alternativen für Ihre Bereitstellung von IBM Cloud Direct Link
+{: #alternatives-for-your-ibm-cloud-direct-link-deployment}
 
-In diesem Dokument werden einige Alternativen dargestellt, die unsere Kunden bisweilen als Anwendungsfälle für ihre Bereitstellungen von IBM Cloud Direct Link wählen.
+In diesem Dokument werden einige Alternativen dargestellt, die unsere Kunden bisweilen als Anwendungsfälle für ihre {{site.data.keyword.cloud}} Direct Link-Bereitstellungen wählen. 
 
 ## Verschiedene Bereitstellungen für Exchange und Connect
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-24"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,6 +15,7 @@ lastupdated: "2018-04-24"
 {:download: .download}
 
 # IBM Cloud Direct Link konfigurieren
+{ #configure-ibm-cloud-direct-link}
 
 Nachdem die IBM Cloud Direct Link-Konnektivität hergestellt wurde, können Sie den Schritten in diesem Dokument folgen, um Ihr Teilnetz für die Interaktion mit IBM Cloud zu konfigurieren.
 
@@ -89,7 +90,7 @@ Beachten Sie, dass bei der Verwendung von VRF die Option für das VLAN-Spanning 
 Eine Alternative ist die Verwendung des IBM Cloud Direct Link-Angebots selbst zur Verwaltung Ihrer Server oder die Ausführung einer eigenen VPN-Lösung (z. B. Vyatta), die mit unterschiedlichen VPN-Typen konfiguriert werden kann. Nach der Migration auf eine VRF-Instanz kann SSL VPN für gewöhnlich verwendet werden, wenn eine VPN-Verbindung zu dem Rechenzentrumsstandort hergestellt wird, an dem eine Compute-VM ausgeführt wird. Ein globaler Zugriff ist hierbei allerdings nicht zulässig.
 
 ## BYOIP und NAT mit Direct Link verwenden
-IBM Cloud Direct Link bietet BYOIP nicht für das private Netz. Ausgenommen sind einige besondere Umstände, die im Abschnitt zur [individuellen privaten Adressierung](#custom-private-addressing) aufgeführt sind. Datenverkehr mit einer Ziel-IP-Adresse, die nicht durch {{site.data.keyword.BluSoftlayer_notm}} zugewiesen wurde, wird daher gelöscht. Kunden können jedoch den Datenverkehr zwischen dem fernen Netz und ihrem {{site.data.keyword.BluSoftlayer_notm}}-Netz mithilfe von GRE, IPSec (Internet Protocol Security) oder VXLAN einkapseln.  
+IBM Cloud Direct Link umfasst nicht BYOIP für das private Netz. Datenverkehr mit einer Ziel-IP-Adresse, die nicht durch {{site.data.keyword.BluSoftlayer_notm}} zugewiesen wurde, wird daher gelöscht. Kunden können jedoch den Datenverkehr zwischen dem fernen Netz und ihrem {{site.data.keyword.BluSoftlayer_notm}}-Netz mithilfe von GRE, IPSec (Internet Protocol Security) oder VXLAN einkapseln.  
 
 Am häufigsten wird die BYOIP-Umgebung im Rahmen eines Netzgateways (Vyatta) oder einer VMWare-NSX-Bereitstellung implementiert. Mit dieser Konfiguration können Kunden {{site.data.keyword.BluSoftlayer_notm}}-seitig und für die Rückleitung über den Tunnel zurück zum fernen Netz einen beliebigen IP-Bereich verwenden. Beachten Sie, dass diese Konfiguration unabhängig von {{site.data.keyword.BluSoftlayer_notm}} vom Kunden verwaltet und unterstützt werden muss. Außerdem kann es im Rahmen dieser Konfiguration zu einer Unterbrechung der Verbindung zum {{site.data.keyword.BluSoftlayer_notm}}-Servicenetz kommen, wenn der Kunde einen 10.x.x.x-Block zuweist, der von {{site.data.keyword.BluSoftlayer_notm}} für Services verwendet wird. 
 
@@ -97,12 +98,4 @@ Diese Lösung erfordert auch, dass jedem Host, der Konnektivität zum {{site.dat
 
 Alternativ weisen Kunden häufig einen fernen Netzblock für die Verwendung in einer NAT-Tabelle zu, die auf ihrem fernen Edge-Router konfiguriert ist. Mit dieser Konfiguration können Kunden die an beiden Netzen erforderlichen Änderungen beschränken, während Datenverkehr weiterhin in einen Netzadressraum verschoben wird, der mit beiden Netzen kompatibel ist.
 
-## Informationen zur individuellen privaten Adressierung
 
-Es kann vorkommen, dass ein Kunde beim Onboarding bei IBM Cloud Direct Link nicht in der Lage ist, Konflikte von IP-Adressen zwischen dem lokalen und dem privaten {{site.data.keyword.BluSoftlayer_notm}}-Netz anhand der zuvor beschriebenen Methoden zu lösen. Falls eine solche Situation auftritt, kann ein {{site.data.keyword.BluSoftlayer_notm}}-Entwickler oder -Vertriebsbeauftragter empfehlen, dass Sie die _individuelle private Adressierung_ (CPA, Custom Private Adressing) verwenden. Die individuelle private Adressierung ist kostenfrei; diese Funktion unterliegt jedoch speziellen Anforderungen und Einschränkungen, die Sie unbedingt kennen sollten, bevor Sie sie verwenden. Die entsprechenden Details finden Sie in der Dokumentation, die Ihnen von dem IBM Cloud-Ansprechpartner bereitgestellt wird, der Ihnen diese Funktion empfiehlt. 
-
-Die _wichtigste Anforderung_ ist, dass die individuelle private Adressierung nur für ein neues, leeres {{site.data.keyword.BluSoftlayer_notm}}-Konto und eine neue Direct Link-Verbindung aktiviert werden kann. Es ist nicht möglich, vorhandene Ressourcen in/auf die individuelle private Adressierung zu konvertieren oder zu migrieren.
-
-Mit der individuellen privaten Adressierung können Sie {{site.data.keyword.BluSoftlayer_notm}}-Server in einem gültigen privaten IPv4-Adressbereich Ihrer Wahl (10.x.x.x, 192.168.x.x oder 172.16.x.x) hosten. Die Funktion stellt eine Untergruppe allgemeiner IBM Cloud-Services in einem speziellen, intern gerouteten Adressbereich (161.26.x.x) zur Verfügung, der private IP-Adressen für die Verwendung durch den Kunden frei lässt. Während Sie im Rahmen der individuellen privaten Adressierung bis zu fünf private IP-Bereiche (auch als _CPA-Netze_ bezeichnet) definieren können, stellt Direct Link die Verbindung mit nur einem CPA-Netz her. Wenn im Konto weitere CPA-Netze vorhanden sind, sind diese nicht über Direct Link zugänglich.
-
-Die individuelle private Adressierung nutzt VRF und BGP. Der Entwickler, der für die Implementierung verantwortlich ist, liefert Ihnen die nötigen Details zu dieser Funktion.

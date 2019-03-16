@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-23"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -12,12 +12,14 @@ lastupdated: "2018-07-23"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:download: .download}
 
 # Vorgehensweise zur Bestellung von IBM Cloud Direct Link Dedicated
+{: #how-to-order-ibm-cloud-direct-link-dedicated}
 
 1. Überprüfen Sie die Möglichkeiten Ihres Netzproviders, den entsprechenden Bereitstellungspunkt zu erreichen und die Querverbindung in die {{site.data.keyword.BluSoftlayer_notm}}-Umgebung einzurichten.
-2. Öffnen Sie eine IBM Cloud Direct Link Dedicated-Anforderung und füllen Sie die angeforderten Informationen aus. (Unterstützung von IBM Sales Engineers kann angefordert werden.)
+2. Öffnen Sie eine Anforderung für {{site.data.keyword.cloud}} Direct Link Dedicated und füllen Sie die angeforderten Informationen aus. (Unterstützung von IBM Sales Engineers kann angefordert werden.)
 3. {{site.data.keyword.BluSoftlayer_notm}} stellt das Bevollmächtigungsschreiben (LOA, Letter of Authorization) für die Verbindung bereit.
 4. Stellen Sie sicher, dass die Verbindung den Bereitstellungspunkt erreicht hat und vom Netzbetreiber eingerichtet wurde.
 5. Bestellen Sie die Querverbindung anhand der CFA-Informationen (CFA, Customer Facility Assignment) von {{site.data.keyword.BluSoftlayer_notm}} aus dem Berechtigungsschreiben. Dieser Vorgang ist in der Regel nach 2 bis 10 Werktagen abgeschlossen. (Dieser Zeitrahmen hängt vom entsprechenden Facility-Anbieter und der Art der vom Kunden angegebenen Auftragspriorität ab.) Dieser Prozess umfasst die Einrichtung des Patches für den Abschlussport von {{site.data.keyword.BluSoftlayer_notm}}.
@@ -43,25 +45,32 @@ In der nachfolgenden Tabelle sind Details zu den IBM Cloud-Rechenzentren aufgef�
 | SNG02 | Equinix | SG1 | 20 Ayer Rajan Crescent Industrial Park |
 | SYD01 | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
 | SYD02 | Equinix | SY3 | 47 Bourke Rd |
+| SYD03 | NextDC | 4 Eden Park Drive, Macquarie Park |
 | SYD04 | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
-| TOK01 | Equinix | TY2 | Shinagawa-ku |
-| TOK02 | At Tokyo | CC2 | Koto-ku |
+| SYD05 | Equinix | 200 Bourke Rd |
+| TOK01 | Equinix | TY2 |
+| TOK02 | At Tokyo | CC2 | 
+| TOK03 | Equinix | 
+| TOK04 | SoftBank |
+| TOK05 | NTT |
 | **EMEA** |  |  |
 | AMS02 | Equinix | AM1 / AM2 | Larrderhoogtweg 57 |
 | AMS03 | KPN | Amsterdam 3 | Rondebeltweg 62 |
 | FRA01 | InterXion | FRA01 | Hanauer Landstrasse 302 |
 | FRA02 | Zenium | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
 | FRA03 | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
+| FRA04 | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H | 
 | FRA05 | InterXion | FRA05 | Weismüllerstraße 40 |
-| LON01 | Telecity | LD1 | 6/7 Harbour Exchange  E14 9GE |
+| LON01 | Equinix (fTelecity) | LD8 | 6/7 Harbour Exchange  E14 9GE |
 | LON02 | Digital Realty | LHR13 | Fountain Court, Cox Lane |
 | LON03 | Equinix | LD5 | 8 Buckingham Ave |
 | LON04 | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
 | LON06 | Zenium | LON1 | 12 Liverpool Rd, Trading Estate |
+| MIL01 | Data IV | Via Monzoro 101-105 , 20010 Cornaredo (MI) |
 | MIL02 | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21|
 | OSL01 | EVRY | DigiPlex - Fetsund | 9,, Heiaveien, 1900 Fetsund |
 | OSL02 | Verizon | Verizon Oslo | Hans Møller Gassmanssvei 9 |
-| PAR01 | IBM | PAR01 | Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit |
+| PAR01 | Global Switch | PAR01 | Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit |
 | PAR02 | Equinix | PA2 | 114 Rue Ambroise Croizat, St Denis |
 | STO01 | InterXion | STO01 | Esbogatan 11 |
 |  |  |  |
@@ -79,7 +88,7 @@ In der nachfolgenden Tabelle sind Details zu den IBM Cloud-Rechenzentren aufgef�
 | HOU02* | IBM | HOU02 | 855 Greens Parkway | 
 | LAX01* | Coresite | LA1 | 624 S. Grand Ave. AKA 1 Wilshire Blvd |
 | MEX01 | Alestra | Alestra Queretaro Datacenter | Lateral Carretera Estatal 431, Parque Tecnologico Inovacion Lote 79, El Marqués |
-| MIA01* | Terremark / Verizon | NAP | 50 NE 9th Street |
+| MIA01 | Terremark / Verizon | NAP | 50 NE 9th Street |
 | MON01 | COLO-D | COLO-D1 | 2525 Rue Canadien |
 | MON02 | Cologix | MTL3 | 1155 University Street |
 | NYC01 | Digital Realty | JFK10 | 111 8th Ave |
@@ -87,7 +96,7 @@ In der nachfolgenden Tabelle sind Details zu den IBM Cloud-Rechenzentren aufgef�
 | NYC03* | Equinix | NY5 | 800 Secaucus Rd, Secaucus, NJ |
 | SAO01 | Ascenty | SP1 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II, Jundiai |
 | SAO02 | Equinix | SP2 | Alameda Araguaia, 3641 - Alphaville, Barueri |
-| SEA02* | The Westin Building | WBX | 2001 6th Avenue |
+| SEA02 | The Westin Building | WBX | 2001 6th Avenue |
 | SJC02 | Equinix | SV1 | 11 Great Oaks Blvd |
 | SJC03 | Digital Realty | SJC31 | 1100 Space Park Drive |
 | SJC04 | Infomart | SJC1 | 2001 Fortune Drive |
@@ -101,6 +110,7 @@ In der nachfolgenden Tabelle sind Details zu den IBM Cloud-Rechenzentren aufgef�
 
 ## Preise
 
-Informationen zu Preisen finden Sie im [Preisdokument](pricing.html).
+Informationen zu Preisen finden Sie im [Preisdokument](/docs/infrastructure/direct-link/pricing.html).
 
-**Wenn Sie die genaue Adresse für TOK01 oder TOK02 benötigen, wenden Sie sich bitte an Ihr Direct Link-Angebotsmanagement oder -Vertriebsteam.**
+Wenn Sie die genaue Adresse für TOK01 oder TOK02 benötigen, wenden Sie sich bitte an Ihr Direct Link-Team für Angebotsmanagement oder Vertrieb.
+{:note}

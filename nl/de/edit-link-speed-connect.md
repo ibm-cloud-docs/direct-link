@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-09-12"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,12 +15,13 @@ lastupdated: "2018-09-12"
 {:download: .download}
 
 # Vorgehensweise zum Bearbeiten der Verbindungsgeschwindigkeit für eine IBM Cloud Direct Link Exchange-Verbindung
+{: #how-to-edit-the-link-speed-for-an-ibm-cloud-direct-link-exchange-connection}
 
-Sie können die Verbindungsgeschwindigkeit einer Verbindung auf beiden Seiten der Verbindung bearbeiten, entweder auf der Seite von IBM Cloud oder auf der Seite des Edge-Servers des Anbieters. Sie können die Verbindungsgeschwindigkeit nur einmal pro Monat ändern.
+Sie können die Verbindungsgeschwindigkeit Ihrer Verbindung auf beiden Seiten der Verbindung bearbeiten, entweder auf der {{site.data.keyword.cloud}}-Seite oder auf der Seite des Edge-Servers des Providers. Sie können die Verbindungsgeschwindigkeit nur einmal pro Monat ändern.
 
 ## Schritt 1: 
 
-Führen Sie die Schritte 1 und 2 der [Cloud Exchange-Bestellprozedur](cloud-exchange-automation.html) aus.
+Führen Sie die Schritte 1 und 2 der [Cloud Exchange-Bestellprozedur](/docs/infrastructure/direct-link/cloud-exchange-automation.html) aus.
 
 ## Schritt 2:
 
@@ -37,7 +38,7 @@ Im Bestellformular können Sie die neue Verbindungsgeschwindigkeit auswählen. W
 
 ## Schritt 4:
 
-Führen Sie die Schritte 2 bis 5 der [Cloud Exchange for Equinix-Bestellprozedur](cloud-exchange-automation.html#how-to-order-cloud-exchange-for-equinix) aus.
+Führen Sie die Schritte 2 bis 5 der [Cloud Exchange for Equinix-Bestellprozedur](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix) aus.
 
 ### Schritt 4A:
 Bevor Sie die Bestellung für IBM Cloud Direct Link aufgeben können, müssen Sie den Vertragsbedingungen **ZUSTIMMEN**. Bitte lesen Sie die Vertragsbedingungen sorgfältig, da sie wichtige technische Informationen enthalten, die Sie wissen müssen, bevor Sie fortfahren. 
