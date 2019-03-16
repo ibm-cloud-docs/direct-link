@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-23"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -12,12 +12,14 @@ lastupdated: "2018-07-23"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:download: .download}
 
 # Cómo solicitar IBM Cloud Direct Link Dedicated
+{: #how-to-order-ibm-cloud-direct-link-dedicated}
 
 1. Verifique las capacidades del proveedor de la red para llegar al PoP apropiado y conectarse al entorno de {{site.data.keyword.BluSoftlayer_notm}}.
-2. Abra una solicitud de IBM Cloud Direct Link Dedicated y complete la información solicitada. (Se puede solicitar la ayuda de ingenieros de ventas de IBM).
+2. Abra una solicitud de {{site.data.keyword.cloud}} Direct Link Dedicated y complete la información solicitada. (Se puede solicitar la ayuda de ingenieros de ventas de IBM).
 3. {{site.data.keyword.BluSoftlayer_notm}} proporciona la Carta de autorización (Letter of Authorization, LOA) para la conexión.
 4. Confirme que el circuito haya llegado al PoP y que el operador lo haya completado.
 5. Solicite la conexión utilizando la información de {{site.data.keyword.BluSoftlayer_notm}} CFA (Customer Facility Assignment) en la LOA, que normalmente tarda entre 2 y 10 días hábiles en completarse. (Este plazo depende del proveedor de instalaciones y del tipo de prioridad de solicitud, ya que la coloca el cliente). Este proceso incluye la configuración del parche al puerto de terminación de {{site.data.keyword.BluSoftlayer_notm}}.
@@ -29,7 +31,7 @@ lastupdated: "2018-07-23"
 
 La tabla contiene detalles sobre los centros de datos de IBM Cloud en los que está disponible Direct Link Dedicated:
 
-|**Código de ubicación de IBM** | **Operador de Meet Me Room**| **Código del sitio del operador** | ** Dirección del operador ** |
+|**Código de ubicación de IBM** | **Operador de Meet Me Room**| **Código del sitio del operador** | **Dirección del operador** |
 |-----------------|-----------------|--------------------|--------------------|
 | **APAC** | | | |
 | CHE01 | Tata | PH-01 | 226, Red Hills Road,Kallikuppam, Ambattur |
@@ -43,7 +45,9 @@ La tabla contiene detalles sobre los centros de datos de IBM Cloud en los que es
 | SNG02 | Equinix | SG1 | 20 Ayer Rajan Crescent Industrial Park |
 | SYD01 | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
 | SYD02 | Equinix | SY3 | 47 Bourke Rd |
+| SYD03 | NextDC | 4 Eden Park Drive, Macquarie Park |
 | SYD04 | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
+| SYD05 | Equinix | 200 Bourke Rd |
 | TOK01 | Equinix | TY2 |
 | TOK02 | At Tokyo | CC2 | 
 | TOK03 | Equinix | 
@@ -62,10 +66,11 @@ La tabla contiene detalles sobre los centros de datos de IBM Cloud en los que es
 | LON03 | Equinix | LD5 | 8 Buckingham Ave |
 | LON04 | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
 | LON06 | Zenium | LON1 | 12 Liverpool Rd, Trading Estate |
+| MIL01 | Data IV | Via Monzoro 101-105 , 20010 Cornaredo (MI) |
 | MIL02 | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21|
 | OSL01 | EVRY | DigiPlex - Fetsund | 9,, Heiaveien, 1900 Fetsund |
 | OSL02 | Verizon | Verizon Oslo | Hans Møller Gassmanssvei 9 |
-| PAR01 | IBM | PAR01 | Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit |
+| PAR01 | Global Switch | PAR01 | Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit |
 | PAR02 | Equinix | PA2 | 114 Rue Ambroise Croizat, St Denis |
 | STO01 | InterXion | STO01 | Esbogatan 11 |
 |  |  |  |
@@ -105,6 +110,7 @@ La tabla contiene detalles sobre los centros de datos de IBM Cloud en los que es
 
 ## Precios
 
-Para obtener información sobre precios, consulte el [documento de precios](pricing.html).
+Para obtener información sobre precios, consulte el [documento de precios](/docs/infrastructure/direct-link/pricing.html).
 
-** Si necesita la dirección exacta de TOK01 o TOK02, póngase en contacto con el equipo de ventas o de gestión de ofertas de Direct Link. **
+Si necesita la dirección exacta de TOK01 o TOK02, póngase en contacto con el equipo de ventas o de gestión de ofertas de Direct Link.
+{:note}

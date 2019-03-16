@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-03-14"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -14,9 +14,10 @@ lastupdated: "2018-03-14"
 {:tip: .tip}
 {:download: .download}
 
-# Visión general de Características
+# Visión general de la oferta Direct Link
+{ #overview-of-direct-link-offerings}
 
-Las ofertas de IBM Cloud Direct Link proporcionan conectividad desde un origen externo a una red privada de IBM Cloud del cliente. Direct Link puede considerarse como una alternativa a una solución VPN de sitio a sitio tradicional, diseñado para clientes que necesitan una conectividad más coherente y de mayor rendimiento entre una red remota y sus entornos de IBM Cloud. Hay disponibles cuatro tipos de conexiones:
+Las ofertas de {{site.data.keyword.cloud}} Direct Link proporcionan conectividad desde un origen externo a una red privada de IBM Cloud del cliente. Direct Link puede considerarse como una alternativa a una solución VPN de sitio a sitio tradicional, diseñado para clientes que necesitan una conectividad más coherente y de mayor rendimiento entre una red remota y sus entornos de IBM Cloud. Hay disponibles cuatro tipos de conexiones:
  
  * **IBM Cloud Direct Link Exchange** permite a los clientes aprovechar un proveedor de Exchange para ofrecer conectividad a su IBM Cloud. Un proveedor de Exchange es un transportista o proveedor de red que ya está conectado a la red de IBM Cloud, utilizando enlaces multiarrendatario de alta capacidad. Los clientes pueden comprar normalmente un circuito virtual en este proveedor, proporcionando conectividad a un coste reducido, porque la conectividad física de {{site.data.keyword.BluSoftlayer_notm}} al proveedor de Exchange ya está en marcha, compartida entre otros clientes.
  
@@ -31,3 +32,5 @@ Para una mayor flexibilidad para crear esta conectividad de 3 capas, IBM Cloud D
  * IP dual para los hosts remotos
  * NAT
  * Tunelado para BYOIP
+ 
+ Para ver descripciones detalladas de cada una de las ofertas, consulte [Acerca de IBM Cloud Direct Link](/docs/infrastructure/direct-link?topic=direct-link-about-ibm-cloud-direct-link).

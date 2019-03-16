@@ -1,15 +1,16 @@
 ---
 copyright:
-  years: 1994, 2017, 2018
-lastupdated: "2018-05-07"
+  years: 1994, 2017, 2018, 2019
+lastupdated: "2019-02-19"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Visión general de la latencia
+{: #understanding-latency}
 
-_Solución híbrida con IBM Cloud Direct Link: sus cargas de trabajo se ejecutarán más rápidamente y en todo el mundo_
+_Solución híbrida con {{site.data.keyword.cloud}} Direct Link: sus cargas de trabajo se ejecutarán más rápidamente y en todo el mundo_
 
 IBM Cloud ofrece centros de datos con prestaciones de Direct Link en todo el mundo. Por lo tanto, puede contar con una latencia mínima cuando utilice Direct Link para crear su solución de nube híbrida enlazando su IBM Cloud a su infraestructura existente.
 
