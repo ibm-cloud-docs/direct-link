@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-11"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-04-11"
 {:download: .download}
 
 # 既知の制限
+{: #known-limitations}
 
-最初に、このセクションで IBM Cloud Direct Link の 4 つのオファリングのすべてに適用される制限を説明し、その後で、各オファリングについて個別にいくつかの制限の詳細を示します。
+最初に、このセクションで {{site.data.keyword.cloud}} Direct Link の 4 つのオファリングのすべてに適用される制限を説明し、その後で、各オファリングについて個別にいくつかの制限の詳細を示します。
 
 ## 一般的な IBM Cloud Direct Link の制限
  * 各 IBM Cloud Direct Link 接続に固有の注文が必要です。 複数の接続が必要な場合は、接続ごとに IBM Cloud Direct Link を注文してください。
@@ -31,7 +32,7 @@ lastupdated: "2018-04-11"
 ## IBM Cloud Direct Link Exchange および IBM Cloud Direct Link Connect の制限
  * お客様は、リモート・ネットワークから POP への到達に関連した料金、および Cloud Exchange プロバイダーとの間で発生するすべての料金を負担します。
  * {{site.data.keyword.BluSoftlayer_notm}} は、ネットワーク POP 内にあるお客様の機器はコロケーションしません。 お客様は、プロバイダーと協力して、{{site.data.keyword.BluSoftlayer_notm}} ネットワーク PoP が存在する施設内に機器をコロケーションする必要があるかどうかを判断する必要があります。
- * Direct Link Cloud Exchange の可用性は、ロケーション間で異なります。 お客様は、IBM クラウド・アカウント・マネージャーに連絡して、現在または将来の可用性を確認できます。
+ * Direct Link Cloud Exchange の可用性は、ロケーション間で異なります。 お客様は、IBM Cloud アカウント・マネージャーに連絡して、現在または将来の可用性を確認できます。
  
 ## IBM Cloud Direct Link Dedicated の制限
  * {{site.data.keyword.BluSoftlayer_notm}} の IBM Cloud Direct Link Dedicated に関する料金には、{{site.data.keyword.BluSoftlayer_notm}} インフラストラクチャーでのポート終端のコストが含まれます。 お客様は、リモート・ネットワークから PoP への到達に関連した料金、および PoP 施設内で必要な相互接続に関連したすべての料金を負担します。  {{site.data.keyword.BluSoftlayer_notm}} は、お客様に代わって相互接続を注文することはありません。

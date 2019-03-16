@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-23"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -12,12 +12,14 @@ lastupdated: "2018-07-23"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:download: .download}
 
 # IBM Cloud Direct Link Dedicated の注文方法
+{: #how-to-order-ibm-cloud-direct-link-dedicated}
 
 1. 適切な PoP に到達して {{site.data.keyword.BluSoftlayer_notm}} 環境に相互接続するための、ネットワーク・プロバイダーの機能を確認します。
-2. IBM Cloud Direct Link Dedicated 要求を開き、要求された情報を記入します。 (IBM セールス・エンジニアからの支援を要求できます。)
+2. {{site.data.keyword.cloud}} Direct Link Dedicated 要求を開き、要求された情報を記入します。 (IBM セールス・エンジニアからの支援を要求できます。)
 3. {{site.data.keyword.BluSoftlayer_notm}} は、接続用の許可書 (LOA) を提供します。
 4. 回線が PoP に到達しており、キャリアによって完了済みであることを確認します。
 5. LOA 内の {{site.data.keyword.BluSoftlayer_notm}} CFA (Customer Facility Assignment) 情報を使用して相互接続を注文します。これは、完了までに通常 2 営業日から 10 営業日かかります。 (この時間フレームは、施設のベンダーとお客様が設定した注文優先順位のタイプによって異なります。) このプロセスには、{{site.data.keyword.BluSoftlayer_notm}} 終端ポートへのパッチのセットアップが含まれます。
@@ -43,7 +45,9 @@ lastupdated: "2018-07-23"
 | SNG02 | Equinix | SG1 | 20 Ayer Rajan Crescent Industrial Park |
 | SYD01 | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
 | SYD02 | Equinix | SY3 | 47 Bourke Rd |
+| SYD03 | NextDC | 4 Eden Park Drive, Macquarie Park |
 | SYD04 | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
+| SYD05 | Equinix | 200 Bourke Rd |
 | TOK01 | Equinix | TY2 |
 | TOK02 | At Tokyo | CC2 | 
 | TOK03 | Equinix | 
@@ -62,10 +66,11 @@ lastupdated: "2018-07-23"
 | LON03 | Equinix | LD5 | 8 Buckingham Ave |
 | LON04 | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
 | LON06 | Zenium | LON1 | 12 Liverpool Rd, Trading Estate |
+| MIL01 | Data IV | Via Monzoro 101-105 , 20010 Cornaredo (MI) |
 | MIL02 | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21|
 | OSL01 | EVRY | DigiPlex - Fetsund | 9,, Heiaveien, 1900 Fetsund |
 | OSL02 | Verizon | Verizon Oslo | Hans Møller Gassmanssvei 9 |
-| PAR01 | IBM | PAR01 | Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit |
+| PAR01 | Global Switch | PAR01 | Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit |
 | PAR02 | Equinix | PA2 | 114 Rue Ambroise Croizat, St Denis |
 | STO01 | InterXion | STO01 | Esbogatan 11 |
 |  |  |  |
@@ -105,6 +110,7 @@ lastupdated: "2018-07-23"
 
 ## 料金
 
-料金情報については、[料金の資料](pricing.html)を参照してください。
+料金情報については、[料金の資料](/docs/infrastructure/direct-link/pricing.html)を参照してください。
 
-**TOK01 または TOK02 の詳細な住所が必要な場合は、担当の Direct Link オファリング管理または営業チームにお問い合わせください。**
+TOK01 または TOK02 の詳細な住所が必要な場合は、担当の Direct Link オファリング管理または営業チームにお問い合わせください。
+{:note}

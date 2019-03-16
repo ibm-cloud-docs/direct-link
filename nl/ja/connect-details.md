@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-05-30"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-05-30"
 {:download: .download}
 
 # IBM Cloud Direct Link Connect の詳細
+{: #ibm-cloud-direct-link-connect-details}
 
-IBM Cloud Direct Link Connect は、設備ベースのネットワークを所有および運用するパートナーを通じて、お客様が IBM クラウド・デプロイメントに接続する機能を提供します。 IBM とパートナーの両方が、レイヤー 2 およびレイヤー 3 で、レイヤー 2 の10 G デュアル NNI (Network-to-Network Interfaces、ネットワーク間インターフェース) を介してお客様に接続します。
+{{site.data.keyword.cloud}} Direct Link Connect は、設備ベースのネットワークを所有および運用するパートナーを通じて、お客様が IBM Cloud デプロイメントに接続する機能を提供します。 IBM とパートナーの両方が、レイヤー 2 およびレイヤー 3 で、レイヤー 2 の10 G デュアル NNI (Network-to-Network Interfaces、ネットワーク間インターフェース) を介してお客様に接続します。
 
 接続は、いくつかの速度で提供されます。
 
@@ -29,5 +30,5 @@ IBM Cloud Direct Link Connect は、設備ベースのネットワークを所�
 
 ## 料金
 
-IBM Cloud Direct Link Connect の料金は、[料金の資料](pricing.html)に示されています。
+IBM Cloud Direct Link Connect の料金は、[料金の資料](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-direct-link-connect)に示されています。
 

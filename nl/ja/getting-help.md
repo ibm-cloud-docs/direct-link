@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-02-28"
+  years: 2017, 2018, 2019
+lastupdated: "2019-01-18"
 
 
 
@@ -30,9 +30,9 @@ lastupdated: "2018-02-28"
 
 <!-- Add a heading and content for how to get help and support. Use this template for beta and GA services:  -->
 # ヘルプとサポートの利用 
-{: #gettinghelp}
+{: #getting-help-and-support}
 
-IBM Cloud Direct Link を使用しているときに問題や質問がある場合は、以下にリストしたいずれかのフォーラムで、情報を検索したり質問したりして、支援を得ることができます。 また、[カスタマー・ポータル ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/) でサポート・チケットを開くこともできます。
+{{site.data.keyword.cloud}} Direct Link を使用しているときに問題や質問がある場合は、以下にリストしたいずれかのフォーラムで、情報を検索したり質問したりして、支援を得ることができます。 [IBM Cloud コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) または[カスタマー・ポータル ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/) でサポート・チケットをオープンすることもできます。
 {:shortdesc}
 
 フォーラムを使用して質問する場合は、{{site.data.keyword.Bluemix_notm}} の開発チームの目に触れるように、質問にタグを付けます。
@@ -41,7 +41,7 @@ IBM Cloud Direct Link を使用しているときに問題や質問がある場�
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->
 * サービスや使用開始の手順についての質問には、[IBM developerWorks dW Answers ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/answers/topics/directlink.html?smartspace=ibm-cloud){:new_window} フォーラムを使用してください。 「directlink」と「ibm-cloud」のタグを付けてください。
 
-フォーラムの使用について詳しくは、[ヘルプの取得](https://console.bluemix.net/docs/support/index.html#getting-help)を参照してください。
+フォーラムの使用について詳しくは、[ヘルプの取得](https://cloud.ibm.com/docs/support/index.html#getting-help)を参照してください。
 
-IBM サポート・チケットのオープンや、サポート・レベルおよびチケットの重大度については、[サポートへの問い合わせ](https://console.bluemix.net/docs/support/index.html#contacting-support)を参照してください。
+IBM サポート・チケットのオープンや、サポート・レベルおよびチケットの重大度については、[サポートへの問い合わせ](/docs/get-support?topic=get-support-getting-customer-support)を参照してください。
 

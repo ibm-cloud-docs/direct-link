@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-06-11"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -14,9 +14,10 @@ lastupdated: "2018-06-11"
 {:tip: .tip}
 {:download: .download}
 
-# IBM Cloud Direct Link Dedicated のアンケート
+# IBM Cloud Direct Link Dedicated Hosting のアンケート
+{: #ibm-cloud-direct-link-dedicated-hosting-questionnaire}
 
-IBM Cloud Direct Link Dedicated Hosting をご注文いただき、ありがとうございます。 ご注文の最後に、追加情報を収集させてください。 アンケート・プロセス中、いつでもエンジニアとお話いただけます。 アンケートは、完了後、IBM のクラウド設計エンジニアリング・チームによって確認され、実装のためにネットワーク・エンジニアリングにエスカレートされます。
+{{site.data.keyword.cloud}} Direct Link Dedicated Hosting をご注文いただき、ありがとうございます。 ご注文の最後に、追加情報を収集させてください。 アンケート・プロセス中、いつでもエンジニアとお話いただけます。 アンケートは、完了後、IBM のクラウド設計エンジニアリング・チームによって確認され、実装のためにネットワーク・エンジニアリングにエスカレートされます。
 
 ## 確認
 

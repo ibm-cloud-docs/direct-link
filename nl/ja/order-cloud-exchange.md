@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-25"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,9 +15,10 @@ lastupdated: "2018-06-25"
 {:download: .download}
 
 # IBM Cloud Direct Link Exchange の注文方法
+{ # how-to-order-ibm-cloud-direct-link-exchange}
 
 1. 適切な PoP に到達し、関連付けられた Exchange プロバイダーに相互接続するための、ネットワーク・プロバイダーの機能を確認します。
-2. [カスタマー・ポータル ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/) を使用して IBM Cloud Direct Link Exchange 申し込みを開き、要求された情報を記入します。 (IBM セールス・エンジニアからの支援を要求できます。) Equinix プロバイダーを使用する場合は、[自動注文](cloud-exchange-automation.html)を使用できます。
+2. [カスタマー・ポータル ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/) を使用して {{site.data.keyword.cloud}} Direct Link Exchange 申し込みを開き、要求された情報を記入します。 (IBM セールス・エンジニアからの支援を要求できます。) Equinix プロバイダーを使用する場合は、[自動注文](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix)を使用できます。
 3. Exchange プロバイダーに連絡し、交換局への接続を交渉します。
 4. ネットワーク・プロバイダーと Exchange プロバイダーの間の接続を注文します。
 5. Exchange プロバイダーを介して「バーチャル・サーキット」を注文し、{{site.data.keyword.BluSoftlayer_notm}} Direct Link 要求のチケット ID を「申し込み ID」または「許可 ID」として参照します。
@@ -29,17 +30,19 @@ lastupdated: "2018-06-25"
  
 | Exchange プロバイダー	| IBM データ・センター・コード |
 |-------------|-----------------------|
-| AT Tokyo	| TOK02 |
+| AT Tokyo | TOK02 |
 | Ascenty | SAO01* |
-| Cologix	| MON02、TOR02 |
-| Equinix	| HKG01、SNG02、SYD02、TOK01、AMS02、PAR02、CHI01、DAL03、NYC02、NYC03、SAO02、SJC02、TOR02、WDC02、LON01、FRA03 |							
-| InterXion	| FRA01、STO01 |
+| Cologix | MON02、TOR02 |
+| Cyrus One | DAL13 |
+| DE-CIX | FRA01 |
+| Equinix | HKG01、SNG02、SYD02、TOK01、AMS02、PAR02、CHI01、DAL03、NYC02、NYC03、SAO02、SJC02、TOR02、WDC02、LON01、FRA03 |							
+| InterXion | FRA01、STO01 |
 | KINX	| SEO02 |
-| NextDC | 	MEL02* |
-| SK C&C | 	SEO01 |
+| NextDC | MEL02、SYD03* |
+| SK C&C | SEO01 |
 
 * 近日公開
 
 ## 料金
 
-料金情報については、[料金の資料](pricing.html)を参照してください。
+料金情報については、[料金の資料](/docs/infrastructure/direct-link/pricing.html)を参照してください。

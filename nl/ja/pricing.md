@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-24"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,15 +15,14 @@ lastupdated: "2018-10-24"
 {:download: .download}
 
 
-# IBM Cloud Direct Link の料金 
+# IBM Cloud Direct Link の料金
+{: #pricing-for-ibm-cloud-direct-link}
 
-IBM Cloud Direct Link Exchange、Connect、および Dedicated の各オファリングの料金は、以下の表に示すように、同等の地域および帯域幅で一致しています。
+{{site.data.keyword.cloud}} Direct Link Exchange、Connect、および Dedicated の各オファリングの料金は、以下の表に示すように、同等の地域および帯域幅で一致しています。
 
 ## IBM Cloud Exchange、Connect、および Dedicated の料金
 
-ご使用のブラウザーで 1 Gbps 未満の速度でこの表を表示する場合、表全体を表示するには、以下のリンクを選択するか、マウスまたはトラックパッドを使用してこのページを水平にスクロールするか、このページの上部にある「GitHub で編集」をクリックしてロー・ファイルを表示してください。
-
-[完全な表](pricing-table.html)
+ご使用のブラウザーで 1 Gbps 未満の速度でこの表を表示する場合、マウスまたはトラックパッドを使用してこのページを水平にスクロールするか、このページの上部にある「GitHub で編集」をクリックしてロー・ファイルを表示してください。
 
 ## Direct Link Exchange の料金
 
@@ -85,7 +84,7 @@ IBM Cloud Dedicated Hosting の最小構成には、1 台のラック、5 Kw 電
 
 ## グローバル・ルーティング・アドオンの料金
 
-グローバル・ルーティングは、すべての IBM Cloud データ・センターをグローバルに含むようにアクセスを拡張します。 帯域幅は、市場に基づいて、月次で計量して課金されます。 市場およびその他の考慮事項に関する詳細は、[FAQ ファイル](faqs.html#what-are-the-local-routing-and-global-routing-options)にあります。
+グローバル・ルーティングは、すべての IBM Cloud データ・センターをグローバルに含むようにアクセスを拡張します。 帯域幅は、市場に基づいて、月次で計量して課金されます。 市場およびその他の考慮事項に関する詳細は、[FAQ ファイル](/docs/infrastructure/direct-link?topic=direct-link-faqs#what-are-the-local-routing-and-global-routing-options)にあります。
 
 グローバル・ルーティングを選択した場合、ローカル退出トラフィックには課金されません。ローカル PoP の外部で発着信するトラフィックのみが課金対象となります。
 
@@ -124,3 +123,19 @@ IBM Cloud Dedicated Hosting の最小構成には、1 台のラック、5 Kw 電
 |<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li><li>LON</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
 **表 1: 使用状況の階層**<br/>
 アスタリスク (*) のマークが付いている市場の Direct Link オファリングでは、グローバル・ルーティングを注文する必要があります。
+
+## カスタマイズの追加料金 
+
+いくつかの標準以外のカスタマイズ構成を、追加料金のお支払いでご利用になれます。ほとんどはセットアップに対して発生する一回限りの料金で、表では「NRC」で示しています。これらのオプションは、承認前にオファリング管理 (OM) チームと SNS チームによる例外レビューを必要とします。
+
+| サービスのタイプ | 料金 |
+|-----------------|------|
+| 特別ネットワーク・サービス (SNS) 料 | アカウント当たり $3000 MRC (月額) |
+| マルチ VLAN テナント | Direct Link 当たり $1000 MRC (月額) |
+| BCR ピアリング | POD 当たり $1000 MRC (月額) |
+| 静的ルート | $100 NRC |
+| ASN プリペンド | $100 NRC |
+| カスタム BGP エクスポート・ポリシー | $250 NRC |
+| カスタム BGP インポート・ポリシー | $250 NRC |
+| XCR 上のカスタム・インバウンド ACL | $250 NRC |
+| XCR 上のカスタム・アウトバウンド ACL | $250 NRC |

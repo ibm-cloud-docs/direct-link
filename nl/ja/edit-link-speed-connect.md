@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-09-12"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,12 +15,13 @@ lastupdated: "2018-09-12"
 {:download: .download}
 
 # IBM Cloud Direct Link Exchange 接続のリンク速度の編集方法
+{: #how-to-edit-the-link-speed-for-an-ibm-cloud-direct-link-exchange-connection}
 
-接続の両側で、IBM Cloud 側またはプロバイダーのエッジ・サーバーから始めて、接続のリンク速度を編集することができます。 リンク速度の変更は、月に 1 回のみ行えます。
+接続の両側で、{{site.data.keyword.cloud}} 側またはプロバイダーのエッジ・サーバーから始めて、接続のリンク速度を編集することができます。 リンク速度の変更は、月に 1 回のみ行えます。
 
 ## ステップ 1: 
 
-[Cloud Exchange 注文手順](cloud-exchange-automation.html)のステップ 1 と 2 に従います。
+[Cloud Exchange 注文手順](/docs/infrastructure/direct-link/cloud-exchange-automation.html)のステップ 1 と 2 に従います。
 
 ## ステップ 2:
 
@@ -37,7 +38,7 @@ lastupdated: "2018-09-12"
 
 ## ステップ 4:
 
-[Cloud Exchange for Equinix 注文手順](cloud-exchange-automation.html#how-to-order-cloud-exchange-for-equinix)のステップ 2 から 5 に従います。
+[Cloud Exchange for Equinix 注文手順](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix)のステップ 2 から 5 に従います。
 
 ### ステップ 4A:
 IBM Cloud Direct Link の注文を行う前に、「使用条件」に**同意**する必要があります。 「使用条件」には注文の前に理解しなければならない重要な技術情報が含まれているため、注意深くお読みください。 
