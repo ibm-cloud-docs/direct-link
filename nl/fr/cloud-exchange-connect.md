@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-11"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -12,14 +12,19 @@ lastupdated: "2018-04-11"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:download: .download}
 
 
-# Procédure de commande d'IBM Cloud Direct Link Connect étape par étape
+# Mise à disposition d'IBM Cloud Direct Link Connect à partir de la console de l'interface utilisateur
+{: #provision-ibm-cloud-direct-link-connect-from-the-ui-console}
 
-Cette page vous explique comment commander le service IBM Cloud Direct Link Connect. Une fois la commande passée, un ticket de support IBM est généré.
+Cette page vous indique comment commander le service {{site.data.keyword.cloud}} Direct Link Connect à partir de la console de l'interface utilisateur IBM Cloud.  
 
-# Comment commander Direct Link Connect
+Une fois la commande passée, un ticket de support IBM est généré.
+{:note}
+
+## Commande de Direct Link Connect
 
 Pour commander IBM Cloud Direct Link Connect, procédez comme suit :
 

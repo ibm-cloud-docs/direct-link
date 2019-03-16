@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-08-09"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-08-09"
 {:download: .download}
 
 # A propos d'IBM Cloud Direct Link
+{: #about-ibm-cloud-direct-link}
 
-Cette section fournit des détails supplémentaires sur les fonctions principales et les avantages de chacune des quatre solutions IBM Cloud Direct Link.
+Cette section fournit des détails supplémentaires sur les fonctions principales et les avantages de chacune des quatre solutions {{site.data.keyword.cloud}} Direct Link. 
   * [**IBM Cloud Direct Link Exchange**](#the-ibm-cloud-direct-link-exchange-solution)
   * [**IBM Cloud Direct Link Connect**](#the-ibm-cloud-direct-link-connect-solution)
   * [**IBM Cloud Direct Link Dedicated**](#the-ibm-cloud-direct-link-dedicated-solution)
@@ -26,7 +27,7 @@ Cette section fournit des détails supplémentaires sur les fonctions principale
 
 La solution IBM Cloud Direct Link Exchange permet aux clients d'optimiser un fournisseur Cloud Exchange pour fournir la connectivité à des emplacements {{site.data.keyword.BluSoftlayer_notm}}. Cette offre fournit en général une connectivité à coût réduit, car la connectivité physique de {{site.data.keyword.BluSoftlayer_notm}} au fournisseur Cloud Exchange est déjà en place, partagée avec d'autres clients.
 
-**Cas d'utilisation courants :** _Idéal pour les charges de travail hybrides, les charges de travail inter-fournisseurs, les transferts de données volumineux ou fréquents avec une bande passante sortante élevée, les charges de travail privées et l'administration d'environnement.  En général, cette option est sélectionnée lorsque l'emplacement de point de présence souhaité possède déjà le fournisseur IBM Cloud Direct Link Exchange souhaité._
+**Cas d'utilisation courants :** _Idéal pour les charges de travail hybrides, les charges de travail inter-fournisseurs, les transferts de données volumineux ou fréquents avec une bande passante sortante élevée, les charges de travail privées et l'administration d'environnement. En général, cette option est sélectionnée lorsque l'emplacement de point de présence souhaité possède déjà le fournisseur IBM Cloud Direct Link Exchange souhaité._
 
 ![Figure 1](/images/Direct-Link-Exchange.png)
 
@@ -40,7 +41,7 @@ La solution IBM Cloud Direct Link Exchange permet aux clients d'optimiser un fou
 
  * **Temps d'attente approximatif :** le temps d'attente est d'environ 1,5 ms dans la zone locale (centres de données avec le même préfixe à trois lettres, tel que DAL, AMS, MEL). Voir http://lg.softlayer.com/ pour obtenir les mesures de temps d'attente d'emplacement P2P (PoP-to-PoP) en vigueur.
 
- * **Services de colocalisation :** Aucun.
+ * **Services de colocalisation IBM :** Aucun.
 
  * **Redondance :** Pour établir la redondance pour IBM Cloud Direct Link Exchange, la connectivité à 2 emplacements ou plus est requise, ou la sélection d'un emplacement avec un routeur XCR secondaire disponible dont le fournisseur Cloud Exchange peut tirer parti.
 
@@ -62,7 +63,7 @@ La solution IBM Cloud Direct Link Exchange permet aux clients d'optimiser un fou
 
 * **Temps d'attente approximatif :** le temps d'attente est d'environ 1,5 ms dans la zone locale (centres de données avec le même préfixe à trois lettres, tel que DAL, AMS, MEL). Voir http://lg.softlayer.com/ pour obtenir les mesures de temps d'attente d'emplacement P2P (PoP-to-PoP) en vigueur.
 
-* **Services de colocalisation :** Aucun.
+* **Services de colocalisation IBM :** Aucun.
 
 * **Redondance :** afin d'établir la redondance pour IBM Cloud Direct Link Connect, la connectivité à 2 emplacements ou plus est requise, ou la sélection d'un emplacement avec un routeur XCR secondaire disponible dont le fournisseur IBM Cloud Connect peut tirer parti.
 
@@ -86,7 +87,7 @@ La solution IBM Cloud Direct Link Dedicated permet aux clients de terminer une i
 
  * **Temps d'attente approximatif :** le temps d'attente est d'environ 1,5 ms dans la zone locale (centres de données avec le même préfixe à trois lettres, tel que DAL, AMS, MEL).  Voir http://lg.softlayer.com/ pour obtenir les mesures de temps d'attente d'emplacement P2P (PoP-to-PoP) en vigueur.
 
- * **Services de colocalisation :** Aucun.
+ * **Services de colocalisation IBM :** Aucun.
 
  * **Redondance :** Pour établir la redondance, une connectivité IBM Cloud Direct Link à 2 emplacements ou plus est requise, ou la sélection d'un emplacement avec un routeur XCR secondaire disponible et une seconde demande de connexion IBM Cloud Direct Link.
 
@@ -110,7 +111,7 @@ La solution IBM Cloud Direct Link Dedicated Hosting offre une connectivité simi
 
  * **Temps d'attente approximatif :** le temps d'attente est d'environ 0,5 ms dans le centre données local.
 
- * **Services de colocalisation :** Oui.
+ * **Services de colocalisation IBM :** Oui.
 
  * **Redondance :** {{site.data.keyword.BluSoftlayer_notm}} fournit des connexions à deux routeurs d'interconnexion (XCR) avec le produit. Pour établir la connectivité redondante, les clients doivent configurer le protocole BGP sur chaque connexion Direct Link à leur convenance. Citons par exemple les options suivantes : _prefer Lowest MED_, _prefer highest local-preference_ ou _prefer shorter AS paths_.
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-05-30"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-05-30"
 {:download: .download}
 
 # Modèles de diversité et de redondance dans Direct Link
+{: #models-for-diversity-and-redundancy-in-direct-link}
 
-Le présent document contient une série de schémas relatifs à des questions de redondance et de diversité, destinés à vous aider à trouver un modèle à utiliser pour créer le déploiement Direct Link le plus adapté à vos besoins. Les schémas sont organisés par niveaux croissants de complexité et en fonction de l'offre Direct Link qu'ils illustrent. Direct Link n'est pas un service intrinsèquement redondant au niveau du routeur XCR, il incombe aux clients de créer de la redondance via leurs schémas BGP. 
+Le présent document contient une série de schémas relatifs à des questions de redondance et de diversité, destinés à vous aider à trouver un modèle à utiliser pour créer le déploiement {{site.data.keyword.cloud}} Direct Link le plus adapté à vos besoins. Les schémas sont organisés par niveaux croissants de complexité et en fonction de l'offre Direct Link qu'ils illustrent. Direct Link n'étant pas un service intrinsèquement redondant au niveau du routeur d'interconnexion (XCR), il incombe aux clients de créer de la redondance via leurs schémas BGP (Border Gateway Protocol).  
 
 ## Section 1 : Remarques relativement simples pour obtenir de la diversité
 

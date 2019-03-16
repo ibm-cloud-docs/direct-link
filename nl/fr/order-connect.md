@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-08-30"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,9 +15,10 @@ lastupdated: "2018-08-30"
 {:download: .download}
 
 # Comment commander IBM Cloud Direct Link Connect ?
+{: #how-to-order-ibm-cloud-direct-link-connect}
 
  * Vérifiez que votre fournisseur de réseau peut accéder au point de présence (PoP) approprié et établir une interconnexion avec le fournisseur Connect associé.
- * Utilisez le [portail client![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/) pour ouvrir une demande pour IBM Cloud Direct Link Connect et remplissez les informations demandées. (Vous pouvez faire appel à des ingénieurs commerciaux IBM pour vous aider). 
+ * Utilisez le [portail client![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/) pour ouvrir une demande pour {{site.data.keyword.cloud}} Direct Link Connect et remplissez les informations demandées. (Vous pouvez faire appel à des ingénieurs commerciaux IBM pour vous aider). 
  * Contactez votre fournisseur Connect et négociez la connectivité à votre échange.
  * Commandez la connectivité entre votre fournisseur de réseau et le fournisseur Connect.
  * Commandez un "circuit virtuel" via le fournisseur Connect et indiquez l'ID de ticket de la demande {{site.data.keyword.BluSoftlayer_notm}} IBM Direct Link comme "ID de la demande" ou "ID d'autorisation"
@@ -37,10 +38,10 @@ Nos fournisseurs IBM Cloud Direct Link Connect se trouvent dans les emplacements
 | CenturyLink | DAL03, SAO02, MIA01 |
 | Chief Telecomm | HKG01* |
 | Colt | AMS02, FRA01, PAR02, TOK01, SNG02, LON01*, HKG01*,  |
-| Console Connect by PCCW | HKG01 |
+| Console Connect by PCCW | HKG01, TOK01, SNG02, LON01, SJC02 |
 | Epsilon | AMS02*, DAL03*, FRA01*, HKG01*, LON01*, SNG02*, WDC02* |
 | IBM BlueFringe | DAL03, WDC02, CHE01 |
-| Intercloud | FRA03*, AMS02* |
+| Intercloud | FRA01, FRA03, AMS02 |
 | Megaport |  MEL02, SYD02, SNG02, AMS02, FRA01, LON03, STO01, DAL03, SJC02, TOR02, WDC02, HKG01* |
 | PacketFabric | DAL04, SJC02, WDC02 |
 | Softbank | TOK04* |
@@ -55,4 +56,4 @@ Nos fournisseurs IBM Cloud Direct Link Connect se trouvent dans les emplacements
 
 ## Tarification
 
-Pour obtenir des informations de tarification, voir la [rubrique sur la tarification](pricing.html).
+Pour obtenir des informations de tarification, voir la [rubrique sur la tarification](/docs/infrastructure/direct-link/pricing.html).

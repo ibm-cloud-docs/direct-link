@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-03-14"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -14,9 +14,10 @@ lastupdated: "2018-03-14"
 {:tip: .tip}
 {:download: .download}
 
-# Présentation des fonctionnalités
+# Vue d'ensemble des offres Direct Link
+{ #overview-of-direct-link-offerings}
 
-Les offres IBM Cloud Direct Link fournissent la connectivité depuis une source externe vers le réseau privé IBM Cloud d'un client. Direct Link peut être envisagé comme une alternative à une solution de réseau privé virtuel (VPN) classique de site à site, conçue pour les clients ayant besoin d'une connectivité à plus haut débit plus cohérente entre un réseau privé et leurs environnements IBM Cloud. Il existe quatre types de connexion disponibles :
+Les offres {{site.data.keyword.cloud}} Direct Link fournissent la connectivité depuis une source externe vers le réseau privé IBM Cloud d'un client. Direct Link peut être envisagé comme une alternative à une solution de réseau privé virtuel (VPN) classique de site à site, conçue pour les clients ayant besoin d'une connectivité à plus haut débit plus cohérente entre un réseau privé et leurs environnements IBM Cloud. Il existe quatre types de connexion disponibles :
  
  * **IBM Cloud Direct Link Exchange** permet aux clients de tirer parti d'un fournisseur Exchange pour assurer la connectivité à leur réseau IBM Cloud. Un fournisseur Exchange est un opérateur ou un fournisseur réseau déjà connecté au réseau IBM Cloud via des liaisons à service partagé de grande capacité. Les clients peuvent généralement acheter un circuit virtuel auprès de ce fournisseur pour obtenir une connectivité à coût réduit, car la connectivité physique de {{site.data.keyword.BluSoftlayer_notm}} au fournisseur Exchange est déjà en place, partagée avec d'autres clients.
  
@@ -31,3 +32,5 @@ Pour plus de flexibilité dans la création de cette connectivité à trois couc
  * Une double adresse IP pour les hôtes distants
  * La conversion NAT
  * La tunnellisation pour BYOIP
+ 
+ Pour des descriptions détaillées de chaque offre, voir [A propos d'IBM Cloud Direct Link](/docs/infrastructure/direct-link?topic=direct-link-about-ibm-cloud-direct-link). 
