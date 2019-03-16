@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-23"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -12,14 +12,16 @@ lastupdated: "2018-07-23"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:download: .download}
 
 # IBM Cloud Direct Link Dedicated Hosting の注文方法
+{: #how-to-order-ibm-cloud-direct-link-dedicated-hosting}
 
-1. コロケーションおよび接続の要件を特定し、IBM 営業チームと協力して、契約および技術的補足を最終決定して実行します。
+1. コロケーションおよび接続の要件を特定し、{{site.data.keyword.cloud}} 営業チームと協力して、契約および技術的補足を最終決定して実行します。
 2. {{site.data.keyword.BluSoftlayer_notm}} は、要求された環境およびサービスについて、コロケーション・プロバイダーと共に構築注文を実行します。 設置は通常、構築注文の発注から 30 日以内に完了します。
 
-3. コロケーション・ケージの構築が完了したら、コロケーション・ケージと {{site.data.keyword.BluSoftlayer_notm}} POD 環境の XCR ギアの間を相互接続するためのプロセスは、[IBM Cloud Direct Link Dedicated](order-nsp.html#how-to-order-ibm-cloud-direct-link-dedicated) の注文プロセス (ステップ 3 から) に従います。
+3. コロケーション・ケージの構築が完了したら、コロケーション・ケージと {{site.data.keyword.BluSoftlayer_notm}} POD 環境の XCR ギアの間を相互接続するためのプロセスは、[IBM Cloud Direct Link Dedicated](/docs/infrastructure/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-dedicated) の注文プロセス (ステップ 3 から) に従います。
 
 ## 場所
 
@@ -44,6 +46,8 @@ lastupdated: "2018-07-23"
 | APAC | MEL01 |  メルボルン  |  DC |  DLR |  72 Radnor Drive, Deer Park |
 | APAC |  SYD01 |  シドニー | DC (AZ1) | Global Switch  |  400 Harris Street aka 273 Pyrmont St. Ultimo |
 | APAC |	SYD02 |	 シドニー |	PoP |	Equinix |	47 Bourke Rd |
+| APAC |	SYD03 |	 シドニー |	PoP |	Equinix |	4 Eden Park Drive |
+| APAC |	SYD05 |	 シドニー |	DC (AZ3) |	Equinix |	200 Bourke Rd |
 | APAC |  SNG01 |  ジュロン・イースト |  DC | DLR |  29a International Business Park, S180 |
 | APAC |  SNG02 |	アヤ・ラジャ	| PoP |	Equinix |	20 Ayer Rajan Crescent Industrial Park |
 | APAC | TOK01 |	品川区 | PoP | Equinix |	品川区 |
@@ -54,10 +58,10 @@ lastupdated: "2018-07-23"
 | EMEA | FRA03 |	フランクフルト |	PoP |	Equinix |	Larchenstrasse 110 |
 | EMEA | LON02  | チェシントン | DC  | DLR  |  Fountain Court |
 | EMEA | LON03 | スラウ |	PoP |	Equinix |	8 Buckingham Ave |
-| EMEA | LON04 | ロンドン |  DC (AZ1) |  Vysiion |  A57 Cody Technology Park Old |
 | EMEA | LON06 | ロンドン |	DC (AZ3) |	Zenium |	12 Liverpool Rd |
 | EMEA | PAR02 | パリ | PoP | Equinix |	114 Rue Ambroise Croizat |
 
 
 
-**東京の詳細な住所が必要な場合は、担当の Direct Link オファリング管理または営業チームにお問い合わせください。**
+東京の詳細な住所が必要な場合は、担当の Direct Link オファリング管理または営業チームにお問い合わせください。
+{:note}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-30"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -13,10 +13,12 @@ lastupdated: "2018-10-30"
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # IBM Cloud Direct Link を使用した IBM Cloud オブジェクト・ストレージへの接続
+{: #using-ibm-cloud-direct-link-to-connect-to-ibm-cloud-object-storage}
 
-この資料では、IBM Cloud Direct Link を構成して、IBM Cloud オブジェクト・ストレージ (COS) にアクセスできるようにする方法について説明します。 ここで説明されている方法は COS で設計およびテストされていますが、他の特定の IBM Cloud サービスでも機能する可能性があります。
+この資料では、{{site.data.keyword.cloud}} Direct Link を構成して、IBM Cloud オブジェクト・ストレージ (COS) にアクセスできるようにする方法について説明します。 ここで説明されている方法は COS で設計およびテストされていますが、他の特定の IBM Cloud サービスでも機能する可能性があります。
 
 現在のポリシーでは、IBM Cloud Direct Link は、IBM Cloud オブジェクト・ストレージ (COS) が使用するものを含む、IBM Cloud プライベート・サービス・エンドポイントへのアクセスを拒否します。 この資料で説明する技法では、お客様の IBM Cloud アカウントでホストされているサーバーを介して、COS への間接アクセスを利用します。 セットアップ後、お客様の各サーバーは、Direct Link によって接続された IBM Cloud プライベート・サービス・エンドポイントとリモート・ネットワークとの間で双方向にトラフィックを転送できます。
 
@@ -28,10 +30,10 @@ IBM Cloud オブジェクト・ストレージに保管された情報は暗号�
 
 IBM COS は、**クロス地域**、**地域**、および**単一サイト**という 3 つの構成で利用可能です。
 
- * クロス地域サービスでは、単一地域を使用した場合よりも高い耐久性および可用性が得られますが、待ち時間が若干長くなるという代償を伴います。 現在、このサービスは、米国および EU で使用可能です。(Virtual Router Appliance (VRA) を使用することにより、アジア太平洋地域の COS に接続するために Direct Link も使用できることに注意してください。)
- 
+ * クロス地域サービスでは、単一地域を使用した場合よりも高い耐久性および可用性が得られますが、待ち時間が若干長くなるという代償を伴います。 現在、このサービスは、米国および EU で使用可能です。 (Virtual Router Appliance (VRA) を使用することにより、アジア太平洋地域の COS に接続するために Direct Link も使用できることに注意してください。)
+
  * 地域サービスは、その逆となります。つまり、単一地域内の複数のアベイラビリティー・ゾーンにオブジェクトを分散します。 特定の地域またはアベイラビリティー・ゾーンがアクセス不能な場合でも、オブジェクト・ストアは引き続きスムーズに機能します。 適用されていない変更は、アクセス不能なデータ・センターがオンラインに戻ったときに適用されます。
-  
+
  * 単一サイト・サービスは、選択されたデータ・センター内のクラウド・オブジェクト・ストレージへの手頃な料金でのアクセスを提供します。
 
 ### COS のプライベート・エンドポイントおよびパブリック・エンドポイント
@@ -42,7 +44,7 @@ IBM Cloud 内でプロビジョンされたサーバーは、COS を含むサー
 COS パブリック・エンドポイントは、IBM Cloud のお客様に IBM Cloud 内からアクセスできるのと同じ COS データへのアクセスを提供しますが、パブリック・エンドポイントは、インターネットが利用できる任意の場所からのアクセスを許可します。
 
 以下の 2 つの注意点が COS パブリック・エンドポイントに適用されます。
- * パブリック・エンドポイントを使用した場合、COS サービスによって課される使用料金以外に、帯域幅に対して課金される可能性があります。 
+ * パブリック・エンドポイントを使用した場合、COS サービスによって課される使用料金以外に、帯域幅に対して課金される可能性があります。
  * 転送中のデータはすべて暗号化されますが、お客様には、インターネットを介して送信されるデータに関連してプライバシーの懸念や規制による制限が生じることがあります。
 
 ## IBM Cloud Direct Link とは
@@ -50,7 +52,7 @@ IBM Cloud Direct Link は、お客様がリモート・ネットワーク環境�
 
 ## IBM Cloud Direct Link を介したクラウド・オブジェクト・ストレージ (COS) の使用
 IBM エンジニアは、COS および Direct Link を購入した IBM Cloud のお客様が COS プライベート・エンドポイントにリモート接続できるようにする方法を開発してきました。 このタイプの接続は、プライベート・サービス・エンドポイントの利点を拡張するものであり、IBM Cloud 施設外のクライアント・システムで使用できます。
- 
+
 後続のセクションでは、このソリューションについて図示および説明します。
 
 ### リバース・プロキシー
@@ -66,7 +68,7 @@ COS で機能するサンプル・クライアント・コードはすべて、_
 #### Nginx リバース・プロキシーのインストール
 **NginX** は、前述の_リバース・プロキシー_・サーバーの役割を含む、特化したタスクに優れた、成熟したコンパクトな高速オープン・ソース Web サーバーです。
 
-後続の説明および構成情報 (NginX リバース・プロキシー・サーバーをセットアップするためのもの) は、環境に適合させた後に機能します。 行き詰まった場合や追加情報が必要な場合は、[Nginx 資料](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)のリバース・プロキシーの部分を参照するか、[スタック・オーバーフロー](http://stackoverflow.com)で例を検索してください。
+後続の説明および構成情報 (NginX リバース・プロキシー・サーバーをセットアップするためのもの) は、環境に適合させた後に機能します。 行き詰まった場合や追加情報が必要な場合は、[Nginx 資料 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) のリバース・プロキシーの部分を参照するか、[stackoverflow ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")]](http://stackoverflow.com) で例を検索してください。
 
 1. 最小限の **RHEL** または **CentOS** Linux ビルド (推奨) で、VSI またはベアメタル・サーバーをプロビジョンします。
 2. VSI ごとに、パブリック・インターフェースに関するセキュリティー・グループ・ルール `allow_http`、`allow_https`、`allow_outbound`、`allow_ssh` を有効にします。
@@ -129,7 +131,7 @@ http {
     proxy_intercept_errors on;
 
     # IBM COS Endpoints
-    # https://console.bluemix.net/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints
+    # https://cloud.ibm.com/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-endpoints#select-regions-and-endpoints
     # US
     server {
         listen       443 ssl http2;
@@ -156,7 +158,7 @@ http {
 }
 ```
 
-上記の `proxy_pass` 項目で使用するプライベート・エンドポイントのリストについては、[COS エンドポイント](https://console.bluemix.net/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints)を参照してください。
+上記の `proxy_pass` 項目で使用するプライベート・エンドポイントのリストについては、[COS エンドポイント](https://{DomainName}/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints)を参照してください。
 
 #### ヒント:
 
@@ -170,16 +172,16 @@ http {
 
 ### ベアメタル・サーバーのプロビジョン方法
 
-ベアメタル・サーバーのプロビジョン方法について詳しくは、[ベアメタル・サーバーのガイド](https://console.bluemix.net/docs/bare-metal/about.html#getting-started-with-bare-metal-servers)を参照してください。
+ベアメタル・サーバーのプロビジョン方法について詳しくは、[ベアメタル・サーバーのガイド](https://{DomainName}/docs/bare-metal?topic=bare-metal-about#about)を参照してください。
 
 ### 仮想ルーター・アプライアンス (VRA) のプロビジョン方法
 
 VRA のプロビジョン方法について詳しくは、
-[VRA の入門ガイド](https://console.bluemix.net/docs/infrastructure/virtual-router-appliance/getting-started.html#getting-started)を参照してください。
+[VRA の入門ガイド](https://{DomainName}/docs/infrastructure/virtual-router-appliance/getting-started.html#getting-started)を参照してください。
 
 ### IBM Cloud オブジェクト・ストレージ (COS) のプロビジョン方法
 
- * COS のプロビジョン方法について詳しくは、[クラウド・オブジェクト・ストレージ・ガイド](https://console.bluemix.net/catalog/services/cloud-object-storage)を参照してください。
+ * COS のプロビジョン方法について詳しくは、[クラウド・オブジェクト・ストレージ・ガイド](https://{DomainName}/catalog/services/cloud-object-storage)を参照してください。
 
  * プライベート・エンドポイント (前述) のいずれかを使用して、
 バケットまたはプロビジョン済み COS アカウントの任意のオブジェクトとのインターフェースを作成します。

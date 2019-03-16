@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-04-12"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-04-12"
 {:download: .download}
 
 # IBM Cloud Direct Link デプロイメントの代替方法
+{: #alternatives-for-your-ibm-cloud-direct-link-deployment}
 
-この資料では、お客様が IBM Cloud Direct Link デプロイメントのユース・ケースとして選択するいくつかの代替方法について説明します。
+この資料では、お客様が {{site.data.keyword.cloud}} Direct Link デプロイメントのユース・ケースとして選択するいくつかの代替方法について説明します。
 
 ## Exchange および Connect のための多様なデプロイメント
 

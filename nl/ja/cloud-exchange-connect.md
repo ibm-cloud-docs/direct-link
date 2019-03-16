@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-11"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -12,14 +12,19 @@ lastupdated: "2018-04-11"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:download: .download}
 
 
-# ステップバイステップ: IBM Cloud Direct Link Connect の注文
+# UI コンソールからの IBM Cloud Direct Link Connect のプロビジョン
+{: #provision-ibm-cloud-direct-link-connect-from-the-ui-console}
 
-このページでは、IBM Cloud Direct Link Connect サービスの注文方法を説明します。 注文を行った後、IBM サポート・チケットが生成されます。
+このページでは、IBM Cloud UI コンソールから {{site.data.keyword.cloud}} Direct Link Connect サービスを注文する方法について説明します。 
 
-# Direct Link Connect の注文方法
+注文を行った後、IBM サポート・チケットが生成されます。
+{:note}
+
+## Direct Link Connect を注文するためのステップ
 
 IBM Cloud Direct Link Connect の注文をプロビジョンするには、以下のステップを実行します。
 

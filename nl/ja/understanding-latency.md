@@ -1,15 +1,16 @@
 ---
 copyright:
-  years: 1994, 2017, 2018
-lastupdated: "2018-05-07"
+  years: 1994, 2017, 2018, 2019
+lastupdated: "2019-02-19"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 待ち時間の理解
+{: #understanding-latency}
 
-_IBM Cloud Direct Link を使用したハイブリッドの実現: 世界中でのワークロード実行の高速化_
+_{{site.data.keyword.cloud}} Direct Link を使用したハイブリッドの実現: 世界中でのワークロード実行の高速化_
 
 IBM Cloud は、世界中で Direct Link 機能を備えたデータ・センターを提供します。 そのため、IBM Cloud を既存のインフラストラクチャーにリンクして、Direct Link を使用してハイブリッド・クラウド・ソリューションを作成すると、待ち時間を最小限に抑えることができます。
 

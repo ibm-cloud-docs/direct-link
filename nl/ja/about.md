@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-08-09"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-08-09"
 {:download: .download}
 
 # IBM Cloud Direct Link について
+{: #about-ibm-cloud-direct-link}
 
-このセクションでは、IBM Cloud Direct Link の 4 つのソリューションそれぞれの主要機能と利点についてさらに詳しく確認できます。
+このセクションでは、{{site.data.keyword.cloud}} Direct Link の 4 つのソリューションそれぞれの主要機能と利点についてさらに詳しく確認できます。
   * [**IBM Cloud Direct Link Exchange**](#the-ibm-cloud-direct-link-exchange-solution)
   * [**IBM Cloud Direct Link Connect**](#the-ibm-cloud-direct-link-connect-solution)
   * [**IBM Cloud Direct Link Dedicated**](#the-ibm-cloud-direct-link-dedicated-solution)
@@ -40,7 +41,7 @@ IBM Cloud Direct Link Exchange ソリューションを使用すると、お客�
 
  * **概算待ち時間:** 待ち時間は、ローカル・エリア (3 文字の同じ接頭部 (DAL、AMS、MEL など) を持つデータ・センター) 内で、およそ 1.5 ms です。 稼働中 PoP-to-PoP (P2P) ロケーション待ち時間の計測については、http://lg.softlayer.com/ を参照してください。
 
- * **コロケーション・サービス:** なし。
+ * **IBM コロケーション・サービス:** なし。
 
  * **冗長性:** IBM Cloud Direct Link Exchange に冗長性を確立するには、2 つ以上のロケーションへの接続が必要です。あるいは、Cloud Exchange プロバイダーが利用できる 2 次 XCR を備えたロケーションを選択する必要があります。
 
@@ -62,7 +63,7 @@ IBM Cloud Direct Link Exchange ソリューションを使用すると、お客�
 
 * **概算待ち時間:** 待ち時間は、ローカル・エリア (3 文字の同じ接頭部 (DAL、AMS、MEL など) を持つデータ・センター) 内で、およそ 1.5 ms です。 稼働中 PoP-to-PoP (P2P) ロケーション待ち時間の計測については、http://lg.softlayer.com/ を参照してください。
 
-* **コロケーション・サービス:** なし。
+* **IBM コロケーション・サービス:** なし。
 
 * **冗長性:** IBM Cloud Direct Link Connect に冗長性を確立するには、2 つ以上のロケーションへの接続が必要です。あるいは、IBM Cloud Connect プロバイダーが利用できる 2 次 XCR を備えたロケーションを選択する必要があります。
 
@@ -86,7 +87,7 @@ IBM Cloud Direct Link Dedicated ソリューションを使用すると、お客
 
  * **概算待ち時間:** 待ち時間は、ローカル・エリア (3 文字の同じ接頭部 (DAL、AMS、MEL など) を持つデータ・センター) 内で、およそ 1.5 ms です。  稼働中 PoP-to-PoP (P2P) ロケーション待ち時間の計測については、http://lg.softlayer.com/ を参照してください。
 
- * **コロケーション・サービス:** なし。
+ * **IBM コロケーション・サービス:** なし。
 
  * **冗長性:** 冗長性を確立するには、IBM Cloud Direct Link を 2 つ以上のロケーションに接続する必要があります。あるいは、2 次 XCR が使用可能であり、2 次 IBM Cloud Direct Link 接続要求が可能なロケーションを選択する必要があります。
 
@@ -110,7 +111,7 @@ IBM Cloud Direct Link Dedicated Hosting ソリューションは、IBM Cloud Dir
 
  * **概算待ち時間:** 待ち時間は、ローカル・データ・センター内でおよそ 0.5 ms です。
 
- * **コロケーション・サービス:** あり。
+ * **IBM コロケーション・サービス:** あり。
 
  * **冗長性:** {{site.data.keyword.BluSoftlayer_notm}} は、製品の一部として、2 つの相互接続ルーター (XCR) への接続を提供します。 冗長な接続を確立するには、お客様は、冗長性を実現するために適していると思われる各 Direct Link 接続で BGP を構成する必要があります。 例として、「_prefer Lowest MED_」、「_prefer highest local-preference_」、「_prefer shorter AS paths_」のようなオプションがあります。
 
