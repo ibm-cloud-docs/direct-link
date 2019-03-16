@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-11"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -12,20 +12,22 @@ lastupdated: "2018-04-11"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:download: .download}
 
-# Procédure de commande d'IBM Cloud Direct Link Exchange étape par étape
+# Mise à disposition d'IBM Cloud Direct Link Exchange
+{: #provisioning-ibm-cloud-direct-link-exchange}
 
-Cette page vous indique comment commander le service IBM Cloud Direct Link Exchange. Si vous commandez IBM Cloud Direct Link pour Equinix Cloud Exchange, la mise à disposition du service est automatique, ce qui signifie que vous pouvez passer une commande pour une connexion IBM Cloud Direct Link (Equinix) sans ouvrir un ticket de support IBM.
+Cette page vous indique comment commander le service {{site.data.keyword.cloud}} Direct Link Exchange. Si vous commandez IBM Cloud Direct Link pour Equinix Cloud Exchange, la mise à disposition du service est automatique, ce qui signifie que vous pouvez [passer une commande pour une connexion IBM Cloud Direct Link (Equinix) sans ouvrir un ticket de support IBM]/(docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix) comme décrit dans un document connexe. 
 
-**(Remarque : cette fonction de mise à disposition automatique est uniquement réservée à Equinix Cloud Exchange pour le moment. Dans les éditions suivantes, elle sera activée pour les autres fournisseurs.)**
+Cette fonction de mise à disposition automatique est uniquement réservée à Equinix Cloud Exchange pour le moment. Dans les éditions suivantes, elle sera activée pour les autres fournisseurs. {:note}
 
 ## Conditions requises
 
 Pour pouvoir utiliser la fonction d'automatisation, vos VLAN privés doivent être associés à un VRF dans le réseau privé IBM Cloud. Si cette condition n'est pas remplie, un ticket de support IBM sera généré lorsque vous passerez une commande via le portail client.
 
  * [Comment commander Cloud Exchange](#how-to-order-cloud-exchange)
- * [Comment commander Cloud Exchange pour Equinix](#how-to-order-cloud-exchange-for-equinix)
+ * [Comment commander Cloud Exchange pour Equinix](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix)
 
 ## Comment commander Cloud Exchange
 
@@ -100,54 +102,3 @@ Après avoir accepté les dispositions, un ticket de support IBM est généré l
 En cliquant sur le numéro de ticket qui apparaît dans le message, vous afficherez les détails du ticket.
 
 ![Etape NE2](/images/Non-Equinix-Step2.png)
-
-## Comment commander Cloud Exchange pour Equinix
-
-**Etape 1 :**
-
-Suivez les étapes 1 à 7 ci-dessus pour la commande de Cloud Exchange
-
-**Etape 2 :**
-
-Après avoir passé la commande, la mise à disposition d'IBM Cloud Direct Link commence.
-
-![Etape 8](/images/Equinix-Step8.png)
-
-**Etape 3 :**
-
-Vous pouvez voir le statut de votre connexion après avoir passé la commande. Si la configuration réussit du côté d'IBM, le statut sera **Mis à disposition**. Si la configuration n'est pas terminée, le statut sera **En cours**. Et si la configuration échoue, la mention **Echec de la création** s'affichera. Si la configuration aboutit et la connexion BGP est active, le statut sera **Actif**.
-
-![Etape 9 en cours](/images/Equinix-Step9-InProgress.png)
-
-La figure suivante affiche les différents états de connexion qui suivent une passation de commande :
-
-![Etape 9 actif](/images/Equinix-Step9-UP.png)
-
-**Etape 4 :**
-
-Si le statut de connexion est **Mis à disposition**, développez la connexion en cliquant sur le signe **>** en regard du **nom** de la connexion. Notez ensuite les informations concernant l'**adresse IP du client** et la **clé de service**. Ces informations seront nécessaires pour configurer le routeur périphérique du client et comme clé d'autorisation pour la configuration du côté du fournisseur de cloud (Equinix), respectivement.
-
-![Etape 10](/images/Equinix-Step10-Provisioned.png)
-
-**Etape 5 :**
-
-Pour les connexions dont le statut est **Mis à disposition**, après avoir développé la connexion en cliquant sur le signe **>** en regard de la connexion, vous verrez apparaître un message d'erreur si la vitesse de liaison homologue ne correspond pas. Une fois que la vitesse est la même du côté d'IBM et du côté d'Equinix, cette notification d'erreur disparaît.
-
-![Etape 11](/images/Equinix-Step11-PortMismatch.png)
-
-**Etape 6 :**
-
-Pour les connexions affichant le statut **Echec de la création**, un ticket de support IBM est généré et des détails supplémentaires sont communiqués à travers le ticket de support. Pour afficher les détails du ticket, développez la connexion.
-
-![Etape 12](/images/Equinix-Step12-CreateFailed.png)
-
-**Etape 7 :**
-
-Pour les connexions affichant le statut **Mis à disposition**, **Actif** ou **Inactif**, vous pouvez **supprimer** la connexion en cliquant sur la colonne **ACTIONS** en regard de la connexion.
-
-![Etape 13](/images/Equinix-Step13-Delete.png)
-
-**Etape 8 :**
-
-Pour les connexions affichant le statut **Echec de la création**, vous pouvez **annuler** la connexion en cliquant sur la colonne **ACTIONS** en regard de la connexion.
-

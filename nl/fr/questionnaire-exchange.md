@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-06-11"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-06-11"
 {:download: .download}
 
 # Questionnaire concernant IBM Cloud Direct Link Exchange
+{: #ibm-cloud-direct-link-exchange-questionnaire}
 
-Merci d'avoir ouvert une demande pour IBM Cloud Direct Link Exchange. Afin de pouvoir finaliser votre demande, nous aurions besoin d'informations supplémentaires. Vous pouvez parler avec un ingénieur à tout moment durant le questionnaire. Une fois le questionnaire rempli, il sera examiné par notre équipe d'ingénieurs spécialisés dans la conception de cloud et transmis aux spécialistes des réseaux pour implémentation.
+Merci d'avoir ouvert une demande pour {{site.data.keyword.cloud}} Direct Link Exchange. Afin de pouvoir finaliser votre demande, nous aurions besoin d'informations supplémentaires. Vous pouvez parler avec un ingénieur à tout moment durant le questionnaire. Une fois le questionnaire rempli, il sera examiné par notre équipe d'ingénieurs spécialisés dans la conception de cloud et transmis aux spécialistes des réseaux pour implémentation.
 
 ## Reconnaissez-vous et acceptez-vous ce qui suit ?
 
@@ -29,7 +30,7 @@ Merci d'avoir ouvert une demande pour IBM Cloud Direct Link Exchange. Afin de po
  * La facturation prend fin après :
    * qu'un client a demandé la suppression d'un circuit **et** 
    * que le fournisseur Exchange Provider ou Network Service Provider a annulé la mise à disposition du circuit.
-  * Pour plus d'informations, voir **Section 5 - Charges** dans le contrat sur les services Cloud consultable en cliquant sur le lien suivant :[ibm.biz/service-agreement](ibm.biz/service-agreement)
+  * Pour plus d'informations, voir **Section 5 - Redevances, Taxes et Paiements** dans le contrat sur les services Cloud consultable en cliquant sur le lien suivant : [https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). Par exemple, les clients en France afficheront [ce contrat Cloud Services](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/fr-fr). 
   * Sinon, la facturation peut cesser pour un client qui est averti que son service Direct Link sera désactivé et ne fonctionnera plus.
 
 3. En commandant le service Direct Link, vous êtes redevable de tous les frais associés à l'accessibilité du point de présence depuis votre réseau distant et aux interconnexions nécessaires dans le site de point de présence pour atteindre votre fournisseur Exchange. En outre, il vous incombe (ou à votre fournisseur) d'acheter le circuit virtuel vers IBM Cloud. Si votre fournisseur exige qu'un routeur ou un autre dispositif soit physiquement installé dans le point de présence, vous êtes également redevable des coûts associés à la colocalisation de ces équipements. Assurez-vous que votre fournisseur de réseau ou de point de présence peut accéder à Direct Link Exchange et peut déterminer les coûts associés.

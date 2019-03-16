@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-23"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -12,12 +12,14 @@ lastupdated: "2018-07-23"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:download: .download}
 
 # Comment commander IBM Cloud Direct Link Dedicated ?
+{: #how-to-order-ibm-cloud-direct-link-dedicated}
 
 1. Vérifiez que votre fournisseur de réseau peut accéder au point de présence (PoP) approprié et établir une interconnexion avec l'environnement {{site.data.keyword.BluSoftlayer_notm}}.
-2. Ouvrez une demande IBM Cloud Direct Link Dedicated et indiquez les informations demandées. (Vous pouvez faire appel à des ingénieurs commerciaux IBM pour vous aider).
+2. Ouvrez une demande {{site.data.keyword.cloud}} Direct Link Dedicated et indiquez les informations demandées. (Vous pouvez faire appel à des ingénieurs commerciaux IBM pour vous aider).
 3. {{site.data.keyword.BluSoftlayer_notm}} fournit une lettre d'autorisation (LOA) pour la connexion.
 4. Confirmez que votre circuit a atteint le PoP et a été finalisé par l'opérateur.
 5. Commandez une interconnexion à l'aide des informations d'affectation de site client (CFA (Customer Facility Assignment)) {{site.data.keyword.BluSoftlayer_notm}} figurant dans la lettre d'autorisation, ce qui prend en principe de 2 à 10 jours ouvrables pour aboutir. (Ce délai dépend du fournisseur du site et du type de priorité de la commande défini par le client). Ce processus comprend la configuration du correctif pour le port de terminaison {{site.data.keyword.BluSoftlayer_notm}}.
@@ -43,7 +45,9 @@ Le tableau fournit des détails sur les centres de données IBM Cloud dans lesqu
 | SNG02 | Equinix | SG1 | 20 Ayer Rajan Crescent Industrial Park |
 | SYD01 | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
 | SYD02 | Equinix | SY3 | 47 Bourke Rd |
+| SYD03 | NextDC | 4 Eden Park Drive, Macquarie Park |
 | SYD04 | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
+| SYD05 | Equinix | 200 Bourke Rd |
 | TOK01 | Equinix | TY2 |
 | TOK02 | At Tokyo | CC2 | 
 | TOK03 | Equinix | 
@@ -62,10 +66,11 @@ Le tableau fournit des détails sur les centres de données IBM Cloud dans lesqu
 | LON03 | Equinix | LD5 | 8 Buckingham Ave |
 | LON04 | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
 | LON06 | Zenium | LON1 | 12 Liverpool Rd, Trading Estate |
+| MIL01 | Data IV | Via Monzoro 101-105 , 20010 Cornaredo (MI) |
 | MIL02 | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21|
 | OSL01 | EVRY | DigiPlex - Fetsund | 9,, Heiaveien, 1900 Fetsund |
 | OSL02 | Verizon | Verizon Oslo | Hans Møller Gassmanssvei 9 |
-| PAR01 | IBM | PAR01 | Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit |
+| PAR01 | Global Switch | PAR01 | Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit |
 | PAR02 | Equinix | PA2 | 114 Rue Ambroise Croizat, St Denis |
 | STO01 | InterXion | STO01 | Esbogatan 11 |
 |  |  |  |
@@ -105,6 +110,6 @@ Le tableau fournit des détails sur les centres de données IBM Cloud dans lesqu
 
 ## Tarification
 
-Pour obtenir des informations de tarification, voir la [rubrique sur la tarification](pricing.html).
+Pour obtenir des informations de tarification, voir la [rubrique sur la tarification](/docs/infrastructure/direct-link/pricing.html).
 
-**Si vous avez besoin de l'adresse exacte de TOK01 ou TOK02, contactez votre équipe de vente ou de gestion des offres Direct Link.**
+Si vous avez besoin de l'adresse exacte de TOK01 ou TOK02, contactez votre équipe de vente ou de gestion des offres Direct Link.{:note}

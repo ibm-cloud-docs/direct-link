@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-24"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,15 +15,14 @@ lastupdated: "2018-10-24"
 {:download: .download}
 
 
-# Tarification d'IBM Cloud Direct Link 
+# Tarification d'IBM Cloud Direct Link
+{: #pricing-for-ibm-cloud-direct-link}
 
-La tarification des offres IBM Cloud Direct Link Exchange, Connect et Dedicated est cohérente pour les régions et les bandes passantes équivalentes, comme indiqué dans le tableau suivant :
+La tarification des offres {{site.data.keyword.cloud}} Direct Link Exchange, Connect et Dedicated est cohérente pour les régions et les bandes passantes équivalentes, comme indiqué dans le tableau suivant :
 
 ## Tarification d'IBM Cloud Exchange, Connect et Dedicated
 
-Si votre navigateur affiche ce tableau avec des vitesses inférieures à 1Gbit/s, sélectionnez le lien suivant pour afficher la totalité du tableau, utilisez votre souris ou votre pavé tactile pour faire défiler cette page horizontalement ou cliquez sur "Edition dans GitHub" en haut de cette page pour voir le fichier brut.
-
-[Tableau complet](pricing-table.html)
+Si votre navigateur affiche ce tableau avec des vitesses inférieures à 1 Gbit/s, utilisez votre souris ou votre pavé tactile pour faire défiler cette page horizontalement ou cliquez sur "Edition dans GitHub" en haut de cette page pour voir le fichier brut.
 
 ## Tarifs de Direct Link Exchange
 
@@ -85,7 +84,7 @@ L'option Routage local est incluse en tant que composant de base des offres IBM 
 
 ## Tarification du module complémentaire Routage mondial
 
-L'option Routage mondial développe l'accès et inclut tous les centres de données IBM Cloud au niveau mondial. La bande passante est mesurée et facturée mensuellement selon le marché. Les détails sur les marchés et d'autres remarques figurent dans la rubrique [Foire aux questions](faqs.html#what-are-the-local-routing-and-global-routing-options).
+L'option Routage mondial développe l'accès et inclut tous les centres de données IBM Cloud au niveau mondial. La bande passante est mesurée et facturée mensuellement selon le marché. Les détails sur les marchés et d'autres remarques figurent dans la rubrique [Foire aux questions](/docs/infrastructure/direct-link?topic=direct-link-faqs#what-are-the-local-routing-and-global-routing-options).
 
 Si vous sélectionnez l'option Routage mondial, vous n'êtes pas facturé pour le trafic sortant local, mais uniquement pour le trafic en provenance ou à destination d'un emplacement qui ne figure pas dans le point de présence local.
 
@@ -124,3 +123,19 @@ Chaque mois, tous les clients du routage mondial utilisant les circuits 1G obtie
 |<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li><li>LON</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
 **Tableau 1 : Niveaux d'utilisation**<br/>
 Les offres Direct Link sur les marchés marqués d'un astérisque (*) DOIVENT commander le module complémentaire Routage mondial.
+
+## Frais supplémentaires de personnalisation 
+
+Plusieurs configurations personnalisées, non standard, sont disponibles moyennant des frais supplémentaires. La plupart des frais sont ponctuels, au moment de la configuration, et sont identifiés par la mention "NRC" dans le tableau. Ces options doivent être passées en revue exceptionnellement par les équipes de gestion des offres et SNS avant approbation. 
+
+| Type de service | Frais |
+|-----------------|------|
+| Frais de services réseau spéciaux (SNS) | 3 000 $ MRC (mensuels) par compte |
+| Locataires de plusieurs VLAN | 1 000 $ MRC (mensuels) par service Direct Link |
+| Appairage BCR | 1 000 $ MRC (mensuels) par module |
+| Route statique | 100 $ NRC |
+| Ajout d'un préfixe ASN | 100 $ NRC |
+| Règle d'exportation BGP personnalisée | 250 $ NRC |
+| Règle d'importation BGP personnalisée | 250 $ NRC |
+| Liste de contrôle d'accès (ACL) entrante personnalisée sur XCR | 250 $ NRC |
+| Liste de contrôle d'accès (ACL) sortante personnalisée sur XCR | 250 $ NRC |
