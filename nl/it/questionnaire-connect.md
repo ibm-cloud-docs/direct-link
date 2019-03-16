@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-06-11"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,21 +15,22 @@ lastupdated: "2018-06-11"
 {:download: .download}
 
 # Questionari su IBM Cloud Direct Link Connect
+{: #ibm-cloud-direct-link-connect-questionnaire}
 
-Grazie per aver aperto una richiesta per IBM Cloud Direct Link Connect. Per finalizzare la tua richiesta, ci piacerebbe raccogliere alcune informazioni aggiuntive da te. Puoi parlare con un ingegnere in qualsiasi momento durante il processo del questionario. Dopo che lo avrai completato, il questionario verrà esaminato dal nostro team Cloud Design Engineering e fatto arrivare a Special Network Services per l'implementazione.
+Grazie per aver aperto una richiesta per {{site.data.keyword.cloud}} Direct Link Connect. Per finalizzare la tua richiesta, ci piacerebbe raccogliere alcune informazioni aggiuntive da te. Puoi parlare con un ingegnere in qualsiasi momento durante il processo del questionario. Dopo che lo avrai completato, il questionario verrà esaminato dal nostro team Cloud Design Engineering e fatto arrivare a Special Network Services per l'implementazione.
 
 ## Riconosci e accetti quanto segue?
 
 1. Ogni connessione Direct Link richiede un ordine univoco. Se richiedi più connessioni, apri ordini Direct Link separati per ognuna di esse.
 
-2. Gli addebiti per il tuo servizio Direct Link Connect coprono il costo della terminazione del servizio nell'infrastruttura IBM Cloud. 
+2. Gli addebiti per il tuo servizio Direct Link Connect coprono il costo della terminazione del servizio nell'infrastruttura IBM Cloud.
 
- * I servizi dell'infrastruttura vengono fatturati in anticipo e iniziano con l'accettazione del tuo ordine; tuttavia a causa della natura di IBM Cloud Direct Link, la fatturazione del servizio Direct Link inizia all'avvio di una sessione BGP (Border Gateway Protocol) con IBM Cloud o 30 giorni dopo che la chiave del servizio viene fornita al client. 
+ * I servizi dell'infrastruttura vengono fatturati in anticipo e iniziano con l'accettazione del tuo ordine; tuttavia a causa della natura di IBM Cloud Direct Link, la fatturazione del servizio Direct Link inizia all'avvio di una sessione BGP (Border Gateway Protocol) con IBM Cloud o 30 giorni dopo che la chiave del servizio viene fornita al client.
 
  * La fatturazione si arresta dopo che:
-   * Un cliente richiede che un circuito venga eliminato, **e** 
+   * Un cliente richiede che un circuito venga eliminato, **e**
    * Che il provider Connect o del servizio di rete abbia annullato il provisioning del circuito.
-  * Per ulteriori informazioni, consulta la **Section 5 - Charges** in Cloud Services Agreement al seguente link: [ibm.biz/service-agreement](ibm.biz/service-agreement)
+  * Per ulteriori informazioni, consulta la **Section 5 - Charges** in Cloud Services Agreement al seguente link: [https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). Ad esempio, i clienti negli Stai Uniti visualizzerebbero [questo documento di contratto di Cloud Services](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en).
   * In alternativa, la fatturazione può arrestarsi se un cliente riceve una notifica che il proprio servizio Direct Link sarà disattivato e non funzionerà più.
 
 3. Ordinando il servizio Direct Link, sarai responsabile di tutte le tariffe associate al raggiungimento del PoP (Point of Presence) dalla tua rete remota e di tutte le connessioni trasversali necessarie nella struttura del PoP per raggiungere il tuo provider di scambio. Tu (o il tuo provider) sarai inoltre responsabile dell'acquisto del circuito virtuale per IBM Cloud. Se il tuo provider richiede che un router o un altro dispositivo sia posizionato fisicamente nel PoP, sarai responsabile anche dei costi associati al posizionamento di tale apparecchiatura. Conferma che il tuo provider di rete o PoP possa raggiungere Direct Link Connect e pagare i costi associati.
@@ -42,9 +43,9 @@ Grazie per aver aperto una richiesta per IBM Cloud Direct Link Connect. Per fina
 
 7. IBM Cloud non consentirà ai clienti il backhaul del traffico dei loro siti remoti tramite il backbone di IBM Cloud. Il prodotto Direct Link Connect è destinato alle tue reti remote in modo che possano comunicare privatamente con l'infrastruttura IBM Cloud.
 
-8. Dopo che hai confermato che il tuo circuito ha raggiunto il PoP di Direct Link Connect, dovrai effettuare un ordine con il tuo provider Connect e fornire tutte le informazioni rilevanti al provider e a IBM Cloud. Per i provider Equinix, il tempo di distribuzione tipico può essere di ore. Il tempo di distribuzione tipico per l'offerta IBM Cloud Direct Link Connect richiede 5-10 giorni per il completamento. 
+8. Dopo che hai confermato che il tuo circuito ha raggiunto il PoP di Direct Link Connect, dovrai effettuare un ordine con il tuo provider Connect e fornire tutte le informazioni rilevanti al provider e a IBM Cloud. Per i provider Equinix, il tempo di distribuzione tipico può essere di ore. Il tempo di distribuzione tipico per l'offerta IBM Cloud Direct Link Connect richiede 5-10 giorni per il completamento.
 
-9. IBM Cloud Direct Link Connect richiede l'utilizzo di un'istanza VRF (Virtual Routing and Forwarding) nel lato della rete di IBM Cloud. Questo consente al cliente di definire i propri indirizzi IP remoti per l'utilizzo nella propria rete remota; tuttavia, devi essere consapevole che se sei in grado di utilizzare la rete 10.x.x.x, non puoi ancora sovrapporre gli host in IBM Cloud né con la rete di servizi IBM Cloud (10.0.0.0/14, 10.198.0.0/15 e 10.200.0.0/14). La transizione del tuo account a una VRF richiede una breve interruzione della rete privata in quanto ciascuna VLAN viene migrata nella nuova configurazione. Il team Special Network Services lavorerà con te per definire una finestra per questa attività. Il team Special Network Services è normalmente disponibile dal lunedì al venerdì, dalle 8 alle 17 CST (Ora solare fuso centrale USA). Qualsiasi attività di attivazione non rientrante in questa finestra dovrà essere richiesta mediante un ticket e approvata in anticipo, se gli ingegneri sono disponibili.
+9. IBM Cloud Direct Link Connect richiede l'utilizzo di un'istanza VRF (Virtual Routing and Forwarding) nel lato della rete di IBM Cloud. Questo consente al cliente di definire i propri indirizzi IP remoti per l'utilizzo nella propria rete remota; tuttavia, devi essere consapevole che se sei in grado di utilizzare la rete 10.x.x.x, non puoi ancora sovrapporre gli host in IBM Cloud né con la rete di servizi IBM Cloud (10.0.0.0/14, 10.198.0.0/15 e 10.200.0.0/14). La transizione del tuo account a una VRF richiede una breve interruzione della rete privata in quanto ciascuna VLAN viene migrata nella nuova configurazione.Il team Special Network Services lavorerà con te per definire una finestra per questa attività. Il team Special Network Services è normalmente disponibile dal lunedì al venerdì, dalle 8 alle 17 CST (Ora solare fuso centrale USA). Qualsiasi attività di attivazione non rientrante in questa finestra dovrà essere richiesta mediante un ticket e approvata in anticipo, se gli ingegneri sono disponibili.
 
 10. VRF non è compatibile con i servizi IBM Cloud SSL, PPTP e IPSEC VPN.  Un'alternativa è di utilizzare lo stesso Direct Link per la gestione dei tuoi server o di eseguire la tua soluzione VPN (come Vyatta) che può essere configurata con diversi tipi di VPN. Dopo aver eseguito la migrazione a una VRF, la VPN SSL normalmente funziona quando viene effettuata una connessione VPN alla stessa ubicazione DC del calcolo a cui si sta accedendo, ma non concede l'accesso globalmente.
 
@@ -56,7 +57,7 @@ Grazie per aver aperto una richiesta per IBM Cloud Direct Link Connect. Per fina
 
 * **IBM Cloud ti assegnerà un ASN privato per scopi di configurazione di BGP per annunciare le tue reti remote alla tue rete privata di IBM Cloud. È accettabile o preferiresti utilizzare il tuo ASN pubblico?**
 
-* **Hai bisogno che BGP MultiPath con ECMP sia configurato per l'impostazione di una connessione ridondante a IBM Cloud?**  
+* **Hai bisogno che BGP MultiPath con ECMP sia configurato per l'impostazione di una connessione ridondante a IBM Cloud?** 
 
     _Se sì, includi l'ID del ticket dell'altra connessione. Numero ticket ____________  (nota che ECMP può essere fornito solo su due sessioni nello stesso XCR IBM Cloud.  Se desideri ECMP, sappi che entrambi i Direct Link devono trovarsi sullo stesso router.)_
 

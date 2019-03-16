@@ -1,15 +1,16 @@
 ---
 copyright:
-  years: 1994, 2017, 2018
-lastupdated: "2018-05-07"
+  years: 1994, 2017, 2018, 2019
+lastupdated: "2019-02-19"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Informazioni sulla latenza
+{: #understanding-latency}
 
-_Modalità ibrida con IBM Cloud Direct Link: rendi l'esecuzione dei tuoi carichi di lavoro più veloce, in tutto il mondo_
+_Modalità ibrida con {{site.data.keyword.cloud}} Direct Link: rendi l'esecuzione dei tuoi carichi di lavoro più veloce, in tutto il mondo_
 
 IBM Cloud offre dei data center con la funzionalità Direct Link in tutto il mondo. Pertanto, puoi contare sulla latenza minima quando utilizzi Direct Link per creare la tua soluzione cloud ibrida collegando il tuo IBM Cloud alla tua infrastruttura esistente.
 

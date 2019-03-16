@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-08-09"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,10 @@ lastupdated: "2018-08-09"
 {:download: .download}
 
 # Informazioni su IBM Cloud Direct Link
+{: #about-ibm-cloud-direct-link}
 
-Questa sezione permette di consultare gli ulteriori dettagli sulle funzioni chiave e i vantaggi di ognuna delle quattro soluzioni di Direct Link.
+Questa sezione permette di consultare gli ulteriori dettagli sulle funzioni chiave e i vantaggi di ognuna delle quattro soluzioni di {{site.data.keyword.cloud}}
+Direct Link. 
   * [**IBM Cloud Direct Link Exchange**](#the-ibm-cloud-direct-link-exchange-solution)
   * [**IBM Cloud Direct Link Connect**](#the-ibm-cloud-direct-link-connect-solution)
   * [**IBM Cloud Direct Link Dedicato**](#the-ibm-cloud-direct-link-dedicated-solution)
@@ -26,7 +28,7 @@ Questa sezione permette di consultare gli ulteriori dettagli sulle funzioni chia
 
 La soluzione IBM Cloud Direct Link Exchange consente agli utenti di utilizzare un provider Cloud Exchange per fornire la connettività alle ubicazioni {{site.data.keyword.BluSoftlayer_notm}}. Questa offerta normalmente fornisce la connettività a un costo ridotto, perché la connettività fisica da {{site.data.keyword.BluSoftlayer_notm}} al provider Cloud Exchange è già in atto, condivisa tra altri clienti.
 
-**Casi di utilizzo comuni:** _Migliore per i carichi di lavoro ibridi e tra provider, per i trasferimenti di dati frequenti o grandi con un'elevata larghezza di banda in uscita, per i carichi di lavoro privati e per la gestione dell'ambiente.  Questa opzione normalmente viene selezionata quando l'ubicazione PoP desiderata già dispone del provider IBM Cloud Direct Link Exchange desiderato._
+**Casi di utilizzo comuni:** _Migliore per i carichi di lavoro ibridi e tra provider, per i trasferimenti di dati frequenti o grandi con un'elevata larghezza di banda in uscita, per i carichi di lavoro privati e per la gestione dell'ambiente. Questa opzione normalmente viene selezionata quando l'ubicazione PoP desiderata già dispone del provider IBM Cloud Direct Link Exchange desiderato._
 
 ![Figura 1](/images/Direct-Link-Exchange.png)
 
@@ -40,7 +42,7 @@ La soluzione IBM Cloud Direct Link Exchange consente agli utenti di utilizzare u
 
  * **Latenza approssimativa:** la latenza approssimativa è circa 1.5ms nell'area locale (data center con lo stesso prefisso di tre lettere, ad esempio DAL, AMS, MEL). Consulta http://lg.softlayer.com/ per le misurazioni della latenza dell'ubicazione PoP-to-PoP (P2P) dal vivo.
 
- * **Servizi di ubicazione:** Nessuno.
+ * **Servizi di ubicazione IBM:** Nessuno.
 
  * **Ridondanza:** per stabilire la ridondanza per IBM Cloud Direct Link Exchange, è necessaria la connettività in 2+ ubicazioni o la selezione di un'ubicazione con un XCR secondario disponibile che può essere utilizzata dal provider Cloud Exchange.
 
@@ -62,7 +64,7 @@ La soluzione IBM Cloud Direct Link Exchange consente agli utenti di utilizzare u
 
 * **Latenza approssimativa:** la latenza approssimativa è circa 1.5ms nell'area locale (data center con lo stesso prefisso di tre lettere, ad esempio DAL, AMS, MEL). Consulta http://lg.softlayer.com/ per le misurazioni della latenza dell'ubicazione PoP-to-PoP (P2P) dal vivo.
 
-* **Servizi di ubicazione:** Nessuno.
+* **Servizi di ubicazione IBM:** Nessuno.
 
 * **Ridondanza:** per stabilire la ridondanza per IBM Cloud Direct Link Connect, è necessaria la connettività in 2+ ubicazioni o la selezione di un'ubicazione con un XCR secondario disponibile che può essere utilizzata dal provider IBM Cloud Connect.
 
@@ -86,7 +88,7 @@ La soluzione IBM Cloud Direct Link Dedicato consente agli utenti di terminare un
 
  * **Latenza approssimativa:** la latenza approssimativa è circa 1.5ms nell'area locale (data center con lo stesso prefisso di tre lettere, ad esempio DAL, AMS, MEL).  Consulta http://lg.softlayer.com/ per le misurazioni della latenza dell'ubicazione PoP-to-PoP (P2P) dal vivo.
 
- * **Servizi di ubicazione:** Nessuno.
+ * **Servizi di ubicazione IBM:** Nessuno.
 
  * **Ridondanza:** per stabilire la ridondanza è richiesta la connettività IBM Cloud Direct Link in 2+ ubicazioni o la selezione di un'ubicazione con un XCR secondario disponibile e una seconda richiesta di connessione IBM Cloud Direct Link.
 
@@ -110,7 +112,7 @@ La soluzione IBM Cloud Direct Link Dedicated Hosting fornisce una connettività 
 
  * **Latenza approssimativa:** la latenza approssimativa è circa 0.5ms nel data center locale.
 
- * **Servizi di ubicazione:** Sì.
+ * **Servizi di ubicazione IBM:** Sì.
 
  * **Ridondanza:** {{site.data.keyword.BluSoftlayer_notm}} fornisce connessioni a due XCR (cross-connect router) come parte del prodotto. Per stabilire la connettività ridondante i clienti devono configurare BGP su ogni connessione Direct Link se ritengono adeguato archiviare la ridondanza. Gli esempi includono opzioni come le seguenti: _prefer Lowest MED_, _prefer highest local-preference_ o _prefer shorter AS paths_.
 

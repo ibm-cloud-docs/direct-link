@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-04-12"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-04-12"
 {:download: .download}
 
 # Alternative alla tua distribuzione IBM Cloud Direct Link
+{: #alternatives-for-your-ibm-cloud-direct-link-deployment}
 
-Questo documento illustra alcune alternative che i nostri clienti a volte scelgono come casi di utilizzo per le proprie distribuzioni IBM Cloud Direct Link.
+Questo documento illustra alcune alternative che i nostri clienti a volte scelgono come casi di utilizzo per le proprie distribuzioni {{site.data.keyword.cloud}} Direct Link.
 
 ## Distribuzioni diverse per Exchange e Connect
 

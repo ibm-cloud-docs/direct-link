@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-05-30"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-05-30"
 {:download: .download}
 
 # Modelli per la diversità e la ridondanza in Direct Link
+{: #models-for-diversity-and-redundancy-in-direct-link}
 
-Questo documento fornisce una serie di schemi correlati ai problemi di ridondanza e diversità, che possono aiutarti a trovare un modello per la creazione della distribuzione di Direct Link più efficace per soddisfare le tue esigenze. Gli schemi sono organizzati in livelli incrementali di complessità e anche in base all'offerta di Direct Link illustrata da ognuno di essi. Direct Link non è un servizio intrinsecamente ridondante nell'XCR, i clienti hanno la responsabilità di creare la ridondanza tramite i loro schemi BGP. 
+Questo documento fornisce una serie di schemi correlati ai problemi di ridondanza e diversità, che possono aiutarti a trovare un modello per la creazione della distribuzione di {{site.data.keyword.cloud}} Direct Link più efficace per soddisfare le tue esigenze. Gli schemi sono organizzati in livelli incrementali di complessità e anche in base all'offerta di Direct Link illustrata da ognuno di essi. Direct Link non è un servizio intrinsecamente ridondante nell'XCR (cross-connect router), i clienti hanno la responsabilità di creare la ridondanza tramite i loro schemi BGP (Border Gateway Protocol). 
 
 ## Sezione 1: Configurazioni relativamente semplici per archiviare la diversità
 

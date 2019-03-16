@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-24"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,15 +15,14 @@ lastupdated: "2018-10-24"
 {:download: .download}
 
 
-# Prezzi per IBM Cloud Direct Link 
+# Prezzi per IBM Cloud Direct Link
+{: #pricing-for-ibm-cloud-direct-link}
 
-I prezzi per le offerte IBM Cloud Direct Link Exchange, Connect e Dedicated sono coerenti per le regioni e larghezza di banda equivalenti, come mostrato nella seguente tabella:
+I prezzi per le offerte {{site.data.keyword.cloud}} Direct Link Exchange, Connect e Dedicated sono coerenti per le regioni e larghezza di banda equivalenti, come mostrato nella seguente tabella:
 
 ## Prezzi per IBM Cloud Exchange, Connect e Dedicated
 
-Se il tuo browser mostra questa tabella con velocità inferiori a 1Gbps, seleziona il seguente link per visualizzare la tabella completa, utilizza il mouse o il trackpad per scorrere questa pagina orizzontalmente o fai clic su "Modifica in GitHub" all'inizio della pagina per visualizzare il file non elaborato.
-
-[Tabella completa](pricing-table.html)
+Se il tuo browser mostra questa tabella con velocità inferiori a 1Gbps, utilizza il mouse o il trackpad per scorrere questa pagina orizzontalmente o fai clic su "Modifica in GitHub" all'inizio della pagina per visualizzare il file non elaborato. 
 
 ## Prezzi per Direct Link Exchange
 
@@ -46,7 +45,7 @@ Se il tuo browser mostra questa tabella con velocità inferiori a 1Gbps, selezio
 | Regione | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps | 2 Gbps | 5 Gbps |
 |----|----|----|----|----|----|----|----|
 | USA |  $100 | $150 | $300 | $650 | $1.199 | $1.999 | $3.750 | 
-| Canada/Amsterdam |  $103 | $155 | $309 | $670 | $1.235 | $ 2,059 | $3.863 | 
+| Canada/Amsterdam |  $103 | $155 | $309 | $670 | $1.235 | $ 2.059 | $3.863 | 
 | Asia | $113 | $170 | $339 | $735 | $1.355 | $2.259 | $4.238 | 
 | Corea | $110 | $165 | $330 | $715 | $1.319 | $2.199 | $4.125 | 
 | Australia | $120 | $180 | $360 | $780 | $1.439 | $2.399 | $4.500| 
@@ -85,7 +84,7 @@ L'instradamento locale è incluso come parte basilare di tutte le offerte IBM Cl
 
 ## Prezzi per il componente aggiuntivo Instradamento globale
 
-L'instradamento globale espande l'accesso per includere tutti i data center di IBM Cloud globalmente. La larghezza di banda viene misurata e addebitata mensilmente in base al mercato. I dettagli sui mercati e su altre considerazioni possono essere trovati nel nostro [file delle FAQ](faqs.html#what-are-the-local-routing-and-global-routing-options)
+L'instradamento globale espande l'accesso per includere tutti i data center di IBM Cloud globalmente. La larghezza di banda viene misurata e addebitata mensilmente in base al mercato. I dettagli sui mercati e su altre considerazioni possono essere trovati nel nostro [file delle FAQ](/docs/infrastructure/direct-link?topic=direct-link-faqs#what-are-the-local-routing-and-global-routing-options)
 
 Se selezioni l'instradamento globale, non ti viene addebitato tutto il traffico in uscita locale, soltanto il traffico originato o terminato al di fuori del PoP locale.
 
@@ -124,3 +123,19 @@ Ogni mese, a tutti i clienti dell'instradamento globale che utilizzano 1G di cir
 |<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li><li>LON</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
 **Tabella 1: livelli di utilizzo**<br/>
 L'offerta Direct Link nei mercanti contrassegnati con un asterisco (*) DEVE ordinare l'instradamento globale.
+
+## Ulteriori addebiti per la personalizzazione 
+
+Diverse configurazioni personalizzate e non standard sono disponibili a un costo aggiuntivo. La maggior parte sono addebiti una tantum per la configurazione, denotati da "NRC" nella tabella. Queste opzioni richiedono una revisione dell'eccezione dai team di gestione dell'offerta (OM) e SNS prima dell'approvazione.
+
+| Tipo di servizio | Tariffa |
+|-----------------|------|
+| Addebito Special Network Services (SNS) | $3000 MRC (mensili) per Account |
+| Multi-Vlan Tenants | $1000 MRC (mensili) per Direct Link |
+| BCR Peering | $1000 MRC (mensili) per POD |
+| Static Route | $100 NRC |
+| ASN Prepend | $100 NRC |
+| Custom BGP Export Policy | $250 NRC |
+| Custom BGP Import Policy | $250 NRC |
+| Custom inbound ACL on XCR | $250 NRC |
+| Custom outbound ACL on XCR | $250 NRC |
