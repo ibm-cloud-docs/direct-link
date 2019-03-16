@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="direct-link" audience="direct-link" arm="4032931" arm="4032949" arm="3662735" arm="43662737" href="/docs/infrastructure/direct-link/getting-started.html" path="infrastructure/direct-link"}
+{: .toc subcollection="direct-link" audience="service" arm="4032931" arm="4032949" arm="3662735" arm="43662737" href="/docs/infrastructure/direct-link/getting-started.html" path="infrastructure/direct-link"}
 Direct Link
 
     {: .navgroup id="learn"}
@@ -14,22 +14,36 @@ Direct Link
     diversity-models.md
     connect-details.md
     pricing.md
+    pricing-comparison.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     how-to-order.md
     
       {: .topicgroup}
-      訂購步驟概觀
+      概觀步驟及可用的位置
          order-cloud-exchange.md
          order-connect.md
          order-nsp.md
          order-colocation.md
-    cloud-exchange-automation.md
-    cloud-exchange-connect.md
+         
+    {: .topicgroup}
+    Exchange 及 Connect 的佈建步驟
+        cloud-exchange-automation.md
+        cloud-exchange-automation-equinix.md
+        cloud-exchange-connect.md
+        order-without-vrf.md
+    
     subnet-configuration.md
     direct-link-to-cos.md
     edit-link-speed-connect.md
+    
+      {: .topicgroup}
+      訂購的問卷
+         questionnaire-exchange.md
+         questionnaire-connect.md
+         questionnaire-dedicated.md
+         questionnaire-dedicated-hosting.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}

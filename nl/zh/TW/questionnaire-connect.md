@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-06-11"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,21 +15,22 @@ lastupdated: "2018-06-11"
 {:download: .download}
 
 # IBM Cloud Direct Link Connect 問卷
+{: #ibm-cloud-direct-link-connect-questionnaire}
 
-謝謝您提出對 IBM Cloud Direct Link Connect 的要求。為了完成您的要求，我們想要向您收集一些其他資訊。在問卷處理期間，您隨時可以與工程師交談。完成問卷之後，我們的 Cloud Design Engineering 團隊將檢閱它，並將其呈報給 Special Network Services 以進行實作。
+謝謝您提出對 {{site.data.keyword.cloud}} Direct Link Connect 的要求。為了完成您的要求，我們想要向您收集一些其他資訊。在問卷處理期間，您隨時可以與工程師交談。完成問卷之後，我們的 Cloud Design Engineering 團隊將檢閱它，並將其呈報給 Special Network Services 以進行實作。
 
 ## 您確認並同意下列事項嗎？
 
 1. 每個 Direct Link 連線都需要唯一的訂單。如果您需要多個連線，請針對每一個連線開啟個別的 Direct Link 訂單。
 
-2. Direct Link Connect 服務的費用涵蓋 IBM Cloud 基礎架構上的服務終止的成本。 
+2. Direct Link Connect 服務的費用涵蓋 IBM Cloud 基礎架構上的服務終止的成本。
 
- * 「基礎架構服務」會事先計費，並從接受您的訂單之後開始；不過，由於 IBM Cloud Direct Link 的本質，Direct Link 服務計費將在起始與 IBM Cloud 的「邊界閘道通訊協定 (BGP)」階段作業時開始，或在提供服務金鑰給客戶之後 30 天開始。 
+ * 「基礎架構服務」會事先計費，並從接受您的訂單之後開始；不過，由於 IBM Cloud Direct Link 的本質，Direct Link 服務計費將在起始與 IBM Cloud 的「邊界閘道通訊協定 (BGP)」階段作業時開始，或在提供服務金鑰給客戶之後 30 天開始。
 
  * 計費將在發生下列情況之後停止：
-   * 客戶要求要刪除電路，**且** 
+   * 客戶要求要刪除電路，**且**
    * 「Connect 提供者」或「網路服務提供者」已取消佈建電路。
-  * 如需相關資訊，請參閱下列鏈結的「雲端服務合約」中的**第 5 項 - 費用**：[ibm.biz/service-agreement](ibm.biz/service-agreement)
+  * 如需相關資訊，請參閱下列鏈結的「雲端服務合約」中的**第 5 節 - 費用**：[https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html)。例如，美國的客戶檢閱[此雲端服務合約文件](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en)。
   * 或者，如果通知客戶其 Direct Link 服務將關閉且不再運作，則會對客戶停止計費。
 
 3. 訂購 Direct Link 服務之後，從您的遠端網路連上「據點 (PoP)」以及在 PoP 設施內為了連上 Exchange 提供者所需要的任何交叉連接，其任何相關聯費用將由您負責。您（或您的提供者）也要負責購買通往 IBM Cloud 的虛擬電路。如果您的提供者需要路由器或其他裝置實際位於 PoP 中，則主機託管該設備的相關聯成本也將由您負責。請確認您的網路或 PoP 提供者可以呼叫到 Direct Link Connect，並且可以將相關聯的成本定出價格。
@@ -42,7 +43,7 @@ lastupdated: "2018-06-11"
 
 7. IBM Cloud 不容許客戶跨越 IBM Cloud 骨幹回送其遠端網站之間的資料流量。Direct Link Connect 產品是為了讓您的遠端網路能夠與 IBM Cloud 基礎架構進行私人通訊。
 
-8. 在確認電路已達到 Direct Link Connect PoP 之後，您需要向 Connect 提供者下訂單，並將所有相關資訊提供給 Cloud Exchange 提供者及 IBM Cloud。若為 Equinix 提供者，一般部署時間可能需要數小時。IBM Cloud Direct Link Connect 供應項目的一般部署時間需要 5-10 天才能完成。 
+8. 在確認電路已達到 Direct Link Connect PoP 之後，您需要向 Connect 提供者下訂單，並將所有相關資訊提供給 Cloud Exchange 提供者及 IBM Cloud。若為 Equinix 提供者，一般部署時間可能需要數小時。IBM Cloud Direct Link Connect 供應項目的一般部署時間需要 5-10 天才能完成。
 
 9. IBM Cloud Direct Link Connect 需要在 IBM Cloud 網路端使用 VRF（虛擬遞送與轉遞）實例。這可讓客戶定義自己要使用於其遠端網路的遠端 IP 位址；不過，您必須知道，即使您可以使用 10.x.x.x 網路，但仍然無法與 IBM Cloud 內的主機或 IBM Cloud 服務網路（10.0.0.0/14、10.198.0.0/15 及 10.200.0.0/14）重疊。當每個 VLAN 移轉至新的配置時，將您的帳戶轉移至 VRF 需要使專用網路短暫中斷。Special Network Services 團隊將與您一起定義此活動的時間範圍。Special Network Services 團隊正常上班時間為星期一到五的 8-5 CST（美國中部標準時間）。在此時間範圍外的任何啟動活動，將需要事先透過問題單要求並核准，如果工程師有空的話。
 
@@ -56,7 +57,7 @@ lastupdated: "2018-06-11"
 
 * **IBM Cloud 將指派專用 ASN 給您，以便配置 BGP 向 IBM Cloud 專用網路通告您的遠端網路。這樣您可以接受嗎？或是您偏好使用自己的公開 ASN？**
 
-* **您是否需要配置具有 ECMP 的 BGP MultiPath，來設定 IBM Cloud 的備援連線？**  
+* **您是否需要配置具有 ECMP 的 BGP MultiPath，來設定 IBM Cloud 的備援連線？** 
 
     _如果是，請包含其他連線的問題單 ID。問題單號碼 ____________（請注意，ECMP 只能佈建在相同 IBM Cloud XCR 上的兩個階段作業中。如果 ECMP 符合您的期望，則請瞭解兩個 Direct Link 必須位於相同的路由器上。） 
 

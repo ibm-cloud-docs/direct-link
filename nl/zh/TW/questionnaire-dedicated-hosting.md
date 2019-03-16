@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-06-11"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -14,9 +14,10 @@ lastupdated: "2018-06-11"
 {:tip: .tip}
 {:download: .download}
 
-# IBM Cloud Direct Link Dedicated 問卷
+# IBM Cloud Direct Link Dedicated Hosting 問卷
+{: #ibm-cloud-direct-link-dedicated-hosting-questionnaire}
 
-謝謝您提出對 IBM Cloud Direct Link Dedicated Hosting 的要求。為了完成您的要求，我們想要向您收集一些其他資訊。在問卷處理期間，您隨時可以與工程師交談。完成問卷之後，我們的 Cloud Design Engineering 團隊將檢閱它，並將其呈報「網路工程」以進行實作。
+謝謝您提出對 {{site.data.keyword.cloud}} Direct Link Dedicated Hosting 的要求。為了完成您的要求，我們想要向您收集一些其他資訊。在問卷處理期間，您隨時可以與工程師交談。完成問卷之後，我們的 Cloud Design Engineering 團隊將檢閱它，並將其呈報「網路工程」以進行實作。
 
 ## 確認
 

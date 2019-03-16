@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-24"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,15 +15,14 @@ lastupdated: "2018-10-24"
 {:download: .download}
 
 
-# IBM Cloud Direct Link 的定價 
+# IBM Cloud Direct Link 的定價
+{: #pricing-for-ibm-cloud-direct-link}
 
-如下表所示，同等地區和頻寬的 IBM Cloud Direct Link Exchange、Connect 及 Dedicated 供應項目的定價一致：
+如下表所示，同等地區和頻寬的 {{site.data.keyword.cloud}} Direct Link Exchange、Connect 及 Dedicated 供應項目的定價一致：
 
 ## IBM Cloud Exchange、Connect 及 Dedicated 的定價
 
-如果瀏覽器顯示此表格的速度小於 1Gbps，請選取下列鏈結以查看完整表格，使用滑鼠或觸控板水平捲動此頁面，或按一下此頁面頂端的「在 GitHub 中編輯」，以查看原始檔案。
-
-[完整表格](pricing-table.html)
+如果瀏覽器顯示此表格的速度小於 1Gbps，請使用滑鼠或觸控板水平捲動此頁面，或按一下此頁面頂端的「在 GitHub 中編輯」，以查看原始檔案。
 
 ## Direct Link Exchange 的定價
 
@@ -85,7 +84,7 @@ IBM Cloud Dedicated Hosting 最小配置包括一個 (1) 含有 5Kw 電源的機
 
 ## 廣域遞送附加程式的定價
 
-廣域遞送擴大存取範圍，能包括全球所有 IBM Cloud 資料中心。每個月都根據市場價對頻寬進行計費和收費。有關市場詳細資料及其他注意事項，請參閱我們的[常見問題 (FAQ) 檔案](faqs.html#what-are-the-local-routing-and-global-routing-options)
+廣域遞送擴大存取範圍，能包括全球所有 IBM Cloud 資料中心。每個月都根據市場價對頻寬進行計費和收費。有關市場詳細資料及其他注意事項，請參閱我們的[常見問題 (FAQ) 檔案](/docs/infrastructure/direct-link?topic=direct-link-faqs#what-are-the-local-routing-and-global-routing-options)
 
 如果您選取「廣域遞送」，則不會因為任何本端輸出資料流量向您收費，而只針對起點或終點是在本端 PoP 以外的資料流量向您收費。
 
@@ -124,3 +123,21 @@ IBM Cloud Dedicated Hosting 最小配置包括一個 (1) 含有 5Kw 電源的機
 |<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li><li>LON</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
 **表 1：使用率層級**<br/>
 標示星號 (\*) 的市場中，Direct Link 供應項目「必須」訂購「廣域路由」。
+
+
+
+## 自訂作業的額外費用 
+
+您可以使用數個非標準的自訂配置，但需要額外成本。大部分費用都是一次性的設定費用，在表格中以 "NRC" 表示。這些選項在核准之前，需要先經過供應項目管理 (OM) 及 SNS 團隊進行「異常狀況」檢閱。
+
+| 服務類型 | 費用 |
+|-----------------|------|
+| 特殊網路服務 (SNS) 費用 | 每個帳戶 $3000 MRC（每月）|
+| 多重 Vlan 承租戶 | 每個 Direct Link $1000 MRC（每月）|
+| BCR 對等作業 | 每個 POD $1000 MRC（每月）|
+| 靜態路由 | $100 NRC |
+| 前面附加 ASN | $100 NRC |
+| 自訂 BGP 匯出原則 | $250 NRC |
+| 自訂 BGP 匯入原則 | $250 NRC |
+| 在 XCR 上自訂入埠 ACL | $250 NRC |
+| 在 XCR 上自訂出埠 ACL | $250 NRC |

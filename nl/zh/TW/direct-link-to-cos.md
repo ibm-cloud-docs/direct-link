@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-30"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -13,10 +13,12 @@ lastupdated: "2018-10-30"
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # 使用 IBM Cloud Direct Link 連接至 IBM Cloud Object Storage
+{: #using-ibm-cloud-direct-link-to-connect-to-ibm-cloud-object-storage}
 
-本文件說明如何配置 IBM Cloud Direct Link，讓您能夠存取 IBM Cloud Object Storage (COS)。雖然這裡說明的方法是搭配 COS 來進行設計及測試，但它們可能適用於某些其他 IBM Cloud 服務。
+本文件說明如何配置 {{site.data.keyword.cloud}} Direct Link，以存取 IBM Cloud Object Storage (COS)。雖然這裡說明的方法是搭配 COS 來進行設計及測試，但它們可能適用於某些其他 IBM Cloud 服務。
 
 依現行原則，IBM Cloud Direct Link 會拒絕對 IBM Cloud 專用服務端點的存取，包括 IBM Cloud Object Storage (COS) 使用的那些服務端點。本文件所說明的技術仰賴透過客戶的 IBM Cloud 帳戶所管理的伺服器，來對 COS 進行間接存取。設定之後，每個客戶的伺服器都可以在 IBM Cloud 專用服務端點與其透過 Direct Link 連接的遠端網路之間，雙向轉遞資料流量。
 
@@ -29,9 +31,9 @@ IBM Cloud Object Storage (COS) 是一種可儲存非結構化資料的 Web 規�
 IBM COS 提供三種配置：**跨區域**、**區域**及**單一網站**。
 
  * 「跨區域」服務提供的延續性和可用性比使用單一區域更高，但代價是延遲稍高。目前美國和歐盟有提供此服務。（請注意，使用 Virtual Router Appliance (VRA)，您也可能使用 Direct Link 連接至亞太地區的 COS。）
- 
+
  * 「區域」服務剛好相反：它在單一地區內的多個可用性區域之間分散物件。如果給定的區域或可用性區域無法存取，物件儲存庫會繼續順利運作。當無法存取的資料中心重新連線時，會套用任何遺漏的變更。
-  
+
  * 「單一網站」服務在所選取的資料中心提供可負擔得起的 Cloud Object Storage 存取。
 
 ### COS 專用和公用端點
@@ -42,7 +44,7 @@ IBM COS 提供三種配置：**跨區域**、**區域**及**單一網站**。
 COS 公用端點讓 IBM Cloud 客戶能夠存取可從 IBM Cloud 內存取的相同 COS 資料，但公用端點允許從任何有配備網際網路的位置存取。
 
 有兩個警示適用於 COS 公用端點：
- * 使用公用端點可能會針對超出 COS 服務需收取的使用收費的頻寬產生計量成本。 
+ * 使用公用端點可能會針對超出 COS 服務需收取的使用收費的頻寬產生計量成本。
  * 即使所有資料在傳輸中已加密，但客戶可能對透過網際網路傳輸的資料有相關的隱私權問題或法規限制。
 
 ## 何謂 IBM Cloud Direct Link？
@@ -50,7 +52,7 @@ IBM Cloud Direct Link 是一個產品組合，可讓客戶在他們的遠端網�
 
 ## 透過 IBM Cloud Direct Link 使用 Cloud Object Storage (COS)
 IBM 工程師已開發一種方法，可讓購買 COS 及 Direct Link 的 IBM Cloud 客戶建立與 COS 專用端點的遠端連線。這種類型的連線延伸了專用服務端點的優點，讓 IBM Cloud 設施以外的用戶端系統可以使用它們。
- 
+
 下列幾節將繪圖並說明此解決方案。
 
 ### 反向 Proxy
@@ -66,7 +68,7 @@ HTTPS（安全的 HTTP）COS 要求是從遠端網站的用戶端起始。它們
 #### 安裝 Nginx 反向 Proxy
 **NginX** 是一個成熟、精簡及快速開放程式碼 Web 伺服器，擅長特殊化作業，包括先前提及的_反向 Proxy_ 伺服器角色。
 
-以下的指示及配置資訊--用於設定 NginX 反向 Proxy 伺服器--可在您調整至適合您環境之後適用。如果您卡住或需要其他資訊，請參閱 [Nginx 文件](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)的反向 Proxy 部分，或搜尋 [stackoverflow](http://stackoverflow.com) 以取得範例。
+以下的指示及配置資訊--用於設定 NginX 反向 Proxy 伺服器--可在您調整至適合您環境之後適用。如果您卡住或需要其他資訊，請參閱 [Nginx 文件 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)，或搜尋 [stackoverflow ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://stackoverflow.com) 以取得範例。
 
 1. 以最低的 **RHEL** 或 **CentOS** Linux 建置來佈建您的 VSI 或裸機伺服器（建議）
 2. 對於每一個 VSI，在公用介面上啟用下列安全群組規則：`allow_http`、`allow_https`、`allow_outbound`、`allow_ssh`
@@ -93,7 +95,7 @@ HTTPS（安全的 HTTP）COS 要求是從遠端網站的用戶端起始。它們
 
 #### 配置檔：`nginx.conf`
 
-範例配置檔顯示在下列區段中。您可以複製並貼上它。
+下列區段顯示配置檔範例。您可以複製並貼上它。
 
 ```
 user nginx;
@@ -129,7 +131,7 @@ http {
     proxy_intercept_errors on;
 
     # IBM COS Endpoints
-    # https://console.bluemix.net/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints
+    # https://cloud.ibm.com/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-endpoints#select-regions-and-endpoints
     # US
     server {
         listen       443 ssl http2;
@@ -156,7 +158,7 @@ http {
 }
 ```
 
-如需可使用於上述 `proxy_pass` 項目的專用端點清單，請參閱 [COS 端點](https://console.bluemix.net/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints)。
+如需可使用於上述 `proxy_pass` 項目的專用端點清單，請參閱 [COS 端點](https://{DomainName}/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints)。
 
 #### 提示：
 
@@ -170,14 +172,14 @@ http {
 
 ### 如何佈建裸機伺服器
 
-如需如何佈建裸機伺服器的詳細指示，請參閱[裸機伺服器手冊](https://console.bluemix.net/docs/bare-metal/about.html#getting-started-with-bare-metal-servers)。
+如需如何佈建裸機伺服器的詳細指示，請參閱[裸機伺服器手冊](https://{DomainName}/docs/bare-metal?topic=bare-metal-about#about)。
 
 ### 如何佈建 Virtual Router Appliance (VRA)
 
-如需如何佈建 VRA 的詳細指示，請參閱 [VRA 入門手冊](https://console.bluemix.net/docs/infrastructure/virtual-router-appliance/getting-started.html#getting-started)。
+如需如何佈建 VRA 的詳細指示，請參閱 [VRA 入門手冊](https://{DomainName}/docs/infrastructure/virtual-router-appliance/getting-started.html#getting-started)。
 
 ### 如何佈建 IBM Cloud Object Storage (COS)
 
- * 如需如何佈建 COS 的詳細指示，請參閱 [Cloud Object Storage 手冊](https://console.bluemix.net/catalog/services/cloud-object-storage)。
+ * 如需如何佈建 COS 的詳細指示，請參閱 [Cloud Object Storage 手冊](https://{DomainName}/catalog/services/cloud-object-storage)。
 
  * 使用其中一個專用端點（先前所列出），與您佈建的 COS 帳戶中的儲存區或任何物件之間建立一個介面。

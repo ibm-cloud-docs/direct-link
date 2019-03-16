@@ -1,15 +1,16 @@
 ---
 copyright:
-  years: 1994, 2017, 2018
-lastupdated: "2018-05-07"
+  years: 1994, 2017, 2018, 2019
+lastupdated: "2019-02-19"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 瞭解延遲
+{: #understanding-latency}
 
-_搭配 IBM Cloud Direct Link 的混合雲：讓工作負載全球化，執行速度更快_
+_搭配 {{site.data.keyword.cloud}} Direct Link 的混合雲：讓工作負載全球化，執行速度更快_
 
 IBM Cloud 提供具有全球性 Direct Link 功能的資料中心。因此，當您使用 Direct Link 將 IBM Cloud 鏈結至現有的基礎架構而建立混合式雲端解決方案時，即可指望最少延遲。
 
