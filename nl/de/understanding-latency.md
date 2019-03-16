@@ -1,15 +1,16 @@
 ---
 copyright:
-  years: 1994, 2017, 2018
-lastupdated: "2018-05-07"
+  years: 1994, 2017, 2018, 2019
+lastupdated: "2019-02-19"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Informationen zur Latenz
+{: #understanding-latency}
 
-_Go Hybrid mit IBM Cloud Direct Link: Schnellere Verarbeitung Ihrer Workloads weltweit_
+_Hybridumgebung mit {{site.data.keyword.cloud}} Direct Link: Schnellere Verarbeitung Ihrer Workloads weltweit_
 
 IBM Cloud stellt Rechenzentren mit Direct Link-Funktionen auf der ganzen Welt bereit. Dies bedeutet für Sie minimale Latenzzeiten, wenn Sie beim Erstellen einer eigenen Hybrid-Cloud-Lösung mithilfe von Direct Link Ihre IBM Cloud mit Ihrer bestehenden Infrastruktur verbinden.
 

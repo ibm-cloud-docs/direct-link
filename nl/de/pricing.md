@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-08-20"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,15 +15,14 @@ lastupdated: "2018-08-20"
 {:download: .download}
 
 
-# Preise für IBM Cloud Direct Link 
+# Preise für IBM Cloud Direct Link
+{: #pricing-for-ibm-cloud-direct-link}
 
-Die Preisstruktur für die IBM Cloud Direct Link-Angebote Exchange, Connect und Dedicated ist für äquivalente Regionen und Bandbreiten konsistent, wie in der folgenden Tabelle dargestellt:
+Die Preisstruktur für die Angebote {{site.data.keyword.cloud}} Direct Link Exchange, Connect und Dedicated ist für äquivalente Regionen und Bandbreiten konsistent, wie in der folgenden Tabelle dargestellt: 
 
 ## Preise für die IBM Cloud-Angebote Exchange, Connect und Dedicated
 
-Wenn diese Tabelle in Ihrem Browser mit Geschwindigkeiten unter 1 Gb/s angezeigt wird, wählen Sie den folgenden Link aus, um die vollständige Tabelle anzuzeigen, oder verwenden Sie Maus bzw.Trackpad, um in dieser Seite horizontal zu blättern. Sie können auch oben auf dieser Seite auf die Option 'In GitHub bearbeiten' klicken, um die unformatierte Datei anzuzeigen.
-
-[Vollständige Tabelle](pricing-table.html)
+Wenn diese Tabelle in Ihrem Browser mit Geschwindigkeiten unter 1 Gb/s angezeigt wird, verwenden Sie die Maus bzw. das Trackpad, um in dieser Seite horizontal zu blättern. Sie können auch oben auf dieser Seite auf die Option für die Bearbeitung in GitHub klicken, um die unformatierte Datei anzuzeigen. 
 
 ## Preisstruktur für Direct Link Exchange
 
@@ -85,7 +84,7 @@ Local Routing (lokale Routenwahl) ist als Basiskomponente in allen IBM Cloud Dir
 
 ## Preise für das Add-on 'Global Routing'
 
-Global Routing (globale Routenwahl) erweitert den Zugriff auf alle IBM Cloud-Rechenzentren weltweit. Die Bandbreite wird gemessen und entsprechend dem Markt monatlich abgerechnet. Details zu den Märkten und weitere Hinweise finden Sie in der [Datei mit häufig gestellten Fragen](faqs.html#what-are-the-local-routing-and-global-routing-options).
+Global Routing (globale Routenwahl) erweitert den Zugriff auf alle IBM Cloud-Rechenzentren weltweit. Die Bandbreite wird gemessen und entsprechend dem Markt monatlich abgerechnet. Details zu den Märkten und weitere Hinweise finden Sie in der [Datei mit häufig gestellten Fragen](/docs/infrastructure/direct-link?topic=direct-link-faqs#what-are-the-local-routing-and-global-routing-options).
 
 Wenn Sie 'Global Routing' auswählen, ist der ausgehende lokale Datenverkehr kostenlos. Es wird nur der Datenverkehr berechnet, der außerhalb des lokalen Bereitstellungspunkts beginnt oder endet.
 
@@ -121,6 +120,22 @@ Die ersten 10 TB ausgehenden Datenverkehrs sind für alle Global Routing-Kunden 
 
 |Daten Markt 1|Daten Markt 2|Daten Markt 3|
 |---|---|---|
-|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
+|<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li><li>LON</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
 **Tabelle 1: Nutzungsstufen**<br/>
 Direct Link-Angebote in den mit einem Stern (*) gekennzeichneten Märkten MÜSSEN 'Global Routing' bestellen.
+
+## Zusätzliche Gebühren für Anpassung 
+
+Gegen zusätzliche Kosten sind mehrere angepasste, vom Standard abweichende Konfigurationen verfügbar. Die meisten Gebühren sind einmalige Gebühren für die Einrichtung. Dies ist in der Tabelle entsprechend angegeben. Diese Optionen erfordern vor der Genehmigung eine Ausnahmeprüfung durch die Teams für Angebotsmanagement und SNS. 
+
+| Servicetyp | Gebühr |
+|-----------------|------|
+| SNS-Gebühr (Special Network Services) | 3000 $ MRC (monatlich) pro Konto |
+| Tenants mit mehreren VLANs | 1000 $ MRC (monatlich) pro Direct Link |
+| BCR-Peering | 1000 $ MRC (monatlich) pro POD |
+| Statische Route | 100 $ NRC (einmalig) |
+| ASN-Präfix | 100 $ NRC (einmalig) |
+| Angepasste BGP-Exportrichtlinie | 250 $ NRC (einmalig) |
+| Angepasste BGP-Importrichtlinie | 250 $ NRC (einmalig) |
+| Angepasste eingehende ACL für XCR | 250 $ NRC (einmalig) |
+| Angepasste ausgehende ACL für XCR | 250 $ NRC (einmalig) |

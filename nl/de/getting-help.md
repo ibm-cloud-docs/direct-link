@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-02-28"
+  years: 2017, 2018, 2019
+lastupdated: "2019-01-18"
 
 
 
@@ -30,9 +30,9 @@ lastupdated: "2018-02-28"
 
 <!-- Add a heading and content for how to get help and support. Use this template for beta and GA services:  -->
 # Hilfe und Unterstützung abrufen 
-{: #gettinghelp}
+{: #getting-help-and-support}
 
-Wenn bei der Verwendung von IBM Cloud Direct Link Probleme oder Fragen auftreten, können Sie Hilfe erhalten, indem Sie in einem der unten aufgeführten Foren nach Informationen suchen oder Fragen stellen. Sie haben auch die Möglichkeit, ein Support-Ticket im [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/) zu öffnen.
+Wenn bei der Verwendung von {{site.data.keyword.cloud}} Direct Link Probleme oder Fragen auftreten, können Sie Hilfe erhalten, indem Sie in einem der unten aufgeführten Foren nach Informationen suchen oder Fragen stellen. Sie können auch ein Support-Ticket in der [IBM Cloud-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) oder im [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/) öffnen.
 {:shortdesc}
 
 Wenn Sie über die Foren Fragen stellen, kennzeichnen Sie Ihre Frage, damit sie von den {{site.data.keyword.Bluemix_notm}}-Entwicklerteams gesehen werden.
@@ -41,7 +41,7 @@ Wenn Sie über die Foren Fragen stellen, kennzeichnen Sie Ihre Frage, damit sie 
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->
 * Bei Fragen zum Service und zu den ersten Schritten verwenden Sie das Forum [IBM developerWorks dW Answers ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.ibm.com/answers/topics/directlink.html?smartspace=ibm-cloud){:new_window}. Schließen Sie die Tags "directlink" und "ibm-cloud" ein.
 
-Weitere Informationen zur Verwendung der Foren finden Sie in [Hilfe aufrufen](https://console.bluemix.net/docs/support/index.html#getting-help).
+Weitere Informationen zur Verwendung der Foren finden Sie in [Hilfe aufrufen](https://cloud.ibm.com/docs/support/index.html#getting-help).
 
-Informationen zum Öffnen eines IBM Support-Tickets oder zu Supportebenen und Dringlichkeit für Tickets finden Sie in [Unterstützung anfordern](https://console.bluemix.net/docs/support/index.html#contacting-support).
+Informationen zum Öffnen eines IBM Support-Tickets oder zu Supportebenen und Dringlichkeit für Tickets finden Sie in [Unterstützung anfordern](/docs/get-support?topic=get-support-getting-customer-support).
 

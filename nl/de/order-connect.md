@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-08-30"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,9 +15,10 @@ lastupdated: "2018-08-30"
 {:download: .download}
 
 # Vorgehensweise zur Bestellung von IBM Cloud Direct Link Connect
+{: #how-to-order-ibm-cloud-direct-link-connect}
 
  * Überprüfen Sie die Funktionalität Ihres Netzbetreibers zum Erreichen des geeigneten Bereitstellungspunkts und zur Querverbindung mit dem zugehörigen Connect-Provider.
- * Verwenden Sie das [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/), um eine IBM Cloud Direct Link Connect-Anforderung zu öffnen und die angeforderten Informationen auszufüllen. (Unterstützung von IBM Sales Engineers kann angefordert werden.) 
+ * Verwenden Sie das [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/), um eine Anforderung für {{site.data.keyword.cloud}} Direct Link Connect zu öffnen und die angeforderten Informationen auszufüllen. (Unterstützung von IBM Sales Engineers kann angefordert werden.) 
  * Wenden Sie sich an Ihren Connect-Provider und vereinbaren Sie Konnektivität für Ihren Datenaustausch.
  * Bestellen Sie Konnektivität zwischen Ihrem Netzbetreiber und dem Connect-Provider.
  * Bestellen Sie eine "virtuelle Verbindung" durch den Connect-Provider und verweisen Sie auf die Ticket-ID der {{site.data.keyword.BluSoftlayer_notm}} IBM Cloud Direct Link-Anforderung als Ihre "Anforderungs-ID" oder "Berechtigungs-ID".
@@ -36,18 +37,18 @@ Unsere IBM Cloud Direct Link Connect-Provider bieten u. a. folgende Standorte an
 | British Telecom |  LON01, FRA01, WDC02, SAO02, HKG01* |
 | CenturyLink | DAL03, SAO02, MIA01 |
 | Chief Telecomm | HKG01* |
-| Colt | AMS02, FRA01, PAR02, TOK01, LON01*, HKG01*, SNG02*, |
-| Console Connect by PCCW | HKG01 |
+| Colt | AMS02, FRA01, PAR02, TOK01, SNG02, LON01*, HKG01*,  |
+| Console Connect by PCCW | HKG01, TOK01, SNG02, LON01, SJC02 |
 | Epsilon | AMS02*, DAL03*, FRA01*, HKG01*, LON01*, SNG02*, WDC02* |
-| IBM BlueFringe | DAL03, WDC02 |
-| Intercloud | FRA03*, AMS02* |
+| IBM BlueFringe | DAL03, WDC02, CHE01 |
+| Intercloud | FRA01, FRA03, AMS02 |
 | Megaport |  MEL02, SYD02, SNG02, AMS02, FRA01, LON03, STO01, DAL03, SJC02, TOR02, WDC02, HKG01* |
 | PacketFabric | DAL04, SJC02, WDC02 |
 | Softbank | TOK04* |
 | SES Networks | WDC02 |
 | Tata | CHE01 |
 | Telia | STO01, OSL02* |
-| Telstra | MEL02, SNG02, SYD02, NYC01, LON01* |
+| Telstra | MEL02, SYD02 |
 | Verizon | SYD02, TOK01, AMS02, FRA01, DAL03, SJC02, WDC02 |
 | Zayo | DAL03*, WDC02*, MON01* |
 
@@ -55,4 +56,4 @@ Unsere IBM Cloud Direct Link Connect-Provider bieten u. a. folgende Standorte an
 
 ## Preise
 
-Informationen zu Preisen finden Sie im [Preisdokument](pricing.html).
+Informationen zu Preisen finden Sie im [Preisdokument](/docs/infrastructure/direct-link/pricing.html).

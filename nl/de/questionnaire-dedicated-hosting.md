@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-06-11"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -14,9 +14,10 @@ lastupdated: "2018-06-11"
 {:tip: .tip}
 {:download: .download}
 
-# Fragebogen für IBM Cloud Direct Link Dedicated
+# Fragebogen für IBM Cloud Direct Link Dedicated Hosting
+{: #ibm-cloud-direct-link-dedicated-hosting-questionnaire}
 
-Danke für Ihre Anforderung von IBM Cloud Direct Link Dedicated Hosting. Für die Bearbeitung Ihrer Anforderung benötigen wir weitere Informationen von Ihnen. Beim Ausfüllen des Fragebogens können Sie jederzeit direkt mit einem Entwickler in Kontakt treten. Der von Ihnen ausgefüllte Fragebogen wird von unserem Entwicklungsteam für Cloud Design überprüft und zur Implementierung an die Abteilung für Network Engineering weitergeleitet.
+Vielen Dank für die {{site.data.keyword.cloud}} Direct Link Dedicated Hosting-Anforderung, die Sie geöffnet haben! Für die Bearbeitung Ihrer Anforderung benötigen wir weitere Informationen von Ihnen. Beim Ausfüllen des Fragebogens können Sie jederzeit direkt mit einem Entwickler in Kontakt treten. Der von Ihnen ausgefüllte Fragebogen wird von unserem Entwicklungsteam für Cloud Design überprüft und zur Implementierung an die Abteilung für Network Engineering weitergeleitet.
 
 ## Bestätigungen
 
