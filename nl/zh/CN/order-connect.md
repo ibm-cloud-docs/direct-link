@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-08-30"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,9 +15,10 @@ lastupdated: "2018-08-30"
 {:download: .download}
 
 # 如何订购 IBM Cloud Direct Link Connect
+{: #how-to-order-ibm-cloud-direct-link-connect}
 
  * 验证您的网络提供商是否有能力将适当的 PoP 和交叉连接延伸到相关联的 Connect 提供商。
- * 使用[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/) 打开 IBM Cloud Direct Link Connect 请求并完成请求的信息。（可以请求 IBM 销售工程师的帮助。） 
+ * 使用[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/) 开具 {{site.data.keyword.cloud}} Direct Link Connect 请求并填写请求的信息。（可以请求 IBM 销售工程师的帮助。） 
  * 联系 Connect 提供商并协调与交换的连接。
  * 订购网络提供商与 Connect 提供商之间的连接。
  * 通过 Connect 提供商订购“虚拟电路”，将 {{site.data.keyword.BluSoftlayer_notm}} IBM Cloud Direct Link 请求的凭单标识引用为“请求标识”或“授权标识”。
@@ -36,18 +37,18 @@ IBM Cloud Direct Link Connect 提供商包括以下位置：
 |British Telecom |LON01, FRA01, WDC02, SAO02, HKG01* |
 |CenturyLink|DAL03, SAO02, MIA01|
 |Chief Telecomm|HKG01* |
-|Colt |AMS02, FRA01, PAR02, TOK01, LON01*, HKG01*, SNG02*,|
-|Console Connect by PCCW |HKG01|
+|Colt | AMS02, FRA01, PAR02, TOK01, SNG02, LON01*, HKG01*,  |
+|Console Connect by PCCW |HKG01, TOK01, SNG02, LON01, SJC02|
 |Epsilon|AMS02*, DAL03*, FRA01*, HKG01*, LON01*, SNG02*, WDC02*|
-|IBM BlueFringe|DAL03, WDC02 |
-|Intercloud|FRA03*, AMS02*|
+|IBM BlueFringe|DAL03, WDC02, CHE01|
+|Intercloud|FRA01, FRA03, AMS02|
 |Megaport |MEL02, SYD02, SNG02, AMS02, FRA01, LON03, STO01, DAL03, SJC02, TOR02, WDC02, HKG01*|
 |PacketFabric |DAL04, SJC02, WDC02|
 |Softbank|TOK04*|
 |SES Networks|WDC02|
 |Tata|CHE01|
 |Telia |STO01, OSL02*|
-|Telstra |MEL02, SNG02, SYD02, NYC01, LON01* |
+|Telstra |MEL02, SYD02|
 |Verizon |SYD02, TOK01, AMS02, FRA01, DAL03, SJC02, WDC02 |
 |Zayo|DAL03*, WDC02*, MON01*|
 
@@ -55,4 +56,4 @@ IBM Cloud Direct Link Connect 提供商包括以下位置：
 
 ## 定价
 
-有关定价信息，请参阅[定价文档](pricing.html)。
+有关定价信息，请参阅[定价文档](/docs/infrastructure/direct-link/pricing.html)。

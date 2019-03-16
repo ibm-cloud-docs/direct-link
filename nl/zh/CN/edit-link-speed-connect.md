@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-09-12"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,12 +15,13 @@ lastupdated: "2018-09-12"
 {:download: .download}
 
 # 如何编辑 IBM Cloud Direct Link Exchange 连接的链路速度
+{: #how-to-edit-the-link-speed-for-an-ibm-cloud-direct-link-exchange-connection}
 
-您可以在连接的任一端（从 IBM Cloud 端或提供商的边缘服务器开始）编辑连接的“链路速度”。您每个月仅允许更改链路速度一次。
+从 {{site.data.keyword.cloud}} 端或提供商的边缘服务器开始，您可以在连接的任一端编辑连接的“链路速度”。您每个月仅允许更改链路速度一次。
 
 ## 步骤 1： 
 
-遵循 [Cloud Exchange 订购过程](cloud-exchange-automation.html)中的步骤 1 和步骤 2。
+遵循 [Cloud Exchange 订购过程](/docs/infrastructure/direct-link/cloud-exchange-automation.html)中的步骤 1 和步骤 2。
 
 ## 步骤 2：
 
@@ -37,7 +38,7 @@ lastupdated: "2018-09-12"
 
 ## 步骤 4：
 
-遵循 [Cloud Exchange for Equinix 订购过程](cloud-exchange-automation.html#how-to-order-cloud-exchange-for-equinix)中的步骤 2 到 5。
+遵循 [Cloud Exchange for Equinix 订购过程](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix)中的步骤 2 到 5。
 
 ### 步骤 4A：
 您必须**同意**条款和条件，才能下 IBM Cloud Direct Link 订单。请详细阅读“条款和条件”，因为其中包含重要的技术信息，必须先理解这些信息才能继续。 

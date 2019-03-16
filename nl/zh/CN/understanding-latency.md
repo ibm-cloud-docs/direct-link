@@ -1,15 +1,16 @@
 ---
 copyright:
-  years: 1994, 2017, 2018
-lastupdated: "2018-05-07"
+  years: 1994, 2017, 2018, 2019
+lastupdated: "2019-02-19"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 了解等待时间
+{: #understanding-latency}
 
-_通过 IBM Cloud Direct Link 使用混合云：使工作负载在全球范围内运行更快_
+_通过 {{site.data.keyword.cloud}} Direct Link 使用混合云：使工作负载在全球范围内运行更快_
 
 IBM Cloud 在全球各地提供了具有 Direct Link 功能的数据中心。因此，使用 Direct Link 通过将 IBM Cloud 链接到您的现有基础架构来创建混合云解决方案时，您的等待时间应该最短。
 

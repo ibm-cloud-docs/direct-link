@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-04-12"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-04-12"
 {:download: .download}
 
 # IBM Cloud Direct Link 部署的替代方法
+{: #alternatives-for-your-ibm-cloud-direct-link-deployment}
 
-本文档展示了一些替代方法，客户有时候可以选择将这些替代方法作为 IBM Cloud Direct Link 部署的用例。
+本文档展示了一些替代方法，客户有时候可以选择将这些替代方法作为其 {{site.data.keyword.cloud}} Direct Link 部署的用例。
 
 ## Exchange 和 Connect 的多种部署
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-05-30"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-05-30"
 {:download: .download}
 
 # Direct Link 中的多样性和冗余模型
+{: #models-for-diversity-and-redundancy-in-direct-link}
 
-本文档提供了一系列与冗余和多样性问题相关的简要图表，可帮助您找到用于创建满足您需求的最成功 Direct Link 部署的模型。简要图表按复杂性程度从低到高进行排列，同时还依据每个简要图表所演示的 Direct Link 产品。Direct Link 不是 XCR 上的固有冗余服务，客户可以通过其 BGP 模式来创建冗余。 
+本文档提供了一系列与冗余和多样性问题相关的简要图表，可帮助您找到用于创建满足您需求的最成功 {{site.data.keyword.cloud}} Direct Link 部署的模型。简要图表按复杂性程度从低到高进行排列，同时还依据每个简要图表所演示的 Direct Link 产品。Direct Link 不是交叉连接路由器 (XCR) 上的固有冗余服务，客户负责通过其边界网关协议 (BGP) 模式来创建冗余。 
 
 ## 第 1 部分：实现多样性的相对简单配置
 

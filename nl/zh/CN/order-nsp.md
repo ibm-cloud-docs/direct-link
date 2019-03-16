@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-23"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -12,12 +12,14 @@ lastupdated: "2018-07-23"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:download: .download}
 
 # 如何订购 IBM Cloud Direct Link Dedicated
+{: #how-to-order-ibm-cloud-direct-link-dedicated}
 
 1. 验证您的网络提供商是否有能力将适当的 PoP 和交叉连接延伸到 {{site.data.keyword.BluSoftlayer_notm}} 环境。
-2. 打开 IBM Cloud Direct Link Dedicated 请求并完成所请求的信息。（可以请求 IBM 销售工程师的帮助。）
+2. 开具 {{site.data.keyword.cloud}} Direct Link Dedicated 请求并完成所请求的信息。（可以请求 IBM 销售工程师的帮助。）
 3. {{site.data.keyword.BluSoftlayer_notm}} 为连接提供授权证 (LOA)。
 4. 确认您的线路已经到达 PoP 且已由承运方完成。
 5. 使用 LOA 中的 {{site.data.keyword.BluSoftlayer_notm}} CFA（客户设施分配）信息，订购交叉连接，通常需要2 到 10 个工作日即可完成。（此时间范围取决于设施供应商和客户下达订单时的订单优先级类型。）此过程包括设置 {{site.data.keyword.BluSoftlayer_notm}} 终止端口的补丁。
@@ -43,25 +45,32 @@ lastupdated: "2018-07-23"
 |SNG02|Equinix|SG1|20 Ayer Rajan Crescent Industrial Park|
 |SYD01|Global Switch|SYD01|400 Harris Street aka 273 Pyrmont St Ultimo|
 |SYD02|Equinix|SY3|47 Bourke Rd|
+|SYD03|NextDC|4 Eden Park Drive, Macquarie Park|
 |SYD04|Digital Realty|SYD10|1-11 Templar Rd, Erskine Park|
-|TOK01|Equinix|TY2|品川区|
-|TOK02|At Tokyo|CC2|江东区|
+|SYD05|Equinix|200 Bourke Rd|
+|TOK01|Equinix|TY2|
+|TOK02|At Tokyo|CC2| 
+|TOK03|Equinix| 
+|TOK04|SoftBank|
+|TOK05|NTT|
 |**欧洲、中东和非洲**|  |  |
 |AMS02|Equinix|AM1 / AM2|Larrderhoogtweg 57|
 |AMS03|KPN|Amsterdam 3|Rondebeltweg 62|
 |FRA01|InterXion|FRA01|Hanauer Landstrasse 302|
 |FRA02|Zenium|FRA1|Leonhard - Heisswolf Str 4., Frankfurt am Main|
 |FRA03|Equinix|FRA6|Larchenstrasse 110, Frankfurt Griesheim|
+|FRA04|E-Shelter|Frankfurt 1|Eschborner Landstrasse 100, Building H| 
 |FRA05|InterXion|FRA05|Weismüllerstraße 40|
-|LON01|Telecity|LD1|6/7 Harbour Exchange  E14 9GE|
+|LON01|Equinix (fTelecity)|LD8|6/7 Harbour Exchange  E14 9GE|
 |LON02|Digital Realty|LHR13|Fountain Court, Cox Lane|
 |LON03|Equinix|LD5|8 Buckingham Ave|
 |LON04|ARK|A103|A57 Cody Technology Park Old, Victor Way, Farnborough|
 |LON06|Zenium|LON1|12 Liverpool Rd, Trading Estate|
+|MIL01|Data IV|Via Monzoro 101-105 , 20010 Cornaredo (MI)|
 |MIL02|Infracom Italia|Infracom 21 Via Caldera Way|Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21|
 |OSL01|EVRY|DigiPlex - Fetsund|9,, Heiaveien, 1900 Fetsund|
 |OSL02|Verizon |Verizon Oslo|Hans Møller Gassmanssvei 9|
-|PAR01|IBM|PAR01|Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit|
+|PAR01|Global Switch|PAR01|Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit|
 |PAR02|Equinix|PA2|114 Rue Ambroise Croizat, St Denis|
 |STO01|InterXion|STO01|Esbogatan 11|
 |  |  |  |
@@ -79,7 +88,7 @@ lastupdated: "2018-07-23"
 |HOU02*|IBM|HOU02|855 Greens Parkway| 
 |LAX01*|Coresite|LA1|624 S. Grand Ave. AKA 1 Wilshire Blvd|
 |MEX01|Alestra|Alestra Queretaro Datacenter|Lateral Carretera Estatal 431,Parque Tecnologico Inovacion Lote 79, El Marqués|
-|MIA01*|Terremark / Verizon|NAP|50 NE 9th Street|
+|MIA01|Terremark / Verizon|NAP|50 NE 9th Street|
 |MON01|COLO-D|COLO-D1|2525 Rue Canadien|
 |MON02|Cologix|MTL3|1155 University Street|
 |NYC01|Digital Realty|JFK10|111 8th Ave|
@@ -87,7 +96,7 @@ lastupdated: "2018-07-23"
 |NYC03*|Equinix|NY5|800 Secaucus Rd, Secaucus, NJ|
 |SAO01|Ascenty|SP1|Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai|
 |SAO02|Equinix|SP2|Alameda Araguaia, 3641 - Alphaville, Barueri|
-|SEA02*|The Westin Building|WBX|2001 6th Avenue|
+|SEA02|The Westin Building|WBX|2001 6th Avenue|
 |SJC02|Equinix|SV1|11 Great Oaks Blvd|
 |SJC03|Digital Realty|SJC31|1100 Space Park Drive|
 |SJC04|Infomart|SJC1|2001 Fortune Drive|
@@ -101,6 +110,7 @@ lastupdated: "2018-07-23"
 
 ## 定价
 
-有关定价信息，请参阅[定价文档](pricing.html)。
+有关定价信息，请参阅[定价文档](/docs/infrastructure/direct-link/pricing.html)。
 
-**如果您需要 TOK01 或 TOK02 的准确地址，请联系 Direct Link 产品管理或销售团队。**
+如果您需要 TOK01 或 TOK02 的准确地址，请联系 Direct Link 产品管理或销售团队。
+{:note}
