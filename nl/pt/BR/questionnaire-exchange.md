@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-06-11"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-06-11"
 {:download: .download}
 
 # Questionário do IBM Cloud Direct Link Exchange
+{: #ibm-cloud-direct-link-exchange-questionnaire}
 
-Obrigado por abrir uma solicitação para o IBM Cloud Direct Link Exchange.  Para finalizar a sua solicitação, gostaríamos de reunir algumas informações adicionais de você.  É possível falar com um engenheiro a qualquer momento durante o processo de questionário.  Depois de concluir o questionário, ele será revisado por nossa
+Obrigado por abrir uma solicitação para o {{site.data.keyword.cloud}} Direct Link Exchange. Para finalizar a sua solicitação, gostaríamos de reunir algumas informações adicionais de você.  É possível falar com um engenheiro a qualquer momento durante o processo de questionário.  Depois de concluir o questionário, ele será revisado por nossa
 equipe de Engenharia de Design de Nuvem e escalado para os Serviços Especiais de Rede para implementação.
 
 ## Você reconhece e concorda com os itens a seguir?
@@ -30,7 +31,10 @@ equipe de Engenharia de Design de Nuvem e escalado para os Serviços Especiais d
  * O faturamento é interrompido após:
    * Um cliente solicita que um circuito seja excluído **e** 
    * O Exchange Provider ou o Network Service Provider desprovisionou o circuito.
-  * Para obter mais informações, veja **Seção 5 - Encargos** no Cloud Services Agreement no link a seguir: [ibm.biz/service-agreement](ibm.biz/service-agreement)
+  * Para obter mais informações, consulte a **Seção 5: Encargos** no Contrato de Prestação de Serviços de
+Nuvem no link a seguir: [https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). Por exemplo, os clientes nos Estados Unidos visualizariam
+[esse documento do Contrato de
+Prestação de Serviços de Nuvem](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en).
   * Como alternativa, o faturamento poderá ser parado para um cliente se ele for notificado de que o serviço Direct Link será desligado e não funcionará mais.
 
 3. Pedindo o serviço Direct Link, você será responsável por quaisquer taxas associadas ao acesso do ponto de Presença (PoP) por meio de sua rede remota e por qualquer conexão cruzada necessária dentro da instalação do PoP para acessar o seu provedor do Exchange. Você (ou o seu provedor) também será responsável por comprar o circuito virtual para o IBM Cloud. Se o seu provedor exigir que um roteador ou outro dispositivo esteja fisicamente no PoP, você também será responsável pelos custos associados à instalação desse equipamento.  Confirme se o provedor de Rede ou PoP pode atingir o Direct Link Exchange e precificar os custos associados.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-24"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,15 +15,16 @@ lastupdated: "2018-10-24"
 {:download: .download}
 
 
-# Precificação para o IBM Cloud Direct Link 
+# Precificação para o IBM Cloud Direct Link
+{: #pricing-for-ibm-cloud-direct-link}
 
-A precificação para as ofertas do IBM Cloud Direct Link Exchange, Connect e Dedicated é consistente para regiões e largura de banda equivalentes, conforme mostrado na tabela a seguir:
+A precificação para as ofertas do {{site.data.keyword.cloud}} Direct Link Exchange, Connect e Dedicated é
+consistente para regiões e largura da banda equivalentes, conforme mostrado na tabela a seguir:
 
 ## Precificação para o IBM Cloud Exchange, o Connect e o Dedicated
 
-Se seu navegador mostrar essa tabela com velocidades menores que 1 Gbps, selecione o link a seguir para ver a tabela completa, use o mouse ou o trackpad para rolar essa página horizontalmente ou clique em "Editar no GitHub" na parte superior desta página para ver o arquivo bruto.
-
-[ Concluir tabela ](pricing-table.html)
+Se o seu navegador mostrar essa tabela com velocidades menores que 1 Gbps, use o mouse ou o trackpad para rolar essa
+página horizontalmente ou clique em "Editar no GitHub" na parte superior dessa página para ver o arquivo bruto.
 
 ## Precificação para Troca de Direct Link
 
@@ -85,7 +86,7 @@ O roteamento local é incluído como uma parte básica de todas as ofertas do IB
 
 ## Precificação para o Complemento de Roteamento Global
 
-O roteamento global expande o acesso para incluir todos os data centers do IBM Cloud globalmente. A largura da banda é medida e cobrada mensalmente com base no mercado. Detalhes sobre os mercados e outras considerações podem ser localizados em nosso [arquivo de FAQs](faqs.html#what-are-the-local-routing-and-global-routing-options)
+O roteamento global expande o acesso para incluir todos os data centers do IBM Cloud globalmente. A largura da banda é medida e cobrada mensalmente com base no mercado. Detalhes sobre os mercados e outras considerações podem ser localizados em nosso [arquivo de FAQs](/docs/infrastructure/direct-link?topic=direct-link-faqs#what-are-the-local-routing-and-global-routing-options)
 
 Se você selecionar Roteamento Global, não será cobrado por nenhum tráfego local de egresso, somente pelo tráfego que se origina ou finaliza fora do PoP local.
 
@@ -128,3 +129,21 @@ maior taxa de mercado prevalecendo. Se você selecionar Roteamento Global, não 
 |<ul><li>DAL</li><li>WDC</li><li>SEA</li><li>SJC</li><li>NYC*</li><li>CHI*</li><li>DEN*</li><li>MIA*</li><li>ATL*</li><li>LAX*</li><li>TOR</li><li>MON</li><li>AMS</li><li>FRA</li><li>LON</li></ul>|<ul><li>TOK</li><li>HKG</li><li>PAR</li><li>MIL</li><li>STK*</li><li>OSL</li><li>SNG</li></ul>|<ul><li>MEX</li><li>SAO</li><li>SYD</li><li>MEL</li><li>PER*</li><li>CHE</li><li>SEO</li></ul>|
 **Tabela 1: Camadas de utilização**<br/>
 As ofertas do Direct Link nos mercados marcados com um asterisco (*) DEVEM solicitar o Global Routing.
+
+## Taxas adicionais para customização 
+
+Várias configurações não padrão customizadas estão disponíveis por um custo adicional. A maioria das taxas é única
+para configuração, indicado por "NRC" na tabela. Antes da aprovação, essas opções requerem uma revisão de exceção
+feita pelas equipes de gerenciamento de oferta (OM) e SNS.
+
+| Tipo de serviço | Taxa |
+|-----------------|------|
+| Taxa de serviços de rede especiais (SNS) | US$ 3000 MRC (mensal) por conta |
+| Locatários de múltiplas VLANs | US$ 1000 MRC (mensal) por Direct Link |
+| Peering do BCR | US$ 1000 MRC (mensal) por POD |
+| Rota estática | US$ 100 NRC |
+| ASN pré-anexado | US$ 100 NRC |
+| Política de exportação de BGP customizada | US$ 250 NRC |
+| Política de importação de BGP customizada | US$ 250 NRC |
+| ACL de entrada customizada no XCR | US$ 250 NRC |
+| ACL de saída customizada em XCR | US$ 250 NRC |

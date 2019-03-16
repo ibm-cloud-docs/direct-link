@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-23"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -12,14 +12,17 @@ lastupdated: "2018-07-23"
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:download: .download}
 
 # Como pedir o IBM Cloud Direct Link Dedicated Hosting
+{: #how-to-order-ibm-cloud-direct-link-dedicated-hosting}
 
-1. Identifique seus requisitos de colocação e de conectividade e trabalhe com a equipe de vendas da IBM para finalizar e assinar um contrato e um anexo técnico.
+1. Identifique seus requisitos de colocação e conectividade e trabalhe com a equipe de vendas do
+{{site.data.keyword.cloud}} para finalizar e assinar um contrato e um anexo técnico.
 2. O {{site.data.keyword.BluSoftlayer_notm}} executa um pedido de construção com o provedor de colocação para o ambiente e os serviços solicitados. A implementação geralmente é concluída dentro de 30 dias de quando o pedido de construção foi feito.
 
-3. Quando a construção de seu compartimento de colocação estiver concluída, o processo de interconexão entre seu compartimento de colocação e o mecanismo XCR do ambiente do {{site.data.keyword.BluSoftlayer_notm}} POD seguirá o processo de solicitação para o [IBM Cloud Direct Link Dedicated](order-nsp.html#how-to-order-ibm-cloud-direct-link-dedicated), iniciando na Etapa 3.
+3. Quando a construção de seu compartimento de colocação estiver concluída, o processo de interconexão entre seu compartimento de colocação e o mecanismo XCR do ambiente do {{site.data.keyword.BluSoftlayer_notm}} POD seguirá o processo de solicitação para o [IBM Cloud Direct Link Dedicated](/docs/infrastructure/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-dedicated), iniciando na Etapa 3.
 
 ## Locais
 
@@ -44,6 +47,8 @@ A tabela a seguir mostra quais data centers do IBM Cloud são capazes de aceitar
 | APAC | MEL01 |  Melbourne  |  DC |  DLR |  72 Radnor Drive, Deer Park |
 | APAC |  SYD01 |  Sydney | DC (AZ1) | Comutador global  |  400 Harris Street aka 273 Pyrmont St. Ultimo |
 | APAC |	SYD02 |	 Sydney |	PoP |	Equinix |	47 Bourke Rd |
+| APAC |	SYD03 |	 Sydney |	PoP |	Equinix |	4 Eden Park Drive |
+| APAC |	SYD05 |	 Sydney |	DC (AZ3) |	Equinix |	200 Bourke Rd |
 | APAC |  SNG01 |  Jurong Leste |  DC | DLR |  29a International Business Park, S180 |
 | APAC |  SNG02 |	Ayer Rajan	| PoP |	Equinix |	20 Ayer Rajan Crescent Industrial Park |
 | APAC | TOK01 |	Shinagawa-ku | PoP | Equinix |	Shinagawa-ku |
@@ -54,10 +59,11 @@ A tabela a seguir mostra quais data centers do IBM Cloud são capazes de aceitar
 | EMEA | FRA03 |	Frankfurt |	PoP |	Equinix |	Larchenstrasse 110 |
 | EMEA | LON02  | Chessington | DC  | DLR  |  Fountain Court |
 | EMEA | LON03 | Slough |	PoP |	Equinix |	8 Buckingham Ave |
-| EMEA | LON04 | Londres |  DC (AZ1) |  Vysiion |  A57 do Cody Technology Park Old |
 | EMEA | LON06 | Londres |	DC (AZ3) |	Zenium |	12 Rd Liverpool |
 | EMEA | PAR02 | Paris | PoP | Equinix |	114 Rue Ambroise Croizat |
 
 
 
-**Se você precisar do endereço exato de Tóquio, entre em contato com o gerenciamento de oferta do Direct Link ou com a equipe de vendas.**
+Se precisar do endereço exato de Tóquio, entre em contato com o gerenciamento de oferta ou a equipe de vendas do Direct
+Link.
+{:note}

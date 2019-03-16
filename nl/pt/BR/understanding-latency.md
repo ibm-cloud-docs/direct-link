@@ -1,15 +1,17 @@
 ---
 copyright:
-  years: 1994, 2017, 2018
-lastupdated: "2018-05-07"
+  years: 1994, 2017, 2018, 2019
+lastupdated: "2019-02-19"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Entendendo a Latência
+{: #understanding-latency}
 
-_Fique híbrido com o IBM Cloud Direct Link: fazendo com que suas cargas de trabalho sejam executadas mais rápido, no mundo inteiro_
+_Acesse Híbrido com o {{site.data.keyword.cloud}} Direct Link: fazendo com que suas cargas de trabalho
+sejam executadas mais rapidamente no mundo todo_
 
 O IBM Cloud oferece data centers com recursos do Direct Link ao redor do globo. Portanto, é possível contar com a latência mínima ao usar o Direct Link para criar sua solução de nuvem híbrida vinculando seu IBM Cloud à infraestrutura existente.
 

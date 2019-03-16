@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-09-12"
+  years: 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,12 +15,14 @@ lastupdated: "2018-09-12"
 {:download: .download}
 
 # Como editar a Velocidade do link de uma conexão do IBM Cloud Direct Link Exchange
+{: #how-to-edit-the-link-speed-for-an-ibm-cloud-direct-link-exchange-connection}
 
-É possível editar a Velocidade do link de sua conexão em ambos os lados da conexão, começando pelo lado do IBM Cloud ou do servidor de Borda do Provedor. Você tem permissão para mudar a velocidade do link apenas uma vez por mês.
+É possível editar a velocidade do link de sua conexão nos dois lados da conexão, começando do lado do
+{{site.data.keyword.cloud}} ou do servidor de borda do provedor. Você tem permissão para mudar a velocidade do link apenas uma vez por mês.
 
 ## Etapa 1: 
 
-Siga as etapas 1 e 2 do [procedimento de solicitação do Cloud Exchange](cloud-exchange-automation.html).
+Siga as etapas 1 e 2 do [procedimento de solicitação do Cloud Exchange](/docs/infrastructure/direct-link/cloud-exchange-automation.html).
 
 ## Etapa 2:
 
@@ -37,7 +39,7 @@ No formulário de pedido, é possível selecionar a nova Velocidade do link. Ao 
 
 ## Etapa 4:
 
-Siga as etapas 2 a 5 no [procedimento de solicitação do Cloud Exchange for Equinix](cloud-exchange-automation.html#how-to-order-cloud-exchange-for-equinix).
+Siga as etapas 2 a 5 no [procedimento de solicitação do Cloud Exchange for Equinix](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix).
 
 ### Etapa 4A:
 Deve-se **CONCORDAR** com os Termos e condições antes de poder fazer o pedido do IBM Cloud Direct Link. Leia os Termos e condições atentamente porque eles contêm informações técnicas importantes que devem ser entendidas antes de continuar. 
