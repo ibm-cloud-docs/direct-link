@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-03-14"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -14,9 +14,10 @@ lastupdated: "2018-03-14"
 {:tip: .tip}
 {:download: .download}
 
-# Panoramica delle funzioni
+# Panoramica delle offerte Direct Link
+{ #overview-of-direct-link-offerings}
 
-L'offerta IBM Cloud Direct Link fornisce la connettività da un'origine esterna a una rete privata IBM del cliente. Direct Link può essere visto come un'alternativa a una soluzione VPN site-to-site, progettato per i clienti che hanno bisogno di una connettività con velocità effettiva più elevata e consistente tra una rete remota e i propri ambienti IBM Cloud. Sono disponibili quattro tipi di connessioni:
+L'offerta {{site.data.keyword.cloud}} Direct Link fornisce la connettività da un'origine esterna a una rete privata IBM del cliente. Direct Link può essere visto come un'alternativa a una soluzione VPN site-to-site, progettato per i clienti che hanno bisogno di una connettività con velocità effettiva più elevata e consistente tra una rete remota e i propri ambienti IBM Cloud. Sono disponibili quattro tipi di connessioni:
  
  * **IBM Cloud Direct Link Exchange** consente agli utenti di utilizzare un provider Exchange per fornire la connettività al proprio IBM Cloud. Un provider Exchange è un provider di rete o vettore già collegato alla rete IBM Cloud, che utilizza link ad elevata capacità a più tenant. I clienti normalmente possono acquistare un circuito virtuale a questo provider, fornendo a un costo ridotto, perché la connettività fisica da {{site.data.keyword.BluSoftlayer_notm}} al provider Exchange è già in atto, condivisa tra altri clienti.
  
@@ -31,3 +32,5 @@ Per una flessibilità incrementata nella creazione di questa connettività Layer
  * IP duale per gli host remoti
  * NAT
  * Tunneling per BYOIP
+ 
+ Per le descrizioni dettagliate di ogni offerta, consulta [Informazioni su IBM Cloud Direct Link](/docs/infrastructure/direct-link?topic=direct-link-about-ibm-cloud-direct-link).

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-30"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -13,10 +13,12 @@ lastupdated: "2018-10-30"
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # Utilizzo di IBM Cloud Direct Link per il collegamento a IBM Cloud Object Storage
+{: #using-ibm-cloud-direct-link-to-connect-to-ibm-cloud-object-storage}
 
-Questo documento descrive come configurare IBM Cloud Direct Link in modo da avere accesso a IBM Cloud Object Storage (COS). Anche se i metodi qui descritti sono stati progettati e verificati con COS, possono funzionare per alcuni altri servizi IBM Cloud.
+Questo documento descrive come configurare {{site.data.keyword.cloud}} Direct Link in modo da avere accesso a IBM Cloud Object Storage (COS). Anche se i metodi qui descritti sono stati progettati e verificati con COS, possono funzionare per alcuni altri servizi IBM Cloud.
 
 Con la politica corrente, IBM Cloud Direct Link nega l'accesso agli endpoint del servizio privato IBM Cloud, inclusi quelli utilizzati da IBM Cloud Object Storage (COS). La tecnica descritta in questo documento si basa sull'accesso indiretto a COS tramite i server ospitati in account IBM Cloud del cliente. Dopo la configurazione, ogni server del cliente può inoltrare il traffico in modo bidirezionale tra gli endpoint del servizio privato IBM Cloud e le loro reti remote collegate da Direct Link.
 
@@ -29,9 +31,9 @@ Le informazioni archiviate in IBM Cloud Object Storage vengono crittografate e d
 IBM COS è disponibile in tre configurazioni: **Cross Region**, **Regional** e **Single Site**.
 
  * Il servizio Cross Region fornisce una disponibilità e una durata maggiori rispetto all'utilizzo di una sola regione, ma al costo di una leggermente maggiore latenza. Questo servizio è disponibile oggi negli Stati Uniti e in Europa. (Nota che, utilizzando una VRA (Virtual Router Appliance), potresti anche utilizzare Direct Link per stabilire una connessione a COS nella regione Asia Pacifico).
- 
+
  * Il servizio Regional fornisce il contrario: distribuisce gli oggetti in più zone di disponibilità all'interno di una sola regione. Se una zona di disponibilità o una regione non è disponibile, l'archiviazione oggetti continua a funzionare correttamente. Tutte le modifiche mancanti vengono applicate quando il data center non accessibile torna online.
-  
+
  * Il servizio Single Site offre un accesso conveniente a Cloud Object Storage in un data center selezionato.
 
 ### Endpoint pubblico e privato COS
@@ -42,7 +44,7 @@ I server di cui è stato eseguito il provisioning all'interno di IBM Cloud utili
 Gli endpoint pubblici COS forniscono ai clienti IBM Cloud l'accesso agli stessi dati COS che sono accessibili dall'interno di IBM Cloud, ma gli endpoint pubblici consentono l'accesso da qualsiasi ubicazione che dispone di internet.
 
 Si applicano due avvertimenti agli endpoint pubblici COS:
- * L'utilizzo degli endpoint pubblici può comportare dei costi misurati per larghezza di banda oltre agli addebiti di utilizzo imposti dal servizio COS. 
+ * L'utilizzo degli endpoint pubblici può comportare dei costi misurati per larghezza di banda oltre agli addebiti di utilizzo imposti dal servizio COS.
  * Anche se tutti i dati sono codificati in transito, i clienti potrebbero avere preoccupazioni relative alla privacy o limitazioni normative correlate ai dati trasmessi tramite internet.
 
 ## Che cos'è IBM Cloud Direct Link?
@@ -50,7 +52,7 @@ IBM Cloud Direct Link è una suite di prodotti che fornisce ai clienti la capaci
 
 ## Utilizzo di Cloud Object Storage (COS) su IBM Cloud Direct Link
 Gli ingegneri di IBM hanno sviluppato un metodo che consente a un cliente IBM Cloud che acquista COS e Direct Link di effettuare connessioni remote agli endpoint privati COS. Questo tipo di connessione estende i vantaggi degli endpoint del servizio privato, in modo che possono essere utilizzati dai sistemi client al di fuori delle funzioni di IBM Cloud.
- 
+
 Questa soluzione viene schematizzata e descritta nelle seguenti sezioni.
 
 ### Proxy inverso
@@ -66,7 +68,7 @@ Ogni codice client di esempio che funziona con COS dovrebbe funzionare anche tra
 #### Installazione del tuo proxy inverso Nginx
 **NginX** è un server web open source veloce compatto e completo che eccelle in attività specializzate, incluso il precedentemente menzionato ruolo del server _proxy inverso_.
 
-Le seguenti istruzioni e le informazioni sulla configurazione--per la configurazione di un server proxy inverso NginX--possono funzionare dopo che le hai adattate al tuo ambiente. Se non sai come procedere o hai bisogno di ulteriori informazioni, consulta la parte riguardante il proxy inverso della [documentazione Nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) o cerca in [stackoverflow](http://stackoverflow.com) per degli esempi.
+Le seguenti istruzioni e le informazioni sulla configurazione--per la configurazione di un server proxy inverso NginX--possono funzionare dopo che le hai adattate al tuo ambiente. Se non sai come procedere o hai bisogno di ulteriori informazioni, consulta la parte riguardante il proxy inverso della [documentazione Nginx ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) o cerca [stackoverflow ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")]](http://stackoverflow.com) per degli esempi.
 
 1. Esegui il provisioning dei tuoi server VSI o bare metal con almeno la build Linux **RHEL** o **CentOS** (consigliato)
 2. Per ogni VSI, abilita le seguenti regole del gruppo di sicurezza nell'interfaccia pubblica: `allow_http`, `allow_https`, `allow_outbound`, `allow_ssh`
@@ -128,8 +130,8 @@ http {
     proxy_buffering off;
     proxy_intercept_errors on;
 
-    # Endpoint IBM COS
-    # https://console.bluemix.net/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints
+    # IBM COS Endpoints
+    # https://cloud.ibm.com/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-endpoints#select-regions-and-endpoints
     # US
     server {
         listen       443 ssl http2;
@@ -156,7 +158,7 @@ http {
 }
 ```
 
-Consulta [COS Endpoints](https://console.bluemix.net/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints) per un elenco di endpoint privati da utilizzare nelle precedenti voci `proxy_pass`.
+Consulta [COS Endpoints](https://{DomainName}/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints) per un elenco di endpoint privati da utilizzare nelle precedenti voci `proxy_pass`.
 
 #### Suggerimenti:
 
@@ -170,16 +172,16 @@ Questa sezione fornisce link rapidi alla documentazione per alcune offerte di IB
 
 ### Come eseguire il provisioning dei server bare metal
 
-Per istruzioni dettagliate su come eseguire il provisioning del server bare metal, fai riferimento a [Guide to Bare Metal Servers](https://console.bluemix.net/docs/bare-metal/about.html#getting-started-with-bare-metal-servers).
+Per istruzioni dettagliate su come eseguire il provisioning del server bare metal, fai riferimento a [Guide to Bare Metal Servers](https://{DomainName}/docs/bare-metal?topic=bare-metal-about#about).
 
 ### Come eseguire il provisioning di un VRA (Virtual Router Appliance)
 
 Per istruzioni dettagliate su come eseguire il provisioning di un VRA, fai riferimento a
-[VRA Getting Started Guide](https://console.bluemix.net/docs/infrastructure/virtual-router-appliance/getting-started.html#getting-started).
+[VRA Getting Started Guide](https://{DomainName}/docs/infrastructure/virtual-router-appliance/getting-started.html#getting-started).
 
 ### Come eseguire il provisioning di IBM Cloud Object Storage (COS)
 
- * Per istruzioni dettagliate su come eseguire il provisioning di COS, fai riferimento alla [Guida Cloud Object Storage](https://console.bluemix.net/catalog/services/cloud-object-storage).
+ * Per istruzioni dettagliate su come eseguire il provisioning di COS, fai riferimento alla [Guida Cloud Object Storage](https://{DomainName}/catalog/services/cloud-object-storage).
 
  * Utilizza uno degli endpoint privati (elencati precedentemente) per creare un'interfaccia con il tuo bucket o con ogni
  oggetto nel tuo account COS fornito.

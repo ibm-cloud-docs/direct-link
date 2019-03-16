@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-11"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-19"
 
 ---
 
@@ -15,8 +15,9 @@ lastupdated: "2018-04-11"
 {:download: .download}
 
 # Limitazioni note
+{: #known-limitations}
 
-Per prima cosa, questa sezione copre le limitazioni che si applicano a tutte e tre le offerte IBM Cloud Direct Link e quindi fornisce i dettagli di alcune limitazioni di ogni offerta individualmente.
+Per prima cosa, questa sezione copre le limitazioni che si applicano a tutte e tre le offerte {{site.data.keyword.cloud}} Direct Link e quindi fornisce i dettagli di alcune limitazioni di ogni offerta individualmente.
 
 ## Limitazioni IBM Cloud Direct Link generali
  * Ogni connessione IBM Cloud Direct Link richiede un ordine univoco. Se richiedi più connessioni, apri un ordine Direct Link per ognuna di esse.
