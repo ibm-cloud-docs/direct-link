@@ -27,8 +27,8 @@ Pricing for {{site.data.keyword.cloud}}  Direct Link Exchange, Connect, and Dedi
 Direct Link pricing does NOT include the additional charges by service providers to enable connectivity to IBM Cloud.
 {:note}
 
-## Arranging for connectivity
-{: #arranging-for-conectivity}
+## Arranging for Direct Link connectivity
+{: #arranging-for-direct-link-conectivity}
 
 You, the customer, must arrange connectivity and billing with your service providers, independently of IBM Cloud. See the list of Exchange and Connect providers at https://www.ibm.com/cloud/direct-link/partners. Direct Link Dedicated creates a Letter Of Authorization / Connecting Facility Assignment (LOA/CFA), which is usable by any service provider who can reach the **Meet Me Room** specified on that LOA/CFA. The provider who is connecting to the LOA/CFA must include pricing for that cross-connect in their quote to you; IBM Cloud does not order cross-connects on behalf of any customer.
 
