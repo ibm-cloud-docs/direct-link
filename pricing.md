@@ -24,6 +24,10 @@ subcollection: direct-link
 
 Pricing for {{site.data.keyword.cloud}}  Direct Link Exchange, Connect, and Dedicated offerings is consistent for equivalent regions and bandwidth, as shown in the following table:
 
+Note: Direct Link pricing does Not include the additional charges by service providers to enable connectivity to IBM Cloud. 
+
+Customers need to arrange connectivity and billing with the service providers independent of IBM Cloud. Please see the list of Exchange and Connect providers at https://www.ibm.com/cloud/direct-link/partners. Direct Link Dedicated creates an Letter Of Authorization / Connecting Facility Assignment (LOA/CFA) usable by any service provider who can reach the Meet Me Room specified on the LOA/CFA. The Provider connecting to the LOA/CFA will need to include pricing for that Cross Connect in their quote to the customer; IBM Cloud will not order Cross Connects on behalf of the customer.
+
 ## Pricing for IBM Cloud Exchange, Connect, and Dedicated
 
 If your browser shows this table with speeds less than 1Gbps, use your mouse or trackpad to scroll this page horizontally, or click "Edit in GitHub" at the top of this page to see the raw file.
@@ -84,7 +88,7 @@ The IBM Cloud Dedicated Hosting minimum configuration includes one (1) rack with
 
 ## Local routing
 
-Local routing is included as a basic part of all IBM Cloud Direct Link offerings. It includes access to all of the datacenters connected directly to the PoP location, and it provides unlimited ingress and egress traffic across the Direct Link. If you need to route your traffic outside the local markets defined below, you must add the Global Routing option. Otherwise, your traffic is restricted to the services provided by the local market. Local routing does not incur any overage fees.
+Local routing is included with all IBM Cloud Direct Link offerings. It includes access to all of the datacenters connected directly to the Local Market, and it provides unlimited ingress and egress traffic across the Direct Link. If you need to route your traffic outside the Local Markets defined below, you must add the Global Routing option. Local routing does not incur any overage fees.
 
 ## Expanded IBM Direct Link Local Markets
 
@@ -94,17 +98,17 @@ However, we've recently expanded our Direct Link Local Markets to provide more l
 
 | Local Market | Sites |
 |--------|----------------------|
-| Dallas | DAL01, DAL02, DAL03, DAL04, DAL07, DAL09, DAL10, DAL12, DAL13, Denver 1 , Houston 2 , Chicago 1   |
+| US South (Dallas) | DAL01, DAL02, DAL03, DAL04, DAL07, DAL09, DAL10, DAL12, DAL13, Denver 1 , Houston 2 , Chicago 1   |
 | San Jose | SJC01, SJC02, SJC03, SJC04, Los Angeles 1 |
 | Seattle | SEA01, SEA02 |
-| Washington, D.C. | WDC01, WDC02, WDC04, WDC05, WDC06, WDC07, Atlanta 1 , Miami 1 , New York City 2 , New York City 3  |
+| US East (Washington, D.C.) | WDC01, WDC02, WDC04, WDC05, WDC06, WDC07, Atlanta 1 , Miami 1 , New York City 2 , New York City 3  |
 | Mexico City | MEX01 |
 | Montreal | MON01, MON02 |
 | Toronto | TOR01, TOR02 |
 | Sao Paulo | SAO01, SAO02 |
 | Amsterdam | AMS01, AMS02, AMS03 |
-| Frankfurt | FRA01, FRA02, FRA03, FRA04, FRA05 |
-| London | LON01, LON02, LON03, LON04, LON05, LON06 |
+| EU Central (Frankfurt) | FRA01, FRA02, FRA03, FRA04, FRA05 |
+| UK South (London) | LON01, LON02, LON03, LON04, LON05, LON06 |
 | Milan | MIL01, MIL02 |
 | Oslo | OSL01, OSL02, Stockholm 1 |
 | Paris | PAR01, PAR02 |
@@ -113,9 +117,10 @@ However, we've recently expanded our Direct Link Local Markets to provide more l
 | Melbourne | MEL01, MEL02 |
 | Seoul | SEO01, SEO02 |
 | Singapore | SNG01, SNG02 |
-| Sydney | SYD01, SYD02, SYD03, SYD04, SYD05, Perth 1  |
-| Tokyo | TOK01, TOK02, TOK03, TOK04, TOK05, Osaka 1* |
+| AP South (Sydney) | SYD01, SYD02, SYD03, SYD04, SYD05, Perth 1  |
+| AP North (Tokyo) | TOK01, TOK02, TOK03, TOK04, TOK05, Osaka 1* |
 
+For example, in the US South Market , Direct Link customers can send or retrieve data to or from any IBM Cloud location in the defined market ( Dallas, Houston, Denver and Chicago) without the need for the Global Routing add-on.
 
 ## Pricing for Global Routing Add-on
 
