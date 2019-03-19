@@ -61,7 +61,9 @@ Direct Link does not provide an inherently Redundant service. Direct Link can pr
 ## What is the difference between the default "local" routing and the Global Routing add-on for Direct Link?
 {:faq}
 
-With our standard Direct Link offering, you can send traffic between the data centers in your selected region. If you need access to other data centers outside of the specified region, you must order the Global Routing add-on. This model is based upon ACLs (access control lists) that are put in place at the time your Direct Link connection is ordered. 
+The Local Routing option is the default routing option. If your Direct Link is connected at the local PoP, It provides access to all datacenters within that same Market. In some Markets, local routing is also applicable for stand-alone PoP locations and direct links terminated at the data center. Please check (https://cloud.ibm.com/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-direct-link-local-markets) for a list of those markets. The Global Routing option is required as an add-on to connect your in-market IBM cloud resources to other IBM Cloud resources in datacenters outside the local market. It is used to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
+
+This model is based upon ACLs (access control lists) that are put in place at the time your Direct Link connection is ordered. 
 
 ## How are the outbound (egress) bandwidth overages billed for the Global Routing add-on in Direct Link?
 {:faq}
