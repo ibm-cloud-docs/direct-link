@@ -42,14 +42,14 @@ If your browser shows this table with speeds less than 1Gbps, use your mouse or 
 |----|----|----|----|----|----|----|----|
 | USA |  $100 | $150 | $300 | $650 | $1,199 | $1,999 | $3,750 | 
 | Canada/Amsterdam |  $103 | $155 | $309 | $670 | $1,235 | $ 2,059 | $3,863 | 
-| Asia | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 | 
+| Mexico| $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
+| London |  $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
+| Norway |  $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
+| Paris/Frankfurt/Milan |  $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 | 
 | Korea | $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 | 
+| Japan/Singapore/Hong Kong | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 | 
 | Australia | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500| 
 | India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
-| Paris/Frankfurt/Milan |  $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 | 
-| London |  $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
-| Norway | $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 | 
-| Mexico| $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 | 
 | Brazil | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
 
 ## Pricing for Direct Link Connect
@@ -58,14 +58,14 @@ If your browser shows this table with speeds less than 1Gbps, use your mouse or 
 |----|----|----|----|----|----|----|----|
 | USA |  $100 | $150 | $300 | $650 | $1,199 | $1,999 | $3,750 | 
 | Canada/Amsterdam |  $103 | $155 | $309 | $670 | $1,235 | $ 2,059 | $3,863 | 
-| Asia | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 | 
-| Korea | $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 | 
-| Australia | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500| 
-| India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
-| Paris/Frankfurt/Milan |  $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 | 
+| Mexico| $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 | 
 | London |  $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
 | Norway | $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 | 
-| Mexico| $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 | 
+| Paris/Frankfurt/Milan |  $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 | 
+| Korea | $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 | 
+| Japan/Singapore/Hong Kong  | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 | 
+| Australia | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500| 
+| India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
 | Brazil | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
 
 ## Pricing for Direct Link Dedicated
@@ -74,14 +74,14 @@ If your browser shows this table with speeds less than 1Gbps, use your mouse or 
 |----|----|----|----|----|
 | USA | $1,199 | $1,999 | $3,750 | $4,999 |
 | Canada/Amsterdam | $1,235 | $ 2,059 | $3,863 | $5,149 |
-| Asia | $1,355 | $2,259 | $4,238 | $5,649 |
-| Korea | $1,319 | $2,199 | $4,125 | $5,499 |
-| Australia | $1,439 | $2,399 | $4,500| $5,999 |
-| India | $1,439 | $2,399 | $4,500| $5,999 |
-| Paris/Frankfurt/Milan | $1,319 | $2,199 | $4,125 | $5,499 |
+| Mexico| $1,283 | $2,139 | $4,013 | $5,349 |
 | London | $1,283 | $2,139 | $4,013 | $5,349 |
 | Norway | $1,283 | $2,139 | $4,013 | $5,349 |
-| Mexico| $1,283 | $2,139 | $4,013 | $5,349 |
+| Paris/Frankfurt/Milan | $1,319 | $2,199 | $4,125 | $5,499 |
+| Korea | $1,319 | $2,199 | $4,125 | $5,499 |
+| Japan/Singapore/Hong Kong | $1,355 | $2,259 | $4,238 | $5,649 |
+| Australia | $1,439 | $2,399 | $4,500| $5,999 |
+| India | $1,439 | $2,399 | $4,500| $5,999 |
 | Brazil | $1,439 | $2,399 | $4,500| $5,999 |
 
 ## Pricing for IBM Cloud Dedicated Hosting
@@ -130,20 +130,17 @@ For example, in the US South Market , Direct Link customers can send or retrieve
 
 Global routing expands access to include all IBM Cloud datacenters globally. Bandwidth is un-metered and charged monthly based on the market. Details on the markets and other considerations can be found in our [FAQs file](/docs/infrastructure/direct-link?topic=direct-link-faqs#what-are-the-local-routing-and-global-routing-options)
 
-| Region | Price |
-|---------|----------|
-|USA | $2,999 |
-|Canada/Amsterdam | $2,999 |
-|Asia | $2,999 |
-|Korea | $2,999 |
-|Australia | $2,999 |
-|India | $2,999 |
-|Paris/Frankfurt/Milan | $2,999 |
-|London | $2,999 |
-|Norway | $2,999 |
-|Mexico | $2,999 |
-|Brazil | $2,999 |
-|Japan | $2,999 |
+| Region | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps+ | 
+|----|----|----|----|----|----|
+|USA | $150 | $300 | $600 | $1,500 | $2,999 |
+|Canada/Amsterdam | $155 | $309 | $618 | $1,545 | $2,999 |
+|Mexico/London/Norway | $161 | $321 | $642 | $1,605 | $2,999 |
+|Paris/Frankfurt/Milan | $165 | $330 | $660 | $1,650 | $2,999 |
+|Korea |  $165 | $330 | $660 | $1,650 | $2,999 |
+|Japan/Singapore/Hong Kong | $170 | $339 | $678 | $1,695 | $2,999 |
+|Australia/Brazil/India | $180 | $360 | $720 | $1,800 | $2,999 |
+
+
 
 
 ## Additional fees for Customization 
