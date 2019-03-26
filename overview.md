@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-26"
+lastupdated: "2019-03-26"
 
 keywords: overview, connectivity, private network, site-to-site, Exchange, Connect, Dedicated, Hosting, OSI, Layer-3, partners, NNI, latency, backbone
 
@@ -23,9 +23,9 @@ subcollection: direct-link
 
 The {{site.data.keyword.cloud}} Direct Link offerings provide connectivity from an external source into a customer's IBM Cloud private network. Direct Link can be viewed as an alternative to a traditional site-to-site VPN solution, designed for customers that need more consistent, higher-throughput connectivity between a remote network and their IBM Cloud environments. Four types of connections are available:
  
- * **IBM Cloud Direct Link Exchange** allows customers to customers leverage an Exchange provider to deliver connectivity to their IBM Cloud. An Exchange provider is a Colocation / Data Center provider that is already connected to the IBM Cloud network, using multi-tenant, high capacity links ( aka NNI). Customers typically can purchase a virtual circuit at this provider, bringing connectivity at a reduced cost, because the physical connectivity from {{site.data.keyword.BluSoftlayer_notm}} to the Exchange provider is in place already, shared amongst other customers.
+ * **IBM Cloud Direct Link Exchange** allows customers to utiliize an Exchange provider to deliver connectivity to their IBM Cloud. An Exchange provider is a co-location or data center provider that is already connected to the IBM Cloud network, using multi-tenant, high capacity links (also known as a _network-to-network interface_, or NNI). Customers typically can purchase a virtual circuit at this provider, bringing connectivity at a reduced cost, because the physical connectivity from {{site.data.keyword.BluSoftlayer_notm}} to the Exchange provider is in place already, shared amongst other customers.
  
- * **IBM Cloud Direct Link Connect** allows customers to leverage a connection through our Carrier partners who own and operate a facility-based network. A Connect provider is a Network Service Provider that is already connected to the IBM Cloud network, using multi-tenant, high capacity links (aka NNI). Customers typically can purchase a virtual circuit at this provider, bringing connectivity at a reduced cost, because the physical connectivity from {{site.data.keyword.BluSoftlayer_notm}} to the Connect provider is in place already, shared amongst other customers.
+ * **IBM Cloud Direct Link Connect** allows customers to utiliize a connection through our Carrier partners who own and operate a facility-based network. A Connect provider is a network service provider (NSP) that is already connected to the IBM Cloud network, using multi-tenant, high capacity links (also known as a _network-to-network interface_, or NNI). Customers typically can purchase a virtual circuit at this provider, bringing connectivity at a reduced cost, because the physical connectivity from {{site.data.keyword.BluSoftlayer_notm}} to the Connect provider is in place already, shared among other customers.
  
  * **IBM Cloud Direct Link Dedicated** allows customers to terminate a Single-tenant fiber-based cross-connect into the IBM Cloud network. This offering can be leveraged by customers with Colocation adjacent to IBM Cloud PoPs and Data Centers; as well as Network Service Providers delivering circuits to Customer premises or other Data Centers.
  
