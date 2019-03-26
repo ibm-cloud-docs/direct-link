@@ -38,7 +38,7 @@ The IBM Cloud Direct Link Exchange solution lets customers utilize a Cloud Excha
 
  * **Termination Location:** {{site.data.keyword.BluSoftlayer_notm}} point of presence (PoP).
 
- * **Typical Deployment Time:** For Equinix providers, typical deployment time will be in hours. For other providers, 5-10 days after circuit reaches the exchange. Deployment time can possibly be 30-60 days overall, depending on your location and requirements when ordering a circuit from an NSP or carrier.
+ * **Typical Deployment Time:** For Equinix providers, typical deployment time will be in hours. For other providers, 5-10 days after circuit reaches the exchange. Deployment time can possibly be 30 to 60 days overall, depending on your location and requirements when ordering a circuit from an NSP or carrier.
 
  * **Cross-Connect Details:** Physical cross-connects for the secure Cloud Exchange interconnect are maintained between {{site.data.keyword.BluSoftlayer_notm}} and the Cloud Exchange provider. Customers request a "Virtual Circuit" from the Cloud Exchange Provider, which establishes logical connectivity to {{site.data.keyword.BluSoftlayer_notm}}, once the customer is interconnected to the Cloud Exchange Provider.
 
@@ -48,19 +48,19 @@ The IBM Cloud Direct Link Exchange solution lets customers utilize a Cloud Excha
 
  * **IBM Colocation Services:** None.
 
- * **Redundancy:** {{site.data.keyword.BluSoftlayer_notm}} provides connections to (2) diverse cross-connect routers (XCRs) as part of the product. To establish redundant connectivity, customers must configure BGP on each Direct Link connection as they prefer. Examples include options such as these: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
+ * **Redundancy:** {{site.data.keyword.BluSoftlayer_notm}} provides connections to two (2) diverse cross-connect routers (XCRs) as part of the product. To establish redundant connectivity, customers must configure BGP on each Direct Link connection as they prefer. Examples include options such as these: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
- * **Local/Global Routing Options:** The Local Routing option is the default routing option. It provides access to datacenters within the same Market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your in-market IBM cloud resources to other IBM Cloud resources in datacenters outside the local market. It is used to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
+ * **Local/Global Routing Options:** The Local Routing option is the default routing option. It provides access to datacenters within the same Market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your IBM cloud resources to other IBM Cloud resources in datacenters outside the local market. It provides a way to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
  
 ## The IBM Cloud Direct Link Connect solution
 
-**Common Use Cases** The IBM Cloud Direct Link Connect solution lets customers leverage a Network Service Provider to deliver connectivity to {{site.data.keyword.BluSoftlayer_notm}} locations. This offering typically provides connectivity at a reduced cost, because the physical connectivity from {{site.data.keyword.BluSoftlayer_notm}} to the Network Service Provider is already in place, shared among other customers.
+**Common Use Cases** The IBM Cloud Direct Link Connect solution lets customers leverage a network service provider (NSP) to deliver connectivity to {{site.data.keyword.BluSoftlayer_notm}} locations. This offering typically provides connectivity at a reduced cost, because the physical connectivity from {{site.data.keyword.BluSoftlayer_notm}} to the Network Service Provider is already in place, shared among other customers.
 
 ![Figure 2](/images/Direct-Link-Connect.png)
 
 * **Termination Location:** {{site.data.keyword.BluSoftlayer_notm}} point of presence (PoP).
 
-* **Typical Deployment Time:** 5-10 days after circuit reaches the exchange. Deployment time can possibly be 30-60 days overall, depending on your location and requirements when ordering a circuit from an NSP or carrier.
+* **Typical Deployment Time:** 5 to 10 days after circuit reaches the exchange. Deployment time can possibly be 30 to 60 days overall, depending on your location and requirements when ordering a circuit from an NSP or carrier.
 
 * **Cross-Connect Details:** Physical cross-connects for the secure Direct Link Connect interconnect are maintained between {{site.data.keyword.BluSoftlayer_notm}} and the Connect provider. Customers request a "Virtual Circuit" from the Cloud Connect provider, which establishes logical connectivity to {{site.data.keyword.BluSoftlayer_notm}}, once the customer is interconnected to the Cloud Connect provider.
 
@@ -70,7 +70,7 @@ The IBM Cloud Direct Link Exchange solution lets customers utilize a Cloud Excha
 
 * **IBM Colocation Services:** None.
 
-* **Redundancy:** {{site.data.keyword.BluSoftlayer_notm}} provides connections to (2) diverse cross-connect routers (XCRs) as part of the product. To establish redundant connectivity, customers must configure BGP on each Direct Link connection as they prefer. Examples include options such as these: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
+* **Redundancy:** {{site.data.keyword.BluSoftlayer_notm}} provides connections to two (2) diverse cross-connect routers (XCRs) as part of the product. To establish redundant connectivity, customers must configure BGP on each Direct Link connection as they prefer. Examples include options such as these: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
 * **Local/Global Routing Options:** The Local Routing option is the default routing option. It provides access to datacenters within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your IBM cloud resources to other IBM Cloud resources in datacenters outside the local market. It is used to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
 
@@ -84,7 +84,7 @@ The IBM Cloud Direct Link Dedicated solution lets customers terminate a single-t
 
  * **Termination Location:** {{site.data.keyword.BluSoftlayer_notm}} point of presence (PoP).
 
- * **Typical Deployment Time:** 10-15 business days after the new circuit reaches the POP. Deployment time can possibly be 30-60 days overall, depending on your location and requirements when ordering a circuit from a NSP or carrier.
+ * **Typical Deployment Time:** 10 to 15 business days after the new circuit reaches the POP. Deployment time can possibly be 30-60 days overall, depending on your location and requirements when ordering a circuit from a NSP or carrier.
 
  * **Cross-Connect Details:** {{site.data.keyword.BluSoftlayer_notm}} provides a Letter of Authorization (LOA) that a customer uses to order fiber Ethernet (Single-Mode Fiber only, either 1Gig-LX or 10Gig-LR optics) that runs from a customer cage or provider cage to the {{site.data.keyword.BluSoftlayer_notm}} CFA termination point, which will be tied down to the cross-connect router (XCR) infrastructure. The media must be a 1310nm wavelength optic.
 
@@ -94,13 +94,13 @@ The IBM Cloud Direct Link Dedicated solution lets customers terminate a single-t
 
  * **IBM Colocation Services:** None.
 
- * **Redundancy:** {{site.data.keyword.BluSoftlayer_notm}} provides connections to (2) diverse cross-connect routers (XCRs) as part of the product. To establish redundant connectivity, customers must configure BGP on each Direct Link connection as they prefer. Examples include options such as these: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
+ * **Redundancy:** {{site.data.keyword.BluSoftlayer_notm}} provides connections to two (2) diverse cross-connect routers (XCRs) as part of the product. To establish redundant connectivity, customers must configure BGP on each Direct Link connection as they prefer. Examples include options such as these: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
- * **Local/Global Routing Options:** The Local Routing option is the default routing option. It provides access to datacenters within the same Market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your in-market IBM cloud resources to other IBM Cloud resources in datacenters outside the local market. It is used to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
+ * **Local/Global Routing Options:** The Local Routing option is the default routing option. It provides access to datacenters within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your IBM cloud resources to other IBM Cloud resources in datacenters outside the local market. It provides a way to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
 
 ## The IBM Cloud Direct Link Dedicated Hosting solution
 
-The IBM Cloud Direct Link Dedicated Hosting solution provides connectivity similar to IBM Cloud Direct Link Dedicated, but the connection point is adjacent to a {{site.data.keyword.BluSoftlayer_notm}} Data Center, which improves latency for higher performance use cases. IBM Cloud offers a variety of customizable co-location services with this solution, with simple pricing.
+The IBM Cloud Direct Link Dedicated Hosting solution provides connectivity similar to IBM Cloud Direct Link Dedicated, but the connection point is adjacent to a {{site.data.keyword.BluSoftlayer_notm}} data center, which improves latency for higher performance use cases. IBM Cloud offers a variety of customizable co-location services with this solution, with simple pricing.
 
 **Common Use Cases:** _Best for working with non-standard compute technologies, for dedicated storage requirements, or for leveraging existing IT investments._
 
