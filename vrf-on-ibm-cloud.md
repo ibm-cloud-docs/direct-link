@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-26"
+lastupdated: "2019-03-26"
 
 keywords: VRF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, datacenters, data, center, shared tenancy, private endpoint, Customer VRF, Private Network Question, support, ticket
 
@@ -90,8 +90,17 @@ During migration, the VLANs are disconnected from the backbone and reconnected t
 ## How you can initiate the conversion
 {: #how-you-can-initiate-the-conversion}
 
-Existing IBM Cloud customers can open a support ticket through their [IBM Cloud Console ![External link icon](../../icons/launch-glyph.svg "External link icon")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) account, requesting to be migrated to a VRF. The ticket should state: “Private Network Question” and include the following text in the support ticket:
+Existing IBM Cloud customers can [open a support ticket](https://cloud.ibm.com/unifiedsupport/cases/add) through their [IBM Cloud Console ![External link icon](../../icons/launch-glyph.svg "External link icon")]( https://cloud.ibm.com/unifiedsupport/cases/add) account, requesting to be migrated to a VRF. The ticket should state: “Private Network Question” and include the following text in the support ticket:
 
 "We are requesting that account _fill in your account number_ is moved to its own VRF. We understand the risks and approve the change. Please reply back with the scheduled window(s) of time where this change will be made so we can prepare for the migration."
 
 Migration is completed by the IBM Cloud Network Engineering team. No other information is required from you, except an agreed-to schedule. Typically, packet loss may last 15-30 minutes, depending on the complexity of your account. (It may be longer if your account has legacy Direct Link connections). The process is highly automated, requiring minimal interaction by the IBM team, and it should be transparent.
+
+When you're opening the ticket, it's recommended to select the "Account" option as shown in the following figure, although any option can work if you include the text given previously:
+
+![image](https://media.github.ibm.com/user/11495/files/4474c300-4bd9-11e9-9bc7-d6242d7997e9)
+
+If you choose the **Technical** support option, select **Direct Link** from the dropdown menu of technical items:
+
+![image](https://media.github.ibm.com/user/11495/files/57879300-4bd9-11e9-826d-7f4f10d720df)
+

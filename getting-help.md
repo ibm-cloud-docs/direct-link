@@ -35,7 +35,7 @@ subcollection: direct-link
 # Getting help and support 
 {: #getting-help-and-support}
 
-If you have problems or questions when using {{site.data.keyword.cloud}} Direct Link, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the [IBM Cloud Console ![External link icon](../../icons/launch-glyph.svg "External link icon")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) or [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/).
+If you have problems or questions when using {{site.data.keyword.cloud}} Direct Link, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the [IBM Cloud Console ![External link icon](../../icons/launch-glyph.svg "External link icon")]( https://cloud.ibm.com/unifiedsupport/cases/add) or [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/).
 {:shortdesc}
 
 When using the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
