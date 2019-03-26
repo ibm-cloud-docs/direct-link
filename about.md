@@ -118,6 +118,6 @@ The IBM Cloud Direct Link Dedicated Hosting solution provides connectivity simil
 
  * **IBM Colocation Services:** Yes.
 
- * **Redundancy:** {{site.data.keyword.BluSoftlayer_notm}} provides connections to (2) diverse cross-connect routers (XCRs) as part of the product. To establish redundant connectivity, customers must configure BGP on each Direct Link connection as they see fit to achieve redundancy. Examples include options such as these: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
+ * **Redundancy:** {{site.data.keyword.BluSoftlayer_notm}} provides connections to two (2) diverse cross-connect routers (XCRs) as part of the product. To establish redundant connectivity, customers must configure BGP on each Direct Link connection as they prefer. Examples include options such as these: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
  * **Local/Global Routing Options:** The Local Routing option is the default routing option. It provides access to datacenters within the same Market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your in-market IBM cloud resources to other IBM Cloud resources in datacenters outside the local market. It is used to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
