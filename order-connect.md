@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-26"
+lastupdated: "2019-03-27"
 
 keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, datacenter, data, center, pricing, virtual circuit, Request ID, Authorization ID
 
@@ -43,6 +43,7 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | Chief Telecomm | Hong Kong 1* |
 | Colt | Amsterdam 2, Frankfurt 1, Paris 2, Tokyo 1, Singapore 2, London 1*, Hong Kong 1*,  |
 | Console Connect by PCCW | Hong Kong 1, Tokyo 1, Singapore 2, London 1, San Jose 2 |
+| Digital Realty Service Exchange |	Supported by Megaport in AMS02, FRA01, LON03, STO01, DAL03, SJC02, TOR02, WDC02 |
 | Epsilon | Amsterdam 2*, Dallas 3*, Frankfurt 1*, Hong Kong 1*, London 1*, Singapore 2*, Washington DC 2* |
 | IBM BlueFringe | Dallas 3, Washington DC 2, Chennai 1 |
 | Intercloud | Frankfurt 1, Frankfurt 3, Amsterdam 2 |
