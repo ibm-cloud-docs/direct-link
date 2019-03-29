@@ -63,20 +63,15 @@ Direct Link does not provide an inherently Redundant service. Direct Link can pr
 
 With our standard Direct Link offering, you can send traffic between the data centers in your selected region. If you need access to other data centers outside of the specified region, you must order the Global Routing add-on. This model is based upon ACLs (access control lists) that are put in place at the time your Direct Link connection is ordered. 
 
-## How are the outbound (egress) bandwidth overages billed for the Global Routing add-on in Direct Link?
-{:faq}
-
-Overages are billed monthly when your alotment of bandwidth is exceeded, but only for outbound bandwidth. Inbound bandwidth is free of charge and not metered. Outbound bandwidth is billed based on the rate that is the higher of the two regions that your data crosses.  For example, if your Direct Link is configured in DAL03 and your data traffic passes through Mexico, you will be charged the bandwidth rate for Mexico.
-
 ## Why does a Global Routing add-on package exist for Direct Link?
 {:faq}
 
-We have added the Global Routing add-on to prevent our customers from experiencing unexpected data costs when traversing outside of their data center's region. It keeps costs lower for the majority of our customers, and it provides the ability for customers with a global presence to reach all regions across the globe easily. Usually, however, a customer requires only a local bandwidth package.
+We have added the Global Routing add-on to prevent our customers from experiencing unexpected data costs when traversing outside of their data center's Local Market. It keeps costs lower for the majority of our customers, and it provides the ability for customers with a global presence to reach all regions across the globe easily. Usually, however, a customer requires only a local bandwidth package.
 
 ## If I am connected to a Direct Link Dedicated, Direct Link Connect, or Direct Link Exchange in a region such as Dallas, do I have access to other regions in the U.S. through Direct Link?
 {:faq}
 
-Yes, you are able to gain access to areas outside of your region if you choose the Global Routing add-on. If this option is not selected, your Direct Link traffic will be limited to the region for the PoP location you have selected. Please refer to the [pricing document](/docs/infrastructure/direct-link/pricing.html)for details.
+Yes, you are able to gain access to areas outside of your Local Market if you choose the Global Routing add-on. If this option is not selected, your Direct Link traffic will be limited to the Local Market for the PoP or DC location you have selected. Please refer to the [pricing document](/docs/infrastructure/direct-link/pricing.html)for details.
 
 ## Can I connect to any available region from a given Direct Link location?
 {:faq}
@@ -86,7 +81,7 @@ Yes, as long as you order Direct Link with the Global Routing add-on.
 ## Can I restrict the regions that my Direct Link can reach?
 {:faq}
 
-No. IBM Cloud offers two options: (1) a single region only, or (2) all regions, with the Global Routing add-on.
+No. IBM Cloud offers two options: (1) a Local Market only, or (2) all regions, with the Global Routing add-on.
 
 ## What if I used the Direct Link automated ordering process for Equinix Cloud Exchange and I was assigned a subnet that overlaps my internal network?
 {:faq}
@@ -100,7 +95,7 @@ These two services are similar, relatively low-cost, latency tolerant, and rapid
 
 **Direct Link Exchange** is recommended for customers who prefer to utilize an exchange inside a datacenter. With an Exchange service, customers can enable multi-cloud connectivity to their co=location rapidly, because the underlying circuits are provisioned already (these other cloud providers must already have a physical interconnection present within the facility).
 
-Direct Link Exchange can allow for a multi-cloud, shared use environment through a single cloud exchange port, created by a network-to-network (NNI) connection at Layer 2 between IBM Cloud and the Cloud Exchange Service Provider. Port speeds are available up to 1Gb.
+Direct Link Exchange can allow for a multi-cloud, shared use environment through a single cloud exchange port, created by a network-to-network (NNI) connection at Layer 2 between IBM Cloud and the Cloud Exchange Service Provider. Port speeds are available up to 5Gb.
 
 **Direct Link Connect** is for customers who prefer to utilize their existing network between their own on-premises deployment and IBM Cloud. With a Direct Link Connect service, customers can use new and existing Telco networks (such as MPLS) to enable IBM Cloud rapidly, by leveraging pre-provisioned underlying circuits.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-26"
+lastupdated: "2019-03-28"
 
 keywords: hybrid, workloads, deployments, multi-cloud, data transfer, descriptions, diverse, redundant
 
@@ -21,12 +21,12 @@ subcollection: direct-link
 # Get Started with IBM Cloud Direct Link
 {: #get-started-with-ibm-cloud-direct-link}
 
-{{site.data.keyword.cloud}} Direct Link is a suite of four offerings from the IBM Cloud Network, with availability in locations around the globe. Each one enables customers to create direct, private connections between their remote network environments and their IBM Cloud deployments--without touching the public internet. Most commonly, these offerings are implemented to support hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, or to ease administration of the {{site.data.keyword.BluSoftlayer_notm}} environment.
+{{site.data.keyword.cloud}} Direct Link is a suite of four offerings from the IBM Cloud Network, with availability in locations around the globe. Each one enables customers to create direct, private connections between their remote network environments and their IBM Cloud deployments--without touching the public internet. Most commonly, these offerings are implemented to support hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, or to ease administration of the {{site.data.keyword.cloud_notm}} environment.
 
 ## Browse and order
 {: #browse-and-order}
 
-To get started using IBM Cloud Direct Link, browse through this documentation and decide which solution will work best for you. If you desire more help with getting started, you open a ticket through the [IBM Cloud Console ![External link icon](../../icons/launch-glyph.svg "External link icon")]( https://control.bluemix.net/support/unifiedConsole/tickets/add), or you can contact your IBM Cloud sales representative.
+To get started using IBM Cloud Direct Link, browse through this documentation and decide which solution will work best for you. If you desire more help with getting started, you open a ticket through the [IBM Cloud Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/unifiedsupport/cases/add), or you can contact your IBM Cloud sales representative.
 
 When you're ready to order, follow the step by step instructions for the specific Direct Link solution that you need, [here](/docs/infrastructure/direct-link?topic=direct-link-order-ibm-cloud-direct-link).
 

@@ -7,10 +7,11 @@ Direct Link
     {: .navgroup id="learn"}
     getting-started.md
     overview.md
+    direct-link-july-policy-change.md
     about.md
+    direct-link-video.md
     whats-new.md
     alternative-deployments.md
-    vrf-on-ibm-cloud.md
     diversity-models.md
     connect-details.md
     pricing.md
@@ -57,3 +58,5 @@ Direct Link
     faqs.md
     getting-help.md
     {: .navgroup-end}
+    
+    
