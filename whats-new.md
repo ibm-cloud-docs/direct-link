@@ -1,9 +1,9 @@
 ---
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-26"
+lastupdated: "2019-03-29"
 
-keywords: Intercloud, Frankfurt, PoPs, Connect, Exchange, Chennai, Equinix, Megaport, Kinx, diversity, Bluefringe, CenturyLink, BT, Sao Paulo, Tokyo, Japan, PCCW, Colt, blog, service provider, partner, Telia, Internexion, Packet Fabric
+keywords: Intercloud, Frankfurt, PoPs, Connect, Exchange, Chennai, Equinix, Megaport, Kinx, diversity, Bluefringe, CenturyLink, BT, Sao Paulo, Tokyo, Japan, PCCW, Colt, blog, service provider, partner, Telia, Internexion, Packet Fabric, global routing, expanded market
 
 subcollection: direct-link
 
@@ -16,6 +16,46 @@ subcollection: direct-link
 {: #what-s-new}
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link. We're growing daily!
+
+## March 2019
+
+March has been a very busy month for Direct Link. 
+
+* To improve customer experience and provide greater value, we are enhancing the {{site.data.keyword.cloud_notm}} Direct Link Global Routing Service. 
+* We have added several new partners for Direct Link Connect. Those are listed later in this section.
+
+Please review the [full text of our announcement](/docs/infrastructure/direct-link?topic=direct-link-announcement-global-routing-policy-change-begins-july-1) about changes to Global Routing.
+
+### Expanded local markets
+We have expanded the Direct Link Local Markets to provide more local routing options to our customers globally. The new Local Market assignments are listed below:
+
+* The Dallas local Market will now include Denver, Houston and Chicago PoPs.
+* The Washington DC local Market will now include New York , Atlanta and Miami PoPs.
+* The San Jose local market will now include the Los Angeles PoP .
+* The Oslo local market will now include the Stockholm PoP.
+* The Sydney local market will now include the Perth PoP.
+* The Hong Kong local market will include the Taipei PoP once launched.
+* The Tokyo local market will include the Osaka PoP once launched.
+* The Chennai local market will include the Mumbai PoP once launched.
+
+These changes are outlined in tables found at: https://cloud.ibm.com/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-direct-link-local-markets
+
+### Withdrawing of Global Routing network transit overage charges
+Along with this announcement, we have withdrawn the network transit limits and overage charges for customers with the Global Routing option. Previous pricing included network transit allowances and overage charges for egress traffic outside of the customer’s local market. New pricing eliminates these network traffic charges. Effective with this announcement, ingress and egress traffic across Direct Link connections will not incur overages.
+
+* March 26: Megaport is now available in Chicago for Connect
+* March 13: Tokai is now available in Tokyo 3 for Connect
+* March 8: TATA is now available in Hong Kong 1 for Connect
+* March 1: EU Networks is now available in Frankfurt 1 for Connect
+* March 1: NTT is now available in Tokyo 5 for Connect
+
+## February 2019
+
+* February 28: Zayo is now available in Washington DC 2 for Connect
+* February 27: MWS GNPP is now available in both Dallas 03 and Washington DC 2 for Connect
+* February 21: Cyrus One is now available in Dallas 13 for Exchange
+* February 21: DE-Cix One is now available in Frankfurt 3 for Exchange
+* February 19: Neutrona is now available in Washington DC 2 for Connect
 
 ## January 2019
 
@@ -40,7 +80,7 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct L
 
 ### New Connectivity Options for Direct Link
 
-IBM Cloud is pleased to announce new and expanded collaborations with InterCloud, SES Networks, and CenturyLink. Check out the links below to learn more:
+{{site.data.keyword.cloud_notm}} is pleased to announce new and expanded collaborations with InterCloud, SES Networks, and CenturyLink. Check out the links below to learn more:
 
 * [InterCloud offers dedicated connectivity to IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://digitalisationworld.com/news/55529/intercloud-offers-dedicated-connectivity-to-ibm-cloud)
 * [SES Networks enables direct connectivity to IBM Cloud via global satellite network ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ses.com/press-release/ses-networks-enables-direct-connectivity-ibm-cloud-global-satellite-network)
@@ -56,18 +96,18 @@ IBM Cloud is pleased to announce new and expanded collaborations with InterCloud
 
 ### IBM Cloud Direct Link continues connectivity collaborations
 
-The IBM Cloud Direct Link service continues to expand globally! In light of the recent IBM Cloud Service Provider Program announcement, we have made several additional announcements recently. View these key resources to learn more:
+The {{site.data.keyword.cloud_notm}} Direct Link service continues to expand globally! In light of the recent IBM Cloud Service Provider Program announcement, we have made several additional announcements recently. View these key resources to learn more:
 
-* IBM Cloud Blog: [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2018/09/interxion-enterprise-ibm-cloud-services/)
-* IBM Cloud Blog: [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/)
-* IBM Cloud Japan Blog: [AT TOKYO announcement - Japanese Translation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/solutions/jp-ja/tokyo-connects-ibm-cloud-support-mission-critical-applications-httpswww-ibm-comblogssolutionsjp-ja/)
-* IBM Cloud Blog: [PackerFabric and IBM Cloud Enable Secure Enterprise Connections ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/)
+* {{site.data.keyword.cloud_notm}} Blog: [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2018/09/interxion-enterprise-ibm-cloud-services/)
+* I{{site.data.keyword.cloud_notm}} Blog: [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/)
+* {{site.data.keyword.cloud_notm}} Japan Blog: [AT TOKYO announcement - Japanese Translation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/solutions/jp-ja/tokyo-connects-ibm-cloud-support-mission-critical-applications-httpswww-ibm-comblogssolutionsjp-ja/)
+* {{site.data.keyword.cloud_notm}} Blog: [PackerFabric and IBM Cloud Enable Secure Enterprise Connections ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/)
 
 ## August 2018
 
 ### CenturyLink Connects to IBM Cloud
 
-CenturyLink Cloud Connect Solutions now deliver private, secure network connectivity to IBM Cloud, helping organizations innovate more efficiently by establishing low-latency connections on a global basis across a private network to the IBM Cloud through IBM Cloud Direct Link. This extended collaboration between Century Link and IBM builds on Century Link's existing support for IBM Business Resiliency Services and IBM Cloud Managed Services.
+CenturyLink Cloud Connect Solutions now deliver private, secure network connectivity to {{site.data.keyword.cloud_notm}}, helping organizations innovate more efficiently by establishing low-latency connections on a global basis across a private network to the {{site.data.keyword.cloud_notm}} through {{site.data.keyword.cloud_notm}} Direct Link. This extended collaboration between Century Link and IBM builds on Century Link's existing support for IBM Business Resiliency Services and {{site.data.keyword.cloud_notm}} Managed Services.
 
 **Learn More:**
 * Press Release:[CenturyLink Connects to IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://news.centurylink.com/2018-08-01-CenturyLink-Connects-Enterprises-to-IBM-Cloud)
@@ -77,7 +117,7 @@ CenturyLink Cloud Connect Solutions now deliver private, secure network connecti
 
 ### Digital Realty adds direct, secure access to IBM Cloud in 15 global metros
 
-Direct access to IBM Cloud is now available through the Digital Realty Service Exchange and IBM Cloud Direct via more than 70  Digital Realty data centers and multiple continents around the globe. The Digital Realty Service Exchange provides private, secure, high-throughput, and low-latency access over a single interface to IBM Cloud, helping customers overcome some of the limitations of the public Internet and helping to eliminate network congestion and enable critical workloads that may have not been previously feasible, such as AI, machine learning, and Blockchain.
+Direct access to {{site.data.keyword.cloud_notm}} is now available through the Digital Realty Service Exchange and {{site.data.keyword.cloud_notm}} Direct, by means of more than 70  Digital Realty data centers and multiple continents around the globe. The Digital Realty Service Exchange provides private, secure, high-throughput, and low-latency access over a single interface to IBM Cloud, helping customers overcome some of the limitations of the public Internet and helping to eliminate network congestion and enable critical workloads that may have not been previously feasible, such as AI, machine learning, and Blockchain.
 
 **Learn More:**
 * Press Release:[Digital Realty adds direct, secure access to IBM Cloud in 15 global metros ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://investor.digitalrealty.com/investor-relations/news-and-events/news/news-details/2018/Digital-Realty-Adds-Direct-Secure-Access-to-IBM-Cloud-in-15-Global-Metros/default.aspx?_ga=2.4622768.2004310000.1533067916-309713252.1509692838)
@@ -88,9 +128,9 @@ Direct access to IBM Cloud is now available through the Digital Realty Service E
 
 ## June 2018
 
-### IBM Cloud Direct Link Service Provider Program
+### {{site.data.keyword.cloud_notm}} Direct Link Service Provider Program
 
-We're pleased to announce our new IBM Cloud Direct Link Service Provider Program, which enables enterprises to select from a robust ecosystem of local and global providers and create the private connections to IBM Cloud that best suit their needs. We'll work closely to provide technical enablement and training to help ensure service providers can offer enterprises reliable connectivity to the cloud from anywhere in the world. This gives our joint customers greater choice to select the right provider, speed of service, location and deployment model to create a secure, highly available hybrid connection.
+We're pleased to announce our new {{site.data.keyword.cloud_notm}} Direct Link Service Provider Program, which enables enterprises to select from a robust ecosystem of local and global providers and create the private connections to {{site.data.keyword.cloud_notm}} that best suit their needs. We'll work closely to provide technical enablement and training to help ensure service providers can offer enterprises reliable connectivity to the cloud from anywhere in the world. This gives our joint customers greater choice to select the right provider, speed of service, location and deployment model to create a secure, highly available hybrid connection.
 
 **Learn more:**
 * Thoughts on Cloud Blog: [Supporting the next generation of apps with IBM Cloud Direct Link ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/)
@@ -98,7 +138,7 @@ We're pleased to announce our new IBM Cloud Direct Link Service Provider Program
 
 ### Colt Offers Direct Access to IBM Cloud Direct Link
 
-IBM is pleased to announce our extended collaboration with Colt. Thanks to Colt's Dedicated Cloud Access (DCA) service, customers can now establish private connectivity from their data center, office or co-location environment, to reduce network costs, increase bandwidth throughput, and provide a more consistent network experience than internet based connections.
+{{site.data.keyword.cloud_notm}} is pleased to announce our extended collaboration with Colt. Thanks to Colt's Dedicated Cloud Access (DCA) service, customers can now establish private connectivity from their data center, office or co-location environment, to reduce network costs, increase bandwidth throughput, and provide a more consistent network experience than internet based connections.
 
 **Learn more:**
 
@@ -122,7 +162,7 @@ IBM is pleased to announce our extended collaboration with Colt. Thanks to Colt'
 
 ### Interxion’s Frankfurt and Stockholm campuses are now connected to IBM Cloud Direct Link
 
-Interxion, a leading provider of carrier and cloud-neutral colocation data centre services in Europe, announced that direct access to IBM Cloud services is now available across its European footprint through Cloud Connect, Interxion’s cloud interconnection platform.
+Interxion, a leading provider of carrier and cloud-neutral colocation data centre services in Europe, announced that direct access to {{site.data.keyword.cloud_notm}} services is now available across its European footprint through Cloud Connect, Interxion’s cloud interconnection platform.
 
 **Learn More**
 
@@ -132,7 +172,7 @@ Interxion, a leading provider of carrier and cloud-neutral colocation data centr
 
 ### PacketFabric Offers Connectivity to IBM Cloud
 
-PacketFabric customers have access to IBM Cloud services in Dallas, Texas; San Francisco, California; and Washington, D.C., from any location on the PacketFabric network.
+PacketFabric customers have access to {{site.data.keyword.cloud_notm}} services in Dallas, Texas; San Francisco, California; and Washington, D.C., from any location on the PacketFabric network.
 
 **Learn More**
 
@@ -141,4 +181,4 @@ PacketFabric customers have access to IBM Cloud services in Dallas, Texas; San F
 
 ## February 2018
 
- * IBM Cloud Direct Link Connect is available.
+ * {{site.data.keyword.cloud_notm}} Direct Link Connect is available.

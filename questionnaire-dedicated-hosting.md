@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-26"
+lastupdated: "2019-03-29"
 
 
 keywords: Dedicated, Hosting, finalize, questionnaire, Network Engineering, billing, fees, VRF, BGP, ticket, cross-connects, datacenters, data, center, backhaul, single mode, single-mode, fiber, Letter of Authorization, LOA, contract
@@ -25,6 +25,7 @@ subcollection: direct-link
 Thank you for opening a request for {{site.data.keyword.cloud}} Direct Link Dedicated Hosting.  To finalize your request, we’d like to gather some additional information from you.  You can speak with an engineer at any time during the questionnaire process.  Once you've completed the questionnaire, it will be reviewed by our Cloud Design Engineering team and escalated to Network Engineering for implementation.
 
 ## Acknowledgements
+{: #dedicated-hosting-acknowledgements}
 
 1. The fees outlined in this questionnaire cover the cost of service termination into the IBM Cloud network infrastructure. Colocation costs, including cabinets, cross-connects, etc. include monthly and non-recurring fees that are outlined separately as part of a colocation contract.
 

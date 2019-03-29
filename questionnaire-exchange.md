@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-26"
+lastupdated: "2019-03-29"
 
 keywords: Exchange, finalize, questionnaire, Special Network Services, billing, fees, VRF, BGP, ticket, ASN, VPN, metering, data, center, datacenter
 
@@ -24,6 +24,7 @@ subcollection: direct-link
 Thank you for opening a request for {{site.data.keyword.cloud}} Direct Link Exchange.  To finalize your request, we’d like to gather some additional information from you.  You can speak with an engineer at any time during the questionnaire process.  Once you've completed the questionnaire, it will be reviewed by our Cloud Design Engineering team and escalated to Special Network Services for implementation.
 
 ## Do you acknowledge and agree to the following?
+{: #exchange-do-you-agree}
 
 1. Each Direct Link connection requires a unique order.  If you require multiple connections, please open separate Direct Link orders for each connection.
 
@@ -56,6 +57,7 @@ Thank you for opening a request for {{site.data.keyword.cloud}} Direct Link Exch
 11. IBM Cloud Direct Link Exchange requires BGP in order to implement routes to a customer's remote network. When your Direct Link service has been deployed, IBM Cloud will advertise all of the private subnets assigned to your account. IBM Cloud, and will not implement custom filters, AS-Path prepend and custom local-preference to advertisements to the Customer's remote BGP peer. IBM Cloud will not implement filters on the advertisements received to IBM Cloud. Customers will need to properly manage the advertisements to/from IBM Cloud from the customer's edge router. 
 
 ## Other questions
+{: #exchange-other-questions}
 
 * **Do you acknowledge and accept the pricing of _YOUR LOCATION_ for the IBM Cloud Direct Link Exchange connection?**
 
