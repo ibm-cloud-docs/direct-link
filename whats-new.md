@@ -41,7 +41,7 @@ We have expanded the Direct Link Local Markets to provide more local routing opt
 These changes are outlined in tables found at: https://cloud.ibm.com/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-direct-link-local-markets
 
 ### Withdrawing of Global Routing network transit overage charges
-Along with this announcement, we have withdrawn the network transit limits and overage charges for customers with the Global Routing option. Previous pricing included network transit allowances and overage charges for egress traffic outside of the customer’s local market. New pricing eliminates these network traffic charges. Effective with this announcement, ingress and egress traffic across Direct Link connections will not incur overages.
+We have withdrawn the network transit limits and overage charges for customers with the Global Routing option. Previous pricing included network transit allowances and overage charges for egress traffic outside of the customer’s local market. New pricing eliminates these network traffic charges. Henceforth, ingress and egress traffic across Direct Link connections will not incur overages.
 
 * March 26: Megaport is now available in Chicago for Connect
 * March 13: Tokai is now available in Tokyo 3 for Connect
