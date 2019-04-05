@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-29"
+lastupdated: "2019-04-02"
 
 keywords: Exchange, finalize, questionnaire, Special Network Services, billing, fees, VRF, BGP, ticket, ASN, VPN, metering, data, center, datacenter
 
@@ -77,6 +77,7 @@ Thank you for opening a request for {{site.data.keyword.cloud}} Direct Link Exch
 
 
 ### Global Routing Pricing
+{: #exchange-global-routing-pricing}
 
 | Global Routing Ingress | Global Routing Egress |
 |---|---|

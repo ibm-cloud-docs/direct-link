@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-29"
+lastupdated: "2019-04-02"
 
 keywords: Dedicated, finalize, questionnaire, Special Network Services, billing, fees, VRF, BGP, ticket, cross-connect, link speed, VPN, data, center, PoP, ECMP
 
@@ -78,6 +78,7 @@ Thank you for opening a request for {{site.data.keyword.cloud}} Direct Link Dedi
 
 
 ### Global Routing Pricing
+{: #dedicated-global-routing-pricing}
 
 | Global Routing Ingress | Global Routing Egress |
 |---|---|

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-03-28"
+lastupdated: "2019-04-01"
 
 keywords: hybrid, solutions, features, benefits, port speed, cross-connect, use cases, latency, routing, options, colocation
 
@@ -29,6 +29,7 @@ This section lets you browse more details about the key features and benefits of
   * [**IBM Cloud Direct Link Dedicated Hosting**](#the-ibm-cloud-direct-link-dedicated-hosting-solution)
 
 ## The IBM Cloud Direct Link Exchange solution
+{: #direct-link-exchange-solution}
 
 The IBM Cloud Direct Link Exchange solution lets customers utilize a Cloud Exchange provider to deliver connectivity to {{site.data.keyword.cloud_notm}} locations. This offering typically provides connectivity at a reduced cost, because the physical connectivity from {{site.data.keyword.cloud_notm}} to the Cloud Exchange Provider is already in place, shared among other customers.
 
@@ -53,6 +54,7 @@ The IBM Cloud Direct Link Exchange solution lets customers utilize a Cloud Excha
  * **Local/Global Routing Options:** The Local Routing option is the default routing option. It provides access to datacenters within the same Market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your IBM cloud resources to other IBM Cloud resources in datacenters outside the local market. It provides a way to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
  
 ## The IBM Cloud Direct Link Connect solution
+{: #direct-link-connect-solution}
 
 **Common Use Cases** The IBM Cloud Direct Link Connect solution lets customers leverage a network service provider (NSP) to deliver connectivity to {{site.data.keyword.cloud_notm}} locations. This offering typically provides connectivity at a reduced cost, because the physical connectivity from {{site.data.keyword.cloud_notm}} to the Network Service Provider is already in place, shared among other customers.
 
@@ -75,6 +77,7 @@ The IBM Cloud Direct Link Exchange solution lets customers utilize a Cloud Excha
 * **Local/Global Routing Options:** The Local Routing option is the default routing option. It provides access to datacenters within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your IBM cloud resources to other IBM Cloud resources in datacenters outside the local market. It is used to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
 
 ## The IBM Cloud Direct Link Dedicated solution
+{: #direct-link-dedicated-solution}
 
 The IBM Cloud Direct Link Dedicated solution lets customers terminate a single-tenant, fiber-based cross-connect into their own {{site.data.keyword.cloud_notm}} private network connection. This offering can be utilized by customers with co-location facilities adjacent to IBM Cloud PoPs and datacenters, as well as by network service providers that deliver circuits to customer premises or to other datacenters.
 
@@ -105,6 +108,7 @@ The IBM Cloud Direct Link Dedicated solution lets customers terminate a single-t
  * **Local/Global Routing Options:** The Local Routing option is the default routing option. It provides access to datacenters within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your IBM cloud resources to other IBM Cloud resources in datacenters outside the local market. It provides a way to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
 
 ## The IBM Cloud Direct Link Dedicated Hosting solution
+{: #direct-link-dedicated-hosting-solution}
 
 The IBM Cloud Direct Link Dedicated Hosting solution provides connectivity similar to IBM Cloud Direct Link Dedicated, but the connection point is adjacent to a {{site.data.keyword.cloud_notm}} data center, which improves latency for higher performance use cases. IBM Cloud offers a variety of customizable co-location services with this solution, with simple pricing.
 

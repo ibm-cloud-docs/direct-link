@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-26"
+lastupdated: "2019-04-02"
 
 keywords: diversity, redundancy, schematics, deployment, configuration, global routing, ECMP, Dual XCRs, model
 
@@ -24,6 +24,7 @@ subcollection: direct-link
 This document gives a series of schematics related to issues of redundancy and diversity, which can help you find a model for creating the most successful {{site.data.keyword.cloud}} Direct Link deployment to meet your needs. The schematics are arranged in increasing levels of complexity and also according to the Direct Link offering that each one is illustrating. Direct Link is not an inherently redundant service at the cross-connect router (XCR), customers have the responsibility for creating redundancy through their border gateway protocol (BGP) schemas. 
 
 ## Section 1: Relatively simple configurations that achieve diversity
+{: #section-1-diversity-models}
 
 The configurations shown in this group rely on the fact that all of the assets are located in the same PoP and in the same global market.
 
@@ -40,10 +41,12 @@ The configurations shown in this group rely on the fact that all of the assets a
 ![Dedicated with diversity in the same PoP](/images/dedicated-diversity-same-pop.png)
 
 ## Section 2: Diversity that includes AZs and Global Routing options
+{: #section-2-diversity-models}
 
 The configurations shown in this group offer options for connecting across local availability zones and markets.
 
 ### Part A: Diversity in a local availability zone (AZ)
+{: #section-2-part-a}
 
 **Figure 4: Direct Link Exchange with diversity in a local AZ (WDC, DAL, FRA, LON)**
 
@@ -58,6 +61,7 @@ The configurations shown in this group offer options for connecting across local
 ![Dedicated with diversity in the local AZ](/images/dedicated-diversity-local-az.png)
 
 ### Part B: Diversity in different local markets, with Global Routing
+{: #section-2-part-b}
 
 **Figure 7: Direct Link Connect with diversity and Global Routing**
 
@@ -72,18 +76,20 @@ The configurations shown in this group offer options for connecting across local
 ![Dedicated with diversity and Global Routing](/images/dedicated-diversity-global.png)
 
 ## More about ECMP
+{: #more-about-ecmp}
 
 ECMP is a feature of BGP. Some customers have asked us about using ECMP as a way to achieve redundancy. However, ECMP alone is not sufficient. This section explains why.
 
 **Q: Is ECMP the way to go for redundant connections? What alternatives exist?**
 
-ECMP isn’t designed for creating redundant connections but for balancing the load over two links. With ECMP on IBM Cloud, both connections must terminate to the same IBM Cloud cross-connect router (XCR), which makes it a single point of failure. (In other words, ECMP can only be provisioned as two sessions on the same IBM Cloud XCR.)
+ECMP isn’t designed for creating redundant connections but for balancing the load over two links. With ECMP on {{site.data.keyword.cloud_notm}}, both connections must terminate to the same IBM Cloud cross-connect router (XCR), which makes it a single point of failure. (In other words, ECMP can only be provisioned as two sessions on the same {{site.data.keyword.cloud_notm}} XCR.)
 
 **Figure 10: ECMP provisioning**
 
 ![ECMP Dedicated model](/images/ecmp-without-diversity.png)
 
 ### How to achieve Diversity and Redundancy
+{: #how-to-achieve-diversity-and-redundancy}
 
 If you are looking for High Availability (HA) or full redundancy: set up two links into different XCRs in the same data center (for example DAL03). Then failover as needed using BGP configurations.
 

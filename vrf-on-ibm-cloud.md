@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-03-26"
+lastupdated: "2019-04-03"
 
 keywords: VRF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, datacenters, data, center, shared tenancy, private endpoint, Customer VRF, Private Network Question, support, ticket
 
@@ -24,6 +24,7 @@ subcollection: direct-link
 By definition, virtual routing and forwarding (VRF) is a technology included in Internet Protocol (IP) network routers. It is delivered as an inherent backbone service.
 
 ## Connectivity Options for IBM Cloud
+{: #connectivity-options-for-ibm-cloud}
 
 **Dispersed cloud resources** are resources in more than one location, or even in more than one subnet or VLAN. These resources require a routing function to communicate amongst themselves, even within a private network context. This document describes a "multiple isolation" tenancy communication option, which often is called a _Customer VRF_. It is implemented as an MPLS Layer-3 VPN (RFC 4364) across the global {{site.data.keyword.cloud}} backbone.
 
@@ -36,6 +37,7 @@ In general, the IBM Cloud Platform offers two options for routing across our pri
 This document uses the term **Customer VRF** to describe _multiple isolation_ network connectivity.
 
 ## VRF Overview (multiple isolation technology)
+{: #vrf-overview}
 
 Virtual routing and forwarding (VRF) allows multiple instances of a routing table to exist in a router and to work simultaneously. With virtual routing and forwarding (VRF), each cloud tenant's VRF network is segmented within its routing table. This segmentation allows for IP address overlaps, and it doesn’t create any interaction or interference with other tenant VRFs. IBM Cloud utilizes a large majority of the `10.0.0.0/8` network, which may overlap with many remote networks, for example networks deployed at customer datacenters.
 
@@ -60,6 +62,7 @@ Each tenant on the backbone who utilizes Virtual Routing and Forwarding (VRF) ma
 * The Customer VRF is a connectivity service that provides isolation among tenants. Any additional controls needed within a tenancy must be provisioned separately, using a gateway, security groups, or host-based controls.
 
 ## Benefits of moving to VRF
+{: #benefits-of-moving-to-vrf}
 
 **The primary benefits include:**
 
@@ -78,6 +81,7 @@ Each tenant on the backbone who utilizes Virtual Routing and Forwarding (VRF) ma
 * VLAN spanning within your _multiple isolation_ tenancy is not available.
 
 ## What happens during account conversion process
+{: #what-happens-during-the-account-conversion-process}
 
 Many IBM Cloud customers currently operate with a shared tenancy model on the IBM Cloud network. During conversion, the tenancy is converted to use a Customer VRF, most commonly with a new Direct Link subscription, or as otherwise required or requested.  
 
@@ -99,8 +103,3 @@ Migration is completed by the IBM Cloud Network Engineering team. No other infor
 When you're opening the ticket, it's recommended to select the "Account" option as shown in the following figure, although any option can work if you include the text given previously:
 
 ![image](https://media.github.ibm.com/user/11495/files/4474c300-4bd9-11e9-9bc7-d6242d7997e9)
-
-If you choose the **Technical** support option, select **Direct Link** from the dropdown menu of technical items:
-
-![image](https://media.github.ibm.com/user/11495/files/57879300-4bd9-11e9-826d-7f4f10d720df)
-

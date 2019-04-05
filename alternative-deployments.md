@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-26"
+lastupdated: "2019-04-01"
 
 keywords: use case, alternatives, deployments, diverse, redundant, default, multi-cloud, other clouds, schematic
 
@@ -24,6 +24,7 @@ subcollection: direct-link
 This document illustrates some alternatives that our customers sometimes choose as use cases for their {{site.data.keyword.cloud}} Direct Link deployments.
 
 ## Diverse deployments for Exchange and Connect
+{: #diverse-deployments-for-exchange-and-connect}
 
 The default deployments of Direct Link Connect and Direct Link Exchange do not include redundant configuration, although they can be deployed diversely on discrete routers.
 
@@ -41,6 +42,7 @@ IBM Cloud Direct Link also makes it easy to establish diverse Connect deployment
 **Figure 2 (above): A redundant and diverse IBM Cloud Direct Link Connect deployment**
 
 ## Using Exchange and Connect in conjunction with other clouds
+{: #using-exchange-and-connect-in-conjunction-with-other-clouds}
 
 Some of our customers wish to use Direct Link Exchange in conjunction with other cloud providers, such as AWS, Azure, or Google Cloud. The following schematic shows an overview of how to establish this type of connection with a Cloud Exchange provider.
 

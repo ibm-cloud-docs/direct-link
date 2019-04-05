@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-27"
+lastupdated: "2019-04-02"
 
 keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, datacenter, data, center, pricing, virtual circuit, Request ID, Authorization ID
 
@@ -30,6 +30,7 @@ subcollection: direct-link
  
 
 ## Locations
+{: #connect-locations}
 
 Our IBM Cloud Direct Link Connect providers include these locations:
 
@@ -64,5 +65,6 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 * = Coming Soon
 
 ## Pricing
+{: #connect-pricing}
 
-For pricing information, please refer to the [pricing document](/docs/infrastructure/direct-link/pricing.html).
+For pricing information, please refer to the [pricing document](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-connect).

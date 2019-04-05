@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-26"
+lastupdated: "2019-04-02"
 
 keywords: provisioning, order, Exchange, Equinix, automated, status, connection
 
@@ -23,16 +23,18 @@ subcollection: direct-link
 # Provisioning IBM Cloud Direct Link Exchange for Equinix
 {: #provisioning-ibm-cloud-direct-link-exchange-for-equinix}
 
-If the IBM Cloud Direct Link order is for the Equinix Cloud Exchange, the service provisioning is fully automated, which means that you can place an order for an IBM Cloud Direct Link connection (Equinix) without opening an IBM support ticket.
+If the {{site.data.keyword.cloud}} Direct Link order is for the Equinix Cloud Exchange, the service provisioning is fully automated, which means that you can place an order for an {{site.data.keyword.cloud_notm}} Direct Link connection (Equinix) without opening an IBM support ticket.
 
 Automation capabilities currently are limited to the Equinix Cloud Exchange. In subsequent releases, automation will be enabled for other providers.
 {:note}
 
 ## Prerequisites
+{: #cloud-exchange-equinix-prerequisites}
 
-To use the automated ordering capability, your private VLANs must be associated with a VRF in the IBM Cloud private network. If this requirement is not met, an IBM support ticket will be generated when you place the order through the Customer Portal.
+To use the automated ordering capability, your private VLANs must be associated with a VRF in the {{site.data.keyword.cloud_notm}} private network. If this requirement is not met, an IBM support ticket will be generated when you place the order through the Customer Portal.
 
 ## Steps for ordering and provisioning
+{: #cloud-exchange-steps-for-ordering-and-provisioning}
 
 **Step 1:**
 

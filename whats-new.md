@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-29"
+lastupdated: "2019-04-02"
 
 keywords: Intercloud, Frankfurt, PoPs, Connect, Exchange, Chennai, Equinix, Megaport, Kinx, diversity, Bluefringe, CenturyLink, BT, Sao Paulo, Tokyo, Japan, PCCW, Colt, blog, service provider, partner, Telia, Internexion, Packet Fabric, global routing, expanded market
 
@@ -18,6 +18,7 @@ subcollection: direct-link
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link. We're growing daily!
 
 ## March 2019
+{: #march-2019}
 
 March has been a very busy month for Direct Link. 
 
@@ -27,6 +28,8 @@ March has been a very busy month for Direct Link.
 Please review the [full text of our announcement](/docs/infrastructure/direct-link?topic=direct-link-announcement-global-routing-policy-change-begins-july-1) about changes to Global Routing.
 
 ### Expanded local markets
+{: #march-2019-expanded-local-markets}
+
 We have expanded the Direct Link Local Markets to provide more local routing options to our customers globally. The new Local Market assignments are listed below:
 
 * The Dallas local Market will now include Denver, Houston and Chicago PoPs.
@@ -41,6 +44,8 @@ We have expanded the Direct Link Local Markets to provide more local routing opt
 These changes are outlined in tables found at: https://cloud.ibm.com/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-direct-link-local-markets
 
 ### Withdrawing of Global Routing network transit overage charges
+{: #march-2019-withdrawing-of-global-routing-network-transit-overage-charges}
+
 We have withdrawn the network transit limits and overage charges for customers with the Global Routing option. Previous pricing included network transit allowances and overage charges for egress traffic outside of the customer’s local market. New pricing eliminates these network traffic charges. Henceforth, ingress and egress traffic across Direct Link connections will not incur overages.
 
 * March 26: Megaport is now available in Chicago for Connect
@@ -50,6 +55,7 @@ We have withdrawn the network transit limits and overage charges for customers w
 * March 1: NTT is now available in Tokyo 5 for Connect
 
 ## February 2019
+{: #february-2019}
 
 * February 28: Zayo is now available in Washington DC 2 for Connect
 * February 27: MWS GNPP is now available in both Dallas 03 and Washington DC 2 for Connect
@@ -58,10 +64,12 @@ We have withdrawn the network transit limits and overage charges for customers w
 * February 19: Neutrona is now available in Washington DC 2 for Connect
 
 ## January 2019
+{: #january-2019}
 
 * January 17: Intercloud is now available in both Frankfurt PoPs (FRA01 & FRA03) for Connect.
 
 ## December 2018
+{ #december-2018}
 
 * December 21: Console Connect by PCCW is now diversely available in SNG02,  TOK01, LON01 and SJC02.
 * December 5: IBM Bluefringe is now available in Chennai for Exchange.

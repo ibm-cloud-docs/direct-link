@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-26"
+lastupdated: "2019-04-02"
 
 keywords: provision, Connect, console, order, support, ticket
 
@@ -23,14 +23,15 @@ subcollection: direct-link
 # Provision IBM Cloud Direct Link Connect from the UI Console
 {: #provision-ibm-cloud-direct-link-connect-from-the-ui-console}
 
-This page tells you how to order the {{site.data.keyword.cloud}} Direct Link Connect service from the IBM Cloud UI Console. 
+This page tells you how to order the {{site.data.keyword.cloud}} Direct Link Connect service from the {{site.data.keyword.cloud_notm}} UI Console. 
 
 After you place the order, an IBM support ticket will be generated.
 {:note}
 
 ## Steps to order Direct Link Connect
+{: #steps-to-order-direct-link-connect}
 
-To provision an IBM Cloud Direct Link Connect order, complete the following steps:
+To provision an {{site.data.keyword.cloud_notm}} Direct Link Connect order, complete the following steps:
 
 **Step 1:**
 
@@ -38,7 +39,7 @@ Log into your customer account on the [Customer Portal ![External link icon](../
   
 **Step 2:**
 
-Under the **Network** tab, select **Direct Link -> Connect**, to open a page showing the existing IBM Cloud Direct Link connections, if any.
+Under the **Network** tab, select **Direct Link -> Connect**, to open a page showing the existing {{site.data.keyword.cloud_notm}} Direct Link connections, if any.
 
 ![step 2](images/Step2-Connect-Offering-Tab.png)
 ![step 2a](images/Step2-Connect-List-Page.png)
@@ -54,7 +55,7 @@ After clicking the **Order Direct Link Connect** button at the top of the page, 
 In the order form, enter the following parameters to configure Direct Link:
 
   - Enter the IBM Cloud Direct Link connection name.
-  - From the list, select the PoP location in which you want to establish the IBM Cloud Direct Link connection.
+  - From the list, select the PoP location in which you want to establish the {{site.data.keyword.cloud_notm}} Direct Link connection.
   - From the list, select the name of the Cloud Exchange provider you prefer.
   - Select the Link Speed required for the connection.
   - Select the routing option required for the connection.

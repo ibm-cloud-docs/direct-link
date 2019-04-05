@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-26"
+lastupdated: "2019-04-02"
 
 keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, datacenter, data, center, pricing, Letter of Authorization, LOA, 
 
@@ -32,6 +32,7 @@ subcollection: direct-link
 8. Your IP assignment on the {{site.data.keyword.BluSoftlayer_notm}} networking infrastructure will be completed within 3 business days after the cross-connect is complete.
 
 ## Locations
+{: #dedicated-locations}
 
 The table gives details about the IBM Cloud datacenters where Direct Link Dedicated is available:
 
@@ -113,8 +114,9 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | Washington DC 7 | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr|
 
 ## Pricing
+{: #dedicated-pricing}
 
-For pricing information, please refer to the [pricing document](/docs/infrastructure/direct-link/pricing.html).
+For pricing information, please refer to the [pricing document](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-dedicated).
 
 If you require the exact address for TOK01 or TOK02, please contact your Direct Link offering management or sales team.
 {:note}

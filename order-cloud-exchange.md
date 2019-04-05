@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-26"
+lastupdated: "2019-04-02"
 
 keywords: order, provider, capabilities, Exchange, cross-connect, locations, PoP, datacenter, data, center, pricing
 
@@ -29,6 +29,7 @@ subcollection: direct-link
 6. IP assignment on the {{site.data.keyword.BluSoftlayer_notm}} networking infrastructure will be completed within 3 business days after the virtual circuit request is complete.
  
 ## Locations
+{: #exchange-locations}
  
  The table shows which IBM Cloud datacenters offer Direct Link Exchange connectivity:
  
@@ -48,5 +49,6 @@ subcollection: direct-link
 * Coming Soon
 
 ## Pricing
+{: #exchange-pricing}
 
-For pricing information, please refer to the [pricing document](/docs/infrastructure/direct-link/pricing.html).
+For pricing information, please refer to the [pricing document](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-exchange).

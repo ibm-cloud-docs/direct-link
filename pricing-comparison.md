@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-26"
+lastupdated: "2019-04-01"
 
 keywords: pricing, competition, AWS, Microsoft, Azure, Google, metered, Dedicated, performance, bandwidth, ingress, egress, charges, unmetered, flat rate, apples-to-apples, enterprise, private cloud, costs
 
@@ -33,7 +33,7 @@ A 10Gbps Dedicated Direct Link connection currently is priced at $4,999 in North
 The following comparisons reflect the tipping point against hypothetical examples. The table at the end of this article shows a detailed summary of this price comparison, by geographic region.
 
 ## Company A
-{: #Company A}
+{: #company-a}
 
 Company “A” offers a metered offering that lends itself to cheap Ingress but significant variable pricing on Egress.
 * The Company “A” 10Gbps pricing is comprised of port hours at a $1,620 monthly recurring charge (MRC) plus a $.02/GB transfer fee on egress (in North America).
@@ -41,7 +41,7 @@ Company “A” offers a metered offering that lends itself to cheap Ingress but
 * For a more stark comparison, assuming 20% usage ( or 680 TB) egressed in a month would cost an Company “A” customer $15,220 in a given month vs. $4,999 for a 10Gbps Direct Link connection.
 
 ## Company G
-{: #Company G}
+{: #company-g}
 
 Company G offers a metered offering that lends itself to cheap Ingress but significant variable pricing on Egress.
 
@@ -51,7 +51,7 @@ Company G offers a metered offering that lends itself to cheap Ingress but signi
 * For a more stark comparison, assuming 20% usage ( or 680 TB) egressed in a month would cost an Company “G” customer $15,330 in a given month vs. $4,999 for a 10Gbps Direct Link connection.
 
 ## Company M
-{: #Company M}
+{: #company-m}
 
 Company "M" (like Company "A" and Company "G") presents a metered offering that lends itself to inexpensive ingress but significantly variable pricing on egress. Company "M" also offers an unlimited pricing table. Both options are compared in the next sections.
 
@@ -95,5 +95,6 @@ Please scroll horizontally as needed to view all 5 columns of comparison.
 | SAO | $5,999 |$82,000 | $99,500 | $76,420 |
 
 ## Related article
+{: #related-article}
 
 [_The Information_, Companies surprised by cloud bills....![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.theinformation.com/articles/as-aws-use-soars-companies-surprised-by-cloud-bills?utm_medium=email&utm_source=cio)

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-26"
+lastupdated: "2019-04-02"
 
 keywords: colocation, connectivity, provider, Dedicated, Hosting, locations, PoP, datacenter, data, center, contract, addendum
 
@@ -28,6 +28,7 @@ subcollection: direct-link
 3. When the build of your colocation cage is complete, the process to interconnect between your colocation cage and the {{site.data.keyword.BluSoftlayer_notm}} POD environment's XCR gear will follow the ordering process for [IBM Cloud Direct Link Dedicated](/docs/infrastructure/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-dedicated), starting at Step 3.
 
 ## Locations
+{: #dedicated-hosting-locations}
 
 The table below shows which IBM Cloud datacenters are able to accept customers for Dedicated Hosting:
 
@@ -64,7 +65,6 @@ The table below shows which IBM Cloud datacenters are able to accept customers f
 | EMEA | LON03 | Slough |	PoP |	Equinix |	8 Buckingham Ave |
 | EMEA | LON06 | London |	DC (AZ3) |	Zenium |	12 Liverpool Rd |
 | EMEA | PAR02 | Paris | PoP | Equinix |	114 Rue Ambroise Croizat |
-
 
 
 If you require the exact address for Tokyo, please contact your Direct Link offering management or sales team.

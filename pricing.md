@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-18"
+lastupdated: "2019-04-02"
 
 keywords: pricing, Exchange, Connect, Dedicated, regions, bandwidth, Hosting, local, routing, Global, overage, fees, market, tiers, customization, price, ingress, egress
 
@@ -33,10 +33,12 @@ Direct Link pricing does NOT include the additional charges by service providers
 You, the customer, must arrange connectivity and billing with your service providers, independently of IBM Cloud. See the list of Exchange and Connect providers at https://www.ibm.com/cloud/direct-link/partners. Direct Link Dedicated creates a Letter Of Authorization / Connecting Facility Assignment (LOA/CFA), which is usable by any service provider who can reach the **Meet Me Room** specified on that LOA/CFA. The provider who is connecting to the LOA/CFA must include pricing for that cross-connect in their quote to you; IBM Cloud does not order cross-connects on behalf of any customer.
 
 ## Pricing for IBM Cloud Exchange, Connect, and Dedicated
+{: #pricing-for-ibm-cloud-exchange-connect-and-dedicated}
 
-If your browser shows this table with speeds less than 1Gbps, use your mouse or trackpad to scroll this page horizontally, or click "Edit in GitHub" at the top of this page to see the raw file.
+If your browser shows these tables with speeds less than 1Gbps, use your mouse or trackpad to scroll this page horizontally.
 
 ## Pricing for Direct Link Exchange
+{: #pricing-for-direct-link-exchange}
 
 | Region | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps |2 Gbps | 5 Gbps |
 |----|----|----|----|----|----|----|----|
@@ -53,6 +55,7 @@ If your browser shows this table with speeds less than 1Gbps, use your mouse or 
 | Brazil | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
 
 ## Pricing for Direct Link Connect
+{: #pricing-for-direct-link-connect}
 
 | Region | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps | 2 Gbps | 5 Gbps |
 |----|----|----|----|----|----|----|----|
@@ -69,6 +72,7 @@ If your browser shows this table with speeds less than 1Gbps, use your mouse or 
 | Brazil | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
 
 ## Pricing for Direct Link Dedicated
+{: #pricing-for-direct-link-dedicated}
 
 | Region |  1 Gbps | 2 Gbps | 5 Gbps | 10 Gbps |
 |----|----|----|----|----|
@@ -85,16 +89,19 @@ If your browser shows this table with speeds less than 1Gbps, use your mouse or 
 | Brazil | $1,439 | $2,399 | $4,500| $5,999 |
 
 ## Pricing for IBM Cloud Dedicated Hosting
+{: #pricing-for-direct-link-dedicated-hosting}
 
 IBM Cloud Direct Link Dedicated Hosting requests and pricing are handled on a transactional basis to account for regional differences in vendor availability and pricing.
 
 The IBM Cloud Dedicated Hosting minimum configuration includes one (1) rack with 5Kw of power and two (2) ports at chosen speed. Additional co-location add-ons are available.
 
 ## Local routing
+{: #local-routing}
 
 Local routing is included with all IBM Cloud Direct Link offerings. It includes access to all of the datacenters connected directly to the Local Market, and it provides unlimited ingress and egress traffic across the Direct Link. If you need to route your traffic outside the Local Markets defined below, you must add the Global Routing option. Local routing does not incur any overage fees.
 
 ## Expanded IBM Direct Link Local Markets
+{: #expanded-ibm-cloud-direct-link-local-markets}
 
 To reach IBM Cloud resources outside of the Local Market in which the Direct Link is connected (at a PoP or datacenter), you must add the Global Routing option, which expands your access to include all IBM Cloud datacenters, globally.
 
@@ -127,6 +134,7 @@ However, we've recently expanded our Direct Link Local Markets to provide more l
 For example, in the US South Market , Direct Link customers can send or retrieve data to or from any IBM Cloud location in the defined market ( Dallas, Houston, Denver and Chicago) without the need for the Global Routing add-on.
 
 ## Pricing for Global Routing Add-on
+{: #pricing-for-global-routing-add-on}
 
 Global routing expands access to include all IBM Cloud datacenters globally. Bandwidth is un-metered and charged monthly based on the market. Details on the markets and other considerations can be found in our [FAQs file](/docs/infrastructure/direct-link?topic=direct-link-faqs#what-are-the-local-routing-and-global-routing-options)
 
@@ -141,9 +149,8 @@ Global routing expands access to include all IBM Cloud datacenters globally. Ban
 |Australia/Brazil/India | $180 | $360 | $720 | $1,800 | $2,999 |
 
 
-
-
 ## Additional fees for Customization 
+{: #additional-fees-for-customization}
 
 Several customized, non-standard configurations are available for additional cost. Most of the fees are one-time fees for setup, denoted by "NRC" in the table. These options require an Exception review by the offering management (OM) and SNS teams before approval.
 
