@@ -34,10 +34,10 @@ After you've placed your order, you'll be asked to fill out a questionnaire rela
 
 ## IBM Cloud Direct Link solution descriptions
 
- * [IBM Cloud Direct Link Exchange](/docs/infrastructure/direct-link?topic=direct-link-the-ibm-cloud-direct-link-exchange-solution)
- * [IBM Cloud Direct Link Connect](/docs/infrastructure/direct-link?topic=direct-link-the-ibm-cloud-direct-link-connect-solution)
- * [IBM Cloud Direct Link Dedicated](/docs/infrastructure/direct-link?topic=direct-link-the-ibm-cloud-direct-link-dedicated-solution)
- * [IBM Cloud Direct Link Dedicated Hosting](/docs/infrastructure/direct-link?topic=direct-link-the-ibm-cloud-direct-link-dedicated-hosting-solution)
+ * [IBM Cloud Direct Link Exchange](/docs/infrastructure/direct-link?topic=direct-link-direct-link-exchange-solution)
+ * [IBM Cloud Direct Link Connect](/docs/infrastructure/direct-link?topic=direct-link-direct-link-connect-solution)
+ * [IBM Cloud Direct Link Dedicated](/docs/infrastructure/direct-link?topic=direct-link-direct-link-dedicated-solution)
+ * [IBM Cloud Direct Link Dedicated Hosting](/docs/infrastructure/direct-link?topic=direct-link-direct-link-dedicated-hosting-solution)
 
 
 ## How do I know which type of IBM Cloud Direct Link I need?
