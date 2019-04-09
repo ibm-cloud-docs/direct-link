@@ -23,10 +23,10 @@ subcollection: direct-link
 
 This section lets you browse more details about the key features and benefits of each of the four {{site.data.keyword.cloud}}
  Direct Link solutions.
-  * [**IBM Cloud Direct Link Exchange**](#the-ibm-cloud-direct-link-exchange-solution)
-  * [**IBM Cloud Direct Link Connect**](#the-ibm-cloud-direct-link-connect-solution)
-  * [**IBM Cloud Direct Link Dedicated**](#the-ibm-cloud-direct-link-dedicated-solution)
-  * [**IBM Cloud Direct Link Dedicated Hosting**](#the-ibm-cloud-direct-link-dedicated-hosting-solution)
+  * [**IBM Cloud Direct Link Exchange**](#direct-link-exchange-solution)
+  * [**IBM Cloud Direct Link Connect**](#direct-link-connect-solution)
+  * [**IBM Cloud Direct Link Dedicated**](#direct-link-dedicated-solution)
+  * [**IBM Cloud Direct Link Dedicated Hosting**](#direct-link-dedicated-hosting-solution)
 
 ## The IBM Cloud Direct Link Exchange solution
 {: #direct-link-exchange-solution}
