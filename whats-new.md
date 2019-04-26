@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-02"
+lastupdated: "2019-04-15"
 
 keywords: Intercloud, Frankfurt, PoPs, Connect, Exchange, Chennai, Equinix, Megaport, Kinx, diversity, Bluefringe, CenturyLink, BT, Sao Paulo, Tokyo, Japan, PCCW, Colt, blog, service provider, partner, Telia, Internexion, Packet Fabric, global routing, expanded market
 
@@ -69,12 +69,13 @@ We have withdrawn the network transit limits and overage charges for customers w
 * January 17: Intercloud is now available in both Frankfurt PoPs (FRA01 & FRA03) for Connect.
 
 ## December 2018
-{ #december-2018}
+{: #december-2018}
 
 * December 21: Console Connect by PCCW is now diversely available in SNG02,  TOK01, LON01 and SJC02.
 * December 5: IBM Bluefringe is now available in Chennai for Exchange.
 
 ## November 2018
+{: #november-2018}
 
 * November 29th: Colt is now available for Connect  in SNG02.
 * November 7th: Ascenty is now available for Exchange with Diversity in SAO01.
@@ -82,11 +83,13 @@ We have withdrawn the network transit limits and overage charges for customers w
 * November 1: Megaport is now available for Connect in SJC02.
 
 ## October 2018
+{: #october-2018}
 
 * October 16: Kinx is now active as an Exchange provider in Seoul02, with diversity.
 * October 2: Megaport is now available in Hong Kong for Connect, non-diverse for now.
 
 ### New Connectivity Options for Direct Link
+{: #new-connectivity-options-for-direct-link}
 
 {{site.data.keyword.cloud_notm}} is pleased to announce new and expanded collaborations with InterCloud, SES Networks, and CenturyLink. Check out the links below to learn more:
 
@@ -96,6 +99,7 @@ We have withdrawn the network transit limits and overage charges for customers w
 
 
 ## September 2018
+{: #september-2018}
 
 * September 8: Megaport is now Diverse in WDC02 for Connect.
 * September 8: SES Networks is now available with Diversity in WDC02 for Connect.
@@ -103,6 +107,7 @@ We have withdrawn the network transit limits and overage charges for customers w
 * September 8: Centurylink is now available without Diversity in Miami for Connect.
 
 ### IBM Cloud Direct Link continues connectivity collaborations
+{: #ibm-cloud-direct-link-continues-connectivity-collaborations}
 
 The {{site.data.keyword.cloud_notm}} Direct Link service continues to expand globally! In light of the recent IBM Cloud Service Provider Program announcement, we have made several additional announcements recently. View these key resources to learn more:
 
@@ -112,8 +117,10 @@ The {{site.data.keyword.cloud_notm}} Direct Link service continues to expand glo
 * {{site.data.keyword.cloud_notm}} Blog: [PackerFabric and IBM Cloud Enable Secure Enterprise Connections ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/)
 
 ## August 2018
+{: #august-2018}
 
 ### CenturyLink Connects to IBM Cloud
+{: #century-link-connects-to-ibm-cloud}
 
 CenturyLink Cloud Connect Solutions now deliver private, secure network connectivity to {{site.data.keyword.cloud_notm}}, helping organizations innovate more efficiently by establishing low-latency connections on a global basis across a private network to the {{site.data.keyword.cloud_notm}} through {{site.data.keyword.cloud_notm}} Direct Link. This extended collaboration between Century Link and IBM builds on Century Link's existing support for IBM Business Resiliency Services and {{site.data.keyword.cloud_notm}} Managed Services.
 
@@ -122,8 +129,10 @@ CenturyLink Cloud Connect Solutions now deliver private, secure network connecti
 * Blog: [Century Link and IBM Collaborate to Enhance Network Experiences ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2018/08/centurylink-ibm-enhance-network-experiences/)
 
 ## July 2018
+{: #july-2018}
 
 ### Digital Realty adds direct, secure access to IBM Cloud in 15 global metros
+{: #digital-reality-adds-direct-secure-access-to-ibm-cloud}
 
 Direct access to {{site.data.keyword.cloud_notm}} is now available through the Digital Realty Service Exchange and {{site.data.keyword.cloud_notm}} Direct, by means of more than 70  Digital Realty data centers and multiple continents around the globe. The Digital Realty Service Exchange provides private, secure, high-throughput, and low-latency access over a single interface to IBM Cloud, helping customers overcome some of the limitations of the public Internet and helping to eliminate network congestion and enable critical workloads that may have not been previously feasible, such as AI, machine learning, and Blockchain.
 
@@ -135,8 +144,10 @@ Direct access to {{site.data.keyword.cloud_notm}} is now available through the D
 
 
 ## June 2018
+{: #june-2018}
 
 ### {{site.data.keyword.cloud_notm}} Direct Link Service Provider Program
+{: #ibm-cloud-direct-link-service-provider-program}
 
 We're pleased to announce our new {{site.data.keyword.cloud_notm}} Direct Link Service Provider Program, which enables enterprises to select from a robust ecosystem of local and global providers and create the private connections to {{site.data.keyword.cloud_notm}} that best suit their needs. We'll work closely to provide technical enablement and training to help ensure service providers can offer enterprises reliable connectivity to the cloud from anywhere in the world. This gives our joint customers greater choice to select the right provider, speed of service, location and deployment model to create a secure, highly available hybrid connection.
 
@@ -145,6 +156,7 @@ We're pleased to announce our new {{site.data.keyword.cloud_notm}} Direct Link S
 * Website: [Direct Link Program Details ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/direct-link/partners)
 
 ### Colt Offers Direct Access to IBM Cloud Direct Link
+{: #colt-offers-direct-access-to-ibm-cloud-direct-link}
 
 {{site.data.keyword.cloud_notm}} is pleased to announce our extended collaboration with Colt. Thanks to Colt's Dedicated Cloud Access (DCA) service, customers can now establish private connectivity from their data center, office or co-location environment, to reduce network costs, increase bandwidth throughput, and provide a more consistent network experience than internet based connections.
 
@@ -155,11 +167,13 @@ We're pleased to announce our new {{site.data.keyword.cloud_notm}} Direct Link S
 * Partner Details: [https://www.colt.net/ibm-cloud/ ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.colt.net/ibm-cloud/)
 
 ## May 2018
+{: #may-2018}
 
  * May 7: Megaport is now active on a single Router in WDC02 for Connect. Diversity will follow in a few weeks.
  * May 2: Equinix in NY02 and NY03 have been delivered for Exchange, and are now live in the portal (with Diversity).
 
 ## April 2018
+{: #april-2018}
 
  * April 27: Telia is now turned up for Connect in Stockholm.
  * April 25: LONDON 03 is now online with Equinix via Exchange. Diversity is in place, and confirmed in Portal.
@@ -167,8 +181,10 @@ We're pleased to announce our new {{site.data.keyword.cloud_notm}} Direct Link S
  * April 25: Colt is now tested with Diversity in Frankfurt 1 PoP for Connect. Verified in Portal.
 
 ## March 2018
+{: #march-2018}
 
 ### Interxion’s Frankfurt and Stockholm campuses are now connected to IBM Cloud Direct Link
+{: #interxion-s-frankfurt-and-stockholm-campuses-are-now-connected-to-ibm-cloud-direct-link}
 
 Interxion, a leading provider of carrier and cloud-neutral colocation data centre services in Europe, announced that direct access to {{site.data.keyword.cloud_notm}} services is now available across its European footprint through Cloud Connect, Interxion’s cloud interconnection platform.
 
@@ -179,6 +195,7 @@ Interxion, a leading provider of carrier and cloud-neutral colocation data centr
 * Partner Details: [Why Colocate with the Clouds ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.interxion.com/why-interxion/colocate-with-the-clouds/ibm/)
 
 ### PacketFabric Offers Connectivity to IBM Cloud
+{: #packet-fabric-offers-conectivity-to-ibm-cloud}
 
 PacketFabric customers have access to {{site.data.keyword.cloud_notm}} services in Dallas, Texas; San Francisco, California; and Washington, D.C., from any location on the PacketFabric network.
 
@@ -188,5 +205,6 @@ PacketFabric customers have access to {{site.data.keyword.cloud_notm}} services 
 * Partner Details: [Connect to IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.packetfabric.com/packetcor/ibm-cloud/)
 
 ## February 2018
+{: #february-2018}
 
  * {{site.data.keyword.cloud_notm}} Direct Link Connect is available.

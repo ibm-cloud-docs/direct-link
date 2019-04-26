@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-04-02"
+lastupdated: "2019-04-25"
 
 keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, datacenter, data, center, pricing, Letter of Authorization, LOA, 
 
@@ -49,15 +49,15 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | Singapore 1 | Digital Realty | SIN10 | 29A International Business Park, S180 |
 | Singapore 2 | Equinix | SG1 | 20 Ayer Rajan Crescent Industrial Park |
 | Sydney 1 | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
-| Sydney 2 | Equinix | SY3 | 47 Bourke Rd |
-| Sydney 3 | NextDC | 4 Eden Park Drive, Macquarie Park |
+| Sydney 2 | Equinix | | 47 Bourke Rd |
+| Sydney 3 | NextDC | | 4 Eden Park Drive, Macquarie Park |
 | Sydney 4 | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
-| Sydney 5 | Equinix | 200 Bourke Rd |
-| Tokyo 1 | Equinix | TY2 |
-| Tokyo 2 | At Tokyo | CC2 | 
-| Tokyo 3 | Equinix | 
-| Tokyo 4 | SoftBank |
-| Tokyo 5 | NTT |
+| Sydney 5 | Equinix | | 200 Bourke Rd |
+| Tokyo 1 | Equinix | TY2 | |
+| Tokyo 2 | At Tokyo | CC2 |  |
+| Tokyo 3 | Equinix | | |
+| Tokyo 4 | SoftBank | | |
+| Tokyo 5 | NTT | | |
 | **EMEA** |  |  |
 | Amsterdam 2 | Equinix | AM1 / AM2 | Larrderhoogtweg 57 |
 | Amsterdam 3 | KPN | Amsterdam 3 | Rondebeltweg 62 |
@@ -71,7 +71,7 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | London 3 | Equinix | LD5 | 8 Buckingham Ave |
 | London 4 | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
 | London 6 | Zenium | LON1 | 12 Liverpool Rd, Trading Estate |
-| Milan 1 | Data IV | Via Monzoro 101-105 , 20010 Cornaredo (MI) |
+| Milan 1 | Data IV | | Via Monzoro 101-105 , 20010 Cornaredo (MI) |
 | Milan 2 | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21|
 | Oslo 1 | EVRY | DigiPlex - Fetsund | 9,, Heiaveien, 1900 Fetsund |
 | Oslo 2 | Verizon | Verizon Oslo | Hans Møller Gassmanssvei 9 |
