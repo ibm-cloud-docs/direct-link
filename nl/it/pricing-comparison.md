@@ -29,7 +29,7 @@ Una connessione di 10Gbps dedicata per Direct Link al momento costa $4.999 in No
 I seguenti confronti rappresentano il punto critico rispetto alla maggior parte della concorrenza. La tabella alla fine di questo articolo mostra un riepilogo dettagliato di questo confronto dei prezzi, per regione geografica.
 
 ## AWS
-{ #aws}
+{: #aws}
 
 AWS (come Google e Microsoft) presenta un'offerta a consumo che si presta a un ingresso poco costoso con però un prezzo che varia sensibilmente in uscita.
 * Il prezzo di AWS 10Gbps è composto da ore di porta a un addebito ricorrente mensile (MRC) di $1.620 più un addebito di trasferimento di $,02/GB in uscita (in Nord America).
@@ -47,7 +47,7 @@ Google (come AWS e Microsoft) presenta un'offerta a consumo che si presta a un i
 * Per un confronto più estremo, supponendo che un cliente Google abbia un 50% di utilizzo (o 1.7 PB) in uscita in un mese, avrebbe un costo di $35.772, rispetto al prezzo di $4.999 per una connessione 10Gbps Direct Link.
 
 ## Microsoft
-{ #microsoft}
+{: #microsoft}
 
 Microsoft (come Google e AWS) presenta un'offerta a consumo che si presta a un ingresso poco costoso con però un prezzo che varia sensibilmente in uscita. Microsoft offre inoltre una tabella di prezzi illimitati. Entrambe le opzioni sono confrontate nelle seguenti sezioni.
 
