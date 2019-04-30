@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-04-29"
 
 keywords: hybrid, solutions, features, benefits, port speed, cross-connect, use cases, latency, routing, options, colocation
 
@@ -56,7 +56,7 @@ The IBM Cloud Direct Link Exchange solution lets customers utilize a Cloud Excha
 ## The IBM Cloud Direct Link Connect solution
 {: #direct-link-connect-solution}
 
-**Common Use Cases** The IBM Cloud Direct Link Connect solution lets customers leverage a network service provider (NSP) to deliver connectivity to {{site.data.keyword.cloud_notm}} locations. This offering typically provides connectivity at a reduced cost, because the physical connectivity from {{site.data.keyword.cloud_notm}} to the Network Service Provider is already in place, shared among other customers.
+**Common Use Cases** _The IBM Cloud Direct Link Connect solution lets customers leverage a network service provider (NSP) to deliver connectivity to {{site.data.keyword.cloud_notm}} locations. This offering typically provides connectivity at a reduced cost, because the physical connectivity from {{site.data.keyword.cloud_notm}} to the Network Service Provider is already in place, shared among other customers._
 
 ![Figure 2](/images/Direct-Link-Connect.png)
 
