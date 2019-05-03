@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-04-26"
+lastupdated: "2019-04-30"
 
 keywords: direct link, configure, connectivity, BGP, VRF, configuration, RFC1918, ASN, BYOIP, NAT, VLAN Spanning, 10.0.0.0/8, ECMP, redundancy, IP assignments, VMWare, Vyatta, IP limitations
 
@@ -46,7 +46,7 @@ To exchange route information with your environment, {{site.data.keyword.cloud_n
 
 1. **ASN**: {{site.data.keyword.cloud_notm}} assigns a private ASN for each customer's use. Alternatively, you can utilize your own public ASN. Your preference is requested at the time you place your order. Your assigned private ASN is provided to you during the implementation process.
 
-2. **VRF**: Using VRF, {{site.data.keyword.cloud_notm}} advertises the specific private subnets assigned to your customer account.  You must advertise the remote networks that you wish to be reachable from the {{site.data.keyword.cloud_notm}} private network. It is your responsbility as a customer to manage the advertisements to and from the IBM Cloud network. (More details about VRF are included in the next section.)
+2. **VRF**: Using VRF, {{site.data.keyword.cloud_notm}} advertises the specific private subnets assigned to your customer account. You must advertise the remote networks that you wish to be reachable from the {{site.data.keyword.cloud_notm}} private network. It is your responsbility as a customer to manage the advertisements to and from the IBM Cloud network. (More details about VRF are included in the next section.)
 
 The following networks are filtered out and can not be accepted: 0.0.0.0, 10.0.0.0/14, 10.198.0.0/15, 10.200.0.0/14, 169.254.0.0/16, 224.0.0.0/4.
 {:note}
@@ -64,7 +64,8 @@ As stated in the preceding section, BGP is mandatory for managing your routing t
  * Inter-account VLAN spanning is not allowed in the VRF environment. 
  * IPSEC VPN service is limited. 
  
-**Note:** VRF does not prevent SSL or PPTP VPN access, but its behavior changes. Without VRF, one VPN connection is enough to see all servers on your account. With VRF, you can only access resources in the market associated with your VPN. So if you connect to the DAL VPN, you can only connect to DAL servers.
+VRF does not prevent SSL or PPTP VPN access, but the behavior changes. Without VRF, one VPN connection is enough to see all servers on your account. With VRF, you can only access resources in the market associated with your VPN. So if you connect to the DAL VPN, you can only connect to DAL servers.
+{: note}
 
 IBM Cloud ASN is **13884**, for Public and Private services. 
  * The default ASN for a customer when ordering is **64999**, but the default can be changed by customer request. 
@@ -91,7 +92,7 @@ IBM Cloud ASN is **13884**, for Public and Private services.
 
 {{site.data.keyword.cloud_notm}} Direct Link provides diversity, and customers are responsible for implementing redundancy through their BGP schemas.
 
-If you select ECMP for redundancy, both BGP sessions have to exist on the same XCR, therefore you give up router diversity and are exposed to risk if the router should fail. You gain Layer-3 redundancy but you lose router diversity.
+If you select ECMP for redundancy, both BGP sessions must exist on the same XCR; therefore you give up router diversity and are exposed to risk if the router should fail. You gain Layer-3 redundancy, but you lose router diversity.
 
 ## More about using VRF
 {: #more-about-using-vrf}

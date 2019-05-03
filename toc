@@ -13,6 +13,7 @@ Direct Link
     whats-new.md
     alternative-deployments.md
     diversity-models.md
+    layer-2-layer-3.md
     connect-details.md
     pricing.md
     pricing-comparison.md

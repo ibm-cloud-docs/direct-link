@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-25"
+lastupdated: "2019-04-29"
 
 keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, datacenter, data, center, pricing, virtual circuit, Request ID, Authorization ID
 
@@ -48,7 +48,7 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | Epsilon | Amsterdam 2*, Dallas 3*, Frankfurt 1*, Hong Kong 1*, London 1*, Singapore 2*, Washington DC 2* |
 | IBM BlueFringe | Dallas 3, Washington DC 2, Chennai 1 |
 | Intercloud | Frankfurt 1, Frankfurt 3, Amsterdam 2 |
-| Megaport | Melbourne 2, Sydney 2, Singapore 2, Amsterdam 2, Frankfurt 1, London 3, Stockholm 1, Chicago 1*, Dallas 4, San Jose 2, Montreal 2*, Toronto 2, Washington DC 2, Hong Kong 1 |
+| Megaport | Melbourne 2, Sydney 2, Singapore 2, Amsterdam 2, Frankfurt 1, London 3, Stockholm 1, Chicago 1, Dallas 4, San Jose 2, Montreal 2*, Toronto 2, Washington DC 2, Hong Kong 1 |
 | MWS GNPP | Amsterdam 2, Frankfurt 3, Dallas 3, Washington DC 2 |
 | Neutrona | Washington DC 2 |
 | NTT | Tokyo 5 |
