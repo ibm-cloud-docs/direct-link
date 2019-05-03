@@ -30,7 +30,7 @@ Une connexion Direct Link dédiée de 10 Gbit/s est actuellement évaluée à 4 
 Les comparaisons suivantes reflètent le point d'inflexion par rapport à l'option la plus large de la concurrence. Le tableau à la fin de cet article présente un récapitulatif détaillé de cette comparaison de prix, par région géographique. 
 
 ## AWS
-{ #aws}
+{: #aws}
 
 AWS (comme Google et Microsoft) présente une offre au compteur qui propose une tarification en entrée bon marché mais considérablement variable en sortie. 
 * La tarification AWS 10 Gbit/s se compose d'heures de port à 1 620 $ de frais périodiques mensuels (MRC) plus des frais de transfert de 0,02 $/Go à la sortie (en Amérique du Nord). 
@@ -48,7 +48,7 @@ Google (comme AWS et Microsoft) présente une offre au compteur qui propose une 
 * Pour une comparaison plus parlante, supposons qu'un client Google utilise 50 % (ou 1,7 Po) de sorties sur un mois, cela lui coûterait 35 772 $, contre le tarif de 4 999 $ pour une connexion Direct Link 10 Gbit/s. 
 
 ## Microsoft
-{ #microsoft}
+{: #microsoft}
 
 Microsoft (comme Google et AWS) présente une offre au compteur qui propose une tarification en entrée bon marché mais considérablement variable en sortie. Microsoft offre également un tableau de tarification illimitée. Les deux options sont comparées dans les sections suivantes. 
 

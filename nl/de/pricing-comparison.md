@@ -29,7 +29,7 @@ Eine Dedicated Direct Link-Verbindung mit 10 Gb/s kostet in Nordamerika zurzeit 
 Die folgenden Vergleiche zeigen, ab wann das IBM Angebot im Vergleich zu den größten Wettbewerbern günstiger ist. Die Tabelle am Ende dieses Artikels enthält eine detaillierte Zusammenfassung dieses Preisvergleichs nach geografischer Region. 
 
 ## AWS
-{ #aws}
+{: #aws}
 
 AWS bietet (ebenso wie Google und Microsoft) ein verbrauchsbasiertes Angebot, bei dem der eingehende Datenverkehr preisgünstig ist, während die Preise für den ausgehenden Datenverkehr jedoch erheblich variieren. 
 * Der Preis für das AWS-Angebot mit 10 Gb/s besteht aus Portstunden, die monatlich 1.620 $ (MRC) betragen, plus einer Übertragungsgebühr von 0,02 $/GB für ausgehende Daten (in Nordamerika). 
@@ -47,7 +47,7 @@ Google bietet (ebenso wie AWS und Microsoft) ein verbrauchsbasiertes Angebot, be
 * Nehmen wir für ein deutlicheres Ergebnis an, dass die Nutzung bei einem Google-Kunden bei 50 % (oder 1,7 PB) an ausgehenden Daten im Monat liegt. Dann betragen die Kosten 35.772 $, im Vergleich zum Preis von 4.999 $ für eine Direct Link-Verbindung mit 10 Gb/s. 
 
 ## Microsoft
-{ #microsoft}
+{: #microsoft}
 
 Microsoft bietet (ebenso wie Google und AWS) ein verbrauchsbasiertes Angebot, bei dem der eingehende Datenverkehr preisgünstig ist, während die Preise für den ausgehenden Datenverkehr jedoch erheblich variieren. Microsoft bietet auch eine Preistabelle für unbegrenzten Datenverkehr an. Die beiden Optionen werden in den folgenden Abschnitten verglichen. 
 

@@ -37,7 +37,7 @@ As comparações a seguir refletem o ponto de mudança com relação à maior co
 mostra um resumo detalhado dessa comparação de preço por região geográfica.
 
 ## AWS
-{ #aws}
+{: #aws}
 
 A AWS (como o Google e a Microsoft) apresenta uma oferta medida que proporciona ingresso barato, mas
 uma precificação significativamente variável no egresso.
@@ -67,7 +67,7 @@ Link.
 mês, isso custaria US$ 35.772 versus US$ 4.999 para uma conexão Direct Link de 10 Gbps.
 
 ## Microsoft
-{ #microsoft}
+{: #microsoft}
 
 A Microsoft (como o Google e o AWS) apresenta uma oferta medida que proporciona ingresso barato, mas
 precificação significativamente variável no egresso. A Microsoft também oferece uma tabela de precificação ilimitada. As
