@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-29"
+lastupdated: "2019-05-14"
 
 keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, datacenter, data, center, pricing, virtual circuit, Request ID, Authorization ID
 
@@ -60,7 +60,7 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | Telstra | Melbourne 2, Sydney 2 |
 | Tokai | Tokyo 3 | 
 | Verizon | Sydney 2, Tokyo 1, Amsterdam 2, Frankfurt 1, Dallas 3, San Jose 2, Washington DC 2 |
-| Zayo | Washington DC 2, Dallas 3*,  Montreal 2* |
+| Zayo | Washington DC 2, Dallas 3,  Toronto 2, Montreal 2* |
 
 * = Coming Soon
 
