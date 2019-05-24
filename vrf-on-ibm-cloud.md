@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-04-03"
+lastupdated: "2019-05-21"
 
 keywords: VRF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, datacenters, data, center, shared tenancy, private endpoint, Customer VRF, Private Network Question, support, ticket
 
@@ -100,6 +100,6 @@ Existing IBM Cloud customers can [open a support ticket](https://cloud.ibm.com/u
 
 Migration is completed by the IBM Cloud Network Engineering team. No other information is required from you, except an agreed-to schedule. Typically, packet loss may last 15-30 minutes, depending on the complexity of your account. (It may be longer if your account has legacy Direct Link connections). The process is highly automated, requiring minimal interaction by the IBM team, and it should be transparent.
 
-When you're opening the ticket, it's recommended to select the "Account" option as shown in the following figure, although any option can work if you include the text given previously:
+When you're opening the ticket, it's recommended to select the "Technical" option as shown in the following figure, although any option can work if you include the text given previously:
 
 ![image](https://media.github.ibm.com/user/11495/files/4474c300-4bd9-11e9-9bc7-d6242d7997e9)

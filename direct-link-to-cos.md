@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-04-02"
+lastupdated: "2019-05-21"
 
 keywords: Cloud Object Storage, endpoints, Cross Region, Regional, Single Site, reverse proxy, nginx, bare metal, VRA, bucket, virtual router appliance
 
@@ -172,7 +172,7 @@ http {
 }
 ```
 
-See [COS Endpoints](https://{DomainName}/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints) for a list of private endpoints for use in the `proxy_pass` entries above.
+See [COS Endpoints](/docs/infrastructure/cloud-object-storage-infrastructure?topic=cloud-object-storage-infrastructure-select-regions-and-endpoints#select-regions-and-endpoints) for a list of private endpoints for use in the `proxy_pass` entries above.
 
 **Tips:**
 
@@ -194,7 +194,7 @@ For detailed instructions on how to provision bare metal servers, refer to the [
 {: #direct-link-how-to-provision-a-virtual-router-appliance}
 
 For detailed instructions on how to provision a VRA, please refer to the
-[VRA Getting Started Guide](docs/infrastructure/virtual-router-appliance/getting-started.html#getting-started).
+[VRA Getting Started Guide](/docs/infrastructure/virtual-router-appliance?topic=virtual-router-appliance-getting-started#getting-started).
 
 ### How to provision IBM Cloud Object Storage (COS)
 {: #direct-link-how-to-provision-ibm-cloud-object-storage}

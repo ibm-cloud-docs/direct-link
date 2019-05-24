@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-15"
+lastupdated: "2019-05-21"
 
 keywords: Intercloud, Frankfurt, PoPs, Connect, Exchange, Chennai, Equinix, Megaport, Kinx, diversity, Bluefringe, CenturyLink, BT, Sao Paulo, Tokyo, Japan, PCCW, Colt, blog, service provider, partner, Telia, Internexion, Packet Fabric, global routing, expanded market
 
@@ -111,10 +111,10 @@ We have withdrawn the network transit limits and overage charges for customers w
 
 The {{site.data.keyword.cloud_notm}} Direct Link service continues to expand globally! In light of the recent IBM Cloud Service Provider Program announcement, we have made several additional announcements recently. View these key resources to learn more:
 
-* {{site.data.keyword.cloud_notm}} Blog: [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2018/09/interxion-enterprise-ibm-cloud-services/)
-* I{{site.data.keyword.cloud_notm}} Blog: [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/)
+* {{site.data.keyword.cloud_notm}} Blog: [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/blog/announcements/interxion-enterprise-ibm-cloud-services)
+* {{site.data.keyword.cloud_notm}} Blog: [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/blog/announcements/tokyo-connects-ibm-cloud-support-mission-critical-applications)
 * {{site.data.keyword.cloud_notm}} Japan Blog: [AT TOKYO announcement - Japanese Translation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/solutions/jp-ja/tokyo-connects-ibm-cloud-support-mission-critical-applications-httpswww-ibm-comblogssolutionsjp-ja/)
-* {{site.data.keyword.cloud_notm}} Blog: [PackerFabric and IBM Cloud Enable Secure Enterprise Connections ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/)
+* {{site.data.keyword.cloud_notm}} Blog: [PackerFabric and IBM Cloud Enable Secure Enterprise Connections ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/blog/announcements/packetfabric-ibm-enable-secure-enterprise-connections)
 
 ## August 2018
 {: #august-2018}
@@ -126,7 +126,7 @@ CenturyLink Cloud Connect Solutions now deliver private, secure network connecti
 
 **Learn More:**
 * Press Release:[CenturyLink Connects to IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://news.centurylink.com/2018-08-01-CenturyLink-Connects-Enterprises-to-IBM-Cloud)
-* Blog: [Century Link and IBM Collaborate to Enhance Network Experiences ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2018/08/centurylink-ibm-enhance-network-experiences/)
+* Blog: [Century Link and IBM Collaborate to Enhance Network Experiences ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/blog/announcements/centurylink-ibm-enhance-network-experiences)
 
 ## July 2018
 {: #july-2018}
@@ -138,7 +138,7 @@ Direct access to {{site.data.keyword.cloud_notm}} is now available through the D
 
 **Learn More:**
 * Press Release:[Digital Realty adds direct, secure access to IBM Cloud in 15 global metros ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://investor.digitalrealty.com/investor-relations/news-and-events/news/news-details/2018/Digital-Realty-Adds-Direct-Secure-Access-to-IBM-Cloud-in-15-Global-Metros/default.aspx?_ga=2.4622768.2004310000.1533067916-309713252.1509692838)
-* Blog: [Built for Enterprise Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2018/07/digital-realty-ibm-cloud-direct-link-expand-network/)
+* Blog: [Built for Enterprise Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-direct-link-expand-network)
 * Partner Page: [Digital Realty and IBM Direct Link ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.digitalrealty.com/partners/alliance-partners/ibm-direct-link/)
 * Interview: [Digital Realty and IBM Deal a Proximity Play ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.lightreading.com/data-center/data-center-infrastructure/digital-realty-ibm-deal-a-proximity-play/d/d-id/744870)
 
@@ -162,7 +162,7 @@ We're pleased to announce our new {{site.data.keyword.cloud_notm}} Direct Link S
 
 **Learn more:**
 
-* Blog: [IBM and Colt: enabling enterprise digital transformation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2018/06/ibm-colt-enterprise-digital-transformation/)
+* Blog: [IBM and Colt: enabling enterprise digital transformation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/blog/announcements/ibm-colt-enterprise-digital-transformation)
 * Press Release: [Colt Provides Direct Connectivity to IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.colt.net/resources/colt-provides-direct-connectivity-ibm-cloud/)
 * Partner Details: [https://www.colt.net/ibm-cloud/ ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.colt.net/ibm-cloud/)
 

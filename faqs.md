@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-04-10"
+lastupdated: "2019-05-21"
 
 keywords: faq, faqs, questions, answer, billing, fees, point-to-point, bandwidth, charges, redundancy, Global Routing, diversity, IPv6, BGP, charges, jumbo frames
 
@@ -74,7 +74,7 @@ We have added the Global Routing add-on to prevent our customers from experienci
 {: #if-i-am-connected-to-a-direct-link-dedicated}
 {:faq}
 
-Yes, you are able to gain access to areas outside of your Local Market if you choose the Global Routing add-on. If this option is not selected, your Direct Link traffic will be limited to the Local Market for the PoP or DC location you have selected. Please refer to the [pricing document](/docs/infrastructure/direct-link/pricing.html)for details.
+Yes, you are able to gain access to areas outside of your Local Market if you choose the Global Routing add-on. If this option is not selected, your Direct Link traffic will be limited to the Local Market for the PoP or DC location you have selected. Please refer to the [pricing document](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link)for details.
 
 ## Can I connect to any available region from a given Direct Link location?
 {: #can-i-connect-to-any-available-region-from-a-given-direct-link-location}
@@ -95,7 +95,7 @@ No. IBM Cloud offers two options: (1) a Local Market only, or (2) all regions, w
 As of March 2018, the recommended best practice is to cancel your automated order and submit a new ticket to fill out the Direct Link questionnaire. You should indicate whether you prefer another subnet in the 10.254.x.x range or the 172.32.x.x range.
 
 ## What is the difference between Direct Link Exchange and Direct Link Connect?
-{; #what-is-the-difference-between-direct-link-exchange-and-direct-link-connect}
+{: #what-is-the-difference-between-direct-link-exchange-and-direct-link-connect}
 {:faq}
 
 These two services are similar, relatively low-cost, latency tolerant, and rapid entry points to the benefits of IBM Cloud Direct Link. In a nutshell, Exchange utilizes datacenter providers and Connect utilizes Telco carriers. Here are some additional details:

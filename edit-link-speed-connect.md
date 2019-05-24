@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-26"
+lastupdated: "2019-05-22"
 
 keywords: link speed, Exchange, connection, edge server, Terms and Conditions
 
@@ -25,7 +25,7 @@ You can edit your connection's Link Speed on either side of the connection, star
 
 ## Step 1: 
 
-Follow steps 1 and 2 from the [Cloud Exchange ordering procedure](/docs/infrastructure/direct-link/cloud-exchange-automation.html).
+Follow steps 1 and 2 from the [Cloud Exchange ordering procedure](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange).
 
 ## Step 2:
 
