@@ -59,7 +59,7 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | Telia | Stockholm 1, Oslo 2* |
 | Telstra | Melbourne 2, Sydney 2 |
 | Tokai | Tokyo 3 | 
-| Verizon | Sydney 2, Tokyo 1, Amsterdam 2, Frankfurt 1, Dallas 3, San Jose 2, Washington DC 2 |
+| Verizon | Sydney 2, Amsterdam 2, Frankfurt 1, Dallas 3, San Jose 2, Washington DC 2 |
 | Zayo | Washington DC 2, Dallas 3,  Toronto 2, Montreal 2* |
 
 * = Coming Soon
