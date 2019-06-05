@@ -92,7 +92,7 @@ No. IBM Cloud offers two options: (1) a Local Market only, or (2) all regions, w
 {: #what-if-i-used-the-direct-link-automated-ordering-process}
 {:faq}
 
-As of March 2018, the recommended best practice is to cancel your automated order and submit a new ticket to fill out the Direct Link questionnaire. You should indicate whether you prefer another subnet in the 10.254.x.x range or the 172.32.x.x range.
+As of March 2018, the recommended best practice is to cancel your automated order and submit a new ticket to fill out the Direct Link questionnaire. You should indicate whether you prefer another subnet in the 10.254.x.x range or the 172.16.x.x range.
 
 ## What is the difference between Direct Link Exchange and Direct Link Connect?
 {: #what-is-the-difference-between-direct-link-exchange-and-direct-link-connect}
