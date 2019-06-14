@@ -43,19 +43,20 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | Hong Kong 1 | Mega-I (via PACNET) | Mega-I (iAdvantage Hong Kong) |29F, 399 Chai Wan Road |
 | Melbourne 1 | Digital Realty | MEL11 | 72 Radnor Drive, Deer Park |
 | Melbourne 2 | NextDC | M2 | 820 Lorimer Street, Port Melbourne |
+| Osaka 1 | Equinix | OS1 |  |
 | Perth 1 | Metronode | F1Z | 60 Randell St, Shenton Park, Western Australia |
 | Seoul 1 | C&C | Seoul01 | 46, Pangyo-ro 255beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do |
 | Seoul 2 | KINX | KINX Bundang IDC | 3F Hostway IDC ,343-1 Yatap-dong , Gyeonggi-do |
 | Singapore 1 | Digital Realty | SIN10 | 29A International Business Park, S180 |
 | Singapore 2 | Equinix | SG1 | 20 Ayer Rajan Crescent Industrial Park |
 | Sydney 1 | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
-| Sydney 2 | Equinix | | 47 Bourke Rd |
-| Sydney 3 | NextDC | | 4 Eden Park Drive, Macquarie Park |
+| Sydney 2 | Equinix | SY3 | 47 Bourke Rd |
+| Sydney 3 | NextDC | S1 | 4 Eden Park Drive, Macquarie Park |
 | Sydney 4 | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
-| Sydney 5 | Equinix | | 200 Bourke Rd |
+| Sydney 5 | Equinix | SY4 | 200 Bourke Rd |
 | Tokyo 1 | Equinix | TY2 | |
 | Tokyo 2 | At Tokyo | CC2 |  |
-| Tokyo 3 | Equinix | | |
+| Tokyo 3 | Equinix | TY4 | |
 | Tokyo 4 | SoftBank | | |
 | Tokyo 5 | NTT | | |
 | **EMEA** |  |  |

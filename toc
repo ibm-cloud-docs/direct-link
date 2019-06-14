@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="direct-link" audience="service" arm="4032931" arm="4032949" arm="3662735" arm="43662737" href="/docs/infrastructure/direct-link/getting-started.html" path="infrastructure/direct-link"}
+{: .toc subcollection="direct-link" category="network,databases" audience="service" arm="4032931" arm="4032949" arm="3662735" arm="43662737" href="/docs/infrastructure/direct-link/getting-started.html" path="infrastructure/direct-link"}
 Direct Link
 
     {: .navgroup id="learn"}
@@ -39,6 +39,12 @@ Direct Link
     subnet-configuration.md
     direct-link-to-cos.md
     edit-link-speed-connect.md
+    
+    {: .topicgroup}
+    Using the Legacy Customer Portal
+        cloud-exchange-connect-sl.md
+        cloud-exchange-automation-sl.md
+        cloud-exchange-automation-equinix-sl.md
     
       {: .topicgroup}
       Questionaires for Ordering

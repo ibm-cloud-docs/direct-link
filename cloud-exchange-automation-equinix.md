@@ -44,43 +44,46 @@ Follow the steps from 1 through 7 from the regular [Cloud Exchange ordering step
 
 Once you place the order, the IBM Cloud Direct Link provisioning begins.
 
-![Step 8](/images/Equinix-Step8.png)
+You can see the status of your connection after you place the order. If the configuration completes on the IBM side successfully, you'll see the status as **Provisioned**. If the configuration is not finished, you'll see the status as **In-Progress**. If the configuration has failed, you'll see the status as **Create Failed**. If the configuration has completed successfully and the BGP connection is up, you'll see the status as **UP**.
+
+![Step 9 in progress](/images/pup_exchange_equinix_inProgress.png)
 
 **Step 3:**
 
-You can see the status of your connection after you place the order. If the configuration completes on the IBM side successfully, you'll see the status as **Provisioned**. If the configuration is not finished, you'll see the status as **In-Progress**. If the configuration has failed, you'll see the status as **Create Failed**. If the configuration has completed successfully and the BGP connection is up, you'll see the status as **UP**.
+If the connection is in **Provisioned** status, click on the connection Name by clicking the **<connection_name>** link.  It should navigate to details page.
 
-![Step 9 in progress](/images/Equinix-Step9-InProgress.png)
+![Step 10](/images/pup_exchange_equinix_provisioned.png)
 
 The following figure shows various states of the connection after the order is placed:
 
-![Step 9 up](/images/Equinix-Step9-UP.png)
+![Step 9 up](/images/pup_exchange_equinix_up.png)
 
 **Step 4:**
 
-If the connection is in **Provisioned** status, expand the connection by clicking the **>** in front of the connection **Name**. Then note down the **Customer IP Address** and **Service Key** information. These will be needed for configuring the customer edge router and as the authorization key for the cloud-provider-side (Equinix) configuration, respectively.
+Note down the **Customer IP Address** and **Service Key** information. These will be needed for configuring the customer edge router and as the authorization key for the cloud-provider-side (Equinix) configuration, respectively.
 
-![Step 10](/images/Equinix-Step10-Provisioned.png)
+![Step 9 up](/images/pup_exchange_equinix_provisioned_details.png)
 
 **Step 5:**
 
-For the connections in **Provisioned** status, after expanding the connection by clicking the **>** in front of the connection, you'll see an error message if there is a mismatch with Peer Link Speed. Once the Speed is the same on the IBM side and the Equinix Side, this Error notification is no longer displayed.
+For the connections in **Provisioned** status, after clicking on the connection Name by clicking the **<connection_name>**, you'll see an error message if there is a mismatch with Peer Link Speed. Once the Speed is the same on the IBM side and the Equinix Side, this Error notification is no longer displayed.
 
-![Step 11](/images/Equinix-Step11-PortMismatch.png)
+![Step 11](/images/pup_exchange_equinix_provisioned_details_portSpeedMismatch.png)
 
 **Step 6:**
 
 For the connections in the **Create Failed** status, an IBM support ticket is generated and further details are communicated through the support ticket. When you expand the connection, you can see the support ticket details.
 
-![Step 12](/images/Equinix-Step12-CreateFailed.png)
+![Step 12](/images/pup_exchange_equinix_list_createFailed.png)
 
 **Step 7:**
 
-For the connections in **Provisioned**, **UP** or **DOWN** status, you can **Delete** the connection by clicking on the **ACTIONS** column next to the connection.
+For the connections in **Provisioned**, **UP** or **DOWN** status, you can **Delete** the connection by clicking on the overflow in **ACTIONS** column next to the connection.
 
-![Step 13](/images/Equinix-Step13-Delete.png)
+![Step 13](/images/pup_exchange_equinix_list_delete.png)
 
 **Step 8:**
 
 For the connections in **Create Failed** status, you can **Cancel** the connection by clicking on the **ACTIONS** column next to the connection.
 
+![Step 14](/images/pup_exchange_equinix_list_delete.png)
