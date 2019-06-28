@@ -9,6 +9,7 @@ Direct Link
     overview.md
     direct-link-july-policy-change.md
     about.md
+    responsibilities.md
     direct-link-video.md
     whats-new.md
     alternative-deployments.md
@@ -58,6 +59,7 @@ Direct Link
     external-resources.md
     understanding-latency.md
     vrf-on-ibm-cloud.md
+    vrf-conversion-dl.md
     {: .navgroup-end}
     
     {: .navgroup id="help"}

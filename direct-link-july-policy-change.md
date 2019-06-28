@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-02"
+lastupdated: "2019-06-24"
 
 keywords: Intercloud, Frankfurt, PoPs, Connect, Exchange, Chennai, Equinix, Megaport, Kinx, diversity, Bluefringe, CenturyLink, BT, Sao Paulo, Tokyo, Japan, PCCW, Colt, blog, service provider, partner, Telia, Internexion, Packet Fabric, Global Routing, expanded, market
 
@@ -46,7 +46,7 @@ We are expanding the Direct Link Local Markets to provide more local routing opt
 * The Oslo local market will now include the Stockholm PoP.
 * The Sydney local market will now include the Perth PoP.
 * The Hong Kong local market will include the Taipei PoP once launched.
-* The Tokyo local market will include the Osaka PoP once launched.
+* The Tokyo local market will include the Osaka PoP.
 * The Chennai local market will include the Mumbai PoP once launched.
 
 These changes are outlined in tables found at: https://cloud.ibm.com/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-direct-link-local-markets

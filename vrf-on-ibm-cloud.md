@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-18"
+lastupdated: "2019-06-27"
 
-keywords: VRF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, datacenters, data, center, shared tenancy, private endpoint, Customer VRF, Private Network Question, support, ticket
+keywords: VRF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, datacenters, data, center, shared tenancy, private endpoint, Customer VRF, Private Network Question, support, ticket, CSE, cloud service endpoint
 
 subcollection: direct-link
 
@@ -19,7 +19,7 @@ subcollection: direct-link
 {:note: .note}
 {:download: .download}
 
-# Overview of Virtual Routing and Forwarding (VRF) on {{site.data.keyword.cloud_notm}}
+# Virtual routing and forwarding on {{site.data.keyword.cloud_notm}}
 {: #overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud}
 
 By definition, virtual routing and forwarding (VRF) is a technology that is included in Internet Protocol (IP) network routers. It is delivered as an inherent backbone service.
@@ -74,27 +74,13 @@ Moving to VRF includes the following primary benefits:
 Compared to the older ACL model, there are a few minor tradeoffs to take into account: 
 
 * Converting to a _Customer VRF_ requires a maintenance window, which causes a brief disruption of backbone traffic flows.
-* Remote access by using the managed VPN services (SSL, IPSec) is limited to the local data center; however, the shared ACL backbone allows global access from any entry point.
+* Remote access by using the managed VPN services (SSL, IPsec) is limited to the local data center; however, the shared ACL backbone allows global access from any entry point.
 * VLAN spanning within your _multiple isolation_ tenancy is not available.
 
-## What happens during account conversion process
-{: #what-happens-during-the-account-conversion-process}
+Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a _Customer VRF_, most commonly with a new Direct Link subscription.  
 
-Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, the tenancy is converted to use a _Customer VRF_, most commonly with a new Direct Link subscription.  
+For specific information about how to initiate a VRF conversion for your account, please refer to the conversion instructions for your IBM Cloud offering. For example:
 
-The conversion process involves a network disruption, while the VLANs and their subnets are detached from the ACL backbone and then attached to the _Customer VRF_. This process results in a few moments of packet loss for traffic entering or exiting the VLANs. Packets within the VLAN continue to flow. In the cases where a network gateway, such as a FortiGate Security Appliance or Virtual Router Appliance is involved, no disruption occurs among the VLANs attached to that gateway. The servers see no network outage themselves, and most workloads automatically recover when the traffic flow resumes. The total duration of the disruption depends on the extent of the tenant’s topology, that is, the number of subnets, VLANs, and pods that your tenancy includes.
-
-During migration, the VLANs are disconnected from the backbone and reconnected to the _Customer VRF_.  The duration of disruption varies, depending on the quantity of VLANs, PODs, and data centers involved. Traffic among VLANs is disrupted, yet the servers stay connected to the network. The application may or may not be affected, depending on its sensitivity to packet loss.
-
-## How to initiate the conversion
-{: #how-you-can-initiate-the-conversion}
-
-Existing {{site.data.keyword.cloud_notm}} customers can [open a support case](https://cloud.ibm.com/unifiedsupport/cases/add)![External link icon](../../icons/launch-glyph.svg "External link icon") through the {{site.data.keyword.cloud_notm}} console, requesting to be migrated to a VRF. The support case should state: “Private Network Question” and include the following text:
-
-"We are requesting that account _your account number_ is moved to its own VRF. We understand the risks and approve the change. Please reply with the scheduled window(s) of time where this change will be made so we can prepare for the migration."
-
-Migration is completed by the {{site.data.keyword.cloud_notm}} Network Engineering team. No other information is required from you, except an agreed-to schedule. Typically, packet loss might last 15 - 30 minutes, depending on the complexity of your account. It might be longer if your account has legacy Direct Link connections. The process is highly automated, requiring minimal interaction by the IBM team, and it should be transparent.
-
-When you're opening the case, it's recommended to select the "Technical" option as shown in the following figure, although any option can work if you include the text given previously:
-
-![New support case screen options](https://media.github.ibm.com/user/11495/files/4474c300-4bd9-11e9-9bc7-d6242d7997e9 "New support case options")
+* For [Direct Link conversion instructions](/docs/infrastructure/direct-link?topic=direct-link-what-happens-during-the-account-conversion-process)
+* For [VPC conversion instructions](/docs/vpc-on-classic?topic=vpc-on-classic-what-happens-during-the-account-conversion-process)
+* For CSE conversion, [use the cloud service endpoint utility to create the request](/docs/services/service-endpoint?topic=service-endpoint-getting-started).

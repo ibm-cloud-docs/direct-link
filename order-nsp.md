@@ -96,7 +96,7 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | Mexico 1 | Alestra | Alestra Queretaro Datacenter | Lateral Carretera Estatal 431,Parque Tecnologico Inovacion Lote 79, El Marqués |
 | Miami 1 | Terremark / Verizon | NAP | 50 NE 9th Street |
 | Montreal 1 | COLO-D | COLO-D1 | 2525 Rue Canadien |
-| Montreal 2 | Cologix | MTL3 | 1155 University Street |
+| Montreal 2 | Cologix | MTL7 | 1155 University Street |
 | New York City 1 | Digital Realty | JFK10 | 111 8th Ave |
 | New York City 2* | Equinix | NY4 | 755 Secaucus Rd, Secaucus, NJ |
 | New York City 3* | Equinix | NY5 | 800 Secaucus Rd, Secaucus, NJ |
