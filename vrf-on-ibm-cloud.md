@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-27"
+lastupdated: "2019-07-01"
 
 keywords: VRF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, datacenters, data, center, shared tenancy, private endpoint, Customer VRF, Private Network Question, support, ticket, CSE, cloud service endpoint
 
@@ -79,8 +79,8 @@ Compared to the older ACL model, there are a few minor tradeoffs to take into ac
 
 Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a _Customer VRF_, most commonly with a new Direct Link subscription.  
 
-For specific information about how to initiate a VRF conversion for your account, please refer to the conversion instructions for your IBM Cloud offering. For example:
+For specific information about how to initiate a VRF conversion for your account, refer to the conversion instructions for your IBM Cloud offering. For example:
 
-* For [Direct Link conversion instructions](/docs/infrastructure/direct-link?topic=direct-link-what-happens-during-the-account-conversion-process)
-* For [VPC conversion instructions](/docs/vpc-on-classic?topic=vpc-on-classic-what-happens-during-the-account-conversion-process)
-* For CSE conversion, [use the cloud service endpoint utility to create the request](/docs/services/service-endpoint?topic=service-endpoint-getting-started).
+* [Direct Link conversion instructions](/docs/infrastructure/direct-link?topic=direct-link-what-happens-during-the-account-conversion-process)
+* [VPC conversion instructions](/docs/vpc-on-classic?topic=vpc-on-classic-what-happens-during-the-account-conversion-process)
+* [{{site.data.keyword.cloud_notm}} service endpoints conversion instructions](/docs/account?topic=account-vrf-service-endpoint)
