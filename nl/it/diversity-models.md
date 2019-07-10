@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-02"
+
+keywords: diversity, redundancy, schematics, deployment, configuration, global routing, ECMP, Dual XCRs, model
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 Questo documento fornisce una serie di schemi correlati ai problemi di ridondanza e diversità, che possono aiutarti a trovare un modello per la creazione della distribuzione di {{site.data.keyword.cloud}} Direct Link più efficace per soddisfare le tue esigenze. Gli schemi sono organizzati in livelli incrementali di complessità e anche in base all'offerta di Direct Link illustrata da ognuno di essi. Direct Link non è un servizio intrinsecamente ridondante nell'XCR (cross-connect router), i clienti hanno la responsabilità di creare la ridondanza tramite i loro schemi BGP (Border Gateway Protocol). 
 
 ## Sezione 1: Configurazioni relativamente semplici per archiviare la diversità
+{: #section-1-diversity-models}
 
 Le configurazioni illustrate in questo gruppo si basano sul fatto che tutti gli asset sono ubicati nello stesso PoP e nello stesso mercato globale.
 
@@ -36,10 +41,12 @@ Le configurazioni illustrate in questo gruppo si basano sul fatto che tutti gli 
 ![Dedicated con diversità nello stesso PoP](/images/dedicated-diversity-same-pop.png)
 
 ## Sezione 2: Diversità che include le opzioni Instradamento globale e AZ
+{: #section-2-diversity-models}
 
 Le configurazioni mostrate in questo gruppo offrono le opzioni per la connessione tra le zone di disponibilità locali e i mercati.
 
 ### Parte A: Diversità in una zona di disponibilità locale (AZ)
+{: #section-2-part-a}
 
 **Figura 4: Direct Link Exchange con diversità in una AZ locale (WDC, DAL, FRA, LON)**
 
@@ -54,6 +61,7 @@ Le configurazioni mostrate in questo gruppo offrono le opzioni per la connession
 ![Dedicated con diversità nella AZ locale](/images/dedicated-diversity-local-az.png)
 
 ### Parte B: Diversità in mercati locali differenti, con l'instradamento globale
+{: #section-2-part-b}
 
 **Figura 7: Direct Link Connect con diversità e instradamento globale**
 
@@ -68,18 +76,20 @@ Le configurazioni mostrate in questo gruppo offrono le opzioni per la connession
 ![Dedicated con diversità e instradamento globale](/images/dedicated-diversity-global.png)
 
 ## Ulteriori informazioni su ECMP
+{: #more-about-ecmp}
 
 ECMP è una funzione di BGP. Alcuni clienti hanno chiesto informazioni sull'utilizzo di ECMP come un modo per archiviare la ridondanza. Tuttavia, il solo ECMP non è sufficiente. Questa sezione spiega il motivo.
 
 **D: ECMP è il modo di effettuare le connessioni ridondanti? Quali alternative esistono?**
 
-ECMP non è progettato per la creazione di connessioni ridondanti ma per il bilanciamento del carico su due link. Con ECMP su IBM Cloud, entrambe le connessioni devono terminare con lo stesso XCR (cross-connect router) IBM Cloud, il che lo rende un singolo punto di errore. (In altre parole, ECMP può essere fornito solo come due sessioni nello stesso XCR IBM Cloud.)
+ECMP non è progettato per la creazione di connessioni ridondanti ma per il bilanciamento del carico su due link. Con ECMP su {{site.data.keyword.cloud_notm}}, entrambe le connessioni devono terminare con lo stesso XCR (cross-connect router) IBM Cloud, il che lo rende un singolo punto di errore. (In altre parole, ECMP può essere fornito solo come due sessioni nello stesso XCR {{site.data.keyword.cloud_notm}}.)
 
 **Figura 10: provisioning di ECMP**
 
 ![Modello dedicato ECMP](/images/ecmp-without-diversity.png)
 
 ### Come archiviare la diversità e la ridondanza
+{: #how-to-achieve-diversity-and-redundancy}
 
 Se stai cercando l'elevata disponibilità (HA) o la ridondanza completa: configura due link in XCR differenti nello stesso data center (ad esempio DAL03). Quindi esegui il failover come necessario utilizzando le configurazioni BGP.
 

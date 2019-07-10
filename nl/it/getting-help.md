@@ -4,8 +4,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-04-12"
 
+keywords: help, support, ticket, forum, Stack Overflow
+
+subcollection: direct-link
 
 
 ---
@@ -32,7 +35,7 @@ lastupdated: "2019-01-18"
 # Come ottenere aiuto e supporto 
 {: #getting-help-and-support}
 
-In caso di problemi o domande durante l'utilizzo di {{site.data.keyword.cloud}} Direct Link, puoi ottenere assistenza attraverso la ricerca di informazioni o facendo domande in uno dei forum di seguito elencati. Puoi anche aprire un ticket di supporto nella [Console IBM Cloud ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) o in [Customer Portal ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/).
+In caso di problemi o domande durante l'utilizzo di {{site.data.keyword.cloud}} Direct Link, puoi ottenere assistenza attraverso la ricerca di informazioni o facendo domande in uno dei forum di seguito elencati. Puoi anche aprire un ticket di supporto nella [Console IBM Cloud ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")]( https://cloud.ibm.com/unifiedsupport/cases/add) o in [Customer Portal ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/).
 {:shortdesc}
 
 Quando utilizzi il forum per fare delle domande, contrassegna con una tag la tua domanda in modo che sia vista dai team di sviluppo {{site.data.keyword.Bluemix_notm}}.
@@ -41,7 +44,7 @@ Quando utilizzi il forum per fare delle domande, contrassegna con una tag la tua
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->
 * Per domande sul servizio e sulle istruzioni per l'utilizzo iniziale, utilizza il forum [IBM developerWorks dW Answers ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://developer.ibm.com/answers/topics/directlink.html?smartspace=ibm-cloud){:new_window}. Includi le tag  "directlink" e "ibm-cloud".
 
-Per ulteriori dettagli sull'utilizzo dei forum, vedi [Come ottenere assistenza](https://cloud.ibm.com/docs/support/index.html#getting-help).
+Per ulteriori dettagli sull'utilizzo dei forum, vedi [Come ottenere assistenza](/docs/get-support?topic=get-support-using-avatar#using-avatar).
 
 Per informazioni su come aprire un ticket di supporto IBM o sui livelli di supporto e sulla gravità dei ticket, vedi [Come contattare il supporto](/docs/get-support?topic=get-support-getting-customer-support).
 

@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-02"
+
+keywords: Connect, partners, deployment, NNI, speeds, pricing, details
+
+subcollection: direct-link
 
 ---
 
@@ -17,7 +21,7 @@ lastupdated: "2019-02-19"
 # Dettagli di IBM Cloud Direct Link Connect
 {: #ibm-cloud-direct-link-connect-details}
 
-{{site.data.keyword.cloud}} Direct Link Connect offre ai clienti la possibilità di collegarsi alla propria distribuzione di IBM Cloud tramite partner che gestiscono e operano su una rete basata sulla struttura. Sia IBM che il partner si collegheranno al cliente al livello 2 e 3 tramite Layer-2 10G Network-to-Network Interfaces (NNIs) duali.
+{{site.data.keyword.cloud}} Direct Link Connect offre ai clienti la possibilità di collegarsi alla propria distribuzione {{site.data.keyword.cloud_notm}} tramite partner che gestiscono e operano su una rete basata sulla struttura. Sia IBM che il partner si collegheranno al cliente al livello 2 e 3 tramite Layer-2 10G Network-to-Network Interfaces (NNIs) duali.
 
 Le connessioni sono offerte a velocità diverse:
 
@@ -29,6 +33,7 @@ Le connessioni sono offerte a velocità diverse:
 * 5 Gbps
 
 ## Prezzi
+{: #connect-details-pricing}
 
-I prezzi per IBM Cloud Direct Link Connect sono mostrati nel [Documento dei prezzi](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-direct-link-connect).
+I prezzi per {{site.data.keyword.cloud_notm}} Direct Link Connect sono mostrati nel [Documento dei prezzi](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-direct-link-connect).
 

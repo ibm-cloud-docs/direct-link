@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-02"
+
+keywords: Dedicated, finalize, questionnaire, Special Network Services, billing, fees, VRF, BGP, ticket, cross-connect, link speed, VPN, data, center, PoP, ECMP
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 Grazie per aver aperto una richiesta per {{site.data.keyword.cloud}} Direct Link Dedicated. Per finalizzare la tua richiesta, ci piacerebbe raccogliere alcune informazioni aggiuntive da te. Puoi parlare con un ingegnere in qualsiasi momento durante il processo del questionario. Dopo che lo avrai completato, il questionario verrà esaminato dal nostro team Cloud Design Engineering e fatto arrivare a Special Network Services per l'implementazione.
 
 ## Riconosci e accetti quanto segue?
+{: #dedicated-do-you-agree}
 
 1. Ogni connessione Direct Link richiede un ordine univoco. Se richiedi più connessioni, apri ordini Direct Link separati per ognuna di esse.
 
@@ -53,6 +58,7 @@ Grazie per aver aperto una richiesta per {{site.data.keyword.cloud}} Direct Link
 12. IBM Cloud Direct Link Dedicated richiede BGP per poter implementare le rotte in una rete remota del cliente. Quando il tuo servizio Direct Link è stato distribuito, IBM Cloud annuncerà tutte le sottoreti private assegnate al tuo account.IBM Cloud non implementerà i filtri personalizzati, l'anteposizione del percorso AS e le preferenze di locale personalizzate agli avvisi al peer BGP remoto del cliente.IBM Cloud non implementerà i filtri sugli avvisi ricevuti da IBM Cloud.I clienti dovranno gestire correttamente gli avvisi a/da IBM Cloud dal router edge del cliente.
 
 ## Altre domande
+{: #dedicated-other-questions}
 
 * **In quale PoP vuoi terminare Direct Link?**
 
@@ -72,6 +78,7 @@ Grazie per aver aperto una richiesta per {{site.data.keyword.cloud}} Direct Link
 
 
 ### Prezzo dell'instradamento globale
+{: #dedicated-global-routing-pricing}
 
 | Instradamento globale in entrata | Instradamento globale in uscita |
 |---|---|

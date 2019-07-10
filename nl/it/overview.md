@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-02"
+
+keywords: overview, connectivity, private network, site-to-site, Exchange, Connect, Dedicated, Hosting, OSI, Layer-3, partners, NNI, latency, backbone
+
+subcollection: direct-link
 
 ---
 
@@ -15,20 +19,20 @@ lastupdated: "2019-02-19"
 {:download: .download}
 
 # Panoramica delle offerte Direct Link
-{ #overview-of-direct-link-offerings}
+{: #overview-of-direct-link-offerings}
 
 L'offerta {{site.data.keyword.cloud}} Direct Link fornisce la connettività da un'origine esterna a una rete privata IBM del cliente. Direct Link può essere visto come un'alternativa a una soluzione VPN site-to-site, progettato per i clienti che hanno bisogno di una connettività con velocità effettiva più elevata e consistente tra una rete remota e i propri ambienti IBM Cloud. Sono disponibili quattro tipi di connessioni:
  
- * **IBM Cloud Direct Link Exchange** consente agli utenti di utilizzare un provider Exchange per fornire la connettività al proprio IBM Cloud. Un provider Exchange è un provider di rete o vettore già collegato alla rete IBM Cloud, che utilizza link ad elevata capacità a più tenant. I clienti normalmente possono acquistare un circuito virtuale a questo provider, fornendo a un costo ridotto, perché la connettività fisica da {{site.data.keyword.BluSoftlayer_notm}} al provider Exchange è già in atto, condivisa tra altri clienti.
+ * **IBM Cloud Direct Link Exchange** consente ai clienti di utilizzare un provider Exchange per fornire la connettività al proprio IBM Cloud. Un provider Exchange è un provider di co-ubicazione o di data center già connesso alla rete {{site.data.keyword.cloud_notm}}, che utilizza link ad elevata capacità a più tenant (noto anche come _network-to-network interface_ o NNI). I clienti normalmente possono acquistare un circuito virtuale presso questo provider, portando la connettività a un costo ridotto, perché la connettività fisica da {{site.data.keyword.cloud_notm}} al provider Exchange è già in atto, condivisa tra altri clienti.
  
- * **IBM Cloud Direct Link Connect** consente agli utenti di utilizzare un collegamento tramite i nostri partner che gestiscono e operano su una rete basata sulla struttura. Con IBM Cloud Direct Link Connect, IBM e il partner si collegano ai clienti al livello 2 e 3 tramite, Layer-2 10G NNIs duali.
+ * **IBM Cloud Direct Link Connect** consente ai clienti di utilizzare una connessione tramite i nostri partner vettore che gestiscono e operano su una rete basata sulla struttura. Un provider Connect è un NSP (provider del servizio di rete - network service provider) già connesso alla rete {{site.data.keyword.cloud_notm}}, che utilizza link ad elevata capacità a più tenant (noto anche come _network-to-network interface_ o NNI). I clienti normalmente possono acquistare un circuito virtuale presso questo provider, portando la connettività a un costo ridotto, perché la connettività fisica da {{site.data.keyword.cloud_notm}} al provider Connect è già in atto, condivisa tra altri clienti. 
  
- * **IBM Cloud Direct Link Dedicato** consente agli utenti di terminare una connessione trasversale fiber, a modalità singola e dedicata nella propria rete privata IBM Cloud.
+ * **IBM Cloud Direct Link Dedicated** consente ai clienti di terminare una connessione trasversale fiber a singolo tenant nella rete {{site.data.keyword.cloud_notm}}. Questa offerta può essere utilizzata dai clienti con strutture di co-ubicazione in loco vicine ai data center e ai POP di IBM Cloud, come pure dai provider del servizio di rete che forniscono i circuiti ai data center in loco dei clienti e ad altri data center. 
  
- * **Direct Link Dedicated Hosting** fornisce una connettività simile a IBM Cloud Direct Link Dedicato, ma il punto di connessione è vicino a un data center {{site.data.keyword.BluSoftlayer_notm}}, che migliora la latenza per i casi di utilizzo a prestazioni elevate. IBM Cloud offre molti servizi personalizzabili e di condivisione con questa soluzione.
+ * **IBM Cloud Direct Link Dedicated Hosting** fornisce una connettività simile a {{site.data.keyword.cloud_notm}} Direct Link Dedicated, ma il punto di connessione è vicino a un data center {{site.data.keyword.cloud_notm}}, ciò migliora la latenza per i casi di utilizzo a prestazioni elevate. {{site.data.keyword.cloud_notm}} offre molti servizi di co-ubicazione personalizzabili con questa soluzione. 
   
-Il servizio IBM Cloud Direct Link è un servizio OSI Layer-3 instradato. Offre una connessione diretta al backbone della rete privata {{site.data.keyword.BluSoftlayer_notm}}, con bassa latenza e con velocità fino a 10Gbps.
-Per una flessibilità incrementata nella creazione di questa connettività Layer-3, IBM Cloud Direct Link consente ai clienti di utilizzare:
+Il servizio {{site.data.keyword.cloud_notm}} Direct Link è un servizio di livello 3 OSI instradato. Offre una connessione diretta al backbone della rete privata {{site.data.keyword.cloud_notm}}, con bassa latenza e con velocità fino a 10Gbps.
+Per una flessibilità incrementata nella creazione di questa connettività di livello 3, {{site.data.keyword.cloud_notm}} Direct Link consente ai clienti di utilizzare:
  * IP duale per gli host remoti
  * NAT
  * Tunneling per BYOIP
