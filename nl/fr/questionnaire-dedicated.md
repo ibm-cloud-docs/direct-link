@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-02"
+
+keywords: Dedicated, finalize, questionnaire, Special Network Services, billing, fees, VRF, BGP, ticket, cross-connect, link speed, VPN, data, center, PoP, ECMP
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 Merci d'avoir ouvert une demande pour {{site.data.keyword.cloud}} Direct Link Dedicated. Afin de pouvoir finaliser votre demande, nous aurions besoin d'informations supplémentaires. Vous pouvez parler avec un ingénieur à tout moment durant le questionnaire. Une fois le questionnaire rempli, il sera examiné par notre équipe d'ingénieurs spécialisés dans la conception de cloud et transmis aux spécialistes des réseaux pour implémentation.
 
 ## Reconnaissez-vous et acceptez-vous ce qui suit ?
+{: #dedicated-do-you-agree}
 
 1. Chaque connexion Direct Link nécessite une commande unique. Si vous avez besoin de plusieurs connexions, créez une commande Direct Link distincte pour chacune d'elles.
 
@@ -30,7 +35,7 @@ Merci d'avoir ouvert une demande pour {{site.data.keyword.cloud}} Direct Link De
  * La facturation prend fin après :
    * qu'un client a demandé la suppression d'un circuit **et** 
    * que le fournisseur Exchange Provider ou Network Service Provider a annulé la mise à disposition du circuit.
-  * Pour plus d'informations, voir **Section 5 - Redevances, Taxes et Paiements** dans le contrat sur les services Cloud consultable en cliquant sur le lien suivant : [https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). Par exemple, les clients en France afficheront [ce contrat Cloud Services](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/fr-fr). 
+  * Pour plus d'informations, voir **Section 5 - Redevances, Taxes et Paiements** dans le contrat sur les services Cloud consultable en cliquant sur le lien suivant : [https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). Par exemple, les clients en France afficheront [ce contrat Cloud Services](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/fr-fr).
 
 3. En commandant le service Direct Link, vous êtes redevable de tous les frais associés à l'accessibilité du point de présence depuis votre réseau distant et aux interconnexions nécessaires dans le site de point de présence. Si votre fournisseur exige qu'un routeur ou un autre dispositif soit physiquement installé dans le point de présence, vous êtes également redevable des coûts associés à la colocalisation de ces équipements.
 
@@ -53,6 +58,7 @@ Merci d'avoir ouvert une demande pour {{site.data.keyword.cloud}} Direct Link De
 12. IBM Cloud Direct Link Dedicated requiert BGP afin d'implémenter des routes vers le réseau distant d'un client. Une fois votre service Direct Link déployé, IBM Cloud prévient tous les sous-réseaux privés affectés à votre compte.IBM Cloud n'implémente pas de filtres personnalisés, d'attributs AS-Path ajoutés en préfixe et de préférences locales personnalisées sur les annonces envoyées à l'homologue BGP distant du client.IBM Cloud n'implémente pas de filtres sur les annonces émises vers IBM Cloud. Les clients doivent gérer correctement les annonces envoyées vers/par IBM Cloud à partir de leur routeur périphérique.
 
 ## Autres questions
+{: #dedicated-other-questions}
 
 * **Dans quel point de présence souhaitez-vous terminer Direct Link ?**
 
@@ -72,6 +78,7 @@ Merci d'avoir ouvert une demande pour {{site.data.keyword.cloud}} Direct Link De
 
 
 ### Tarification de l'option Routage mondial
+{: #dedicated-global-routing-pricing}
 
 | Routage mondial (trafic entrant) | Routage mondial (trafic sortant) |
 |---|---|

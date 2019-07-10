@@ -2,7 +2,12 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-03-29"
+
+
+keywords: Dedicated, Hosting, finalize, questionnaire, Network Engineering, billing, fees, VRF, BGP, ticket, cross-connects, datacenters, data, center, backhaul, single mode, single-mode, fiber, Letter of Authorization, LOA, contract
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +25,7 @@ lastupdated: "2019-02-19"
 Merci d'avoir ouvert une demande pour {{site.data.keyword.cloud}} Direct Link Dedicated Hosting. Afin de pouvoir finaliser votre demande, nous aurions besoin d'informations supplémentaires. Vous pouvez parler avec un ingénieur à tout moment durant le questionnaire. Une fois le questionnaire rempli, il sera examiné par notre équipe d'ingénieurs spécialisés dans la conception de cloud et transmis à l'équipe d'ingénieurs spécialistes des réseaux pour implémentation.
 
 ## Confirmations
+{: #dedicated-hosting-acknowledgements}
 
 1. Les frais indiqués dans ce questionnaire couvrent le coût lié à la résiliation du service dans l'infrastructure réseau IBM Cloud. Les coûts de colocalisation, y compris les meubles, les interconnexions, etc., incluent des frais mensuels et ponctuels indiqués séparément dans le cadre d'un contrat de colocalisation.
 
@@ -45,7 +51,7 @@ Merci d'avoir ouvert une demande pour {{site.data.keyword.cloud}} Direct Link De
 
 12. Confirmez que vous acceptez la tarification suivante pour Direct Link :
  * 1 Gbit/s : _TARIFICATION BASEE SUR L'EMPLACEMENT_ 
-* 2 Gbit/s : _TARIFICATION BASEE SUR L'EMPLACEMENT_
-* 5 Gbit/s : _TARIFICATION BASEE SUR L'EMPLACEMENT_
-* 10 Gbit/s : _TARIFICATION BASEE SUR L'EMPLACEMENT_
-* Option Routage mondial facultative
+ * 2 Gbit/s : _TARIFICATION BASEE SUR L'EMPLACEMENT_
+ * 5 Gbit/s : _TARIFICATION BASEE SUR L'EMPLACEMENT_
+ * 10 Gbit/s : _TARIFICATION BASEE SUR L'EMPLACEMENT_
+ * Option Routage mondial facultative

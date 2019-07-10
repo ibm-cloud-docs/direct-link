@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-25"
+
+keywords: colocation, connectivity, provider, Dedicated, Hosting, locations, PoP, datacenter, data, center, contract, addendum
+
+subcollection: direct-link
 
 ---
 
@@ -24,6 +28,7 @@ lastupdated: "2019-02-19"
 3. Lorsque la construction de votre cage de colocalisation est terminée, le processus d'interconnexion entre cette cage et l'équipement XCR de l'environnement POD {{site.data.keyword.BluSoftlayer_notm}} suivra le processus de commande d'[IBM Cloud Direct Link Dedicated](/docs/infrastructure/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-dedicated), en commençant par l'étape 3.
 
 ## Emplacements
+{: #dedicated-hosting-locations}
 
 Le tableau ci-dessous présente les centres de données IBM Cloud capables d'accepter des clients pour Dedicated Hosting :
 
@@ -46,7 +51,7 @@ Le tableau ci-dessous présente les centres de données IBM Cloud capables d'acc
 | APAC | MEL01 |  Melbourne  |  DC |  DLR |  72 Radnor Drive, Deer Park |
 | APAC |  SYD01 |  Sydney | DC (AZ1) | Global Switch  |  400 Harris Street aka 273 Pyrmont St. Ultimo |
 | APAC |	SYD02 |	 Sydney |	PoP |	Equinix |	47 Bourke Rd |
-| APAC |	SYD03 |	 Sydney |	PoP |	Equinix |	4 Eden Park Drive |
+| APAC |	SYD04 |	 Sydney |	DC (AZ2) |	DLR |	4 Eden Park Drive |
 | APAC |	SYD05 |	 Sydney |	DC (AZ3) |	Equinix |	200 Bourke Rd |
 | APAC |  SNG01 |  Jurong East |  DC | DLR |  29a International Business Park, S180 |
 | APAC |  SNG02 |	Ayer Rajan	| PoP |	Equinix |	20 Ayer Rajan Crescent Industrial Park |
@@ -62,5 +67,5 @@ Le tableau ci-dessous présente les centres de données IBM Cloud capables d'acc
 | EMEA | PAR02 | Paris | PoP | Equinix |	114 Rue Ambroise Croizat |
 
 
-
-Si vous avez besoin de l'adresse exacte de Tokyo, contactez votre équipe de vente ou de gestion des offres Direct Link.{:note}
+Si vous avez besoin de l'adresse exacte de Tokyo, contactez votre équipe de vente ou de gestion des offres Direct Link.
+{:note}

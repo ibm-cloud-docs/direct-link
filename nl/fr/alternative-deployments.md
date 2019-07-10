@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-01"
+
+keywords: use case, alternatives, deployments, diverse, redundant, default, multi-cloud, other clouds, schematic
+
+subcollection: direct-link
 
 ---
 
@@ -17,9 +21,10 @@ lastupdated: "2019-02-19"
 # Alternatives pour votre déploiement IBM Cloud Direct Link
 {: #alternatives-for-your-ibm-cloud-direct-link-deployment}
 
-Ce document illustre quelques utilisations alternatives que nos clients choisissent parfois pour leurs déploiements {{site.data.keyword.cloud}} Direct Link. 
+Ce document illustre quelques utilisations alternatives que nos clients choisissent parfois pour leurs déploiements {{site.data.keyword.cloud}} Direct Link.
 
 ## Autres déploiements pour Exchange et Connect
+{: #diverse-deployments-for-exchange-and-connect}
 
 Les déploiements par défaut de Direct Link Connect et Direct Link Exchange n'incluent pas de configuration redondante, bien qu'ils puissent être déployés différemment sur des routeurs distincts.
 
@@ -37,6 +42,7 @@ IBM Cloud Direct Link permet également des déploiements Connect distincts, com
 **Figure 2 (ci-dessus) : déploiement redondant et différent d'IBM Cloud Direct Link Connect**
 
 ## Utilisation d'Exchange et de Connect avec d'autres clouds
+{: #using-exchange-and-connect-in-conjunction-with-other-clouds}
 
 Certains de nos clients souhaitent utiliser Direct Link Exchange en conjonction avec d'autres fournisseurs de cloud comme AWS, Azure ou Google Cloud. Le schéma suivant montre comment établir ce type de connexion avec un fournisseur Cloud Exchange.
 
