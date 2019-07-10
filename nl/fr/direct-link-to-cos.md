@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-21"
+
+keywords: Cloud Object Storage, endpoints, Cross Region, Regional, Single Site, reverse proxy, nginx, bare metal, VRA, bucket, virtual router appliance
+
+subcollection: direct-link
 
 ---
 
@@ -18,15 +22,16 @@ lastupdated: "2019-02-19"
 # Utilisation d'IBM Cloud Direct Link pour se connecter à IBM Cloud Object Storage
 {: #using-ibm-cloud-direct-link-to-connect-to-ibm-cloud-object-storage}
 
-Le présent document explique comment configurer {{site.data.keyword.cloud}} Direct Link de manière à pouvoir accéder à IBM Cloud Object Storage (COS). Bien que les méthodes décrites ici ont été conçues et testées avec COS, elles peuvent fonctionner pour certains autres services IBM Cloud.
+Le présent document explique comment configurer {{site.data.keyword.cloud}} Direct Link de manière à pouvoir accéder à {{site.data.keyword.cloud_notm}} Object Storage (COS). Bien que les méthodes décrites ici ont été conçues et testées avec COS, elles peuvent fonctionner pour certains autres services {{site.data.keyword.cloud_notm}}.
 
-Selon la règle en cours, IBM Cloud Direct Link rejette l'accès aux noeuds finaux de service privés IBM Cloud, y compris à ceux utilisés par IBM Cloud Object Storage (COS). La technique décrite dans le présent document s'appuie sur un accès indirect à COS via les serveurs hébergés dans le compte IBM Cloud d'un client. Après l'installation et la configuration, chaque serveur de client peut acheminer le trafic de façon bidirectionnelle entre les noeuds finaux de service privés IBM Cloud et leurs réseaux distants connectés par Direct Link.
+Selon la règle, {{site.data.keyword.cloud_notm}} Direct Link rejette l'accès aux noeuds finaux de service privés {{site.data.keyword.cloud_notm}}, y compris à ceux utilisés par {{site.data.keyword.cloud_notm}} Object Storage (COS). La technique décrite dans le présent document s'appuie sur un accès indirect à COS via les serveurs hébergés dans le compte {{site.data.keyword.cloud_notm}} d'un client. Après l'installation et la configuration, chaque serveur de client peut acheminer le trafic de façon bidirectionnelle entre les noeuds finaux de service privés {{site.data.keyword.cloud_notm}} et leurs réseaux distants connectés par Direct Link.
 
 ## Qu'est-ce qu'IBM Cloud Object Storage (COS) ?
+{: #what-is-ibm-cloud-object-storage}
 
-IBM Cloud Object Storage (COS) est une plateforme basée sur le Web qui stocke des données non structurées. Elle fournit fiabilité, sécurité, disponibilité et reprise après incident sans réplication manuelle.
+{{site.data.keyword.cloud_notm}} Object Storage (COS) est une plateforme basée sur le Web qui stocke des données non structurées. Elle fournit fiabilité, sécurité, disponibilité et reprise après incident sans réplication manuelle.
 
-Les informations stockées dans IBM Cloud Object Storage sont chiffrées et réparties dans plusieurs emplacements géographiques. Elles sont accessibles via une implémentation de l'API S3. Ce service utilise les technologies de stockage réparti fournies par le service IBM Cloud Object Storage.
+Les informations stockées dans {{site.data.keyword.cloud_notm}} Object Storage sont chiffrées et réparties dans plusieurs emplacements géographiques. Elles sont accessibles via une implémentation de l'API S3. Ce service utilise les technologies de stockage réparti fournies par le service {{site.data.keyword.cloud_notm}} Object Storage.
 
 IBM COS est disponible dans trois types de configuration : **Inter-régional**, **Régional** et **Site unique**.
 
@@ -37,38 +42,47 @@ IBM COS est disponible dans trois types de configuration : **Inter-régional**, 
  * Le service de type Site unique offre un accès abordable à Cloud Object Storage dans un centre de données sélectionné.
 
 ### Noeuds finaux publics et privés COS
+{: #cos-private-and-public-endpoints}
+
 Les noeuds finaux sont des URL que les applications utilisent pour exécuter des commandes COS et échanger des données avec COS. Chaque noeud final utilise la même API pour interagir avec COS.
 
-Les serveurs mis à disposition dans IBM Cloud utilisent les noeuds finaux d'API privés des services, y compris COS. Les noeuds finaux privés fournissent aux serveurs IBM Cloud des clients des connexions directes très rapides avec les services, sans coût supplémentaire lié à la bande passante.
+Les serveurs mis à disposition dans {{site.data.keyword.cloud_notm}} utilisent les noeuds finaux d'API privés des services, y compris COS. Les noeuds finaux privés fournissent à vos serveurs {{site.data.keyword.cloud_notm}} des clients des connexions directes très rapides avec les services, sans coût supplémentaire lié à la bande passante.
 
-Les noeuds finaux publics COS permettent aux clients IBM Cloud d'accéder aux mêmes données COS que celles qui sont accessibles à partir d'IBM Cloud, mais à partir de n'importe quel emplacement équipé d'Internet.
+Les noeuds finaux publics COS permettent aux clients {{site.data.keyword.cloud_notm}} d'accéder aux mêmes données COS que celles accessibles depuis {{site.data.keyword.cloud_notm}}, mais à partir de n'importe quel emplacement équipé d'Internet.
 
 Deux avertissements s'appliquent aux noeuds finaux publics COS :
  * L'utilisation de noeuds finaux publics peut engendrer des coûts mesurés liés à la bande de passante qui dépassent les frais d'utilisation imposés par le service COS.
  * Bien que toutes les données soient chiffrées pendant leur transfert, les clients peuvent être confrontés à des problèmes de confidentialité ou de restriction réglementaire concernant les données transmises via Internet.
 
 ## Qu'est-ce qu'IBM Cloud Direct Link ?
-IBM Cloud Direct Link est une suite de produits qui permet aux clients de créer des connexions privées sécurisées entre leurs environnements de réseau distant et leurs déploiements IBM Cloud. Les données échangées par Direct Link ne sont jamais exposées sur Internet.
+{: #what-is-ibm-cloud-direct-link}
+
+{{site.data.keyword.cloud_notm}} Direct Link est une suite de produits qui permet aux clients de créer des connexions privées sécurisées entre leurs environnements de réseau distant et leurs déploiements {{site.data.keyword.cloud_notm}}. Les données échangées par Direct Link ne sont jamais exposées sur Internet.
 
 ## Utilisation de Cloud Object Storage (COS) sur IBM Cloud Direct Link
-Les ingénieurs IBM ont mis au point une méthode permettant à un client IBM Cloud qui acquiert les services COS et Direct Link d'établir des connexions distantes à des noeuds finaux privés COS. Ce type de connexion étend les avantages des noeuds finaux de service privés, ce qui les rend utilisables par des systèmes client en dehors des installations IBM Cloud.
+{: #using-cloud-object-storage-over-ibm-cloud-direct-link}
+
+Les ingénieurs IBM ont mis au point une méthode permettant à un client {{site.data.keyword.cloud_notm}} qui acquiert les services COS et Direct Link d'établir des connexions distantes à des noeuds finaux privés COS. Ce type de connexion étend les avantages des noeuds finaux de service privés, ce qui les rend utilisables par des systèmes client en dehors des installations {{site.data.keyword.cloud_notm}}.
 
 Cette solution est présentée sous forme de diagramme et décrite dans les sections qui suivent.
 
 ### Proxy inverse
+{: #direct-link-reverse-proxy}
 
 **Principe de base : les clients distants transmettent des demandes, y compris des données d'identification sécurisées, via un serveur privé vers COS**
 
 ![reverse=proxy](images/reverse-proxy.png)
 
-Les demandes COS HTTPS sont initiées à partir d'un client au niveau d'un site distant. Elles sont transmises de manière sécurisée via IBM Cloud Direct Link, en ciblant l'un des clusters de _serveurs proxy inverses_ déployés dans le compte BM Cloud d'un client. A partir de là, les demandes sont transmises à un noeud final privé COS, elles sont traitées, puis les résultats sont renvoyés au client appelant distant.
+Les demandes COS HTTPS sont initiées à partir d'un client au niveau d'un site distant. Elles sont transmises de manière sécurisée via {{site.data.keyword.cloud_notm}} Direct Link, en ciblant l'un des clusters de _serveurs proxy inverses_ déployés dans le compte {{site.data.keyword.cloud_notm}} d'un client. A partir de là, les demandes sont transmises à un noeud final privé COS, elles sont traitées, puis les résultats sont renvoyés au client appelant distant.
 
 Tout exemple de code client qui fonctionne avec COS doit également fonctionner via un serveur _proxy inverse_. Le seul ajustement requise est que, au lieu de cibler l'une des URL de noeud final privé COS publiées par IBM, le client cible l'adresse IP ou l'URL du serveur proxy inverse.
 
 #### Installation de votre proxy inverse Nginx
+{: #direct-link-installing-your-nginx-reverse-proxy}
+
 **NginX** est un serveur Web open source mature, compact et rapide qui excelle dans l'exécution de tâches spécialisées, y compris le rôle de serveur _proxy inverse_ mentionné précédemment.
 
-Les instructions et les informations de configuration indiquées ci-après, relatives à l'installation et la configuration d'un serveur proxy inverse NginX, peuvent fonctionner une fois que vous avez adapté ce dernier à votre environnement. Si vous êtes coincé ou si vous avez besoin d'informations supplémentaires, consultez la partie sur le proxy inverse dans la [documentation Nginx ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) ou recherchez des exemples dans [stackoverflow ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")]](http://stackoverflow.com). 
+Les instructions et les informations de configuration indiquées ci-après, relatives à l'installation et la configuration d'un serveur proxy inverse NginX, peuvent fonctionner une fois que vous avez adapté ce dernier à votre environnement. Si vous êtes coincé ou si vous avez besoin d'informations supplémentaires, consultez la partie sur le proxy inverse dans la [documentation Nginx ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) ou recherchez des exemples dans [stackoverflow ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")]](http://stackoverflow.com).
 
 1. Mettez à disposition vos serveurs VSI ou bare avec une version Linux **RHEL** ou **CentOS** minimale (recommandée).
 2. Pour chaque VSI, activez les règles de groupe de sécurité suivantes sur l'interface publique : `allow_http`, `allow_https`, `allow_outbound`, `allow_ssh`.
@@ -86,14 +100,14 @@ Les instructions et les informations de configuration indiquées ci-après, rela
 14. Si le test aboutit, redémarrez `nginx` à l'aide de la commande `nginx -s quit; sleep 3; nginx`.
 15. Votre client devrait à présent être en mesure de soumettre des demandes COS aux adresses IP ou aux URL du serveur NginX (proxy).
 
-#### Remarques :
+**Remarques :**
 
 * La solution part du principe que Direct Link a été commandé et correctement déployé, même si elle peut être testée sans ce service.
 * La mémoire ou le cache-disque facultatifs peuvent être utilisés avec `proxy_cache`.
 * Une valeur `proxy_read_timeout` plus élevée peut s'avérer nécessaire pour des transferts de fichiers plus importants.
 * Utilisez `keepalive` ou Pacemaker pour une haute disponibilité (reprise en ligne automatique).
 
-#### Fichier de configuration : `nginx.conf`
+**Fichier de configuration : `nginx.conf`**
 
 L'exemple de fichier de configuration est présenté dans la section suivante. Vous pouvez le copier et le coller.
 
@@ -158,27 +172,31 @@ http {
 }
 ```
 
-Pour obtenir une liste de points finaux privés à utiliser dans les entrées `proxy_pass` ci-dessus, voir la rubrique en ligne sur les [noeuds finaux COS](https://{DomainName}/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints).
+Pour obtenir une liste de points finaux privés à utiliser dans les entrées `proxy_pass` ci-dessus, voir la rubrique en ligne sur les [noeuds finaux COS](/docs/infrastructure/cloud-object-storage-infrastructure?topic=cloud-object-storage-infrastructure-select-regions-and-endpoints#select-regions-and-endpoints).
 
-#### Astuces :
+**Astuces :**
 
  * Pour accélérer la mise à l'échelle et la résilience, déployez plusieurs serveurs proxy associés à différents points finaux.
  * Utilisez DNS de façon circulaire côté client pour des fonctions de basculement et d'équilibrage de charge rudimentaires.
  * Les serveurs proxy peuvent être placés derrière un dispositif de routeur virtuel à des fins de protection et de journalisation centralisée.
 
 ## Gestion et mise à disposition de fonctions IBM Cloud
+{: #direct-link-managing-and-provisioning-ibm-cloud-capabilities}
 
-Cette section contient des liens rapides vers la documentation de certaines offres IBM Cloud PaaS et SaaS auxquelles vous pouvez vous connecter à l'aide d'IBM Cloud Direct Link.
+Cette section contient des liens rapides vers la documentation de certaines offres IBM Cloud PaaS et SaaS auxquelles vous pouvez vous connecter à l'aide d'{{site.data.keyword.cloud_notm}} Direct Link.
 
 ### Comment mettre à disposition des serveurs bare metal
+{: #direct-link-how-to-provision-bare-metal-servers}
 
-Pour obtenir des instructions détaillées sur la mise à disposition de serveurs bare metal, voir la [documentation sur les serveurs bare metal](https://{DomainName}/docs/bare-metal?topic=bare-metal-about#about).
+Pour obtenir des instructions détaillées sur la mise à disposition de serveurs bare metal, voir la [documentation sur les serveurs bare metal](/docs/bare-metal?topic=bare-metal-about#about).
 
 ### Comment mettre à disposition un dispositif de routeur virtuel (VRA)
+{: #direct-link-how-to-provision-a-virtual-router-appliance}
 
-Pour obtenir des instructions détaillées sur la mise à disposition d'un dispositif de routeur virtuel, voir le [guide d'initiation sur IBM Virtual Router Appliance](https://{DomainName}/docs/infrastructure/virtual-router-appliance/getting-started.html#getting-started).
+Pour obtenir des instructions détaillées sur la mise à disposition d'un dispositif de routeur virtuel, voir le [guide d'initiation sur IBM Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance?topic=virtual-router-appliance-getting-started#getting-started).
 
 ### Comment mettre à disposition IBM Cloud Object Storage (COS)
+{: #direct-link-how-to-provision-ibm-cloud-object-storage}
 
  * Pour obtenir des instructions détaillées sur la mise à disposition de COS, voir la [documentation sur Cloud Object Storage](https://{DomainName}/catalog/services/cloud-object-storage).
 
