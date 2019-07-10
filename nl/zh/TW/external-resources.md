@@ -3,7 +3,12 @@
 copyright:
   years: 2017, 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-21"
+
+
+keywords: tutorials, solution, case study, white paper, announcement, blog, 
+
+subcollection: direct-link
 
 ---
 
@@ -16,13 +21,13 @@ lastupdated: "2019-02-19"
 {:download: .download}
 
 # 相關資源
-{ #related-resources}
+{: #related-resources}
 
 這些資源是由 {{site.data.keyword.cloud}} 以及我們的一些合作夥伴和客戶所建立。
 
 ## IBM Cloud 解決方案指導教學
 
-* [**Isolate workloads with a secure private network** ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://cloud.ibm.com/docs/tutorials/secure-network-enclosure.html#isolate-workloads-with-a-secure-private-network)
+* [**Isolate workloads with a secure private network** ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-secure-network-enclosure#isolate-workloads-with-a-secure-private-network)
 
 ## 文件及個案研討
 
@@ -57,18 +62,18 @@ lastupdated: "2019-02-19"
 
 ## IBM 網站上的部落格
 
-* [Megaport and IBM Empower Enterprise Cloud ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/blogs/bluemix/2017/12/megaport-and-ibm-empower-enterprise-cloud/)，作者 Matt Simpson 及 Jill Tempelmeyer
+* [Megaport and IBM Empower Enterprise Cloud ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/blog/megaport-and-ibm-empower-enterprise-cloud)，作者 Matt Simpson 及 Jill Tempelmeyer
 
 * [Supportingthe next generation cloud applications with IBM Cloud Direct Link ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/)，作者 Gabriel Montanti
 
-* [IBM and Colt:Enabling Enterprise Digital Transformation ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/blogs/bluemix/2018/06/ibm-colt-enterprise-digital-transformation/)，作者 Paul Hertzfeldt
+* [IBM and Colt:Enabling Enterprise Digital Transformation ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/blog/announcements/ibm-colt-enterprise-digital-transformation)，作者 Paul Hertzfeldt
 
-* [Digital Realty and IBM Cloud Direct Link: Built for Enterprise Cloud ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/blogs/bluemix/2018/07/digital-realty-ibm-cloud-direct-link-expand-network/)，作者 Paul Hertzfeldt
+* [Digital Realty and IBM Cloud Direct Link: Built for Enterprise Cloud ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-direct-link-expand-network)，作者 Paul Hertzfeldt
 
-* [PacketFabric and IBM Cloud Enable Secure Enterprise Connections ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖")](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/)，作者 Paul Hertzfeldt
+* [PacketFabric and IBM Cloud Enable Secure Enterprise Connections ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖")](https://www.ibm.com/cloud/blog/announcements/packetfabric-ibm-enable-secure-enterprise-connections)，作者 Paul Hertzfeldt
 
-* [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖")](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/)，作者 Paul Hertzfeldt
+* [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖")](https://www.ibm.com/cloud/blog/announcements/tokyo-connects-ibm-cloud-support-mission-critical-applications)，作者 Paul Hertzfeldt
 
-* [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/blogs/bluemix/2018/09/interxion-enterprise-ibm-cloud-services/)，作者 Paul Hertzfeldt
+* [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/blog/announcements/interxion-enterprise-ibm-cloud-services)，作者 Paul Hertzfeldt
 
-* [Improve Digital Experiences with SES Networks and IBM ![外部鏈結圖](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/blogs/bluemix/2018/10/improve-digital-experiences-with-ses-networks-and-ibm/)，作者 Paul Hertzfeldt
+* [Improve Digital Experiences with SES Networks and IBM ![外部鏈結圖](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/blog/improve-digital-experiences-with-ses-networks-and-ibm)，作者 Paul Hertzfeldt

@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-21"
+
+keywords: VRF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, datacenters, data, center, shared tenancy, private endpoint, Customer VRF, Private Network Question, support, ticket
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 依定義，虛擬遞送及轉遞 (VRF) 是網際網路通訊協定 (IP) 網路路由器中包含的技術。它提供為一項固有的骨幹服務。
 
 ## IBM Cloud 的連線功能選項
+{: #connectivity-options-for-ibm-cloud}
 
 **分散雲端資源**是位於多個位置或甚至多個子網路或 VLAN 的資源。這些資源需要遞送功能以便彼此通訊，甚至是在專用網路的環境定義內通訊。本文件說明「多重隔離」的租用通訊選項，這經常稱為_客戶 VRF_。它實作為跨越全球 {{site.data.keyword.cloud}} 骨幹的 MPLS 第 3 層 VPN (RFC 4364)。
 
@@ -32,6 +37,7 @@ lastupdated: "2019-02-19"
 本文件使用**客戶 VRF** 一詞來說明_多重隔離_ 網路連線功能。
 
 ## VRF 概觀（多重隔離技術）
+{: #vrf-overview}
 
 虛擬遞送及轉遞 (VRF) 容許在路由器中存在一個遞送表的多個實例，並且同時運作。使用虛擬遞送及轉遞 (VRF)，每個雲端承租戶的 VRF 網路會在其遞送表之內分段。此分段容許 IP 位址重疊，且不會對其他承租戶 VRF 產生任何互動或干擾。IBM Cloud 利用大部分的 `10.0.0.0/8` 網路，這可能會與許多遠端網路（例如，在客戶資料中心部署的網路）重疊。
 
@@ -56,6 +62,7 @@ IBM 正藉由部署下一代的 Cloud 向前邁步，在我們的「可用性區
 * 「客戶 VRF」是一項連線功能服務，在承租戶之間提供隔離。在租賃內需要的任何其他控制措施，都必須個別佈建，並使用閘道、安全群組或以主機為基礎的控制措施。
 
 ## 移到 VRF 的好處
+{: #benefits-of-moving-to-vrf}
 
 **主要好處包括：**
 
@@ -74,6 +81,7 @@ IBM 正藉由部署下一代的 Cloud 向前邁步，在我們的「可用性區
 * 在您的_多重隔離_ 租賃內無法使用 VLAN Spanning。
 
 ## 帳戶轉換過程期間發生什麼事
+{: #what-happens-during-the-account-conversion-process}
 
 許多 IBM Cloud 客戶目前在 IBM Cloud 網路上，以共用租賃模型運作。在轉換期間，租賃會轉換為使用客戶 VRF，最常具有新的 Direct Link 訂閱，或是如其他方式所要求。  
 
@@ -86,8 +94,12 @@ IBM 正藉由部署下一代的 Cloud 向前邁步，在我們的「可用性區
 ## 如何起始轉換
 {: #how-you-can-initiate-the-conversion}
 
-現有的 IBM Cloud 客戶可以透過 [IBM Cloud 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) 帳戶開立支援問題單，要求移轉至 VRF。問題單應該指出：“Private Network Question”，並請在支援問題單中包含下列文字：
+現有的 IBM Cloud 客戶可以透過 [IBM Cloud 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")]( https://cloud.ibm.com/unifiedsupport/cases/add) 帳戶[開立支援問題單](https://cloud.ibm.com/unifiedsupport/cases/add)，要求移轉至 VRF。問題單應該指出：“Private Network Question”，並請在支援問題單中包含下列文字：
 
 "We are requesting that account _fill in your account number_ is moved to its own VRF. We understand the risks and approve the change.  Please reply back with the scheduled window(s) of time where this change will be made so we can prepare for the migration."
 
 移轉由 IBM Cloud 網路工程團隊完成。除了雙方協議的排程之外，不需要您提供其他資訊。通常封包流失可能持續 15-30 分鐘，視您帳戶的複雜性而定。（如果您的帳戶有舊式 Direct Link 連線的話可能會更久。）處理程序高度自動化，需要 IBM 團隊的最少互動，且應該是清楚可見的。
+
+當您開立問題單時，建議如下圖所示選取「技術」選項，不過，如果有包括先前給定的文字，則可以使用任何選項：
+
+![影像](https://media.github.ibm.com/user/11495/files/4474c300-4bd9-11e9-9bc7-d6242d7997e9)

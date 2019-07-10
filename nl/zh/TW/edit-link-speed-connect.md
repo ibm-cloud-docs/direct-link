@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-22"
+
+keywords: link speed, Exchange, connection, edge server, Terms and Conditions
+
+subcollection: direct-link
 
 ---
 
@@ -21,7 +25,7 @@ lastupdated: "2019-02-19"
 
 ## 步驟 1： 
 
-請遵循 [Cloud Exchange 訂購程序](/docs/infrastructure/direct-link/cloud-exchange-automation.html)的步驟 1 到 2。
+請遵循 [Cloud Exchange 訂購程序](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange)的步驟 1 到 2。
 
 ## 步驟 2：
 

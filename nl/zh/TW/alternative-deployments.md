@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-01"
+
+keywords: use case, alternatives, deployments, diverse, redundant, default, multi-cloud, other clouds, schematic
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 本文件說明一些替代方案，我們的客戶有時會選擇這些替代方案作為其 {{site.data.keyword.cloud}} Direct Link 部署的使用案例。
 
 ## Exchange 和 Connect 的多樣化部署
+{: #diverse-deployments-for-exchange-and-connect}
 
 Direct Link Connect 和 Direct Link Exchange 的預設部署不包含備援配置，雖然它們可以多樣化地部署在分離的路由器上。
 
@@ -37,6 +42,7 @@ IBM Cloud Direct Link 也讓建立多樣化 Connect 部署變輕鬆，如下圖�
 **圖 2（如上）：備援且多樣化 IBM Cloud Direct Link Connect 部署**
 
 ## 與其他雲端一起使用 Exchange 及 Connect
+{: #using-exchange-and-connect-in-conjunction-with-other-clouds}
 
 我們的部分客戶想要與其他雲端提供者一起使用 Direct Link Exchange，例如 AWS、Azure 或 Google Cloud。下列概要顯示如何與 Cloud Exchange 提供者建立這種連線的概觀。
 
