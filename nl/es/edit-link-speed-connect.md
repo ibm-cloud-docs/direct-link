@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-22"
+
+keywords: link speed, Exchange, connection, edge server, Terms and Conditions
+
+subcollection: direct-link
 
 ---
 
@@ -21,7 +25,7 @@ Puede editar la velocidad de enlace de la conexión en cualquiera de los lados d
 
 ## Paso 1: 
 
-Siga los pasos 1 y 2 desde el [procedimiento de pedido de Cloud Exchange](/docs/infrastructure/direct-link/cloud-exchange-automation.html).
+Siga los pasos 1 y 2 desde el [procedimiento de pedido de Cloud Exchange](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange).
 
 ## Paso 2:
 

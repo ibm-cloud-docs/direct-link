@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-01"
+
+keywords: use case, alternatives, deployments, diverse, redundant, default, multi-cloud, other clouds, schematic
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 Este documento ilustra algunas alternativas que nuestros clientes eligen como casos de uso para sus despliegues de {{site.data.keyword.cloud}} Direct Link.
 
 ## Despliegues diversos para Exchange y Connect
+{: #diverse-deployments-for-exchange-and-connect}
 
 Los despliegues predeterminados de Direct Link Connect y Direct Link Exchange no incluyen una configuración redundante, aunque se pueden desplegar de forma distinta en direccionadores discretos.
 
@@ -37,6 +42,7 @@ IBM Cloud Direct Link también facilita el establecimiento de despliegues de Con
 **Figura 2 (arriba): Un despliegue de IBM Cloud Direct Link Connect redundante y diverso**
 
 ## Utilización de Exchange y Connect junto con otras nubes
+{: #using-exchange-and-connect-in-conjunction-with-other-clouds}
 
 Algunos de nuestros clientes desean utilizar Direct Link Exchange junto con otros proveedores de nube, como por ejemplo AWS, Azure o Google Cloud. El esquema siguiente muestra una vista general sobre cómo establecer este tipo de conexión con un proveedor de Cloud Exchange.
 

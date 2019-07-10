@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-02"
+
+keywords: Dedicated, finalize, questionnaire, Special Network Services, billing, fees, VRF, BGP, ticket, cross-connect, link speed, VPN, data, center, PoP, ECMP
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 Gracias para abrir una solicitud de {{site.data.keyword.cloud}} Direct Link Dedicated. Para finalizar su solicitud, nos gustaría obtener alguna información adicional. Puede ponerse en contacto con un ingeniero en cualquier momento durante el proceso del cuestionario.  Una vez que haya completado el cuestionario, nuestro equipo de ingenieros de diseño de nube lo revisará y lo escalará al equipo de servicios de red especiales para su implementación.
 
 ## ¿Está de acuerdo y acepta las siguientes afirmaciones?
+{: #dedicated-do-you-agree}
 
 1. Cada conexión de Direct Link requiere una solicitud exclusiva.  Si necesita varias conexiones, abra una solicitud de Direct Link para cada conexión.
 
@@ -53,6 +58,7 @@ Gracias para abrir una solicitud de {{site.data.keyword.cloud}} Direct Link Dedi
 12. IBM Cloud Direct Link Dedicated necesita BGP para implementar rutas a la red remota de un cliente.  Cuando se haya desplegado el servicio de Direct Link, IBM Cloud anunciará todas las subredes privadas asignadas a su cuenta. IBM Cloud no implementará filtros personalizados, prefijos AS-Path ni preferencias locales personalizadas en las publicaciones en el igual de BGP remoto del cliente. IBM Cloud no implementará filtros en las publicaciones recibidas en IBM Cloud. Los clientes tendrán que gestionar correctamente las publicaciones a/desde IBM Cloud desde el direccionador del extremo del cliente. 
 
 ## Otras preguntas
+{: #dedicated-other-questions}
 
 * **¿En qué PoP desea terminar el servicio Direct Link?**
 
@@ -72,6 +78,7 @@ Gracias para abrir una solicitud de {{site.data.keyword.cloud}} Direct Link Dedi
 
 
 ### Precios de direccionamiento global
+{: #dedicated-global-routing-pricing}
 
 | Entrada de direccionamiento global | Salida de direccionamiento global |
 |---|---|
