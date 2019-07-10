@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2018, 2019
 lastupdated: "2019-06-12"
 
-keywords: provision, Connect, console, order, support, ticket
+keywords: provision, Connect, console, order, support, ticket, legacy, customer, portal
 
 subcollection: direct-link
 
@@ -20,43 +20,44 @@ subcollection: direct-link
 {:download: .download}
 
 
-# 從使用者介面主控台佈建 IBM Cloud Direct Link Connect
-{: #provision-ibm-cloud-direct-link-connect-from-the-ui-console}
+# 從 IBM Cloud 舊式客戶入口網站佈建 IBM Cloud Direct Link Connect
+{: #provision-ibm-cloud-direct-link-connect-legacy}
 
-本頁面示範如何從「{{site.data.keyword.cloud_notm}} 使用者介面主控台」訂購 {{site.data.keyword.cloud}} Direct Link Connect 服務。 
+本頁面示範如何從 {{site.data.keyword.cloud_notm}} 舊式客戶入口網站訂購 {{site.data.keyword.cloud}} Direct Link Connect 服務。
+{: shortdesc}
 
 下訂單之後，將會產生 IBM 支援問題單。
 {:note}
 
 ## Direct Link Connect 訂購步驟
-{: #steps-to-order-direct-link-connect}
+{: #steps-to-order-direct-link-connect-legacy}
 
 若要佈建 {{site.data.keyword.cloud_notm}} Direct Link Connect 訂單，請完成下列步驟：
 
 **步驟 1：**
 
-在[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://cloud.ibm.com/) 上登入您的客戶帳戶。
+在[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/) 上登入您的客戶帳戶。
   
 **步驟 2：**
 
 在**網路**標籤下，選取 **Direct Link -> Connect**，即會開啟頁面顯示任何現有的 {{site.data.keyword.cloud_notm}} Direct Link 連線。
 
-![步驟 2](images/pup_connect_offering.png)
-![步驟 2a](images/pup_connect_list_empty.png)
+![步驟 2](images/Step2-Connect-Offering-Tab.png)
+![步驟 2a](images/Step2-Connect-List-Page.png)
 
 **步驟 3：**
 
 按一下頁面頂端的**訂購 Direct Link Connect** 按鈕之後，您將會看到訂單表格，您可以在這裡輸入 IBM Cloud Direct Link Connect 訂單的配置參數。
 
-![步驟 3](images/pup_connect_create_valid.png)
+![步驟 3](images/Step3-Connect-Order-Page.png)
 
 **步驟 4：**
 
 在訂單表格中，輸入下列參數以配置 Direct Link：
 
-  - 輸入 {{site.data.keyword.cloud_notm}} Direct Link 連線名稱。
-  - 從清單中，選取您要建立 {{site.data.keyword.cloud_notm}} Direct Link 連線的位置。
-  - 從清單中，選取您偏好的 Cloud Connect 提供者名稱。
+  - 輸入 IBM Cloud Direct Link 連線名稱。
+  - 從清單中，選取您要建立 {{site.data.keyword.cloud_notm}} Direct Link 連線的 PoP 位置。
+  - 從清單中，選取您喜好的 Cloud Exchange 提供者名稱。
   - 選取連線所需的鏈結速度。
   - 選取連線所需的遞送選項。
   - 針對 BGP 交換，輸入來自資訊方框中所給定範圍的 ASN 號碼。
@@ -64,18 +65,26 @@ subcollection: direct-link
 
 **步驟 5：**
 
-當您選取或輸入這些值時，可以在右側的畫面看到約略的每月費用。
+當您選取或輸入這些值時，可以在左邊的畫面看到約略的每月費用。
 
-![步驟 5](images/pup_connect_create_linkSpeedPrice.png)
+![步驟 5](images/Step5-Connect-Link-Speeds.png)
 
 **步驟 6：**
 
+提供輸入值之後，下一個使用者介面畫面會顯示根據您所選取選項的實際每月定價。
+
+**步驟 7：**
+
 您必須同意條款，然後才能訂購 IBM Cloud Direct Link。請仔細閱讀_條款_，因為它們包含您在繼續之前必須瞭解的重要技術資訊。接下來的圖顯示您下訂單之後會看到的畫面。
+
+下圖顯示「條款」畫面：
+
+![步驟 7](images/Step7-Connect-Summary-Page.png)
 
 下圖顯示您下訂單之後會看到的畫面。畫面上顯示產生的問題單號碼：
 
-![步驟 7a](images/pup_connect_list_ticket_notification.png)
+![步驟 7a](images/Step7-Connect-Ticket-Generated.png)
 
 下圖顯示正在開立問題單的範例：
 
-![步驟 7b](images/pup_connect_ticket_details.png)
+![步驟 7b](images/Step7-Connect-Ticket-Details.png)

@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-25"
+
+keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, datacenter, data, center, pricing, Letter of Authorization, LOA, 
+
+subcollection: direct-link
 
 ---
 
@@ -28,89 +32,92 @@ lastupdated: "2019-02-19"
 8. {{site.data.keyword.BluSoftlayer_notm}} 網路基礎架構上的 IP 指派將在交叉連接完成之後的三個營業日之內完成。
 
 ## 位置
+{: #dedicated-locations}
 
 下表含有目前有提供 Direct Link Dedicated 的 IBM Cloud 資料中心的相關詳細資料：
 
 |**IBM 位置碼** | **匯接機房操作員**| **操作員網站代碼** | **操作員地址** |
 |-----------------|-----------------|--------------------|--------------------|
 | **APAC** | | | |
-| CHE01 | Tata | PH-01 | 226, Red Hills Road,Kallikuppam, Ambattur |
-| HKG01 | Mega-I（透過 PACNET）| Mega-I (iAdvantage Hong Kong) |29F, 399 Chai Wan Road |
-| MEL01 | Digital Realty | MEL11 |  72 Radnor Drive, Deer Park |
-| MEL02 | NextDC | M2 | 820 Lorimer Street, Port Melbourne |
-| PER01 | Metronode | F1Z | 60 Randell St, Shenton Park, Western Australia |
-| SEO01 | C&C | Seoul01 | 46, Pangyo-ro 255beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do |
-| SEO02 | KINX | KINX Bundang IDC | 3F Hostway IDC ,343-1 Yatap-dong , Gyeonggi-do |
-| SNG01 | Digital Realty | SIN10 | 29A International Business Park, S180 |
-| SNG02 | Equinix | SG1 | 20 Ayer Rajan Crescent Industrial Park |
-| SYD01 | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
-| SYD02 | Equinix | SY3 | 47 Bourke Rd |
-| SYD03 | NextDC | 4 Eden Park Drive, Macquarie Park |
-| SYD04 | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
-| SYD05 | Equinix | 200 Bourke Rd |
-| TOK01 | Equinix | TY2 |
-| TOK02 | At Tokyo | CC2 | 
-| TOK03 | Equinix | 
-| TOK04 | SoftBank |
-| TOK05 | NTT |
+| 清奈 1 | Tata | PH-01 | 226, Red Hills Road,Kallikuppam, Ambattur |
+| 香港 1 | Mega-I（透過 PACNET）| Mega-I (iAdvantage Hong Kong) |29F, 399 Chai Wan Road |
+| 墨爾本 1 | Digital Realty | MEL11 |  72 Radnor Drive, Deer Park |
+| 墨爾本 2 | NextDC | M2 | 820 Lorimer Street, Port Melbourne |
+| 大阪 1 | Equinix | OS1 |  |
+| 伯斯 1 | Metronode | F1Z | 60 Randell St, Shenton Park, Western Australia |
+| 首爾 1 | C&C | Seoul01 | 46, Pangyo-ro 255beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do |
+| 首爾 2 | KINX | KINX Bundang IDC | 3F Hostway IDC ,343-1 Yatap-dong , Gyeonggi-do |
+| 新加坡 1 | Digital Realty | SIN10 | 29A International Business Park, S180 |
+| 新加坡 2 | Equinix | SG1 | 20 Ayer Rajan Crescent Industrial Park |
+| 雪梨 1 | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
+| 雪梨 2 | Equinix | SY3 | 47 Bourke Rd |
+| 雪梨 3 | NextDC | S1 | 4 Eden Park Drive, Macquarie Park |
+| 雪梨 4 | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
+| 雪梨 5 | Equinix | SY4 | 200 Bourke Rd |
+| 東京 1 | Equinix | TY2 | |
+| 東京 2 | At Tokyo | CC2 |  |
+| 東京 3 | Equinix | TY4 | |
+| 東京 4 | SoftBank | | |
+| 東京 5 | NTT | | |
 | **EMEA** |  |  |
-| AMS02 | Equinix | AM1 / AM2 | Larrderhoogtweg 57 |
-| AMS03 | KPN | Amsterdam 3 | Rondebeltweg 62 |
-| FRA01 | InterXion | FRA01 | Hanauer Landstrasse 302 |
-| FRA02 | Zenium | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
-| FRA03 | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
-| FRA04 | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H | 
-| FRA05 | InterXion | FRA05 | Weismüllerstraße 40 |
-| LON01 | Equinix (fTelecity) | LD8 | 6/7 Harbour Exchange  E14 9GE |
-| LON02 | Digital Realty | LHR13 | Fountain Court, Cox Lane |
-| LON03 | Equinix | LD5 | 8 Buckingham Ave |
-| LON04 | ARK | A103 |  A57 Cody Technology Park Old, Victor Way, Farnborough |
-| LON06 | Zenium | LON1 | 12 Liverpool Rd, Trading Estate |
-| MIL01 | Data IV | Via Monzoro 101-105 , 20010 Cornaredo (MI) |
-| MIL02 | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21|
-| OSL01 | EVRY | DigiPlex - Fetsund | 9,, Heiaveien, 1900 Fetsund |
-| OSL02 | Verizon | Verizon Oslo | Hans Møller Gassmanssvei 9 |
-| PAR01 | Global Switch | PAR01 | Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit |
-| PAR02 | Equinix | PA2 | 114 Rue Ambroise Croizat, St Denis |
-| STO01 | InterXion | STO01 | Esbogatan 11 |
+| 阿姆斯特丹 2 | Equinix | AM1 / AM2 | Larrderhoogtweg 57 |
+| Amsterdam 3 | KPN | Amsterdam 3 | Rondebeltweg 62 |
+| Frankfurt 1 | InterXion | FRA01 | Hanauer Landstrasse 302 |
+| 法蘭克福 2 | Zenium | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
+| 法蘭克福 3 | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
+| 法蘭克福 4 | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H | 
+| 法蘭克福 5 | InterXion | FRA05 | Weismüllerstraße 40 |
+| 倫敦 1 | Equinix (fTelecity) | LD8 | 6/7 Harbour Exchange  E14 9GE |
+| 倫敦 2 | Digital Realty | LHR13 | Fountain Court, Cox Lane |
+| 倫敦 3 | Equinix | LD5 | 8 Buckingham Ave |
+| 倫敦 4 | ARK | A103 |  A57 Cody Technology Park Old, Victor Way, Farnborough |
+| 倫敦 6 | Zenium | LON1 | 12 Liverpool Rd, Trading Estate |
+| 米蘭 1 | Data IV | | Via Monzoro 101-105 , 20010 Cornaredo (MI) |
+| 米蘭 2 | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21|
+| 奧斯陸 1 | EVRY | DigiPlex - Fetsund | 9,, Heiaveien, 1900 Fetsund |
+| 奧斯陸 2 | Verizon | Verizon Oslo | Hans Møller Gassmanssvei 9 |
+| 巴黎 1 | Global Switch | PAR01 | Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit |
+| 巴黎 2 | Equinix | PA2 | 114 Rue Ambroise Croizat, St Denis |
+| 斯德哥爾摩 1 | InterXion | STO01 | Esbogatan 11 |
 |  |  |  |
 | **IBM PoP / 資料中心代碼** | **匯接機房操作員** | **操作員網站代碼** |
 | **Americas** |  |  |
-| ATL01*| Digital Realty | ATL13 | 56 Marietta Street |
-| CHI01 | Equinix | CH4 | 350 E. Cermak |
-| DAL03 | Equinix | DA1 | 1950 N. Stemmons Freeway |
-| DAL04 | Digital Realty | DFW14 | 2323 Bryan St |
-| DAL09 | Digital Realty | DFW35 | 900 Quality Way |
-| DAL10 | QTS | IRV | 6431 Longhorn Drive |
-| DAL12 |Digital Realty | DFW18 | 907 Security Row |
-| DAL13 | Cyrus One | Carrollton - Frankford | 1649 W. Frankford Rd |
-| DEN01* | Coresite | DE1 | 910 15th Street | 
-| HOU02* | IBM | HOU02 | 855 Greens Parkway | 
-| LAX01* | Coresite | LA1 | 624 S. Grand Ave. AKA 1 Wilshire Blvd |
-| MEX01 | Alestra | Alestra Queretaro Datacenter | Lateral Carretera Estatal 431,Parque Tecnologico Inovacion Lote 79, El Marqués |
-| MIA01 | Terremark / Verizon | NAP | 50 NE 9th Street |
-| MON01 | COLO-D | COLO-D1 | 2525 Rue Canadien |
-| MON02 | Cologix | MTL3 | 1155 University Street |
-| NYC01 | Digital Realty | JFK10 | 111 8th Ave |
-| NYC02* | Equinix | NY4 | 755 Secaucus Rd, Secaucus, NJ |
-| NYC03* | Equinix | NY5 | 800 Secaucus Rd, Secaucus, NJ |
-| SAO01 | Ascenty | SP1 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
-| SAO02 | Equinix | SP2 | Alameda Araguaia, 3641 - Alphaville, Barueri |
-| SEA02 | The Westin Building | WBX | 2001 6th Avenue |
-| SJC02 | Equinix | SV1 | 11 Great Oaks Blvd |
-| SJC03 | Digital Realty | SJC31 | 1100 Space Park Drive |
-| SJC04 | Infomart | SJC1 | 2001 Fortune Drive |
-| TOR01 | Digital Realty | YYZ11 | 371 Gough Rd |
-| TOR02 | Cologix | TOR1 | 151 Front Street |
-| WDC02 | Equinix | DC2 | 21715 Filigree Ct |
-| WDC04 | Digital Realty | IAD38 | 44060 Digital Loudoun Plaza (Bldg K) |
-| WDC05 | Coresite | DC2 | 12098 Sunrise Valley Dr |
-| WDC06 | Raging Wire | VA2 | 44610 Guilford Drive |
-| WDC07 | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr|
+| 亞特蘭大 1*| Digital Realty | ATL13 | 56 Marietta Street |
+| 芝加哥 1 | Equinix | CH4 | 350 E. Cermak |
+| 達拉斯 3 | Equinix | DA1 | 1950 N. Stemmons Freeway |
+| 達拉斯 4 |Digital Realty | DFW14 | 2323 Bryan St |
+| 達拉斯 9 | Digital Realty | DFW35 | 900 Quality Way |
+| 達拉斯 10 | QTS | IRV | 6431 Longhorn Drive |
+| 達拉斯 12 |Digital Realty | DFW18 | 907 Security Row |
+| 達拉斯 13 | Cyrus One | Carrollton - Frankford | 1649 W. Frankford Rd |
+| 丹佛 1* | Coresite | DE1 | 910 15th Street | 
+| 休斯頓 2* | IBM | HOU02 | 855 Greens Parkway | 
+| 洛杉磯 1* | Coresite | LA1 | 624 S. Grand Ave. AKA 1 Wilshire Blvd |
+| 墨西哥 1 | Alestra | Alestra Queretaro Datacenter | Lateral Carretera Estatal 431,Parque Tecnologico Inovacion Lote 79, El Marqués |
+| 邁阿密 1 | Terremark / Verizon | NAP | 50 NE 9th Street |
+| 蒙特婁 1 | COLO-D | COLO-D1 | 2525 Rue Canadien |
+| 蒙特婁 2 | Cologix | MTL3 | 1155 University Street |
+| 紐約市 1 | Digital Realty | JFK10 | 111 8th Ave |
+| 紐約市 2* | Equinix | NY4 | 755 Secaucus Rd, Secaucus, NJ |
+| 紐約市 3* | Equinix | NY5 | 800 Secaucus Rd, Secaucus, NJ |
+| 聖保羅 1 | Ascenty | SP1 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
+| 聖保羅 2 | Equinix | SP2 | Alameda Araguaia, 3641 - Alphaville, Barueri |
+| 西雅圖 2 | The Westin Building | WBX | 2001 6th Avenue |
+| 聖荷西 2 | Equinix | SV1 | 11 Great Oaks Blvd |
+| 聖荷西 3 | Digital Realty | SJC31 | 1100 Space Park Drive |
+| 聖荷西 4 | Infomart | SJC1 | 2001 Fortune Drive |
+| 多倫多 1 | Digital Realty | YYZ11 | 371 Gough Rd |
+| 多倫多 2 | Cologix | TOR1 | 151 Front Street |
+| 華盛頓特區 2 | Equinix | DC2 | 21715 Filigree Ct |
+| 華盛頓特區 4 | Digital Realty | IAD38 | 44060 Digital Loudoun Plaza (Bldg K) |
+| 華盛頓特區 5 | Coresite | DC2 | 12098 Sunrise Valley Dr |
+| 華盛頓特區 6 | Raging Wire | VA2 | 44610 Guilford Drive |
+| 華盛頓特區 7 | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr|
 
 ## 定價
+{: #dedicated-pricing}
 
-如需計價資訊，請參閱[定價文件](/docs/infrastructure/direct-link/pricing.html)。
+如需計價資訊，請參閱[定價文件](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-dedicated)。
 
 如果您需要 TOK01 或 TOK02 的確切地址，請與 Direct Link 供應項目管理或銷售團隊聯絡。
 {:note}

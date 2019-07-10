@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-02"
+
+keywords: Dedicated, finalize, questionnaire, Special Network Services, billing, fees, VRF, BGP, ticket, cross-connect, link speed, VPN, data, center, PoP, ECMP
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 謝謝您提出對 {{site.data.keyword.cloud}} Direct Link Dedicated 的要求。為了完成您的要求，我們想要向您收集一些其他資訊。在問卷處理期間，您隨時可以與工程師交談。完成問卷之後，我們的 Cloud Design Engineering 團隊將檢閱它，並將其呈報給 Special Network Services 以進行實作。
 
 ## 您確認並同意下列事項嗎？
+{: #dedicated-do-you-agree}
 
 1. 每個 Direct Link 連線都需要唯一的訂單。如果您需要多個連線，請針對每一個連線開啟個別的 Direct Link 訂單。
 
@@ -53,6 +58,7 @@ lastupdated: "2019-02-19"
 12. IBM Cloud Direct Link Dedicated 需要 BGP 才能實作遞送至客戶的遠端網路。當部署 Direct Link 服務之後，IBM Cloud 會通告所有將指派至您帳戶的專用子網路。IBM Cloud 不會對「客戶」的遠端 BGP 對等節點的通告實作自訂過濾器、AS-Path prepend 及自訂本端喜好設定。IBM Cloud 將不會對 IBM Cloud 接收的通告實作過濾器。客戶需要從客戶的邊緣路由器妥善管理傳給或來自 IBM Cloud 的通告。
 
 ## 其他問題
+{: #dedicated-other-questions}
 
 * **您要將 Direct Link 終止於哪一個 PoP？**
 
@@ -72,6 +78,7 @@ lastupdated: "2019-02-19"
 
 
 ### 廣域遞送定價
+{: #dedicated-global-routing-pricing}
 
 | 廣域遞送輸入 | 廣域遞送輸出 |
 |---|---|
