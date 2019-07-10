@@ -4,8 +4,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-04-12"
 
+keywords: help, support, ticket, forum, Stack Overflow
+
+subcollection: direct-link
 
 
 ---
@@ -33,7 +36,7 @@ lastupdated: "2019-01-18"
 {: #getting-help-and-support}
 
 Se você tiver problemas ou perguntas ao usar o {{site.data.keyword.cloud}} Direct Link, será possível obter
-ajuda procurando informações ou fazendo perguntas por meio de um dos fóruns listados abaixo. Também é possível abrir um chamado de suporte no [IBM Cloud Console ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) ou no Portal do Cliente do [ ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/).
+ajuda procurando informações ou fazendo perguntas por meio de um dos fóruns listados abaixo. Também é possível abrir um chamado de suporte no [IBM Cloud Console ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")]( https://cloud.ibm.com/unifiedsupport/cases/add) ou [Portal do cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/).
 {:shortdesc}
 
 Ao usar os fóruns para fazer uma pergunta, marque a sua pergunta
@@ -46,7 +49,7 @@ identifique a sua pergunta com "direct-link" e "ibm-cloud".
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->
 * Para perguntas sobre o serviço e instruções de introdução, use o fórum [IBM developerWorks dW Answers ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/answers/topics/directlink.html?smartspace=ibm-cloud){:new_window}. Inclua as tags "directlink" e "ibm-cloud".
 
-Consulte [Obtendo ajuda](https://cloud.ibm.com/docs/support/index.html#getting-help) para mais detalhes sobre como usar os fóruns.
+Consulte [Obtendo ajuda](/docs/get-support?topic=get-support-using-avatar#using-avatar) para mais detalhes sobre como usar os fóruns.
 
 Para obter informações sobre a abertura de um chamado de suporte IBM ou sobre níveis de suporte e gravidades de chamados, veja [Entrando em contato com o suporte](/docs/get-support?topic=get-support-getting-customer-support).
 

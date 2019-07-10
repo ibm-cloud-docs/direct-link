@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-02"
+
+keywords: diversity, redundancy, schematics, deployment, configuration, global routing, ECMP, Dual XCRs, model
+
+subcollection: direct-link
 
 ---
 
@@ -23,6 +27,7 @@ Direct Link não é um serviço inerentemente redundante no roteador de conexão
 responsabilidade de criar redundância por meio de seus esquemas de Protocolo de Roteamento de Borda (BGP). 
 
 ## Seção 1: configurações relativamente simples que atingem a diversidade
+{: #section-1-diversity-models}
 
 As configurações mostradas nesse grupo contam com o fato de que todos os ativos estão localizados no mesmo PoP e no mesmo mercado global.
 
@@ -39,10 +44,12 @@ As configurações mostradas nesse grupo contam com o fato de que todos os ativo
 ![Dedicated com diversidade no mesmo PoP](/images/dedicated-diversity-same-pop.png)
 
 ## Seção 2: diversidade que inclui as opções de AZs e Roteamento Global
+{: #section-2-diversity-models}
 
 As configurações mostradas nesse grupo oferecem opções para conexão entre zonas de disponibilidade e mercados locais.
 
 ### Parte A: diversidade em uma zona de disponibilidade (AZ) local
+{: #section-2-part-a}
 
 **Figura 4: Direct Link Exchange com diversidade em uma AZ local (WDC, DAL, FRA, LON)**
 
@@ -57,6 +64,7 @@ As configurações mostradas nesse grupo oferecem opções para conexão entre z
 ![Dedicated com diversidade na AZ local](/images/dedicated-diversity-local-az.png)
 
 ### Parte B: diversidade em diferentes mercados locais, com o Roteamento Global
+{: #section-2-part-b}
 
 **Figura 7: Direct Link Connect com diversidade e Roteamento Global**
 
@@ -71,18 +79,20 @@ As configurações mostradas nesse grupo oferecem opções para conexão entre z
 ![Dedicated com diversidade e Roteamento Global](/images/dedicated-diversity-global.png)
 
 ## Mais sobre ECMP
+{: #more-about-ecmp}
 
 ECMP é um recurso do BGP. Alguns clientes nos perguntaram sobre o uso do ECMP como uma forma de obter redundância. No entanto, só o ECMP não é suficiente. Esta seção explica o motivo.
 
 **P: O ECMP é a melhor solução para conexões redundantes? Quais alternativas existem? **
 
-O ECMP não foi projetado para criar conexões redundantes, mas para balancear a carga sobre dois links. Com o ECMP no IBM Cloud, ambas as conexões devem ser finalizadas no mesmo IBM Cloud Cross-connect Router (XCR), o que o torna um ponto único de falha. (Em outras palavras, o ECMP pode ser provisionado apenas como duas sessões no mesmo IBM Cloud XCR.)
+O ECMP não foi projetado para criar conexões redundantes, mas para balancear a carga sobre dois links. Com o ECMP no {{site.data.keyword.cloud_notm}}, ambas as conexões devem ser finalizadas para o mesmo roteador de conexão cruzada (XCR) do IBM Cloud, o que o torna um ponto único de falha. (Em outras palavras, o ECMP pode ser provisionado apenas como duas sessões no mesmo {{site.data.keyword.cloud_notm}} XCR.)
 
 ** Figura 10: Provisionamento ECMP **
 
 ![ECMP Dedicated model](/images/ecmp-without-diversity.png)
 
 ### Como alcançar a Diversidade e o Redundância
+{: #how-to-achieve-diversity-and-redundancy}
 
 Se você estiver procurando alta disponibilidade (HA) ou redundância completa: configure dois links em diferentes XCRs no mesmo data center (por exemplo, DAL03). Em seguida, execute failover conforme necessário usando configurações de BGP.
 

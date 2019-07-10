@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-02"
+
+keywords: order, provider, capabilities, Exchange, cross-connect, locations, PoP, datacenter, data, center, pricing
+
+subcollection: direct-link
 
 ---
 
@@ -15,7 +19,7 @@ lastupdated: "2019-02-19"
 {:download: .download}
 
 # Como pedir o IBM Cloud Direct Link Exchange
-{ # how-to-order-ibm-cloud-direct-link-exchange}
+{: # how-to-order-ibm-cloud-direct-link-exchange}
 
 1. Verifique os recursos do provedor de rede para atingir o PoP e a conexão cruzada apropriados para o provedor Exchange
 associado.
@@ -32,24 +36,26 @@ automatizado](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ib
 6. A designação de IP na infraestrutura de rede do {{site.data.keyword.BluSoftlayer_notm}} será concluída dentro de três dias úteis após a conclusão da solicitação de circuito virtual.
  
 ## Locais
+{: #exchange-locations}
  
  A tabela mostra quais data centers do IBM Cloud oferecem conectividade do Direct Link Exchange:
  
 | Provedor do Exchange	| Código do Data Center IBM |
 |-------------|-----------------------|
-| AT Tokyo | TOK02 |
-| Ascenty | SAO01 * |
-| Cologix | MON02, TOR02 |
-| Ciro Um | DAL13 |
-| DE-CIX | FRA01 |
-| Equinix | HKG01,SNG02, SYD02, TOK01, AMS02, PAR02, CHI01, DAL03, NYC02, NYC03, SAO02, SJC02, TOR02, WDC02, LON01, FRA03 |							
-| InterXion | FRA01, STO01 |
-| KINX	| SEO02 |
-| NextDC | MEL02, SYD03* |
-| SK C & C | SEU01 |
+| AT Tokyo | Tóquio 2 |
+| Ascenty | São Paulo 1* |
+| Cologix | Montreal 2, Toronto 2 |
+| Ciro Um | Dallas 13 |
+| DE-CIX | Frankfurt 3 |
+| Equinix | Hong Kong 1, Singapura 2, Sydney 2, Tóquio 1, Amsterdã 2, Paris 2, Chicago 1, Dallas 3, New York City 2, New York City 3, São Paulo 2, San Jose 2, Toronto 2, Washington DC 2, Londres 1, Frankfurt 3 |							
+| InterXion | Frankfurt 1, Estocolmo 1 |
+| KINX	| Seul 2 |
+| NextDC | Melbourne 2, Sydney 3 |
+| SK C & C | Seul 1 |
 
 * Em Breve
 
 ## Precificação
+{: #exchange-pricing}
 
-Para obter informações de precificação, consulte o [documento de precificação](/docs/infrastructure/direct-link/pricing.html).
+Para obter informações de precificação, consulte o [documento de precificação](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-exchange).

@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-02"
+
+keywords: Exchange, finalize, questionnaire, Special Network Services, billing, fees, VRF, BGP, ticket, ASN, VPN, metering, data, center, datacenter
+
+subcollection: direct-link
 
 ---
 
@@ -17,10 +21,11 @@ lastupdated: "2019-02-19"
 # Questionário do IBM Cloud Direct Link Exchange
 {: #ibm-cloud-direct-link-exchange-questionnaire}
 
-Obrigado por abrir uma solicitação para o {{site.data.keyword.cloud}} Direct Link Exchange. Para finalizar a sua solicitação, gostaríamos de reunir algumas informações adicionais de você.  É possível falar com um engenheiro a qualquer momento durante o processo de questionário.  Depois de concluir o questionário, ele será revisado por nossa
+Obrigado por abrir uma solicitação para o {{site.data.keyword.cloud}} Direct Link Exchange.  Para finalizar a sua solicitação, gostaríamos de reunir algumas informações adicionais de você.  É possível falar com um engenheiro a qualquer momento durante o processo de questionário.  Depois de concluir o questionário, ele será revisado por nossa
 equipe de Engenharia de Design de Nuvem e escalado para os Serviços Especiais de Rede para implementação.
 
 ## Você reconhece e concorda com os itens a seguir?
+{: #exchange-do-you-agree}
 
 1. Cada conexão do Direct Link requer um pedido exclusivo. Se você requerer múltiplas conexões, abra pedidos separados do Direct Link para cada conexão.
 
@@ -57,6 +62,7 @@ estiverem disponíveis.
 11. O IBM Cloud Direct Link Exchange requer o BGP para implementar rotas para a rede remota de um cliente. Quando o seu serviço Direct Link tiver sido implementado, o IBM Cloud anunciará todas as sub-redes privadas designadas à sua conta. O IBM Cloud não implementará filtros customizados, pré-anexação do AS-Path e preferências locais customizadas em propagandas para o peer do BGP remoto do Cliente. O IBM Cloud não implementará filtros nas propagandas recebidas para o IBM Cloud. Os clientes precisarão gerenciar adequadamente as propagandas para/do IBM Cloud por meio do roteador de borda do cliente. 
 
 ## Outras perguntas
+{: #exchange-other-questions}
 
 * **Você reconhece e aceita a precificação de _SEU LOCAL_ para a conexão do IBM Cloud Direct Link Exchange?**
 
@@ -76,6 +82,7 @@ estiverem disponíveis.
 
 
 ### Precificação de Roteamento Global
+{: #exchange-global-routing-pricing}
 
 | Ingresso de Roteamento Global | Egresso de Roteamento Global |
 |---|---|

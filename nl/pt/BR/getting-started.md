@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-03-28"
+
+keywords: hybrid, workloads, deployments, multi-cloud, data transfer, descriptions, diverse, redundant
+
+subcollection: direct-link
 
 ---
 
@@ -21,7 +25,7 @@ O {{site.data.keyword.cloud}} Direct Link é um conjunto de quatro ofertas do IB
 disponibilidade em localizações ao redor do mundo. Cada uma permite que os clientes criem conexões diretas e privadas entre seus ambientes de rede remota e suas implementações do IBM Cloud, sem tocar na Internet pública. Mais normalmente, essas ofertas são
 implementadas para suportar cargas de trabalho híbridas, cargas de trabalho entre provedores, transferências de
 dados grandes ou frequentes, cargas de trabalho privadas ou para facilitar a administração do ambiente
-do {{site.data.keyword.BluSoftlayer_notm}}.
+do {{site.data.keyword.cloud_notm}}.
 
 ## Procurar e pedir
 {: #browse-and-order}
@@ -29,7 +33,7 @@ do {{site.data.keyword.BluSoftlayer_notm}}.
 Para começar a usar o IBM Cloud Direct Link, navegue nessa documentação e decida qual solução funcionará
 melhor para você. Se desejar mais ajuda com a introdução, abra um chamado por meio do
 [IBM Cloud Console
-![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) ou
+![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://cloud.ibm.com/unifiedsupport/cases/add) ou
 entre em contato com seu representante de vendas do IBM Cloud.
 
 Quando estiver pronto para pedir, siga as instruções passo a
@@ -40,10 +44,10 @@ Depois de fazer seu pedido, você será solicitado a preencher um questionário 
 
 ## Descrições da solução IBM Cloud Direct Link
 
- * [IBM Cloud Direct Link Exchange](/docs/infrastructure/direct-link?topic=direct-link-the-ibm-cloud-direct-link-exchange-solution)
- * [IBM Cloud Direct Link Connect](/docs/infrastructure/direct-link?topic=direct-link-the-ibm-cloud-direct-link-connect-solution)
- * [IBM Cloud Direct Link Dedicated](/docs/infrastructure/direct-link?topic=direct-link-the-ibm-cloud-direct-link-dedicated-solution)
- * [IBM Cloud Direct Link Dedicated Hosting](/docs/infrastructure/direct-link?topic=direct-link-the-ibm-cloud-direct-link-dedicated-hosting-solution)
+ * [IBM Cloud Direct Link Exchange](/docs/infrastructure/direct-link?topic=direct-link-direct-link-exchange-solution)
+ * [IBM Cloud Direct Link Connect](/docs/infrastructure/direct-link?topic=direct-link-direct-link-connect-solution)
+ * [IBM Cloud Direct Link Dedicated](/docs/infrastructure/direct-link?topic=direct-link-direct-link-dedicated-solution)
+ * [IBM Cloud Direct Link Dedicated Hosting](/docs/infrastructure/direct-link?topic=direct-link-direct-link-dedicated-hosting-solution)
 
 
 ## Como saber qual tipo de IBM Cloud Direct Link eu preciso?

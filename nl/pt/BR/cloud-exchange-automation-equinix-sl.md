@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-04-02"
+lastupdated: "2019-06-12"
 
-keywords: provisioning, order, Exchange, Equinix, automated, status, connection
+keywords: provisioning, order, Exchange, Equinix, automated, status, connection, legacy, customer, portal, Softlayer
 
 subcollection: direct-link
 
@@ -20,63 +20,64 @@ subcollection: direct-link
 {:download: .download}
 
 
-# Fornecimento do IBM Cloud Direct Link Exchange for Equinix
-{: #provisioning-ibm-cloud-direct-link-exchange-for-equinix}
+# Provisionando o IBM Cloud Direct Link Exchange for Equinix, por meio do portal do cliente anterior
+{: #provisioning-ibm-cloud-direct-link-exchange-for-equinix-legacy}
+
+Este documento fornece instruções passo a passo para o fornecimento do Direct Link Exchange for Equinix, usando o portal do cliente anterior do IBM Cloud.
+{: shortdesc}
 
 Se o pedido do {{site.data.keyword.cloud}} Direct Link for do Equinix Cloud Exchange, o fornecimento de serviço será totalmente automatizado, o que significa que será possível fazer o pedido de uma conexão do {{site.data.keyword.cloud_notm}} Direct Link (Equinix) sem abrir um chamado de suporte IBM.
 
-Atualmente, os recursos de automação são limitados ao Equinix Cloud Exchange. Em liberações subsequentes, a automação
-será ativada para outros provedores.
+Atualmente, os recursos de automação são limitados ao Equinix Cloud Exchange. Em liberações subsequentes, a automação será ativada para outros provedores.
 {:note}
 
 ## Pré-requisitos
-{: #cloud-exchange-equinix-prerequisites}
+{: #cloud-exchange-equinix-prerequisites-legacy}
 
 Para usar o recurso de pedido automatizado, suas VLANs privadas devem ser associadas a um VRF na rede privada do {{site.data.keyword.cloud_notm}}. Se esse
 requisito não for atendido, um chamado de suporte IBM será gerado quando você fizer o pedido por meio do portal do cliente.
 
 ## Etapas para o pedido e o fornecimento
-{: #cloud-exchange-steps-for-ordering-and-provisioning}
+{: #cloud-exchange-steps-for-ordering-and-provisioning-legacy}
 
 **Etapa 1:**
 
 Siga as etapas de 1 a 7 das
 [etapas
-regulares do pedido do Cloud Exchange](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange).
+regulares do pedido do Cloud Exchange](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-legacy).
 
 **Etapa 2:**
 
 Depois de fazer o pedido, o fornecimento do IBM Cloud Direct Link é iniciado.
+
+![Etapa 8](/images/Equinix-Step8.png)
+
+**Etapa 3:**
 
 É possível ver o status de sua conexão após fazer o pedido. Se a configuração for concluída no lado da IBM com êxito, você
 verá o status como **Fornecido**. Se a configuração não for concluída, você verá o status como **Em
 andamento**. Se a configuração tiver falhado, você verá o status como **Criação com falha**. Se a
 configuração for concluída com êxito e a conexão BGP estiver ativa, você verá o status como **ATIVADO**.
 
-![Etapa 9 Em andamento](/images/pup_exchange_equinix_inProgress.png)
-
-**Etapa 3:**
-
-Se a conexão estiver no status **Provisionado**, clique no Nome da conexão, clicando no link **<connection_name>**. Ele deve navegar para a página de detalhes.
-
-![Etapa 10](/images/pup_exchange_equinix_provisioned.png)
+![Etapa 9 Em andamento](/images/Equinix-Step9-InProgress.png)
 
 A figura a seguir mostra os vários estados da conexão após a realização do pedido:
 
-![Etapa 9 Ativado](/images/pup_exchange_equinix_up.png)
+![Etapa 9 Ativado](/images/Equinix-Step9-UP.png)
 
 **Etapa 4:**
 
-Anote as informações de **Endereço IP do cliente** e **Chave de serviço**. Essas serão necessárias para configurar o roteador de borda do
+Se a conexão estiver no status **Fornecido**, expanda-a clicando no **>** em frente à conexão **Nome**. Então, anote as informações de **Endereço IP do
+cliente** e **Chave de serviço**. Essas serão necessárias para configurar o roteador de borda do
 cliente e a chave de autorização para a configuração do lado do provedor de nuvem (Equinix), respectivamente.
 
-![Etapa 9 Ativado](/images/pup_exchange_equinix_provisioned_details.png)
+![Etapa 10](/images/Equinix-Step10-Provisioned.png)
 
 **Etapa 5:**
 
-Para as conexões no status **Provisionado**, após clicar no Nome da conexão, clicando no **<connection_name>**, você verá uma mensagem de erro se houver uma incompatibilidade com a Velocidade do link do peer. Como a velocidade é a mesma no lado da IBM e no lado do Equinix, essa notificação de erro não será mais exibida.
+Para conexões no status **Fornecido**, depois de expandir a conexão clicando no **>** em frente à conexão, você verá uma mensagem de erro se houver uma incompatibilidade com a velocidade do link peer. Como a velocidade é a mesma no lado da IBM e no lado do Equinix, essa notificação de erro não será mais exibida.
 
-![Etapa 11](/images/pup_exchange_equinix_provisioned_details_portSpeedMismatch.png)
+![Etapa 11](/images/Equinix-Step11-PortMismatch.png)
 
 **Etapa 6:**
 
@@ -84,17 +85,17 @@ Para conexões no status **Criação com falha**, um chamado de suporte IBM ser�
 adicionais serão comunicados por meio do chamado de suporte. Ao expandir a conexão, será possível ver os detalhes do chamado de
 suporte.
 
-![Etapa 12](/images/pup_exchange_equinix_list_createFailed.png)
+![Etapa 12](/images/Equinix-Step12-CreateFailed.png)
 
 **Etapa 7:**
 
-Para as conexões no status **Provisionado**, **UP** ou **DOWN**, é possível **Excluir** a conexão clicando no estouro na coluna **ACTIONS** ao lado da conexão.
+Para conexões em status **Fornecido**, **ATIVADO** ou
+**DESATIVADO**, é possível **Excluir** a conexão clicando na coluna
+**AÇÕES** ao lado da conexão.
 
-![Etapa 13](/images/pup_exchange_equinix_list_delete.png)
+![Etapa 13](/images/Equinix-Step13-Delete.png)
 
 **Etapa 8:**
 
 Para as conexões no status **Criação com falha**, é possível **Cancelar** a
 conexão clicando na coluna **AÇÕES** ao lado da conexão.
-
-![Step 14](/images/pup_exchange_equinix_list_delete.png)
