@@ -2,7 +2,12 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-03-29"
+
+
+keywords: Dedicated, Hosting, finalize, questionnaire, Network Engineering, billing, fees, VRF, BGP, ticket, cross-connects, datacenters, data, center, backhaul, single mode, single-mode, fiber, Letter of Authorization, LOA, contract
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +25,7 @@ lastupdated: "2019-02-19"
 Vielen Dank für die {{site.data.keyword.cloud}} Direct Link Dedicated Hosting-Anforderung, die Sie geöffnet haben! Für die Bearbeitung Ihrer Anforderung benötigen wir weitere Informationen von Ihnen. Beim Ausfüllen des Fragebogens können Sie jederzeit direkt mit einem Entwickler in Kontakt treten. Der von Ihnen ausgefüllte Fragebogen wird von unserem Entwicklungsteam für Cloud Design überprüft und zur Implementierung an die Abteilung für Network Engineering weitergeleitet.
 
 ## Bestätigungen
+{: #dedicated-hosting-acknowledgements}
 
 1. Die in diesem Fragebogen dargestellten Kosten beinhalten die Kosten für die Beendigung des Service in der IBM Cloud-Netzinfrastruktur. Im Rahmen der Zusammenstellungskosten, einschließlich Gehäuseschränke, Querverbindungen usw. fallen monatliche und einmalige Gebühren an, die im Rahmen einer Zusammenstellungsvereinbarung separat niedergelegt werden.
 
@@ -45,7 +51,7 @@ Vielen Dank für die {{site.data.keyword.cloud}} Direct Link Dedicated Hosting-A
 
 12. Stimmen Sie den folgenden Preisen für Direct Link zu:
  * 1 Gb/s: _STANDORTABHÄNGIGE PREISE_ 
-* 2 Gb/s: _STANDORTABHÄNGIGE PREISE_
-* 5 Gb/s: _STANDORTABHÄNGIGE PREISE_
-* 10 Gb/s: _STANDORTABHÄNGIGE PREISE_
-* Global Routing (optional)
+ * 2 Gb/s: _STANDORTABHÄNGIGE PREISE_
+ * 5 Gb/s: _STANDORTABHÄNGIGE PREISE_
+ * 10 Gb/s: _STANDORTABHÄNGIGE PREISE_
+ * Global Routing (optional)

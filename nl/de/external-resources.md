@@ -3,7 +3,12 @@
 copyright:
   years: 2017, 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-21"
+
+
+keywords: tutorials, solution, case study, white paper, announcement, blog, 
+
+subcollection: direct-link
 
 ---
 
@@ -16,13 +21,13 @@ lastupdated: "2019-02-19"
 {:download: .download}
 
 # Zugehörige Ressourcen
-{ #related-resources}
+{: #related-resources}
 
-Diese Ressource werden von {{site.data.keyword.cloud}} und einigen unserer Partner und Kunden erstellt. 
+Diese Ressource werden von {{site.data.keyword.cloud}} und einigen unserer Partner und Kunden erstellt.
 
 ## Lernprogramme für die IBM Cloud-Lösung
 
-* [**Workloads mit einem sicheren privaten Netz isolieren** ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://cloud.ibm.com/docs/tutorials/secure-network-enclosure.html#isolate-workloads-with-a-secure-private-network)
+* [**Workloads mit einem sicheren privaten Netz isolieren** ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-secure-network-enclosure#isolate-workloads-with-a-secure-private-network)
 
 ## Dokumente und Fallstudien
 
@@ -57,18 +62,18 @@ Diese Ressource werden von {{site.data.keyword.cloud}} und einigen unserer Partn
 
 ## Blogs auf der IBM Website
 
-* [Megaport and IBM Empower Enterprise Cloud ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/blogs/bluemix/2017/12/megaport-and-ibm-empower-enterprise-cloud/) von Matt Simpson und Jill Tempelmeyer
+* [Megaport and IBM Empower Enterprise Cloud ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/blog/megaport-and-ibm-empower-enterprise-cloud) von Matt Simpson und Jill Tempelmeyer
 
 * [Supporting the next generation cloud applications with IBM Cloud Direct Link ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/) von Gabriel Montanti
 
-* [IBM and Colt: Enabling Enterprise Digital Transformation ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/blogs/bluemix/2018/06/ibm-colt-enterprise-digital-transformation/) von Paul Hertzfeldt
+* [IBM and Colt: Enabling Enterprise Digital Transformation ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/blog/announcements/ibm-colt-enterprise-digital-transformation) von Paul Hertzfeldt
 
-* [Digital Realty and IBM Cloud Direct Link: Built for Enterprise Cloud ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/blogs/bluemix/2018/07/digital-realty-ibm-cloud-direct-link-expand-network/) von Paul Hertzfeldt
+* [Digital Realty and IBM Cloud Direct Link: Built for Enterprise Cloud ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-direct-link-expand-network) von Paul Hertzfeldt
 
-* [PacketFabric and IBM Cloud Enable Secure Enterprise Connections ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/) von Paul Hertzfeldt
+* [PacketFabric and IBM Cloud Enable Secure Enterprise Connections ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/blog/announcements/packetfabric-ibm-enable-secure-enterprise-connections) von Paul Hertzfeldt
 
-* [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/) von Paul Hertzfeldt
+* [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/blog/announcements/tokyo-connects-ibm-cloud-support-mission-critical-applications) von Paul Hertzfeldt
 
-* [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/blogs/bluemix/2018/09/interxion-enterprise-ibm-cloud-services/) von Paul Hertzfeldt
+* [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/blog/announcements/interxion-enterprise-ibm-cloud-services) von Paul Hertzfeldt
 
-* [Improve Digital Experiences with SES Networks and IBM ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/blogs/bluemix/2018/10/improve-digital-experiences-with-ses-networks-and-ibm/) von Paul Hertzfeldt
+* [Improve Digital Experiences with SES Networks and IBM ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/blog/improve-digital-experiences-with-ses-networks-and-ibm) von Paul Hertzfeldt

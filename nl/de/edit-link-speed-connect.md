@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-22"
+
+keywords: link speed, Exchange, connection, edge server, Terms and Conditions
+
+subcollection: direct-link
 
 ---
 
@@ -21,7 +25,7 @@ Sie können die Verbindungsgeschwindigkeit Ihrer Verbindung auf beiden Seiten de
 
 ## Schritt 1: 
 
-Führen Sie die Schritte 1 und 2 der [Cloud Exchange-Bestellprozedur](/docs/infrastructure/direct-link/cloud-exchange-automation.html) aus.
+Führen Sie die Schritte 1 und 2 der [Cloud Exchange-Bestellprozedur](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange) aus.
 
 ## Schritt 2:
 
