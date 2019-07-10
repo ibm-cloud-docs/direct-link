@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-14"
+
+keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, datacenter, data, center, pricing, virtual circuit, Request ID, Authorization ID
+
+subcollection: direct-link
 
 ---
 
@@ -26,34 +30,41 @@ lastupdated: "2019-02-19"
  
 
 ## 位置
+{: #connect-locations}
 
 IBM Cloud Direct Link Connect 提供商包括以下位置：
 
 |合作伙伴 |现有市场|
 |--------------|--------------|
-|AT&T; NetBond® for Cloud |SNG02, FRA01, LON01, DAL03, SJC02, WDC02|
-|AT&T Cloud Gateway（以前称为 RedFringe）|DAL03, WDC02 |
-|Bell Canada |MON02, TOR02 |
-|British Telecom |LON01, FRA01, WDC02, SAO02, HKG01* |
-|CenturyLink|DAL03, SAO02, MIA01|
-|Chief Telecomm|HKG01* |
-|Colt | AMS02, FRA01, PAR02, TOK01, SNG02, LON01*, HKG01*,  |
-|Console Connect by PCCW |HKG01, TOK01, SNG02, LON01, SJC02|
-|Epsilon|AMS02*, DAL03*, FRA01*, HKG01*, LON01*, SNG02*, WDC02*|
-|IBM BlueFringe|DAL03, WDC02, CHE01|
-|Intercloud|FRA01, FRA03, AMS02|
-|Megaport |MEL02, SYD02, SNG02, AMS02, FRA01, LON03, STO01, DAL03, SJC02, TOR02, WDC02, HKG01*|
-|PacketFabric |DAL04, SJC02, WDC02|
-|Softbank|TOK04*|
-|SES Networks|WDC02|
-|Tata|CHE01|
-|Telia |STO01, OSL02*|
-|Telstra |MEL02, SYD02|
-|Verizon |SYD02, TOK01, AMS02, FRA01, DAL03, SJC02, WDC02 |
-|Zayo|DAL03*, WDC02*, MON01*|
+|AT&T; NetBond® for Cloud | 新加坡 2、法兰克福 1、伦敦 1、达拉斯 3、圣何塞 2、华盛顿特区 2|
+|AT&T Cloud Gateway（以前称为 RedFringe）| 达拉斯 3、华盛顿特区 2 |
+|Bell Canada | 蒙特利尔 2、多伦多 2 |
+|British Telecom |  伦敦 1、法兰克福 1、华盛顿特区 2、圣保罗 2、香港 1* |
+|CenturyLink| 达拉斯 3、圣保罗 2、迈阿密 1 |
+|Chief Telecomm| 香港 1* |
+|Colt | 阿姆斯特丹 2、法兰克福 1、巴黎 2、东京 1、新加坡 2、伦敦 1*、香港 1*、 |
+|Console Connect by PCCW | 香港 1、东京 1、新加坡 2、伦敦 1、圣何塞 2 |
+| Digital Realty Service Exchange |	在阿姆斯特丹 2、法兰克福 1、伦敦 3、斯德哥尔摩 1、达拉斯 3、圣何塞 2、多伦多 2、华盛顿特区 2 受 Megaport 支持|
+|Epsilon| 阿姆斯特丹 2*、达拉斯 3*、法兰克福 1*、香港 1*、伦敦 1*、新加坡 2*、华盛顿特区 2* |
+|IBM BlueFringe| 达拉斯 3、华盛顿特区 2、金奈 1 |
+|Intercloud| 法兰克福 1、法兰克福 3、阿姆斯特丹 2 |
+|Megaport | 墨尔本 2、悉尼 2、新加坡 2、阿姆斯特丹 2、法兰克福 1、伦敦 3、斯德哥尔摩 1、芝加哥 1、达拉斯 4、圣何塞 2、蒙特利尔 2*、多伦多 2、华盛顿特区 2、香港 1 |
+| MWS GNPP | 阿姆斯特丹 2、法兰克福 3、达拉斯 3、华盛顿特区 2 |
+| Neutrona |华盛顿特区 2|
+|NTT| 东京 5 |
+|PacketFabric | 达拉斯 4、圣何塞 2、华盛顿特区 2 |
+|Softbank| 东京 4* |
+|SES Networks|华盛顿特区 2|
+|Tata| 金奈 1、香港 1 | 
+|Telia | 斯德哥尔摩 1、奥斯陆 2* |
+|Telstra | 墨尔本 2、悉尼 2 |
+| Tokai |东京 3| 
+|Verizon | 悉尼 2、阿姆斯特丹 2、法兰克福 1、达拉斯 3、圣何塞 2、华盛顿特区 2 |
+|Zayo| 华盛顿特区 2、达拉斯 3、多伦多 2、蒙特利尔 2* |
 
 * = 即将推出
 
 ## 定价
+{: #connect-pricing}
 
-有关定价信息，请参阅[定价文档](/docs/infrastructure/direct-link/pricing.html)。
+有关定价信息，请参阅[定价文档](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-connect)。

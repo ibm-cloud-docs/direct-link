@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-21"
+
+keywords: VRF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, datacenters, data, center, shared tenancy, private endpoint, Customer VRF, Private Network Question, support, ticket
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 根据定义，虚拟路由和转发 (VRF) 是因特网协议 (IP) 网络路由器中包含的一项技术。该技术作为固有主干服务交付。
 
 ## IBM Cloud 的连接选项
+{: #connectivity-options-for-ibm-cloud}
 
 **分散的云资源**是位于多个位置或者甚至位于多个子网或 VLAN 的资源。这些资源需要路由功能来相互通信，即使在专用网络上下文中也是如此。此文档描述“多重隔离”租户通信选项，通常称为_客户 VRF_。它在全局 {{site.data.keyword.cloud}} 主干中实施为 MPLS 第 3 层 VPN (RFC 4364)。
 
@@ -32,6 +37,7 @@ lastupdated: "2019-02-19"
 本文档使用术语**客户 VRF** 来描述_多重隔离_网络连接。
 
 ## VRF 概述（多重隔离技术）
+{: #vrf-overview}
 
 虚拟路由和转发 (VRF) 允许路由表的多个实例存在于某个路由器中并同时工作。通过虚拟路由和转发 (VRF)，每个租户的 VRF 网络会在其路由表内分段。此分段行为允许 IP 地址重叠，但不会创建与其他租户 VRF 的任何交互，也不会干扰其他租户 VRF。IBM Cloud 利用 `10.0.0.0/8` 网络中的绝大部分 IP 地址，这可能会与许多远程网络（例如，客户数据中心内部署的网络）重叠。
 
@@ -56,6 +62,7 @@ IBM 正在推进新一代云部署，以在可用性专区中启用虚拟私有�
 * 客户 VRF 是在租户之间提供隔离的连接服务。租赁中所需的任何其他控件必须使用网关、安全组或基于主机的控件单独供应。
 
 ## 移动到 VRF 的优点
+{: #benefits-of-moving-to-vrf}
 
 **主要优点包括：**
 
@@ -74,6 +81,7 @@ IBM 正在推进新一代云部署，以在可用性专区中启用虚拟私有�
 * VLAN 生成在_多重隔离_租户中不可用。
 
 ## 帐户转换过程期间会发生什么
+{: #what-happens-during-the-account-conversion-process}
 
 许多 IBM Cloud 客户当前在 IBM Cloud 网络上的共享租户模型中操作。在转换期间，租户会转换为使用客户 VRF，最常见的是使用新的 Direct Link 预订转换，或者是按照其他方面的需要或请求。  
 
@@ -86,8 +94,12 @@ IBM 正在推进新一代云部署，以在可用性专区中启用虚拟私有�
 ## 如何启动转换
 {: #how-you-can-initiate-the-conversion}
 
-现有 IBM Cloud 客户可以通过其 [IBM Cloud 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) 帐户开具支持凭单，以请求迁移到 VRF。该凭单应注明“专用网络问题”，并在支持凭单中包含以下文本：
+现有 IBM Cloud 客户可以通过其 [IBM Cloud 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")]( https://cloud.ibm.com/unifiedsupport/cases/add) 帐户 [开具支持凭单](https://cloud.ibm.com/unifiedsupport/cases/add)，以请求迁移到 VRF。该凭单应注明“专用网络问题”，并在支持凭单中包含以下文本：
 
 “我们请求将帐户 _填入您的帐号_ 移动到其自己的 VRF。我们了解存在的风险并同意更改。请在回复中告知安排执行此更改的时间范围，以便我们准备进行迁移。”
 
 IBM Cloud 网络工程团队将完成迁移。除了约定的安排之外，您无需提供其他信息。通常，丢包可能持续 15-30 分钟，具体取决于帐户的复杂性。（如果您的帐户具有旧的 Direct Link 连接，那么丢包持续时间可能会更长）。此过程高度自动化，需要 IBM 团队进行的交互极少，并且应该是透明的。
+
+当您开具凭单时，尽管在包含先前给定的文本时任何选项都适用，但建议您选择“技术”选项：
+
+![图像](https://media.github.ibm.com/user/11495/files/4474c300-4bd9-11e9-9bc7-d6242d7997e9)

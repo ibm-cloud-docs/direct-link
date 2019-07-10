@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-21"
+
+keywords: Cloud Object Storage, endpoints, Cross Region, Regional, Single Site, reverse proxy, nginx, bare metal, VRA, bucket, virtual router appliance
+
+subcollection: direct-link
 
 ---
 
@@ -18,15 +22,16 @@ lastupdated: "2019-02-19"
 # 使用 IBM Cloud Direct Link 连接到 IBM Cloud Object Storage
 {: #using-ibm-cloud-direct-link-to-connect-to-ibm-cloud-object-storage}
 
-本文档描述了如何配置 {{site.data.keyword.cloud}} Direct Link，以便您有权访问 IBM Cloud Object Storage (COS)。虽然此处描述的方法是针对 COS 设计并测试的，但也可能适用于某些其他 IBM Cloud 服务。
+本文档描述如何配置 {{site.data.keyword.cloud}} Direct Link，以便您有权访问 {{site.data.keyword.cloud_notm}} Object Storage (COS)。 虽然此处描述的方法是针对 COS 设计并测试的，但也可能适用于某些其他 {{site.data.keyword.cloud_notm}} 服务。
 
-根据目前的策略，IBM Cloud Direct Link 会拒绝对 IBM Cloud 专用服务端点的访问，包括 IBM Cloud Object Storage (COS) 使用的端点。本文档中所述的方法依赖于通过客户的 IBM Cloud 帐户中托管的服务器对 COS 进行间接访问。设置之后，每个客户的服务器都可以在 IBM Cloud 专用服务端点及其通过 Direct Link 连接的远程网络之间双向转发流量。
+根据策略，{{site.data.keyword.cloud_notm}} Direct Link 会拒绝对 {{site.data.keyword.cloud_notm}} 专用服务端点的访问，包括 {{site.data.keyword.cloud_notm}} Object Storage (COS) 使用的端点。本文档中所述的方法依赖于通过客户的 {{site.data.keyword.cloud_notm}} 帐户中托管的服务器对 COS 进行间接访问。设置之后，每个客户的服务器都可以在 {{site.data.keyword.cloud_notm}} 专用服务端点及其通过 Direct Link 连接的远程网络之间双向转发流量。
 
 ## 什么是 IBM Cloud Object Storage (COS)？
+{: #what-is-ibm-cloud-object-storage}
 
-IBM Cloud Object Storage (COS) 是一个用于存储非结构化数据的 Web 缩放平台。它提供了可靠性、安全性、可用性和灾难恢复功能，无需手动进行复制。
+{{site.data.keyword.cloud_notm}} Object Storage (COS) 是一个用于存储非结构化数据的 Web 规模平台。它提供了可靠性、安全性、可用性和灾难恢复功能，无需手动进行复制。
 
-存储在 IBM Cloud Object Storage 中的信息会进行加密并分散在多个地理位置。可通过实现 S3 API 对其进行访问。此服务利用的是 IBM Cloud Object Storage 服务提供的分布式存储技术。
+存储在 {{site.data.keyword.cloud_notm}} Object Storage 中的信息会进行加密并分散在多个地理位置。可通过实现 S3 API 对其进行访问。此服务利用的是 {{site.data.keyword.cloud_notm}} Object Storage 服务提供的分布式存储技术。
 
 IBM COS 有以下三种配置可用：**跨区域**、**区域**和**单站点**。
 
@@ -37,35 +42,44 @@ IBM COS 有以下三种配置可用：**跨区域**、**区域**和**单站点**
  * “单站点”服务提供对所选数据中心内 Cloud Object Storage 的经济实惠的访问。
 
 ### COS 专用和公共端点
+{: #cos-private-and-public-endpoints}
+
 端点是应用程序用于发出 COS 命令以及与 COS 交换数据的 URL。每个端点都使用相同的应用程序编程接口 (API) 与 COS 进行交互。
 
-在 IBM Cloud 中供应的服务器将使用专用 API 端点来提供服务，包括 COS。通过专用端点，客户的 IBM Cloud 服务器可高速、直接连接到服务，无需额外的带宽成本。
+{{site.data.keyword.cloud_notm}} 中供应的服务器使用服务的专用 API 端点，包括 COS。专用端点为 {{site.data.keyword.cloud_notm}} 服务器提供了与服务的高速直接连接，而不会增加带宽成本。
 
-COS 公共端点向 IBM Cloud 客户提供了对可从 IBM Cloud 中访问的 COS 数据的访问权，但公共端点允许从任何配备了因特网的位置进行访问。
+COS 公共端点为 {{site.data.keyword.cloud_notm}} 客户提供了对可从 {{site.data.keyword.cloud_notm}} 中访问的相同 COS 数据的访问权，但公共端点允许从任何配备了因特网的位置进行访问。
 
 下面两个警告适用于 COS 公共端点：
  * 使用公共端点发生的计量带宽成本可能会超出 COS 服务所收取的使用费。
  * 尽管所有数据在传输过程中都已加密，但对于通过因特网传输的数据，客户仍可能有隐私方面的顾虑或有相关监管限制。
 
 ## 什么是 IBM Cloud Direct Link？
-IBM Cloud Direct Link 是一个产品套件，使客户能够在其远程网络环境与其 IBM Cloud 部署之间创建安全的专用连接。Direct Link 交换的数据绝不会向因特网公开。
+{: #what-is-ibm-cloud-direct-link}
+
+{{site.data.keyword.cloud_notm}} Direct Link 是一个产品套件，使客户能够在其远程网络环境与其 {{site.data.keyword.cloud_notm}} 部署之间创建安全的专用连接。Direct Link 交换的数据绝不会向因特网公开。
 
 ## 通过 IBM Cloud Direct Link 使用 Cloud Object Storage (COS)
-IBM 工程师开发了一种方法，允许购买 COS 和 Direct Link 的 IBM Cloud 客户与 COS 专用端点建立远程连接。此类型的连接扩大了专用服务端点的优点，使得 IBM Cloud 设施外部的客户机系统也可以使用这些端点。
+{: #using-cloud-object-storage-over-ibm-cloud-direct-link}
+
+IBM 工程师开发了一种方法，允许购买 COS 和 Direct Link 的 {{site.data.keyword.cloud_notm}} 客户与 COS 专用端点建立远程连接。此类型的连接扩充了专用服务端点的优点，使得 {{site.data.keyword.cloud_notm}} 设施外部的客户机系统也可以使用这些端点。
 
 此解决方案在随后的各部分中以图和文字方式进行了描述。
 
 ### 逆向代理
+{: #direct-link-reverse-proxy}
 
 **基本前提：远程客户机通过专用服务器将请求（包括安全凭证）传递给 COS**
 
 ![reverse=proxy](images/reverse-proxy.png)
 
-远程站点的客户机发起了 HTTPS（安全 HTTP）COS 请求。这些请求通过 IBM Cloud Direct Link 安全地传输，并将部署在客户 IBM Cloud 帐户中的_逆向代理服务器_集群中的一个服务器设为目标。从该服务器中，会将请求传递到 COS 专用端点，经过处理后，结果会返回到远程调用客户机。
+远程站点的客户机发起了 HTTPS（安全 HTTP）COS 请求。这些请求通过 {{site.data.keyword.cloud_notm}} Direct Link 安全地传输，并将部署在客户 {{site.data.keyword.cloud_notm}} 帐户中的_逆向代理服务器_集群中的一个服务器设为目标。从该服务器中，会将请求传递到 COS 专用端点，经过处理后，结果会返回到远程调用客户机。
 
 任何使用 COS 的样本客户机代码也应该通过_逆向代理_服务器运行。唯一需要的调整是客户机要将逆向代理服务器的 IP 地址或 URL 设为目标，而不是将 IBM 发布的其中一个 COS 专用端点 URL 设为目标。
 
 #### 安装 Nginx 逆向代理
+{: #direct-link-installing-your-nginx-reverse-proxy}
+
 **NginX** 是一个成熟、紧凑、快速的开放式源代码 Web 服务器，擅长处理专项任务，包括先前提到的_逆向代理_服务器角色。
 
 下面用于设置 NginX 逆向代理服务器的指示信息和配置信息在您根据环境对其进行调整后即可应用。如果遇到困难或需要更多信息，请查阅 [Nginx 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) 的逆向代理部分，或搜索 [stackoverflow ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")]](http://stackoverflow.com)，等等。
@@ -86,14 +100,14 @@ IBM 工程师开发了一种方法，允许购买 COS 和 Direct Link 的 IBM Cl
 14. 如果测试通过，请使用 `nginx -s quit; sleep 3; nginx` 命令重新启动 `nginx`
 15. 现在，客户机应该能够向 NginX（代理）服务器的 IP 或 URL 提交 COS 请求
 
-#### 注：
+**注：**
 
 * 该解决方案假定已订购并正确部署了 Direct Link，尽管可以在不使用 Direct Link 的情况下对解决方案进行测试。
 * 可选的内存或磁盘高速缓存可与 `proxy_cache` 配合使用。
 * 较大的文件传输可能需要更大的 `proxy_read_timeout` 值。
 * 使用 `keepalive` 或 Pacemaker 实现高可用性（自动故障转移）。
 
-#### 配置文件：`nginx.conf`
+**配置文件：`nginx.conf`**
 
 以下部分中显示了样本配置文件。您可以复制并粘贴该文件。
 
@@ -158,27 +172,31 @@ http {
 }
 ```
 
-请参阅 [COS 端点](https://{DomainName}/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints)，以获取用于上面的 `proxy_pass` 条目的专用端点的列表。
+请参阅 [COS 端点](/docs/infrastructure/cloud-object-storage-infrastructure?topic=cloud-object-storage-infrastructure-select-regions-and-endpoints#select-regions-and-endpoints)，以获取用于上面的 `proxy_pass` 条目的专用端点的列表。
 
-#### 提示：
+**提示：**
 
  * 要提升规模和弹性，请部署多个与不同端点关联的代理服务器。
  * 在客户机端使用循环法 DNS，以实现基本的故障转移和负载均衡功能。
  * 代理服务器可以放在虚拟路由器设备 (VRA) 后面以受到保护，也可用于集中日志记录。
 
 ## 管理和供应 IBM Cloud 功能
+{: #direct-link-managing-and-provisioning-ibm-cloud-capabilities}
 
-本部分提供了可以使用 IBM Cloud Direct Link 连接到的某些 IBM Cloud PaaS 和 SaaS 服务产品的文档快速链接。
+本部分为可以使用 {{site.data.keyword.cloud_notm}} Direct Link 连接到的某些 IBM Cloud PaaS 和 SaaS 产品提供了文档快速链接。
 
 ### 如何供应裸机服务器
+{: #direct-link-how-to-provision-bare-metal-servers}
 
-有关如何供应裸机服务器的详细指示信息，请参阅[裸机服务器指南](https://{DomainName}/docs/bare-metal?topic=bare-metal-about#about)。
+有关如何供应裸机服务器的详细指示信息，请参阅[裸机服务器指南](/docs/bare-metal?topic=bare-metal-about#about)。
 
 ### 如何供应虚拟路由器设备 (VRA)
+{: #direct-link-how-to-provision-a-virtual-router-appliance}
 
-有关如何供应 VRA 的详细指示信息，请参阅 [VRA 入门指南](https://{DomainName}/docs/infrastructure/virtual-router-appliance/getting-started.html#getting-started)。
+有关如何供应 VRA 的详细指示信息，请参阅 [VRA 入门指南](/docs/infrastructure/virtual-router-appliance?topic=virtual-router-appliance-getting-started#getting-started)。
 
 ### 如何供应 IBM Cloud Object Storage (COS)
+{: #direct-link-how-to-provision-ibm-cloud-object-storage}
 
  * 有关如何供应 COS 的详细指示信息，请参阅 [Cloud Object Storage 指南](https://{DomainName}/catalog/services/cloud-object-storage)。
 

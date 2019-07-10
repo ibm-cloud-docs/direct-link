@@ -4,8 +4,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-04-12"
 
+keywords: help, support, ticket, forum, Stack Overflow
+
+subcollection: direct-link
 
 
 ---
@@ -32,7 +35,7 @@ lastupdated: "2019-01-18"
 # 获取帮助和支持 
 {: #getting-help-and-support}
 
-如果在使用 {{site.data.keyword.cloud}} Direct Link 时有问题或疑问，可通过搜索信息或在下面列出的其中一个论坛中进行提问来获取帮助。还可以在 [IBM Cloud 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) 或[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/) 上开具支持凭单。
+如果在使用 {{site.data.keyword.cloud}} Direct Link 时有问题或疑问，可通过搜索信息或在下面列出的其中一个论坛中进行提问来获取帮助。还可以在 [IBM Cloud 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")]( https://cloud.ibm.com/unifiedsupport/cases/add) 或[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/) 上开具支持凭单。
 {:shortdesc}
 
 在使用论坛提问时，请给问题做标记，以便 {{site.data.keyword.Bluemix_notm}} 开发
@@ -42,8 +45,7 @@ lastupdated: "2019-01-18"
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->
 * 如果对服务和入门指示存有疑问，请使用 [IBM developerWorks dW Answers ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/answers/topics/directlink.html?smartspace=ibm-cloud){:new_window} 论坛。包括“directlink”和“ibm-cloud”标记。
 
-请参阅[获取
-帮助](https://cloud.ibm.com/docs/support/index.html#getting-help)了解有关如何使用论坛的更多详细信息。
+请参阅[获取帮助](/docs/get-support?topic=get-support-using-avatar#using-avatar)了解有关如何使用论坛的更多详细信息。
 
 有关开具 IBM 支持凭单的信息，或有关支持级别和凭单严重性的信息，请参阅[联系支持人员](/docs/get-support?topic=get-support-getting-customer-support)。
 
