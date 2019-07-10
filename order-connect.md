@@ -46,6 +46,7 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | Console Connect by PCCW | Hong Kong 1, Tokyo 1, Singapore 2, London 1, San Jose 2 |
 | Digital Realty Service Exchange |	Supported by Megaport in Amsterdam 2, Frankfurt 1, London 3, Stockholm 1, Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |
 | Epsilon | Frankfurt 1 |
+| EU Networks | Frankfurt 1 |
 | IBM BlueFringe | Dallas 3, Washington DC 2, Chennai 1 |
 | Intercloud | Frankfurt 1, Frankfurt 3, Amsterdam 2 |
 | Megaport | Melbourne 2, Sydney 2, Singapore 2, Amsterdam 2, Frankfurt 1, London 3, Stockholm 1, Chicago 1, Dallas 4, San Jose 2,  Toronto 2, Washington DC 2, Hong Kong 1 |

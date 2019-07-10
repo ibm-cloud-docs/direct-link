@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-05-21"
+lastupdated: "2019-07-10"
 
 keywords: faq, faqs, questions, answer, billing, fees, point-to-point, bandwidth, charges, redundancy, Global Routing, diversity, IPv6, BGP, charges, jumbo frames
 
@@ -62,7 +62,9 @@ Direct Link does not provide an inherently Redundant service. Direct Link can pr
 {: #what-is-the-difference-between-the-default-local-routing-and-the-global-routing-add-on-for-direct-link}
 {:faq}
 
-With our standard Direct Link offering, you can send traffic between the data centers in your selected region. If you need access to other data centers outside of the specified region, you must order the Global Routing add-on. This model is based upon ACLs (access control lists) that are put in place at the time your Direct Link connection is ordered. 
+The Local Routing option is the default routing option. If your Direct Link is connected at the local PoP, It provides access to all datacenters within that same market. In some markets, local routing is applicable for stand-alone PoP locations and direct links terminated at the data center. Please check [the list of expanded markets](https://cloud.ibm.com/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-direct-link-local-markets) for more information.   
+
+With our standard Direct Link offering, you can send traffic between the data centers in your selected region. If you need access to other data centers outside of the specified region, you must order the Global Routing add-on. For example, you might use Global Routing to share workloads between dispersed IBM Cloud resources (such as Dallas to Ashburn, or Dallas to Frankfurt).
 
 ## Why does a Global Routing add-on package exist for Direct Link?
 {: #why-does-a-global-routing-add-on-package-exist-for-direct-link}
@@ -92,7 +94,7 @@ No. IBM Cloud offers two options: (1) a Local Market only, or (2) all regions, w
 {: #what-if-i-used-the-direct-link-automated-ordering-process}
 {:faq}
 
-As of March 2018, the recommended best practice is to cancel your automated order and submit a new ticket to fill out the Direct Link questionnaire. You should indicate whether you prefer another subnet in the 10.254.x.x range or the 172.32.x.x range.
+As of March 2018, the recommended best practice is to cancel your automated order and submit a new ticket to fill out the Direct Link questionnaire. You should indicate whether you prefer another subnet in the 10.254.x.x range or the 172.16.x.x range.
 
 ## What is the difference between Direct Link Exchange and Direct Link Connect?
 {: #what-is-the-difference-between-direct-link-exchange-and-direct-link-connect}

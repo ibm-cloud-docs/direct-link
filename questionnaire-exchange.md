@@ -71,22 +71,8 @@ Thank you for opening a request for {{site.data.keyword.cloud}} Direct Link Exch
 
     _Customers selecting local routing will only be able to pass traffic between the data centers being serviced from the PoP where the Direct Link was ordered.  Customers wishing to pass traffic outside of the PoP where the Direct Link was ordered will need to add on the global routing option._
 
-* **Do you agree to the fee for Global Routing including the _YOUR LOCATION_ monthly fee and the overage fees outlined below?**
+* **Do you agree to the fee for Global Routing including the _YOUR LOCATION_ monthly fee ?**
 
-    _Local routing includes access to all of the Data Centers connected directly to the PoP and provides unlimited ingress/egress traffic.  Global routing expands access to include all IBM Cloud’s data centers globally.  Bandwidth is metered when the service can meter traffic. When bandwidth metering occurs, you will be charged monthly based on your market price, as shown in the following table._
-
-
-### Global Routing Pricing
-{: #exchange-global-routing-pricing}
-
-| Global Routing Ingress | Global Routing Egress |
-|---|---|
-| Free | 1, 2, or 5Gbps Circuit - 10TB Free bandwidth |
-| Free | 10Gbps Circuit - 50TB Free bandwidth |
+    _Local routing includes access to all of the Data Centers connected directly to the PoP and provides unlimited ingress/egress traffic.  Global routing expands access to include all IBM Cloud’s data centers globally. 
 
 
-| Bandwidth Overage Fees |
-|---|
-| Market 1: $0.05 per GB |
-| Market 2: $0.10 per GB |
-| Market 3: $0.15 per GB |
