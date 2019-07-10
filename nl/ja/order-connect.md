@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-14"
+
+keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, datacenter, data, center, pricing, virtual circuit, Request ID, Authorization ID
+
+subcollection: direct-link
 
 ---
 
@@ -26,34 +30,41 @@ lastupdated: "2019-02-19"
  
 
 ## 場所
+{: #connect-locations}
 
 IBM Cloud Direct Link Connect プロバイダーには、以下の場所が含まれています。
 
-| パートナー | 使用可能な市場 |
+| パートナー | 使用可能なマーケット |
 |--------------|--------------|
-| AT&T; NetBond® for Cloud | SNG02、FRA01、LON01、DAL03、SJC02、WDC02|
-| AT&T Cloud Gateway (旧 RedFringe)| DAL03、WDC02 |
-| Bell Canada | MON02、TOR02 |
-| British Telecom |  LON01、FRA01、WDC02、SAO02、HKG01* |
-| CenturyLink | DAL03、SAO02、MIA01 |
-| Chief Telecomm | HKG01* |
-| Colt | AMS02、FRA01、PAR02、TOK01、SNG02、LON01*、HKG01*、  |
-| PCCW による Console Connect | HKG01、TOK01、SNG02、LON01、SJC02 |
-| Epsilon | AMS02*、DAL03*、FRA01*、HKG01*、LON01*、SNG02*、WDC02* |
-| IBM BlueFringe | DAL03、WDC02、CHE01 |
-| Intercloud | FRA01、FRA03、AMS02 |
-| Megaport |  MEL02、SYD02、SNG02、AMS02、FRA01、LON03、STO01、DAL03、SJC02、TOR02、WDC02、HKG01* |
-| PacketFabric | DAL04、SJC02、WDC02 |
-| ソフトバンク | TOK04* |
-| SES Networks | WDC02 |
-| Tata | CHE01 |
-| Telia | STO01、OSL02* |
-| Telstra | MEL02、SYD02 |
-| Verizon | SYD02、TOK01、AMS02、FRA01、DAL03、SJC02、WDC02 |
-| Zayo | DAL03*、WDC02*、MON01* |
+| AT&T; NetBond® for Cloud | シンガポール 2、フランクフルト 1、ロンドン 1、ダラス 3、サンノゼ 2、ワシントン DC 2|
+| AT&T Cloud Gateway (旧 RedFringe)| ダラス 3、ワシントン DC 2 |
+| Bell Canada | モントリオール 2、トロント 2 |
+| British Telecom |  ロンドン 1、フランクフルト 1、ワシントン DC 2、サンパウロ 2、ホンコン 1* |
+| CenturyLink | ダラス 3、サンパウロ 2、マイアミ 1 |
+| Chief Telecomm | ホンコン 1* |
+| Colt | アムステルダム 2、フランクフルト 1、パリ 2、東京 1、シンガポール 2、ロンドン 1*、ホンコン 1*  |
+| PCCW による Console Connect | ホンコン 1、東京 1、シンガポール 2、ロンドン 1、サンノゼ 2 |
+| Digital Realty Service Exchange |	アムステルダム 2、フランクフルト 1、ロンドン 3、ストックホルム 1、ダラス 3、サンノゼ 2、トロント 2、ワシントン DC 2 の Megaport でサポート |
+| Epsilon | アムステルダム 2*、ダラス 3*、フランクフルト 1*、ホンコン 1*、ロンドン 1*、シンガポール 2*、ワシントン DC 2* |
+| IBM BlueFringe | ダラス 3、ワシントン DC 2、チェンナイ 1 |
+| Intercloud | フランクフルト 1、フランクフルト 3、アムステルダム 2 |
+| Megaport | メルボルン 2、シドニー 2、シンガポール 2、アムステルダム 2、ストックホルム 1、ロンドン 3、ストックホルム 1、シカゴ 1、ダラス 4、サンノゼ 2、モントリオール 2*、トロント 2、ワシントン DC 2、ホンコン 1 |
+| MWS GNPP | アムステルダム 2、フランクフルト 3、ダラス 3、ワシントン DC 2 |
+| Neutrona | ワシントン DC 2 |
+| NTT | 東京 5 |
+| PacketFabric | ダラス 4、サンノゼ 2、ワシントン DC 2 |
+| ソフトバンク | 東京 4* |
+| SES Networks | ワシントン DC 2 |
+| Tata | チェンナイ 1、ホンコン 1 | 
+| Telia | ストックホルム 1、オスロ 2* |
+| Telstra | メルボルン 2、シドニー 2 |
+| Tokai | 東京 3 | 
+| Verizon | シドニー 2、アムステルダム 2、フランクフルト 1、ダラス 3、サンノゼ 2、ワシントン DC 2 |
+| Zayo | ワシントン DC 2、ダラス 3、トロント 2、モントリオール 2* |
 
 * = 近日使用可能
 
 ## 料金
+{: #connect-pricing}
 
-料金情報については、[料金の資料](/docs/infrastructure/direct-link/pricing.html)を参照してください。
+料金情報については、[料金の資料](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-connect)を参照してください。

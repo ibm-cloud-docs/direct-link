@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-21"
+
+keywords: Cloud Object Storage, endpoints, Cross Region, Regional, Single Site, reverse proxy, nginx, bare metal, VRA, bucket, virtual router appliance
+
+subcollection: direct-link
 
 ---
 
@@ -18,15 +22,16 @@ lastupdated: "2019-02-19"
 # IBM Cloud Direct Link を使用した IBM Cloud オブジェクト・ストレージへの接続
 {: #using-ibm-cloud-direct-link-to-connect-to-ibm-cloud-object-storage}
 
-この資料では、{{site.data.keyword.cloud}} Direct Link を構成して、IBM Cloud オブジェクト・ストレージ (COS) にアクセスできるようにする方法について説明します。 ここで説明されている方法は COS で設計およびテストされていますが、他の特定の IBM Cloud サービスでも機能する可能性があります。
+この資料では、{{site.data.keyword.cloud_notm}} オブジェクト・ストレージ (COS) にアクセスできるように {{site.data.keyword.cloud}} Direct Link を構成する方法について説明します。ここで説明されている方法は COS で設計およびテストされていますが、他のいくつかの {{site.data.keyword.cloud_notm}} サービスでも機能する可能性があります。
 
-現在のポリシーでは、IBM Cloud Direct Link は、IBM Cloud オブジェクト・ストレージ (COS) が使用するものを含む、IBM Cloud プライベート・サービス・エンドポイントへのアクセスを拒否します。 この資料で説明する技法では、お客様の IBM Cloud アカウントでホストされているサーバーを介して、COS への間接アクセスを利用します。 セットアップ後、お客様の各サーバーは、Direct Link によって接続された IBM Cloud プライベート・サービス・エンドポイントとリモート・ネットワークとの間で双方向にトラフィックを転送できます。
+ポリシーにより、{{site.data.keyword.cloud_notm}} Direct Linkは、{{site.data.keyword.cloud_notm}} オブジェクト・ストレージ (COS) で使用されるものを含む、{{site.data.keyword.cloud_notm}} プライベート・サービス・エンドポイントへのアクセスを拒否します。この資料で説明する技法では、お客様の {{site.data.keyword.cloud_notm}} アカウントでホストされているサーバーを介して、COS への間接アクセスを利用します。セットアップ後、お客様の各サーバーは、Direct Link によって接続された {{site.data.keyword.cloud_notm}} プライベート・サービス・エンドポイントとリモート・ネットワークとの間で双方向にトラフィックを転送できます。
 
 ## IBM Cloud オブジェクト・ストレージ (COS) とは
+{: #what-is-ibm-cloud-object-storage}
 
-IBM Cloud オブジェクト・ストレージ (COS) は、非構造化データを保管する Web スケール・プラットフォームです。 手動による複製なしで、信頼性、セキュリティー、可用性、および災害復旧が提供されます。
+{{site.data.keyword.cloud_notm}} オブジェクト・ストレージ (COS) は、非構造化データを保管する Web スケール・プラットフォームです。手動による複製なしで、信頼性、セキュリティー、可用性、および災害復旧が提供されます。
 
-IBM Cloud オブジェクト・ストレージに保管された情報は暗号化され、複数の地理的位置に分散されます。 これは、S3 API の実装を介してアクセス可能です。 このサービスは、IBM Cloud オブジェクト・ストレージ・サービスによって提供されている分散ストレージ・テクノロジーを利用します。
+{{site.data.keyword.cloud_notm}} オブジェクト・ストレージに保管された情報は暗号化され、複数の地理的場所に分散されます。これは、S3 API の実装を介してアクセス可能です。 このサービスは、{{site.data.keyword.cloud_notm}} オブジェクト・ストレージ・サービスで提供されている分散ストレージ・テクノロジーを利用します。
 
 IBM COS は、**クロス地域**、**地域**、および**単一サイト**という 3 つの構成で利用可能です。
 
@@ -37,35 +42,44 @@ IBM COS は、**クロス地域**、**地域**、および**単一サイト**と
  * 単一サイト・サービスは、選択されたデータ・センター内のクラウド・オブジェクト・ストレージへの手頃な料金でのアクセスを提供します。
 
 ### COS のプライベート・エンドポイントおよびパブリック・エンドポイント
+{: #cos-private-and-public-endpoints}
+
 エンドポイントは、アプリケーションが COS コマンドを発行し、COS とデータを交換するために使用する URL です。 各エンドポイントは、同じアプリケーション・プログラミング・インターフェース (API) を使用して COS と対話します。
 
-IBM Cloud 内でプロビジョンされたサーバーは、COS を含むサービスのプライベート API エンドポイントを使用します。 プライベート・エンドポイントにより、帯域幅コストを追加することなく、お客様の IBM Cloud サーバーでサービスへの直接高速接続が提供されます。
+{{site.data.keyword.cloud_notm}} 内でプロビジョンされたサーバーは、COS を含むサービスのプライベート API エンドポイントを使用します。プライベート・エンドポイントにより、帯域幅コストを追加することなく、お客様の {{site.data.keyword.cloud_notm}} サーバーでサービスへの直接高速接続が可能になります。
 
-COS パブリック・エンドポイントは、IBM Cloud のお客様に IBM Cloud 内からアクセスできるのと同じ COS データへのアクセスを提供しますが、パブリック・エンドポイントは、インターネットが利用できる任意の場所からのアクセスを許可します。
+COS パブリック・エンドポイントは、{{site.data.keyword.cloud_notm}} のお客様に {{site.data.keyword.cloud_notm}} 内からアクセスできるのと同じ COS データへのアクセスを提供しますが、パブリック・エンドポイントは、インターネットが利用できる任意の場所からのアクセスを許可します。
 
 以下の 2 つの注意点が COS パブリック・エンドポイントに適用されます。
  * パブリック・エンドポイントを使用した場合、COS サービスによって課される使用料金以外に、帯域幅に対して課金される可能性があります。
  * 転送中のデータはすべて暗号化されますが、お客様には、インターネットを介して送信されるデータに関連してプライバシーの懸念や規制による制限が生じることがあります。
 
 ## IBM Cloud Direct Link とは
-IBM Cloud Direct Link は、お客様がリモート・ネットワーク環境と IBM Cloud デプロイメントの間のセキュアなプライベート接続を作成できるようにする製品スイートです。 Direct Link によって交換されるデータは、インターネットに公開されることはありません。
+{: #what-is-ibm-cloud-direct-link}
+
+{{site.data.keyword.cloud_notm}} Direct Link は、お客様がリモート・ネットワーク環境と {{site.data.keyword.cloud_notm}} デプロイメントの間のセキュアなプライベート接続を作成できるようにする製品スイートです。Direct Link によって交換されるデータは、インターネットに公開されることはありません。
 
 ## IBM Cloud Direct Link を介したクラウド・オブジェクト・ストレージ (COS) の使用
-IBM エンジニアは、COS および Direct Link を購入した IBM Cloud のお客様が COS プライベート・エンドポイントにリモート接続できるようにする方法を開発してきました。 このタイプの接続は、プライベート・サービス・エンドポイントの利点を拡張するものであり、IBM Cloud 施設外のクライアント・システムで使用できます。
+{: #using-cloud-object-storage-over-ibm-cloud-direct-link}
+
+IBM エンジニアは、COS および Direct Link を購入した {{site.data.keyword.cloud_notm}} のお客様が COS プライベート・エンドポイントにリモート接続できるようにする方法を開発してきました。このタイプの接続は、プライベート・サービス・エンドポイントの利点を拡張するものであり、{{site.data.keyword.cloud_notm}} 施設外のクライアント・システムで使用できます。
 
 後続のセクションでは、このソリューションについて図示および説明します。
 
 ### リバース・プロキシー
+{: #direct-link-reverse-proxy}
 
 **基本的な前提: リモート・クライアントは、プライベート・サーバーを介して、要求 (セキュアな資格情報を含む) を COS に渡します。**
 
 ![リバース・プロキシー](images/reverse-proxy.png)
 
-HTTPS (セキュア HTTP) COS 要求は、リモート・サイトのクライアントから開始されます。 要求は IBM Cloud Direct Link を介してセキュアに送信され、お客様の IBM Cloud アカウントにデプロイされた_リバース・プロキシー・サーバー_ のクラスターのいずれかを宛先とします。 そこから、要求は COS プライベート・エンドポイントに渡され、処理されてから、結果が呼び出し元のリモート・クライアントに返されます。
+HTTPS (セキュア HTTP) COS 要求は、リモート・サイトのクライアントから開始されます。 要求は {{site.data.keyword.cloud_notm}} Direct Link を介してセキュアに送信され、お客様の {{site.data.keyword.cloud_notm}} アカウントにデプロイされた_リバース・プロキシー・サーバー_・クラスターの中のいずれかを宛先とします。そこから、要求は COS プライベート・エンドポイントに渡され、処理されてから、結果が呼び出し元のリモート・クライアントに返されます。
 
 COS で機能するサンプル・クライアント・コードはすべて、_リバース・プロキシー_・サーバーでも機能します。 唯一必要な調整として、IBM によって公開されている COS プライベート・エンドポイント URL のいずれかを宛先にするのではなく、リバース・プロキシー・サーバーの IP アドレスまたは URL をクライアントの宛先にしてください。
 
 #### Nginx リバース・プロキシーのインストール
+{: #direct-link-installing-your-nginx-reverse-proxy}
+
 **NginX** は、前述の_リバース・プロキシー_・サーバーの役割を含む、特化したタスクに優れた、成熟したコンパクトな高速オープン・ソース Web サーバーです。
 
 後続の説明および構成情報 (NginX リバース・プロキシー・サーバーをセットアップするためのもの) は、環境に適合させた後に機能します。 行き詰まった場合や追加情報が必要な場合は、[Nginx 資料 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) のリバース・プロキシーの部分を参照するか、[stackoverflow ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")]](http://stackoverflow.com) で例を検索してください。
@@ -86,14 +100,14 @@ COS で機能するサンプル・クライアント・コードはすべて、_
 14. テストに合格した場合は、コマンド `nginx -s quit; sleep 3; nginx` を使用して `nginx` を再始動します。
 15. これで、クライアントは NginX (プロキシー) サーバーの IP または URL に COS 要求を送信できるようになっています。
 
-#### 注:
+**注:**
 
 * このソリューションでは、Direct Link が購入済みで適切にデプロイされていることを前提としています。ただし、Direct Link がなくても、テスト可能です。
 * `proxy_cache` を使用して、オプションのメモリーまたはディスク・キャッシュを使用できます。
 * 大規模なファイルの転送の場合、`proxy_read_timeout` 値を大きくする必要が生じることがあります。
 * 高可用性 (自動フェイルオーバー) には、`keepalive` または Pacemaker を使用してください。
 
-#### 構成ファイル: `nginx.conf`
+**構成ファイル: `nginx.conf`**
 
 以下のセクションでは、サンプル構成ファイルを示します。 コピー・アンド・ペーストできます。
 
@@ -158,30 +172,33 @@ http {
 }
 ```
 
-上記の `proxy_pass` 項目で使用するプライベート・エンドポイントのリストについては、[COS エンドポイント](https://{DomainName}/docs/infrastructure/cloud-object-storage-infrastructure/endpoints.html#select-regions-and-endpoints)を参照してください。
+上記の `proxy_pass` 項目で使用するプライベート・エンドポイントのリストについては、[COS エンドポイント](/docs/infrastructure/cloud-object-storage-infrastructure?topic=cloud-object-storage-infrastructure-select-regions-and-endpoints#select-regions-and-endpoints)を参照してください。
 
-#### ヒント:
+**ヒント:**
 
  * スケーリングおよび回復力を向上させるには、各種エンドポイントに関連付けられた複数のプロキシー・サーバーをデプロイします。
  * 基本的なフェイルオーバーおよびロード・バランシング機能には、クライアント・サイドでラウンドロビン DNS を使用します。
  * 保護および中央集中ロギングのために、仮想ルーター・アプライアンス (VRA) の背後にプロキシー・サーバーを配置できます。
 
 ## IBM Cloud の機能の管理とプロビジョン
+{: #direct-link-managing-and-provisioning-ibm-cloud-capabilities}
 
-このセクションでは、IBM Cloud Direct Link を使用して接続できる一部の IBM Cloud PaaS および SaaS オファリングの資料へのクイック・リンクを提供します。
+このセクションでは、{{site.data.keyword.cloud_notm}} Direct Link を使用して接続できるいくつかの IBM Cloud PaaS および SaaS オファリングの資料へのクイック・リンクを提供します。
 
 ### ベアメタル・サーバーのプロビジョン方法
+{: #direct-link-how-to-provision-bare-metal-servers}
 
-ベアメタル・サーバーのプロビジョン方法について詳しくは、[ベアメタル・サーバーのガイド](https://{DomainName}/docs/bare-metal?topic=bare-metal-about#about)を参照してください。
+ベアメタル・サーバーのプロビジョン方法について詳しくは、[ベアメタル・サーバーのガイド](/docs/bare-metal?topic=bare-metal-about#about)を参照してください。
 
 ### 仮想ルーター・アプライアンス (VRA) のプロビジョン方法
+{: #direct-link-how-to-provision-a-virtual-router-appliance}
 
 VRA のプロビジョン方法について詳しくは、
-[VRA の入門ガイド](https://{DomainName}/docs/infrastructure/virtual-router-appliance/getting-started.html#getting-started)を参照してください。
+[VRA の入門ガイド](/docs/infrastructure/virtual-router-appliance?topic=virtual-router-appliance-getting-started#getting-started)を参照してください。
 
 ### IBM Cloud オブジェクト・ストレージ (COS) のプロビジョン方法
+{: #direct-link-how-to-provision-ibm-cloud-object-storage}
 
  * COS のプロビジョン方法について詳しくは、[クラウド・オブジェクト・ストレージ・ガイド](https://{DomainName}/catalog/services/cloud-object-storage)を参照してください。
 
- * プライベート・エンドポイント (前述) のいずれかを使用して、
-バケットまたはプロビジョン済み COS アカウントの任意のオブジェクトとのインターフェースを作成します。
+ * プライベート・エンドポイント (前述) のいずれかを使用して、バケットまたはプロビジョン済み COS アカウントの任意のオブジェクトとのインターフェースを作成します。
