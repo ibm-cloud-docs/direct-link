@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-02"
+
+keywords: provisioning, Exchange, order, support, ticket, diverse, virtual circuit, parameters, Terms and Conditions
+
+subcollection: direct-link
 
 ---
 
@@ -18,34 +22,36 @@ lastupdated: "2019-02-19"
 # Fornecimento do IBM Cloud Direct Link Exchange
 {: #provisioning-ibm-cloud-direct-link-exchange}
 
-Esta página informa como pedir o serviço {{site.data.keyword.cloud}} Direct Link Exchange. Se o pedido do IBM Cloud Direct Link for para o Equinix Cloud Exchange, o fornecimento do serviço será totalmente automatizado, o que significa que será possível [fazer um pedido para uma conexão do IBM Cloud Direct Link (Equinix) sem abrir um chamado de suporte IBM]/(docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix) conforme descrito em um documento relacionado.
+Esta página informa como pedir o serviço {{site.data.keyword.cloud}} Direct Link Exchange. Se o pedido do {{site.data.keyword.cloud_notm}} Direct Link for para o Equinix Cloud Exchange, o fornecimento de serviço será totalmente automatizado, o que significa que é possível [fazer um pedido para uma conexão do IBM Cloud Direct Link (Equinix) sem abrir um chamado de suporte IBM](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix) conforme descrito em um documento relacionado.
 
 Atualmente, os recursos de automação são limitados ao Equinix Cloud Exchange. Em liberações subsequentes, a automação será ativada para outros provedores.
 {:note}
 
 ## Pré-requisitos
+{: #cloud-exchange-prerequisites}
 
-Para usar o recurso de automação, suas VLANs privadas devem ser associadas a um VRF na rede privada do IBM Cloud. Se esse
+Para usar o recurso de automação, suas VLANs privadas devem ser associadas a um VRF na rede privada do {{site.data.keyword.cloud_notm}}. Se esse
 requisito não for atendido, um chamado de suporte IBM será gerado quando você fizer o pedido por meio do portal do cliente.
 
- * [Como pedir o Cloud Exchange](#how-to-order-cloud-exchange)
+ * [Como pedir o Cloud Exchange](#how-to-order-cloud-exchange-no-equinix)
  * [Como pedir o Cloud Exchange for Equinix](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix)
 
 ## Como pedir o Cloud Exchange
+{: #how-to-order-cloud-exchange-no-equinix}
 
 Para fornecer uma conexão do IBM Cloud Direct Link Exchange, conclua as etapas a seguir:
 
 **Etapa 1:**
 
 Efetue login em sua conta do cliente no [portal do
-cliente![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/).
+cliente![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://cloud.ibm.com/).
 
 **Etapa 2:**
 
 Na guia **Rede**, selecione **Direct Link-> Exchange**, para abrir uma página que
 mostra as conexões existentes do IBM Cloud Direct Link, se houver.
 
-![Etapa 2](/images/Equinix-Step2.png)
+![Etapa 2](/images/pup_exchange_list.png)
 
 **Etapa 3:**
 
@@ -53,19 +59,19 @@ Depois de clicar no botão **Pedir o Direct Link Exchange** na parte superior da
 verá o formulário de pedido no qual pode inserir os parâmetros de configuração para a conexão do IBM Cloud Direct Link
 Exchange.
 
-![Etapa 3](/images/Equinix-Step3.png)
+![Etapa 3](/images/pup_exchange_create_default.png)
 
 ** Etapa 3A: **
 
 Opcionalmente, se as portas Diversas estiverem acessíveis e você tiver provisionado anteriormente o primeiro Circuito Virtual, você verá uma tela semelhante à seguinte, mostrando duas portas, nas quais é possível selecionar seu segundo Circuito Virtual.
 
-![2-port-image](/images/exchange-2-ports-image.png)
+![2-port-image](/images/pup_exchange_create_ports.png)
 
 **Etapa 4:**
 
 No formulário de ordem, insira os parâmetros a seguir para configurar o Direct Link:
   * Insira o nome de conexão do IBM Cloud Direct Link.
-  * Na lista, selecione o local de PoP no qual você deseja estabelecer a conexão do IBM Cloud Direct Link.
+  * Na lista, selecione o local no qual você deseja estabelecer a conexão do IBM Cloud Direct Link.
   * Na lista, selecione o nome do provedor do Cloud Exchange que você preferir.
   * Selecione a Velocidade do link necessária para a conexão.
   * Selecione a opção de roteamento necessária para a conexão.
@@ -73,38 +79,23 @@ No formulário de ordem, insira os parâmetros a seguir para configurar o Direct
 
 **Etapa 5:**
 
-Conforme você seleciona ou insere esses valores, é possível ver um encargo mensal aproximado no painel do lado esquerdo.
+Conforme você seleciona ou insere esses valores, é possível ver um encargo mensal aproximado no painel do lado direito.
 
-![Etapa 4-5](/images/Equinix-Step4-5.png)
+![Etapa 4-5](/images/pup_exchange_create_prices.png)
 
 **Etapa 6.**
 
-Depois que você fornece os valores de entrada, a próxima tela de UI mostra a precificação mensal real com base nas opções selecionadas.
+Os campos de formulário são validados conforme você fornece as entradas.
+Deve-se **CONCORDAR** com os Termos e condições para que o botão "Criar" seja ativado.
 
 **Etapa 7:**
 
-Deve-se **CONCORDAR** com os Termos e condições antes de poder fazer o pedido do IBM Cloud Direct Link. Leia os Termos e condições atentamente porque eles contêm informações técnicas importantes que devem ser entendidas antes de continuar. **(Nota: se os Termos e condições não forem aceitos, um chamado de suporte IBM será gerado na realização do pedido.)** As figuras a seguir mostram as telas que você pode ver com base em sua seleção nessa etapa.
+Após concordar com os Termos e condições ao fazer o pedido, um chamado de suporte IBM será gerado após o pedido para continuar com o fornecimento do serviço. O número do chamado será exibido na UI depois da execução do pedido. 
 
-A figura a seguir mostra a tela Termos e condições:
-
-![Etapa 7](images/Equinix-Step7.png)
-
-A figura a seguir mostra a tela que poderá ser exibida se você não concordar com os Termos e condições ao fazer o pedido. A tela mostra o número de chamado gerado:
-
-![Etapa 7 acordar](/images/Equinix-Step7-NoAgree.png)
-
-A figura a seguir mostra um exemplo do chamado que está sendo aberto:
-
-![Etapa 7 chamado](/images/Equinix-Step7-NoAgree-Ticket.png)
+![Etapa NE1](/images/pup_exchange_ticket_notification.png)
 
 **Etapa 8:**
 
-Após concordar com os Termos e condições ao fazer o pedido, um chamado de suporte IBM será gerado após o pedido para continuar com o fornecimento do serviço. O número do chamado será exibido na UI depois da execução do pedido. 
-
-![Etapa NE1](/images/Non-Equinix-Step1.png)
-
-**Etapa 9:**
-
 Ao clicar no número do chamado na mensagem, é possível ver os detalhes do chamado.
 
-![Etapa NE2](/images/Non-Equinix-Step2.png)
+![Etapa NE2](/images/pup_exchange_ticket_details.png)

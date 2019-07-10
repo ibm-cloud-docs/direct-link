@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-02"
+
+keywords: Dedicated, finalize, questionnaire, Special Network Services, billing, fees, VRF, BGP, ticket, cross-connect, link speed, VPN, data, center, PoP, ECMP
+
+subcollection: direct-link
 
 ---
 
@@ -21,6 +25,7 @@ Obrigado por abrir uma solicitação para o {{site.data.keyword.cloud}} Direct L
 equipe de Engenharia de Design de Nuvem e escalado para os Serviços Especiais de Rede para implementação.
 
 ## Você reconhece e concorda com os itens a seguir?
+{: #dedicated-do-you-agree}
 
 1. Cada conexão do Direct Link requer um pedido exclusivo. Se você requerer múltiplas conexões, abra pedidos separados do Direct Link para cada conexão.
 
@@ -63,6 +68,7 @@ por chamado e aprovada com antecedência quando os engenheiros estiverem dispon�
 12. O IBM Cloud Direct Link Dedicated requer o BGP para implementar rotas para a rede remota de um cliente.  Quando o seu serviço Direct Link tiver sido implementado, o IBM Cloud anunciará todas as sub-redes privadas designadas à sua conta. O IBM Cloud não implementará filtros customizados, pré-anexação do AS-Path e preferências locais customizadas em propagandas para o peer do BGP remoto do Cliente. O IBM Cloud não implementará filtros nas propagandas recebidas para o IBM Cloud. Os clientes precisarão gerenciar adequadamente as propagandas para/do IBM Cloud por meio do roteador de borda do cliente. 
 
 ## Outras perguntas
+{: #dedicated-other-questions}
 
 * **Em qual PoP você deseja finalizar o Direct Link?**
 
@@ -82,6 +88,7 @@ por chamado e aprovada com antecedência quando os engenheiros estiverem dispon�
 
 
 ### Precificação de Roteamento Global
+{: #dedicated-global-routing-pricing}
 
 | Ingresso de Roteamento Global | Egresso de Roteamento Global |
 |---|---|

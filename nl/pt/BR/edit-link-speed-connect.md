@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-22"
+
+keywords: link speed, Exchange, connection, edge server, Terms and Conditions
+
+subcollection: direct-link
 
 ---
 
@@ -22,7 +26,7 @@ lastupdated: "2019-02-19"
 
 ## Etapa 1: 
 
-Siga as etapas 1 e 2 do [procedimento de solicitação do Cloud Exchange](/docs/infrastructure/direct-link/cloud-exchange-automation.html).
+Siga as etapas 1 e 2 do [procedimento de solicitação do Cloud Exchange](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange).
 
 ## Etapa 2:
 

@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-29"
+
+keywords: hybrid, solutions, features, benefits, port speed, cross-connect, use cases, latency, routing, options, colocation
+
+subcollection: direct-link
 
 ---
 
@@ -19,58 +23,51 @@ lastupdated: "2019-02-19"
 
 Esta seção permite procurar mais detalhes sobre os recursos-chave e os benefícios de cada uma das quatro soluções
 do {{site.data.keyword.cloud}} Direct Link.
-  * [**IBM Cloud Direct Link Exchange**](#the-ibm-cloud-direct-link-exchange-solution)
-  * [**IBM Cloud Direct Link Connect**](#the-ibm-cloud-direct-link-connect-solution)
-  * [**IBM Cloud Direct Link Dedicated**](#the-ibm-cloud-direct-link-dedicated-solution)
-  * [**IBM Cloud Direct Link Dedicated Hosting**](#the-ibm-cloud-direct-link-dedicated-hosting-solution)
+  * [**IBM Cloud Direct Link Exchange**](#direct-link-exchange-solution)
+  * [**IBM Cloud Direct Link Connect**](#direct-link-connect-solution)
+  * [**IBM Cloud Direct Link Dedicated**](#direct-link-dedicated-solution)
+  * [**IBM Cloud Direct Link Dedicated Hosting**](#direct-link-dedicated-hosting-solution)
 
 ## A solução IBM Cloud Direct Link Exchange
+{: #direct-link-exchange-solution}
 
-A solução IBM Cloud Direct Link Exchange permite que os clientes alavanquem um provedor Cloud Exchange para fornecer conectividade com os locais do {{site.data.keyword.BluSoftlayer_notm}}. Esta oferta
-geralmente fornece conectividade a um custo reduzido, já que a conectividade física do
-{{site.data.keyword.BluSoftlayer_notm}} com o provedor Cloud Exchange já está em vigor e
-compartilhada entre outros clientes.
+A solução do IBM Cloud Direct Link Exchange permite que os clientes utilizem um provedor do Cloud Exchange para entregar conectividade para os locais do {{site.data.keyword.cloud_notm}}. Essa oferta geralmente fornece conectividade a um custo reduzido, porque a conectividade física do {{site.data.keyword.cloud_notm}} para o Cloud Exchange Provider já está em vigor, compartilhada entre outros clientes.
 
 **Casos de uso comuns:** _melhor para cargas de trabalho híbridas, cargas de trabalho de
 provedor cruzado, transferências de dados grandes ou frequentes com largura da banda de alto egresso, cargas de
-trabalho privadas e administração do ambiente. Essa opção geralmente é selecionada quando o local de PoP desejado já tem o provedor IBM Cloud Direct Link Exchange desejado._
+trabalho privadas e administração do ambiente.  Essa opção geralmente é selecionada quando o local de PoP desejado já tem o provedor IBM Cloud Direct Link Exchange desejado._
 
 ![Figura 1](/images/Direct-Link-Exchange.png)
 
- * **Localização de rescisão:** ponto de presença (PoP) do {{site.data.keyword.BluSoftlayer_notm}}.
+ * **Local de terminação:** ponto de presença (PoP) do {{site.data.keyword.cloud_notm}}.
 
- * **Tempo de implementação típico:** para provedores Equinix, o tempo de implementação típico será em horas. Para outros provedores, 5 a 10 dias após o circuito atingir a troca. O tempo de implementação pode possivelmente ser de 30 a 60 dias em geral, dependendo do local e dos requisitos ao pedir um circuito de um NSP ou de uma transportadora.
+ * **Tempo de implementação típico:** para provedores Equinix, o tempo de implementação típico será em horas. Para outros provedores, 5 a 10 dias após o circuito atingir a troca. Em geral, o tempo de implementação pode possivelmente ser de 30 a 60 dias, dependendo de sua localização e requisitos ao pedir um circuito de um NSP ou de uma transportadora.
 
- * **Detalhes de conexão cruzada:** as conexões cruzadas físicas para a interconexão segura do Cloud Exchange são mantidas entre o {{site.data.keyword.BluSoftlayer_notm}} e o provedor Cloud Exchange. Os clientes solicitam um "Circuito Virtual" do provedor Cloud Exchange, que estabelece uma conectividade
-lógica com o {{site.data.keyword.BluSoftlayer_notm}}, uma vez que eles são interconectados com o
-provedor Cloud Exchange.
+ * **Detalhes de conexão cruzada:** as conexões cruzadas físicas para a interconexão segura do Cloud Exchange são mantidas entre o {{site.data.keyword.cloud_notm}} e o provedor Cloud Exchange. Os clientes solicitam um "Circuito virtual" do Cloud Exchange Provider, que estabelece conectividade lógica para o {{site.data.keyword.cloud_notm}}, uma vez que o cliente está interconectado ao Cloud Exchange Provider.
 
- * **Opções de velocidade da porta:** selecione 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps ou 1 Gbps.
+ * **Opções de velocidade da porta:** selecione 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps ou
+5 Gbps.
 
  * **Latência aproximada:** a Latência é de aproximadamente 1,5 m dentro da área local (data centers com o mesmo prefixo de três letras, como DAL, AMS, MEL). Consulte http://lg.softlayer.com/ para ver as medidas de latência de localização de PoP-to-PoP (P2P) em tempo real.
 
  * **Serviços de colocação IBM:** nenhum.
 
- * **Redundância:** para estabelecer redundância para o IBM Cloud Direct Link Exchange, a conectividade em
-mais 2 locais é necessária ou a seleção de um local com um XCR secundário disponível que possa ser utilizado pelo provedor
-Cloud Exchange.
+ * **Redundância:** o {{site.data.keyword.cloud_notm}} fornece conexões para 2 (dois) roteadores de conexão cruzada (XCRs) diversos como parte do produto. Para estabelecer uma conectividade redundante, os clientes devem configurar o BGP em cada conexão do Direct Link conforme preferirem. Exemplos incluem opções como estas: _preferem MED mais baixa_, _preferem preferência local mais alta_ ou _preferem caminhos de AS mais curtos_.
 
- * **Opções de roteamento local/global:** Roteamento local é a opção de roteamento padrão. Fornece acesso a datacenters no mesmo Mercado que o PoP do link direto (denotado, por exemplo, como DAL, AMS ou MEL). A opção Roteamento global é necessária como um complemento para conectar os recursos da IBM Cloud no mercado a outros recursos IBM Cloud em datacenters fora do mercado local. É usado para compartilhar cargas de trabalho entre recursos IBM Cloud (por exemplo, Dallas para Ashburn ou Dallas para Frankfurt).
+ * **Opções de roteamento local/global:** Roteamento local é a opção de roteamento padrão. Fornece acesso a datacenters no mesmo Mercado que o PoP do link direto (denotado, por exemplo, como DAL, AMS ou MEL). A opção Roteamento global é necessária como um complemento para conectar seus recursos do IBM Cloud a outros recursos do IBM Cloud em data centers fora do mercado local. Ela fornece uma maneira de compartilhar cargas de trabalho entre os recursos do IBM Cloud (por exemplo, Dallas para Ashburn ou Dallas para Frankfurt).
  
 ## A solução IBM Cloud Direct Link Connect
+{: #direct-link-connect-solution}
 
-**Casos de uso comuns** Semelhante à solução Direct Link Exchange. Oferece mais opções de velocidade. A solução do Direct Link Cloud Connect fornece um ponto de entrada de custo mais baixo para os clientes de rede do IBM Cloud.
+**Casos de uso comum** _A solução do IBM Cloud Direct Link Connect permite que os clientes alavanquem um provedor de serviços de rede (NSP) para entregar conectividade para os locais do {{site.data.keyword.cloud_notm}}. Esta oferta geralmente fornece conectividade a um custo reduzido, porque a conectividade física do {{site.data.keyword.cloud_notm}} para o Provedor de serviços de rede já está em vigor, compartilhada entre outros clientes._
 
 ![Figura 2](/images/Direct-Link-Connect.png)
 
-* **Localização de rescisão:** ponto de presença (PoP) do {{site.data.keyword.BluSoftlayer_notm}}.
+* **Local de terminação:** ponto de presença (PoP) do {{site.data.keyword.cloud_notm}}.
 
-* **Tempo de implementação típico:** varia de 5 a 10 dias depois que o circuito
-atinge a troca. O tempo de implementação pode possivelmente ser de 30 a 60 dias em geral, dependendo do local e dos requisitos ao pedir um circuito de um NSP ou de uma transportadora.
+* **Tempo de implementação típica:** 5 a 10 dias após o circuito atingir a troca. Em geral, o tempo de implementação pode possivelmente ser de 30 a 60 dias, dependendo de sua localização e requisitos ao pedir um circuito de um NSP ou de uma transportadora.
 
-* **Detalhes de conexão cruzada:** conexões cruzadas físicas para a interconexão segura do Direct Link Connect são mantidas entre o {{site.data.keyword.BluSoftlayer_notm}} e o provedor Connect. Os clientes solicitam um "circuito
-virtual" do provedor Cloud Connect, que estabelece uma conectividade lógica com o {{site.data.keyword.BluSoftlayer_notm}}, uma
-vez que eles são interconectados com o provedor Cloud Connect.
+* **Detalhes de conexão cruzada:** conexões cruzadas físicas para a interconexão segura do Direct Link Connect são mantidas entre o {{site.data.keyword.cloud_notm}} e o provedor Connect. Os clientes solicitam um "Circuito virtual" por meio do provedor do Cloud Connect, que estabelece conectividade lógica para o {{site.data.keyword.cloud_notm}}, uma vez que o cliente está interconectado ao provedor do Cloud Connect.
 
 * **Opções de velocidade da porta:** selecione 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps ou
 5 Gbps.
@@ -79,34 +76,32 @@ vez que eles são interconectados com o provedor Cloud Connect.
 
 * **Serviços de colocação IBM:** nenhum.
 
-* **Redundância:** para estabelecer redundância para o IBM Cloud Direct Link Connect, é necessária a conectividade em mais de dois locais, ou a seleção de um local com um XCR secundário disponível que pode ser alavancado pelo provedor IBM Cloud Connect.
+* **Redundância:** o {{site.data.keyword.cloud_notm}} fornece conexões para 2 (dois) roteadores de conexão cruzada (XCRs) diversos como parte do produto. Para estabelecer uma conectividade redundante, os clientes devem configurar o BGP em cada conexão do Direct Link conforme preferirem. Exemplos incluem opções como estas: _preferem MED mais baixa_, _preferem preferência local mais alta_ ou _preferem caminhos de AS mais curtos_.
 
-* **Opções de roteamento local/global:** Roteamento local é a opção de roteamento padrão. Fornece acesso a datacenters no mesmo Mercado que o PoP do link direto (denotado, por exemplo, como DAL, AMS ou MEL). A opção Roteamento global é necessária como um complemento para conectar os recursos da IBM Cloud no mercado a outros recursos IBM Cloud em datacenters fora do mercado local. É usado para compartilhar cargas de trabalho entre recursos IBM Cloud (por exemplo, Dallas para Ashburn ou Dallas para Frankfurt).
+* **Opções de roteamento local/global:** Roteamento local é a opção de roteamento padrão. Ela fornece acesso a data centers dentro do mesmo mercado que o PoP do Direct Link (indicado, por exemplo, como DAL, AMS ou MEL). A opção Roteamento global é necessária como um complemento para conectar seus recursos do IBM Cloud a outros recursos do IBM Cloud em data centers fora do mercado local. É usado para compartilhar cargas de trabalho entre recursos IBM Cloud (por exemplo, Dallas para Ashburn ou Dallas para Frankfurt).
 
 ## A solução IBM Cloud Direct Link Dedicated
+{: #direct-link-dedicated-solution}
 
-A solução IBM Cloud Direct Link Dedicated permite que os clientes finalizem uma conexão cruzada de fibra dedicada em modo
-único em sua própria rede privada {{site.data.keyword.BluSoftlayer_notm}}.
+A solução do IBM Cloud Direct Link Dedicated permite que os clientes finalizem uma conexão cruzada baseada em fibra de locatário único em sua própria conexão de rede privada do {{site.data.keyword.cloud_notm}}. Essa oferta pode ser usada por clientes com recursos de co-locação adjacentes aos PoPs e data centers do IBM Cloud, bem como por provedores de serviços de rede que entregam circuitos para instalações do cliente ou para outros data centers.
 
  **Casos de uso comuns:** _melhor para trabalhar com cargas de trabalho híbridas,
 cargas de trabalho entre provedores, transferências de dados grandes ou frequentes, cargas de trabalho privadas e
-administração do ambiente.  Essa opção geralmente é selecionada: (1) quando o PoP desejado não tem o provedor do IBM Cloud Direct
-Link Exchange desejado, (2) para cargas de trabalho de alto desempenho que requerem alto rendimento ou (3) para requisitos de
-conformidade que não podem ser satisfeitos pelo modelo de implementação do IBM Cloud Direct Link Exchange._
+administração do ambiente. Essa opção geralmente é selecionada: (1) quando o PoP desejado não tem o provedor de serviços Exchange ou de rede desejado, (2) para cargas de trabalho de alto desempenho que requerem alto rendimento ou (3) para requisitos de conformidade que não podem ser satisfeitos pelo modelo de implementação do IBM Cloud Direct Link Exchange ou do Connect._
+ 
+ **Caso de uso 1: instalação do cliente para o IBM Cloud.**
 
 ![Figura 3](/images/Direct-link-Dedicated.png)
 
- * **Localização de rescisão:** ponto de presença (PoP) do {{site.data.keyword.BluSoftlayer_notm}}.
+**Caso de uso 2: colocação do cliente no IBM Cloud.**
 
- * **Tempo de implementação típico:** varia de 10 a 15 dias úteis depois que o novo
-circuito atinge o POP. O tempo de implementação pode possivelmente ser de 30 a 60 dias em geral, dependendo do local e dos requisitos ao pedir um circuito de um NSP ou de uma transportadora.
+![Figura 3B](/images/dedicated-model-colo.png)
 
- * **Detalhes da conexão cruzada:** o {{site.data.keyword.BluSoftlayer_notm}}
-fornece uma Carta de Autorização (LOA) que um cliente usa para solicitar a fibra Ethernet (somente Single-Mode
-Fiber, com as óticas de 1 Gig-LX ou 10 Gig-LR) que é executada de um compartimento ou provedor do cliente para o ponto
-de rescisão CFA do
-{{site.data.keyword.BluSoftlayer_notm}}, que será ligado à infraestrutura do roteador de conexão
-cruzada (XCR). A mídia deve ser uma ótica de comprimento de onda de 1310 nm.
+ * **Local de finalização:** {{site.data.keyword.cloud_notm}} ponto de presença (PoP) ou Data center (DC).
+
+ * **Tempo de implementação típica:** 10 a 15 dias úteis após o novo circuito atingir o POP. O tempo de implementação pode possivelmente ser de 30 a 60 dias em geral, dependendo do local e dos requisitos ao pedir um circuito de um NSP ou de uma transportadora.
+
+ * **Detalhes de conexão cruzada:** {{site.data.keyword.cloud_notm}} fornece uma Carta de autorização (LOA) que um cliente usa para pedir fibra Ethernet (Fibra de modo único apenas, óptica de 1Gig-LX ou de 10Gig-LR) que é executada por meio de um compartimento do cliente ou compartimento do provedor para o ponto de terminação {{site.data.keyword.cloud_notm}} CFA, que será amarrado à infraestrutura do roteador de conexão cruzada (XCR). A mídia deve ser uma ótica de comprimento de onda de 1310 nm.
 
  * **Opções de velocidade da porta:** selecione 1 Gbps, 2 Gbps, 5 Gbps ou 10 Gbps.
 
@@ -114,17 +109,14 @@ cruzada (XCR). A mídia deve ser uma ótica de comprimento de onda de 1310 nm.
 
  * **Serviços de colocação IBM:** nenhum.
 
- * **Redundância:** para estabelecer redundância requer a conectividade do IBM Cloud Direct Link
-em mais 2 locais ou a seleção de um local com um XCR secundário disponível e uma segunda solicitação de conexão do IBM Cloud Direct
-Link.
+ * **Redundância:** o {{site.data.keyword.cloud_notm}} fornece conexões para 2 (dois) roteadores de conexão cruzada (XCRs) diversos como parte do produto. Para estabelecer uma conectividade redundante, os clientes devem configurar o BGP em cada conexão do Direct Link conforme preferirem. Exemplos incluem opções como estas: _preferem MED mais baixa_, _preferem preferência local mais alta_ ou _preferem caminhos de AS mais curtos_.
 
- * **Opções de roteamento local/global:** Roteamento local é a opção de roteamento padrão. Fornece acesso a datacenters no mesmo Mercado que o PoP do link direto (denotado, por exemplo, como DAL, AMS ou MEL). A opção Roteamento global é necessária como um complemento para conectar os recursos da IBM Cloud no mercado a outros recursos IBM Cloud em datacenters fora do mercado local. É usado para compartilhar cargas de trabalho entre recursos IBM Cloud (por exemplo, Dallas para Ashburn ou Dallas para Frankfurt).
+ * **Opções de roteamento local/global:** Roteamento local é a opção de roteamento padrão. Ela fornece acesso a data centers dentro do mesmo mercado que o PoP do Direct Link (indicado, por exemplo, como DAL, AMS ou MEL). A opção Roteamento global é necessária como um complemento para conectar seus recursos do IBM Cloud a outros recursos do IBM Cloud em data centers fora do mercado local. Ela fornece uma maneira de compartilhar cargas de trabalho entre os recursos do IBM Cloud (por exemplo, Dallas para Ashburn ou Dallas para Frankfurt).
 
 ## A solução IBM Cloud Direct Link Dedicated Hosting
+{: #direct-link-dedicated-hosting-solution}
 
-A solução IBM Cloud Direct Link Dedicated Hosting fornece conectividade similar ao IBM Cloud Direct Link Dedicated,
-mas o ponto de conexão é adjacente a um {{site.data.keyword.BluSoftlayer_notm}} Data Center, que melhora a latência para casos de
-uso de maior desempenho. O IBM Cloud oferece uma variedade de serviços de colocação customizáveis com essa solução, com precificação simples.
+A solução do IBM Cloud Direct Link Dedicated Hosting fornece conectividade semelhante ao IBM Cloud Direct Link Dedicated, mas o ponto de conexão é adjacente a um data center do {{site.data.keyword.cloud_notm}}, que melhora a latência para casos de uso de desempenho mais altos. O IBM Cloud oferece uma variedade de serviços de colocação customizáveis com essa solução, com precificação simples.
 
 **Casos de uso comuns:** _melhor para trabalhar com tecnologias de computação
 não padrão, para os requisitos de armazenamento dedicado ou para alavancar investimentos de
@@ -132,19 +124,17 @@ TI existentes._
 
 ![Figura 4](/images/Direct-Link-Dedicated-Hosting.png)
 
-* **Localização da rescisão:** {{site.data.keyword.BluSoftlayer_notm}} Data Center (DC).
+* **Localização da rescisão:** {{site.data.keyword.cloud_notm}} Data Center (DC).
 
  * **Tempo de implementação típico:** varia de 30 a 60 dias após todos os requisitos
 serem finalizados e os contratos executados.
 
- * **Detalhes da conexão cruzada:** o {{site.data.keyword.BluSoftlayer_notm}} fornece conexões de
-fibra de 1 G ou 10 G da infraestrutura do roteador de conexão cruzada (XCR) do {{site.data.keyword.BluSoftlayer_notm}}
-para o ambiente de colocação do cliente como parte da implementação.  Se os serviços de colocação não forem
+ * **Detalhes de conexão cruzada:** o {{site.data.keyword.cloud_notm}} fornece conexões de fibra 1G ou 10G da infraestrutura do roteador de conexão cruzada (XCR) do {{site.data.keyword.cloud_notm}} para o ambiente de colocação do cliente como parte da implementação. Se os serviços de colocação não forem
 solicitados (se os ambientes existentes já estiverem conectados),
-o {{site.data.keyword.BluSoftlayer_notm}}
+o {{site.data.keyword.cloud_notm}}
 fornecerá uma Carta de Autorização (LOA) que um cliente usa para solicitar a fibra Ethernet (somente Single-Mode
 Fiber, com as óticas de 1 Gig-LX ou 10 Gig-LR) que é executada do compartimento do cliente ao
-ponto de rescisão CFA do {{site.data.keyword.BluSoftlayer_notm}}, que será
+ponto de rescisão CFA do {{site.data.keyword.cloud_notm}}, que será
 ligado à infraestrutura do roteador de conexão cruzada (XCR). A mídia deve ser uma ótica de comprimento de onda de 1310 nm.
 
  * **Opções de velocidade da porta:** selecione 1 Gbps, 2 Gbps, 5 Gbps ou 10 Gbps.
@@ -153,7 +143,6 @@ ligado à infraestrutura do roteador de conexão cruzada (XCR). A mídia deve se
 
  * **Serviços de colocação IBM:** sim.
 
- * **Redundância:** o {{site.data.keyword.BluSoftlayer_notm}} fornece conexões com dois roteadores
-de conexão cruzada (XCRs) como parte do produto. Para estabelecer a conectividade redundante, os clientes devem configurar o BGP em cada conexão do Direct Link conforme eles se ajustem para obter redundância. Exemplos incluem opções como estas: _preferem MED mais baixa_, _preferem preferência local mais alta_ ou _preferem caminhos de AS mais curtos_.
+ * **Redundância:** o {{site.data.keyword.cloud_notm}} fornece conexões para 2 (dois) roteadores de conexão cruzada (XCRs) diversos como parte do produto. Para estabelecer uma conectividade redundante, os clientes devem configurar o BGP em cada conexão do Direct Link conforme preferirem. Exemplos incluem opções como estas: _preferem MED mais baixa_, _preferem preferência local mais alta_ ou _preferem caminhos de AS mais curtos_.
 
- * **Opções de roteamento local/global:** Roteamento local é a opção de roteamento padrão. Fornece acesso a datacenters no mesmo Mercado que o PoP do link direto (denotado, por exemplo, como DAL, AMS ou MEL). A opção Roteamento global é necessária como um complemento para conectar os recursos da IBM Cloud no mercado a outros recursos IBM Cloud em datacenters fora do mercado local. É usado para compartilhar cargas de trabalho entre recursos IBM Cloud (por exemplo, Dallas para Ashburn ou Dallas para Frankfurt).
+ * **Opções de roteamento local/global:** Roteamento local é a opção de roteamento padrão. Fornece acesso a datacenters no mesmo Mercado que o PoP do link direto (denotado, por exemplo, como DAL, AMS ou MEL). A opção Roteamento global é necessária como um complemento para conectar seus recursos do IBM Cloud a outros recursos do IBM Cloud em data centers fora do mercado local. É usado para compartilhar cargas de trabalho entre recursos IBM Cloud (por exemplo, Dallas para Ashburn ou Dallas para Frankfurt).

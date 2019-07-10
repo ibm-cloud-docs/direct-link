@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-01"
+
+keywords: use case, alternatives, deployments, diverse, redundant, default, multi-cloud, other clouds, schematic
+
+subcollection: direct-link
 
 ---
 
@@ -21,6 +25,7 @@ Este documento ilustra algumas alternativas que às vezes nossos clientes escolh
 implementações do {{site.data.keyword.cloud}} Direct Link.
 
 ## Implementações diferentes para o Exchange e o Connect
+{: #diverse-deployments-for-exchange-and-connect}
 
 As implementações padrão do Direct Link Connect e do Direct Link Exchange não incluem configuração redundante, embora possam
 ser implementados diferentemente em roteadores discretos.
@@ -41,6 +46,7 @@ seguir.
 **Figura 2 (acima): uma implementação redundante e diferente do IBM Cloud Direct Link Connect**
 
 ## Usando Exchange e Connect em conjunto com outras nuvens
+{: #using-exchange-and-connect-in-conjunction-with-other-clouds}
 
 Alguns dos nossos clientes desejam usar o Direct Link Exchange em conjunto com outros provedores em nuvem, como o AWS, o Azure ou
 o Google Cloud. O diagrama a seguir mostra uma visão geral de como estabelecer esse tipo de conexão com um provedor Cloud Exchange.
