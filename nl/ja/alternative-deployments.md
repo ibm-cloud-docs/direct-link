@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-01"
+
+keywords: use case, alternatives, deployments, diverse, redundant, default, multi-cloud, other clouds, schematic
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 この資料では、お客様が {{site.data.keyword.cloud}} Direct Link デプロイメントのユース・ケースとして選択するいくつかの代替方法について説明します。
 
 ## Exchange および Connect のための多様なデプロイメント
+{: #diverse-deployments-for-exchange-and-connect}
 
 Direct Link Connect および Direct Link Exchange のデフォルトのデプロイメントに冗長構成は含まれませんが、個別のルーターにさまざまにデプロイすることはできます。
 
@@ -37,6 +42,7 @@ Direct Link Connect および Direct Link Exchange のデフォルトのデプ�
 **図 2 (上の図): 冗長および多様な IBM Cloud Direct Link Connect デプロイメント**
 
 ## 他のクラウドと連携した Exchange および Connect の使用
+{: #using-exchange-and-connect-in-conjunction-with-other-clouds}
 
 一部のお客様は、AWS、Azure、Google Cloud などの他のクラウド・プロバイダーと連携した Direct Link Exchange の使用を希望されます。 次の図は、Cloud Exchange プロバイダーとの間でこのタイプの接続を確立する方法の概要を示しています。
 

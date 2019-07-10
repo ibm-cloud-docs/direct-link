@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-22"
+
+keywords: link speed, Exchange, connection, edge server, Terms and Conditions
+
+subcollection: direct-link
 
 ---
 
@@ -21,7 +25,7 @@ lastupdated: "2019-02-19"
 
 ## ステップ 1: 
 
-[Cloud Exchange 注文手順](/docs/infrastructure/direct-link/cloud-exchange-automation.html)のステップ 1 と 2 に従います。
+[Cloud Exchange 注文手順](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange)のステップ 1 と 2 に従います。
 
 ## ステップ 2:
 

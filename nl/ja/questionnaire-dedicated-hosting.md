@@ -2,7 +2,12 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-03-29"
+
+
+keywords: Dedicated, Hosting, finalize, questionnaire, Network Engineering, billing, fees, VRF, BGP, ticket, cross-connects, datacenters, data, center, backhaul, single mode, single-mode, fiber, Letter of Authorization, LOA, contract
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +25,7 @@ lastupdated: "2019-02-19"
 {{site.data.keyword.cloud}} Direct Link Dedicated Hosting をご注文いただき、ありがとうございます。 ご注文の最後に、追加情報を収集させてください。 アンケート・プロセス中、いつでもエンジニアとお話いただけます。 アンケートは、完了後、IBM のクラウド設計エンジニアリング・チームによって確認され、実装のためにネットワーク・エンジニアリングにエスカレートされます。
 
 ## 確認
+{: #dedicated-hosting-acknowledgements}
 
 1. このアンケートで概要を示している料金には、IBM Cloud ネットワーク・インフラストラクチャーへのサービス終端のコストが含まれます。 キャビネットや相互接続などのコロケーション・コストには、コロケーション契約の一部として別途概要が示されている月額料金および非反復的料金が含まれます。
 
@@ -45,7 +51,7 @@ lastupdated: "2019-02-19"
 
 12. Direct Link の以下の料金に同意することを確認してください。
  * 1 Gbps: _ロケーション・ベースの料金_ 
-* 2 Gbps: _ロケーション・ベースの料金_
-* 5 Gbps: _ロケーション・ベースの料金_
-* 10 Gbps: _ロケーション・ベースの料金_
-* オプションのグローバル・ルーティング
+ * 2 Gbps: _ロケーション・ベースの料金_
+ * 5 Gbps: _ロケーション・ベースの料金_
+ * 10 Gbps: _ロケーション・ベースの料金_
+ * オプションのグローバル・ルーティング

@@ -3,7 +3,12 @@
 copyright:
   years: 2017, 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-21"
+
+
+keywords: tutorials, solution, case study, white paper, announcement, blog, 
+
+subcollection: direct-link
 
 ---
 
@@ -16,13 +21,13 @@ lastupdated: "2019-02-19"
 {:download: .download}
 
 # 関連リソース
-{ #related-resources}
+{: #related-resources}
 
 以下のリソースは、{{site.data.keyword.cloud}} と一部のパートナーおよびお客様によって作成されています。
 
 ## IBM Cloud ソリューションのチュートリアル
 
-* [**Isolate workloads with a secure private network** ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://cloud.ibm.com/docs/tutorials/secure-network-enclosure.html#isolate-workloads-with-a-secure-private-network)
+* [**Isolate workloads with a secure private network** ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-secure-network-enclosure#isolate-workloads-with-a-secure-private-network)
 
 ## ホワイト・ペーパーと導入事例
 
@@ -57,18 +62,18 @@ lastupdated: "2019-02-19"
 
 ## IBM Web サイトのブログ
 
-* [Megaport と IBM でエンタープライズ・クラウドを強化 (Megaport and IBM Empower Enterprise Cloud)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/blogs/bluemix/2017/12/megaport-and-ibm-empower-enterprise-cloud/)、著者: Matt Simpson、Jill Tempelmeyer
+* [Megaport と IBM でエンタープライズ・クラウドを強化 (Megaport and IBM Empower Enterprise Cloud)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/blog/megaport-and-ibm-empower-enterprise-cloud)、著者: Matt Simpson、Jill Tempelmeyer
 
 * [IBM Cloud Direct Link による次世代クラウド・アプリケーションのサポート (Supporting the next generation cloud applications with IBM Cloud Direct Link) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/)、著者: Gabriel Montanti
 
-* [IBM と Colt: エンタープライズ・デジタル・トランスフォーメーションの実現 (IBM and Colt: enabling enterprise digital transformation) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/blogs/bluemix/2018/06/ibm-colt-enterprise-digital-transformation/)、著者: Paul Hertzfeldt
+* [IBM と Colt: エンタープライズ・デジタル・トランスフォーメーションの実現 (IBM and Colt: enabling enterprise digital transformation) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/blog/announcements/ibm-colt-enterprise-digital-transformation)、著者: Paul Hertzfeldt
 
-* [Digital Realty と IBM Cloud Direct Link: エンタープライズ・クラウドに向けて (Digital Realty and IBM Cloud Direct Link: Built for Enterprise Cloud) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/blogs/bluemix/2018/07/digital-realty-ibm-cloud-direct-link-expand-network/)、著者: Paul Hertzfeldt
+* [Digital Realty と IBM Cloud Direct Link: エンタープライズ・クラウドに向けて (Digital Realty and IBM Cloud Direct Link: Built for Enterprise Cloud) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-direct-link-expand-network)、著者: Paul Hertzfeldt
 
-* [PacketFabric と IBM Cloud でセキュア・エンタープライズ接続を実現 (Enable Secure Enterprise Connections) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/)、著者: Paul Hertzfeldt
+* [PacketFabric と IBM Cloud でセキュア・エンタープライズ接続を実現 (Enable Secure Enterprise Connections) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/blog/announcements/packetfabric-ibm-enable-secure-enterprise-connections)、著者: Paul Hertzfeldt
 
-* [AT TOKYO が IBM Cloud に接続してミッション・クリティカル・アプリケーションをサポート (AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/)、著者: Paul Hertzfeldt
+* [AT TOKYO が IBM Cloud に接続してミッション・クリティカル・アプリケーションをサポート (AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/blog/announcements/tokyo-connects-ibm-cloud-support-mission-critical-applications)、著者: Paul Hertzfeldt
 
-* [Interxion が IBM Cloud サービスを使用してエンタープライズ・ハイブリッドおよびマルチクラウド戦略を最適化する (Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/blogs/bluemix/2018/09/interxion-enterprise-ibm-cloud-services/)、著者: Paul Hertzfeldt
+* [Interxion が IBM Cloud サービスを使用してエンタープライズ・ハイブリッドおよびマルチクラウド戦略を最適化する (Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/blog/announcements/interxion-enterprise-ibm-cloud-services)、著者: Paul Hertzfeldt
 
-* [SES Networks と IBM によるデジタル・エクスペリエンスの向上 (Improve Digital Experiences with SES Networks and IBM) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/blogs/bluemix/2018/10/improve-digital-experiences-with-ses-networks-and-ibm/)、著者: Paul Hertzfeldt
+* [SES Networks と IBM によるデジタル・エクスペリエンスの向上 (Improve Digital Experiences with SES Networks and IBM) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/blog/improve-digital-experiences-with-ses-networks-and-ibm)、著者: Paul Hertzfeldt

@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-21"
+
+keywords: VRF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, datacenters, data, center, shared tenancy, private endpoint, Customer VRF, Private Network Question, support, ticket
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 定義によると、Virtual Routing and Forwarding (VRF) は インターネット・プロトコル (IP) ネットワーク・ルーターに含まれる技術です。 これは、内在するバックボーン・サービスとして提供されます。
 
 ## IBM Cloud の接続オプション
+{: #connectivity-options-for-ibm-cloud}
 
 **分散クラウド・リソース**とは、複数のロケーションにあるリソースです。複数のサブネットまたは VLAN 内にある場合もあります。 これらのリソースには、プライベート・ネットワークのコンテキスト内でも、相互に通信するためのルーティング機能が必要です。 本資料では、_カスタマー VRF_ とよく呼ばれる「マルチ分離」テナンシー通信オプションについて説明します。 これは、グローバル {{site.data.keyword.cloud}} バックボーンで MPLS Layer-3 VPN (RFC 4364) として実装されます。
 
@@ -32,10 +37,11 @@ lastupdated: "2019-02-19"
 本資料では、**「カスタマー VRF」**という言葉を使用して、_マルチ分離_ ネットワーク接続について説明します。
 
 ## VRF の概要 (マルチ分離テクノロジー)
+{: #vrf-overview}
 
-Virtual Routing and Forwarding (VRF) により、ルーティング・テーブルの複数のインスタンスがルーターに存在して同時に機能することができます。 Virtual Routing and Forwarding (VRF) では、それぞれのクラウド・テナントの VRF ネットワークがルーティング・テーブル内でセグメント化されます。このセグメンテーションにより、IP アドレスのオーバーラップが許されます。他のテナント VRF との相互作用や干渉は生じません。IBM Cloud は、`10.0.0.0/8` ネットワークの大部分を使用します。これはさまざまなリモート・ネットワーク (例えば、お客様のデータ・センターにデプロイされたネットワーク) とオーバーラップする可能性があります。
+Virtual Routing and Forwarding (VRF) により、ルーティング・テーブルの複数のインスタンスがルーターに存在して同時に機能することができます。 Virtual Routing and Forwarding (VRF) では、それぞれのクラウド・テナントの VRF ネットワークがルーティング・テーブル内でセグメント化されます。 このセグメンテーションにより、IP アドレスのオーバーラップが許されます。他のテナント VRF との相互作用や干渉は生じません。 IBM Cloud は、`10.0.0.0/8` ネットワークの大部分を使用します。これはさまざまなリモート・ネットワーク (例えば、お客様のデータ・センターにデプロイされたネットワーク) とオーバーラップする可能性があります。
 
-Virtual Routing and Forwarding (VRF) を使用すると、IBM Cloud テナントは、グローバル・テーブルでオーバーラップすることが通常許されないリモート IP アドレスの使用が可能になります。IBM は引き続き、次の RFC 1918 のリンク・ローカル・アドレスおよびマルチキャスト・アドレス (これらは、この VRF サービスからルーティングできません) を予約しています。
+Virtual Routing and Forwarding (VRF) を使用すると、IBM Cloud テナントは、グローバル・テーブルでオーバーラップすることが通常許されないリモート IP アドレスの使用が可能になります。 IBM は引き続き、次の RFC 1918 のリンク・ローカル・アドレスおよびマルチキャスト・アドレス (これらは、この VRF サービスからルーティングできません) を予約しています。
 
 * `10.0.0.0/14`
 * `10.200.0.0/14`
@@ -56,6 +62,7 @@ Virtual Routing and Forwarding (VRF) を使用する、バックボーン上の�
 * カスタマー VRF は、テナント間の分離を提供する接続サービスです。 そのほかにテナンシー内で必要な制御があれば、ゲートウェイ、セキュリティー・グループ、ホスト・ベースの制御などを使用して、別個にプロビジョンする必要があります。
 
 ## VRF に移行する利点
+{: #benefits-of-moving-to-vrf}
 
 **主な利点として、以下があります。**
 
@@ -74,8 +81,9 @@ Virtual Routing and Forwarding (VRF) を使用する、バックボーン上の�
 * お客様の_マルチ分離_ テナンシー内の VLAN スパンニングは使用できません。
 
 ## アカウント変換プロセスで何が起こるか
+{: #what-happens-during-the-account-conversion-process}
 
-IBM Cloud の多くのお客様が現在、IBM Cloud ネットワーク上の共有テナンシー・モデルを使用して運用しています。変換中に、テナンシーは、多くの場合は新しい Direct Link サブスクリプションを使用して、あるいは、その他の要求された方法で、カスタマー VRF を使用するように変換されます。  
+IBM Cloud の多くのお客様が現在、IBM Cloud ネットワーク上の共有テナンシー・モデルを使用して運用しています。 変換中に、テナンシーは、多くの場合は新しい Direct Link サブスクリプションを使用して、あるいは、その他の要求された方法で、カスタマー VRF を使用するように変換されます。  
 
 変換プロセスでは、VLAN とそのサブネットが ACL バックボーンから切断されてカスタマー VRF に接続される間に、ネットワークの中断が伴います。 このプロセスでは、VLAN に着信または VLAN から発信するトラフィックで短時間のパケット・ロスが発生します。 VLAN 内のパケットの流れは続行します。 FortiGate セキュリティー・アプライアンスまたは仮想ルーター・アプライアンスなどのネットワーク・ゲートウェイが含まれる場合は、そのゲートウェイに接続された VLAN 間で中断は発生しません。 サーバー自体にネットワーク障害は発生せずに、トラフィック・フローの再開時に、ほとんどのワークロードが自動的にリカバリーします。 中断の合計時間は、テナントのトポロジーの規模、つまり、ご使用のテナンシーに含まれるサブネット、VLAN、ポッドの数によって異なります。
 
@@ -86,8 +94,12 @@ IBM Cloud の多くのお客様が現在、IBM Cloud ネットワーク上の共
 ## 変換を開始する方法
 {: #how-you-can-initiate-the-conversion}
 
-IBM Cloud の既存のお客様は [IBM Cloud コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) のアカウントでサポート・チケットをオープンして、VRF へのマイグレーションをリクエストすることができます。チケットには、「プライベート・ネットワークについて (Private Network Question)」と記述して、サポート・チケットに以下のテキストを含めてください。
+IBM Cloud の既存のお客様は [IBM Cloud コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")]( https://cloud.ibm.com/unifiedsupport/cases/add) のアカウントで[サポート・チケットをオープン](https://cloud.ibm.com/unifiedsupport/cases/add)して、VRF へのマイグレーションをリクエストすることができます。チケットには、「プライベート・ネットワークについて (Private Network Question)」と記述して、サポート・チケットに以下のテキストを含めてください。
 
 「アカウント _アカウント番号を入力_ を固有の VRF に移行することをリクエストします (We are requesting that account _fill in your account number_ is moved to its own VRF)。リスクについて理解しています。変更に同意します (We understand the risks and approve the change)。 マイグレーションに向けた準備のために、この変更が行われるスケジュール時間を含めて返信してください (Please reply back with the scheduled window(s) of time where this change will be made so we can prepare for the migration)。
 
-IBM Cloud ネットワーク・エンジニアリング・チームがマイグレーションを実行します。 同意したスケジュール以外に、お客様からの情報は不要です。一般に、ご使用のアカウントの複雑さに応じて、パケット・ロスが 15 分から 30 分続く可能性があります。(アカウントでレガシー Direct Link 接続が使用されている場合は、さらに長くなることがあります。) このプロセスは高度に自動化されているため、IBM チームによる最小限の相互作用しか必要とせず、認識されることもありません。
+IBM Cloud ネットワーク・エンジニアリング・チームがマイグレーションを実行します。 同意したスケジュール以外に、お客様からの情報は不要です。 一般に、ご使用のアカウントの複雑さに応じて、パケット・ロスが 15 分から 30 分続く可能性があります。 (アカウントでレガシー Direct Link 接続が使用されている場合は、さらに長くなることがあります。) このプロセスは高度に自動化されているため、IBM チームによる最小限の相互作用しか必要とせず、認識されることもありません。
+
+チケットをオープンするとき、以下の図に示されている「テクニカル (Technical)」オプションを選択することをお勧めします。なお、前述のテキストを含めるなら、他のオプションを選択しても機能します。
+
+![イメージ](https://media.github.ibm.com/user/11495/files/4474c300-4bd9-11e9-9bc7-d6242d7997e9)
