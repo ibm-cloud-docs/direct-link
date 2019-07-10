@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-01"
+
+keywords: Connect, finalize, questionnaire, Special Network Services, billing, fees, VRF, BGP, ticket, ASN
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 感谢您开具 {{site.data.keyword.cloud}} Direct Link Connect 请求。为了最终完成您的请求，我们希望向您收集一些额外的信息。在填写调查表过程中，您可以随时与工程师交谈。完成调查表后，我们的云设计工程团队将对其进行复查，并将其上报到特殊网络服务以进行实施。
 
 ## 您是否确认并同意以下内容？
+{: #connect-do-you-agree}
 
 1. 每个 Direct Link 连接都需要唯一的订单。如果您需要多个连接，请为每个连接开具单独的 Direct Link 订单。
 
@@ -52,6 +57,7 @@ lastupdated: "2019-02-19"
 11. IBM Cloud Direct Link Connect 需要 BGP 才能实现到客户远程网络的路径。部署了 Direct Link 服务后，IBM Cloud 将宣告分配给您帐户的所有专用子网。IBM Cloud 不会对向客户的远程 BGP 同级进行的宣告实施定制过滤器、AS 路径前置和定制 local-preference。IBM Cloud 也不会对收到的向 IBM Cloud 进行的宣告实施过滤器。客户需要从自己的边缘路由器来正确管理与 IBM Cloud 之间的宣告。
 
 ## 其他问题
+{: #connect-other-questions}
 
 * **您确认并接受针对 IBM Cloud Direct Link Connect 连接对_您的位置_的定价吗？**
 
@@ -71,6 +77,7 @@ lastupdated: "2019-02-19"
 
 
 ### 全球路由定价
+{: #connect-global-routing-pricing}
 
 |全球路由输入|全球路由输出|
 |---|---|

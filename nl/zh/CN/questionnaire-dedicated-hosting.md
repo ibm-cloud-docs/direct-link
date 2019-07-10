@@ -2,7 +2,12 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-03-29"
+
+
+keywords: Dedicated, Hosting, finalize, questionnaire, Network Engineering, billing, fees, VRF, BGP, ticket, cross-connects, datacenters, data, center, backhaul, single mode, single-mode, fiber, Letter of Authorization, LOA, contract
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +25,7 @@ lastupdated: "2019-02-19"
 感谢您开具 {{site.data.keyword.cloud}} Direct Link Dedicated Hosting 请求。为了最终完成您的请求，我们希望向您收集一些额外的信息。在填写调查表过程中，您可以随时与工程师交谈。完成调查表后，我们的云设计工程团队将对其进行复查，并将其上报到网络工程部以进行实施。
 
 ## 声明
+{: #dedicated-hosting-acknowledgements}
 
 1. 本调查表中概述的费用将包含服务终止接入 IBM Cloud 基础架构的成本。并置成本（包括机柜、交叉连接等）包含每月费用和非经常性费用，这些费用会作为并置合同的一部分单独概述。
 
@@ -45,7 +51,7 @@ lastupdated: "2019-02-19"
 
 12. 请确认您是否同意以下 Direct Link 定价：
  * 1 Gbps：_基于位置定价_ 
-* 2 Gbps：_基于位置定价_
-* 5 Gbps：_基于位置定价_
-* 10 Gbps：_基于位置定价_
-* 可选全球路由
+ * 2 Gbps：_基于位置定价_
+ * 5 Gbps：_基于位置定价_
+ * 10 Gbps：_基于位置定价_
+ * 可选全球路由

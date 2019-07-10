@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-29"
+
+keywords: hybrid, solutions, features, benefits, port speed, cross-connect, use cases, latency, routing, options, colocation
+
+subcollection: direct-link
 
 ---
 
@@ -18,101 +22,111 @@ lastupdated: "2019-02-19"
 {: #about-ibm-cloud-direct-link}
 
 在本节中，您可以浏览有关四个 {{site.data.keyword.cloud}} Direct Link 解决方案各自的主要功能和好处的更多详细信息。
-  * [**IBM Cloud Direct Link Exchange**](#the-ibm-cloud-direct-link-exchange-solution)
-  * [**IBM Cloud Direct Link Connect**](#the-ibm-cloud-direct-link-connect-solution)
-  * [**IBM Cloud Direct Link Dedicated**](#the-ibm-cloud-direct-link-dedicated-solution)
-  * [**IBM Cloud Direct Link Dedicated Hosting**](#the-ibm-cloud-direct-link-dedicated-hosting-solution)
+  * [**IBM Cloud Direct Link Exchange**](#direct-link-exchange-solution)
+  * [**IBM Cloud Direct Link Connect**](#direct-link-connect-solution)
+  * [**IBM Cloud Direct Link Dedicated**](#direct-link-dedicated-solution)
+  * [**IBM Cloud Direct Link Dedicated Hosting**](#direct-link-dedicated-hosting-solution)
 
 ## IBM Cloud Direct Link Exchange 解决方案
+{: #direct-link-exchange-solution}
 
-通过 IBM Cloud Direct Link Exchange 解决方案，客户可以利用 Cloud Exchange 提供商来提供与 {{site.data.keyword.BluSoftlayer_notm}} 位置的连接。此产品通常以降低的成本提供连接，这是因为从 {{site.data.keyword.BluSoftlayer_notm}} 到云交换提供商的物理连接已经就位，在其他客户之间共享。
+通过 IBM Cloud Direct Link Exchange 解决方案，客户可以利用 Cloud Exchange 提供商来提供与 {{site.data.keyword.cloud_notm}} 位置的连接。此产品通常以更低的成本提供连接，这是因为从 {{site.data.keyword.cloud_notm}} 到 Cloud Exchange 提供商的物理连接已经就位，并在其他客户之间共享。
 
 **常见用例：**_最适合混合工作负载、跨提供商工作负载、使用高输出带宽进行大型或频繁数据传输、专用工作负载和环境管理。通常，当所需的 PoP 位置已经具有所需的 IBM Cloud Direct Link Exchange 提供商时，会选择此选项。_
 
 ![图 1](/images/Direct-Link-Exchange.png)
 
- * **终止位置：**{{site.data.keyword.BluSoftlayer_notm}} 存在点 (PoP)。
+ * **终止位置：**{{site.data.keyword.cloud_notm}} 存在点 (PoP)。
 
- * **典型部署时间：**对 Equinix 提供商而言，典型部署时间为几小时。对其他提供商而言，是电路到达交换位置后 5-10 天。总体部署时间可能是 30-60 天，具体取决于向 NSP 或承运方订购电路时您的位置和需求。
+ * **典型部署时间：**对 Equinix 提供商而言，典型部署时间为几小时。对其他提供商而言，是电路到达交换位置后 5-10 天。总体部署时间可能是 30 到 60 天，具体取决于向 NSP 或承运方订购电路时您的位置和需求。
 
- * **交叉连接详细信息：**安全 Cloud Exchange 互连的物理交叉连接在 {{site.data.keyword.BluSoftlayer_notm}} 与 Cloud Exchange 提供商之间维护。客户向云交换提供商请求“虚拟线路”，这会在他们与云交换提供商互连时，建立与 {{site.data.keyword.BluSoftlayer_notm}} 的逻辑连接。
+ * **交叉连接详细信息：**安全 Cloud Exchange 互连的物理交叉连接在 {{site.data.keyword.cloud_notm}} 与 Cloud Exchange 提供商之间维护。客户向 Cloud Exchange 提供商请求“虚拟电路”，这会在客户与 Cloud Exchange 提供商互连时，建立与 {{site.data.keyword.cloud_notm}} 的逻辑连接。
 
- * **端口速度选项：**选择 50Mbps、100Mbps、200Mbps、500Mbps 或 1Gbps。
+ * **端口速度选项：**选择 50Mbps、100Mbps、200Mbps、500Mbps、1Gbps、2Gbps 或 5Gbps。
 
  * **估计等待时间：**等待时间在当地区域（具有相同三字母前缀（如 DAL、AMS、MEL 等）的数据中心）大约为 1.5 毫秒。请参阅 http://lg.softlayer.com/ 以获取实时 PoP 到 PoP (P2P) 位置等待时间测量值。
 
- * **IBM 并置服务：**无。
+ * **IBM 主机托管服务：**无。
 
- * **冗余：**要为 IBM Cloud Direct Link Exchange 建立冗余，需要连接到 2 个以上的位置，也可以选择一个位置，而该位置要有 Cloud Exchange 提供商可利用的辅助 XCR。
+ * **冗余：**作为产品的一部分，{{site.data.keyword.cloud_notm}} 提供与两 (2) 个不同的交叉连接路由器 (XCR) 的连接。要建立冗余连接，客户必须在每个 Direct Link 连接上根据偏好配置 BGP。示例包括诸如以下内容的选项：_首选最低 MED_、_首选最高 local-preference_ 或_首选更短 AS 路径_。
 
- * **当地/全球路由选项：**缺省路由选项是当地路由选项。通过该选项，可以访问与 Direct Link PoP 具有相同市场的数据中心（以诸如 DAL、AMS 或 MEL 等表示）。需要全球路由选项作为附加组件，以将市场内的 IBM Cloud 资源与当地市场外的数据中心的其他 IBM Cloud 资源相连。该选项用于在 IBM Cloud 资源之间共享工作负载（例如达拉斯到阿什本，或达拉斯到法兰克福）。
+ * **当地/全球路由选项：**缺省路由选项是本地路由选项。通过该选项，可以访问与 Direct Link PoP 具有相同市场的数据中心（以诸如 DAL、AMS 或 MEL 等表示）。需要全球路由选项作为附加组件，以将 IBM Cloud 资源与当地市场外的数据中心的其他 IBM Cloud 资源相连。它提供了在 IBM Cloud 资源之间共享工作负载（例如达拉斯到阿什本，或达拉斯到法兰克福）的方式。
  
 ## IBM Cloud Direct Link Connect 解决方案
+{: #direct-link-connect-solution}
 
-**常见用例**类似于 Direct Link Exchange 解决方案。提供更多速度选项。Direct Link Cloud Connect 解决方案为 IBM Cloud 网络客户提供了更低成本的入口点。
+**常见用例** _通过 IBM Cloud Direct Link Connect 解决方案，客户可以利用网络服务提供商 (NSP) 来提供与 {{site.data.keyword.cloud_notm}} 位置的连接。此产品通常以更低的成本提供连接，这是因为从 {{site.data.keyword.cloud_notm}} 到网络服务提供商的物理连接已经就位，并在其他客户之间共享。_
 
 ![图 2](/images/Direct-Link-Connect.png)
 
-* **终止位置：**{{site.data.keyword.BluSoftlayer_notm}} 存在点 (PoP)。
+* **终止位置：**{{site.data.keyword.cloud_notm}} 存在点 (PoP)。
 
-* **典型部署时：**在线路到达交换后 5-10 天。总体部署时间可能是 30-60 天，具体取决于向 NSP 或承运方订购电路时您的位置和需求。
+* **典型部署时间：**电路到达交换后 5 到 10 天。总体部署时间可能是 30 到 60 天，具体取决于向 NSP 或承运方订购电路时您的位置和需求。
 
-* **交叉连接详细信息：**Direct Link Connect 互连的物理交叉连接在 {{site.data.keyword.BluSoftlayer_notm}} 与 Connect 提供商之间维护。客户向 Cloud Connect 提供商请求“虚拟电路”，这会在他们与 Cloud Connect 提供商互连时，建立与 {{site.data.keyword.BluSoftlayer_notm}} 的逻辑连接。
+* **交叉连接详细信息：**Direct Link Connect 互连的物理交叉连接在 {{site.data.keyword.cloud_notm}} 与 Connect 提供商之间维护。客户向云连接提供商请求“虚拟电路”，这会在客户与 Cloud Connect 提供商互连时，建立与 {{site.data.keyword.cloud_notm}} 的逻辑连接。
 
 * **端口速度选项：**选择 50Mbps、100Mbps、200Mbps、500Mbps、1Gbps、2Gbps 或 5Gbps。
 
 * **估计等待时间：**等待时间在当地区域（具有相同三字母前缀（如 DAL、AMS、MEL 等）的数据中心）大约为 1.5 毫秒。请参阅 http://lg.softlayer.com/ 以获取实时 PoP 到 PoP (P2P) 位置等待时间测量值。
 
-* **IBM 并置服务：**无。
+* **IBM 主机托管服务：**无。
 
-* **冗余：**要为 IBM Cloud Direct Link Connect 建立冗余，需要连接到 2 个以上的位置，也可以选择一个位置，而该位置要有 IBM Cloud Connect 提供商可利用的辅助 XCR。
+* **冗余：**作为产品的一部分，{{site.data.keyword.cloud_notm}} 提供与两 (2) 个不同的交叉连接路由器 (XCR) 的连接。要建立冗余连接，客户必须在每个 Direct Link 连接上根据偏好配置 BGP。示例包括诸如以下内容的选项：_首选最低 MED_、_首选最高 local-preference_ 或_首选更短 AS 路径_。
 
-* **当地/全球路由选项：**缺省路由选项是当地路由选项。通过该选项，可以访问与 Direct Link PoP 具有相同市场的数据中心（以诸如 DAL、AMS 或 MEL 等表示）。需要全球路由选项作为附加组件，以将市场内的 IBM Cloud 资源与当地市场外的数据中心的其他 IBM Cloud 资源相连。该选项用于在 IBM Cloud 资源之间共享工作负载（例如达拉斯到阿什本，或达拉斯到法兰克福）。
+* **当地/全球路由选项：**缺省路由选项是本地路由选项。通过该选项，可以访问与 Direct Link PoP 具有相同市场的数据中心（以诸如 DAL、AMS 或 MEL 等表示）。需要全球路由选项作为附加组件，以将 IBM Cloud 资源与当地市场外的数据中心的其他 IBM Cloud 资源相连。该选项用于在 IBM Cloud 资源之间共享工作负载（例如达拉斯到阿什本，或达拉斯到法兰克福）。
 
 ## IBM Cloud Direct Link Dedicated 解决方案
+{: #direct-link-dedicated-solution}
 
-通过 IBM Cloud Direct Link Dedicated 解决方案，客户可以终止接入自己 {{site.data.keyword.BluSoftlayer_notm}} 专用网络的专用单模式光纤交叉连接。
+通过 IBM Cloud Direct Link Dedicated 解决方案，客户可以终止接入自己 {{site.data.keyword.cloud_notm}} 专用网络连接的基于光纤的单租户交叉连接。具有 IBM Cloud PoP 和数据中心相邻的主机托管设施的客户，以及向客户场所或其他数据中心提供电路的网络服务提供商可以利用此产品。
 
- **常见用例：**_适用于混合工作负载、跨提供商工作负载、大型或频繁数据传输、专用工作负载和环境管理。通常在以下情况下会选择此选项：(1) 所需的 PoP 没有所需的 IBM Cloud Direct Link Exchange 提供商，(2) 为了获取需要高吞吐量的高性能工作负载，或者 (3) 为了实现 IBM Cloud Direct Link Exchange 实施模型无法满足的合规性需求。_
+ **常见用例：**_适用于混合工作负载、跨提供商工作负载、大型或频繁数据传输、专用工作负载和环境管理。通常在以下情况下会选择此选项：(1) 所需的 PoP 没有所需的 Exchange 或网络服务提供商时，(2) 为了获取需要高吞吐量的高性能工作负载，或者 (3) 为了实现 IBM Cloud Direct Link Exchange 或 Connect 实施模型无法满足的合规性需求。_
+ 
+ **用例 1：IBM Cloud 上的客户设施。**
 
 ![图 3](/images/Direct-link-Dedicated.png)
 
- * **终止位置：**{{site.data.keyword.BluSoftlayer_notm}} 存在点 (PoP)。
+**用例 2：IBM Cloud 上的客户主机托管。**
 
- * **典型部署时：**在新线路到达 POP 之后的 10-15 个工作日。总体部署时间可能是 30-60 天，具体取决于向 NSP 或承运方订购电路时您的位置和需求。
+![图 3B](/images/dedicated-model-colo.png)
 
- * **交叉连接详细信息：**{{site.data.keyword.BluSoftlayer_notm}} 提供授权证 (LOA)，客户使用该授权证来订购光纤以太网（仅限单模式光纤：1Gig-LX 或 10Gig-LR 光学），其运行范围从客户框架或提供商到 {{site.data.keyword.BluSoftlayer_notm}} CFA 终止点，从而系结到交叉连接路由器 (XCR) 基础架构。媒体必须为 1310nm 波长的光学媒体。
+ * **终止位置：**{{site.data.keyword.cloud_notm}} 存在点 (PoP) 或数据中心 (DC)。
+
+ * **典型部署时间：**新电路到达 POP 之后的 10 到 15 个工作日。总体部署时间可能是 30-60 天，具体取决于向 NSP 或承运方订购电路时您的位置和需求。
+
+ * **交叉连接详细信息：**{{site.data.keyword.cloud_notm}} 提供授权书 (LOA)，由客户用于订购光纤以太网（仅限单模光纤：1Gig-LX 或 10Gig-LR 光学），其运行范围从客户框架或提供商框架到 {{site.data.keyword.cloud_notm}} CFA 终止点，从而系结到交叉连接路由器 (XCR) 基础架构。媒体必须为 1310nm 波长的光学媒体。
 
  * **端口速度选项：**选择 1Gbps、2Gbps、5Gbps 或 10Gbps。
 
  * **估计等待时间：**等待时间在当地区域（具有相同三字母前缀（如 DAL、AMS、MEL 等）的数据中心）大约为 1.5 毫秒。请参阅 http://lg.softlayer.com/ 以获取实时 PoP 到 PoP (P2P) 位置等待时间测量值。
 
- * **IBM 并置服务：**无。
+ * **IBM 主机托管服务：**无。
 
- * **冗余：**要建立冗余，IBM Cloud Direct Link 需要连接到超过 2 个位置，也可以选择一个位置，而该位置要有可用的辅助 XCR 和第二个 IBM Cloud Direct Link 连接请求。
+ * **冗余：**作为产品的一部分，{{site.data.keyword.cloud_notm}} 提供与两 (2) 个不同的交叉连接路由器 (XCR) 的连接。要建立冗余连接，客户必须在每个 Direct Link 连接上根据偏好配置 BGP。示例包括诸如以下内容的选项：_首选最低 MED_、_首选最高 local-preference_ 或_首选更短 AS 路径_。
 
- * **当地/全球路由选项：**缺省路由选项是当地路由选项。通过该选项，可以访问与 Direct Link PoP 具有相同市场的数据中心（以诸如 DAL、AMS 或 MEL 等表示）。需要全球路由选项作为附加组件，以将市场内的 IBM Cloud 资源与当地市场外的数据中心的其他 IBM Cloud 资源相连。该选项用于在 IBM Cloud 资源之间共享工作负载（例如达拉斯到阿什本，或达拉斯到法兰克福）。
+ * **当地/全球路由选项：**缺省路由选项是本地路由选项。通过该选项，可以访问与 Direct Link PoP 具有相同市场的数据中心（以诸如 DAL、AMS 或 MEL 等表示）。需要全球路由选项作为附加组件，以将 IBM Cloud 资源与当地市场外的数据中心的其他 IBM Cloud 资源相连。它提供了在 IBM Cloud 资源之间共享工作负载（例如达拉斯到阿什本，或达拉斯到法兰克福）的方式。
 
 ## IBM Cloud Direct Link Dedicated Hosting 解决方案
+{: #direct-link-dedicated-hosting-solution}
 
-IBM Cloud Direct Link Dedicated Hosting 解决方案提供类似于 IBM Cloud Direct Link Dedicated 的连接，但是连接点邻近 {{site.data.keyword.BluSoftlayer_notm}} 数据中心，因此可以缩短等待时间，适合性能更高的用例。IBM Cloud 随此解决方案提供各种可定制并置服务并使用简单定价。
+IBM Cloud Direct Link Dedicated Hosting 解决方案提供类似于 IBM Cloud Direct Link Dedicated 的连接，但是连接点邻近 {{site.data.keyword.cloud_notm}} 数据中心，因此可以缩短等待时间，适合性能更高的用例。IBM Cloud 随此解决方案提供各种可定制主机托管服务并使用简单定价。
 
 **常见用例：**_适用于非标准计算技术、专用存储器需求或利用现有 IT 投资。_
 
 ![图 4](/images/Direct-Link-Dedicated-Hosting.png)
 
-* **终止位置：**{{site.data.keyword.BluSoftlayer_notm}} 数据中心 (DC)。
+* **终止位置：**{{site.data.keyword.cloud_notm}} 数据中心 (DC)。
 
  * **典型部署时：**最终完成所有需求并执行合同后的 30-60 天。
 
- * **交叉连接详细信息：**在部署过程中，{{site.data.keyword.BluSoftlayer_notm}} 从 {{site.data.keyword.BluSoftlayer_notm}} 交叉连接路由器 (XCR) 基础架构向客户的并置环境提供 1G 或 10G 光纤连接。如果未请求并置服务（如果已经连接现有环境），那么 {{site.data.keyword.BluSoftlayer_notm}} 会提供授权证 (LOA)，客户使用该授权证来订购光纤以太网（仅限单模式光纤：1Gig-LX 或 10Gig-LR 光学），其运行范围从客户框架到 {{site.data.keyword.BluSoftlayer_notm}} CFA 终止点，从而系结到交叉连接路由器 (XCR) 基础架构。媒体必须为 1310nm 波长的光学媒体。
+ * **交叉连接详细信息：**在部署过程中，{{site.data.keyword.cloud_notm}} 从 {{site.data.keyword.cloud_notm}} 交叉连接路由器 (XCR) 基础架构向客户的主机托管环境提供 1G 或 10G 光纤连接。如果未请求主机托管服务（如果已经连接现有环境），那么 {{site.data.keyword.cloud_notm}} 会提供授权书 (LOA)，由客户用于订购光纤以太网（仅限单模式光纤：1Gig-LX 或 10Gig-LR 光学），其运行范围从客户框架到 {{site.data.keyword.cloud_notm}} CFA 终止点，从而系结到交叉连接路由器 (XCR) 基础架构。媒体必须为 1310nm 波长的光学媒体。
 
  * **端口速度选项：**选择 1Gbps、2Gbps、5Gbps 或 10Gbps。
 
  * **估计等待时间：**在当地数据中心内，等待时间大约为 0.5 毫秒。
 
- * **IBM 并置服务：**是。
+ * **IBM 主机托管服务：**是。
 
- * **冗余：**作为产品的一部分，{{site.data.keyword.BluSoftlayer_notm}} 提供与两个交叉连接路由器 (XCR) 的连接。要建立冗余连接，客户必须在每个 Direct Link 连接上根据实现冗余的需要来配置 BGP。示例包括诸如以下内容的选项：_首选最低 MED_、_首选最高 local-preference_ 或_首选更短 AS 路径_。
+ * **冗余：**作为产品的一部分，{{site.data.keyword.cloud_notm}} 提供与两 (2) 个不同的交叉连接路由器 (XCR) 的连接。要建立冗余连接，客户必须在每个 Direct Link 连接上根据偏好配置 BGP。示例包括诸如以下内容的选项：_首选最低 MED_、_首选最高 local-preference_ 或_首选更短 AS 路径_。
 
- * **当地/全球路由选项：**缺省路由选项是当地路由选项。通过该选项，可以访问与 Direct Link PoP 具有相同市场的数据中心（以诸如 DAL、AMS 或 MEL 等表示）。需要全球路由选项作为附加组件，以将市场内的 IBM Cloud 资源与当地市场外的数据中心的其他 IBM Cloud 资源相连。该选项用于在 IBM Cloud 资源之间共享工作负载（例如达拉斯到阿什本，或达拉斯到法兰克福）。
+ * **当地/全球路由选项：**缺省路由选项是本地路由选项。通过该选项，可以访问与 Direct Link PoP 具有相同市场的数据中心（以诸如 DAL、AMS 或 MEL 等表示）。需要全球路由选项作为附加组件，以将 IBM Cloud 资源与当地市场外的数据中心的其他 IBM Cloud 资源相连。该选项用于在 IBM Cloud 资源之间共享工作负载（例如达拉斯到阿什本，或达拉斯到法兰克福）。
