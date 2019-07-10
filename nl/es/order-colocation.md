@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-25"
+
+keywords: colocation, connectivity, provider, Dedicated, Hosting, locations, PoP, datacenter, data, center, contract, addendum
+
+subcollection: direct-link
 
 ---
 
@@ -24,6 +28,7 @@ lastupdated: "2019-02-19"
 3. Cuando se haya completado la compilación de su caja de colocación, el proceso de interconexión entre la caja de colocación y el engranaje XCR del entorno de POD de {{site.data.keyword.BluSoftlayer_notm}} seguirá el proceso de pedido para [IBM Cloud Direct Link Dedicated](/docs/infrastructure/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-dedicated), empezando por el Paso 3.
 
 ## Ubicaciones
+{: #dedicated-hosting-locations}
 
 La tabla siguiente muestra los centros de datos de IBM Cloud que pueden aceptar clientes para el alojamiento dedicado (Dedicated Hosting):
 
@@ -37,7 +42,7 @@ La tabla siguiente muestra los centros de datos de IBM Cloud que pueden aceptar 
 | América | MON01 | Drummond  | DC | Colo-D  | 2525 Rue Canadien |
 | América | SAO01 | Sao Paulo | DC | Ascenty | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II, Jundial|
 | América | SAO02 | Sao Paulo | PoP | Equinix | Alameda Araguaia |
-| América | SJC02 | San Jose |	PoP |	Equinix |	11 Great Oaks Way |
+| América | SJC02 | San José |	PoP |	Equinix |	11 Great Oaks Way |
 | América | SJC03 | Santa Clara | DC | DLR | 1100 Space Park Drive |
 | América | TOR01 | Markham | DC | DLR | 371 Gough Rd. |
 | América | WDC02 | Ashburn | PoP | Equinix | 21715 Filigree Ct |
@@ -46,7 +51,7 @@ La tabla siguiente muestra los centros de datos de IBM Cloud que pueden aceptar 
 | APAC | MEL01 |  Melbourne  |  DC |  DLR |  72 Radnor Drive, Deer Park |
 | APAC |  SYD01 |  Sídney | DC (AZ1) | Global Switch  |  400 Harris Street aka 273 Pyrmont St. Ultimo |
 | APAC |	SYD02 |	 Sídney |	PoP |	Equinix |	47 Bourke Rd |
-| APAC |	SYD03 |	 Sídney |	PoP |	Equinix |	4 Eden Park Drive |
+| APAC |	SYD04 |	 Sídney |	DC (AZ2) |	DLR |	4 Eden Park Drive |
 | APAC |	SYD05 |	 Sídney |	DC (AZ3) |	Equinix |	200 Bourke Rd |
 | APAC |  SNG01 |  Jurong East |  DC | DLR |  29a International Business Park, S180 |
 | APAC |  SNG02 |	Ayer Rajan	| PoP |	Equinix |	20 Ayer Rajan Crescent Industrial Park |
@@ -60,7 +65,6 @@ La tabla siguiente muestra los centros de datos de IBM Cloud que pueden aceptar 
 | EMEA | LON03 | Slough |	PoP |	Equinix |	8 Buckingham Ave |
 | EMEA | LON06 | Londres |	DC (AZ3) |	Zenium |	12 Liverpool Rd |
 | EMEA | PAR02 | París | PoP | Equinix |	114 Rue Ambroise Croizat |
-
 
 
 Si necesita la dirección exacta de Tokio, póngase en contacto con el equipo de ventas o de gestión de ofertas de Direct Link.

@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-21"
+
+keywords: VRF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, datacenters, data, center, shared tenancy, private endpoint, Customer VRF, Private Network Question, support, ticket
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 Por definición, el direccionamiento y reenvío virtual (VRF) es una tecnología que se incluye en direccionadores de red de Protocolo de Internet (IP). Se entrega como un servicio troncal inherente.
 
 ## Opciones de conectividad para IBM Cloud
+{: #connectivity-options-for-ibm-cloud}
 
 Los **recursos de nube dispersos** son recursos en más de una ubicación, o incluso en más de una subred o VLAN. Estos recursos requieren que una función de direccionamiento se comunique entre sí, incluso dentro de un contexto de red privada. En este documento se describe una opción de comunicación de tenencia de "aislamiento múltiple", que a menudo se denomina _VRF de cliente_. Se implementa como una VPN de MPLS Layer-3 (RFC 4364) en toda la red troncal global de {{site.data.keyword.cloud}}.
 
@@ -32,6 +37,7 @@ En general, IBM Cloud Platform ofrece dos opciones para el direccionamiento a tr
 En este documento se utiliza el término **VRF de cliente** para describir la conectividad de red de _aislamiento múltiple_.
 
 ## Visión general de VRF (tecnología de aislamiento múltiple)
+{: #vrf-overview}
 
 El direccionamiento y reenvío virtual (VRF) permite que varias instancias de una tabla de direccionamiento exista en un direccionador y que trabajen simultáneamente. Con direccionamiento y reenvío virtual (VRF), la red VRF de cada arrendatario está segmentada dentro de su tabla de direccionamiento. Esta segmentación permite la superposición de direcciones IP, y no crea ninguna interacción o interferencia con otros VRF de arrendatario. IBM Cloud utiliza una gran parte de la red `10.0.0.0/8`, que puede solaparse con muchas redes remotas, por ejemplo con las redes desplegadas en los centros de datos de los clientes.
 
@@ -56,6 +62,7 @@ Cada arrendatario de la red troncal que utiliza Virtual Routing and Forwarding (
 * VRF de cliente es un servicio de conectividad que proporciona aislamiento entre los arrendatarios. Cualquier control adicional necesario dentro de una tenencia debe suministrarse por separado, utilizando una pasarela, grupos de seguridad o controles basados en host.
 
 ## Ventajas de pasar a VRF
+{: #benefits-of-moving-to-vrf}
 
 **Las ventajas principales son las siguientes:**
 
@@ -74,6 +81,7 @@ Cada arrendatario de la red troncal que utiliza Virtual Routing and Forwarding (
 * La VLAN que abarca el arrendamiento _de aislamiento múltiple_ no está disponible.
 
 ## Qué sucede durante el proceso de conversión de la cuenta
+{: #what-happens-during-the-account-conversion-process}
 
 Muchos clientes de IBM Cloud operan actualmente con un modelo de arrendamiento compartido en la red de IBM Cloud. Durante la conversión, la tenencia se convierte para utilizar un VRF de cliente, más habitualmente con una nueva suscripción de Direct Link, o como se requiere o se solicita de otro modo.  
 
@@ -86,8 +94,12 @@ Durante la migración, las VLAN se desconectan de la red troncal y se vuelven a 
 ## Cómo puede iniciar la conversión
 {: #how-you-can-initiate-the-conversion}
 
-Los clientes de IBM Cloud pueden abrir una incidencia de soporte a través de su cuenta de la [consola de IBM Cloud ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")]( https://control.bluemix.net/support/unifiedConsole/tickets/add), solicitando que se migren a un VRF. En la incidencia se debe indicar: "Pregunta de red privada" y se debe incluir el texto siguiente en la incidencia de soporte:
+Los clientes de IBM Cloud pueden [abrir una incidencia de soporte](https://cloud.ibm.com/unifiedsupport/cases/add) a través de su cuenta de la [consola de IBM Cloud ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")]( https://cloud.ibm.com/unifiedsupport/cases/add), solicitando que se migren a un VRF. En la incidencia se debe indicar: "Pregunta de red privada" y se debe incluir el texto siguiente en la incidencia de soporte:
 
 "Estamos solicitando que la cuenta _rellene su número de cuenta_ se mueva a su propio VRF. Comprendemos los riesgos y aprobamos el cambio. Vuelva a responder con la ventana (s) planificada (s) de tiempo en la que se realizará este cambio para que podamos prepararnos para la migración."
 
 La migración la ha completado el equipo de IBM Cloud Network Engineering. No es necesaria ninguna otra información, excepto una planificación acordada. Por lo general, la pérdida de paquetes puede durar de 15 a 30 minutos, dependiendo de la complejidad de la cuenta. (Puede ser más largo si la cuenta tiene conexiones antiguas de Direct Link). El proceso está muy automatizado y requiere una interacción mínima por parte del equipo de IBM, que debería resultar transparente.
+
+Cuando abra una incidencia, se recomienda seleccionar la opción "Técnica" tal como se muestra en la figura siguiente, aunque cualquier opción puede funcionar si incluye el texto que se ha proporcionado anteriormente:
+
+![imagen](https://media.github.ibm.com/user/11495/files/4474c300-4bd9-11e9-9bc7-d6242d7997e9)

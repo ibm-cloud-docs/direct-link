@@ -3,7 +3,12 @@
 copyright:
   years: 2017, 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-21"
+
+
+keywords: tutorials, solution, case study, white paper, announcement, blog, 
+
+subcollection: direct-link
 
 ---
 
@@ -16,13 +21,13 @@ lastupdated: "2019-02-19"
 {:download: .download}
 
 # Recursos relacionados
-{ #related-resources}
+{: #related-resources}
 
 Estos recursos han sido creados por {{site.data.keyword.cloud}} y por algunos de nuestros socios y clientes.
 
 ## Guías de aprendizaje de la solución IBM Cloud
 
-* [**Aislamiento de cargas de trabajo con una red privada segura** ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://cloud.ibm.com/docs/tutorials/secure-network-enclosure.html#isolate-workloads-with-a-secure-private-network)
+* [**Aislamiento de cargas de trabajo con una red privada segura** ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-secure-network-enclosure#isolate-workloads-with-a-secure-private-network)
 
 ## Documentos técnicos y casos prácticos
 
@@ -57,18 +62,18 @@ Estos recursos han sido creados por {{site.data.keyword.cloud}} y por algunos de
 
 ## Blogs del sitio web de IBM
 
-* [Megaport e IBM refuerzan la nube de empresa ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/blogs/bluemix/2017/12/megaport-and-ibm-empower-enterprise-cloud/), por Matt Simpson y Jill Tempelmeyer
+* [Megaport e IBM refuerzan la nube de empresa ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/blog/megaport-and-ibm-empower-enterprise-cloud), por Matt Simpson y Jill Tempelmeyer
 
 * [Soporte de aplicaciones de nube de próxima generación con IBM Cloud Direct Link ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/), por Gabriel Montanti
 
-* [IBM y Colt: la transformación digital de la empresa ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/blogs/bluemix/2018/06/ibm-colt-enterprise-digital-transformation/), por Paul Hertzfeldt
+* [IBM y Colt: la transformación digital de la empresa ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/blog/announcements/ibm-colt-enterprise-digital-transformation), por Paul Hertzfeldt
 
-* [Digital Realty e IBM Cloud Direct Link: creado para la nube de empresa ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/blogs/bluemix/2018/07/digital-realty-ibm-cloud-direct-link-expand-network/), por Paul Hertzfeldt
+* [Digital Realty e IBM Cloud Direct Link: creado para la nube de empresa ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-direct-link-expand-network), por Paul Hertzfeldt
 
-* [PacketFabric e IBM Cloud facilitar conexiones seguras de empresa ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/), por Paul Hertzfeldt
+* [PacketFabric e IBM Cloud facilitar conexiones seguras de empresa ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/blog/announcements/packetfabric-ibm-enable-secure-enterprise-connections), por Paul Hertzfeldt
 
-* [AT TOKYO se conecta a IBM Cloud para dar soporte a aplicaciones críticas ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/), por Paul Hertzfeldt
+* [AT TOKYO se conecta a IBM Cloud para dar soporte a aplicaciones críticas ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/blog/announcements/tokyo-connects-ibm-cloud-support-mission-critical-applications), por Paul Hertzfeldt
 
-* [Interxion optimiza la estrategia híbrida y multinube de empresa con IBM Cloud Services ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/blogs/bluemix/2018/09/interxion-enterprise-ibm-cloud-services/), por Paul Hertzfeldt
+* [Interxion optimiza la estrategia híbrida y multinube de empresa con IBM Cloud Services ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/blog/announcements/interxion-enterprise-ibm-cloud-services), por Paul Hertzfeldt
 
-* [mejora de la experiencia digital con SES Networks e IBM ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/blogs/bluemix/2018/10/improve-digital-experiences-with-ses-networks-and-ibm/), por Paul Hertzfeldt
+* [mejora de la experiencia digital con SES Networks e IBM ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/blog/improve-digital-experiences-with-ses-networks-and-ibm), por Paul Hertzfeldt

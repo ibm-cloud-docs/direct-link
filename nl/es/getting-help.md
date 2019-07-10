@@ -4,8 +4,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-01-18"
+lastupdated: "2019-04-12"
 
+keywords: help, support, ticket, forum, Stack Overflow
+
+subcollection: direct-link
 
 
 ---
@@ -32,7 +35,7 @@ lastupdated: "2019-01-18"
 # Obtención de ayuda y soporte 
 {: #getting-help-and-support}
 
-Si tiene problemas o preguntas al utilizar {{site.data.keyword.cloud}} Direct Link, puede obtener ayuda buscando información o mediante preguntas a través de uno de los foros listados más abajo. También puede abrir una incidencia de soporte en la [consola de IBM Cloud ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")]( https://control.bluemix.net/support/unifiedConsole/tickets/add) o en el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/).
+Si tiene problemas o preguntas al utilizar {{site.data.keyword.cloud}} Direct Link, puede obtener ayuda buscando información o mediante preguntas a través de uno de los foros listados más abajo. También puede abrir una incidencia de soporte en la [consola de IBM Cloud ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")]( https://cloud.ibm.com/unifiedsupport/cases/add) o en el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/).
 {:shortdesc}
 
 Cuando utilice los foros para formular una pregunta, etiquétela para que la vean los equipos de desarrollo de {{site.data.keyword.Bluemix_notm}}.
@@ -41,7 +44,7 @@ Cuando utilice los foros para formular una pregunta, etiquétela para que la vea
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->
 * Para formular preguntas sobre el servicio y obtener instrucciones de iniciación, utilice el foro [IBM developerWorks dW Answers ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://developer.ibm.com/answers/topics/directlink.html?smartspace=ibm-cloud){:new_window}. Incluya las etiquetas "directlink" e "ibm-cloud".
 
-Consulte [Obtención de ayuda](https://cloud.ibm.com/docs/support/index.html#getting-help) para obtener más detalles sobre el uso de los foros.
+Consulte [Obtención de ayuda](/docs/get-support?topic=get-support-using-avatar#using-avatar) para obtener más detalles sobre el uso de los foros.
 
 Para obtener información sobre cómo abrir una incidencia de soporte de IBM, o sobre los niveles de soporte y la gravedad de las incidencias, consulte [Cómo obtener soporte](/docs/get-support?topic=get-support-getting-customer-support).
 

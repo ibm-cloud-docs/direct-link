@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-02"
+
+keywords: Exchange, finalize, questionnaire, Special Network Services, billing, fees, VRF, BGP, ticket, ASN, VPN, metering, data, center, datacenter
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 Gracias para abrir una solicitud de {{site.data.keyword.cloud}} Direct Link Exchange. Para finalizar su solicitud, nos gustaría obtener alguna información adicional. Puede ponerse en contacto con un ingeniero en cualquier momento durante el proceso del cuestionario.  Una vez que haya completado el cuestionario, nuestro equipo de ingenieros de diseño de nube lo revisará y lo escalará al equipo de servicios de red especiales para su implementación.
 
 ## ¿Está de acuerdo y acepta las siguientes afirmaciones?
+{: #exchange-do-you-agree}
 
 1. Cada conexión de Direct Link requiere una solicitud exclusiva.  Si necesita varias conexiones, abra una solicitud de Direct Link para cada conexión.
 
@@ -35,7 +40,7 @@ Gracias para abrir una solicitud de {{site.data.keyword.cloud}} Direct Link Exch
 
 3. Cuando solicita el servicio Direct Link, el cliente es el responsable de los gastos asociados al acceso al PoP (punto de presencia) desde su red remota y de cualquier interconexión necesaria dentro del recurso de PoP para acceder al proveedor de intercambio. El cliente (o su proveedor) también es el responsable de adquirir de IBM Cloud el circuito virtual. Si el proveedor requiere que se instale físicamente un direccionador u otro dispositivo en el PoP, el cliente será el responsable de los costes asociados a la instalación de dicho equipo. Confirme que su proveedor de red o de PoP puede acceder a Direct Link Exchange y puede estimar los costes asociados.
 
-4. IBM Cloud no coubicará ningún equipo del cliente en los POP de nuestra red. Deberá trabajar con su proveedor para determinar si necesita o no ubicar algún equipo en la instalación en la que se encuentra el PoP de IBM Cloud.
+4. IBM Cloud no coubicará ningún equipo del cliente en los POP de nuestra red.  Deberá trabajar con su proveedor para determinar si necesita o no ubicar algún equipo en la instalación en la que se encuentra el PoP de IBM Cloud.
 
 5. El servicio Direct Link Exchange se proporciona de forma que el enlace y el direccionador de IBM Cloud en el que puede terminar constituyen puntos únicos de anomalía (SPOF). Si desea conseguir redundancia a través del servicio Direct Link Exchange, tendrá que terminar los enlaces en dos PoP de red de IBM Cloud distintos o solicitar dos conexiones en una ubicación de Direct Link Exchange con un direccionador secundario.
 
@@ -52,6 +57,7 @@ Gracias para abrir una solicitud de {{site.data.keyword.cloud}} Direct Link Exch
 11. IBM Cloud Direct Link Exchange necesita BGP para implementar rutas a la red remota de un cliente. Cuando se haya desplegado el servicio de Direct Link, IBM Cloud anunciará todas las subredes privadas asignadas a su cuenta. IBM Cloud no implementará filtros personalizados, prefijos AS-Path ni preferencias locales personalizadas en las publicaciones en el igual de BGP remoto del cliente. IBM Cloud no implementará filtros en las publicaciones recibidas en IBM Cloud. Los clientes tendrán que gestionar correctamente las publicaciones a/desde IBM Cloud desde el direccionador del extremo del cliente. 
 
 ## Otras preguntas
+{: #exchange-other-questions}
 
 * **¿Reconoce y acepta los precios de _SU UBICACIÓN_ para la conexión de IBM Cloud Direct Link Exchange?**
 
@@ -71,6 +77,7 @@ Gracias para abrir una solicitud de {{site.data.keyword.cloud}} Direct Link Exch
 
 
 ### Precios de direccionamiento global
+{: #exchange-global-routing-pricing}
 
 | Entrada de direccionamiento global | Salida de direccionamiento global |
 |---|---|
