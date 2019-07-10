@@ -1,8 +1,13 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-06-11"
+  years: 2018, 2019
+lastupdated: "2019-03-29"
+
+
+keywords: Dedicated, Hosting, finalize, questionnaire, Network Engineering, billing, fees, VRF, BGP, ticket, cross-connects, datacenters, data, center, backhaul, single mode, single-mode, fiber, Letter of Authorization, LOA, contract
+
+subcollection: direct-link
 
 ---
 
@@ -14,11 +19,13 @@ lastupdated: "2018-06-11"
 {:tip: .tip}
 {:download: .download}
 
-# IBM Cloud Direct Link Dedicated 질문지
+# IBM Cloud Direct Link Dedicated Hosting 질문지
+{: #ibm-cloud-direct-link-dedicated-hosting-questionnaire}
 
-IBM Cloud Direct Link Dedicated Hosting에 대한 요청을 열어 주셔서 감사합니다. 요청을 완료하기 위해 귀하에게 몇 가지 추가 정보를 수집하려고 합니다. 질문지 프로세스 중에 언제든지 엔지니어에게 문의할 수 있습니다. 귀하가 질문지를 완료하면 클라우드 디자인 엔지니어링 팀에서 검토하여 구현을 위해 네트워크 엔지니어링에 에스컬레이션합니다.
+{{site.data.keyword.cloud}} Direct Link Dedicated Hosting에 대한 요청을 열어 주셔서 감사합니다.  요청을 완료하기 위해 귀하에게 몇 가지 추가 정보를 수집하려고 합니다. 질문지 프로세스 중에 언제든지 엔지니어에게 문의할 수 있습니다. 귀하가 질문지 작성을 완료하면 클라우드 디자인 엔지니어링 팀에서 검토하여 구현을 위해 네트워크 엔지니어링에 에스컬레이션합니다.
 
 ## 확인사항
+{: #dedicated-hosting-acknowledgements}
 
 1. 이 질문지에 설명된 요금에는 IBM Cloud 네트워크 인프라에 대한 서비스 종료 비용이 포함됩니다. 캐비닛, 교차 연결 등을 포함한 코로케이션 비용에는 코로케이션 계약의 일부로서 별도로 설명된 월별 및 비반복적 요금이 포함됩니다.
 
@@ -44,7 +51,7 @@ IBM Cloud Direct Link Dedicated Hosting에 대한 요청을 열어 주셔서 감
 
 12. Direct Link에 대한 다음의 가격에 동의하는지 확인하십시오.
  * 1Gbps: _위치 기반 가격_ 
-* 2Gbps: _위치 기반 가격_
-* 5Gbps: _위치 기반 가격_
-* 10Gbps: _위치 기반 가격_
-* 선택적 글로벌 라우팅
+ * 2Gbps: _위치 기반 가격_
+ * 5Gbps: _위치 기반 가격_
+ * 10Gbps: _위치 기반 가격_
+ * 선택적 글로벌 라우팅

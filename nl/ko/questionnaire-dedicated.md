@@ -1,8 +1,12 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-15"
+  years: 2018, 2019
+lastupdated: "2019-04-02"
+
+keywords: Dedicated, finalize, questionnaire, Special Network Services, billing, fees, VRF, BGP, ticket, cross-connect, link speed, VPN, data, center, PoP, ECMP
+
+subcollection: direct-link
 
 ---
 
@@ -15,10 +19,12 @@ lastupdated: "2018-10-15"
 {:download: .download}
 
 # IBM Cloud Direct Link Dedicated 질문지
+{: #ibm-cloud-direct-link-dedicated-questionnaire}
 
-IBM Cloud Direct Link Dedicated에 대한 요청을 열어 주셔서 감사합니다. 요청을 완료하기 위해 귀하에게 몇 가지 추가 정보를 수집하려고 합니다. 질문지 프로세스 중에 언제든지 엔지니어에게 문의할 수 있습니다. 귀하가 질문지를 완료하면 클라우드 디자인 엔지니어링 팀에서 이를 검토한 후 구현을 위해 특수 네트워크 서비스로 에스컬레이션합니다.
+{{site.data.keyword.cloud}} Direct Link Dedicated에 대한 요청을 열어 주셔서 감사합니다.  요청을 완료하기 위해 귀하에게 몇 가지 추가 정보를 수집하려고 합니다. 질문지 프로세스 중에 언제든지 엔지니어에게 문의할 수 있습니다. 귀하가 질문지 작성을 완료하면 클라우드 디자인 엔지니어링 팀에서 이를 검토한 후 구현을 위해 특수 네트워크 서비스로 에스컬레이션합니다.
 
 ## 다음을 확인하고 이에 동의하십니까?
+{: #dedicated-do-you-agree}
 
 1. 각 Direct Link 연결에는 고유 주문이 필요합니다. 다중 연결이 필요한 경우 각 연결마다 별도의 Direct Link 주문을 여십시오.
 
@@ -29,7 +35,7 @@ IBM Cloud Direct Link Dedicated에 대한 요청을 열어 주셔서 감사합�
  * 다음이 발생한 후 청구가 중지됩니다.
    * 고객이 회선을 삭제하도록 요청합니다. **그리고** 
    * Exchange 제공자 또는 네트워크 서비스 제공자가 회선을 디프로비저닝했습니다.
-  * 자세한 정보는 클라우드 서비스 계약([ibm.biz/service-agreement](ibm.biz/service-agreement))의 **5절 - 대금**을 참조하십시오.
+  * 자세한 정보는 클라우드 서비스 계약([https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html))의 **5절 - 대금**을 참조하십시오. 예를 들어, 미국 고객은 [이 클라우드 서비스 계약 문서](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en)를 참조할 수 있습니다.
 
 3. Direct Link 서비스를 주문하면 사용자가 원격 네트워크에서 PoP(Point of Presence)에 도달하는 데 관련된 모든 비용을 부담하며 PoP 설비 내에 필요한 교차 연결을 담당합니다. 제공자가 물리적으로 PoP에 장착된 라우터 또는 기타 디바이스를 요구하는 경우 해당 장비의 코로케이션과 연관된 비용도 사용자가 부담하게 됩니다.
 
@@ -52,6 +58,7 @@ IBM Cloud Direct Link Dedicated에 대한 요청을 열어 주셔서 감사합�
 12. 고객의 원격 네트워크에 대한 라우트를 구현하려면 IBM Cloud Direct Link Dedicated에 BGP가 필요합니다. Direct Link 서비스가 배치되면 IBM Cloud에서 계정에 지정된 모든 사설 서브넷을 광고합니다.IBM Cloud는 고객의 원격 BGP 피어에 대한 광고에 사용자 정의 필터, AS 경로 추가 및 사용자 정의 로컬 환경 설정을 구현하지 않습니다.IBM Cloud는 IBM Cloud에 수신된 광고에 대한 필터를 구현하지 않습니다.고객이 고객의 에지 라우터에서 IBM Cloud를 오가는 광고를 적절히 관리해야 합니다.
 
 ## 기타 질문
+{: #dedicated-other-questions}
 
 * **Direct Link를 종료하려는 PoP는 무엇입니까?**
 
@@ -71,6 +78,7 @@ IBM Cloud Direct Link Dedicated에 대한 요청을 열어 주셔서 감사합�
 
 
 ### 글로벌 라우팅 가격
+{: #dedicated-global-routing-pricing}
 
 | 글로벌 라우팅 수신 | 글로벌 라우팅 발신 |
 |---|---|
