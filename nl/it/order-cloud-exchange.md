@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-02"
+
+keywords: order, provider, capabilities, Exchange, cross-connect, locations, PoP, datacenter, data, center, pricing
+
+subcollection: direct-link
 
 ---
 
@@ -15,7 +19,7 @@ lastupdated: "2019-02-19"
 {:download: .download}
 
 # Come ordinare IBM Cloud Direct Link Exchange
-{ # how-to-order-ibm-cloud-direct-link-exchange}
+{: # how-to-order-ibm-cloud-direct-link-exchange}
 
 1. Verifica le funzionalità del tuo provider di rete per raggiungere la connessione trasversale e il PoP appropriati nel provider Exchange associato.
 2. Utilizza [Customer Portal ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/) per aprire una richiesta {{site.data.keyword.cloud}} Direct Link Exchange e compilare le informazioni richieste. (Può essere richiesta assistenza dagli ingegneri delle vendite di IBM.) Se utilizzi il provider Equinix, puoi utilizzare l'[ordine automatizzato](/docs/infrastructure/direct-link?topic=direct-link-provisioning-ibm-cloud-direct-link-exchange-for-equinix).
@@ -25,24 +29,26 @@ lastupdated: "2019-02-19"
 6. L'assegnazione dell'IP nell'infrastruttura di rete {{site.data.keyword.BluSoftlayer_notm}} sarà completata in 3 giorni lavorativi dopo il completamento della richiesta del circuito virtuale.
  
 ## Ubicazioni
+{: #exchange-locations}
  
  La tabella mostra i data center di IBM Cloud che offrono la connettività Direct Link Exchange:
  
 | Provider Exchange	| Codice data center IBM |
 |-------------|-----------------------|
-| AT Tokyo | TOK02 |
-| Ascenty | SAO01* |
-| Cologix | MON02, TOR02 |
-| Cyrus One | DAL13 |
-| DE-CIX | FRA01 |
-| Equinix | HKG01,SNG02, SYD02, TOK01, AMS02, PAR02, CHI01, DAL03, NYC02, NYC03, SAO02, SJC02, TOR02, WDC02, LON01, FRA03 |							
-| InterXion | FRA01, STO01 |
-| KINX	| SEO02 |
-| NextDC | MEL02, SYD03* |
-| SK C&C | SEO01 |
+| AT Tokyo | Tokyo 2 |
+| Ascenty | Sao Paulo 1* |
+| Cologix | Montreal 2, Toronto 2 |
+| Cyrus One | Dallas 13 |
+| DE-CIX | Frankfurt 3 |
+| Equinix | Hong Kong 1,Singapore 2, Sydney 2, Tokyo 1, Amsterdam 2, Paris 2, Chicago 1, Dallas 3, New York City 2, New York City 3, Sao Paulo 2, San Jose 2, Toronto 2, Washington DC 2, London 1, Frankfurt 3 |							
+| InterXion | Frankfurt 1, Stockholm 1 |
+| KINX	| Seoul 2 |
+| NextDC | Melbourne 2, Sydney 3 |
+| SK C&C | Seoul 1 |
 
 * Coming Soon
 
 ## Prezzi
+{: #exchange-pricing}
 
-Per informazioni sui prezzi, fai riferimento al [documento dei prezzi](/docs/infrastructure/direct-link/pricing.html).
+Per informazioni sui prezzi, fai riferimento al [documento dei prezzi](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-exchange).

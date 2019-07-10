@@ -3,7 +3,12 @@
 copyright:
   years: 2017, 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-21"
+
+
+keywords: tutorials, solution, case study, white paper, announcement, blog, 
+
+subcollection: direct-link
 
 ---
 
@@ -16,13 +21,13 @@ lastupdated: "2019-02-19"
 {:download: .download}
 
 # Risorse correlate
-{ #related-resources}
+{: #related-resources}
 
-Queste risorse vengono create da {{site.data.keyword.cloud}} e da alcuni dei nostri partner e clienti. 
+Queste risorse vengono create da {{site.data.keyword.cloud}} e da alcuni dei nostri partner e clienti.
 
 ## Esercitazioni della soluzione IBM Cloud
 
-* [**Isolate workloads with a secure private network** ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://cloud.ibm.com/docs/tutorials/secure-network-enclosure.html#isolate-workloads-with-a-secure-private-network)
+* [**Isolate workloads with a secure private network** ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-secure-network-enclosure#isolate-workloads-with-a-secure-private-network)
 
 ## Documenti e casi di studio
 
@@ -45,7 +50,7 @@ Queste risorse vengono create da {{site.data.keyword.cloud}} e da alcuni dei nos
 
     La scelta di co-posizionare le ubicazioni hub di Digital Realty nell'APAC e negli Stati Uniti inserisce i data center di IBM Cloud proprio accanto alle distribuzioni dei data center di prim'ordine di Digital Realty con connessione con fibra ottica spenta diretta tra essi.
     
-## Annunci in primo piano 
+## Annunci in primo piano
 
 * [InterCloud Offers Dedicated Connectivity to IBM Cloud ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://info.intercloud.com/intercloud-offers-dedicated-connectivity-to-ibm-cloud)
 
@@ -57,18 +62,18 @@ Queste risorse vengono create da {{site.data.keyword.cloud}} e da alcuni dei nos
 
 ## Blog sul sito web IBM
 
-* [Megaport and IBM Empower Enterprise Cloud ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/blogs/bluemix/2017/12/megaport-and-ibm-empower-enterprise-cloud/), di Matt Simpson e Jill Tempelmeyer
+* [Megaport and IBM Empower Enterprise Cloud ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/blog/megaport-and-ibm-empower-enterprise-cloud), di Matt Simpson e Jill Tempelmeyer
 
 * [Supporting the next generation cloud applications with IBM Cloud Direct Link ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/), di Gabriel Montanti
 
-* [IBM and Colt: Enabling Enterprise Digital Transformation ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/blogs/bluemix/2018/06/ibm-colt-enterprise-digital-transformation/), di Paul Hertzfeldt
+* [IBM and Colt: Enabling Enterprise Digital Transformation ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/blog/announcements/ibm-colt-enterprise-digital-transformation), di Paul Hertzfeldt
 
-* [Digital Realty and IBM Cloud Direct Link: Built for Enterprise Cloud ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/blogs/bluemix/2018/07/digital-realty-ibm-cloud-direct-link-expand-network/), di Paul Hertzfeldt
+* [Digital Realty and IBM Cloud Direct Link: Built for Enterprise Cloud ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-direct-link-expand-network), di Paul Hertzfeldt
 
-* [PacketFabric and IBM Cloud Enable Secure Enterprise Connections ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/blogs/bluemix/2018/08/packetfabric-ibm-enable-secure-enterprise-connections/), di Paul Hertzfeldt
+* [PacketFabric and IBM Cloud Enable Secure Enterprise Connections ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/blog/announcements/packetfabric-ibm-enable-secure-enterprise-connections), di Paul Hertzfeldt
 
-* [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/blogs/bluemix/2018/08/tokyo-connects-ibm-cloud-support-mission-critical-applications/), di Paul Hertzfeldt
+* [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/blog/announcements/tokyo-connects-ibm-cloud-support-mission-critical-applications), di Paul Hertzfeldt
 
-* [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/blogs/bluemix/2018/09/interxion-enterprise-ibm-cloud-services/), di Paul Hertzfeldt
+* [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/blog/announcements/interxion-enterprise-ibm-cloud-services), di Paul Hertzfeldt
 
-* [Improve Digital Experiences with SES Networks and IBM ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/blogs/bluemix/2018/10/improve-digital-experiences-with-ses-networks-and-ibm/), di Paul Hertzfeldt
+* [Improve Digital Experiences with SES Networks and IBM ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/blog/improve-digital-experiences-with-ses-networks-and-ibm), di Paul Hertzfeldt

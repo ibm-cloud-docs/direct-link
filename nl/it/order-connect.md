@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-14"
+
+keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, datacenter, data, center, pricing, virtual circuit, Request ID, Authorization ID
+
+subcollection: direct-link
 
 ---
 
@@ -26,34 +30,41 @@ lastupdated: "2019-02-19"
  
 
 ## Ubicazioni
+{: #connect-locations}
 
 I nostri provider di IBM Cloud Direct Link Connect includono queste ubicazioni:
 
 | Partner | Mercati disponibili |
 |--------------|--------------|
-| AT&T; NetBond® for Cloud | SNG02, FRA01, LON01, DAL03, SJC02, WDC02|
-| AT&T Cloud Gateway (formerly known as RedFringe)| DAL03, WDC02 |
-| Bell Canada | MON02, TOR02 |
-| British Telecom |  LON01, FRA01, WDC02, SAO02, HKG01* |
-| CenturyLink | DAL03, SAO02, MIA01 |
-| Chief Telecomm | HKG01* |
-| Colt | AMS02, FRA01, PAR02, TOK01, SNG02, LON01*, HKG01*,  |
-| Console Connect by PCCW | HKG01, TOK01, SNG02, LON01, SJC02 |
-| Epsilon | AMS02*, DAL03*, FRA01*, HKG01*, LON01*, SNG02*, WDC02* |
-| IBM BlueFringe | DAL03, WDC02, CHE01 |
-| Intercloud | FRA01, FRA03, AMS02 |
-| Megaport |  MEL02, SYD02, SNG02, AMS02, FRA01, LON03, STO01, DAL03, SJC02, TOR02, WDC02, HKG01* |
-| PacketFabric | DAL04, SJC02, WDC02 |
-| Softbank | TOK04* |
-| SES Networks | WDC02 |
-| Tata | CHE01 |
-| Telia | STO01, OSL02* |
-| Telstra | MEL02, SYD02 |
-| Verizon | SYD02, TOK01, AMS02, FRA01, DAL03, SJC02, WDC02 |
-| Zayo | DAL03*, WDC02*, MON01* |
+| AT&T; NetBond® for Cloud | Singapore 2, Frankfurt 1, London 1, Dallas 3, San Jose 2, Washington DC 2|
+| AT&T Cloud Gateway (formerly known as RedFringe)| Dallas 3, Washington DC 2 |
+| Bell Canada | Montreal 2, Toronto 2 |
+| British Telecom |  London 1, Frankfurt 1, Washington DC 2, Sao Paulo 2, Hong Kong 1* |
+| CenturyLink | Dallas 3, Sao Paulo 2, Miami 1 |
+| Chief Telecomm | Hong Kong 1* |
+| Colt | Amsterdam 2, Frankfurt 1, Paris 2, Tokyo 1, Singapore 2, London 1*, Hong Kong 1*,  |
+| Console Connect by PCCW | Hong Kong 1, Tokyo 1, Singapore 2, London 1, San Jose 2 |
+| Digital Realty Service Exchange |	Supportato da Megaport Megaport in Amsterdam 2, Frankfurt 1, London 3, Stockholm 1, Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |
+| Epsilon | Amsterdam 2*, Dallas 3*, Frankfurt 1*, Hong Kong 1*, London 1*, Singapore 2*, Washington DC 2* |
+| IBM BlueFringe | Dallas 3, Washington DC 2, Chennai 1 |
+| Intercloud | Frankfurt 1, Frankfurt 3, Amsterdam 2 |
+| Megaport | Melbourne 2, Sydney 2, Singapore 2, Amsterdam 2, Frankfurt 1, London 3, Stockholm 1, Chicago 1, Dallas 4, San Jose 2, Montreal 2*, Toronto 2, Washington DC 2, Hong Kong 1 |
+| MWS GNPP | Amsterdam 2, Frankfurt 3, Dallas 3, Washington DC 2 |
+| Neutrona | Washington DC 2 |
+| NTT | Tokyo 5 |
+| PacketFabric | Dallas 4, San Jose 2, Washington DC 2 |
+| Softbank | Tokyo 4* |
+| SES Networks | Washington DC 2 |
+| Tata | Chennai 1, Hong Kong 1 | 
+| Telia | Stockholm 1, Oslo 2* |
+| Telstra | Melbourne 2, Sydney 2 |
+| Tokai | Tokyo 3 | 
+| Verizon | Sydney 2, Amsterdam 2, Frankfurt 1, Dallas 3, San Jose 2, Washington DC 2 |
+| Zayo | Washington DC 2, Dallas 3,  Toronto 2, Montreal 2* |
 
 * = Prossimamente
 
 ## Prezzi
+{: #connect-pricing}
 
-Per informazioni sui prezzi, fai riferimento al [documento dei prezzi](/docs/infrastructure/direct-link/pricing.html).
+Per informazioni sui prezzi, fai riferimento al [documento dei prezzi](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-connect).

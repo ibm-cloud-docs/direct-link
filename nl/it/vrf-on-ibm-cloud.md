@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-05-21"
+
+keywords: VRF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, datacenters, data, center, shared tenancy, private endpoint, Customer VRF, Private Network Question, support, ticket
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 Per definizione, VRF (virtual routing and forwarding) è una tecnologia inclusa nei router di rete IP (Internet Protocol). Viene fornito come un servizio di backbone intrinseco.
 
 ## Opzioni di connettività per IBM Cloud
+{: #connectivity-options-for-ibm-cloud}
 
 **Le risorse cloud diffuse** sono risorse in più di un'ubicazione o anche in più di una sottorete o VLAN. Queste risorse richiedono una funzione di instradamento per comunicare tra loro, anche all'interno di un contesto di rete privata. Questo documento descrive un'opzione di comunicazione tenancy "isolamento multiplo", spesso denominata come _VRF cliente_. È implementata come una VPN di livello 3 MPLS (RFC 4364) nel backbone {{site.data.keyword.cloud}} globale.
 
@@ -32,6 +37,7 @@ In generale, la piattaforma IBM Cloud offre due opzioni per l'instradamento attr
 Questo documento utilizza il termine **VRF cliente** per descrivere la connettività di rete _isolamento multiplo_ .
 
 ## Panoramica su VRF (tecnologia di isolamento multiplo)
+{: #vrf-overview}
 
 VRF (Virtual routing and forwarding) consente a più istanze di una tabella di instradamento di stare in un router e di funzionare contemporaneamente. Con VRF (virtual routing and forwarding), la rete VRF di ogni tenant cloud viene suddivisa all'interno della sua tabella di instradamento. Questa suddivisione consente sovrapposizioni dell'indirizzo IP e non crea alcuna interazione o interferenza con altri VRF tenant. IBM Cloud utilizza una grande maggioranza della rete `10.0.0.0/8`, che può sovrapporsi con molte reti remote, ad esempio le reti distribuite ai data center del cliente.
 
@@ -56,6 +62,7 @@ Ogni tenant sulla backbone che utilizza VRF (Virtual Routing and Forwarding) pu�
 * Il VRF cliente è un servizio di connettività che fornisce l'isolamento tra i tenant. Tutti i controlli aggiuntivi necessari all'interno di una tenancy devono essere forniti separatamente, utilizzando un gateway, i gruppi di sicurezza o i controlli basati sull'host.
 
 ## Vantaggi del passaggio a un VRF
+{: #benefits-of-moving-to-vrf}
 
 **I vantaggi principali includono:**
 
@@ -74,6 +81,7 @@ Ogni tenant sulla backbone che utilizza VRF (Virtual Routing and Forwarding) pu�
 * Lo spanning della VLAN all'interno della tua tenancy dell'_isolamento multiplo_ non è disponibile.
 
 ## Cosa succede durante il processo di conversione dell'account
+{: #what-happens-during-the-account-conversion-process}
 
 Molti clienti IBM Cloud stanno attualmente utilizzando un modello di tenancy condiviso sulla rete IBM Cloud. Durante la conversione, la tenancy viene convertita per utilizzare un VRF cliente, più comunemente con una nuova sottoscrizione Direct Link o come altrimenti richiesto o necessario.  
 
@@ -81,13 +89,17 @@ Il processo di conversione comporta un'interruzione della rete, mentre le VLAN e
 
 ![Il processo di conversione](/images/vrf-on-ibm-cloud.png)
 
-Durante la migrazione, le VLAN vengono scollegate dalla backbone e ricollegate al VRF cliente. La durata dell'interruzione varia, a seconda della quantità di VLAN, POD e datacenter coinvolti. Il traffico tra le VLAN viene interrotto, ma i server restano collegati alla rete. L'applicazione potrebbe essere influenzata o meno a seconda della sensibilità per la perdita di pacchetti.
+Durante la migrazione, le VLAN vengono scollegate dalla backbone e ricollegate al VRF cliente.  La durata dell'interruzione varia, a seconda della quantità di VLAN, POD e datacenter coinvolti. Il traffico tra le VLAN viene interrotto, ma i server restano collegati alla rete. L'applicazione potrebbe essere influenzata o meno a seconda della sensibilità per la perdita di pacchetti.
 
 ## Come puoi iniziare la conversione
 {: #how-you-can-initiate-the-conversion}
 
-I clienti IBM Cloud esistenti possono aprire un ticket di supporto tramite il loro account [IBM Cloud Console ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")]( https://control.bluemix.net/support/unifiedConsole/tickets/add), richiedendo la migrazione in un VRF. Il ticket deve dichiarare: “Private Network Question” e includere il seguente testo:
+I clienti IBM Cloud esistenti possono [aprire un ticket di supporto](https://cloud.ibm.com/unifiedsupport/cases/add) tramite il loro account [IBM Cloud Console ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")]( https://cloud.ibm.com/unifiedsupport/cases/add), richiedendo la migrazione a un VRF. Il ticket deve dichiarare: “Private Network Question” e includere il seguente testo:
 
 "We are requesting that account _fill in your account number_ is moved to its own VRF. We understand the risks and approve the change.  Please reply back with the scheduled window(s) of time where this change will be made so we can prepare for the migration."
 
 La migrazione viene completata dal team IBM Cloud Network Engineering. Non sono necessarie altre informazioni da parte tua, tranne una pianificazione concordata. Normalmente, la perdita di pacchetti può durare 15-30 minuti, a seconda della complessità del tuo account. (Potrebbe essere più lunga se il tuo account dispone di connessioni Direct Link legacy). Il processo è altamente automatizzato, richiede un'interazione minima con il team IBM e dovrebbe essere chiaro.
+
+Quando apri il ticket, ti consigliamo di selezionare l'opzione "Technical" come mostrato nella seguente figura, sebbene possa funzionare qualsiasi opzione se includi il testo fornito in precedenza: 
+
+![immagine](https://media.github.ibm.com/user/11495/files/4474c300-4bd9-11e9-9bc7-d6242d7997e9)

@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-01"
+
+keywords: use case, alternatives, deployments, diverse, redundant, default, multi-cloud, other clouds, schematic
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 Questo documento illustra alcune alternative che i nostri clienti a volte scelgono come casi di utilizzo per le proprie distribuzioni {{site.data.keyword.cloud}} Direct Link.
 
 ## Distribuzioni diverse per Exchange e Connect
+{: #diverse-deployments-for-exchange-and-connect}
 
 Le distribuzioni predefinite di Direct Link Connect e Direct Link Exchange non includono la configurazione ridondante, anche se possono essere distribuite in modo diverso su router separati.
 
@@ -37,6 +42,7 @@ IBM Cloud Direct Link rende anche facile stabilire distribuzioni Connect diverse
 **Figura 2 (precedente): una distribuzione IBM Cloud Direct Link Connect diversa e ridondante**
 
 ## Utilizzo di Exchange e Connect insieme ad altri cloud
+{: #using-exchange-and-connect-in-conjunction-with-other-clouds}
 
 Alcuni dei nostri clienti vogliono utilizzare Direct Link Exchange insieme ad altri provider cloud, come AWS, Azure o Google Cloud. Il seguente schema mostra una panoramica su come stabilire questo tipo di connessione con un provider Cloud Exchange.
 
