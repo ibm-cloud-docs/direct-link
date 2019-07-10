@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-02"
+
+keywords: Dedicated, finalize, questionnaire, Special Network Services, billing, fees, VRF, BGP, ticket, cross-connect, link speed, VPN, data, center, PoP, ECMP
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 Vielen Dank für die {{site.data.keyword.cloud}} Direct Link Dedicated-Anforderung, die Sie geöffnet haben! Für die Bearbeitung Ihrer Anforderung benötigen wir weitere Informationen von Ihnen. Beim Ausfüllen des Fragebogens können Sie jederzeit direkt mit einem Entwickler in Kontakt treten. Der von Ihnen ausgefüllte Fragebogen wird von unserem Entwicklungsteam für Cloud Design überprüft und zur Implementierung an Special Network Services weitergeleitet.
 
 ## Stimmen Sie den folgenden Hinweisen zu?
+{: #dedicated-do-you-agree}
 
 1. Für jede Direct Link-Verbindung ist eine dedizierte Bestellung erforderlich. Wenn Sie mehrere Verbindungen benötigen, öffnen Sie für jede Verbindung eine separate Direct Link-Bestellung.
 
@@ -30,7 +35,7 @@ Vielen Dank für die {{site.data.keyword.cloud}} Direct Link Dedicated-Anforderu
  * Wann endet die Abrechnung?
    * Nachdem ein Kunde das Löschen einer Verbindung angefordert **und** 
    * der Exchange-Provider oder Netzserviceprovider die Bereitstellung der Verbindung zurückgenommen hat.
-  * Weitere Informationen finden Sie in **Abschnitt 5 - Gebühren** in der Cloud-Services-Vereinbarung unter dem folgenden Link: [https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). Für Kunden in den Vereinigten Staaten wird beispielsweise [dieses Vertragsdokument für Cloud-Services](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en) angezeigt. 
+  * Weitere Informationen finden Sie in **Abschnitt 5 - Gebühren** in der Cloud-Services-Vereinbarung unter dem folgenden Link: [https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). Für Kunden in den Vereinigten Staaten wird beispielsweise [dieses Vertragsdokument für Cloud-Services](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en) angezeigt.
 
 3. Nach der Bestellung des Direct Link-Service sind Sie für alle Gebühren verantwortlich, die für das Erreichen des Bereitstellungspunkts über Ihr fernes Netz anfallen, sowie für alle erforderlichen Querverbindungen innerhalb der Einrichtung am Bereitstellungspunkt. Wenn Ihr Provider die physische Präsenz eines Routers oder eines anderen Geräts am Bereitstellungspunkt erfordert, sind Sie außerdem für die Kosten der Zusammenstellung dieser Ausrüstung verantwortlich.
 
@@ -53,6 +58,7 @@ Vielen Dank für die {{site.data.keyword.cloud}} Direct Link Dedicated-Anforderu
 12. IBM Cloud Direct Link Dedicated erfordert BGP zum Implementieren der Routen zum fernen Netz eines Kunden. Nach dem Implementieren Ihres Direct Link-Service macht IBM Cloud alle privaten Teilnetze zugänglich, die Ihrem Konto zugeordnet sind.IBM Cloud implementiert keine angepassten Filter als Pfadpräfix und als angepasste lokale Vorgaben für Mitteilungen an den fernen BGP-Peer des Kunden. IBM Cloud implementiert keine Filter für die von IBM Cloud empfangenen Mitteilungen. Die Kunden müssen die Mitteilungen für/von IBM Cloud über den Edge-Router des Kunden ordnungsgemäß verwalten. 
 
 ## Weitere Fragen
+{: #dedicated-other-questions}
 
 * **An welchem Bereitstellungspunkt soll die Direct Link-Verbindung enden?**
 
@@ -72,6 +78,7 @@ Vielen Dank für die {{site.data.keyword.cloud}} Direct Link Dedicated-Anforderu
 
 
 ### Preise für Global Routing
+{: #dedicated-global-routing-pricing}
 
 | Global Routing (eingehend) | Global Routing (ausgehend) |
 |---|---|

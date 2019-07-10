@@ -1,17 +1,19 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="direct-link" audience="service" arm="4032931" arm="4032949" arm="3662735" arm="43662737" href="/docs/infrastructure/direct-link/getting-started.html" path="infrastructure/direct-link"}
+{: .toc subcollection="direct-link" category="network,databases" audience="service" arm="4032931" arm="4032949" arm="3662735" arm="43662737" href="/docs/infrastructure/direct-link/getting-started.html" path="infrastructure/direct-link"}
 Direct Link
 
     {: .navgroup id="learn"}
     getting-started.md
     overview.md
+    direct-link-july-policy-change.md
     about.md
+    direct-link-video.md
     whats-new.md
     alternative-deployments.md
-    vrf-on-ibm-cloud.md
     diversity-models.md
+    layer-2-layer-3.md
     connect-details.md
     pricing.md
     pricing-comparison.md
@@ -38,12 +40,18 @@ Direct Link
     direct-link-to-cos.md
     edit-link-speed-connect.md
     
+    {: .topicgroup}
+    Verwendung des traditionellen Kundenportals
+        cloud-exchange-connect-sl.md
+        cloud-exchange-automation-sl.md
+        cloud-exchange-automation-equinix-sl.md
+    
       {: .topicgroup}
       Fragebögen für die Bestellung
          questionnaire-exchange.md
          questionnaire-connect.md
          questionnaire-dedicated.md
-         questionnaire-dedicated-hosting.md
+         questionnaire-dedicated-hosting.md 
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -57,3 +65,5 @@ Direct Link
     faqs.md
     getting-help.md
     {: .navgroup-end}
+    
+    

@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-19"
+lastupdated: "2019-04-01"
+
+keywords: Connect, finalize, questionnaire, Special Network Services, billing, fees, VRF, BGP, ticket, ASN
+
+subcollection: direct-link
 
 ---
 
@@ -20,6 +24,7 @@ lastupdated: "2019-02-19"
 Vielen Dank für die {{site.data.keyword.cloud}} Direct Link Connect-Anforderung, die Sie geöffnet haben! Für die Bearbeitung Ihrer Anforderung benötigen wir weitere Informationen von Ihnen. Beim Ausfüllen des Fragebogens können Sie jederzeit direkt mit einem Entwickler in Kontakt treten. Der von Ihnen ausgefüllte Fragebogen wird von unserem Entwicklungsteam für Cloud Design überprüft und zur Implementierung an Special Network Services weitergeleitet.
 
 ## Stimmen Sie den folgenden Hinweisen zu?
+{: #connect-do-you-agree}
 
 1. Für jede Direct Link-Verbindung ist eine dedizierte Bestellung erforderlich. Wenn Sie mehrere Verbindungen benötigen, öffnen Sie für jede Verbindung eine separate Direct Link-Bestellung.
 
@@ -30,7 +35,7 @@ Vielen Dank für die {{site.data.keyword.cloud}} Direct Link Connect-Anforderung
  * Wann endet die Abrechnung?
    * Nachdem ein Kunde das Löschen einer Verbindung angefordert **und**
    * der Connect-Provider oder Netzserviceprovider die Bereitstellung der Verbindung zurückgenommen hat.
-  * Weitere Informationen finden Sie in **Abschnitt 5 - Gebühren** in der Cloud-Services-Vereinbarung unter dem folgenden Link: [https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). Für Kunden in den Vereinigten Staaten wird beispielsweise [dieses Vertragsdokument für Cloud-Services](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en) angezeigt. 
+  * Weitere Informationen finden Sie in **Abschnitt 5 - Gebühren** in der Cloud-Services-Vereinbarung unter dem folgenden Link: [https://www.ibm.com/support/customer/zz/en/selectcountrylang.html](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). Für Kunden in den Vereinigten Staaten wird beispielsweise [dieses Vertragsdokument für Cloud-Services](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en) angezeigt.
   * Alternativ kann die Rechnungsstellung für einen Kunden beendet werden, nachdem der Kunde davon in Kenntnis gesetzt wurde, dass der bestehende Direct Link-Service abgeschaltet wird und danach nicht mehr betriebsbereit ist.
 
 3. Nach der Bestellung des Direct Link-Service ist der Kunde für alle Gebühren verantwortlich, die für das Erreichen des Bereitstellungspunkts über das ferne Netz des Kunden anfallen, sowie für alle erforderlichen Querverbindungen zum Erreichen des Exchange-Providers. Sie (oder Ihr Provider) sind außerdem verantwortlich für den Erwerb der virtuellen Verbindung zu IBM Cloud. Wenn Ihr Provider die physische Präsenz eines Routers oder eines anderen Geräts am Bereitstellungspunkt erfordert, sind Sie außerdem für die Kosten der Zusammenstellung dieser Ausrüstung verantwortlich. Bestätigen Sie bitte, dass Ihr Netzprovider oder der Provider des Bereitstellungspunkts die Direct Link Connect-Verbindung erreichen und die zugehörigen Kosten berechnen kann.
@@ -52,6 +57,7 @@ Vielen Dank für die {{site.data.keyword.cloud}} Direct Link Connect-Anforderung
 11. IBM Cloud Direct Link Connect erfordert BGP zum Implementieren der Routen zum fernen Netz eines Kunden.Nach dem Implementieren Ihres Direct Link-Service macht IBM Cloud alle privaten Teilnetze zugänglich, die Ihrem Konto zugeordnet sind.IBM Cloud implementiert keine angepassten Filter als Pfadpräfix und als lokale Vorgaben für Mitteilungen an den fernen BGP-Peer des Kunden. IBM Cloud implementiert keine Filter für die von IBM Cloud empfangenen Mitteilungen. Die Kunden müssen die Mitteilungen für/von IBM Cloud über den Edge-Router des Kunden ordnungsgemäß verwalten. 
 
 ## Weitere Fragen
+{: #connect-other-questions}
 
 * **Stimmen Sie der Preisgestaltung an _IHREM STANDORT_ für die IBM Cloud Direct Link Connect-Verbindung zu?**
 
@@ -71,6 +77,7 @@ Vielen Dank für die {{site.data.keyword.cloud}} Direct Link Connect-Anforderung
 
 
 ### Preise für Global Routing
+{: #connect-global-routing-pricing}
 
 | Global Routing (eingehend) | Global Routing (ausgehend) |
 |---|---|
