@@ -41,7 +41,6 @@ The table below shows which IBM Cloud datacenters are able to accept customers f
 | Americas | MON01 | Drummond  | DC | Colo-D  | 2525 Rue Canadien |
 | Americas | SAO01 | Sao Paulo | DC | Ascenty | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II, Jundial|
 | Americas | SJC03 | Santa Clara | DC | DLR | 1100 Space Park Drive |
-| Americas | TOR01 | Markham | DC | DLR | 371 Gough Rd. |
 | Americas | WDC04 | Ashburn | DC (AZ1) | DLR | 44060 Digital Loudoun Plaza (Bldg K) |
 |  |  |  |  |  |  |
 | APAC | MEL01 |  Melbourne  |  DC |  DLR |  72 Radnor Drive, Deer Park |
