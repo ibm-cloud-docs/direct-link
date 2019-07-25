@@ -72,7 +72,7 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 |**IBM Location Code** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
 |-----------------|-----------------|--------------------|--------------------|
 | **APAC** | | | |
-| Chennai 1 | Tata | PH-01 | 226, Red Hills Road,Kallikuppam, Ambattur |
+| Chennai 1 | Tata | PH-01 | 226, Red Hills Road, Kallikuppam, Ambattur |
 | Hong Kong 1 | Mega-I (via Telstra) | Mega-I (iAdvantage Hong Kong) |29F, 399 Chai Wan Road |
 | Hong Kong 2 | Digital Realty | HKG10 |33 Chun Choi Street, Yan Hing Industrial Building |
 | Melbourne 1 | Digital Realty | MEL11 | 72 Radnor Drive, Deer Park |
