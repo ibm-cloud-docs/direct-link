@@ -52,7 +52,7 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | Intercloud | Frankfurt 1, Frankfurt 3, Amsterdam 2 |
 | Megaport | Melbourne 2, Sydney 2, Singapore 2, Amsterdam 2, Frankfurt 1, London 3, Stockholm 1, Chicago 1, Dallas 4, San Jose 2,  Toronto 2, Washington DC 2, Hong Kong 1 |
 | MWS GNPP | Amsterdam 2, Frankfurt 3, Dallas 3, Washington DC 2 |
-| Neutrona | Washington DC 2 |
+| Neutrona | Washington DC 2, Dallas 3 |
 | NTT | Tokyo 5 |
 | PacketFabric | Dallas 4, San Jose 2, Washington DC 2 |
 | Softbank | Tokyo 4 |
