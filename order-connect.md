@@ -41,7 +41,7 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | Bell Canada | Montreal 2, Toronto 2 |
 | British Telecom |  London 1, Frankfurt 1, Washington DC 2, Sao Paulo 2 |
 | CenturyLink IP VPN | Dallas 3, Sao Paulo 2, Miami 1 |
-| CenturyLink Dynamic Connections | Toronto 2, San Jose 2  |
+| CenturyLink Dynamic Connections | Toronto 2, San Jose 2, Washington DC 2  |
 | Chief Telecomm | Hong Kong 1* |
 | Colt | Amsterdam 2, Frankfurt 1, Paris 2, Tokyo 1, Singapore 2, London 1  |
 | Console Connect by PCCW | Hong Kong 1, Tokyo 1, Singapore 2, London 1, San Jose 2 |
@@ -60,7 +60,7 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | Tata | Chennai 1, Hong Kong 1 | 
 | Telia | Stockholm 1 |
 | Telstra | Melbourne 2, Sydney 2 |
-| Tokai | Tokyo 3 | 
+| Tokai | Tokyo 3, Osaka 1 | 
 | Verizon | Sydney 2, Amsterdam 2, Frankfurt 1, Dallas 3, San Jose 2, Washington DC 2 |
 | Zayo | Washington DC 2, Dallas 3,  Toronto 2 |
 
