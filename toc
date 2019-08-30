@@ -16,43 +16,49 @@ Direct Link
     diversity-models.md
     layer-2-layer-3.md
     connect-details.md
+
+    {: .topicgroup}
+        Tutorials
+            /tutorials?topic=solution-tutorials-secure-network-enclosure
+            /tutorials?topic=solution-tutorials-byoip
+
     pricing.md
     pricing-comparison.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     how-to-order.md
-    
+
       {: .topicgroup}
       Overview Steps and Available Locations
          order-cloud-exchange.md
          order-connect.md
          order-nsp.md
          order-colocation.md
-         
+
     {: .topicgroup}
     Provisioning Steps for Exchange and Connect
         cloud-exchange-automation.md
         cloud-exchange-automation-equinix.md
         cloud-exchange-connect.md
         order-without-vrf.md
-    
+
     subnet-configuration.md
     direct-link-to-cos.md
     edit-link-speed-connect.md
-    
+
     {: .topicgroup}
     Using the Legacy Customer Portal
         cloud-exchange-connect-sl.md
         cloud-exchange-automation-sl.md
         cloud-exchange-automation-equinix-sl.md
-    
+
       {: .topicgroup}
       Questionaires for Ordering
          questionnaire-exchange.md
          questionnaire-connect.md
          questionnaire-dedicated.md
-         questionnaire-dedicated-hosting.md 
+         questionnaire-dedicated-hosting.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -61,11 +67,9 @@ Direct Link
     vrf-on-ibm-cloud.md
     vrf-conversion-dl.md
     {: .navgroup-end}
-    
+
     {: .navgroup id="help"}
     known-limitations.md
     faqs.md
     getting-help.md
     {: .navgroup-end}
-    
-    
