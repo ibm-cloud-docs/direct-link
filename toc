@@ -18,9 +18,9 @@ Direct Link
     connect-details.md
 
     {: .topicgroup}
-        Tutorials
-            /tutorials?topic=solution-tutorials-secure-network-enclosure
-            /tutorials?topic=solution-tutorials-byoip
+    Tutorials
+        /tutorials/solution-tutorials-secure-network-enclosure
+        /tutorials/solution-tutorials-byoip
 
     pricing.md
     pricing-comparison.md
