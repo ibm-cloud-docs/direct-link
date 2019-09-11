@@ -39,20 +39,20 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | AT&T; NetBond® for Cloud | Frankfurt 1, London 1, Dallas 3, San Jose 2, Washington DC 2|
 | AT&T Cloud Gateway (formerly known as RedFringe)| Dallas 3, Washington DC 2 |
 | Bell Canada | Montreal 2, Toronto 2 |
-| British Telecom |  London 1, Frankfurt 1, Washington DC 2, Sao Paulo 2 |
-| CenturyLink IP VPN | Dallas 3, Sao Paulo 2, Miami 1 |
-| CenturyLink Dynamic Connections | Toronto 2, San Jose 2, Washington DC 2  |
+| British Telecom |   Frankfurt 1, London 1, Sao Paulo 2, Washington DC 2|
+| CenturyLink IP VPN | Dallas 3, Miami 1, Sao Paulo 2 |
+| CenturyLink Dynamic Connections |  San Jose 2, Toronto 2, Washington DC 2 |
 | Chief Telecomm | Hong Kong 1* |
-| Colt | Amsterdam 2, Frankfurt 1, Paris 2, Tokyo 1, Singapore 2, London 1  |
-| Console Connect by PCCW | Hong Kong 1, Tokyo 1, Singapore 2, London 1, San Jose 2 |
+| Colt | Tokyo 1, Singapore 2, Amsterdam 2, Frankfurt 1,  London 1, Paris 2 |
+| Console Connect by PCCW | Hong Kong 1, Singapore 2, Tokyo 1, London 1, San Jose 2 |
 | Digital Realty Service Exchange |	Supported by Megaport in Amsterdam 2, Frankfurt 1, London 3, Stockholm 1, Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |
 | Epsilon | Frankfurt 1 |
 | EU Networks | Frankfurt 1 |
-| IBM BlueFringe | Dallas 3, Washington DC 2, Chennai 1 |
-| Intercloud | Frankfurt 1, Frankfurt 3, Amsterdam 2 |
-| Megaport | Melbourne 2, Sydney 2, Singapore 2, Amsterdam 2, Frankfurt 1, London 3, Stockholm 1, Chicago 1, Dallas 4, San Jose 2,  Toronto 2, Washington DC 2, Hong Kong 1 |
+| IBM BlueFringe | Chennai 1 , Dallas 3, Washington DC 2 |
+| Intercloud | Amsterdam 2, Frankfurt 1, Frankfurt 3 |
+| Megaport | **APAC:** Hong Kong 1, Melbourne 2, Singapore 2, Sydney 2, **EU:** Amsterdam 2, Frankfurt 1, London 3, Stockholm 1, **Americas:** Chicago 1, Dallas 4, San Jose 2,  Toronto 2, Washington DC 2 |
 | MWS GNPP | Amsterdam 2, Frankfurt 3, Dallas 3, Washington DC 2 |
-| Neutrona | Washington DC 2, Dallas 3, Sao Paulo 2 |
+| Neutrona |  Dallas 3, Sao Paulo 2, Washington DC 2 |
 | NTT | Tokyo 5 |
 | PacketFabric | Dallas 4, San Jose 2, Washington DC 2 |
 | Softbank | Tokyo 4 |
@@ -62,7 +62,7 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | Telstra | Melbourne 2, Sydney 2 |
 | Tokai | Tokyo 3, Osaka 1 | 
 | Verizon | Sydney 2, Amsterdam 2, Frankfurt 1, Dallas 3, San Jose 2, Washington DC 2 |
-| Zayo | Washington DC 2, Dallas 3,  Toronto 2 |
+| Zayo | Dallas 3,  Toronto 2, Washington DC 2 |
 
 * = Coming Soon
 
