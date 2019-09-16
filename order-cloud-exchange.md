@@ -40,7 +40,7 @@ subcollection: direct-link
 | Cologix | Montreal 2, Toronto 2 |
 | Cyrus One | Dallas 13 |
 | DE-CIX | Frankfurt 3 |
-| Equinix | **APAC:** Hong Kong 1,Singapore 2, Sydney 2, Tokyo 1, **EU:** Amsterdam 2, Frankfurt 3,London 1, Paris 2, **Americas:** Chicago 1, Dallas 3, New York City 2, New York City 3, Sao Paulo 2, San Jose 2, Toronto 2, Washington DC 2,  |							
+| Equinix | **APAC:** Hong Kong 1,Singapore 2, Sydney 2, Tokyo 1, Tokyo 3 **EU:** Amsterdam 2, Frankfurt 3,London 1, London 3, Paris 2 **Americas:** Chicago 1, Dallas 3, New York City 2, New York City 3, Sao Paulo 2, San Jose 2, Toronto 2, Washington DC 2 |							
 | InterXion | Frankfurt 1, Stockholm 1 |
 | KINX	| Seoul 2 |
 | NextDC | Melbourne 2, Sydney 3 |

@@ -43,13 +43,14 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | CenturyLink IP VPN | Dallas 3, Miami 1, Sao Paulo 2 |
 | CenturyLink Dynamic Connections |  San Jose 2, Toronto 2, Washington DC 2 |
 | Chief Telecomm | Hong Kong 1* |
-| Colt | Tokyo 1, Singapore 2, Amsterdam 2, Frankfurt 1,  London 1, Paris 2 |
+| Colt | Tokyo 1, Singapore 2, Amsterdam 2, Frankfurt 1, London 1, Paris 2 |
 | Console Connect by PCCW | Hong Kong 1, Singapore 2, Tokyo 1, London 1, San Jose 2 |
 | Digital Realty Service Exchange |	Supported by Megaport in Amsterdam 2, Frankfurt 1, London 3, Stockholm 1, Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |
 | Epsilon | Frankfurt 1 |
 | EU Networks | Frankfurt 1 |
 | IBM BlueFringe | Chennai 1 , Dallas 3, Washington DC 2 |
 | Intercloud | Amsterdam 2, Frankfurt 1, Frankfurt 3 |
+| IXReach | Washington DC 2 |
 | Megaport | **APAC:** Hong Kong 1, Melbourne 2, Singapore 2, Sydney 2, **EU:** Amsterdam 2, Frankfurt 1, London 3, Stockholm 1, **Americas:** Chicago 1, Dallas 4, San Jose 2,  Toronto 2, Washington DC 2 |
 | MWS GNPP | Amsterdam 2, Frankfurt 3, Dallas 3, Washington DC 2 |
 | Neutrona |  Dallas 3, Sao Paulo 2, Washington DC 2 |
