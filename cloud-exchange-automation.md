@@ -18,6 +18,7 @@ subcollection: direct-link
 {:tip: .tip}
 {:note: .note}
 {:download: .download}
+{:external: target="_blank" .external}
 
 # Provisioning IBM Cloud Direct Link Exchange
 {: #provisioning-ibm-cloud-direct-link-exchange}
@@ -42,11 +43,11 @@ To provision an IBM Cloud Direct Link Exchange connection, complete the followin
 
 **Step 1:**
 
-Log into your customer account on the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/).
+Log into your customer account on the [IBM Cloud console](https://cloud.ibm.com/){: external}.
 
 **Step 2:**
 
-Under the **Network** tab, select **Direct Link -> Exchange**, to open a page showing the existing IBM Cloud Direct Link connections, if any.
+Go to **Classic Infrastructure** > **Network** > **Direct Link** > **Exchange**, to open a page showing the existing IBM Cloud Direct Link connections, if any.
 
 ![Step 2](/images/pup_exchange_list.png)
 
@@ -80,12 +81,12 @@ As you select or enter these values, you can see an approximate monthly charge o
 
 **Step 6.**
 
-The form fields are validated as you provide the inputs. 
+The form fields are validated as you provide the inputs.
 You must **AGREE** to the Terms and Conditions for the "Create" button to be enabled.
 
 **Step 7:**
 
-After agreeing to the terms and conditions, when you place the order, an IBM support ticket is generated after placing the order to continue with the service provisioning. The ticket number will be displayed in the UI after you place the order. 
+After agreeing to the terms and conditions, when you place the order, an IBM support ticket is generated after placing the order to continue with the service provisioning. The ticket number will be displayed in the UI after you place the order.
 
 ![Step NE1](/images/pup_exchange_ticket_notification.png)
 

@@ -17,6 +17,7 @@ subcollection: direct-link
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:external: target="_blank" .external}
 
 # Get Started with IBM Cloud Direct Link
 {: #get-started-with-ibm-cloud-direct-link}
@@ -26,9 +27,9 @@ subcollection: direct-link
 ## Browse and order
 {: #browse-and-order}
 
-To get started using IBM Cloud Direct Link, browse through this documentation and decide which solution will work best for you. If you desire more help with getting started, you open a ticket through the [IBM Cloud Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/unifiedsupport/cases/add), or you can contact your IBM Cloud sales representative.
+To get started using IBM Cloud Direct Link, browse through this documentation and decide which solution will work best for you. If you desire more help with getting started, you open a ticket through the [IBM Cloud console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}, or you can contact your IBM Cloud sales representative.
 
-When you're ready to order, follow the step by step instructions for the specific Direct Link solution that you need, [here](/docs/infrastructure/direct-link?topic=direct-link-order-ibm-cloud-direct-link).
+When you're ready to order, follow the [step by step instructions](/docs/infrastructure/direct-link?topic=direct-link-order-ibm-cloud-direct-link) for the specific Direct Link solution that you need.
 
 After you've placed your order, you'll be asked to fill out a questionnaire related to your solution and your workload's requirements, and you can review our terms of service.
 

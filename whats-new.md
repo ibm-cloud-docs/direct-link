@@ -11,6 +11,7 @@ subcollection: direct-link
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # What's New
 {: #what-s-new}
@@ -20,9 +21,9 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct L
 ## March 2019
 {: #march-2019}
 
-March has been a very busy month for Direct Link. 
+March has been a very busy month for Direct Link.
 
-* To improve customer experience and provide greater value, we are enhancing the {{site.data.keyword.cloud_notm}} Direct Link Global Routing Service. 
+* To improve customer experience and provide greater value, we are enhancing the {{site.data.keyword.cloud_notm}} Direct Link Global Routing Service.
 * We have added several new partners for Direct Link Connect. Those are listed later in this section.
 
 Please review the [full text of our announcement](/docs/infrastructure/direct-link?topic=direct-link-announcement-global-routing-policy-change-begins-july-1) about changes to Global Routing.
@@ -41,7 +42,7 @@ We have expanded the Direct Link Local Markets to provide more local routing opt
 * The Tokyo local market will include the Osaka PoP once launched.
 * The Chennai local market will include the Mumbai PoP once launched.
 
-These changes are outlined in tables found at: https://cloud.ibm.com/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-direct-link-local-markets
+These changes are outlined in tables found at [Expanded IBM Direct Link Local Markets](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-cloud-direct-link-local-markets).
 
 ### Withdrawing of Global Routing network transit overage charges
 {: #march-2019-withdrawing-of-global-routing-network-transit-overage-charges}
@@ -93,9 +94,9 @@ We have withdrawn the network transit limits and overage charges for customers w
 
 {{site.data.keyword.cloud_notm}} is pleased to announce new and expanded collaborations with InterCloud, SES Networks, and CenturyLink. Check out the links below to learn more:
 
-* [InterCloud offers dedicated connectivity to IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://digitalisationworld.com/news/55529/intercloud-offers-dedicated-connectivity-to-ibm-cloud)
-* [SES Networks enables direct connectivity to IBM Cloud via global satellite network ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ses.com/press-release/ses-networks-enables-direct-connectivity-ibm-cloud-global-satellite-network)
-* [CenturyLink expands cloud offerings in Latin America ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://news.centurylink.com/2018-10-04-CenturyLink-expands-cloud-offerings-in-Latin-America)
+* [InterCloud offers dedicated connectivity to IBM Cloud](https://digitalisationworld.com/news/55529/intercloud-offers-dedicated-connectivity-to-ibm-cloud){: external}
+* [SES Networks enables direct connectivity to IBM Cloud via global satellite network](https://www.ses.com/press-release/ses-networks-enables-direct-connectivity-ibm-cloud-global-satellite-network){: external}
+* [CenturyLink expands cloud offerings in Latin America](http://news.centurylink.com/2018-10-04-CenturyLink-expands-cloud-offerings-in-Latin-America){: external}
 
 
 ## September 2018
@@ -111,10 +112,10 @@ We have withdrawn the network transit limits and overage charges for customers w
 
 The {{site.data.keyword.cloud_notm}} Direct Link service continues to expand globally! In light of the recent IBM Cloud Service Provider Program announcement, we have made several additional announcements recently. View these key resources to learn more:
 
-* {{site.data.keyword.cloud_notm}} Blog: [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/blog/announcements/interxion-enterprise-ibm-cloud-services)
-* {{site.data.keyword.cloud_notm}} Blog: [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/blog/announcements/tokyo-connects-ibm-cloud-support-mission-critical-applications)
-* {{site.data.keyword.cloud_notm}} Japan Blog: [AT TOKYO announcement - Japanese Translation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/solutions/jp-ja/tokyo-connects-ibm-cloud-support-mission-critical-applications-httpswww-ibm-comblogssolutionsjp-ja/)
-* {{site.data.keyword.cloud_notm}} Blog: [PackerFabric and IBM Cloud Enable Secure Enterprise Connections ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/blog/announcements/packetfabric-ibm-enable-secure-enterprise-connections)
+* {{site.data.keyword.cloud_notm}} Blog: [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services](https://www.ibm.com/cloud/blog/announcements/interxion-enterprise-ibm-cloud-services){: external}
+* {{site.data.keyword.cloud_notm}} Blog: [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications](https://www.ibm.com/cloud/blog/announcements/tokyo-connects-ibm-cloud-support-mission-critical-applications){: external}
+* {{site.data.keyword.cloud_notm}} Japan Blog: [AT TOKYO announcement - Japanese Translation](https://www.ibm.com/blogs/solutions/jp-ja/tokyo-connects-ibm-cloud-support-mission-critical-applications-httpswww-ibm-comblogssolutionsjp-ja/){: external}
+* {{site.data.keyword.cloud_notm}} Blog: [PackerFabric and IBM Cloud Enable Secure Enterprise Connections](https://www.ibm.com/cloud/blog/announcements/packetfabric-ibm-enable-secure-enterprise-connections){: external}
 
 ## August 2018
 {: #august-2018}
@@ -125,8 +126,8 @@ The {{site.data.keyword.cloud_notm}} Direct Link service continues to expand glo
 CenturyLink Cloud Connect Solutions now deliver private, secure network connectivity to {{site.data.keyword.cloud_notm}}, helping organizations innovate more efficiently by establishing low-latency connections on a global basis across a private network to the {{site.data.keyword.cloud_notm}} through {{site.data.keyword.cloud_notm}} Direct Link. This extended collaboration between Century Link and IBM builds on Century Link's existing support for IBM Business Resiliency Services and {{site.data.keyword.cloud_notm}} Managed Services.
 
 **Learn More:**
-* Press Release:[CenturyLink Connects to IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://news.centurylink.com/2018-08-01-CenturyLink-Connects-Enterprises-to-IBM-Cloud)
-* Blog: [Century Link and IBM Collaborate to Enhance Network Experiences ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/blog/announcements/centurylink-ibm-enhance-network-experiences)
+* Press Release:[CenturyLink Connects to IBM Cloud](http://news.centurylink.com/2018-08-01-CenturyLink-Connects-Enterprises-to-IBM-Cloud){: external}
+* Blog: [Century Link and IBM Collaborate to Enhance Network Experiences](https://www.ibm.com/cloud/blog/announcements/centurylink-ibm-enhance-network-experiences){: external}
 
 ## July 2018
 {: #july-2018}
@@ -137,10 +138,10 @@ CenturyLink Cloud Connect Solutions now deliver private, secure network connecti
 Direct access to {{site.data.keyword.cloud_notm}} is now available through the Digital Realty Service Exchange and {{site.data.keyword.cloud_notm}} Direct, by means of more than 70  Digital Realty data centers and multiple continents around the globe. The Digital Realty Service Exchange provides private, secure, high-throughput, and low-latency access over a single interface to IBM Cloud, helping customers overcome some of the limitations of the public Internet and helping to eliminate network congestion and enable critical workloads that may have not been previously feasible, such as AI, machine learning, and Blockchain.
 
 **Learn More:**
-* Press Release:[Digital Realty adds direct, secure access to IBM Cloud in 15 global metros ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://investor.digitalrealty.com/investor-relations/news-and-events/news/news-details/2018/Digital-Realty-Adds-Direct-Secure-Access-to-IBM-Cloud-in-15-Global-Metros/default.aspx?_ga=2.4622768.2004310000.1533067916-309713252.1509692838)
-* Blog: [Built for Enterprise Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-direct-link-expand-network)
-* Partner Page: [Digital Realty and IBM Direct Link ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.digitalrealty.com/partners/alliance-partners/ibm-direct-link/)
-* Interview: [Digital Realty and IBM Deal a Proximity Play ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.lightreading.com/data-center/data-center-infrastructure/digital-realty-ibm-deal-a-proximity-play/d/d-id/744870)
+* Press Release:[Digital Realty adds direct, secure access to IBM Cloud in 15 global metros](http://investor.digitalrealty.com/investor-relations/news-and-events/news/news-details/2018/Digital-Realty-Adds-Direct-Secure-Access-to-IBM-Cloud-in-15-Global-Metros/default.aspx?_ga=2.4622768.2004310000.1533067916-309713252.1509692838){: external}
+* Blog: [Built for Enterprise Cloud](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-direct-link-expand-network){: external}
+* Partner Page: [Digital Realty and IBM Direct Link](https://www.digitalrealty.com/partners/alliance-partners/ibm-direct-link/){: external}
+* Interview: [Digital Realty and IBM Deal a Proximity Play ](https://www.lightreading.com/data-center/data-center-infrastructure/digital-realty-ibm-deal-a-proximity-play/d/d-id/744870){: external}
 
 
 ## June 2018
@@ -152,8 +153,8 @@ Direct access to {{site.data.keyword.cloud_notm}} is now available through the D
 We're pleased to announce our new {{site.data.keyword.cloud_notm}} Direct Link Service Provider Program, which enables enterprises to select from a robust ecosystem of local and global providers and create the private connections to {{site.data.keyword.cloud_notm}} that best suit their needs. We'll work closely to provide technical enablement and training to help ensure service providers can offer enterprises reliable connectivity to the cloud from anywhere in the world. This gives our joint customers greater choice to select the right provider, speed of service, location and deployment model to create a secure, highly available hybrid connection.
 
 **Learn more:**
-* Thoughts on Cloud Blog: [Supporting the next generation of apps with IBM Cloud Direct Link ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/)
-* Website: [Direct Link Program Details ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/direct-link/partners)
+* Thoughts on Cloud Blog: [Supporting the next generation of apps with IBM Cloud Direct Link](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/){: external}
+* Website: [Direct Link Program Details](https://www.ibm.com/cloud/direct-link/partners){: external}
 
 ### Colt Offers Direct Access to IBM Cloud Direct Link
 {: #colt-offers-direct-access-to-ibm-cloud-direct-link}
@@ -162,9 +163,9 @@ We're pleased to announce our new {{site.data.keyword.cloud_notm}} Direct Link S
 
 **Learn more:**
 
-* Blog: [IBM and Colt: enabling enterprise digital transformation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/blog/announcements/ibm-colt-enterprise-digital-transformation)
-* Press Release: [Colt Provides Direct Connectivity to IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.colt.net/resources/colt-provides-direct-connectivity-ibm-cloud/)
-* Partner Details: [https://www.colt.net/ibm-cloud/ ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.colt.net/ibm-cloud/)
+* Blog: [IBM and Colt: enabling enterprise digital transformation](https://www.ibm.com/cloud/blog/announcements/ibm-colt-enterprise-digital-transformation){: external}
+* Press Release: [Colt Provides Direct Connectivity to IBM Cloud](https://www.colt.net/resources/colt-provides-direct-connectivity-ibm-cloud/){: external}
+* Partner Details: [https://www.colt.net/ibm-cloud/](https://www.colt.net/ibm-cloud/){: external}
 
 ## May 2018
 {: #may-2018}
@@ -190,9 +191,9 @@ Interxion, a leading provider of carrier and cloud-neutral colocation data centr
 
 **Learn More**
 
-* Blog: [Interxion Optimising Enterprise Multicloud Strategy with IBM Cloud Services ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.interxion.com/blogs/2018/03/interxion-optimising-enterprise-multicloud-strategy-with-ibm-cloud-services/)
-* Press Release: [Direct Access to IBM Cloud Services Now Available at Interxion Data Centres Across Europe via Cloud Connect ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.interxion.com/news/2018/03/direct-access-to-ibm-cloud-services/)
-* Partner Details: [Why Colocate with the Clouds ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.interxion.com/why-interxion/colocate-with-the-clouds/ibm/)
+* Blog: [Interxion Optimising Enterprise Multicloud Strategy with IBM Cloud Services](https://www.interxion.com/blogs/2018/03/interxion-optimising-enterprise-multicloud-strategy-with-ibm-cloud-services/){: external}
+* Press Release: [Direct Access to IBM Cloud Services Now Available at Interxion Data Centres Across Europe via Cloud Connect](https://www.interxion.com/news/2018/03/direct-access-to-ibm-cloud-services/){: external}
+* Partner Details: [Why Colocate with the Clouds](https://www.interxion.com/why-interxion/colocate-with-the-clouds/ibm/){: external}
 
 ### PacketFabric Offers Connectivity to IBM Cloud
 {: #packet-fabric-offers-conectivity-to-ibm-cloud}
@@ -201,8 +202,8 @@ PacketFabric customers have access to {{site.data.keyword.cloud_notm}} services 
 
 **Learn More**
 
-* Press Release: [PacketFabric Offers Connectivity to IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.packetfabric.com/news/2018/03/06/packetfabric-offers-connectivity-to-ibm.html)
-* Partner Details: [Connect to IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.packetfabric.com/packetcor/ibm-cloud/)
+* Press Release: [PacketFabric Offers Connectivity to IBM Cloud](https://www.packetfabric.com/news/2018/03/06/packetfabric-offers-connectivity-to-ibm.html){: external}
+* Partner Details: [Connect to IBM Cloud](https://www.packetfabric.com/packetcor/ibm-cloud/){: external}
 
 ## February 2018
 {: #february-2018}

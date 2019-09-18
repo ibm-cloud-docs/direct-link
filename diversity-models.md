@@ -21,24 +21,19 @@ subcollection: direct-link
 # Models for Diversity and Redundancy in Direct Link
 {: #models-for-diversity-and-redundancy-in-direct-link}
 
-This document gives a series of schematics related to issues of redundancy and diversity, which can help you find a model for creating the most successful {{site.data.keyword.cloud}} Direct Link deployment to meet your needs. The schematics are arranged in increasing levels of complexity and also according to the Direct Link offering that each one is illustrating. Direct Link is not an inherently redundant service at the cross-connect router (XCR), customers have the responsibility for creating redundancy through their border gateway protocol (BGP) schemas. 
+This document gives a series of schematics related to issues of redundancy and diversity, which can help you find a model for creating the most successful {{site.data.keyword.cloud}} Direct Link deployment to meet your needs. The schematics are arranged in increasing levels of complexity and also according to the Direct Link offering that each one is illustrating. Direct Link is not an inherently redundant service at the cross-connect router (XCR), customers have the responsibility for creating redundancy through their border gateway protocol (BGP) schemas.
 
 ## Section 1: Relatively simple configurations that achieve diversity
 {: #section-1-diversity-models}
 
 The configurations shown in this group rely on the fact that all of the assets are located in the same PoP and in the same global market.
 
-**Figure 1: Direct Link Exchange with diversity, in the same PoP (non-AZ)**
 
-![Exchange with diversity in the same PoP](/images/exchange-diversity-same-pop.png)
+![Exchange with diversity in the same PoP](/images/exchange-diversity-same-pop.png "Exchange with diversity in the same PoP"){: caption="Figure 1. Direct Link Exchange with diversity, in the same PoP (non-AZ)" caption-side="top"}
 
-**Figure 2: Direct Link Connect with diversity in the same PoP (non-AZ)**
+![Connect with diversity in the same PoP](/images/connect-diversity-same-pop.png "Connect with diversity in the same PoP"){: caption="Figure 2: Direct Link Connect with diversity in the same PoP (non-AZ)" caption-side="top"}
 
-![Connect with diversity in the same PoP](/images/connect-diversity-same-pop.png)
-
-**Figure 3: Direct Link Dedicated with diversity in same PoP (non-AZ)**
-
-![Dedicated with diversity in the same PoP](/images/dedicated-diversity-same-pop.png)
+![Dedicated with diversity in the same PoP](/images/dedicated-diversity-same-pop.png "Dedicated with diversity in the same PoP"){: caption="Figure 3: Direct Link Dedicated with diversity in same PoP (non-AZ)" caption-side="top"}
 
 ## Section 2: Diversity that includes AZs and Global Routing options
 {: #section-2-diversity-models}
@@ -48,32 +43,20 @@ The configurations shown in this group offer options for connecting across local
 ### Part A: Diversity in a local availability zone (AZ)
 {: #section-2-part-a}
 
-**Figure 4: Direct Link Exchange with diversity in a local AZ (WDC, DAL, FRA, LON)**
+![Exchange with diversity in the local AZ](/images/exchange-diversity-local-az.png "Exchange with diversity in the local AZ"){: caption="Figure 4: Direct Link Exchange with diversity in a local AZ (WDC, DAL, FRA, LON)" caption-side="top"}
 
-![Exchange with diversity in the local AZ](/images/exchange-diversity-local-az.png)
+![Connect with diversity in the local AZ](/images/connect-diversity-local-az.png "Connect with diversity in the local AZ"){: caption="Figure 5: Direct Link Connect with diversity in a local AZ (WDC, DAL, FRA, LON)" caption-side="top"}
 
-**Figure 5: Direct Link Connect with diversity in a local AZ (WDC, DAL, FRA, LON)**
-
-![Connect with diversity in the local AZ](/images/connect-diversity-local-az.png)
-
-**Figure 6: Direct Link Dedicated with diversity in a local AZ (WDC, DAL, FRA, LON)**
-
-![Dedicated with diversity in the local AZ](/images/dedicated-diversity-local-az.png)
+![Dedicated with diversity in the local AZ](/images/dedicated-diversity-local-az.png "Dedicated with diversity in the local AZ"){: caption="Figure 6: Direct Link Dedicated with diversity in a local AZ (WDC, DAL, FRA, LON)" caption-side="top"}
 
 ### Part B: Diversity in different local markets, with Global Routing
 {: #section-2-part-b}
 
-**Figure 7: Direct Link Connect with diversity and Global Routing**
+![Connect with diversity and Global Routing](/images/connect-diversity-global.png "Connect with diversity and Global Routing"){: caption="Figure 7: Direct Link Connect with diversity and Global Routing" caption-side="top"}
 
-![Connect with diversity and Global Routing](/images/connect-diversity-global.png)
+![Exchange with diversity and Global Routing](/images/exchange-diversity-global.png "Exchange with diversity and Global Routing"){: caption="Figure 8: Direct Link Exchange with diversity and Global Routing" caption-side="top"}
 
-**Figure 8: Direct Link Exchange with diversity and Global Routing**
-
-![Exchange with diversity and Global Routing](/images/exchange-diversity-global.png)
-
-**Figure 9: Direct Link Dedicated with diversity and Global Routing**
-
-![Dedicated with diversity and Global Routing](/images/dedicated-diversity-global.png)
+![Dedicated with diversity and Global Routing](/images/dedicated-diversity-global.png "Dedicated with diversity and Global Routing"){: caption="Figure 9: Direct Link Dedicated with diversity and Global Routing" caption-side="top"}
 
 ## More about ECMP
 {: #more-about-ecmp}

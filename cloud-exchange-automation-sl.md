@@ -18,6 +18,7 @@ subcollection: direct-link
 {:tip: .tip}
 {:note: .note}
 {:download: .download}
+{:external: target="_blank" .external}
 
 # Provisioning IBM Cloud Direct Link Exchange through the legacy customer portal
 {: #provisioning-ibm-cloud-direct-link-exchange-legacy}
@@ -45,11 +46,11 @@ To provision an IBM Cloud Direct Link Exchange connection, complete the followin
 
 **Step 1:**
 
-Log into your customer account on the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/).
+Log into your customer account on the [IBM Cloud console](https://cloud.ibm.com/){: external}.
 
 **Step 2:**
 
-Under the **Network** tab, select **Direct Link -> Exchange**, to open a page showing the existing IBM Cloud Direct Link connections, if any.
+Go to **Classic Infrastructure** > **Network** > **Direct Link** > **Exchange**, to open a page showing the existing IBM Cloud Direct Link connections, if any.
 
 ![Step 2](/images/Equinix-Step2.png)
 
@@ -87,7 +88,7 @@ After you provide the input values, the next UI screen shows the actual monthly 
 
 **Step 7:**
 
-You must **AGREE** to the Terms and Conditions before you can place the IBM Cloud Direct Link order. Please read the Terms and Conditions carefully, because they contain important technical information that you must understand before proceeding. 
+You must **AGREE** to the Terms and Conditions before you can place the IBM Cloud Direct Link order. Please read the Terms and Conditions carefully, because they contain important technical information that you must understand before proceeding.
 
 If the terms and conditions are not accepted, an IBM support ticket will be generated upon placing the order.
 {:note}
@@ -108,7 +109,7 @@ The following figure shows an example of the ticket being opened:
 
 **Step 8:**
 
-After agreeing to the terms and conditions, when you place the order, an IBM support ticket is generated after placing the order to continue with the service provisioning. The ticket number will be displayed in the UI after you place the order. 
+After agreeing to the terms and conditions, when you place the order, an IBM support ticket is generated after placing the order to continue with the service provisioning. The ticket number will be displayed in the UI after you place the order.
 
 ![Step NE1](/images/Non-Equinix-Step1.png)
 

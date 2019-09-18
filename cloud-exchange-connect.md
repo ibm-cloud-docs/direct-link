@@ -18,12 +18,13 @@ subcollection: direct-link
 {:tip: .tip}
 {:note: .note}
 {:download: .download}
+{:external: target="_blank" .external}
 
 
 # Provision IBM Cloud Direct Link Connect from the UI Console
 {: #provision-ibm-cloud-direct-link-connect-from-the-ui-console}
 
-This page tells you how to order the {{site.data.keyword.cloud}} Direct Link Connect service from the {{site.data.keyword.cloud_notm}} UI Console. 
+This page tells you how to order the {{site.data.keyword.cloud}} Direct Link Connect service from the {{site.data.keyword.cloud_notm}} UI Console.
 
 After you place the order, an IBM support ticket will be generated.
 {:note}
@@ -35,8 +36,8 @@ To provision an {{site.data.keyword.cloud_notm}} Direct Link Connect order, comp
 
 **Step 1:**
 
-Log into your customer account on the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/)
-  
+Log into your customer account on the [IBM Cloud console](https://cloud.ibm.com/){: external}.
+
 **Step 2:**
 
 Under the **Network** tab, select **Direct Link -> Connect**, to open a page showing the existing {{site.data.keyword.cloud_notm}} Direct Link connections, if any.

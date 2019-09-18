@@ -18,6 +18,7 @@ subcollection: direct-link
 {:tip: .tip}
 {:note: .note}
 {:download: .download}
+{:external: target="_blank" .external}
 
 # Converting to VRF
 {: #what-happens-during-the-account-conversion-process}
@@ -34,7 +35,7 @@ During migration, the VLANs are disconnected from the backbone and reconnected t
 ## How to initiate the conversion
 {: #how-you-can-initiate-the-conversion}
 
-Existing {{site.data.keyword.cloud_notm}} customers can [open a support case](https://cloud.ibm.com/unifiedsupport/cases/add)![External link icon](../../icons/launch-glyph.svg "External link icon") through the {{site.data.keyword.cloud_notm}} console, requesting to be migrated to a VRF. The support case should state: “Private Network Question” and include the following text:
+Existing {{site.data.keyword.cloud_notm}} customers can [open a support case](https://cloud.ibm.com/unifiedsupport/cases/add){: external} through the {{site.data.keyword.cloud_notm}} console, requesting to be migrated to a VRF. The support case should state: “Private Network Question” and include the following text:
 
 "We are requesting that account _your account number_ is moved to its own VRF. We understand the risks and approve the change. Please reply with the scheduled window(s) of time where this change will be made so we can prepare for the migration."
 

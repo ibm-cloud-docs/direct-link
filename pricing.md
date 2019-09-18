@@ -42,12 +42,12 @@ If your browser shows these tables with speeds less than 1Gbps, use your mouse o
 
 | Region | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps |2 Gbps | 5 Gbps |
 |----|----|----|----|----|----|----|----|
-| USA |  $100 | $150 | $300 | $650 | $1,199 | $1,999 | $3,750 | 
-| Canada / Amsterdam |  $103 | $155 | $309 | $670 | $1,235 | $ 2,059 | $3,863 | 
+| USA |  $100 | $150 | $300 | $650 | $1,199 | $1,999 | $3,750 |
+| Canada / Amsterdam |  $103 | $155 | $309 | $670 | $1,235 | $ 2,059 | $3,863 |
 | Mexico / London / Norway| $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
-| Paris / Frankfurt / Milan / Korea |  $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 | 
-| Japan / Singapore / Hong Kong | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 | 
-| Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500| 
+| Paris / Frankfurt / Milan / Korea |  $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 |
+| Japan / Singapore / Hong Kong | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 |
+| Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
 
 
 ## Pricing for Direct Link Connect
@@ -55,12 +55,12 @@ If your browser shows these tables with speeds less than 1Gbps, use your mouse o
 
 | Region | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps | 2 Gbps | 5 Gbps |
 |----|----|----|----|----|----|----|----|
-| USA |  $100 | $150 | $300 | $650 | $1,199 | $1,999 | $3,750 | 
-| Canada / Amsterdam |  $103 | $155 | $309 | $670 | $1,235 | $ 2,059 | $3,863 | 
-| Mexico / London / Norway | $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 | 
-| Paris / Frankfurt / Milan / Korea |  $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 | 
-| Japan / Singapore / Hong Kong  | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 | 
-| Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500| 
+| USA |  $100 | $150 | $300 | $650 | $1,199 | $1,999 | $3,750 |
+| Canada / Amsterdam |  $103 | $155 | $309 | $670 | $1,235 | $ 2,059 | $3,863 |
+| Mexico / London / Norway | $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
+| Paris / Frankfurt / Milan / Korea |  $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 |
+| Japan / Singapore / Hong Kong  | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 |
+| Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
 
 ## Pricing for Direct Link Dedicated
 {: #pricing-for-direct-link-dedicated}
@@ -92,7 +92,7 @@ Local routing is included with all IBM Cloud Direct Link offerings. It includes 
 
 To reach IBM Cloud resources outside of the Local Market in which the Direct Link is connected (at a PoP or datacenter), you must add the Global Routing option, which expands your access to include all IBM Cloud datacenters, globally.
 
-However, we've recently expanded our Direct Link Local Markets to provide more local routing options to our customers across the globe. The new Local Market assignments are listed in the table that follows. 
+However, we've recently expanded our Direct Link Local Markets to provide more local routing options to our customers across the globe. The new Local Market assignments are listed in the table that follows.
 
 | Local Market | Sites |
 |--------|----------------------|
@@ -123,9 +123,9 @@ For example, in the US South Market , Direct Link customers can send or retrieve
 ## Pricing for Global Routing Add-on
 {: #pricing-for-global-routing-add-on}
 
-Global routing expands access to include all IBM Cloud datacenters globally. Bandwidth is un-metered and charged monthly based on the market. Details on the markets and other considerations can be found in our [FAQs file](/docs/infrastructure/direct-link?topic=direct-link-faqs#what-are-the-local-routing-and-global-routing-options)
+Global routing expands access to include all IBM Cloud datacenters globally. Bandwidth is un-metered and charged monthly based on the market. Details on the markets and other considerations can be found in our [FAQs](/docs/infrastructure/direct-link?topic=direct-link-faqs#what-are-the-local-routing-and-global-routing-options).
 
-| Region | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps | 2 Gbps | 5 Gbps | 10 Gbps | 
+| Region | 50 mbps | 100 mbps | 200 mbps | 500 mbps | 1 Gbps | 2 Gbps | 5 Gbps | 10 Gbps |
 |----|----|----|----|----|----|----|----|----|
 |USA | $150 | $300 | $600 | $1,500 | $2,999 | $4,000 | $4,500 | $5,000 |
 |Canada/Amsterdam | $155 | $309 | $618 | $1,545 | $2,999 | $4,120 | $4,635 | $5,150 |
@@ -135,7 +135,7 @@ Global routing expands access to include all IBM Cloud datacenters globally. Ban
 |Australia/Brazil/India | $180 | $360 | $720 | $1,800 | $2,999 | $4,800 | $5,400 | $6,000 |
 
 
-## Additional fees for Customization 
+## Additional fees for Customization
 {: #additional-fees-for-customization}
 
 Several customized, non-standard configurations are available for additional cost. Most of the fees are one-time fees for setup, denoted by "NRC" in the table. These options require an Exception review by the offering management (OM) and SNS teams before approval.

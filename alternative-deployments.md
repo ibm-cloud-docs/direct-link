@@ -30,29 +30,19 @@ The default deployments of Direct Link Connect and Direct Link Exchange do not i
 
 Many of our customers choose to create redundant deployments by setting up an additional Direct Link connection. This document presents some schematic representations of alternate IBM Cloud Direct Link deployments.
 
-![Diverse Exchange](/images/Direct-Link-Exchange-Diverse.png)
-
-**Figure 1 (above): A diverse IBM Cloud Direct Link Exchange deployment**
+![Diverse Exchange](/images/Direct-Link-Exchange-Diverse.png "Diverse Exchange"){: caption="Figure 1. A diverse IBM Cloud Direct Link Exchange deployment" caption-side="bottom"}
 
 IBM Cloud Direct Link also makes it easy to establish diverse Connect deployments, as shown in the following figure.
 
-![Diverse Connect](/images/Direct-Link-Connect-Diverse.png)
-
-
-**Figure 2 (above): A redundant and diverse IBM Cloud Direct Link Connect deployment**
+![Diverse Connect](/images/Direct-Link-Connect-Diverse.png "Diverse Connect"){: caption="Figure 2. A redundant and diverse IBM Cloud Direct Link Connect deployment" caption-side="bottom"}
 
 ## Using Exchange and Connect in conjunction with other clouds
 {: #using-exchange-and-connect-in-conjunction-with-other-clouds}
 
 Some of our customers wish to use Direct Link Exchange in conjunction with other cloud providers, such as AWS, Azure, or Google Cloud. The following schematic shows an overview of how to establish this type of connection with a Cloud Exchange provider.
 
-![Other Clouds](/images/Direct-Link-Exchange-Other-Clouds.png)
-
-**Figure 3 (above): Using IBM Cloud Direct Link Exchange in conjunction with other clouds**
+![Other Clouds Exchange](/images/Direct-Link-Exchange-Other-Clouds.png "Other Clouds Exchange"){: caption="Figure 3. Using IBM Cloud Direct Link Exchange in conjunction with other clouds" caption-side="bottom"}
 
 Some of our customers wish to use Direct Link Connect  in conjunction with other cloud providers, such as AWS, Azure, or Google Cloud. The following schematic shows an overview of how to establish this type of connection with a Telco/NSP.
 
-![Other Clouds](/images/Direct-Link-Connect-other-clouds.png)
-
-**Figure 4 (above): Using IBM Cloud Direct Link Connect in conjunction with other clouds**
-
+![Other Clouds Connect](/images/Direct-Link-Connect-other-clouds.png "Other Clouds Connect"){: caption="Figure 4. Using IBM Cloud Direct Link Connect in conjunction with other clouds" caption-side="bottom"}

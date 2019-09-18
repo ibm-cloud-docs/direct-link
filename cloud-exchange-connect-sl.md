@@ -18,6 +18,7 @@ subcollection: direct-link
 {:tip: .tip}
 {:note: .note}
 {:download: .download}
+{:external: target="_blank" .external}
 
 
 # Provision IBM Cloud Direct Link Connect from the IBM Cloud legacy customer portal
@@ -36,8 +37,8 @@ To provision an {{site.data.keyword.cloud_notm}} Direct Link Connect order, comp
 
 **Step 1:**
 
-Log into your customer account on the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/)
-  
+Log into your customer account on the [IBM Cloud console](https://cloud.ibm.com/){: external}.
+
 **Step 2:**
 
 Under the **Network** tab, select **Direct Link -> Connect**, to open a page showing the existing {{site.data.keyword.cloud_notm}} Direct Link connections, if any.

@@ -22,7 +22,7 @@ subcollection: direct-link
 # FAQs
 {: #faqs}
 
-This section contains answers to some frequently asked questions about {{site.data.keyword.cloud}} Direct Link. 
+This section contains answers to some frequently asked questions about {{site.data.keyword.cloud}} Direct Link.
 
 ## How does IBM Cloud Direct Link work?
 {: #how-does-ibm-cloud-direct-link-work}
@@ -40,9 +40,9 @@ Yes. Bandwidth usage across the Direct Link service between Customers and IBM Cl
 {: #when-does-billing-begin-with-direct-link}
 {:faq}
 
-The fees for Direct Link Connect cover the cost of service termination on the IBM Cloud infrastructure. 
+The fees for Direct Link Connect cover the cost of service termination on the IBM Cloud infrastructure.
 
-Infrastructure Services are billed in advance and begin upon acceptance of our client’s order; however, due to the nature of IBM Cloud Direct Link, the Direct Link service billing begins when a Border Gateway Protocol (BGP) session is established with IBM Cloud, or 30 days after the service key is provided to the client. 
+Infrastructure Services are billed in advance and begin upon acceptance of our client’s order; however, due to the nature of IBM Cloud Direct Link, the Direct Link service billing begins when a Border Gateway Protocol (BGP) session is established with IBM Cloud, or 30 days after the service key is provided to the client.
 
 Billing stops after (1) a customer requests a circuit to be deleted AND (2) the Connect Provider or Network Service Provider has de-provisioned the circuit.
 
@@ -62,7 +62,7 @@ Direct Link does not provide an inherently Redundant service. Direct Link can pr
 {: #what-is-the-difference-between-the-default-local-routing-and-the-global-routing-add-on-for-direct-link}
 {:faq}
 
-The Local Routing option is the default routing option. If your Direct Link is connected at the local PoP, It provides access to all datacenters within that same market. In some markets, local routing is applicable for stand-alone PoP locations and direct links terminated at the data center. Please check [the list of expanded markets](https://cloud.ibm.com/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-direct-link-local-markets) for more information.   
+The Local Routing option is the default routing option. If your Direct Link is connected at the local PoP, It provides access to all datacenters within that same market. In some markets, local routing is applicable for stand-alone PoP locations and direct links terminated at the data center. Please check [the list of expanded markets](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-direct-link-local-markets) for more information.   
 
 With our standard Direct Link offering, you can send traffic between the data centers in your selected region. If you need access to other data centers outside of the specified region, you must order the Global Routing add-on. For example, you might use Global Routing to share workloads between dispersed IBM Cloud resources (such as Dallas to Ashburn, or Dallas to Frankfurt).
 
@@ -144,7 +144,7 @@ We are unable to support any QoS guarantees. QoS requires MPLS mapping between e
 {: #does-direct-link-support-jumbo-frames}
 {:faq}
 
-Jumbo frames (up to 9214 bytes) are supported on Dedicated and Dedicated Hosting. 
+Jumbo frames (up to 9214 bytes) are supported on Dedicated and Dedicated Hosting.
 Support on Connect and Exchange is theoretically possible, but it requires your Service Provider to work with IBM and ensure that the end-to-end connection supports Jumbo Frames, including the underlying Network-to Network-Interface (NNI).
 By default, Exchange and Connect are set up with 1500-byte MTU support.
 
@@ -170,7 +170,7 @@ Typically, we install speeds of 1G and below on 1G optics. For speeds of 2G to 1
 {: #is-ecmp-the-way-to-go-for-redundant-direct-link-connections}
 {:faq}
 
-Note that ECMP isn’t for redundant connections but for balancing the load over the two links. With ECMP, both connections must terminate to the same IBM Cloud cross-connect router (XCR), which makes it a single point of failure. (In other words, ECMP can only be provisioned as two sessions on the same IBM Cloud XCR.) 
+Note that ECMP isn’t for redundant connections but for balancing the load over the two links. With ECMP, both connections must terminate to the same IBM Cloud cross-connect router (XCR), which makes it a single point of failure. (In other words, ECMP can only be provisioned as two sessions on the same IBM Cloud XCR.)
 
 ECMP is a feature of BGP. If you are looking for redundancy, get two Direct Link connections, one going into each XCR. If you want to use ECMP and have redundancy, you’ll need two Direct Link connections on each XCR, so that you can have 2 ECMP sessions going simultaneously.
 
