@@ -22,7 +22,7 @@ subcollection: direct-link
 # Pricing for IBM Cloud Direct Link
 {: #pricing-for-ibm-cloud-direct-link}
 
-Pricing for {{site.data.keyword.cloud}}  Direct Link Exchange, Connect, and Dedicated offerings is consistent for equivalent regions and bandwidth, as shown in the table that follows.
+Pricing for {{site.data.keyword.cloud}}  Direct Link Exchange, Connect, and Dedicated offerings is consistent for equivalent regions and bandwidth, as shown in the following monthly pricing tables.
 
 Direct Link pricing does NOT include the additional charges by service providers to enable connectivity to IBM Cloud.
 {:note}
