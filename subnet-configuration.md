@@ -75,7 +75,7 @@ IBM Cloud ASN is **13884**, for Public and Private services.
 **Recommendations, Defaults, and Limits:**
 
  * Tunneling (that is, GRE) is supported and recommended if IP overlap becomes an issue.
- * BGP timer defaults are `Keepalive:30`, `Holdtime:60.`
+ * BGP timer defaults are `Keepalive:30`, `Holdtime:90.`
  * Authentication is not enabled by default.
  * BGP BFD is not enabled by default.
  * Maximum received (from Customer or provider) prefix limit is 200 per VRF.
