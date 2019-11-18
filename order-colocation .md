@@ -43,6 +43,7 @@ The table below shows which IBM Cloud datacenters are able to accept customers f
 | Americas | SJC03 | Santa Clara | DC | Digital Realty  | 1100 Space Park Drive |
 | Americas | WDC04 | Ashburn | DC (AZ1) | Digital Realty  | 44060 Digital Loudoun Plaza (Bldg K) |
 | Americas | WDC06 | Ashburn | DC (AZ3) | Raging Wire | 44610 Guilford Drive |
+| Americas | WDC07 | Ashburn | DC (AZ2) | Sabey | 21741 Red Rum Dr |
 |  |  |  |  |  |  |
 | APAC |  SYD01 |  Sydney | DC (AZ1) | Global Switch  |  400 Harris Street aka 273 Pyrmont St. Ultimo |
 | APAC |	SYD04 |	 Sydney |	DC (AZ2) |	Digital Realty  |	4 Eden Park Drive |
