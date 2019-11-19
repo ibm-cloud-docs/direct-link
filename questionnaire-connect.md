@@ -42,7 +42,7 @@ Thank you for opening a request for {{site.data.keyword.cloud}} Direct Link Conn
 
 4. IBM Cloud will not collocate any customer equipment in our network POPs.  You will need to work with your provider to determine whether or not you need to collocate any equipment into the same facility where the IBM Cloud PoP exists.
 
-5. The Direct Link Exchange service is provided in such a way where your link and the IBM Cloud router it can terminate into are both single points of failure (SPOF). If you want to achieve redundancy through the Direct Link Connect service, you will need to terminate links into two separate IBM Cloud network PoPs or order two connections into a Direct Link Connect location with a secondary router.
+5. The Direct Link Connect service is provided in such a way where your link and the IBM Cloud router it can terminate into are both single points of failure (SPOF). If you want to achieve redundancy through the Direct Link Connect service, you will need to terminate links into two separate IBM Cloud network PoPs or order two connections into a Direct Link Connect location with a secondary router.
 
 6. The IBM Cloud services network will not be accessible from your remote networks directly. If this changes in the future, you will be notified.
 
