@@ -25,7 +25,7 @@ subcollection: direct-link
  1. Verify your network provider's capabilities to reach the appropriate IBM Cloud PoP.
  2. Use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to open an {{site.data.keyword.cloud}} Direct Link Connect request and complete the requested information. (Assistance from IBM sales engineers can be requested.) 
  3. Contact your Connect provider and negotiate connectivity to your premise or colocation.
- 4. Order a "virtual circuit" through the Connect provider, and refer the Ticket ID of the {{site.data.keyword.BluSoftlayer_notm}} IBM Cloud Direct Link request as your "Request ID" or "Authorization ID"
+ 4. Order a "virtual circuit" through the Connect provider, and refer the Ticket ID of the {{site.data.keyword.BluSoftlayer_notm}} Direct Link request as your "Request ID" or "Authorization ID"
  5. IP assignment on the {{site.data.keyword.BluSoftlayer_notm}} networking infrastructure will be completed within three business days after the virtual circuit request is complete.
 
 
@@ -36,7 +36,7 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 
 | Partners | Available Markets |
 |--------------|--------------|
-| AT&T; NetBond® for Cloud | Frankfurt 1, London 1, Dallas 3, San Jose 2, Washington DC 2|
+| AT&T NetBond® for Cloud | Frankfurt 1, London 1, Dallas 3, San Jose 2, Washington DC 2|
 | AT&T Cloud Gateway (formerly known as RedFringe)| Dallas 3, Washington DC 2 |
 | Bell Canada | Montreal 2, Toronto 2 |
 | British Telecom |   Frankfurt 1, London 1, Sao Paulo 2, Washington DC 2|
