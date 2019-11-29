@@ -36,23 +36,24 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 
 | Partners | Available Markets |
 |--------------|--------------|
-| AT&T; NetBond® for Cloud | Frankfurt 1, London 1, Dallas 3, San Jose 2, Washington DC 2|
+| AT&T; NetBond® for Cloud |  **EU:** Frankfurt 1, London 1 **Americas:** Dallas 3, San Jose 2 (no diversity: on same XCR),  Washington DC 2 (no diversity: on same XCR) |
 | AT&T Cloud Gateway (formerly known as RedFringe)| Dallas 3, Washington DC 2 |
 | Bell Canada | Montreal 2, Toronto 2 |
 | British Telecom |   Frankfurt 1, London 1, Sao Paulo 2, Washington DC 2|
 | CenturyLink IP VPN | Dallas 3, Miami 1, Sao Paulo 2 |
 | CenturyLink Dynamic Connections |  San Jose 2, Toronto 2, Washington DC 2 |
 | Chief Telecomm | Hong Kong 1 |
-| Colt | Tokyo 1, Singapore 2, Amsterdam 2, Frankfurt 1, London 1, Paris 2 |
-| Console Connect by PCCW | Hong Kong 1, Singapore 2, Tokyo 1, London 1, San Jose 2 |
-| Digital Realty Service Exchange |	Supported by Megaport in Amsterdam 2, Frankfurt 1, London 3, Stockholm 1, Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |
-| Epsilon | Frankfurt 1, Singapore 2 |
+| Colt | **APAC:** Tokyo 1, Singapore 2 **EU:** Amsterdam 2, Frankfurt 1, London 1, Paris 2 |
+| Console Connect by PCCW | **APAC:** Hong Kong 1, Singapore 2, Tokyo 1  **EU:** London 1, San Jose 2 |
+| Digital Realty Service Exchange |	Supported by Megaport in **EU:** Amsterdam 2, Frankfurt 1, London 3, Stockholm 1 **Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |
+| Epsilon | **APAC:**  Singapore 2 **EU:** Frankfurt 1  |
 | EU Networks | Frankfurt 1 |
 | IBM BlueFringe | Chennai 1 , Dallas 3, Washington DC 2 |
+| IBM Power Virtual Server | Washington DC 2, Frankfurt 4  |
 | Intercloud | Amsterdam 2, Frankfurt 1, Frankfurt 3 |
 | IXReach | Washington DC 2 |
-| Megaport | **APAC:** Hong Kong 1, Melbourne 2, Singapore 2, Sydney 2, **EU:** Amsterdam 2, Frankfurt 1, London 3, Stockholm 1, **Americas:** Chicago 1, Dallas 4, San Jose 2,  Toronto 2, Washington DC 2 |
-| MWS GNPP | Amsterdam 2, Frankfurt 3, Dallas 3, Washington DC 2 |
+| Megaport | **APAC:** Hong Kong 1 (no diversity) , Melbourne 2, Singapore 2, Sydney 2 **EU:** Amsterdam 2 (no diversity), Frankfurt 1 (no diversity), London 3 (no diversity), Stockholm 1 (no diversity), **Americas:** Chicago 1, Dallas 4, San Jose 2 (no diversity),  Toronto 2 (no diversity), Washington DC 2 |
+| MWS GNPP |  **EU:** Amsterdam 2 (no diversity), Frankfurt 3 (no diversity) **Americas:** Dallas 3, Washington DC 2 |
 | Neutrona |  Dallas 3, Sao Paulo 2, Washington DC 2 |
 | NTT | Tokyo 5 |
 | PacketFabric | Dallas 4, San Jose 2, Washington DC 2 |
@@ -62,7 +63,8 @@ Our IBM Cloud Direct Link Connect providers include these locations:
 | Telia | Stockholm 1 |
 | Telstra | Melbourne 2, Sydney 2 |
 | Tokai | Tokyo 3, Osaka 1 |
-| Verizon | Sydney 2, Amsterdam 2, Frankfurt 1, Dallas 3, San Jose 2, Washington DC 2 |
+| Verizon |  **APAC:**  Sydney 2 (no diversity) **EU:** Amsterdam 2, Frankfurt 1 (no diversity) **Americas:** Dallas 3, San Jose 2, Washington DC 2  |
+| Vodafone | Frankfurt 3 (no Diversity) |
 | Zayo | Dallas 3,  Toronto 2, Washington DC 2 |
 
 
