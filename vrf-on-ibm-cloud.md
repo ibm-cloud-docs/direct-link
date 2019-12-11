@@ -71,7 +71,7 @@ Moving to VRF includes the following primary benefits:
 * {{site.data.keyword.cloud_notm}} customers can extend or migrate the reach of their network significantly, due to addition of new sites or applications throughout the IBM network.
 * Tenant-specific routing tables narrow the aperture for IP address overlap, without the risk of overlap with other tenants' subnets or other parts of the network that are not applicable.
 
-Compared to the older ACL model, there are a few minor tradeoffs to take into account: 
+Compared to the older ACL model, there are a few minor tradeoffs to take into account:
 
 * Converting to a _Customer VRF_ requires a maintenance window, which causes a brief disruption of backbone traffic flows.
 * Remote access by using the managed VPN services (SSL, IPsec) is limited to just SSL VPN into a data center; however, the shared ACL over the backbone allows global access from any entry point from either service.
@@ -82,5 +82,5 @@ Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared 
 For specific information about how to initiate a VRF conversion for your account, refer to the conversion instructions for your IBM Cloud offering. For example:
 
 * [Direct Link conversion instructions](/docs/infrastructure/direct-link?topic=direct-link-what-happens-during-the-account-conversion-process)
-* [VPC conversion instructions](/docs/vpc-on-classic?topic=vpc-on-classic-what-happens-during-the-account-conversion-process)
+* [VPC conversion instructions](/docs/vpc-on-classic-network?topic=vpc-on-classic-setting-up-access-to-your-classic-infrastructure-from-vpc)
 * [{{site.data.keyword.cloud_notm}} service endpoints conversion instructions](/docs/account?topic=account-vrf-service-endpoint)
