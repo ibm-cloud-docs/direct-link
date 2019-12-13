@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-07-01"
 
-keywords: VRF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, datacenters, data, center, shared tenancy, private endpoint, Customer VRF, Private Network Question, support, ticket, CSE, cloud service endpoint
+keywords: VRF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, datacenters, data, center, shared tenancy, private endpoint, Customer VRF, Private Network Question, support, case, CSE, cloud service endpoint
 
 subcollection: direct-link
 
@@ -12,22 +12,30 @@ subcollection: direct-link
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:external: target="_blank" .external}
+{:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
-{:note: .note}
-{:download: .download}
+{:term: .term}  
+{:generic: data-hd-programlang="generic"}
+{:download: .download}  
 
 # Virtual routing and forwarding on {{site.data.keyword.cloud_notm}}
 {: #overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud}
 
-By definition, virtual routing and forwarding (VRF) is a technology that is included in Internet Protocol (IP) network routers. It is delivered as an inherent backbone service.
+By definition, virtual routing and forwarding (VRF) is a technology that is included in IP network routers. It is delivered as an inherent backbone service.
+{:shortdesc}
 
 ## Connectivity options for {{site.data.keyword.cloud_notm}}
 {: #connectivity-options-for-ibm-cloud}
 
-Dispersed cloud resources are resources in more than one location or in more than one subnet or VLAN. These types of resources require a routing function to communicate amongst themselves, even within a private network context. This document describes a "multiple isolation" tenancy communication option, which often is called a _Customer VRF_. It is implemented as an MPLS Layer-3 VPN (RFC 4364) across the global {{site.data.keyword.cloud}} backbone.
+Dispersed cloud resources are resources in more than one location or in more than one subnet or VLAN. These types of resources require a routing function to communicate among themselves, even within a private network context. This document describes a "multiple isolation" tenancy communication option, which often is called a _Customer VRF_. It is implemented as an MPLS Layer-3 VPN (RFC 4364) across the global {{site.data.keyword.cloud}} backbone.
 
 In general, the {{site.data.keyword.cloud_notm}} platform offers two options for routing across our private network, providing connectivity across pods and data centers:
 
@@ -67,14 +75,14 @@ For example, each tenant on the backbone who uses VRF can have only one _Custome
 
 Moving to VRF includes the following primary benefits:
 
-* Industry-proven and widely accepted _multiple isolation_ separation technology. Many cloud customers find the Level-3 VPN approach more palatable than ACLs to their auditors and compliance officers.   
+* Industry-proven and widely accepted _multiple isolation separation technologies_. Many cloud customers find the Level-3 VPN approach more palatable than ACLs to their auditors and compliance officers.   
 * {{site.data.keyword.cloud_notm}} customers can extend or migrate the reach of their network significantly, due to addition of new sites or applications throughout the IBM network.
 * Tenant-specific routing tables narrow the aperture for IP address overlap, without the risk of overlap with other tenants' subnets or other parts of the network that are not applicable.
 
 Compared to the older ACL model, there are a few minor tradeoffs to take into account:
 
 * Converting to a _Customer VRF_ requires a maintenance window, which causes a brief disruption of backbone traffic flows.
-* Remote access by using the managed VPN services (SSL, IPsec) is limited to just SSL VPN into a data center; however, the shared ACL over the backbone allows global access from any entry point from either service.
+* Remote access by using the managed VPN services (SSL, IPSec) is limited to just SSL VPN into a data center; however, the shared ACL over the backbone allows global access from any entry point from either service.
 * VLAN spanning within your _multiple isolation_ tenancy is not available.
 
 Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a _Customer VRF_, most commonly with a new Direct Link subscription.  
@@ -82,5 +90,5 @@ Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared 
 For specific information about how to initiate a VRF conversion for your account, refer to the conversion instructions for your IBM Cloud offering. For example:
 
 * [Direct Link conversion instructions](/docs/infrastructure/direct-link?topic=direct-link-what-happens-during-the-account-conversion-process)
-* [VPC conversion instructions](/docs/vpc-on-classic-network?topic=vpc-on-classic-setting-up-access-to-your-classic-infrastructure-from-vpc)
+* [VPC conversion instructions](/docs/vpc-on-classic?topic=vpc-on-classic-setting-up-access-to-your-classic-infrastructure-from-vpc#how-you-can-initiate-the-conversion)
 * [{{site.data.keyword.cloud_notm}} service endpoints conversion instructions](/docs/account?topic=account-vrf-service-endpoint)

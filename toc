@@ -1,64 +1,44 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="direct-link" category="network,databases" audience="service" arm="4032931" arm="4032949" arm="3662735" arm="43662737" href="/docs/infrastructure/direct-link/getting-started.html" path="infrastructure/direct-link"}
-Direct Link
+{: .toc subcollection="direct-link" category="network,databases" audience="service" href="/docs/infrastructure/direct-link/getting-started.html" path="infrastructure/direct-link"}
+Direct Link Classic
 
     {: .navgroup id="learn"}
     getting-started.md
     overview.md
-    direct-link-july-policy-change.md
     about.md
-    responsibilities.md
-    direct-link-video.md
+    direct-link-july-policy-change.md
     whats-new.md
-    alternative-deployments.md
-    diversity-models.md
-    layer-2-layer-3.md
-    connect-details.md
+    responsibilities.md
 
     {: .topicgroup}
-    Tutorials
+    Pricing
+        pricing.md
+        pricing-comparison.md
+
+    {: .topicgroup}
+    Deployment considerations
+        alternative-deployments.md
+        diversity-models.md
+        layer-2-layer-3.md
+        connect-details.md
+
+    {: .topicgroup}
+    Tutorials & video
         /tutorials/solution-tutorials-secure-network-enclosure
         /tutorials/solution-tutorials-byoip
-
-    pricing.md
-    pricing-comparison.md
+        direct-link-video.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    how-to-order.md
-
-      {: .topicgroup}
-      Overview Steps and Available Locations
-         order-cloud-exchange.md
-         order-connect.md
-         order-nsp.md
-         order-colocation.md
-
-    {: .topicgroup}
-    Provisioning Steps for Exchange and Connect
-        cloud-exchange-automation.md
-        cloud-exchange-automation-equinix.md
-        cloud-exchange-connect.md
-        order-without-vrf.md
-
+    order-connect.md
+    order-nsp.md
+    order-colocation.md
+    order-cloud-exchange.md
     subnet-configuration.md
     direct-link-to-cos.md
     edit-link-speed-connect.md
-
-    {: .topicgroup}
-    Using the Legacy Customer Portal
-        cloud-exchange-connect-sl.md
-        cloud-exchange-automation-sl.md
-        cloud-exchange-automation-equinix-sl.md
-
-      {: .topicgroup}
-      Questionaires for Ordering
-         questionnaire-exchange.md
-         questionnaire-connect.md
-         questionnaire-dedicated.md
-         questionnaire-dedicated-hosting.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -66,6 +46,13 @@ Direct Link
     understanding-latency.md
     vrf-on-ibm-cloud.md
     vrf-conversion-dl.md
+
+    {: .topicgroup}
+    Questionnaires for ordering
+        questionnaire-connect.md
+        questionnaire-dedicated.md
+        questionnaire-dedicated-hosting.md
+        questionnaire-exchange.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}

@@ -12,62 +12,89 @@ subcollection: direct-link
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:external: target="_blank" .external}
+{:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
-{:note: .note}
-{:download: .download}
+{:term: .term}  
+{:generic: data-hd-programlang="generic"}
+{:download: .download}  
 
-# How to order IBM Cloud Direct Link Dedicated
+# Ordering Direct Link Dedicated Classic
 {: #how-to-order-ibm-cloud-direct-link-dedicated}
 
-To order IBM Cloud Direct Link Dedicated, perform one of the following procedures, depending on your requirements.
+To order IBM Cloud Direct Link Dedicated Classic, perform one of the following procedures, depending on your requirements. The colocation or Network Service Provider (NSP) does not need to be an IBM Cloud Direct Link Partner to connect you to a Direct Link Dedicated service. When you're ready to place your order, follow the step-by-step instructions.
+{:shortdesc}
 
-The colocation or Network Service Provider does not need to be an IBM Cloud Direct Link Partner to connect you to a Direct Link Dedicated service.
-{: note}
+To determine which Direct Link solution is best for your networking environment, see
+[How do I know which type of IBM Cloud Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#how-do-i-know-which-type-of-ibm-cloud-direct-link-i-need-)
+{: tip}
 
-## Co-located in an IBM Cloud PoP or data center
+## Option 1: Colocated in an IBM Cloud PoP or data center
+{: #colocated-in-ibm-cloud-pop}
 
-1. Verify your colocation provider's capabilities to reach the appropriate Meet Me Room and cross-connect into the {{site.data.keyword.BluSoftlayer_notm}} environment.
+1. Verify your colocation provider's capabilities to reach the appropriate Meet Me Room and cross-connect into the {{site.data.keyword.cloud_notm}} environment.
+2. Use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the Master Service Agreement.
+3. {{site.data.keyword.cloud_notm}} provides Letters of Authorization (LOA) for connections that use the customer portal. When you have the LOA, supply it to your colocation provider, then have them order a cross connect (and any required inter-campus connectivity) by using the {{site.data.keyword.cloud_notm}} CFA (Customer Facility Assignment) information in the LOA.
 
-2. Open an {{site.data.keyword.cloud}} Direct Link Dedicated request and complete the requested information.
+  This process usually takes 2 to 10 business days to complete, depending on the facility vendor and the order priority you specify. It includes the setup of the patch for the {{site.data.keyword.cloud_notm}} termination port.
 
-  IBM sales engineers can help you with this process.  
-  {: tip}
+4. Provide {{site.data.keyword.cloud_notm}} with the cross-connect completion notice from the facility provider in the IBM Support case.
+5. {{site.data.keyword.cloud_notm}} verifies the completion notice's efficacy and orders the patch to be made from the LOA/CFA to the cross-connect router (XCR) and other gear.
 
-3. {{site.data.keyword.BluSoftlayer_notm}} provides Letters of Authorization (LOA) for connections using the customer portal. When you have the LOA, supply it to your colocation provider, then have them order a cross connect (as well as any required inter-campus connectivity) using the {{site.data.keyword.BluSoftlayer_notm}} CFA (Customer Facility Assignment) information in the LOA.
+Your IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastructure is completed within three business days after the cross-connect is complete.
 
-  This process usually takes 2 two 10 business days to complete, depending on the facility vendor and the order priority you specify. It includes the set up of the patch for the {{site.data.keyword.BluSoftlayer_notm}} termination port.
+## Option 2: Using an NSP
+{: #network-service-provider}
 
-5. Provide {{site.data.keyword.BluSoftlayer_notm}} with the cross-connect completion notice from the facility provider in the {{site.data.keyword.BluSoftlayer_notm}} portal ticket.
+1. Verify your NSP's capabilities to reach the appropriate Meet Me Room in the {{site.data.keyword.cloud_notm}} PoP or data center and cross-connect into the {{site.data.keyword.cloud_notm}} environment.
+2. Use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the Master Service Agreement.
+3. {{site.data.keyword.cloud_notm}} provides Letters of Authorization (LOA) for connections that use the customer portal. When you have the LOA, supply it to your network provider, and have them order a "third-party cross connect", as well as the circuit between your premises and the appropriate Meet Me Room by using the {{site.data.keyword.cloud_notm}} CFA (Customer Facility Assignment) information in the LOA.
 
-6. {{site.data.keyword.BluSoftlayer_notm}} verifies the completion notice's efficacy and orders the patch to be made from the LOA/CFA to the cross-connect router (XCR) and other gear.
+  This third-party, cross-connect process usually takes 2 - 10 extra business days to complete, depending on the facility vendor and the order priority you specify. It includes the setup of the patch to the {{site.data.keyword.cloud_notm}} termination port.
 
-  Your IP assignment on the {{site.data.keyword.BluSoftlayer_notm}} networking infrastructure will be completed within 3 business days after the cross-connect is complete.
+4. Provide {{site.data.keyword.cloud_notm}} with the cross-connect completion notice from the facility provider in the IBM Support case.
+5. {{site.data.keyword.cloud_notm}} verifies the completion notice's efficacy and orders the patch to be made from the LOA/CFA to the cross-connect router (XCR) and other gear.
 
-## Using a Network Service Provider
+Your IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastructure is completed within three business days after the cross-connect is complete.
 
-1. Verify your Network Service Provider’s capabilities to reach the appropriate Meet Me Room in the IBM Cloud PoP or data center and cross-connect into the {{site.data.keyword.BluSoftlayer_notm}} environment.
+## Steps to order Direct Link Dedicated Classic
+{: #steps-to-order-direct-link-dedicated}
 
-2. Open an {{site.data.keyword.cloud}} Direct Link Dedicated request and complete the requested information.
+To provision a Direct Link Connect order, complete the following steps:
 
-  IBM sales engineers can help you with this process.  
-  {: tip}
+1. Log in to your [IBM Cloud](https://cloud.ibm.com/){: external} account and open the **Catalog**.
+2. Select the **Navigation Menu** icon ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Classic Infrastructure**.
+2. Select **Network > Direct Link > Dedicated** to open a page that shows the existing Direct Link connections, if any.
+3. Click **Order Direct Link Dedicated +** in the upper right of the page. The "Create an IBM Cloud Direct Link Dedicated Connection" page is displayed.
+4. In the order form, complete the following information to configure Direct Link Dedicated Classic:
+   - Enter the Direct Link instance name.
+   - From the list, select the location in which you want to establish the {{site.data.keyword.cloud_notm}} Direct Link connection.
+   - From the list, select the name of the network provider that you prefer.
+   - Select the link speed required for the connection.
+   - Select the routing option required for the connection.
+   - Enter a valid ASN number from the range given in the information box for the BGP exchanges.
 
-3. {{site.data.keyword.BluSoftlayer_notm}} provides Letters of Authorization (LOA) for connections using the customer portal. When you have the LOA, supply it to your network provider, and have them order a "third party cross connect", as well as the circuit between your premises and the appropriate Meet Me Room using the {{site.data.keyword.BluSoftlayer_notm}} CFA (Customer Facility Assignment) information in the LOA.
+   As you select or enter these values, you can see an approximate monthly charge in the right panel.
+6. You must agree to the [Master Service Agreement](https://cloud.ibm.com/classic/account/masterserviceagreement/getagreement){: external} before you can place the IBM Cloud Direct Link order.  
 
-  This third party cross-connect process usually takes 2 to 10 additional business days to complete, depending on the facility vendor and the order priority you specify. It includes the set up of the patch to the IBM Cloud termination port.
+      After you place your order, an IBM Support case number is generated. You can click the case number to view case details.
 
-5. Provide {{site.data.keyword.BluSoftlayer_notm}} with the cross-connect completion notice from the facility provider in the {{site.data.keyword.BluSoftlayer_notm}} portal ticket.
-6. {{site.data.keyword.BluSoftlayer_notm}} verifies the completion notice's efficacy and orders the patch to be made from the LOA/CFA to the cross-connect router (XCR) and other gear.
+7. You’ll be asked to complete a customer questionnaire, which you can review at [Direct Link Dedicated questionnaire](/docs/direct-link?topic=direct-link-ibm-cloud-direct-link-dedicated-questionnaire).
 
-Your IP assignment on the {{site.data.keyword.BluSoftlayer_notm}} networking infrastructure will be completed within 3 business days after the cross-connect is complete.
+8. After you provision the direct link and complete the questionnaire, see [Configuring Direct Link Classic]{/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link) to configure your subnet to interact with IBM Cloud.
+
 
 ## Locations
 {: #dedicated-locations}
 
-The table gives details about the IBM Cloud datacenters where Direct Link Dedicated is available:
+The table gives details about the {{site.data.keyword.cloud_notm}} data centers where Direct Link Dedicated is available:
 
 |**IBM Location Code** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
 |-----------------|-----------------|--------------------|--------------------|
@@ -80,7 +107,7 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | Osaka 1 (PoP only)| Equinix | OS1 |  |
 | Perth 1 (PoP only)| Metronode | F1Z | 60 Randell St, Shenton Park, Western Australia |
 | Seoul 1 | C&C | Seoul01 | 46, Pangyo-ro 255beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do |
-| Seoul 2 | KINX | KINX Bundang IDC | 3F Hostway IDC ,343-1 Yatap-dong , Gyeonggi-do |
+| Seoul 2 | KINX | KINX Bundang IDC | 3F Hostway IDC, 343-1 Yatap-dong, Gyeonggi-do |
 | Singapore 1 | Digital Realty | SIN10 | 29A International Business Park, S180 |
 | Singapore 2 | Equinix | SG1 | 20 Ayer Rajan Crescent Industrial Park |
 | Sydney 1 | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
@@ -101,12 +128,12 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | Frankfurt 3 | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
 | Frankfurt 4 | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H |
 | Frankfurt 5 | InterXion | FRA05 | Weismüllerstraße 40 |
-| London 1 | Equinix (fTelecity) | LD8 | 6/7 Harbour Exchange  E14 9GE |
+| London 1 | Equinix (fTelecity) | LD8 | 6/7 Harbour Exchange E14 9GE |
 | London 2 | Digital Realty | LHR13 | Fountain Court, Cox Lane |
 | London 3 | Equinix | LD5 | 8 Buckingham Ave |
 | London 4 | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
 | London 6 | Zenium | LON1 | 12 Liverpool Rd, Trading Estate |
-| Milan 1 | Data IV | | Via Monzoro 101-105 , 20010 Cornaredo (MI) |
+| Milan 1 | Data IV | | Via Monzoro 101-105, 20010 Cornaredo (MI) |
 | Milan 2 | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21|
 | Oslo 1 | EVRY | DigiPlex - Fetsund | 9,, Heiaveien, 1900 Fetsund |
 | Oslo 2 | Verizon | Verizon Oslo | Hans Møller Gassmanssvei 9 |
@@ -127,7 +154,7 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | Denver 1 (PoP only) | Coresite | DE1 | 910 15th Street |
 | Houston 2 (PoP only) | IBM | HOU02 | 855 Greens Parkway |
 | Los Angeles 1 (PoP only) | Coresite | LA1 | 624 S. Grand Ave. AKA 1 Wilshire Blvd |
-| Mexico 1 | Alestra | Alestra Queretaro Datacenter | Lateral Carretera Estatal 431,Parque Tecnologico Inovacion Lote 79, El Marqués |
+| Mexico 1 | Alestra | Alestra Queretaro Datacenter | Lateral Carretera Estatal 431, Parque Tecnologico Inovacion Lote 79, El Marqués |
 | Miami 1 (PoP only) | Terremark / Verizon | NAP | 50 NE 9th Street |
 | Montreal 1 | COLO-D | COLO-D1 | 2525 Rue Canadien |
 | Montreal 2 | Cologix | MTL7 | 1155  Robert – Bourassa Boulevard (Formerly Known as University Street) |
@@ -148,9 +175,9 @@ The table gives details about the IBM Cloud datacenters where Direct Link Dedica
 | Washington DC 7 | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr|
 
 ## Pricing
-{: #dedicated-pricing}
+{: #dedicated-pricing-classic}
 
-For pricing information, please refer to the [pricing document](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-dedicated).
+For more information, refer to the [pricing document](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-dedicated).
 
-If you require the exact address for TOK01 or TOK02, please contact your Direct Link offering management or sales team.
+If you require the exact address for TOK01 or TOK02, contact your Direct Link offering management or sales team.
 {:note}

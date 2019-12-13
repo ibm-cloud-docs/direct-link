@@ -14,44 +14,52 @@ subcollection: direct-link
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:external: target="_blank" .external}
+{:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
-{:download: .download}
-{:external: target="_blank" .external}
+{:term: .term}  
+{:generic: data-hd-programlang="generic"}
+{:download: .download}  
 
-# Related Resources
+# Related resources
 {: #related-resources}
 
-These resources are created by {{site.data.keyword.cloud}} and some of our partners and customers.
+These resources are created by {{site.data.keyword.cloud}} and by some IBM partners and customers.
+{:shortdesc}
 
 ## Papers and case studies
 
-* [**Hybrid Cloud White Paper**](https://public.dhe.ibm.com/cloud/bluemix/network/direct-link/ibm-hybrid-cloud-whitepaper.pdf){: external}
+* [**Hybrid Cloud white paper**](https://public.dhe.ibm.com/cloud/bluemix/network/direct-link/ibm-hybrid-cloud-whitepaper.pdf){: external}
 
-    **Abstract:** Krystallize Technologies set up three different “real world” configurations, using the architecture described in this paper, to design a dedicated, low-latency, private connection between cloud services and customer-provided network equipment, storage, and compute infrastructure that is durable and affordable.
+    **Abstract:** Krystallize Technologies set up three different “real world” configurations that use the architecture that is described in this paper to design a dedicated, low-latency, private connection between cloud services and customer-provided network equipment, storage, and compute infrastructure that is durable and affordable.
 
-    This paper presents test results showing how a well-designed, well-executed, hybrid cloud architecture performs versus one that leverages standard facilities, using connections and an architecture not optimized for application performance.
+    This paper presents test results that show how a well-designed, well-executed, hybrid cloud architecture performs versus one that uses standard facilities, using connections and an architecture that is not optimized for application performance.
 
-     * Direct Link Dedicated Hosting solution Features and Benefits
-     * Reference Solution for Implementing NetApp Private Storage for IBM Cloud, co-located in a Digital Realty Data Center
-     * Results of Performance Tests Conducted by Krystallize Technologies
+     * Direct Link Dedicated Hosting solution features and benefits
+     * Reference solution for implementing NetApp private storage for {{site.data.keyword.cloud_notm}}, colocated in a Digital Reality data center
+     * Results of performance tests conducted by Krystallize Technologies
 
 
-* [**Case Study for Direct Link and IBM Cloud**](https://public.dhe.ibm.com/cloud/bluemix/network/direct-link/ibm-cloud-case-study.pdf){: external}
+* [**Case Study for Direct Link and IBM Cloud**](https://www.digitalrealty.com/case-studies/ibm-cloud){: external}
 
-    **Abstract:** As IBM Cloud needed to expand its global data center footprint to meet burgeoning demand for its Infrastructure-as-a-Service offering, it needed the right data center partner to achieve the best available combination of power, space, and price.
+    **Abstract:** As {{site.data.keyword.cloud_notm}} needed to expand its global data center footprint to meet burgeoning demand for its Infrastructure-as-a-Service offering, it needed the right data center partner to achieve the best available combination of power, space, and price.
 
-    Delivery systems that put extra steps between server deployments, cloud and customers were too slow and indirect to deliver the low latency and high throughput IBM Cloud promises its customers.
+    Delivery systems that put extra steps between server deployments, cloud, and customers were too slow and indirect to deliver the low latency and high throughput {{site.data.keyword.cloud_notm}} promises its customers.
 
-    Choosing to co-locate at Digital Realty’s hub locations in APAC and the U.S. puts IBM Cloud Data Centers right next door to Digital Realty’s world-class data center deployments, with direct dark fiber connection between them.
+    Choosing to colocate at Digital Realty’s hub locations in APAC and the US puts {{site.data.keyword.cloud_notm}} data centers right next door to Digital Realty’s world-class data center deployments, with direct dark fiber connection between them.
 
 ## Featured announcements
 
 * [InterCloud Offers Dedicated Connectivity to IBM Cloud](https://info.intercloud.com/intercloud-offers-dedicated-connectivity-to-ibm-cloud){: external}
 
-    Discover how IBM Cloud and InterCloud are helping to enable national railway company, Société des Chemins de fer Français (SNCF) migrate business-critical applications to the cloud over a secure, dedicated connection.
+    Discover how {{site.data.keyword.cloud_notm}} and InterCloud are helping to enable a national railway company migrate business-critical applications to the cloud over a secure, dedicated connection.
 
 * [IBM Cloud Solves Last Mile Challenges with Satellite](https://www.satellitetoday.com/mobility/2018/10/25/ibm-cloud-solves-last-mile-challenges-with-satellite/){: external}, by Adrienne Harebottle
 

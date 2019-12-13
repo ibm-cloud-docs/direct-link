@@ -12,43 +12,53 @@ subcollection: direct-link
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:external: target="_blank" .external}
+{:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
-{:download: .download}
-{:external: target="_blank" .external}
+{:term: .term}  
+{:generic: data-hd-programlang="generic"}
+{:download: .download}  
 
-# Get Started with IBM Cloud Direct Link
+# Getting started with IBM Cloud Direct Link Classic
 {: #get-started-with-ibm-cloud-direct-link}
 
-{{site.data.keyword.cloud}} Direct Link is a suite of four offerings from the IBM Cloud Network, with availability in locations around the globe. Each one enables customers to create direct, private connections between their remote network environments and their IBM Cloud deployments--without touching the public internet. Most commonly, these offerings are implemented to support hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, or to ease administration of the {{site.data.keyword.cloud_notm}} environment.
+{{site.data.keyword.cloud}} Direct Link Classic is a suite of four offerings from the {{site.data.keyword.cloud_notm}} network, with availability in locations around the globe. Each one enables customers to create direct, private connections between their remote network environments and their {{site.data.keyword.cloud_notm}} deployments, without touching the public internet. Most commonly, these offerings are implemented to support private, hybrid, and cross-provider workloads, as well as large or frequent data transfers, and the easing of {{site.data.keyword.cloud_notm}} environment administration. 
+{:shortdesc}
 
 ## Browse and order
 {: #browse-and-order}
 
-To get started using IBM Cloud Direct Link, browse through this documentation and decide which solution will work best for you. If you desire more help with getting started, you open a ticket through the [IBM Cloud console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}, or you can contact your IBM Cloud sales representative.
+To get started using IBM Cloud Direct Link Classic, review this documentation and decide which solution works best for you. If you want more help with getting started, you can either open an IBM Support case through the [IBM Cloud console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}, or contact your {{site.data.keyword.cloud_notm}} sales representative.
 
-When you're ready to order, follow the [step by step instructions](/docs/infrastructure/direct-link?topic=direct-link-order-ibm-cloud-direct-link) for the specific Direct Link solution that you need.
+When you're ready to order, follow the [step-by-step instructions](/docs/infrastructure/direct-link?topic=direct-link-order-ibm-cloud-direct-link) for the specific Direct Link Classic solution that you need.
 
-After you've placed your order, you'll be asked to fill out a questionnaire related to your solution and your workload's requirements, and you can review our terms of service.
+After you place your order, you'll be asked to complete a questionnaire related to your solution and workload requirements. You'll also be able to review our terms of service.
 
-## IBM Cloud Direct Link solution descriptions
+## IBM Cloud Direct Link Classic descriptions
 
- * [IBM Cloud Direct Link Exchange](/docs/infrastructure/direct-link?topic=direct-link-direct-link-exchange-solution)
- * [IBM Cloud Direct Link Connect](/docs/infrastructure/direct-link?topic=direct-link-direct-link-connect-solution)
- * [IBM Cloud Direct Link Dedicated](/docs/infrastructure/direct-link?topic=direct-link-direct-link-dedicated-solution)
- * [IBM Cloud Direct Link Dedicated Hosting](/docs/infrastructure/direct-link?topic=direct-link-direct-link-dedicated-hosting-solution)
-
+ * [Direct Link Connect Classic](/docs/infrastructure/direct-link?topic=direct-link-direct-link-connect-solution)
+ * [Direct Link Dedicated Classic](/docs/infrastructure/direct-link?topic=direct-link-direct-link-dedicated-solution)
+ * [Direct Link Dedicated Hosting Classic](/docs/infrastructure/direct-link?topic=direct-link-direct-link-dedicated-hosting-solution)
+ * [Direct Link Exchange Classic](/docs/infrastructure/direct-link?topic=direct-link-direct-link-exchange-solution)
 
 ## How do I know which type of IBM Cloud Direct Link I need?
 
-You can use the flow chart in the figure to help you decide.
+You can use this decision tree to help you decide.
 
-![direct-link-decision-tree](/images/direct-link-decision-tree.png)
+![direct-link-decision-tree](/images/flow.png)
+
+Currently, the new Direct Link Dedicated is a "limited availability" release, offered in North America (Washington, D.C. and Dallas markets) with more locations being rolled out in the new year. See [What's new?](/docs/direct-link?topic=direct-link-what-s-new) for more information.
+{: note}
 
 ## Learn more
 
-If you require a diverse and redundant Direct Link deployment, you can review our [Models for Diversity and Redundancy document](/docs/infrastructure/direct-link?topic=direct-link-models-for-diversity-and-redundancy-in-direct-link).
+If you require a diverse and redundant Direct Link Classic deployment, you can review the [Models for diversity and redundancy document](/docs/infrastructure/direct-link?topic=direct-link-models-for-diversity-and-redundancy-in-direct-link).
 
-If you require a diverse, redundant, or multi-cloud deployment for Direct Link Exchange or Direct Link Connect, you can review our [Alternatives document](/docs/infrastructure/direct-link?topic=direct-link-alternatives-for-your-ibm-cloud-direct-link-deployment).
+If you require a diverse, redundant, or multi-cloud deployment for Direct Link Connect Classic or Direct Link Exchange Classic, you can review the [Alternatives document](/docs/infrastructure/direct-link?topic=direct-link-alternatives-for-your-ibm-cloud-direct-link-deployment).
