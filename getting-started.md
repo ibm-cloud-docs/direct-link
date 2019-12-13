@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-03-28"
+lastupdated: "2019-12-13"
 
 keywords: hybrid, workloads, deployments, multi-cloud, data transfer, descriptions, diverse, redundant
 

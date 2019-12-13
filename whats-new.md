@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-21"
+lastupdated: "2019-12-13"
 
 keywords: Intercloud, Frankfurt, PoPs, Connect, Exchange, Chennai, Equinix, Megaport, Kinx, diversity, Bluefringe, CenturyLink, BT, Sao Paulo, Tokyo, Japan, PCCW, Colt, blog, service provider, partner, Telia, Internexion, Packet Fabric, global routing, expanded market
 
@@ -34,13 +34,13 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct L
 ## December 2019
 {: #december-2019}
 
-IBM introduces a new Direct Link Dedicated release for VPC&mdash;the first of our "next generation" Direct Link offerings.  Currently, this "limited availability" release is available only in the N/S America geography (Washington, D.C. and Dallas markets) with more locations being rolled out in 2020. 
+IBM introduces a new Direct Link Dedicated release for VPC&mdash;the first of our "next generation" Direct Link offerings.  Currently, this "limited availability" release is available only in the North America geography (Washington, D.C. and Dallas markets) with more locations being rolled out in 2020. 
 
 Highlights include:
 
 * Metered billing, which lowers the barrier of entry to IBM Cloud.
 * Support for connections to multiple IBM Cloud accounts from a single direct link.
-* Support for multiple VPCs (without Classic Access) from a single Direct Link within the same account.
+* Support for multiple VPCs (without classic access) from a single Direct Link within the same account.
 * Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and IBM Cloud.
 
 Capabilities coming soon:
