@@ -29,7 +29,7 @@ subcollection: direct-link
 # Getting started with IBM Cloud Direct Link Classic
 {: #get-started-with-ibm-cloud-direct-link}
 
-{{site.data.keyword.cloud}} Direct Link Classic is a suite of four offerings from the {{site.data.keyword.cloud_notm}} network, with availability in locations around the globe. Each one enables customers to create direct, private connections between their remote network environments and their {{site.data.keyword.cloud_notm}} deployments, without touching the public internet. Most commonly, these offerings are implemented to support private, hybrid, and cross-provider workloads, as well as large or frequent data transfers, and the easing of {{site.data.keyword.cloud_notm}} environment administration. 
+{{site.data.keyword.cloud}} Direct Link Classic is a suite of four offerings from the {{site.data.keyword.cloud_notm}} network, with availability in locations around the globe. Each one enables customers to create direct, private connections between their remote network environments and their {{site.data.keyword.cloud_notm}} deployments, without touching the public internet. Most commonly, these offerings are implemented to support private, hybrid, and cross-provider workloads, as well as large or frequent data transfers, and the easing of {{site.data.keyword.cloud_notm}} environment administration.
 {:shortdesc}
 
 ## Browse and order
@@ -37,7 +37,7 @@ subcollection: direct-link
 
 To get started using IBM Cloud Direct Link Classic, review this documentation and decide which solution works best for you. If you want more help with getting started, you can either open an IBM Support case through the [IBM Cloud console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}, or contact your {{site.data.keyword.cloud_notm}} sales representative.
 
-When you're ready to order, follow the [step-by-step instructions](/docs/infrastructure/direct-link?topic=direct-link-order-ibm-cloud-direct-link) for the specific Direct Link Classic solution that you need.
+When you're ready to order, follow the step-by-step instructions for the specific Direct Link Classic solution that you need.
 
 After you place your order, you'll be asked to complete a questionnaire related to your solution and workload requirements. You'll also be able to review our terms of service.
 
