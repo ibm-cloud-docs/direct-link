@@ -26,10 +26,10 @@ subcollection: direct-link
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# Direct Link Connect Classic questionnaire
+# Direct Link Connect on Classic questionnaire
 {: #ibm-cloud-direct-link-connect-classic-questionnaire}
 
-Thank you for opening a request for IBM Cloud™ Direct Link Classic. To finalize your request, we’d like to gather some additional information from you. You can speak with an engineer at any time during the questionnaire process. After you've completed the questionnaire, it is reviewed by our Cloud Design Engineering team and escalated to Special Network Services for implementation.
+Thank you for opening a request for IBM Cloud™ Direct Link on Classic. To finalize your request, we’d like to gather some additional information from you. You can speak with an engineer at any time during the questionnaire process. After you've completed the questionnaire, it is reviewed by our Cloud Design Engineering team and escalated to Special Network Services for implementation.
 {:shortdesc}
 
 ## Do you acknowledge and agree to the following?
@@ -57,7 +57,7 @@ Thank you for opening a request for IBM Cloud™ Direct Link Classic. To finaliz
 11. IBM Cloud Direct Link Connect requires BGP to implement routes to a customer's remote network. When your Direct Link service has been deployed, IBM Cloud advertises all of the private subnets that are assigned to your account. IBM Cloud will not implement custom filters, AS-Path prepend and custom local-preference to advertisements to the Customer's remote BGP peer. IBM Cloud does not implement filters on the advertisements received to IBM Cloud. Customers need to properly manage the advertisements to and from IBM Cloud from the customer's edge router. 
 
 ## Other questions
-{: #connect-other-questions}
+{: #connect-classic-other-questions}
 
 * Do you acknowledge and accept the pricing of _YOUR LOCATION_ for the IBM Cloud Direct Link Connect connection?
 
@@ -67,7 +67,7 @@ Thank you for opening a request for IBM Cloud™ Direct Link Classic. To finaliz
 
     _If yes, include the case ID for the other connection._   Case Number: ____________
 
-   ECMP can be provisioned only on two sessions on the same IBM Cloud XCR. If ECMP is what you want, know that both Direct Links must land on the same router.) 
+   ECMP can be provisioned only on two sessions on the same IBM Cloud XCR. If ECMP is what you want, know that both Direct Links must land on the same router.)
 {: note}
 
 * Do you require local or global routing access?

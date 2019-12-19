@@ -26,7 +26,7 @@ subcollection: direct-link
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# Direct Link Exchange Classic questionnaire
+# Direct Link Exchange on Classic questionnaire
 {: #ibm-cloud-direct-link-exchange-questionnaire}
 
 Thank you for opening a request for IBM Cloud™ Direct Link Exchange. To finalize your request, we’d like to gather some additional information from you. You can speak with an engineer at any time during the questionnaire process. After you've completed the questionnaire, it is reviewed by our Cloud Design Engineering team and escalated to Special Network Services for implementation.
@@ -61,7 +61,7 @@ Thank you for opening a request for IBM Cloud™ Direct Link Exchange. To finali
 * Do you acknowledge and accept the pricing of _YOUR LOCATION_ for the IBM Cloud Direct Link Exchange connection?
 * IBM Cloud assigns a private ASN to you for purposes of configuring BGP to advertise your remote networks to your IBM Cloud Private network. Is this private ASN acceptable, or would you prefer to use your own public ASN?
 * Do you require BGP MultiPath with ECMP to be configured for setting up a redundant connection to IBM Cloud?
- 
+
    _If yes, include the case ID for the other connection._   Case Number: ____________
 
    ECMP can be provisioned only on two sessions on the same IBM Cloud XCR. If ECMP is what you want, know that both Direct Links must land on the same router.

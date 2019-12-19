@@ -26,13 +26,13 @@ subcollection: direct-link
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# Configuring Direct Link Classic
+# Configuring Direct Link on Classic
 {: #configure-ibm-cloud-direct-link}
 
-After your {{site.data.keyword.cloud}} Direct Link Classic connectivity is established, you can follow the steps that are given in this document to configure your subnet to interact with {{site.data.keyword.cloud_notm}}.
+After your {{site.data.keyword.cloud}} Direct Link on Classic connectivity is established, you can follow the steps that are given in this document to configure your subnet to interact with {{site.data.keyword.cloud_notm}}.
 {:shortdesc}
 
-In general, to get your Direct Link Classic connection working, you must do some basic network configuration steps, and then set up Border Gateway Protocol (BGP). During the setup process, an IBM engineer works with you to enable your network to use Virtual Routing Function (VRF) capability, which is required.
+In general, to get your Direct Link on Classic connection working, you must do some basic network configuration steps, and then set up Border Gateway Protocol (BGP). During the setup process, an IBM engineer works with you to enable your network to use Virtual Routing Function (VRF) capability, which is required.
 
 ## Basic network configuration
 {: #basic-network-configuration}

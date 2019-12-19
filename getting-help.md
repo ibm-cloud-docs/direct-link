@@ -31,7 +31,7 @@ subcollection: direct-link
 # Getting help and support
 {: #getting-help-and-support}
 
-If you have problems or questions when you use {{site.data.keyword.cloud}} Direct Link Classic, you can search for information or ask questions through one of the following forums. You can also open am IBM Support case in the [IBM Cloud console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}.
+If you have problems or questions when you use {{site.data.keyword.cloud}} Direct Link on Classic, you can search for information or ask questions through one of the following forums. You can also open am IBM Support case in the [IBM Cloud console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}.
 {:shortdesc}
 
 When you use the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.

@@ -29,7 +29,7 @@ subcollection: direct-link
 # Converting to virtual routing and forwarding
 {: #what-happens-during-the-account-conversion-process}
 
-Many {{site.data.keyword.cloud}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a _Customer VRF_, most commonly with a new Direct Link Classic subscription.
+Many {{site.data.keyword.cloud}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a _Customer VRF_, most commonly with a new Direct Link on Classic subscription.
 {:shortdesc}
 
 ## The conversion process

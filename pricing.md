@@ -26,13 +26,13 @@ subcollection: direct-link
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# Pricing for {{site.data.keyword.cloud_notm}} Direct Link Classic
+# Pricing for {{site.data.keyword.cloud_notm}} Direct Link on Classic
 {: #pricing-for-ibm-cloud-direct-link}
 
 Pricing for Direct Link Connect, Dedicated, and Exchange "classic" offerings is consistent for equivalent regions and bandwidth, as shown in the following monthly pricing tables.
 {:shortdesc}
 
-Direct Link Classic pricing does NOT include the additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.
+Direct Link on Classic pricing does NOT include the additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.
 {:note}
 
 ## Arranging for Direct Link connectivity
@@ -40,12 +40,12 @@ Direct Link Classic pricing does NOT include the additional charges by service p
 
 You, the customer, must arrange connectivity and billing with your service providers, independently of {{site.data.keyword.cloud_notm}}. See the list of Exchange and Connect providers at [IBM Cloud Direct Link Partners](https://www.ibm.com/cloud/direct-link/partners). Direct Link Dedicated creates a Letter Of Authorization / Connecting Facility Assignment (LOA/CFA), which is usable by any service provider who can reach the **Meet Me Room that is specified** on that LOA/CFA. The provider who is connecting to the LOA/CFA must include pricing for the cross-connect in their quote to you; {{site.data.keyword.cloud_notm}} does not order cross-connects on behalf of any customer.
 
-## Pricing for Direct Link Connect, Dedicated, and Exchange Classic
+## Pricing for Direct Link Connect, Dedicated, and Exchange on Classic
 {: #pricing-for-ibm-cloud-exchange-connect-and-dedicated}
 
 If your browser shows these tables with speeds less than 1 Gbps, use your mouse or trackpad to scroll this page horizontally.
 
-## Pricing for Direct Link Connect Classic
+## Pricing for Direct Link Connect on Classic
 {: #pricing-for-direct-link-connect}
 
 | Region | 50 Mbps | 100 Mbps | 200 Mbps | 500 Mbps | 1 Gbps | 2 Gbps | 5 Gbps |
@@ -57,7 +57,7 @@ If your browser shows these tables with speeds less than 1 Gbps, use your mouse 
 | Japan / Singapore / Hong Kong | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 |
 | Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
 
-## Pricing for Direct Link Dedicated Classic
+## Pricing for Direct Link Dedicated on Classic
 {: #pricing-for-direct-link-dedicated}
 
 | Region | 1 Gbps | 2 Gbps | 5 Gbps | 10 Gbps |
@@ -69,14 +69,14 @@ If your browser shows these tables with speeds less than 1 Gbps, use your mouse 
 | Japan / Singapore / Hong Kong | $1,355 | $2,259 | $4,238 | $5,649 |
 | Australia / Brazil / India | $1,439 | $2,399 | $4,500| $5,999 |
 
-## Pricing for Direct Link Dedicated Hosting Classic
+## Pricing for Direct Link Dedicated Hosting on Classic
 {: #pricing-for-direct-link-dedicated-hosting}
 
 {{site.data.keyword.cloud_notm}} Direct Link Dedicated Hosting requests and pricing are handled on a transactional basis to account for regional differences in vendor availability and pricing.
 
 The Direct Link Dedicated Hosting minimum configuration includes one (1) rack with 5Kw of power and two ports at chosen speed. More colocation add-ons are available.
 
-## Pricing for Direct Link Exchange Classic
+## Pricing for Direct Link Exchange on Classic
 {: #pricing-for-direct-link-exchange}
 
 | Region | 50 Mbps | 100 Mbps | 200 Mbps | 500 Mbps | 1 Gbps |2 Gbps | 5 Gbps |

@@ -26,7 +26,7 @@ subcollection: direct-link
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# Direct Link Dedicated Classic questionnaire
+# Direct Link Dedicated on Classic questionnaire
 {: #ibm-cloud-direct-link-dedicated-questionnaire}
 
 Thank you for opening a request for IBM Cloud™ Direct Link Dedicated. To finalize your request, we’d like to gather some additional information from you. You can speak with an engineer at any time during the questionnaire process. After you've completed the questionnaire, it is reviewed by our Cloud Design Engineering team and escalated to Special Network Services for implementation.
@@ -62,7 +62,7 @@ Thank you for opening a request for IBM Cloud™ Direct Link Dedicated. To final
 
    _If yes, include the case ID for the other connection._   Case Number: ____________
 
-   ECMP can be provisioned only on two sessions on the same IBM Cloud XCR. If ECMP is what you want, know that both Direct Links must land on the same router. 
+   ECMP can be provisioned only on two sessions on the same IBM Cloud XCR. If ECMP is what you want, know that both Direct Links must land on the same router.
 {: note}
 
 * Do you require local or global routing access?

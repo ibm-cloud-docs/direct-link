@@ -27,7 +27,7 @@ subcollection: direct-link
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# Direct Link Dedicated Hosting Classic questionnaire
+# Direct Link Dedicated Hosting on Classic questionnaire
 {: #ibm-cloud-direct-link-dedicated-hosting-questionnaire}
 
 Thank you for opening a request for IBM Cloud™ Direct Link Dedicated Hosting. To finalize your request, we’d like to gather some additional information from you. You can speak with an engineer at any time during the questionnaire process. After you've completed the questionnaire, it is reviewed by our Cloud Design Engineering team and escalated to Special Network Services for implementation.

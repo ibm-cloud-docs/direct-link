@@ -26,7 +26,7 @@ subcollection: direct-link
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# Models for diversity and redundancy in Direct Link Classic
+# Models for diversity and redundancy in Direct Link on Classic
 {: #models-for-diversity-and-redundancy-in-direct-link}
 
 This document gives a series of schematics that are related to issues of redundancy and diversity, which can help you find a model for creating the most successful {{site.data.keyword.cloud}} Direct Link deployment to meet your needs. The schematics are arranged in increasing levels of complexity and also according to the Direct Link offering that each one is illustrating. Direct Link is not an inherently redundant service at the cross-connect router (XCR), customers have the responsibility for creating redundancy through their border gateway protocol (BGP) schemas.

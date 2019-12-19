@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="direct-link" category="network,databases" audience="service" href="/docs/infrastructure/direct-link/getting-started.html" path="infrastructure/direct-link"}
-Direct Link Classic
+Direct Link on Classic
 
     {: .navgroup id="learn"}
     getting-started.md
