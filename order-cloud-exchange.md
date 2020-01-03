@@ -37,6 +37,7 @@ To determine which Direct Link solution is best for your networking environment,
 {: tip}
 
 ## Direct Link ordering process overview
+{: # ordering-process-overview-exchange}
 
 Here is the general process to order a Direct Link service:
 
