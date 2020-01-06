@@ -27,7 +27,7 @@ subcollection: direct-link
 {:download: .download}  
 
 # Ordering Direct Link Exchange on Classic
-{: # how-to-order-ibm-cloud-direct-link-exchange}
+{: #how-to-order-ibm-cloud-direct-link-exchange}
 
 As you prepare to order IBM Cloud Direct Link, review the general process your organization will follow for obtaining the Direct Link Exchange service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
 {:shortdesc}
@@ -37,7 +37,7 @@ To determine which Direct Link solution is best for your networking environment,
 {: tip}
 
 ## Direct Link ordering process overview
-{: # ordering-process-overview-exchange}
+{: #ordering-process-overview-exchange}
 
 Here is the general process to order a Direct Link service:
 
