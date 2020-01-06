@@ -33,6 +33,7 @@ Thank you for opening a request for IBM Cloud™ Direct Link on Classic. To fina
 {:shortdesc}
 
 ## Do you acknowledge and agree to the following?
+{: #ibm-cloud-direct-link-connect-agreement}
 
 1. Each Direct Link connection requires a unique order. If you require multiple connections, open separate Direct Link orders for each connection.
 2. The fees for your Direct Link Connect service cover the cost of service termination on the IBM Cloud infrastructure.

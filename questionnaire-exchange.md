@@ -32,6 +32,7 @@ subcollection: direct-link
 Thank you for opening a request for IBM Cloud™ Direct Link Exchange. To finalize your request, we’d like to gather some additional information from you. You can speak with an engineer at any time during the questionnaire process. After you've completed the questionnaire, it is reviewed by our Cloud Design Engineering team and escalated to Special Network Services for implementation.
 
 ## Do you acknowledge and agree to the following?
+{: #ibm-cloud-direct-link-exchange-agreement}
 
 1. Each Direct Link connection requires a unique order. If you require multiple connections, you must open separate Direct Link orders for each connection.
 2. The fees for your Direct Link Exchange service cover the cost of service termination on the IBM Cloud infrastructure.
