@@ -35,7 +35,7 @@ By definition, virtual routing and forwarding (VRF) is a technology that is incl
 ## Connectivity options for {{site.data.keyword.cloud_notm}}
 {: #connectivity-options-for-ibm-cloud}
 
-Dispersed cloud resources are resources in more than one location or in more than one subnet or VLAN. These types of resources require a routing function to communicate among themselves, even within a private network context. This document describes a "multiple isolation" tenancy communication option, which often is called a _Customer VRF_. It is implemented as an MPLS Layer-3 VPN (RFC 4364) across the global {{site.data.keyword.cloud}} backbone.
+Dispersed cloud resources are resources in more than one location or in more than one subnet or VLAN. These types of resources require a routing function to communicate among themselves, even within a private network context. This document describes a "multiple isolation" tenancy communication option, which is often called a _Customer VRF_. It is implemented as an MPLS Layer-3 VPN (RFC 4364) across the global {{site.data.keyword.cloud}} backbone.
 
 In general, the {{site.data.keyword.cloud_notm}} platform offers two options for routing across our private network, providing connectivity across pods and data centers:
 
@@ -43,7 +43,7 @@ In general, the {{site.data.keyword.cloud_notm}} platform offers two options for
 
 2. **Shared tenancy:** A common logical network, which is shared by all tenants who use this model, with separation provided by automated Access Control Lists (ACLs), and enabled with VLAN spanning. This option is not described in this document.
 
-The term **Customer VRF** is used to describe _multiple isolation_ network connectivity.
+The term _Customer VRF_ is used to describe _multiple isolation_ network connectivity.
 {: tip}
 
 ## VRF overview: Multiple isolation technology

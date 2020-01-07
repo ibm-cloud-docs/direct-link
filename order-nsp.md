@@ -67,7 +67,7 @@ Your IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastruc
 Your IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastructure is completed within three business days after the cross connect is complete.
 
 ## Steps to order Direct Link Dedicated on Classic
-{: #steps-to-order-direct-link-dedicated-classic}
+{: #steps-to-order-direct-link-dedicated}
 
 To provision a Direct Link Connect order, complete the following steps:
 

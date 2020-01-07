@@ -100,7 +100,7 @@ Our Direct Link Connect providers include these locations:
 | Intercloud | Amsterdam 2, Frankfurt 1, Frankfurt 3 |
 | IXReach | Washington DC 2 |
 | Megaport | **APAC:** Hong Kong 1 (no diversity) , Melbourne 2, Singapore 2, Sydney 2<br />**EU:** Amsterdam 2 (no diversity), Frankfurt 1 (no diversity), London 3 (no diversity), Stockholm 1 (no diversity)<br />**Americas:** Chicago 1, Dallas 4, San Jose 2 (no diversity),  Toronto 2 (no diversity), Washington DC 2 |
-| MWS GNPP |  **EU:** Amsterdam 2 (no diversity), Frankfurt 3 (no diversity)<br />**Americas:** Dallas 3, Washington DC 2 |
+| MWS GNPP |  **EU:** Amsterdam 2 (no diversity), Frankfurt 3 <br />**Americas:** Dallas 3, Washington DC 2 |
 | Neutrona |  Dallas 3, Sao Paulo 2, Washington DC 2 |
 | NTT | Tokyo 5 |
 | PacketFabric | Dallas 4, San Jose 2, Washington DC 2 |

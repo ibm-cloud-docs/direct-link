@@ -33,7 +33,7 @@ subcollection: direct-link
 Thank you for opening a request for IBM Cloud™ Direct Link Dedicated Hosting. To finalize your request, we’d like to gather some additional information from you. You can speak with an engineer at any time during the questionnaire process. After you've completed the questionnaire, it is reviewed by our Cloud Design Engineering team and escalated to Special Network Services for implementation.
 
 ## Do you acknowledge and agree to the following?
-{: #ibm-cloud-direct-link-dh-agreement}
+{: #ibm-cloud-direct-link-dl-agreement}
 
 1. The fees that are outlined in this questionnaire cover the cost of service termination into the IBM Cloud network infrastructure. Colocation costs, including cabinets, cross-connect, etc. include monthly and non-recurring fees that are outlined separately as part of a colocation contract.
 2. Direct Link Dedicated Hosting provides 1 Gbps or 10 Gbps fiber cross connects into the IBM Cloud Private network. You need to provide a router or a Layer 3 switch that can support single mode fiber (SMF) uplinks. The deployment time can vary based on your circuit provider. Typical deployment time for this service is 30 - 60 days.
