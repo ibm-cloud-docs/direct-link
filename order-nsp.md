@@ -98,83 +98,83 @@ To provision a Direct Link Connect order, complete the following steps:
 
 The table gives details about the {{site.data.keyword.cloud_notm}} data centers where Direct Link Dedicated is available:
 
-|**IBM Location Code** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
-|-----------------|-----------------|--------------------|--------------------|
-| **APAC** | | | |
-| Chennai 1 | Tata | PH-01 | 226, Red Hills Road, Kallikuppam, Ambattur |
-| Hong Kong 1 | Mega-I (via Telstra) | Mega-I (iAdvantage Hong Kong) |29F, 399 Chai Wan Road |
-| Hong Kong 2 | Digital Realty | HKG10 |33 Chun Choi Street, Yan Hing Industrial Building |
-| Melbourne 1 | Digital Realty | MEL11 | 72 Radnor Drive, Deer Park |
-| Melbourne 2 | NextDC | M2 | 820 Lorimer Street, Port Melbourne |
-| Osaka 1 (PoP only)| Equinix | OS1 |  |
-| Perth 1 (PoP only)| Metronode | F1Z | 60 Randell St, Shenton Park, Western Australia |
-| Seoul 1 | C&C | Seoul01 | 46, Pangyo-ro 255beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do |
-| Seoul 2 | KINX | KINX Bundang IDC | 3F Hostway IDC, 343-1 Yatap-dong, Gyeonggi-do |
-| Singapore 1 | Digital Realty | SIN10 | 29A International Business Park, S180 |
-| Singapore 2 | Equinix | SG1 | 20 Ayer Rajan Crescent Industrial Park |
-| Sydney 1 | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
-| Sydney 2 | Equinix | SY3 | 47 Bourke Rd |
-| Sydney 3 | NextDC | S1 | 4 Eden Park Drive, Macquarie Park |
-| Sydney 4 | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
-| Sydney 5 | Equinix | SY4 | 200 Bourke Rd |
-| Tokyo 1 | Equinix | TY2 | |
-| Tokyo 2 | At Tokyo | CC2 |  |
-| Tokyo 3 | Equinix | TY4 | |
-| Tokyo 4 | SoftBank | | |
-| Tokyo 5 | NTT | | |
-| **EMEA** |  |  |
-| Amsterdam 2 | Equinix | AM1 / AM2 | Larrderhoogtweg 57 |
-| Amsterdam 3 | KPN | Amsterdam 3 | Rondebeltweg 62 |
-| Frankfurt 1 | InterXion | FRA01 | Hanauer Landstrasse 302 |
-| Frankfurt 2 | Zenium | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
-| Frankfurt 3 | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
-| Frankfurt 4 | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H |
-| Frankfurt 5 | InterXion | FRA05 | Weismüllerstraße 40 |
-| London 1 | Equinix (fTelecity) | LD8 | 6/7 Harbour Exchange E14 9GE |
-| London 2 | Digital Realty | LHR13 | Fountain Court, Cox Lane |
-| London 3 | Equinix | LD5 | 8 Buckingham Ave |
-| London 4 | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
-| London 6 | Zenium | LON1 | 12 Liverpool Rd, Trading Estate |
-| Milan 1 | Data IV | | Via Monzoro 101-105, 20010 Cornaredo (MI) |
-| Milan 2 | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21|
-| Oslo 1 | EVRY | DigiPlex - Fetsund | 9,, Heiaveien, 1900 Fetsund |
-| Oslo 2 | Verizon | Verizon Oslo | Hans Møller Gassmanssvei 9 |
-| Paris 1 | Global Switch | PAR01 | Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit |
-| Paris 2 | Equinix | PA2 | 114 Rue Ambroise Croizat, St Denis |
-| Stockholm 1 (PoP only) | InterXion | STO01 | Esbogatan 11 |
-|  |  |  |
-| **IBM PoP / Data Center Code** | **Meet Me Room Operator** | **Operator Site Code** |
-| **Americas** |  |  |
-| Atlanta 1 (PoP only)| Digital Realty | ATL13 | 56 Marietta Street |
-| Chicago 1 (PoP only)| Equinix | CH4 | 350 E. Cermak |
-| Dallas 3 | Equinix | DA1 | 1950 N. Stemmons Freeway |
-| Dallas 4 | Digital Realty | DFW14 | 2323 Bryan St |
-| Dallas 9 | Digital Realty | DFW35 | 900 Quality Way |
-| Dallas 10 | QTS | IRV | 6431 Longhorn Drive |
-| Dallas 12 |Digital Realty | DFW18 | 907 Security Row |
-| Dallas 13 | Cyrus One | Carrollton - Frankford | 1649 W. Frankford Rd |
-| Denver 1 (PoP only) | Coresite | DE1 | 910 15th Street |
-| Houston 2 (PoP only) | IBM | HOU02 | 855 Greens Parkway |
-| Los Angeles 1 (PoP only) | Coresite | LA1 | 624 S. Grand Ave. AKA 1 Wilshire Blvd |
-| Mexico 1 | Alestra | Alestra Queretaro Datacenter | Lateral Carretera Estatal 431, Parque Tecnologico Inovacion Lote 79, El Marqués |
-| Miami 1 (PoP only) | Terremark / Verizon | NAP | 50 NE 9th Street |
-| Montreal 1 | COLO-D | COLO-D1 | 2525 Rue Canadien |
-| Montreal 2 | Cologix | MTL7 | 1155  Robert – Bourassa Boulevard (Formerly Known as University Street) |
-| New York City 2 (PoP only) | Equinix | NY4 | 755 Secaucus Rd, Secaucus, NJ |
-| New York City 3 (PoP only) | Equinix | NY5 | 800 Secaucus Rd, Secaucus, NJ |
-| Sao Paulo 1 | Ascenty | SP1 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
-| Sao Paulo 2 | Equinix | SP2 | Alameda Araguaia, 3641 - Alphaville, Barueri |
-| Seattle 2 | The Westin Building | WBX | 2001 6th Avenue |
-| San Jose 2 | Equinix | SV1 | 11 Great Oaks Blvd |
-| San Jose 3 | Digital Realty | SJC31 | 1100 Space Park Drive |
-| San Jose 4 | Infomart | SJC1 | 2001 Fortune Drive |
-| Toronto 1 | Digital Realty | YYZ11 | 371 Gough Rd |
-| Toronto 2 | Cologix | TOR1 | 151 Front Street |
-| Washington DC 2 | Equinix | DC2 | 21715 Filigree Ct |
-| Washington DC 4 | Digital Realty | IAD38 | 44060 Digital Loudoun Plaza (Bldg K) |
-| Washington DC 5 | Coresite | DC2 | 12098 Sunrise Valley Dr |
-| Washington DC 6 | Raging Wire | VA2 | 44610 Guilford Drive |
-| Washington DC 7 | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr|
+|**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** | **Operator Address** |
+|-----------------|-----------------|-----------------|--------------------|--------------------|
+| **APAC** | | | | |
+| Chennai 1 | DC | Tata | PH-01 | 226, Red Hills Road, Kallikuppam, Ambattur |
+| Hong Kong 1 | PoP | Mega-I (via Telstra) | Mega-I (iAdvantage Hong Kong) |29F, 399 Chai Wan Road |
+| Hong Kong 2 | DC | Digital Realty | HKG10 |33 Chun Choi Street, Yan Hing Industrial Building |
+| Hong Kong 3 | PoP | Equinix | HKG2 | 17/F Kerry Warehouse |
+| Melbourne 1 | DC | Digital Realty | MEL11 | 72 Radnor Drive, Deer Park |
+| Melbourne 2 | PoP |NextDC | M2 | 820 Lorimer Street, Port Melbourne |
+| Osaka 1 | PoP | Equinix | OS1 |  |
+| Perth 1 | PoP | Metronode | F1Z | 60 Randell St, Shenton Park, Western Australia |
+| Seoul 1 | DC | C&C | Seoul01 | 46, Pangyo-ro 255beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do |
+| Seoul 2 | PoP | KINX | KINX Bundang IDC | 3F Hostway IDC, 343-1 Yatap-dong, Gyeonggi-do |
+| Singapore 1 | DC | Digital Realty | SIN10 | 29A International Business Park, S180 |
+| Singapore 2 | PoP | Equinix | SG1 | 20 Ayer Rajan Crescent Industrial Park |
+| Sydney 1 | DC(AZ1) | Global Switch | SYD01 | 400 Harris Street aka 273 Pyrmont St Ultimo  |
+| Sydney 2 | PoP | Equinix | SY3 | 47 Bourke Rd |
+| Sydney 3 | PoP | NextDC | S1 | 4 Eden Park Drive, Macquarie Park |
+| Sydney 4 | DC(AZ2) | Digital Realty | SYD10 | 1-11 Templar Rd, Erskine Park |
+| Sydney 5 | DC(AZ3) | Equinix | SY4 | 200 Bourke Rd |
+| Tokyo 1 | PoP | Equinix | TY2 | |
+| Tokyo 2 | DC(AZ1) | At Tokyo | CC2 |  |
+| Tokyo 3 | PoP | Equinix | TY4 | |
+| Tokyo 4 | DC(AZ2) | SoftBank | | |
+| Tokyo 5 | DC(AZ3) | NTT | | |
+| **EMEA** |  |  |  |
+| Amsterdam 2 | PoP | Equinix | AM1 / AM2 | Larrderhoogtweg 57 |
+| Amsterdam 3 | DC | KPN | Amsterdam 3 | Rondebeltweg 62 |
+| Frankfurt 1 | PoP | InterXion | FRA01 | Hanauer Landstrasse 302 |
+| Frankfurt 2 | DC(AZ1) | Zenium | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
+| Frankfurt 3 | PoP | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
+| Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H |
+| Frankfurt 5 | DC(AZ3) | InterXion | FRA05 | Weismüllerstraße 40 |
+| London 1 | PoP | Equinix (fTelecity) | LD8 | 6/7 Harbour Exchange E14 9GE |
+| London 2 | DC | Digital Realty | LHR13 | Fountain Court, Cox Lane |
+| London 3 | PoP | Equinix | LD5 | 8 Buckingham Ave |
+| London 4 | DC(AZ1) | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
+| London 5 | DC(AZ2) | Gyron |  | Maxted Cl, Hemel Hempstead  |
+| London 6 | DC(AZ3) | Zenium( Cyrus One) | LON1 | 12 Liverpool Rd, Trading Estate |
+| Milan 1 |  DC | Data IV | | Via Monzoro 101-105, 20010 Cornaredo (MI) |
+| Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21|
+| Oslo 1 | PoP | DigiPlex | DigiPlex - Fetsund | 9,, Heiaveien, 1900 Fetsund |
+| Oslo 2 | DC | Verizon | Verizon Oslo | Hans Møller Gassmanssvei 9 |
+| Paris 1 | DC | Global Switch | PAR01 | Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit |
+| Paris 2 | PoP | Equinix | PA2 | 114 Rue Ambroise Croizat, St Denis |
+| Stockholm 1 | PoP | InterXion | STO01 | Esbogatan 11 |
+| **Americas** |  |  |  |
+| Atlanta 1 | PoP | Digital Realty | ATL13 | 56 Marietta Street |
+| Chicago 1 | PoP | Equinix | CH4 | 350 E. Cermak |
+| Dallas 3 | PoP | Equinix | DA1 | 1950 N. Stemmons Freeway |
+| Dallas 4 | PoP | Digital Realty | DFW14 | 2323 Bryan St |
+| Dallas 9 | DC | Digital Realty | DFW35 | 900 Quality Way |
+| Dallas 10 | DC(AZ1) | QTS | IRV | 6431 Longhorn Drive |
+| Dallas 12 | DC(AZ1) | Digital Realty | DFW18 | 907 Security Row |
+| Dallas 13 | DC(AZ1) | Cyrus One | Carrollton - Frankford | 1649 W. Frankford Rd |
+| Denver 1 | PoP | Coresite | DE1 | 910 15th Street |
+| Houston 2 | PoP | IBM | HOU02 | 855 Greens Parkway |
+| Los Angeles 1 | PoP | Coresite | LA1 | 624 S. Grand Ave. AKA 1 Wilshire Blvd |
+| Mexico 1 | DC | Alestra | Alestra Queretaro Datacenter | Lateral Carretera Estatal 431, Parque Tecnologico Inovacion Lote 79, El Marqués |
+| Miami 1 | PoP | Terremark / Verizon | NAP | 50 NE 9th Street |
+| Montreal 1 | DC | COLO-D | COLO-D1 | 2525 Rue Canadien |
+| Montreal 2 | PoP | Cologix | MTL7 | 1155  Robert – Bourassa Boulevard (Formerly Known as University Street) |
+| New York City 2 | PoP | Equinix | NY4 | 755 Secaucus Rd, Secaucus, NJ |
+| New York City 3 | PoP | Equinix | NY5 | 800 Secaucus Rd, Secaucus, NJ |
+| Sao Paulo 1 | DC |Ascenty | SP1 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
+| Sao Paulo 2 | PoP | Equinix | SP2 | Alameda Araguaia, 3641 - Alphaville, Barueri |
+| Seattle 2 | PoP | The Westin Building | WBX | 2001 6th Avenue |
+| San Jose 2 | PoP | Equinix | SV1 | 11 Great Oaks Blvd |
+| San Jose 3 | DC | Digital Realty | SJC31 | 1100 Space Park Drive |
+| San Jose 4 | DC | Infomart | SJC1 | 2001 Fortune Drive |
+| Toronto 1 | DC | Digital Realty | YYZ11 | 371 Gough Rd |
+| Toronto 2 | PoP | Cologix | TOR1 | 151 Front Street |
+| Washington DC 2 | PoP | Equinix | DC2 | 21715 Filigree Ct |
+| Washington DC 4 | DC(AZ1) | Digital Realty | IAD38 | 44060 Digital Loudoun Plaza (Bldg K) |
+| Washington DC 5 | PoP | Coresite | DC2 | 12098 Sunrise Valley Dr |
+| Washington DC 6 | DC(AZ1) | Raging Wire | VA2 | 44610 Guilford Drive |
+| Washington DC 7 | DC(AZ1) | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr|
 
 ## Pricing
 {: #dedicated-pricing-classic}
