@@ -110,7 +110,7 @@ Our Direct Link Connect providers include these locations:
 | Telia | Stockholm 1 |
 | Telstra | Melbourne 2, Sydney 2 |
 | Tokai | Tokyo 3, Osaka 1 |
-| Verizon |  **APAC:**  Sydney 2 (no diversity) **EU:** Amsterdam 2, Frankfurt 1 <br />**Americas:** Dallas 3, San Jose 2, Washington DC 2  |
+| Verizon |  **APAC:**  Sydney 2 (no diversity), Tokyo 1 (no diversity) **EU:** Amsterdam 2, Frankfurt 1 (no diversity) <br />**Americas:** Dallas 3, San Jose 2, Washington DC 2  |
 | Vodafone | Frankfurt 3 (no Diversity) |
 | Zayo | Dallas 3,  Toronto 2, Washington DC 2 |
 
