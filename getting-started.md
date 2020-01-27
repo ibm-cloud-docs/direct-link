@@ -54,7 +54,7 @@ You can use this decision tree to help you decide.
 
 ![direct-link-decision-tree](/images/flow.png)
 
-Currently, the new Direct Link Dedicated is a "limited availability" release, offered in North America (Washington, D.C. and Dallas markets) with more locations being rolled out in the new year. See [What's new?](/docs/direct-link?topic=direct-link-what-s-new) for more information.
+Currently, the new Direct Link Dedicated is a "limited availability" release, offered in North America (Washington, D.C. and Dallas markets) with more locations being rolled out in the new year. See [Release notes](/docs/direct-link?topic=direct-link-what-s-new) for more information.
 {: note}
 
 ## Learn more
