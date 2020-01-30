@@ -72,7 +72,7 @@ As stated in the preceding section, BGP is mandatory for managing your routing t
  * Inter-account VLAN spanning isn't allowed in the VRF environment.
  * IPSEC VPN service is limited.
 
-VRF doesn't prevent SSL or PPTP VPN access, but the behavior changes. Without VRF, one VPN connection is enough to see all servers on your account. With VRF, you can access resources only in the market that is associated with your VPN. So if you connect to the DAL VPN, you can connect to DAL servers only.
+VRF doesn't prevent SSL VPN access, but the behavior changes. Without VRF, one VPN connection is enough to see all servers on your account. With VRF, you can access resources only in the market that is associated with your VPN. So if you connect to the DAL VPN, you can connect to DAL servers only.
 {: note}
 
 IBM Cloud ASN is **13884**, for public and private services.
@@ -109,14 +109,14 @@ All accounts that use an {{site.data.keyword.cloud_notm}} Direct Link solution m
 
 Migrating to a VRF is done during the setup process. It requires a short outage window (up to 30 minutes for large accounts with multiple VLANs/locations), during which the backend network VLANs lose mutual connectivity while they are moved to the VRF. The VRF migration is scheduled with the implementing engineer.
 
-VRF eliminates the "VLAN Spanning" option for your account, including any account-to-account VLAN spanning capabilities, because all VLANs are able to communicate unless a gateway appliance is introduced to manage traffic. VRF also limits the ability to use {{site.data.keyword.cloud_notm}} VPN services because it is not compatible with {{site.data.keyword.cloud_notm}} SSL, PPTP, and IPSec VPN services.   
+VRF eliminates the "VLAN Spanning" option for your account, including any account-to-account VLAN spanning capabilities, because all VLANs are able to communicate unless a gateway appliance is introduced to manage traffic. VRF also limits the ability to use {{site.data.keyword.cloud_notm}} VPN services because it is not compatible with {{site.data.keyword.cloud_notm}} SSL and IPsec VPN services.   
 
 An alternative is to use the IBM Cloud Direct Link offering itself to manage your servers, or to run your own VPN solution (such as a Vyatta) that can be configured with different types of VPN. After migrating to a VRF, SSL VPN typically works when a VPN connection is made to the same data center location in which a compute VM is running, but it does not allow access globally.
 
 ## Using BYOIP and NAT with Direct Link
 {: #using-byoip-and-nat-with-direct-link}
 
-IBM Cloud Direct Link does not offer BYOIP on the private network. Therefore, traffic with a destination IP address that was not assigned by {{site.data.keyword.cloud_notm}} are dropped. However, customers can encapsulate traffic between the remote network and their {{site.data.keyword.cloud_notm}} network that uses GRE, IPSec, or VXLAN.  
+IBM Cloud Direct Link does not offer BYOIP on the private network. Therefore, traffic with a destination IP address that was not assigned by {{site.data.keyword.cloud_notm}} are dropped. However, customers can encapsulate traffic between the remote network and their {{site.data.keyword.cloud_notm}} network that uses GRE, IPsec, or VXLAN.  
 
 Most commonly, the BYOIP environment is implemented within the scope of either a Network Gateway (Vyatta) or a VMWare NSX deployment. This configuration enables customers to use any desirable IP space on the {{site.data.keyword.cloud_notm}} side, and to route back across the tunnel to the remote network. This configuration must be managed and supported by the customer, independent of {{site.data.keyword.cloud_notm}}. Furthermore, this configuration can break connectivity to the {{site.data.keyword.cloud_notm}} services network if the customer assigns a 10.x.x.x block that {{site.data.keyword.cloud_notm}} has in use for services.
 

@@ -38,7 +38,7 @@ First, this section covers limitations that apply to all four {{site.data.keywor
  * The {{site.data.keyword.cloud_notm}} services network is not accessible directly from your remote networks.
  * {{site.data.keyword.cloud_notm}} does not permit customers to back haul traffic between their remote sites across the {{site.data.keyword.cloud_notm}} backbone. The Direct Link on Classic product is meant to let your remote networks communicate privately with your {{site.data.keyword.cloud_notm}} infrastructure.
  * Direct Link on Classic requires you to use a VRF (Virtual Routing and Forwarding) instance.
- * VRF is not fully compatible with the {{site.data.keyword.cloud_notm}} SSL and IPSec VPN services.
+ * VRF is not fully compatible with the {{site.data.keyword.cloud_notm}} SSL and IPsec VPN services.
  * VRF is not compatible with {{site.data.keyword.cloud_notm}} account-to-account VLAN spanning.
  * Direct Link on Classic requires BGP to establish the routes to a customer's remote network.
  * Changes to the Direct Link on Classic infrastructure must be made between 8AM and 5PM, US Central time zone.

@@ -71,7 +71,7 @@ To provision a Direct Link Connect order, complete the following steps:
 
       After you place your order, an IBM Support case number is generated. You can click the case number to view case details.
 
-7. You’ll be asked to complete a customer questionnaire, which you can review at [Direct Link Connect questionnaire](/docs/direct-link?topic=direct-link-ibm-cloud-direct-link-connect-questionnaire).
+7. You’ll be asked to complete a customer questionnaire, which you can review at [Direct Link Connect questionnaire](/docs/direct-link?topic=direct-link-ibm-cloud-direct-link-connect-classic-questionnaire).
 
 8. After you provision the direct link and complete the questionnaire, see [Configuring Direct Link on Classic](/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link) to configure your subnet to interact with IBM Cloud.
 
