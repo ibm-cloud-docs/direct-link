@@ -10,7 +10,6 @@ Direct Link on Classic
     about.md
     direct-link-july-policy-change.md
     whats-new.md
-    responsibilities.md
 
     {: .topicgroup}
     Pricing
@@ -41,7 +40,8 @@ Direct Link on Classic
     edit-link-speed-connect.md
     {: .navgroup-end}
 
-    {: .navgroup id="reference"}
+    {: .navgroup id="reference"}    
+    responsibilities.md
     external-resources.md
     understanding-latency.md
     vrf-on-ibm-cloud.md
