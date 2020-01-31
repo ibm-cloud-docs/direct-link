@@ -63,14 +63,14 @@ New local market assignments:
 * The Tokyo local market includes the Osaka PoP.
 * The Chennai local market includes the Mumbai PoP once launched.
 
-These changes are outlined in tables that are found at [Expanded IBM Direct Link local markets](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-cloud-direct-link-local-markets).
+These changes are outlined in tables that are found at [Expanded IBM Direct Link local markets](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-cloud-direct-link-local-markets).
 
 ## IBM Cloud Direct Link global routing pricing model
 {: #announce-ibm-cloud-direct-link-global-routing-pricing-model}
 
 With all IBM Cloud Direct Link offerings, network routing within a local market is standard. Effective on 1 July 2019, pricing for the Global Routing option is being aligned to the connection speed of the Direct Link connection. This alignment provides better value to customers across all connection speeds available for Direct Link offerings.
 
-Pricing is at [Pricing for global routing add-on](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-global-routing-add-on).
+Pricing is at [Pricing for global routing add-on](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-global-routing-add-on).
 
 ## IBM Cloud Direct Link global routing network transit overage charges
 {: #announce-ibm-cloud-direct-link-global-routing-network-transit-overage-charges}

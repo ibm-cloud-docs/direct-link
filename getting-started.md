@@ -43,10 +43,10 @@ After you place your order, you'll be asked to complete a questionnaire related 
 
 ## IBM Cloud Direct Link on Classic descriptions
 
- * [Direct Link Connect on Classic](/docs/infrastructure/direct-link?topic=direct-link-direct-link-connect-solution)
- * [Direct Link Dedicated on Classic](/docs/infrastructure/direct-link?topic=direct-link-direct-link-dedicated-solution)
- * [Direct Link Dedicated Hosting on Classic](/docs/infrastructure/direct-link?topic=direct-link-direct-link-dedicated-hosting-solution)
- * [Direct Link Exchange on Classic](/docs/infrastructure/direct-link?topic=direct-link-direct-link-exchange-solution)
+ * [Direct Link Connect on Classic](/docs/direct-link?topic=direct-link-direct-link-connect-solution)
+ * [Direct Link Dedicated on Classic](/docs/direct-link?topic=direct-link-direct-link-dedicated-solution)
+ * [Direct Link Dedicated Hosting on Classic](/docs/direct-link?topic=direct-link-direct-link-dedicated-hosting-solution)
+ * [Direct Link Exchange on Classic](/docs/direct-link?topic=direct-link-direct-link-exchange-solution)
 
 ## How do I know which type of IBM Cloud Direct Link I need?
 
@@ -59,6 +59,6 @@ Currently, the new Direct Link Dedicated is a "limited availability" release, of
 
 ## Learn more
 
-If you require a diverse and redundant Direct Link on Classic deployment, you can review the [Models for diversity and redundancy document](/docs/infrastructure/direct-link?topic=direct-link-models-for-diversity-and-redundancy-in-direct-link).
+If you require a diverse and redundant Direct Link on Classic deployment, you can review the [Models for diversity and redundancy document](/docs/direct-link?topic=direct-link-models-for-diversity-and-redundancy-in-direct-link).
 
-If you require a diverse, redundant, or multi-cloud deployment for Direct Link Connect on Classic or Direct Link Exchange on Classic, you can review the [Alternatives document](/docs/infrastructure/direct-link?topic=direct-link-alternatives-for-your-ibm-cloud-direct-link-deployment).
+If you require a diverse, redundant, or multi-cloud deployment for Direct Link Connect on Classic or Direct Link Exchange on Classic, you can review the [Alternatives document](/docs/direct-link?topic=direct-link-alternatives-for-your-ibm-cloud-direct-link-deployment).

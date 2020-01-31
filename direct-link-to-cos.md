@@ -178,7 +178,7 @@ http {
 }
 ```
 
-See [COS Endpoints](/docs/infrastructure/cloud-object-storage-infrastructure?topic=cloud-object-storage-infrastructure-select-regions-and-endpoints#select-regions-and-endpoints) for a list of private endpoints for use in these `proxy_pass` entries.
+See [COS Endpoints](/docs/cloud-object-storage-infrastructure?topic=cloud-object-storage-infrastructure-select-regions-and-endpoints#select-regions-and-endpoints) for a list of private endpoints for use in these `proxy_pass` entries.
 
 **Tips:**
 
@@ -200,7 +200,7 @@ For detailed instructions on how to provision bare metal servers, refer to the [
 {: #direct-link-how-to-provision-a-virtual-router-appliance}
 
 For detailed instructions on how to provision a VRA, see the
-[VRA Getting Started Guide](/docs/infrastructure/virtual-router-appliance?topic=virtual-router-appliance-getting-started#getting-started).
+[VRA Getting Started Guide](/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started#getting-started).
 
 ### Provisioning IBM Cloud Object Storage (COS)
 {: #direct-link-how-to-provision-ibm-cloud-object-storage}

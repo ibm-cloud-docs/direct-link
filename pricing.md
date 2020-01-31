@@ -129,7 +129,7 @@ For example, in the US South Market, Direct Link customers can send or retrieve 
 ## Pricing for the global routing add-on
 {: #pricing-for-global-routing-add-on}
 
-Global routing expands access to include all {{site.data.keyword.cloud_notm}} data centers globally. Bandwidth is unmetered and charged monthly based on the market. Details on the markets and other considerations can be found in our [FAQs](/docs/infrastructure/direct-link?topic=direct-link-faqs#what-are-the-local-routing-and-global-routing-options).
+Global routing expands access to include all {{site.data.keyword.cloud_notm}} data centers globally. Bandwidth is unmetered and charged monthly based on the market. Details on the markets and other considerations can be found in our [FAQs](/docs/direct-link?topic=direct-link-faqs#what-are-the-local-routing-and-global-routing-options).
 
 | Region | 50 Mbps | 100 Mbps | 200 Mbps | 500 Mbps | 1 Gbps | 2 Gbps | 5 Gbps | 10 Gbps |
 |----|----|----|----|----|----|----|----|----|

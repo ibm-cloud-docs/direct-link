@@ -143,4 +143,4 @@ For the accounts with no Virtual Routing and Forwarding (VRF) present, the **Sel
 ## Pricing
 {: #exchange-pricing}
 
-For more information, refer to the [pricing document](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-exchange).
+For more information, refer to the [pricing document](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-exchange).

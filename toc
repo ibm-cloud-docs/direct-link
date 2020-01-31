@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="direct-link" category="network,databases" audience="service" href="/docs/infrastructure/direct-link/getting-started.html" path="infrastructure/direct-link"}
+{: .toc subcollection="direct-link" category="network,databases" audience="service" href="/docs/direct-link/getting-started.html" path="direct-link"}
 Direct Link on Classic
 
     {: .navgroup id="learn"}
@@ -40,7 +40,7 @@ Direct Link on Classic
     edit-link-speed-connect.md
     {: .navgroup-end}
 
-    {: .navgroup id="reference"}    
+    {: .navgroup id="reference"}
     responsibilities.md
     external-resources.md
     understanding-latency.md

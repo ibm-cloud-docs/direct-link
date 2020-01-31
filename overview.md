@@ -48,4 +48,4 @@ For increased flexibility in creating this Layer-3 connectivity, {{site.data.key
  * NAT
  * Tunneling for BYOIP
 
-For detailed descriptions of each offering, see [About {{site.data.keyword.cloud_notm}} Direct Link](/docs/infrastructure/direct-link?topic=direct-link-about-ibm-cloud-direct-link).
+For detailed descriptions of each offering, see [About {{site.data.keyword.cloud_notm}} Direct Link](/docs/direct-link?topic=direct-link-about-ibm-cloud-direct-link).

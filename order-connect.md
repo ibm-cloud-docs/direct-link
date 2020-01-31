@@ -119,4 +119,4 @@ Our Direct Link Connect providers include these locations:
 ## Pricing
 {: #connect-pricing}
 
-For pricing information, see [Pricing for IBM Cloud Direct Link on Classic](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-connect).
+For pricing information, see [Pricing for IBM Cloud Direct Link on Classic](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-connect).

@@ -34,7 +34,7 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct L
 ## December 2019
 {: #december-2019}
 
-IBM introduces a new Direct Link Dedicated release for VPC&mdash;the first of our "next generation" Direct Link offerings.  Currently, this "limited availability" release is available only in the North America geography (Washington, D.C. and Dallas markets) with more locations being rolled out in 2020. 
+IBM introduces a new Direct Link Dedicated release for VPC&mdash;the first of our "next generation" Direct Link offerings.  Currently, this "limited availability" release is available only in the North America geography (Washington, D.C. and Dallas markets) with more locations being rolled out in 2020.
 
 Highlights include:
 
@@ -51,7 +51,7 @@ Capabilities coming soon:
 
 Stay tuned here for future release updates. To learn more about the new Direct Link offering, see [FAQs](/docs/dl?topic=dl-faqs){: external}.
 
-To determine which Direct Link Dedicated solution is right for your networking needs, see [How do I know which type of IBM Cloud Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#how-do-i-know-which-type-of-ibm-cloud-direct-link-i-need-). 
+To determine which Direct Link Dedicated solution is right for your networking needs, see [How do I know which type of IBM Cloud Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#how-do-i-know-which-type-of-ibm-cloud-direct-link-i-need-).
 {: tip}
 
 ## March 2019
@@ -62,7 +62,7 @@ March was a busy month for Direct Link.
 * To improve customer experience and provide greater value, we are enhancing the {{site.data.keyword.cloud_notm}} Direct Link global routing service.
 * We added several new partners for Direct Link Connect, which are listed later in this section.
 
-Review changes in the [global routing announcement](/docs/infrastructure/direct-link?topic=direct-link-announcement-global-routing-policy-change-begins-1-july-2019).
+Review changes in the [global routing announcement](/docs/direct-link?topic=direct-link-announcement-global-routing-policy-change-begins-1-july-2019).
 
 ### Expanded local markets
 {: #march-2019-expanded-local-markets}
@@ -80,7 +80,7 @@ New local market assignments:
 * The Tokyo local market includes the Osaka PoP once launched.
 * The Chennai local market includes the Mumbai PoP once launched.
 
-These changes are outlined in tables that are found at [Expanded IBM Direct Link local markets](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-cloud-direct-link-local-markets).
+These changes are outlined in tables that are found at [Expanded IBM Direct Link local markets](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-cloud-direct-link-local-markets).
 
 ### Withdrawing of global routing network transit overage charges
 {: #march-2019-withdrawing-of-global-routing-network-transit-overage-charges}

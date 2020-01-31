@@ -70,7 +70,7 @@ Direct Link does not provide an inherently Redundant service. Direct Link can pr
 {: #what-is-the-difference-between-the-default-local-routing-and-the-global-routing-add-on-for-direct-link}
 {:faq}
 
-The local routing option is the default routing option. If your Direct Link is connected at the local PoP, it provides access to all data centers within that same market. In some markets, local routing is applicable for stand-alone PoP locations and direct links that are terminated at the data center. Check [the list of expanded markets](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-cloud-direct-link-local-markets) for more information.   
+The local routing option is the default routing option. If your Direct Link is connected at the local PoP, it provides access to all data centers within that same market. In some markets, local routing is applicable for stand-alone PoP locations and direct links that are terminated at the data center. Check [the list of expanded markets](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-cloud-direct-link-local-markets) for more information.   
 
 With our standard Direct Link offering, you can send traffic between the data centers in your selected region. If you need access to other data centers outside of the specified region, you must order the global routing add-on. For example, you might use global routing to share workloads between dispersed IBM Cloud resources (such as Dallas to Ashburn, or Dallas to Frankfurt).
 
@@ -84,7 +84,7 @@ The global routing add-on prevents our customers from experiencing unexpected da
 {: #if-i-am-connected-to-a-direct-link-dedicated}
 {:faq}
 
-Yes, you are able to gain access to areas outside of your local market if you choose the global routing add-on. If this option is not selected, your Direct Link traffic is limited to the local market for the PoP or DC location you selected. Refer to the [pricing document](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link) for details.
+Yes, you are able to gain access to areas outside of your local market if you choose the global routing add-on. If this option is not selected, your Direct Link traffic is limited to the local market for the PoP or DC location you selected. Refer to the [pricing document](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link) for details.
 
 ## Can I connect to any available region from a given Direct Link location?
 {: #can-i-connect-to-any-available-region-from-a-given-direct-link-location}
@@ -194,7 +194,7 @@ There is no SLA on Direct Link today. Customers can achieve 99.999% effectively 
 {: #where-can-i-get-help-setting-up-a-direct-link}
 {:faq}
 
-For connecting to Direct Link, see [Configuring {{site.data.keyword.cloud_notm}} Direct Link](/docs/infrastructure/direct-link?topic=direct-link-configure-ibm-cloud-direct-link). If you need more help, you can request engineering support in the case that was opened for the new service. Even if it is an API service with Equinix, opening a case enables an engineer to look at it. Or you can contact your IBM Sales representative.
+For connecting to Direct Link, see [Configuring {{site.data.keyword.cloud_notm}} Direct Link](/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link). If you need more help, you can request engineering support in the case that was opened for the new service. Even if it is an API service with Equinix, opening a case enables an engineer to look at it. Or you can contact your IBM Sales representative.
 
 ## On Direct Link Exchange, does IBM set a BGP password?
 {: #on-direct-link-exchange-does-ibm-set-a-bgp-password}

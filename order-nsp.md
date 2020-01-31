@@ -179,7 +179,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 ## Pricing
 {: #dedicated-pricing-classic}
 
-For more information, refer to the [pricing document](/docs/infrastructure/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-dedicated).
+For more information, refer to the [pricing document](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-dedicated).
 
 If you require the exact address for TOK01 or TOK02, contact your Direct Link offering management or sales team.
 {:note}
