@@ -29,7 +29,7 @@ subcollection: direct-link
 # Ordering Direct Link Exchange on Classic
 {: #how-to-order-ibm-cloud-direct-link-exchange}
 
-As you prepare to order IBM Cloud Direct Link, review the general process your organization will follow for obtaining the Direct Link Exchange service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
+As you prepare to order Direct Link on Classic, review the general process your organization will follow for obtaining the Exchange service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
 {:shortdesc}
 
 To determine which Direct Link solution is best for your networking environment, see
@@ -48,17 +48,17 @@ Here is the general process to order a Direct Link service:
 {: note}
 
 3. Contact your Exchange provider and negotiate connectivity to your colocation.
-4. Order a virtual circuit through the Exchange provider, and refer the case ID of the {{site.data.keyword.cloud_notm}} Direct Link request as your "Request ID" or "Authorization ID".
+4. Order a virtual circuit through the Exchange provider, and refer the case ID of the {{site.data.keyword.cloud_notm}} Direct Link request as your Request ID or Authorization ID.
 
 IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastructure is completed within three business days after the virtual circuit request is complete.
 
 ## Steps to order Direct Link Exchange on Classic
 {: #how-to-order-cloud-exchange-no-equinix}
 
-To provision an IBM Cloud Direct Link Exchange connection, complete the following steps. To order Direct Link Exchange for Equinix, follow [steps to order Direct Link Exchange on Classic for Equinix](/docs/direct-link?topic=direct-link-ordering-direct-link-exchange-classic#provisioning-ibm-cloud-direct-link-exchange-for-equinix).
+To provision an IBM Cloud Direct Link Exchange connection, complete the following steps. To order Direct Link Exchange for Equinix, follow [steps to order Direct Link Exchange on Classic for Equinix](/docs/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-exchange#provisioning-ibm-cloud-direct-link-exchange-for-equinix).
 
 1. Log in to your [IBM Cloud console](https://cloud.ibm.com/){: external} account and open the **Catalog.**
-2. Select the **Navigation Menu** icon on the upper left, then click **on Classic Infrastructure**.
+2. Select the **Navigation Menu** icon on the upper left, then click **Classic Infrastructure**.
 3. Select **Network > Direct Link > Exchange** to open a page that shows the existing Direct Link on Classic connections, if any.
 4. Click **Order Direct Link Exchange** in the upper right of the page. The "Create an IBM Cloud Direct Link Exchange Connection" page is displayed.
 
@@ -98,7 +98,7 @@ Automation capabilities currently are limited to the Equinix Cloud Exchange. In 
 **PREREQUISITE**:
 To use the automated ordering capability, your private VLANs must be associated with a VRF in the {{site.data.keyword.cloud_notm}} private network. If this requirement is not met, an IBM Support case is generated when you place the order.
 
-1. Complete Steps 1 through 8 in [Steps to order Direct Link Exchange on Classic](/docs/direct-link?topic=direct-link-ordering-direct-link-exchange-classic#how-to-order-cloud-exchange-no-equinix).
+1. Complete Steps 1 through 8 in [Steps to order Direct Link Exchange on Classic](/docs/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-exchange#how-to-order-cloud-exchange-no-equinix).
 
    After you place the order, the IBM Cloud Direct Link provisioning begins. You can see the status of your connection after you place the order:
 
@@ -107,7 +107,7 @@ To use the automated ordering capability, your private VLANs must be associated 
    * **Create Failed** indicates that the configuration failed.
    * **UP** indicates that the configuration completed successfully and the BGP connection is up.
 
-2. If the connection is in **Provisioned** status, click the name of the connection to show its details page and jot down the **Customer IP address** and **Service Key** information. This information is needed for configuring the customer edge router and as the authorization key for the cloud-provider-side (Equinix) configuration.
+2. If the connection is in **Provisioned** status, click the name of the connection to show its details page and write down the **Customer IP address** and **Service Key** information. This information is needed for configuring the customer edge router and as the authorization key for the cloud-provider-side (Equinix) configuration.
 
 **Notes**:
 

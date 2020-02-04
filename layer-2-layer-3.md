@@ -37,7 +37,7 @@ When planning your {{site.data.keyword.cloud_notm}} Direct Link deployment, cons
 ## Considerations for Layer-2 connections
 {: #layer-2-networks}
 
-For each VLAN-based virtual circuit, which you create with a Layer-2 partner interconnection--you must configure and establish a BGP session between your on-premises routers and the IBM Cloud XCR. IBM Cloud provides you with a `/31` IPv4 assignment to establish a BGP session with your router.
+For each VLAN-based virtual circuit, which you create with a Layer-2 partner interconnection, you must configure and establish a BGP session between your on-premises routers and the IBM Cloud XCR. IBM Cloud provides you with a `/31` IPv4 assignment to establish a BGP session with your router.
 
 * Layer-2 networks offer options for simple one-to-one connections between enterprises and {{site.data.keyword.cloud_notm}}.
 * Layer-2 services rely on VLANs instead of IP addresses.

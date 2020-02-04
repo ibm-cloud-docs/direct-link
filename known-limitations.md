@@ -29,7 +29,7 @@ subcollection: direct-link
 # Known limitations
 {: #known-limitations}
 
-First, this section covers limitations that apply to all four {{site.data.keyword.cloud}} Direct Link on Classic offerings, and then it details some limitations of each offering individually.
+First, this section covers limitations that apply to all {{site.data.keyword.cloud}} Direct Link on Classic offerings, and then it details some limitations of each offering individually.
 
 ## General IBM Cloud Direct Link on Classic limitations
 {: #general-ibm-cloud-direct-link-limitations}

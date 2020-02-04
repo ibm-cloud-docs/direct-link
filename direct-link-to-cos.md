@@ -63,7 +63,7 @@ Two caveats apply to COS public endpoints:
 ## What is IBM Cloud Direct Link?
 {: #what-is-ibm-cloud-direct-link}
 
-{{site.data.keyword.cloud_notm}} Direct Link is a product suite that gives customers the ability to create secure, private connections between their remote network environments and their {{site.data.keyword.cloud_notm}} deployments. Data that is exchanged by Direct Link is never exposed to the internet.
+{{site.data.keyword.cloud_notm}} Direct Link on Classic is a product suite that gives customers the ability to create secure, private connections between their remote network environments and their {{site.data.keyword.cloud_notm}} deployments. Data that is exchanged by Direct Link is never exposed to the internet.
 
 ## Using Cloud Object Storage (COS) over IBM Cloud Direct Link
 {: #using-cloud-object-storage-over-ibm-cloud-direct-link}
@@ -194,7 +194,8 @@ This section provides quick links to documentation for some IBM Cloud PaaS and S
 ### Provisioning bare metal servers
 {: #direct-link-how-to-provision-bare-metal-servers}
 
-For detailed instructions on how to provision bare metal servers, refer to the [Guide to Bare Metal Servers](/docs/bare-metal?topic=bare-metal-about#about).
+For instructions on how to provision a bare metal server, see [Selecting from the most popular servers]
+(/docs/bare-metal?topic=bare-metal-bm-select-popular-servers).
 
 ### Provisioning a Virtual Router Appliance (VRA)
 {: #direct-link-how-to-provision-a-virtual-router-appliance}
@@ -205,6 +206,6 @@ For detailed instructions on how to provision a VRA, see the
 ### Provisioning IBM Cloud Object Storage (COS)
 {: #direct-link-how-to-provision-ibm-cloud-object-storage}
 
- * For detailed instructions on how to provision COS, refer to the [Cloud Object Storage Guide](https://{DomainName}/catalog/services/cloud-object-storage).
+ * For detailed instructions on how to provision COS, refer to the [Cloud Object Storage Guide](https://{DomainName}/catalog/services/cloud-object-storage){: external}.
 
  * Use one of the private endpoints (listed previously) to create an interface with your bucket or any object in your provisioned COS account.

@@ -70,7 +70,7 @@ As stated in the preceding section, BGP is mandatory for managing your routing t
 
 **Caveats for VLANS and VRF:**
  * Inter-account VLAN spanning isn't allowed in the VRF environment.
- * IPSEC VPN service is limited.
+ * IPsec VPN service is limited.
 
 VRF doesn't prevent SSL VPN access, but the behavior changes. Without VRF, one VPN connection is enough to see all servers on your account. With VRF, you can access resources only in the market that is associated with your VPN. So if you connect to the DAL VPN, you can connect to DAL servers only.
 {: note}
@@ -116,7 +116,7 @@ An alternative is to use the IBM Cloud Direct Link offering itself to manage you
 ## Using BYOIP and NAT with Direct Link
 {: #using-byoip-and-nat-with-direct-link}
 
-IBM Cloud Direct Link does not offer BYOIP on the private network. Therefore, traffic with a destination IP address that was not assigned by {{site.data.keyword.cloud_notm}} are dropped. However, customers can encapsulate traffic between the remote network and their {{site.data.keyword.cloud_notm}} network that uses GRE, IPsec, or VXLAN.  
+IBM Cloud Direct Link does not offer BYOIP on the private network. Therefore, traffic with a destination IP address that was not assigned by {{site.data.keyword.cloud_notm}} is dropped. However, customers can encapsulate traffic between the remote network and their {{site.data.keyword.cloud_notm}} network that uses GRE, IPsec, or VLAN.  
 
 Most commonly, the BYOIP environment is implemented within the scope of either a Network Gateway (Vyatta) or a VMWare NSX deployment. This configuration enables customers to use any desirable IP space on the {{site.data.keyword.cloud_notm}} side, and to route back across the tunnel to the remote network. This configuration must be managed and supported by the customer, independent of {{site.data.keyword.cloud_notm}}. Furthermore, this configuration can break connectivity to the {{site.data.keyword.cloud_notm}} services network if the customer assigns a 10.x.x.x block that {{site.data.keyword.cloud_notm}} has in use for services.
 

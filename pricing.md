@@ -29,7 +29,7 @@ subcollection: direct-link
 # Pricing for {{site.data.keyword.cloud_notm}} Direct Link on Classic
 {: #pricing-for-ibm-cloud-direct-link}
 
-Pricing for Direct Link Connect, Dedicated, and Exchange "classic" offerings is consistent for equivalent regions and bandwidth, as shown in the following monthly pricing tables.
+Pricing for Direct Link Connect, Dedicated, and Exchange "on Classic" offerings is consistent for equivalent regions and bandwidth, as shown in the following monthly pricing tables.
 {:shortdesc}
 
 Direct Link on Classic pricing does NOT include the additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.
@@ -91,14 +91,14 @@ The Direct Link Dedicated Hosting minimum configuration includes one (1) rack wi
 ## Local routing
 {: #local-routing}
 
-Local routing is included with all {{site.data.keyword.cloud_notm}} Direct Link offerings. It includes access to all of the data centers connected directly to the local market, and it provides unlimited ingress and egress traffic across the Direct Link. If you need to route your traffic outside the local markets defined below, you must add the Global Routing option. Local routing does not incur any overage fees.
+Local routing is included with all {{site.data.keyword.cloud_notm}} Direct Link offerings. It includes access to all of the data centers connected directly to the local market, and it provides unlimited ingress and egress traffic across the Direct Link. If you need to route your traffic outside the local markets defined in the next section, you must add the Global routing option. Local routing does not incur any overage fees.
 
 ## Expanded IBM Direct Link local markets
 {: #expanded-ibm-cloud-direct-link-local-markets}
 
-To reach {{site.data.keyword.cloud_notm}} resources outside of the local market in which the Direct Link is connected (at a PoP or data center), you must add the Global Routing option, which expands your access to include all {{site.data.keyword.cloud_notm}} data centers, globally.
+To reach {{site.data.keyword.cloud_notm}} resources outside of the local market in which the Direct Link is connected (at a PoP or data center), you must add the Global routing option, which expands your access to include all {{site.data.keyword.cloud_notm}} data centers, globally.
 
-However, we've recently expanded our Direct Link local markets to provide more local routing options to our customers across the globe. The new local market assignments are listed in the following table.
+However, we have expanded our Direct Link local markets to provide more local routing options to our customers across the globe. The new local market assignments are listed in the following table.
 
 | Local Market | Sites |
 |--------|----------------------|

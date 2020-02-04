@@ -36,8 +36,7 @@ Direct Link on Classic
     order-colocation.md
     order-cloud-exchange.md
     subnet-configuration.md
-    direct-link-to-cos.md
-    edit-link-speed-connect.md
+    direct-link-to-cos.md 
     {: .navgroup-end}
 
     {: .navgroup id="reference"}

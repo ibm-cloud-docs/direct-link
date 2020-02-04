@@ -29,7 +29,7 @@ subcollection: direct-link
 # About IBM Cloud Direct Link on Classic
 {: #about-ibm-cloud-direct-link}
 
-You can browse more details about the key features and benefits of each of the four {{site.data.keyword.cloud}} Direct Link on Classic solutions.
+You can browse more details about the key features and benefits of each of the {{site.data.keyword.cloud}} Direct Link on Classic solutions.
 {:shortdesc}
 
   * [**Direct Link Connect on Classic**](#direct-link-connect-solution)
@@ -40,7 +40,7 @@ You can browse more details about the key features and benefits of each of the f
 ## The Direct Link Connect on Classic solution
 {: #direct-link-connect-solution}
 
-**Common use cases** _The Direct Link Connect  on Classic solution enables customers to use an NSP to deliver connectivity to {{site.data.keyword.cloud_notm}} locations. This offering typically provides connectivity at a reduced cost because the physical connectivity from {{site.data.keyword.cloud_notm}} to the Network Service Provider is already in place, which is shared among other customers._
+**Common use cases:** The Connect solution enables customers to use an NSP to deliver connectivity to {{site.data.keyword.cloud_notm}} locations. This offering typically provides connectivity at a reduced cost because the physical connectivity from {{site.data.keyword.cloud_notm}} to the NSP is already in place, which is shared among other customers.
 
 ![Figure 2](/images/Direct-Link-Connect.png)
 
@@ -58,14 +58,14 @@ You can browse more details about the key features and benefits of each of the f
 
 **Redundancy**: {{site.data.keyword.cloud_notm}} does not provide redundancy as part of the product. To establish redundant connectivity, customer must acquire two connections on diverse cross connect routers (XCRs) and configure BGP on each Direct Link on Classic connection as they prefer. Examples include options such as: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
-**Local and global routing options:** The Local Routing option is the default routing option. It provides access to data centers within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It is used to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
+**Local and global routing options:** The default routing option is Local routing. It provides access to data centers within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It is used to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
 
 ## The Direct Link Dedicated on Classic solution
 {: #direct-link-dedicated-solution}
 
 The Direct Link Dedicated on Classic solution lets customers terminate a single-tenant, fiber-based cross-connect into their own {{site.data.keyword.cloud_notm}} private network connection. This offering can be used by customers with colocation facilities that are next to IBM Cloud PoPs and data centers. It can also be used by network service providers that deliver circuits to customer premises or to other data centers.
 
- **Common use cases:** _Best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. This option usually is selected: (1) when the wanted PoP does not have the wanted Exchange or network service provider, (2) for high-performance workloads requiring high throughput, or (3) for compliance requirements that cannot be satisfied by either the IBM Cloud Direct Link Exchange or Connect on Classic implementation model._
+ **Common use cases:** Best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. This option is usually selected: (1) when the wanted PoP does not have the wanted carrier or network service provider, (2) for high-performance workloads requiring high throughput, or (3) for compliance requirements that cannot be satisfied by either the Exchange on Classic or Connect on Classic implementation model.
 
  **Use Case 1: Customer facility to IBM Cloud**
 
@@ -89,14 +89,14 @@ The Direct Link Dedicated on Classic solution lets customers terminate a single-
 
 **Redundancy**: {{site.data.keyword.cloud_notm}} does not provide redundancy as part of the product. To establish redundant connectivity, customer must acquire two connections on diverse cross connect routers (XCRs) and configure BGP on each Direct Link on Classic connection as they prefer. Examples include options such as: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
-**Local and global routing options:** The Local Routing option is the default routing option. It provides access to data centers within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It provides a way to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
+**Local and global routing options:** The default routing option is Local routing. It provides access to data centers within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It provides a way to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
 
-## The Direct Link Dedicated Hosting  on Classic solution
+## The Direct Link Dedicated Hosting on Classic solution
 {: #direct-link-dedicated-hosting-solution}
 
-The Direct Link Dedicated Hosting  on Classic solution provides connectivity similar to Direct Link Dedicated on Classic, but the connection point is next to a {{site.data.keyword.cloud_notm}} data center, which improves latency for higher performance use cases. IBM Cloud offers various customizable colocation services with this solution, with simple pricing.
+The Direct Link Dedicated Hosting on Classic solution provides connectivity similar to Dedicated on Classic, but the connection point is next to an {{site.data.keyword.cloud_notm}} data center, which improves latency for higher performance use cases. IBM Cloud offers various customizable colocation services with this solution, with simple pricing.
 
-**Common use cases:** _Best for working with non-standard compute technologies, for dedicated storage requirements, or for using existing IT investments._
+**Common use cases:** Best for working with non-standard compute technologies, for dedicated storage requirements, or for using existing IT investments.
 
 ![Figure 4](/images/Direct-Link-Dedicated-Hosting.png)
 
@@ -114,7 +114,7 @@ The Direct Link Dedicated Hosting  on Classic solution provides connectivity sim
 
 **Redundancy:** {{site.data.keyword.cloud_notm}} provides connections to two diverse cross-connect routers (XCRs) as part of the product. To establish redundant connectivity, customers must configure BGP on each Direct Link on Classic connection as they prefer. Examples include options such as these: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
-**Local and global routing options:** The Local Routing option is the default routing option. It provides access to data centers within the same Market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It is used to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
+**Local and global routing options:** The default routing option is Local routing. It provides access to data centers within the same Market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It is used to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
 
 **Third-party, cross-connect add-on:**
 * Customer can order an additional third-party, cross connect for carrier connections.
@@ -133,7 +133,7 @@ The Direct Link Dedicated Hosting  on Classic solution provides connectivity sim
 
 The Direct Link Exchange on Classic solution enables customers to use a Cloud Exchange provider to deliver connectivity to {{site.data.keyword.cloud_notm}} locations. This offering typically provides connectivity at a reduced cost because the physical connectivity from {{site.data.keyword.cloud_notm}} to the Cloud Exchange Provider is already in place, which is shared among other customers.
 
-**Common use cases:** _Best for hybrid workloads, cross-provider workloads, large or frequent data transfers with high-egress bandwidth, private workloads, and environment administration. This option usually is selected when the wanted PoP location already has the wanted Direct Link Exchange provider._
+**Common use cases:** Best for hybrid workloads, cross-provider workloads, large or frequent data transfers with high-egress bandwidth, private workloads, and environment administration. This option is usually selected when the wanted PoP location already has the wanted Direct Link Exchange provider.
 
 ![Figure 1](/images/Direct-Link-Exchange.png)
 
@@ -151,4 +151,4 @@ The Direct Link Exchange on Classic solution enables customers to use a Cloud Ex
 
 **Redundancy**: {{site.data.keyword.cloud_notm}} does not provide redundancy as part of the product. To establish redundant connectivity, customer must acquire two connections on diverse cross connect routers (XCRs) and configure BGP on each Direct Link on Classic connection as they prefer. Examples include options such as: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
-**Local and global routing options:** The Local Routing option is the default routing option. It provides access to data centers within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global Routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It provides a way to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
+**Local and global routing options:** The default routing option is Local routing. It provides access to data centers within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It provides a way to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).

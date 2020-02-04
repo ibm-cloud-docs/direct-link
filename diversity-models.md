@@ -70,7 +70,7 @@ The configurations that are shown in this group offer options for connecting acr
 ## More about ECMP
 {: #more-about-ecmp}
 
-ECMP is a feature of BGP. Some customers asked us about using ECMP as a way to achieve redundancy. However, ECMP alone is not sufficient. This section explains why.
+Equal-cost multipath (ECMP) is a feature of BGP. Some customers asked us about using ECMP as a way to achieve redundancy. However, ECMP alone is not sufficient. This section explains why.
 
 **Q: Is ECMP the way to go for redundant connections? What alternatives exist?**
 

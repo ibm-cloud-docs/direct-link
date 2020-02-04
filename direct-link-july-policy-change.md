@@ -30,7 +30,7 @@ subcollection: direct-link
 Effective 1 July 2019 -  IBM Direct Link global routing policy change
 {: important}
 
-To improve customer experience and provide greater value, the IBM Direct Link global routing service is enhanced. The key improvements include:
+To enhance customer experience and provide greater value, the IBM Direct Link global routing service includes the following key improvements:
 
 * **Expanded local markets:** Implemented the alignment of the sites that customers can connect to within their local markets. Aligned each PoP site in the IBM Cloud network to allow customers, which connect to the IBM Cloud in the PoP sites, to connect to resources in the data centers that are located across the globe.
 
@@ -41,9 +41,9 @@ To improve customer experience and provide greater value, the IBM Direct Link gl
 ## IBM Cloud Direct Link global routing overview
 {: #ibm-cloud-direct-link-global-routing-overview}
 
-All current Direct Link offerings include local routing with no additional fees. This service includes access to data centers in the local market where the Direct Link connection is located. It provides unlimited ingress and egress traffic across Direct Link private connections to IBM Cloud resources within the customer’s account. With the Local Routing option, Direct Link traffic is restricted to the services provided by this local market.
+All current Direct Link offerings include local routing with no additional fees. This service includes access to data centers in the local market where the Direct Link connection is located. It provides unlimited ingress and egress traffic across Direct Link private connections to IBM Cloud resources within the customer’s account. With Local routing, Direct Link traffic is restricted to the services provided by this local market.
 
-To route network traffic outside of the local market to which the Direct Link is connected (PoP or data center), you must add the Global Routing option, which expands access to include all of IBM Cloud data centers globally.
+To route network traffic outside of the local market to which the Direct Link is connected (PoP or data center), you must add the Global routing option, which expands access to include all of IBM Cloud data centers globally.
 
 Global routing is applied to individual Direct Link services. Global routing is not applied via aggregation. It must be specified on each Direct Link service desiring connectivity outside of a given market.
 
@@ -68,14 +68,14 @@ These changes are outlined in tables that are found at [Expanded IBM Direct Link
 ## IBM Cloud Direct Link global routing pricing model
 {: #announce-ibm-cloud-direct-link-global-routing-pricing-model}
 
-With all IBM Cloud Direct Link offerings, network routing within a local market is standard. Effective on 1 July 2019, pricing for the Global Routing option is being aligned to the connection speed of the Direct Link connection. This alignment provides better value to customers across all connection speeds available for Direct Link offerings.
+With all IBM Cloud Direct Link offerings, network routing within a local market is standard. Effective on 1 July 2019, pricing for the Global routing option is being aligned to the connection speed of the Direct Link connection. This alignment provides better value to customers across all connection speeds available for Direct Link offerings.
 
 Pricing is at [Pricing for global routing add-on](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-global-routing-add-on).
 
 ## IBM Cloud Direct Link global routing network transit overage charges
 {: #announce-ibm-cloud-direct-link-global-routing-network-transit-overage-charges}
 
-Along with this announcement, IBM is withdrawing the network transit limits and overage charges for customers with the Global Routing option. Previous pricing included network transit allowances and overage charges for egress traffic outside of the customer’s local market. New pricing eliminates these network traffic charges. Effective with this announcement, ingress and egress traffic across Direct Link connections do not incur overages.
+Along with this announcement, IBM is withdrawing the network transit limits and overage charges for customers with the Global routing option. Previous pricing included network transit allowances and overage charges for egress traffic outside of the customer’s local market. New pricing eliminates these network traffic charges. Effective with this announcement, ingress and egress traffic across Direct Link connections do not incur overages.
 
 ## Effective date
 {: #announce-effective-date}

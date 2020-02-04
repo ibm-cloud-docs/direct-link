@@ -29,7 +29,7 @@ subcollection: direct-link
 # Your responsibilities by using IBM Cloud Direct Link
 {: #responsibilities-direct-link}
 
-Learn about management responsibilities and terms and conditions that you have when you use {{site.data.keyword.cloud}} Direct Link.
+Learn about management responsibilities that you have when you use {{site.data.keyword.cloud}} Direct Link on Classic. For overall terms of use, refer to the IBM Cloud Terms and Notices.
 {:shortdesc}
 
 ## Management responsibilities
@@ -66,12 +66,12 @@ Your responsibilities:
 ## Abuse of IBM Cloud Virtual Private Cloud
 {: #abuse-of-vpc}
 
-Clients must not misuse {{site.data.keyword.cloud}} Infrastructure.
+Clients must not misuse IBM Cloud infrastructure.
 
 Misuse includes:
 - Any illegal activity
 - Distribution or execution of malware
-- Harming IBM Cloud Infrastructure or interfering with the use of IBM Cloud Infrastructure
+- Harming IBM Cloud infrastructure or interfering with the use of IBM Cloud infrastructure
 - Harming or interfering with the use of any other service or system
 - Unauthorized access to any service or system
 - Unauthorized modification of any service or system

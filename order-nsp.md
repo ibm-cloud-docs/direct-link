@@ -29,8 +29,11 @@ subcollection: direct-link
 # Ordering Direct Link Dedicated on Classic
 {: #how-to-order-ibm-cloud-direct-link-dedicated}
 
-To order IBM Cloud Direct Link Dedicated on Classic, perform one of the following procedures, depending on your requirements. The colocation or Network Service Provider (NSP) does not need to be an IBM Cloud Direct Link Partner to connect you to a Direct Link Dedicated service. When you're ready to place your order, follow the step-by-step instructions.
+As you prepare to order Direct Link on Classic, review the general process your organization will follow for obtaining the Dedicated service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
 {:shortdesc}
+
+The colocation or Network Service Provider (NSP) does not need to be an IBM Cloud Direct Link Partner to connect you to a Direct Link Dedicated service.
+{: note}
 
 To determine which Direct Link solution is best for your networking environment, see
 [How do I know which type of IBM Cloud Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#how-do-i-know-which-type-of-ibm-cloud-direct-link-i-need-)
@@ -72,7 +75,7 @@ Your IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastruc
 To provision a Direct Link Connect order, complete the following steps:
 
 1. Log in to your [IBM Cloud](https://cloud.ibm.com/){: external} account and open the **Catalog**.
-2. Select the **Navigation Menu** icon ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **on Classic Infrastructure**.
+2. Select the **Navigation Menu** icon ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Classic Infrastructure**.
 2. Select **Network > Direct Link > Dedicated** to open a page that shows the existing Direct Link connections, if any.
 3. Click **Order Direct Link Dedicated +** in the upper right of the page. The "Create an IBM Cloud Direct Link Dedicated Connection" page is displayed.
 4. In the order form, complete the following information to configure Direct Link Dedicated on Classic:

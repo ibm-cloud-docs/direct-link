@@ -29,7 +29,7 @@ subcollection: direct-link
 # Ordering Direct Link Connect on Classic
 {: #how-to-order-ibm-cloud-direct-link-connect-classic}
 
-As you prepare to order IBM Cloud Direct Link, review the general process your organization will follow for obtaining the Direct Link Connect service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
+As you prepare to order Direct Link on Classic, review the general process your organization will follow for obtaining the Connect service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
 {:shortdesc}
 
 To determine which Direct Link solution is best for your networking environment, see
@@ -44,7 +44,7 @@ Here is the general process to order a Direct Link service:
  1. Verify your network provider's capabilities to reach the appropriate IBM Cloud PoP.
  2. Use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Connect on Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the Master Service Agreement.
  3. Contact your Connect provider and negotiate connectivity to your premise or colocation.
- 4. Order a virtual circuit through the Connect provider, and reference the case ID of the Direct Link Connect request as your **Request ID** or **Authorization ID**.
+ 4. Order a virtual circuit through the Connect provider, and reference the case ID of the Direct Link Connect request as your Request ID or Authorization ID.
 
 The IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastructure is completed within three business days after the virtual circuit request is complete.
 
@@ -54,7 +54,7 @@ The IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastruct
 To provision a Direct Link Connect order, complete the following steps:
 
 1. Log in to your [IBM Cloud](https://cloud.ibm.com/){: external} account and open the **Catalog**.
-2. Select the **Navigation Menu** icon ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **on Classic Infrastructure**.
+2. Select the **Navigation Menu** icon ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Classic Infrastructure**.
 2. Select **Network > Direct Link > Connect** to open a page that shows the existing Direct Link connections, if any.
 3. Click **Order Direct Link Connect +** in the upper right of the page. The "Create an IBM Cloud Direct Link Connect Connection" page is displayed.
 4. In the order form, complete the following information to configure Direct Link Connect:
@@ -111,7 +111,7 @@ Our Direct Link Connect providers include these locations:
 | Telstra | Melbourne 2, Sydney 2 |
 | Tokai | Tokyo 3, Osaka 1 |
 | Verizon |  **APAC:**  Sydney 2 , Tokyo 1  **EU:** Amsterdam 2, Frankfurt 1 <br />**Americas:** Dallas 3, San Jose 2, Washington DC 2  |
-| Vodafone | Frankfurt 1 (no Diversity), Frankfurt 3 (no Diversity) |
+| Vodafone | London 1 (no Diversity), London 3 (no Diversity) |
 | Zayo | Dallas 3,  Toronto 2, Washington DC 2 |
 
 

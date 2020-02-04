@@ -43,7 +43,7 @@ Many customers choose to create redundant deployments by setting up an additiona
 
 IBM Cloud Direct Link also makes it easy to establish diverse Connect deployments, as shown in the following figure.
 
-![Diverse Connect](/images/Direct-Link-Connect-Diverse.png "Diverse Connect"){: caption="Figure 2. A redundant and diverse IBM Cloud Direct Link Connect  on Classic deployment" caption-side="bottom"}
+![Diverse Connect](/images/Direct-Link-Connect-Diverse.png "Diverse Connect"){: caption="Figure 2. A redundant and diverse IBM Cloud Direct Link Connect on Classic deployment" caption-side="bottom"}
 
 ## Using Connect and Exchange on Classic along with other clouds
 {: #using-exchange-and-connect-in-conjunction-with-other-clouds}

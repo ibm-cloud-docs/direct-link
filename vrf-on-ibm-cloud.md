@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-07-01"
 
-keywords: VRF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, datacenters, data, center, shared tenancy, private endpoint, Customer VRF, Private Network Question, support, case, CSE, cloud service endpoint
+keywords: VRF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, datacenters, data, center, shared tenancy, private endpoint, customer VRF, Private Network Question, support, case, CSE, cloud service endpoint
 
 subcollection: direct-link
 
@@ -35,7 +35,7 @@ By definition, virtual routing and forwarding (VRF) is a technology that is incl
 ## Connectivity options for {{site.data.keyword.cloud_notm}}
 {: #connectivity-options-for-ibm-cloud}
 
-Dispersed cloud resources are resources in more than one location or in more than one subnet or VLAN. These types of resources require a routing function to communicate among themselves, even within a private network context. This document describes a "multiple isolation" tenancy communication option, which is often called a _Customer VRF_. It is implemented as an MPLS Layer-3 VPN (RFC 4364) across the global {{site.data.keyword.cloud}} backbone.
+Dispersed cloud resources are resources in more than one location or in more than one subnet or VLAN. These types of resources require a routing function to communicate among themselves, even within a private network context. This document describes a "multiple isolation" tenancy communication option, which is often called a customer VRF. It is implemented as an MPLS Layer-3 VPN (RFC 4364) across the global {{site.data.keyword.cloud}} backbone.
 
 In general, the {{site.data.keyword.cloud_notm}} platform offers two options for routing across our private network, providing connectivity across pods and data centers:
 
@@ -43,7 +43,7 @@ In general, the {{site.data.keyword.cloud_notm}} platform offers two options for
 
 2. **Shared tenancy:** A common logical network, which is shared by all tenants who use this model, with separation provided by automated Access Control Lists (ACLs), and enabled with VLAN spanning. This option is not described in this document.
 
-The term _Customer VRF_ is used to describe _multiple isolation_ network connectivity.
+The term "customer VRF" is used to describe _multiple isolation_ network connectivity.
 {: tip}
 
 ## VRF overview: Multiple isolation technology
@@ -63,12 +63,12 @@ Using VRF, {{site.data.keyword.cloud_notm}} tenants are allowed to use remote IP
 
 IBM is moving forward with a next-generation Cloud deployment to enable Virtual Private Cloud (VPC) in our availability zones (AZs). This new VPC capability enables Bring-Your-Own-IP (BYoIP) in the VPC-enabled AZs, which are located in Dallas, Washington DC, London, Frankfurt, Tokyo, and Sydney.
 
-For example, each tenant on the backbone who uses VRF can have only one _Customer VRF_ per Direct Link, which provides connectivity among all the tenant’s servers, regardless of location. However, an {{site.data.keyword.cloud_notm}} tenant might have more than one Direct Link account that feeds into a single cross-connect router.
+For example, each tenant on the backbone who uses VRF can have only one customer VRF per Direct Link, which provides connectivity among all the tenant’s servers, regardless of location. However, an {{site.data.keyword.cloud_notm}} tenant might have more than one Direct Link account that feeds into a single cross-connect router.
 {: note}
 
 * A tenant’s servers in any VLAN, in any pod, in any data center worldwide can reach all of that tenant’s other servers globally.
-* Every tenant’s _Customer VRF_ is connected to the common shared services network to provide private reachability for those servers to use DNS, shared storage, monitoring, patching, and more.
-* The _Customer VRF_ is a connectivity service that provides isolation among tenants. Any additional controls that are needed within a tenancy must be provisioned separately by using a gateway, security groups, or host-based controls.
+* Every tenant’s customer VRF is connected to the common shared services network to provide private reachability for those servers to use DNS, shared storage, monitoring, patching, and more.
+* The customer VRF is a connectivity service that provides isolation among tenants. Any additional controls that are needed within a tenancy must be provisioned separately by using a gateway, security groups, or host-based controls.
 
 ## Benefits of moving to VRF
 {: #benefits-of-moving-to-vrf}
@@ -81,11 +81,11 @@ Moving to VRF includes the following primary benefits:
 
 Compared to the older ACL model, there are a few minor tradeoffs to take into account:
 
-* Converting to a _Customer VRF_ requires a maintenance window, which causes a brief disruption of backbone traffic flows.
+* Converting to a customer VRF requires a maintenance window, which causes a brief disruption of backbone traffic flows.
 * Remote access by using the managed VPN services (SSL, IPsec) is limited to just SSL VPN into a data center; however, the shared ACL over the backbone allows global access from any entry point from either service.
 * VLAN spanning within your _multiple isolation_ tenancy is not available.
 
-Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a _Customer VRF_, most commonly with a new Direct Link subscription.  
+Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a customer VRF, most commonly with a new Direct Link subscription.  
 
 For specific information about how to initiate a VRF conversion for your account, refer to the conversion instructions for your IBM Cloud offering. For example:
 

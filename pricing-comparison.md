@@ -52,10 +52,10 @@ Company “A” offers a metered offering that lends itself to cheap Ingress but
 ## Company G
 {: #company-g}
 
-Company G offers a metered offering that lends itself to cheap Ingress but significant variable pricing on Egress.
+Company "G" offers a metered offering that lends itself to cheap Ingress but significant variable pricing on Egress.
 
-* The Company G 10 Gbps pricing is set at $1,750 MRC plus a $.02/GB transfer fee on egress (in North America).
-* For an apples-to-apples perspective to {{site.data.keyword.cloud_notm}} Direct Link Dedicated, a Company “G” Direct Link equivalent 10 Gbps port at 5% usage, (170 TB) egressed in a month would cost a customer $5,172 versus $4,999 for Direct Link 10 Gbps connection.
+* The Company "G" 10 Gbps pricing is set at $1,750 MRC plus a $.02/GB transfer fee on egress (in North America).
+* For an apples-to-apples perspective to {{site.data.keyword.cloud_notm}} Direct Link Dedicated, a Company "G" Direct Link equivalent 10 Gbps port at 5% usage, (170 TB) egressed in a month would cost a customer $5,172 versus $4,999 for Direct Link 10 Gbps connection.
 * Any data egress above 5% (or 170 TB) in a month would favor Direct Link’s flat rate pricing model.
 * For a more stark comparison, assuming 20% usage (or 680 TB) egressed in a month would cost a Company “G” customer $15,330 in a given month versus $4,999 for a 10 Gbps Direct Link connection.
 

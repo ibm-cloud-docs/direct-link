@@ -59,7 +59,7 @@ To determine which Direct Link Dedicated solution is right for your networking n
 
 March was a busy month for Direct Link.
 
-* To improve customer experience and provide greater value, we are enhancing the {{site.data.keyword.cloud_notm}} Direct Link global routing service.
+* To enhance customer experience and provide greater value, the Direct Link global routing service was improved.
 * We added several new partners for Direct Link Connect, which are listed later in this section.
 
 Review changes in the [global routing announcement](/docs/direct-link?topic=direct-link-announcement-global-routing-policy-change-begins-1-july-2019).
@@ -76,16 +76,16 @@ New local market assignments:
 * The San Jose local market includes the Los Angeles PoP.
 * The Oslo local market includes the Stockholm PoP.
 * The Sydney local market includes the Perth PoP.
-* The Hong Kong local market includes the Taipei PoP once launched.
-* The Tokyo local market includes the Osaka PoP once launched.
-* The Chennai local market includes the Mumbai PoP once launched.
+* The Hong Kong local market includes the Taipei PoP.
+* The Tokyo local market includes the Osaka PoP.
+* The Chennai local market includes the Mumbai PoP.
 
-These changes are outlined in tables that are found at [Expanded IBM Direct Link local markets](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-cloud-direct-link-local-markets).
+View these changes in the tables in [Expanded IBM Direct Link local markets](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-cloud-direct-link-local-markets).
 
 ### Withdrawing of global routing network transit overage charges
 {: #march-2019-withdrawing-of-global-routing-network-transit-overage-charges}
 
-Network transit limits and overage charges for customers with the Global Routing option are withdrawn. Previous pricing included network transit allowances and overage charges for egress traffic outside of the customer’s local market. New pricing eliminates these network traffic charges. Henceforth, ingress and egress traffic across Direct Link connections do not incur overages.
+Network transit limits and overage charges for customers with the Global routing option are withdrawn. Previous pricing included network transit allowances and overage charges for egress traffic outside of the customer’s local market. New pricing eliminates these network traffic charges. Henceforth, ingress and egress traffic across Direct Link connections do not incur overages.
 
 * 26 March: Megaport is available in Chicago for Connect
 * 13 March: Tokai is available in Tokyo 3 for Connect

@@ -29,7 +29,7 @@ subcollection: direct-link
 # Ordering Direct Link Dedicated Hosting on Classic
 {: #how-to-order-ibm-cloud-direct-link-dedicated-hosting}
 
-As you prepare to order IBM Cloud Direct Link, review the general process your organization will follow for obtaining the Direct Link Connect service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
+As you prepare to order Direct Link on Classic, review the general process your organization will follow for obtaining the Dedicated Hosting service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
 {:shortdesc}
 
 To determine which Direct Link solution is best for your networking environment, see
@@ -56,10 +56,10 @@ Your IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastruc
 ## Steps to order Direct Link Dedicated Hosting on Classic
 {: #steps-to-order-direct-link-dedicated-hosting}
 
-To provision a Direct Link Connect Hosting order, omplete the following steps:
+To provision a Direct Link Dedicated Hosting order, complete the following steps:
 
 1. Log in to your [IBM Cloud](https://cloud.ibm.com/){: external} account and open the **Catalog**.
-2. Select the **Navigation Menu** icon ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **on Classic Infrastructure**.
+2. Select the **Navigation Menu** icon ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Classic Infrastructure**.
 2. Select **Network > Direct Link > Dedicated Hosting** to open a page that shows the existing Direct Link connections, if any.
 3. Click **Order Direct Link Dedicated Hosting +** in the upper right of the page. The "Create an IBM Cloud Direct Link Dedicated Hosting Connection" page is displayed.
 4. In the order form, complete the following information to configure Direct Link Dedicated Hosting on Classic:
@@ -77,7 +77,7 @@ To provision a Direct Link Connect Hosting order, omplete the following steps:
 
 7. You’ll be asked to complete a customer questionnaire, which you can review at [Direct Link Dedicated Hosting questionnaire](/docs/direct-link?topic=direct-link-ibm-cloud-direct-link-dedicated-hosting-questionnaire).
 
-8. After you provision the direct link and complete the questionnaire, see [Configuring Direct Link on Classic]{/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link) to configure your subnet to interact with IBM Cloud.
+8. After you provision the direct link and complete the questionnaire, see [Configuring Direct Link on Classic](/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link) to configure your subnet to interact with IBM Cloud.
 
 
 ## Locations

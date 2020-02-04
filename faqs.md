@@ -110,9 +110,9 @@ The recommended best practice is to cancel your automated order and submit a new
 
 These two services are similar, relatively low-cost, latency tolerant, and rapid entry points to the benefits of IBM Cloud Direct Link. In a nutshell, Exchange uses data center providers and Connect uses Telco carriers. Here are some additional details:
 
-**Direct Link Exchange** is recommended for customers who prefer to use an exchange inside a data center. With an Exchange service, customers can enable multi-cloud connectivity to their co=location rapidly because the underlying circuits are provisioned already (these other cloud providers must already have a physical interconnection present within the facility).
+**Direct Link Exchange** is recommended for customers who prefer to use an exchange inside a data center. With an Exchange service, customers can enable multi-cloud connectivity to their colocation rapidly because the underlying circuits are provisioned already (these other cloud providers must already have a physical interconnection present within the facility).
 
-Direct Link Exchange can allow for a multi-cloud, shared use environment through a single cloud exchange port, created by an NNI connection at Layer 2 between IBM Cloud and the Cloud Exchange Service Provider. Port speeds are available up to 5 Gb.
+Direct Link Exchange can allow for a multi-cloud, shared-use environment through a single cloud exchange port, created by an NNI connection at Layer 2 between IBM Cloud and the Cloud Exchange Service Provider. Port speeds are available up to 5 Gb.
 
 **Direct Link Connect** is for customers who prefer to use their existing network between their own on-premises deployment and IBM Cloud. With a Direct Link Connect service, customers can use new and existing Telco networks (such as MPLS) to enable IBM Cloud rapidly, by using pre-provisioned underlying circuits.
 

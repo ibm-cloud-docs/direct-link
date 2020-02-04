@@ -29,7 +29,7 @@ subcollection: direct-link
 # Getting started with IBM Cloud Direct Link on Classic
 {: #get-started-with-ibm-cloud-direct-link}
 
-{{site.data.keyword.cloud}} Direct Link on Classic is a suite of four offerings from the {{site.data.keyword.cloud_notm}} network, with availability in locations around the globe. Each one enables customers to create direct, private connections between their remote network environments and their {{site.data.keyword.cloud_notm}} deployments, without touching the public internet. Most commonly, these offerings are implemented to support private, hybrid, and cross-provider workloads, as well as large or frequent data transfers, and the easing of {{site.data.keyword.cloud_notm}} environment administration.
+{{site.data.keyword.cloud}} Direct Link on Classic is a suite of offerings from the {{site.data.keyword.cloud_notm}} network, with availability in locations around the globe. Each one enables customers to create direct, private connections between their remote network environments and their {{site.data.keyword.cloud_notm}} deployments, without touching the public internet. Most commonly, these offerings are implemented to support private, hybrid, and cross-provider workloads, as well as large or frequent data transfers.
 {:shortdesc}
 
 ## Browse and order
@@ -54,7 +54,7 @@ You can use this decision tree to help you decide.
 
 ![direct-link-decision-tree](/images/flow.png)
 
-Currently, the new Direct Link Dedicated is a "limited availability" release, offered in North America (Washington, D.C. and Dallas markets) with more locations being rolled out in the new year. See [Release notes](/docs/direct-link?topic=direct-link-what-s-new) for more information.
+Currently, the new Direct Link Dedicated is a "limited availability" release, offered in North America (Washington, D.C. and Dallas markets) with more locations being rolled out soon. See [Release notes](/docs/direct-link?topic=direct-link-what-s-new) for more information.
 {: note}
 
 ## Learn more
