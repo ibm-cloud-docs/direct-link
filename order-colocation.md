@@ -105,8 +105,7 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 | APAC |  SNG01 |  Jurong East | DC | Digital Realty  |  29a International Business Park, S180 |
 | APAC | TOK02  |  Koto-ku | DC (AZ1) | AT Tokyo  |  Koto-ku |
 | APAC | TOK05  | Kawasaki Kangagawa  | DC (AZ3) | NTT | Kawasaki Kangagawa |
-|  |  |  |  |  |  |
-| EMEA | FRA02  | Frankfurt |  DC (AZ1) | Cyrus One (Zenium)   | Leonhard - Heisswolf Str. 4 |
+|  |  |  |  |  |  | 
 | EMEA | FRA04  | Frankfurt |  DC (AZ2) | E-shelter | Eschborner Landstrasse 100, Building H |
 | EMEA | FRA05  | Frankfurt |  DC (AZ3) | InterXion | Weismüllerstraße 40 |
 | EMEA | LON02  | Chessington | DC  | Digital Realty  |  Fountain Court |
