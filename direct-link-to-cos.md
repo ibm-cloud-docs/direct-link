@@ -178,7 +178,7 @@ http {
 }
 ```
 
-See [COS Endpoints](/docs/cloud-object-storage-infrastructure?topic=cloud-object-storage-infrastructure-select-regions-and-endpoints#select-regions-and-endpoints) for a list of private endpoints for use in these `proxy_pass` entries.
+See [Select regions and endpoints]](/docs/cloud-object-storage-infrastructure?topic=cloud-object-storage-infrastructure-select-regions-and-endpoints#select-regions-and-endpoints) for a list of private endpoints for use in these `proxy_pass` entries.
 
 **Tips:**
 
@@ -194,8 +194,7 @@ This section provides quick links to documentation for some IBM Cloud PaaS and S
 ### Provisioning bare metal servers
 {: #direct-link-how-to-provision-bare-metal-servers}
 
-For instructions on how to provision a bare metal server, see [Selecting from the most popular servers]
-(/docs/bare-metal?topic=bare-metal-bm-select-popular-servers).
+For detailed instructions on how to provision bare metal servers, refer to the [Guide to Bare Metal Servers](/docs/bare-metal?topic=bare-metal-about#about).
 
 ### Provisioning a Virtual Router Appliance (VRA)
 {: #direct-link-how-to-provision-a-virtual-router-appliance}

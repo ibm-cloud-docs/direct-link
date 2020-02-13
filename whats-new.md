@@ -62,7 +62,7 @@ March was a busy month for Direct Link.
 * To enhance customer experience and provide greater value, the Direct Link global routing service was improved.
 * We added several new partners for Direct Link Connect, which are listed later in this section.
 
-Review changes in the [global routing announcement](/docs/direct-link?topic=direct-link-announcement-global-routing-policy-change-begins-1-july-2019).
+Review changes in the [global routing announcement](/docs/direct-link?topic=direct-link-announcement-global-routing-policy-change).
 
 ### Expanded local markets
 {: #march-2019-expanded-local-markets}

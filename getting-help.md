@@ -37,7 +37,6 @@ If you have problems or questions when you use {{site.data.keyword.cloud}} Direc
 When you use the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
 
 * If you have technical questions about Direct Link, post your question on [Stack Overflow](https://stackoverflow.com/search?q=direct-link+ibm-cloud){: external} and tag your question with **direct-link** and **ibm-cloud**.
-* For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/directlink.html?smartspace=ibm-cloud){: external} forum. Include the **directlink** and **ibm-cloud** tags.
-See [Getting support](/docs/get-support?topic=get-support-using-avatar#asking-a-question) for further details.
+* For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/directlink.html?smartspace=ibm-cloud){: external} forum. Include the **directlink** and **ibm-cloud** tags. 
 
 For more information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support).

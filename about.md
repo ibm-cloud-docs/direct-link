@@ -29,7 +29,7 @@ subcollection: direct-link
 # About IBM Cloud Direct Link on Classic
 {: #about-ibm-cloud-direct-link}
 
-You can browse more details about the key features and benefits of each of the {{site.data.keyword.cloud}} Direct Link on Classic solutions.
+You can browse more details about the key features and benefits of each of the  {{site.data.keyword.cloud}} Direct Link on Classic solutions.
 {:shortdesc}
 
   * [**Direct Link Connect on Classic**](#direct-link-connect-solution)
