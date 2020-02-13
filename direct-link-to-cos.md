@@ -178,7 +178,7 @@ http {
 }
 ```
 
-See [Select regions and endpoints]](/docs/cloud-object-storage-infrastructure?topic=cloud-object-storage-infrastructure-select-regions-and-endpoints#select-regions-and-endpoints) for a list of private endpoints for use in these `proxy_pass` entries.
+See [Select regions and endpoints]](/docs/cloud-object-storage-infrastructure?topic=cloud-object-storage-infrastructure-select-regions-and-endpoints) for a list of private endpoints for use in these `proxy_pass` entries.
 
 **Tips:**
 
