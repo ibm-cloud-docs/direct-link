@@ -49,7 +49,7 @@ Capabilities coming soon:
 * Support for connection to venues (CMS, Blockchain, SAP on Power, and more).
 * Support for Direct Link connection to Public (for example, ICOS).
 
-Stay tuned here for future release updates. To learn more about the new Direct Link offering, see [FAQs](/docs/dl?topic=dl-faqs){: external}.
+Stay tuned here for future release updates. To learn more about the new Direct Link offering, see [FAQs](/docs/dl?topic=dl-faqs){: external}. For Direct Link Dedicated pricing and ordering information, see [Getting started with IBM Cloud Direct Link Dedicated](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl){: external}.
 
 To determine which Direct Link Dedicated solution is right for your networking needs, see [How do I know which type of IBM Cloud Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#how-do-i-know-which-type-of-ibm-cloud-direct-link-i-need-).
 {: tip}
