@@ -37,16 +37,7 @@ subcollection: direct-link
 
 To get started using IBM Cloud Direct Link on Classic, review this documentation and decide which solution works best for you. If you want more help with getting started, you can either open an IBM Support case through the [IBM Cloud console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}, or contact your {{site.data.keyword.cloud_notm}} sales representative.
 
-When you're ready to order, follow the step-by-step instructions for the specific Direct Link on Classic solution that you need.
-
-After you place your order, you'll be asked to complete a questionnaire related to your solution and workload requirements. You'll also be able to review our terms of service.
-
-## IBM Cloud Direct Link on Classic descriptions
-
- * [Direct Link Connect on Classic](/docs/direct-link?topic=direct-link-direct-link-connect-solution)
- * [Direct Link Dedicated on Classic](/docs/direct-link?topic=direct-link-direct-link-dedicated-solution)
- * [Direct Link Dedicated Hosting on Classic](/docs/direct-link?topic=direct-link-direct-link-dedicated-hosting-solution)
- * [Direct Link Exchange on Classic](/docs/direct-link?topic=direct-link-direct-link-exchange-solution)
+When you're ready to order, follow the step-by-step instructions for the specific Direct Link on Classic solution that you need. After you place your order, you'll be asked to complete a questionnaire related to your solution and workload requirements. You'll also be able to review our terms of service.
 
 ## How do I know which type of IBM Cloud Direct Link I need?
 
@@ -56,6 +47,13 @@ You can use this decision tree to help you decide.
 
 Currently, the new Direct Link Dedicated is a "limited availability" release, offered in North America (Washington, D.C. and Dallas markets) with more locations being rolled out soon. See [Release notes](/docs/direct-link?topic=direct-link-what-s-new) for more information.
 {: note}
+
+## IBM Cloud Direct Link on Classic descriptions
+
+ * [Direct Link Connect on Classic](/docs/direct-link?topic=direct-link-direct-link-connect-solution)
+ * [Direct Link Dedicated on Classic](/docs/direct-link?topic=direct-link-direct-link-dedicated-solution)
+ * [Direct Link Dedicated Hosting on Classic](/docs/direct-link?topic=direct-link-direct-link-dedicated-hosting-solution)
+ * [Direct Link Exchange on Classic](/docs/direct-link?topic=direct-link-direct-link-exchange-solution)
 
 ## Learn more
 
