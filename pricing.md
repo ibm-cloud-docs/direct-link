@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-02"
+lastupdated: "2020-02-18"
 
 keywords: pricing, Exchange, Connect, Dedicated, regions, bandwidth, Hosting, local, routing, Global, overage, fees, market, tiers, customization, price, ingress, egress
 
@@ -35,18 +35,10 @@ Pricing for Direct Link Connect, Dedicated, and Exchange "on Classic" offerings 
 Direct Link on Classic pricing does NOT include the additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.
 {:note}
 
-## Arranging for Direct Link connectivity
-{: #arranging-for-direct-link-conectivity}
-
 You, the customer, must arrange connectivity and billing with your service providers, independently of {{site.data.keyword.cloud_notm}}. See the list of Exchange and Connect providers at [IBM Cloud Direct Link Partners](https://www.ibm.com/cloud/direct-link/partners). Direct Link Dedicated creates a Letter Of Authorization / Connecting Facility Assignment (LOA/CFA), which is usable by any service provider who can reach the **Meet Me Room that is specified** on that LOA/CFA. The provider who is connecting to the LOA/CFA must include pricing for the cross-connect in their quote to you; {{site.data.keyword.cloud_notm}} does not order cross-connects on behalf of any customer.
+{: important}
 
-## Pricing for Direct Link Connect, Dedicated, and Exchange on Classic
-{: #pricing-for-ibm-cloud-exchange-connect-and-dedicated}
-
-If your browser shows these tables with speeds less than 1 Gbps, use your mouse or trackpad to scroll this page horizontally.
-
-## Pricing for Direct Link Connect on Classic
-{: #pricing-for-direct-link-connect}
+Select a tab in the table to view pricing:
 
 | Region | 50 Mbps | 100 Mbps | 200 Mbps | 500 Mbps | 1 Gbps | 2 Gbps | 5 Gbps |
 |----|----|----|----|----|----|----|----|
@@ -56,9 +48,11 @@ If your browser shows these tables with speeds less than 1 Gbps, use your mouse 
 | Paris / Frankfurt / Milan / Korea | $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 |
 | Japan / Singapore / Hong Kong | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 |
 | Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
-
-## Pricing for Direct Link Dedicated on Classic
-{: #pricing-for-direct-link-dedicated}
+{: class="simple-tab-table"}
+{: caption="Table 1. Direct Link Connect on Classic" caption-side="left"}
+{: #simpletabtable1}
+{: tab-title="Direct Link Connect on Classic"}
+{: tab-group="IAM-simple"}
 
 | Region | 1 Gbps | 2 Gbps | 5 Gbps | 10 Gbps |
 |----|----|----|----|----|
@@ -68,16 +62,27 @@ If your browser shows these tables with speeds less than 1 Gbps, use your mouse 
 | Paris / Frankfurt / Milan / Korea | $1,319 | $2,199 | $4,125 | $5,499 |
 | Japan / Singapore / Hong Kong | $1,355 | $2,259 | $4,238 | $5,649 |
 | Australia / Brazil / India | $1,439 | $2,399 | $4,500| $5,999 |
+{: caption="Table 2. Direct Link Dedicated on Classic" caption-side="left"}
+{: #simpletabtable2}
+{: tab-title="Direct Link Dedicated on Classic"}
+{: tab-group="IAM-simple"}
+{: class="simple-tab-table"}
 
-## Pricing for Direct Link Dedicated Hosting on Classic
-{: #pricing-for-direct-link-dedicated-hosting}
-
-{{site.data.keyword.cloud_notm}} Direct Link Dedicated Hosting requests and pricing are handled on a transactional basis to account for regional differences in vendor availability and pricing.
-
-The Direct Link Dedicated Hosting minimum configuration includes one (1) rack with 5Kw of power and two ports at chosen speed. More colocation add-ons are available.
-
-## Pricing for Direct Link Exchange on Classic
-{: #pricing-for-direct-link-exchange}
+| MRC[^comparison-header] |   |   | DAL09  | DAL10  | DAL12  | DAL13 | WDC04  | WDC06  | WDC07  | SJC03  |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|  5kW Cabinet w/ PDU, Combo Lock | Per instance/mo | Metric | $3,810 | $3,969 | $3,810 | $3,969 | $4,445 | $3,810 | $3,985 | $4,445 |
+| 10kW Cabinet w/ PDU, Combo Lock | Per instance/mo | Metric | $7,620 | $7,938 | $7,620 | $7,699 | $8,890 | $7,715 | $7,970 | $8,890 |
+| 15kW Cabinet w/ PDU, Combo Lock | Per instance/mo | Metric | $11,430 | $11,906 | $11,430 | $11,430 | $13,335 | $11,255 | $11,954 | $13,335 |
+| **NRC**[^simpletable] | | | | | | | | | |
+|  5kW Cabinet Install | Per instance/OTC | Metric | $11,113 | $6,350 | $11,113 | $11,240 | $11,113 | $3,175 | $3,175 | $11,113 |
+| 10kW Cabinet Install | Per instance/OTC | Metric | $22,225 | $15,875 | $22,225 | $19,114 | $22,225 | $6,350 | $6,350 | $22,225 |
+| 15kW Cabinet Install | Per instance/OTC | Metric | $33,338 | $20,638 | $33,338 | $23,514 | $33,338 | $9,525 | $9,525 | $33,338 |
+| Additional Cross-Connect Install | Per instance/OTC | Metric | $794 | $794 | $794 | $794 | $794 | $794 | $794 | $794 |
+{: caption="Table 3. Direct Link Dedicated Hosting on Classic" caption-side="left"}
+{: #simpletabtable3}
+{: tab-title="Direct Link Dedicated Hosting on Classic"}
+{: tab-group="IAM-simple"}
+{: class="simple-tab-table"}
 
 | Region | 50 Mbps | 100 Mbps | 200 Mbps | 500 Mbps | 1 Gbps |2 Gbps | 5 Gbps |
 |----|----|----|----|----|----|----|----|
@@ -87,6 +92,18 @@ The Direct Link Dedicated Hosting minimum configuration includes one (1) rack wi
 | Paris / Frankfurt / Milan / Korea | $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 |
 | Japan / Singapore / Hong Kong | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 |
 | Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
+{: caption="Table 4. Direct Link Exchange on Classic" caption-side="left"}
+{: #simpletabtable4}
+{: tab-title="Direct Link Exchange on Classic"}
+{: tab-group="IAM-simple"}
+{: class="simple-tab-table"}
+
+[^comparison-header]: Monthly Recurring Charges (MRC)
+[^simpletable]: Non-Recurring Charges (NRC)
+
+**For Direct Link Dedicated Hosting on Classic**:
+- Direct Link Dedicated Hosting requests and pricing are handled on a transactional basis to account for regional differences in vendor availability and pricing.
+- The Direct Link Dedicated Hosting minimum configuration includes one (1) rack with 5Kw of power and two ports for HA purposes at the chosen speed. More colocation add-ons are available.
 
 ## Local routing
 {: #local-routing}
