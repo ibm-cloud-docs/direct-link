@@ -68,12 +68,12 @@ Select a tab in the table to view pricing:
 {: tab-group="IAM-simple"}
 {: class="simple-tab-table"}
 
-| MRC[^comparison-header] |   |   | DAL09  | DAL10  | DAL12  | DAL13 | WDC04  | WDC06  | WDC07  | SJC03  |
+| MRC |   |   | DAL09  | DAL10  | DAL12  | DAL13 | WDC04  | WDC06  | WDC07  | SJC03  |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  5kW Cabinet w/ PDU, Combo Lock | Per instance/mo | Metric | $3,810 | $3,969 | $3,810 | $3,969 | $4,445 | $3,810 | $3,985 | $4,445 |
 | 10kW Cabinet w/ PDU, Combo Lock | Per instance/mo | Metric | $7,620 | $7,938 | $7,620 | $7,699 | $8,890 | $7,715 | $7,970 | $8,890 |
 | 15kW Cabinet w/ PDU, Combo Lock | Per instance/mo | Metric | $11,430 | $11,906 | $11,430 | $11,430 | $13,335 | $11,255 | $11,954 | $13,335 |
-| **NRC**[^simpletable] | | | | | | | | | |
+| **NRC** | | | | | | | | | |
 |  5kW Cabinet Install | Per instance/OTC | Metric | $11,113 | $6,350 | $11,113 | $11,240 | $11,113 | $3,175 | $3,175 | $11,113 |
 | 10kW Cabinet Install | Per instance/OTC | Metric | $22,225 | $15,875 | $22,225 | $19,114 | $22,225 | $6,350 | $6,350 | $22,225 |
 | 15kW Cabinet Install | Per instance/OTC | Metric | $33,338 | $20,638 | $33,338 | $23,514 | $33,338 | $9,525 | $9,525 | $33,338 |
@@ -97,9 +97,6 @@ Select a tab in the table to view pricing:
 {: tab-title="Direct Link Exchange on Classic"}
 {: tab-group="IAM-simple"}
 {: class="simple-tab-table"}
-
-[^comparison-header]: Monthly Recurring Charges (MRC)
-[^simpletable]: Non-Recurring Charges (NRC)
 
 **For Direct Link Dedicated Hosting on Classic**:
 - Direct Link Dedicated Hosting requests and pricing are handled on a transactional basis to account for regional differences in vendor availability and pricing.
