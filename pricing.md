@@ -51,7 +51,7 @@ Select a tab in the table to view pricing:
 {: class="simple-tab-table"}
 {: caption="Table 1. Direct Link Connect on Classic" caption-side="left"}
 {: #simpletabtable1}
-{: tab-title="Direct Link Connect on Classic"}
+{: tab-title="Connect on Classic"}
 {: tab-group="IAM-simple"}
 
 | Region | 1 Gbps | 2 Gbps | 5 Gbps | 10 Gbps |
@@ -64,7 +64,7 @@ Select a tab in the table to view pricing:
 | Australia / Brazil / India | $1,439 | $2,399 | $4,500| $5,999 |
 {: caption="Table 2. Direct Link Dedicated on Classic" caption-side="left"}
 {: #simpletabtable2}
-{: tab-title="Direct Link Dedicated on Classic"}
+{: tab-title="Dedicated on Classic"}
 {: tab-group="IAM-simple"}
 {: class="simple-tab-table"}
 
@@ -80,7 +80,7 @@ Select a tab in the table to view pricing:
 | Additional Cross-Connect Install | Per instance/OTC | Metric | $794 | $794 | $794 | $794 | $794 | $794 | $794 | $794 |
 {: caption="Table 3. Direct Link Dedicated Hosting on Classic" caption-side="left"}
 {: #simpletabtable3}
-{: tab-title="Direct Link Dedicated Hosting on Classic"}
+{: tab-title="Dedicated Hosting on Classic"}
 {: tab-group="IAM-simple"}
 {: class="simple-tab-table"}
 
@@ -94,7 +94,7 @@ Select a tab in the table to view pricing:
 | Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
 {: caption="Table 4. Direct Link Exchange on Classic" caption-side="left"}
 {: #simpletabtable4}
-{: tab-title="Direct Link Exchange on Classic"}
+{: tab-title="Exchange on Classic"}
 {: tab-group="IAM-simple"}
 {: class="simple-tab-table"}
 
