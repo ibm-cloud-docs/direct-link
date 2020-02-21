@@ -88,7 +88,7 @@ Our Direct Link Connect providers include these locations:
 | Bell Canada | Montreal 2, Toronto 2 |
 | British Telecom |   Frankfurt 1, London 1, Sao Paulo 2, Washington DC 2|
 | CenturyLink IP VPN | Dallas 3, Miami 1, Sao Paulo 2 |
-| CenturyLink Dynamic Connections |  **Americas:** San Jose 2, Toronto 2, Washington DC 2  **EU:** London 3 |
+| CenturyLink Dynamic Connections |  **Americas:** San Jose 2, Toronto 2, Washington DC 2 **EU:** Frankfurt 1, London 3,Paris 2 
 | Chief Telecomm | Hong Kong 1 |
 | Colt | **APAC:** Tokyo 1, Singapore 2 **EU:** Amsterdam 2, Frankfurt 1, London 1, Paris 2 |
 | Console Connect by PCCW | **APAC:** Hong Kong 1, Singapore 2, Tokyo 1<br />**EU:** London 1, San Jose 2 |
