@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018, 2019
-lastupdated: "2019-07-10"
+  years: 2017, 2020
+lastupdated: "2020-02-25"
 
 keywords: faq, faqs, questions, answer, billing, fees, point-to-point, bandwidth, charges, redundancy, global routing, diversity, IPv6, BGP, charges, jumbo frames
 
@@ -31,6 +31,15 @@ subcollection: direct-link
 
 You can review answers to some frequently asked questions about {{site.data.keyword.cloud}} Direct Link.
 {:shortdesc}
+
+## How does Direct Link "on Classic" differ from the new Direct Link solution being rolled out this year?
+{: #differentiators}
+{: faq}
+
+The new Direct Link offering differs from this Direct Link classic infrastructure in that Direct Link is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network. The initial rollout of the new Direct Link solution is in the Dallas and Washington D.C. sites. The zone-region model allows for multiple data centers to exist in a single zone.
+
+For information about the "next generation" Direct Link offerings (Direct Link Dedicated being the first), see [Getting started with IBM Cloud Direct Link Dedicated](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl).
+{: tip}
 
 ## How does IBM Cloud Direct Link work?
 {: #how-does-ibm-cloud-direct-link-work}
