@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2018, 2019
+  years: 2018, 2020
 lastupdated: "2020-03-02"
 
 keywords: pricing, Exchange, Connect, Dedicated, regions, bandwidth, Hosting, local, routing, Global, overage, fees, market, tiers, customization, price, ingress, egress
@@ -113,23 +113,25 @@ Review the following planning considerations when ordering Dedicated Hosting on 
 ### Entrance criteria
 {: #dldh-entrance-criteria}
 
-- DLDH opportunity needs to be reviewed and approved by the CDE team before a quote is given. Existing IBM Cloud accounts can open the Direct Link Dedicated Hosting request through the customer portal and the ticket will be routed to CDE for review. Pre-sales inquiries without an existing account can contact the CDE team @ CloudEng@us.ibm.com.
+- DLDH opportunity needs to be reviewed and approved by the CDE team before a quote is given. Existing IBM Cloud accounts can open the Direct Link Dedicated Hosting request through the IBM Cloud console and the IBM Support ticket will be routed to CDE for review. Pre-sales inquiries without an existing account can contact the CDE team at CloudEng@us.ibm.com.
 - Minimum requirements – One cabinet @ 5kW with two Direct Links (for high availability purposes)
 - Maximum total power capacity – 150kW
 - IaaS consumption ratio – A minimum of 2 x 1 Gbps of Direct Link capacity per cabinet (that is, six cabinets require a minimum of 12 Gbps of Direct Link capacity into IBM Cloud)
 - Metered power is NOT available. All power is billed in 5 kW increments, as a MRC.
-- Dedicated Hosting on Classic is only offered as a 12-month contract term. Customers can renew or cancel with a 90 day notice.
+- Dedicated Hosting on Classic is only offered as a 12-month contract term. Customers can renew or cancel with a 90-day notice.
 
 ### Process timeline
 {: #dldh-process-timeline}
 
+
+
 | Business days | Steps |
 |----|----|
-| 3 to 5 days | 1. Gather requirements. |
-| 7 to 14 days | 2. Check availability, pricing, and create a contract. Time can be significantly shorter if there are no custom requirements. |
-| 3 to 5 days | 3. Customer signs SoftLayer contracts. |
-| 15 to 20 days | 4. SoftLayer signature of contracts / SoftLayer signature of vendor work order |
-| 5 to 7 days | 5. Vendor counter-signs the work order. |
+|  3 to 5 days | 1. Gather requirements. |
+|  7 to 14 days | 2. Check availability, pricing, and create a contract. Time can be significantly shorter if there are no custom requirements. |
+|  3 to 5 days | 3. Customer signs the IBM contract. |
+| 15 to 20 days | 4. IBM signature of contracts / IBM signature of vendor work order |
+|  5 to 7 days | 5. Vendor counter-signs the work order. |
 | 30 to 60 days | 6. Cabinet is built out, power runs and cross-connects are completed, customer is onboarded. |
 {: tab-title="Dedicated Hosting on Classic timeline"}
 
