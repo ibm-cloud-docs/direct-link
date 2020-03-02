@@ -98,9 +98,40 @@ Select a tab in the table to view pricing:
 {: tab-group="IAM-simple"}
 {: class="simple-tab-table"}
 
-**For Direct Link Dedicated Hosting on Classic**:
-- Direct Link Dedicated Hosting requests and pricing are handled on a transactional basis to account for regional differences in vendor availability and pricing.
+## Dedicated Hosting on Classic pricing considerations
+{: #dldh-specs}
+
+Review the following planning considerations when ordering Dedicated Hosting on Classic
+{: #shortdesc}
+
+- Direct Link Dedicated Hosting on Classic requests and pricing are handled on a transactional basis to account for regional differences in vendor availability and pricing.
+- To obtain pricing, you must add both the Monthly Recurring Charge (MRC) and Non-Recurring Charge (NRC) prices listed in the preceding table.
+- Pricing for space/power is not guaranteed until verified with the colocation provider.
 - The Direct Link Dedicated Hosting minimum configuration includes one (1) rack with 5Kw of power and two ports for HA purposes at the chosen speed. More colocation add-ons are available.
+- Deals involving a networking cage require custom pricing.
+
+### Entrance criteria
+{: #dldh-entrance-criteria}
+
+- DLDH opportunity needs to be reviewed and approved by the CDE team before a quote is given. Existing IBM Cloud accounts can open the Direct Link Dedicated Hosting request through the customer portal and the ticket will be routed to CDE for review. Pre-sales inquiries without an existing account can contact the CDE team @ CloudEng@us.ibm.com.
+- Minimum requirements – One cabinet @ 5kW with two Direct Links (for high availability purposes)
+- Maximum total power capacity – 150kW
+- IaaS consumption ratio – A minimum of 2 x 1 Gbps of Direct Link capacity per cabinet (that is, six cabinets require a minimum of 12 Gbps of Direct Link capacity into IBM Cloud)
+- Metered power is NOT available. All power is billed in 5 kW increments, as a MRC.
+- Dedicated Hosting on Classic is only offered as a 12-month contract term. Customers can renew or cancel with a 90 day notice.
+
+### Process timeline
+{: #dldh-process-timeline}
+
+| Business days | Steps |
+|----|----|
+| 3 to 5 days | 1. Gather requirements. |
+| 7 to 14 days | 2. Check availability, pricing, and create a contract. Time can be significantly shorter if there are no custom requirements. |
+| 3 to 5 days | 3. Customer signs SoftLayer contracts. |
+| 15 to 20 days | 4. SoftLayer signature of contracts / SoftLayer signature of vendor work order |
+| 5 to 7 days | 5. Vendor counter-signs the work order. |
+| 30 to 60 days | 6. Cabinet is built out, power runs and cross-connects are completed, customer is onboarded. |
+{: tab-title="Dedicated Hosting on Classic timeline"}
 
 ## Local routing
 {: #local-routing}
