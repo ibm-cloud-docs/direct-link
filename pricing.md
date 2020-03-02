@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2020-02-18"
+lastupdated: "2020-03-02"
 
 keywords: pricing, Exchange, Connect, Dedicated, regions, bandwidth, Hosting, local, routing, Global, overage, fees, market, tiers, customization, price, ingress, egress
 
