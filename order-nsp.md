@@ -108,7 +108,6 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Hong Kong 1 | PoP | Mega-I (via Telstra) | Mega-I (iAdvantage Hong Kong) |29F, 399 Chai Wan Road |
 | Hong Kong 2 | DC | Digital Realty | HKG10 |33 Chun Choi Street, Yan Hing Industrial Building |
 | Hong Kong 3 | PoP | Equinix | HKG2 | 17/F Kerry Warehouse |
-| Melbourne 1 | DC | Digital Realty | MEL11 | 72 Radnor Drive, Deer Park |
 | Melbourne 2 | PoP |NextDC | M2 | 820 Lorimer Street, Port Melbourne |
 | Osaka 1 | PoP | Equinix | OS1 |  |
 | Perth 1 | PoP | Metronode | F1Z | 60 Randell St, Shenton Park, Western Australia |
@@ -157,7 +156,6 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Dallas 12 | DC(AZ1) | Digital Realty | DFW18 | 907 Security Row |
 | Dallas 13 | DC(AZ1) | Cyrus One | Carrollton - Frankford | 1649 W. Frankford Rd |
 | Denver 1 | PoP | Coresite | DE1 | 910 15th Street |
-| Houston 2 | PoP | IBM | HOU02 | 855 Greens Parkway |
 | Los Angeles 1 | PoP | Coresite | LA1 | 624 S. Grand Ave. AKA 1 Wilshire Blvd |
 | Mexico 1 | DC | Alestra | Alestra Queretaro Datacenter | Lateral Carretera Estatal 431, Parque Tecnologico Inovacion Lote 79, El Marqués |
 | Miami 1 | PoP | Terremark / Verizon | NAP | 50 NE 9th Street |

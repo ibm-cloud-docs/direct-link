@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-03-02"
+lastupdated: "2020-03-03"
 
 keywords: pricing, Exchange, Connect, Dedicated, regions, bandwidth, Hosting, local, routing, Global, overage, fees, market, tiers, customization, price, ingress, egress
 
@@ -101,7 +101,7 @@ Select a tab in the table to view pricing:
 ## Dedicated Hosting on Classic pricing considerations
 {: #dldh-specs}
 
-Review the following planning considerations when ordering Dedicated Hosting on Classic
+Review the following planning considerations when ordering Dedicated Hosting on Classic:
 {: #shortdesc}
 
 - Direct Link Dedicated Hosting on Classic requests and pricing are handled on a transactional basis to account for regional differences in vendor availability and pricing.
@@ -113,7 +113,7 @@ Review the following planning considerations when ordering Dedicated Hosting on 
 ### Entrance criteria
 {: #dldh-entrance-criteria}
 
-- DLDH opportunity needs to be reviewed and approved by the CDE team before a quote is given. Existing IBM Cloud accounts can open the Direct Link Dedicated Hosting request through the IBM Cloud console and the IBM Support ticket will be routed to CDE for review. Pre-sales inquiries without an existing account can contact the CDE team at CloudEng@us.ibm.com.
+- DLDH opportunity needs to be reviewed and approved by the Cloud Design Engineering (CDE) team before a quote is given. Existing IBM Cloud accounts can open the Direct Link Dedicated Hosting request through the IBM Cloud console and the IBM Support ticket will be routed to CDE for review. Pre-sales inquiries without an existing account can contact the CDE team at CloudEng@us.ibm.com.
 - Minimum requirements – One cabinet @ 5kW with two Direct Links (for high availability purposes)
 - Maximum total power capacity – 150kW
 - IaaS consumption ratio – A minimum of 2 x 1 Gbps of Direct Link capacity per cabinet (that is, six cabinets require a minimum of 12 Gbps of Direct Link capacity into IBM Cloud)
@@ -129,9 +129,9 @@ Review the following planning considerations when ordering Dedicated Hosting on 
 |----|----|
 |  3 to 5 days | 1. Gather requirements. |
 |  7 to 14 days | 2. Check availability, pricing, and create a contract. Time can be significantly shorter if there are no custom requirements. |
-|  3 to 5 days | 3. Customer signs the IBM contract. |
-| 15 to 20 days | 4. IBM signature of contracts / IBM signature of vendor work order |
-|  5 to 7 days | 5. Vendor counter-signs the work order. |
+|  3 to 5 days | 3. Customer signs the IBM Cloud Direct Link Dedicated Hosting contract. |
+| 15 to 20 days | 4. IBM signature of contracts / IBM signature of colocation vendor work order |
+|  5 to 7 days | 5. Colocation vendor counter-signs the work order. |
 | 30 to 60 days | 6. Cabinet is built out, power runs and cross-connects are completed, customer is onboarded. |
 {: tab-title="Dedicated Hosting on Classic timeline"}
 
