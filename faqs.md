@@ -32,20 +32,24 @@ subcollection: direct-link
 You can review answers to some frequently asked questions about {{site.data.keyword.cloud}} Direct Link.
 {:shortdesc}
 
-## How does Direct Link "on Classic" differ from the new Direct Link solution being rolled out this year?
+## How does Direct Link on Classic differ from the new Direct Link "2.0" offering?
 {: #differentiators}
 {: faq}
 
-The new Direct Link offering differs from this Direct Link classic infrastructure in that Direct Link is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network. The initial rollout of the new Direct Link solution is in the Dallas and Washington D.C. sites. The zone-region model allows for multiple data centers to exist in a single zone.
+The new Direct Link "2.0" offering differs from the Direct Link classic infrastructure in that Direct Link "2.0" is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
 
-For information about the "next generation" Direct Link offerings (Direct Link Dedicated being the first), see [Getting started with IBM Cloud Direct Link Dedicated](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl).
+The initial rollout of Direct Link "2.0" is in the Dallas and Washington D.C. sites. The zone-region model allows for multiple data centers to exist in a single zone.
+
+The new Direct Link"2.0" offering allows connectivity to both Classic IaaS as well as VPCs, whereas the Classic Direct Link always connects to IaaS network and a global VRF first. Classic Direct Link can only reach Classic VPC on a limited basis, and cannot reach VPC Gen 2 at all.
+
+For more information about the differences between the new Direct Link Dedicated "2.0" offering and the Classic version, see [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order) and [Getting started with IBM Cloud Direct Link Dedicated](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl).
 {: tip}
 
 ## How does IBM Cloud Direct Link work?
 {: #how-does-ibm-cloud-direct-link-work}
 {:faq}
 
-For every Direct Link customer, the {{site.data.keyword.cloud}} team assigns a small private subnet to build a point-to-point network between the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) and the customer's edge router (CER). Then, {{site.data.keyword.cloud_notm}} and the customer configure BGP to exchange routes between the environments. Finally, {{site.data.keyword.cloud_notm}} places the customer into a VRF to allow for the implementation of non-unique routes to the private address space of the customer's remote network.
+For every Direct Link customer, the {{site.data.keyword.cloud}} team assigns a small private subnet to build a point-to-point network between the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) and the customer's edge router (CER). Then, {{site.data.keyword.cloud_notm}} and the customer configure Border Gateway Protocol (BGP) to exchange routes between the environments. Finally, {{site.data.keyword.cloud_notm}} places the customer into a VRF to allow for the implementation of non-unique routes to the private address space of the customer's remote network.
 
 ## Does IBM Cloud meter bandwidth for Direct Link products?
 {: #does-ibm-cloud-meter-bandwidth-for-direct-link-products}
