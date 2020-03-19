@@ -56,7 +56,7 @@ To exchange route information with your environment, {{site.data.keyword.cloud_n
 
 * **VRF**: Using VRF, {{site.data.keyword.cloud_notm}} advertises the specific private subnets that are assigned to your customer account. You must advertise the remote networks that you want to be reachable from the {{site.data.keyword.cloud_notm}} private network. It is your responsibility as a customer to manage the advertisements to and from the IBM Cloud network. (More details about VRF are included in the next section.)
 
-The following networks are filtered out and cannot be accepted: `0.0.0.0`, `10.0.0.0/14`, `10.198.0.0/15`, `10.200.0.0/14`, `169.254.0.0/16`, `224.0.0.0/4`.
+The following networks are filtered out and cannot be accepted: `10.0.0.0/14`, `10.198.0.0/15`, `10.200.0.0/14`, `169.254.0.0/16`, `224.0.0.0/4`.
 {:note}
 
 * **ECMP**: For customers who elect to build redundancy at a supported location, {{site.data.keyword.cloud_notm}} supports the implementation of equal-cost multipath (ECMP) to provide load balancing and redundancy across the two links. This ECMP setup should be requested at the time of order.
