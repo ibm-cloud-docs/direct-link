@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="direct-link" category="network" audience="service" href="/docs/direct-link/getting-started.html" console-page="/hybrid-networking" product-page="https://www.ibm.com/cloud/direct-link" path="direct-link"}
+{: .toc subcollection="direct-link" category="network" audience="service" href="/docs/direct-link/getting-started.html" console-page="/catalog?search=direct link" product-page="https://www.ibm.com/cloud/direct-link" path="direct-link"}
 Direct Link on Classic
 
     {: .navgroup id="learn"}

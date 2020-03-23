@@ -40,6 +40,10 @@ To determine which Direct Link solution is best for your networking environment,
 [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order)
 {: tip}
 
+## Before you begin
+Before ordering Dedicated Hosting on Classic, review and ensure that you have met all requirements stated in 
+[Dedicated Hosting on Classic entrance critera](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#dldh-entrance-criteria).
+
 ## Direct Link ordering process overview
 {: #ordering-process-overview-dh}
 
