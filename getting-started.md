@@ -33,22 +33,16 @@ subcollection: direct-link
 {:shortdesc}
 
 ## How do I know which Direct Link solution to order?
+{: #get-started-solution-to-order}
 
 Use this decision tree to help you decide which solution works best for you. If you want help with getting started, you can open an IBM Support case through the [IBM Cloud console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}, or contact your {{site.data.keyword.cloud_notm}} sales representative.
 
 ![direct-link-decision-tree](/images/flow.png)
 
-The new Direct Link Dedicated is a "limited availability" release, offered in North America (Washington, D.C. and Dallas markets) with more locations being rolled out soon. See [Release notes](/docs/direct-link?topic=direct-link-what-s-new) for more information.
+The new Direct Link Dedicated "2.0" release is a limited availability, offered in North America (Washington, D.C. and Dallas markets) with more locations being rolled out soon. For more information, see Direct Link [release notes](/docs/direct-link?topic=direct-link-what-s-new) and ["2.0" FAQs](/docs/dl?topic=dl-faqs).
 {: note}
 
 When you're ready to order, follow the step-by-step instructions for the specific Direct Link solution that you need. After you place your order, you'll be asked to complete a questionnaire related to your solution and workload requirements.  
-
-## IBM Cloud Direct Link on Classic descriptions
-
- * [Direct Link Connect on Classic](/docs/direct-link?topic=direct-link-direct-link-connect-solution)
- * [Direct Link Dedicated on Classic](/docs/direct-link?topic=direct-link-direct-link-dedicated-solution)
- * [Direct Link Dedicated Hosting on Classic](/docs/direct-link?topic=direct-link-direct-link-dedicated-hosting-solution)
- * [Direct Link Exchange on Classic](/docs/direct-link?topic=direct-link-direct-link-exchange-solution)
 
 ## Learn more
 

@@ -34,7 +34,7 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct L
 ## December 2019
 {: #december-2019}
 
-IBM introduces a new Direct Link Dedicated release for VPC&mdash;the first of our next-generation Direct Link offerings.  Currently, this "limited availability" release is available only in the North America geography (Washington, D.C. and Dallas markets) with more locations being rolled out in 2020.
+IBM introduces a new Direct Link Dedicated release for VPC&mdash;the first of our next-generation Direct Link offerings.  Currently, this "limited availability" release is available only in the North America geography (Washington, D.C. and Dallas markets) with more locations being rolled out soon.
 
 Highlights include:
 
@@ -49,9 +49,9 @@ Capabilities coming soon:
 * Support for connection to venues (CMS, Blockchain, SAP on Power, and more).
 * Support for Direct Link connection to Public (for example, ICOS).
 
-Stay tuned here for future release updates. To learn more about the new Direct Link offerings, see [FAQs](/docs/dl?topic=dl-faqs){: external}. For pricing and ordering information, see [IBM Cloud Direct Link Dedicated Cloud Docs](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl){: external}.
+To learn more about the new Direct Link "2.0" offerings, see [FAQs](/docs/dl?topic=dl-faqs). For pricing and ordering information, see [IBM Cloud Direct Link Dedicated](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl).
 
-To determine which Direct Link Dedicated solution is right for your networking needs, see [How do I know which type of IBM Cloud Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#how-do-i-know-which-type-of-ibm-cloud-direct-link-i-need-).
+To determine which Direct Link Dedicated solution is right for your networking needs, see [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order)
 {: tip}
 
 ## March 2019

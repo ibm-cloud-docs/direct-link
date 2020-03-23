@@ -25,15 +25,18 @@ subcollection: direct-link
 {:term: .term}  
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Ordering Direct Link Connect on Classic
 {: #how-to-order-ibm-cloud-direct-link-connect-classic}
+{: help}
+{: support}
 
 As you prepare to order Direct Link on Classic, review the general process your organization will follow for obtaining the Connect service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
 {:shortdesc}
 
-To determine which Direct Link solution is best for your networking environment, see
-[How do I know which type of IBM Cloud Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#how-do-i-know-which-type-of-ibm-cloud-direct-link-i-need-)
+To determine which Direct Link solution is best for your networking environment, see [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order)
 {: tip}
 
 ## Direct Link ordering process overview
@@ -88,7 +91,7 @@ Our Direct Link Connect providers include these locations:
 | Bell Canada | Montreal 2, Toronto 2 |
 | British Telecom |   Frankfurt 1, London 1, Sao Paulo 2, Washington DC 2|
 | CenturyLink IP VPN | Dallas 3, Miami 1, Sao Paulo 2 |
-| CenturyLink Dynamic Connections |  **Americas:** San Jose 2, Toronto 2, Washington DC 2 **EU:** Frankfurt 1, London 3,Paris 2 
+| CenturyLink Dynamic Connections |  **Americas:** San Jose 2, Toronto 2, Washington DC 2 **EU:** Frankfurt 1, London 3,Paris 2
 | Chief Telecomm | Hong Kong 1 |
 | Colt | **APAC:** Tokyo 1, Singapore 2 **EU:** Amsterdam 2, Frankfurt 1, London 1, Paris 2 |
 | Console Connect by PCCW | **APAC:** Hong Kong 1, Singapore 2, Tokyo 1<br />**EU:** London 1, San Jose 2 |
@@ -119,4 +122,4 @@ Our Direct Link Connect providers include these locations:
 ## Pricing
 {: #connect-pricing}
 
-For pricing information, see [Pricing for IBM Cloud Direct Link on Classic](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-connect).
+For more information, refer to the **Connect on Classic** tab in the [pricing table](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link).

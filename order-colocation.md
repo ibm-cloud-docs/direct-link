@@ -25,15 +25,19 @@ subcollection: direct-link
 {:term: .term}  
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Ordering Direct Link Dedicated Hosting on Classic
 {: #how-to-order-ibm-cloud-direct-link-dedicated-hosting}
+{: help}
+{: support}
 
 As you prepare to order Direct Link on Classic, review the general process your organization will follow for obtaining the Dedicated Hosting service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
 {:shortdesc}
 
 To determine which Direct Link solution is best for your networking environment, see
-[How do I know which type of IBM Cloud Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#how-do-i-know-which-type-of-ibm-cloud-direct-link-i-need-)
+[How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order)
 {: tip}
 
 ## Direct Link ordering process overview
@@ -105,7 +109,7 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 | APAC |  SNG01 |  Jurong East | DC | Digital Realty  |  29a International Business Park, S180 |
 | APAC | TOK02  |  Koto-ku | DC (AZ1) | AT Tokyo  |  Koto-ku |
 | APAC | TOK05  | Kawasaki Kangagawa  | DC (AZ3) | NTT | Kawasaki Kangagawa |
-|  |  |  |  |  |  | 
+|  |  |  |  |  |  |
 | EMEA | FRA04  | Frankfurt |  DC (AZ2) | E-shelter | Eschborner Landstrasse 100, Building H |
 | EMEA | FRA05  | Frankfurt |  DC (AZ3) | InterXion | Weismüllerstraße 40 |
 | EMEA | LON02  | Chessington | DC  | Digital Realty  |  Fountain Court |
@@ -114,4 +118,4 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 ## Pricing
 {: #dedicated-pricing}
 
-For more information, refer to the [pricing document](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-dedicated-hosting).
+For more information, refer to the **Dedicated Hosting on Classic** tab in the [pricing table](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link). Also refer to [pricing considerations](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#dldh-specs).  

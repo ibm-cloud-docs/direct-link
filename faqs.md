@@ -13,6 +13,8 @@ subcollection: direct-link
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:DomainName: data-hd-keyref="DomainName"}
+{:faq: data-hd-content-type='faq'}
+{:support: data-reuse='support'}
 {:note: .note}
 {:important: .important}
 {:deprecated: .deprecated}
@@ -35,6 +37,7 @@ You can review answers to some frequently asked questions about {{site.data.keyw
 ## How does Direct Link on Classic differ from the new Direct Link "2.0" offering?
 {: #differentiators}
 {: faq}
+{: support}
 
 The new Direct Link "2.0" offering differs from the Direct Link classic infrastructure in that Direct Link "2.0" is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
 
@@ -48,6 +51,7 @@ For more information about the differences between the new Direct Link Dedicated
 ## How does IBM Cloud Direct Link work?
 {: #how-does-ibm-cloud-direct-link-work}
 {:faq}
+{: support}
 
 For every Direct Link customer, the {{site.data.keyword.cloud}} team assigns a small private subnet to build a point-to-point network between the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) and the customer's edge router (CER). Then, {{site.data.keyword.cloud_notm}} and the customer configure Border Gateway Protocol (BGP) to exchange routes between the environments. Finally, {{site.data.keyword.cloud_notm}} places the customer into a VRF to allow for the implementation of non-unique routes to the private address space of the customer's remote network.
 
@@ -60,6 +64,7 @@ Yes. Bandwidth usage across the Direct Link service between customers and {{site
 ## When does billing begin with Direct Link?
 {: #when-does-billing-begin-with-direct-link}
 {:faq}
+{: support}
 
 The fees for Direct Link Connect cover the cost of service termination on the {{site.data.keyword.cloud_notm}} infrastructure.
 
@@ -82,6 +87,7 @@ Direct Link does not provide an inherently Redundant service. Direct Link can pr
 ## What is the difference between the default "local" routing and the global routing add-on for Direct Link?
 {: #what-is-the-difference-between-the-default-local-routing-and-the-global-routing-add-on-for-direct-link}
 {:faq}
+{: support}
 
 The local routing option is the default routing option. If your Direct Link is connected at the local PoP, it provides access to all data centers within that same market. In some markets, local routing is applicable for stand-alone PoP locations and direct links that are terminated at the data center. Check [the list of expanded markets](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-cloud-direct-link-local-markets) for more information.   
 
@@ -120,6 +126,7 @@ The recommended best practice is to cancel your automated order and submit a new
 ## What is the difference between Direct Link Exchange and Direct Link Connect?
 {: #what-is-the-difference-between-direct-link-exchange-and-direct-link-connect}
 {:faq}
+{: support}
 
 These two services are similar, relatively low-cost, latency tolerant, and rapid entry points to the benefits of IBM Cloud Direct Link. In a nutshell, Exchange uses data center providers and Connect uses Telco carriers. Here are some additional details:
 
@@ -140,6 +147,7 @@ Connect providers are Telcos who have network reach beyond the data center. Exch
 ## Can IBM Support IPv6 over Direct Link?
 {: #can-ibm-support-ipv6-over-direct-link}
 {:faq}
+{: support}
 
 Not for the BGP Session. We must assign our /30 from IPv4, and we need the same in return from the customer.
 
@@ -206,6 +214,7 @@ There is no SLA on Direct Link today. Customers can achieve 99.999% effectively 
 ## Where can I get help setting up a Direct Link?
 {: #where-can-i-get-help-setting-up-a-direct-link}
 {:faq}
+{: support}
 
 For connecting to Direct Link, see [Configuring {{site.data.keyword.cloud_notm}} Direct Link](/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link). If you need more help, you can request engineering support in the case that was opened for the new service. Even if it is an API service with Equinix, opening a case enables an engineer to look at it. Or you can contact your IBM Sales representative.
 

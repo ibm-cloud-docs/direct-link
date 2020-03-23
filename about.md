@@ -26,10 +26,35 @@ subcollection: direct-link
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# About IBM Cloud Direct Link on Classic
+# About Direct Link on Classic
 {: #about-ibm-cloud-direct-link}
 
-You can browse more details about the key features and benefits of each of the  {{site.data.keyword.cloud}} Direct Link on Classic solutions.
+{{site.data.keyword.cloud}} Direct Link on Classic offerings provide connectivity from an external source into a customer's {{site.data.keyword.cloud_notm}} private network. Direct Link on Classic can be viewed as an alternative to a traditional site-to-site VPN solution, which is designed for customers that need more consistent, higher-throughput connectivity between a remote network and their {{site.data.keyword.cloud_notm}} environments.
+{:shortdesc}
+
+## Direct Link on Classic offerings
+{: #overview-of-direct-link-offerings}
+
+Four types of connections are available:
+{:shortdesc}
+
+* **Direct Link Connect on Classic** allows customers to use a connection through our Carrier partners who own and operate a facility-based network. A Connect provider is a network service provider (NSP) that is already connected to the {{site.data.keyword.cloud_notm}} network, by using multi-tenant, high capacity links (also known as a _network-to-network interface_, or NNI). Customers typically can purchase a virtual circuit at this provider, bringing connectivity at a reduced cost, because the physical connectivity from {{site.data.keyword.cloud_notm}} to the Connect provider is in place already, shared among other customers.
+
+* **Direct Link Dedicated on Classic** allows customers to terminate a single-tenant, fiber-based cross-connect into the {{site.data.keyword.cloud_notm}} network. This offering can be used by customers with colocation premises that are next to {{site.data.keyword.cloud_notm}} PoPs and data centers; as well as network service providers that deliver circuits to customer premises or other data centers.
+
+* **Direct Link Dedicated Hosting on Classic** provides connectivity similar to Direct Link Dedicated, but the connection point is next to an {{site.data.keyword.cloud_notm}} data center, which improves latency for higher-performance use cases. {{site.data.keyword.cloud_notm}} offers various customizable colocation services with this solution.
+
+* **Direct Link Exchange on Classic** allows customers to use an Exchange provider to deliver connectivity to their {{site.data.keyword.cloud_notm}}. An Exchange provider is a colocation or data center provider that is already connected to the {{site.data.keyword.cloud_notm}} network, by using multi-tenant, high capacity links (also known as a _network-to-network interface_, or NNI). Customers typically can purchase a virtual circuit at this provider, bringing connectivity at a reduced cost, because the physical connectivity from {{site.data.keyword.cloud_notm}} to the Exchange provider is in place already, shared among other customers.
+
+The {{site.data.keyword.cloud_notm}} Direct Link service is a routed, OSI Layer-3 service. It offers a direct connection to the {{site.data.keyword.cloud_notm}} private network backbone, with low latency and speeds up to 10 Gbps.
+For increased flexibility in creating this Layer-3 connectivity, {{site.data.keyword.cloud_notm}} Direct Link enables customers to use:
+ * Dual IP for remote hosts
+ * NAT
+ * Tunneling for BYOIP
+
+## Direct Link on Classic use cases
+
+See the following links for key features and benefits of each {{site.data.keyword.cloud}} Direct Link on Classic solution.
 {:shortdesc}
 
   * [**Direct Link Connect on Classic**](#direct-link-connect-solution)
@@ -37,7 +62,7 @@ You can browse more details about the key features and benefits of each of the  
   * [**Direct Link Dedicated Hosting on Classic**](#direct-link-dedicated-hosting-solution)  
   * [**Direct Link Exchange on Classic**](#direct-link-exchange-solution)
 
-## The Direct Link Connect on Classic solution
+### The Direct Link Connect on Classic solution
 {: #direct-link-connect-solution}
 
 **Common use cases:** The Connect solution enables customers to use an NSP to deliver connectivity to {{site.data.keyword.cloud_notm}} locations. This offering typically provides connectivity at a reduced cost because the physical connectivity from {{site.data.keyword.cloud_notm}} to the NSP is already in place, which is shared among other customers.
@@ -60,7 +85,7 @@ You can browse more details about the key features and benefits of each of the  
 
 **Local and global routing options:** The default routing option is Local routing. It provides access to data centers within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It is used to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
 
-## The Direct Link Dedicated on Classic solution
+### The Direct Link Dedicated on Classic solution
 {: #direct-link-dedicated-solution}
 
 The Direct Link Dedicated on Classic solution lets customers terminate a single-tenant, fiber-based cross-connect into their own {{site.data.keyword.cloud_notm}} private network connection. This offering can be used by customers with colocation facilities that are next to IBM Cloud PoPs and data centers. It can also be used by network service providers that deliver circuits to customer premises or to other data centers.
@@ -91,7 +116,7 @@ The Direct Link Dedicated on Classic solution lets customers terminate a single-
 
 **Local and global routing options:** The default routing option is Local routing. It provides access to data centers within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It provides a way to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
 
-## The Direct Link Dedicated Hosting on Classic solution
+### The Direct Link Dedicated Hosting on Classic solution
 {: #direct-link-dedicated-hosting-solution}
 
 The Direct Link Dedicated Hosting on Classic solution provides connectivity similar to Dedicated on Classic, but the connection point is next to an {{site.data.keyword.cloud_notm}} data center, which improves latency for higher performance use cases. IBM Cloud offers various customizable colocation services with this solution, with simple pricing.
@@ -128,7 +153,7 @@ The Direct Link Dedicated Hosting on Classic solution provides connectivity simi
   * DLDH customer procures services and LOA/CFA from third party.
   * DLDH customer supplies third party LOA/CFA to colocation provider for cross-connect order.
 
-## The Direct Link Exchange on Classic solution
+### The Direct Link Exchange on Classic solution
 {: #direct-link-exchange-solution}
 
 The Direct Link Exchange on Classic solution enables customers to use a Cloud Exchange provider to deliver connectivity to {{site.data.keyword.cloud_notm}} locations. This offering typically provides connectivity at a reduced cost because the physical connectivity from {{site.data.keyword.cloud_notm}} to the Cloud Exchange Provider is already in place, which is shared among other customers.

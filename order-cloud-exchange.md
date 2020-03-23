@@ -25,15 +25,19 @@ subcollection: direct-link
 {:term: .term}  
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Ordering Direct Link Exchange on Classic
 {: #how-to-order-ibm-cloud-direct-link-exchange}
+{: help}
+{: support}
 
 As you prepare to order Direct Link on Classic, review the general process your organization will follow for obtaining the Exchange service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
 {:shortdesc}
 
 To determine which Direct Link solution is best for your networking environment, see
-[How do I know which type of IBM Cloud Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#how-do-i-know-which-type-of-ibm-cloud-direct-link-i-need-)
+[How do I know which type of IBM Cloud Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order)
 {: tip}
 
 ## Direct Link ordering process overview
@@ -143,4 +147,4 @@ For the accounts with no Virtual Routing and Forwarding (VRF) present, the **Sel
 ## Pricing
 {: #exchange-pricing}
 
-For more information, refer to the [pricing document](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-exchange).
+For more information, refer to the **Exchange on Classic** tab in the [pricing table](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link).

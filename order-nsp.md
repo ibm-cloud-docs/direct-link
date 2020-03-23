@@ -25,9 +25,13 @@ subcollection: direct-link
 {:term: .term}  
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Ordering Direct Link Dedicated on Classic
 {: #how-to-order-ibm-cloud-direct-link-dedicated}
+{: help}
+{: support}
 
 As you prepare to order Direct Link on Classic, review the general process your organization will follow for obtaining the Dedicated service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
 {:shortdesc}
@@ -35,8 +39,7 @@ As you prepare to order Direct Link on Classic, review the general process your 
 The colocation or Network Service Provider (NSP) does not need to be an IBM Cloud Direct Link Partner to connect you to a Direct Link Dedicated service.
 {: note}
 
-To determine which Direct Link solution is best for your networking environment, see
-[How do I know which type of IBM Cloud Direct Link I need?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#how-do-i-know-which-type-of-ibm-cloud-direct-link-i-need-)
+To determine which Direct Link solution is best for your networking environment, see [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order)
 {: tip}
 
 You can choose from the following two options.
@@ -180,7 +183,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 ## Pricing
 {: #dedicated-pricing-classic}
 
-For more information, refer to the [pricing document](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#pricing-for-direct-link-dedicated).
+For more information, refer to the **Dedicated on Classic** tab in the [pricing table](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link).
 
 If you require the exact address for TOK01 or TOK02, contact your Direct Link offering management or sales team.
 {:note}

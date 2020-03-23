@@ -25,9 +25,13 @@ subcollection: direct-link
 {:term: .term}  
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Configuring Direct Link on Classic
 {: #configure-ibm-cloud-direct-link}
+{: help} 
+{: support}
 
 After your {{site.data.keyword.cloud}} Direct Link on Classic connectivity is established, you can follow the steps that are given in this document to configure your subnet to interact with {{site.data.keyword.cloud_notm}}.
 {:shortdesc}

@@ -1,13 +1,13 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="direct-link" category="network,databases" audience="service" href="/docs/direct-link/getting-started.html" path="direct-link"}
+{: .toc subcollection="direct-link" category="network" audience="service" href="/docs/direct-link/getting-started.html" console-page="/hybrid-networking" product-page="https://www.ibm.com/cloud/direct-link" path="direct-link"}
 Direct Link on Classic
 
     {: .navgroup id="learn"}
     getting-started.md
-    overview.md
     about.md
+    [About Direct Link "2.0"](/dl/dl-get-started-with-ibm-cloud-dl)
     direct-link-july-policy-change.md
     whats-new.md
 
@@ -28,6 +28,8 @@ Direct Link on Classic
         /tutorials/solution-tutorials-secure-network-enclosure
         /tutorials/solution-tutorials-byoip
         direct-link-video.md
+
+    [What are computer networking solutions?](https://www.ibm.com/cloud/learn/networking-a-complete-guide#toc-computer-n-9C7jokVu)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -36,7 +38,7 @@ Direct Link on Classic
     order-colocation.md
     order-cloud-exchange.md
     subnet-configuration.md
-    direct-link-to-cos.md 
+    direct-link-to-cos.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -55,7 +57,7 @@ Direct Link on Classic
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    known-limitations.md
     faqs.md
+    known-limitations.md
     getting-help.md
     {: .navgroup-end}

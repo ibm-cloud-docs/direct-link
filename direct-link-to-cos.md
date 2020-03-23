@@ -25,9 +25,13 @@ subcollection: direct-link
 {:term: .term}  
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Using IBM Cloud Direct Link to connect to IBM Cloud Object Storage
 {: #using-ibm-cloud-direct-link-to-connect-to-ibm-cloud-object-storage}
+{: help} 
+{: support}
 
 You can configure {{site.data.keyword.cloud}} Direct Link so that you have access to {{site.data.keyword.cloud_notm}} Object Storage (COS). Although the methods described here were designed and tested with COS, they can work for certain other {{site.data.keyword.cloud_notm}} services.
 {:shortdesc}
@@ -194,7 +198,7 @@ This section provides quick links to documentation for some IBM Cloud PaaS and S
 ### Provisioning bare metal servers
 {: #direct-link-how-to-provision-bare-metal-servers}
 
-For detailed instructions on how to provision bare metal servers, refer to the [Guide to Bare Metal Servers](/docs/bare-metal?topic=bare-metal-about#about).
+For detailed instructions on how to provision bare metal servers, refer to [Provisioning: Selecting from the most popular servers](/docs/bare-metal?topic=bare-metal-bm-select-popular-servers).
 
 ### Provisioning a Virtual Router Appliance (VRA)
 {: #direct-link-how-to-provision-a-virtual-router-appliance}
