@@ -142,7 +142,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | London 4 | DC(AZ1) | ARK | A103 | A57 Cody Technology Park Old, Victor Way, Farnborough |
 | London 5 | DC(AZ2) | Gyron |  | Maxted Cl, Hemel Hempstead  |
 | London 6 | DC(AZ3) | Cyrus One (fZenium) | LON1 | 12 Liverpool Rd, Trading Estate |
-| Milan 1 |  DC | Data IV | | Via Monzoro 101-105, 20010 Cornaredo (MI) |
+| Milan 1 |  DC | Data4 | | Via Monzoro 101-105, 20010 Cornaredo (MI) |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21|
 | Oslo 1 | PoP | DigiPlex | DigiPlex - Fetsund | 9,, Heiaveien, 1900 Fetsund |
 | Oslo 2 | DC | Verizon | Verizon Oslo | Hans Møller Gassmanssvei 9 |
