@@ -41,7 +41,7 @@ To determine which Direct Link solution is best for your networking environment,
 {: tip}
 
 ## Before you begin
-Before ordering Dedicated Hosting on Classic, review and ensure that you have met all requirements stated in 
+Before ordering Dedicated Hosting on Classic, review and ensure that you have met all requirements stated in
 [Dedicated Hosting on Classic entrance critera](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#dldh-entrance-criteria).
 
 ## Direct Link ordering process overview
@@ -114,10 +114,11 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 | APAC | TOK02  |  Koto-ku | DC (AZ1) | AT Tokyo  |  Koto-ku |
 | APAC | TOK05  | Kawasaki Kangagawa  | DC (AZ3) | NTT | Kawasaki Kangagawa |
 |  |  |  |  |  |  |
-| EMEA | FRA04  | Frankfurt |  DC (AZ2) | E-shelter | Eschborner Landstrasse 100, Building H |
-| EMEA | FRA05  | Frankfurt |  DC (AZ3) | InterXion | Weismüllerstraße 40 |
-| EMEA | LON02  | Chessington | DC  | Digital Realty  |  Fountain Court |
-| EMEA | LON06 | London |	DC (AZ3) |	Cyrus One (Zenium) |	12 Liverpool Rd |
+| EMEA | FRA04  | Frankfurt | DC (AZ2) | E-shelter | Eschborner Landstrasse 100, Building H |
+| EMEA | FRA05  | Frankfurt | DC (AZ3) | InterXion | Weismüllerstraße 40 |
+| EMEA | LON02  | Chessington | DC | Digital Realty  | Fountain Court |
+| EMEA | LON06 | London |	DC (AZ3) | Cyrus One (Zenium) | 12 Liverpool Rd |
+| EMEA | MIL01 | Milan | DC |	Data4 |	Via Monzoro 101-105, 20010 Cornaredo (MI) |
 
 ## Pricing
 {: #dedicated-pricing}
