@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-05-14"
+  years: 2018, 2020
+lastupdated: "2020-04-07"
 
 keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, datacenter, data, center, pricing, virtual circuit, Request ID, Authorization ID
 
@@ -86,7 +86,7 @@ Our Direct Link Connect providers include these locations:
 
 | Partners | Available Markets |
 |--------------|--------------|
-| AT&T NetBond® for Cloud |  **EU:** Frankfurt 1, London 1<br />**Americas:** Dallas 3, San Jose 2 (no diversity: on same XCR),  Washington DC 2 (no diversity: on same XCR) |
+| AT&T NetBond® for Cloud |  **Americas:** Dallas 3, San Jose 2 (no diversity: on same XCR),  Washington DC 2 (no diversity: on same XCR)<br /> **EU:** Frankfurt 1, London 1 |
 | AT&T Cloud Gateway (formerly known as RedFringe)| Dallas 3, Washington DC 2 |
 | Bell Canada | Montreal 2, Toronto 2 |
 | British Telecom |   Frankfurt 1, London 1, Sao Paulo 2, Washington DC 2|
@@ -94,19 +94,19 @@ Our Direct Link Connect providers include these locations:
 | CenturyLink Dynamic Connections |  **Americas:** San Jose 2, Toronto 2, Washington DC 2 <br />**EU:** Frankfurt 1, London 3, Paris 2
 | Chief Telecomm | Hong Kong 1 |
 | Colt | **APAC:** Tokyo 1, Singapore 2 <br />**EU:** Amsterdam 2, Frankfurt 1, London 1, Paris 2 |
-| Console Connect by PCCW | **APAC:** Hong Kong 1, Singapore 2, Tokyo 1<br />**EU:** London 1, Frankfurt 3 <br /> **Americas:** San Jose 2 |
-| Digital Realty Service Exchange |	Supported by Megaport in <br />**EU:** Amsterdam 2, Frankfurt 1, London 3, Stockholm 1 <br />**Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2 |
+| Console Connect by PCCW | **Americas:** San Jose 2<br />**APAC:** Hong Kong 1, Singapore 2, Tokyo 1<br />**EU:** London 1, Frankfurt 3  |
+| Digital Realty Service Exchange |	Supported by Megaport in <br />**Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2<br />**EU:** Amsterdam 2, Frankfurt 1, London 3, Stockholm 1 |
 | Epsilon | **APAC:**  Singapore 2<br />**EU:** Frankfurt 1  |
 | EU Networks | Frankfurt 1 |
 | IBM BlueFringe | Chennai 1 , Dallas 3, Washington DC 2 |
-| IBM Power Virtual Server | Washington DC 2, Frankfurt 4  |
+| IBM Power Virtual Server | **Americas:** Toronto 1, Washington DC 4<br />**EU:** Frankfurt 4, Frankurt 5, London 6  |
 | Intercloud | Amsterdam 2, Frankfurt 1, Frankfurt 3 |
 | IXReach | Washington DC 2 |
-| Megaport | **APAC:** Tokyo 2, Tokyo 3, Melbourne 2, Singapore 2, Sydney 2,Hong Kong 1 (no diversity)<br />**EU:** Amsterdam 2 (no diversity), Frankfurt 1 (no diversity), London 3 (no diversity), Paris 2,  Stockholm 1 (no diversity)<br />**Americas:** Chicago 1, Dallas 4, San Jose 2 (no diversity),  Toronto 2 (no diversity), Washington DC 2 |
-| MWS GNPP |  **EU:** Amsterdam 2 (no diversity), Frankfurt 3 <br />**Americas:** Dallas 3, Washington DC 2 |
+| Megaport | **Americas:** Chicago 1, Dallas 4, San Jose 2 (no diversity),  Toronto 2 (no diversity), Washington DC 2<br />**APAC:** Tokyo 2, Tokyo 3, Melbourne 2, Singapore 2, Sydney 2,Hong Kong 1 (no diversity)<br />**EU:** Amsterdam 2 (no diversity), Frankfurt 1 (no diversity), London 3 (no diversity), Paris 2,  Stockholm 1 (no diversity) |
+| MWS GNPP |  **Americas:** Dallas 3, Washington DC 2<br />**EU:** Amsterdam 2 (no diversity), Frankfurt 3 |
 | Neutrona |  Dallas 3, Sao Paulo 2, Washington DC 2 |
 | NTT | Tokyo 5 |
-| Orange Business Services | Paris 02| 
+| Orange Business Services | Paris 02|
 | PacketFabric | Dallas 4, San Jose 2, Washington DC 2 |
 | Softbank | Tokyo 4 |
 | SES Networks | Washington DC 2 |
@@ -114,10 +114,9 @@ Our Direct Link Connect providers include these locations:
 | Telia | Stockholm 1 |
 | Telstra | Melbourne 2, Sydney 2 |
 | Tokai | Tokyo 3, Osaka 1 |
-| Verizon SCI |  **APAC:**  Sydney 2 , Tokyo 1  <br />**EU:** Amsterdam 2, Frankfurt 1 <br />**Americas:** Dallas 3, San Jose 2, Washington DC 2  |
+| Verizon SCI |  **Americas:** Dallas 3, San Jose 2, Washington DC 2<br />**APAC:**  Sydney 2 , Tokyo 1  <br />**EU:** Amsterdam 2, Frankfurt 1 |
 | Vodafone | Frankfurt 1 (no Diversity), London 1 (no Diversity), London 3 (no Diversity)  |
 | Zayo | Dallas 3,  Toronto 2, Washington DC 2 |
-
 
 
 ## Pricing

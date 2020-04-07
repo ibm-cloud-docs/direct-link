@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-02-25"
+lastupdated: "2020-04-07"
 
 keywords: faq, faqs, questions, answer, billing, fees, point-to-point, bandwidth, charges, redundancy, global routing, diversity, IPv6, BGP, charges, jumbo frames
 
@@ -200,6 +200,8 @@ Typically, we install speeds of 1G and lower on 1G optics. For speeds of 2 - 10 
 {:faq}
 
 ECMP isn’t for redundant connections, but for balancing the load over the two links. With ECMP, both connections must terminate to the same {{site.data.keyword.cloud_notm}} cross-connect router (XCR), which makes it a single point of failure. (In other words, ECMP can be provisioned only as two sessions on the same {{site.data.keyword.cloud_notm}} XCR.)
+
+**IBM Cloud does NOT recommend the use of ECMP. ECMP balancing with IBM cloud only extends to the XCRs. Past the XCRs, the ECMP-based traffic presents itself as the same IP address to IBM Cloud network, and the IBM Cloud network routing defaults to the shortest path found. This means that only one of the Direct Links in the ECMP configuration is usable at a given time.**
 
 ECMP is a feature of BGP. If you are looking for redundancy, get two Direct Link connections, one going into each XCR. If you want to use ECMP and have redundancy, you need two Direct Link connections on each XCR so that you can have 2 ECMP sessions running simultaneously.
 

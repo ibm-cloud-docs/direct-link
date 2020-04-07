@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018, 2019
-lastupdated: "2019-04-25"
+  years: 2017, 2020
+lastupdated: "2020-04-07"
 
 keywords: colocation, connectivity, provider, Dedicated, Hosting, locations, PoP, datacenter, data, center, contract, addendum
 

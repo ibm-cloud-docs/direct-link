@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-04-02"
+  years: 2018, 2020
+lastupdated: "2020-04-07"
 
 keywords: diversity, redundancy, schematics, deployment, configuration, global routing, ECMP, Dual XCRs, model
 
@@ -70,11 +70,13 @@ The configurations that are shown in this group offer options for connecting acr
 ## More about ECMP
 {: #more-about-ecmp}
 
-Equal-cost multipath (ECMP) is a feature of BGP. Some customers asked us about using ECMP as a way to achieve redundancy. However, ECMP alone is not sufficient. This section explains why.
+Equal-cost multipath (ECMP) is a feature of BGP. Some customers asked IBM about using ECMP as a way to achieve redundancy. However, ECMP alone is not sufficient.
+
+**This section explains why IBM Cloud does NOT recommend the use of ECMP. ECMP balancing with IBM Cloud only extends to the cross-connect routers (XCRs). Past the XCRs, the ECMP-based traffic presents itself as the same IP address to the IBM Cloud network, and the IBM Cloud network routing defaults to the shortest path found. This means that only one of the Direct Links in the ECMP configuration is usable at a given time.**
 
 **Q: Is ECMP the way to go for redundant connections? What alternatives exist?**
 
-ECMP isn’t designed for creating redundant connections but for balancing the load over two links. With ECMP on {{site.data.keyword.cloud_notm}}, both connections must terminate to the same IBM Cloud cross-connect router (XCR), which makes it a single point of failure. (In other words, ECMP can be provisioned as two sessions only on the same {{site.data.keyword.cloud_notm}} XCR.)
+ECMP isn’t designed for creating redundant connections but for balancing the load over two links. With ECMP on {{site.data.keyword.cloud_notm}}, both connections must terminate to the same IBM Cloud XCR, which makes it a single point of failure. (In other words, ECMP can be provisioned as two sessions only on the same {{site.data.keyword.cloud_notm}} XCR.)
 
 ![ECMP Dedicated model](/images/ecmp-without-diversity.png "ECMP Dedicated model"){: caption="Figure 10: ECMP provisioning" caption-side="top"}
 
