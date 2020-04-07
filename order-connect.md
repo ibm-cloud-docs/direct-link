@@ -99,7 +99,7 @@ Our Direct Link Connect providers include these locations:
 | Epsilon | **APAC:**  Singapore 2<br />**EU:** Frankfurt 1  |
 | EU Networks | Frankfurt 1 |
 | IBM BlueFringe | Chennai 1 , Dallas 3, Washington DC 2 |
-| IBM Power Virtual Server | Washington DC 2, Frankfurt 4  |
+| IBM Power Virtual Server | **Americas:** Toronto 1, Washington DC 4, <br />**EU:** Frankfurt 4, Frankurt 5, London 6  |
 | Intercloud | Amsterdam 2, Frankfurt 1, Frankfurt 3 |
 | IXReach | Washington DC 2 |
 | Megaport | **APAC:** Tokyo 2, Tokyo 3, Melbourne 2, Singapore 2, Sydney 2,Hong Kong 1 (no diversity)<br />**EU:** Amsterdam 2 (no diversity), Frankfurt 1 (no diversity), London 3 (no diversity), Paris 2,  Stockholm 1 (no diversity)<br />**Americas:** Chicago 1, Dallas 4, San Jose 2 (no diversity),  Toronto 2 (no diversity), Washington DC 2 |
