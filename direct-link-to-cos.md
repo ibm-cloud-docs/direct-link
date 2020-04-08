@@ -155,7 +155,7 @@ http {
     proxy_intercept_errors on;
 
     # IBM COS Endpoints
-    # https://cloud.ibm.com/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-endpoints#select-regions-and-endpoints
+    # https://cloud.ibm.com/docs/cloud-object-storage/basics?topic=cloud-object-storage-endpoints#select-regions-and-endpoints
     # US
     server {
         listen       443 ssl http2;
