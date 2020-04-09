@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018, 2019
-lastupdated: "2019-11-25"
+  years: 2017, 2020
+lastupdated: "2020-04-08"
 
 keywords: Cloud Object Storage, endpoints, cross region, regional, single site, reverse proxy, nginx, bare metal, VRA, bucket, virtual router appliance
 
@@ -30,7 +30,7 @@ subcollection: direct-link
 
 # Using IBM Cloud Direct Link to connect to IBM Cloud Object Storage
 {: #using-ibm-cloud-direct-link-to-connect-to-ibm-cloud-object-storage}
-{: help} 
+{: help}
 {: support}
 
 You can configure {{site.data.keyword.cloud}} Direct Link so that you have access to {{site.data.keyword.cloud_notm}} Object Storage (COS). Although the methods described here were designed and tested with COS, they can work for certain other {{site.data.keyword.cloud_notm}} services.
