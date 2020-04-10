@@ -72,7 +72,7 @@ The configurations that are shown in this group offer options for connecting acr
 
 Equal-cost multipath (ECMP) is a feature of BGP. Some customers asked IBM about using ECMP as a way to achieve redundancy. However, ECMP alone is not sufficient.
 
-**This section explains why IBM Cloud does NOT recommend the use of ECMP. ECMP balancing with IBM Cloud only extends to the cross-connect routers (XCRs). Past the XCRs, the ECMP-based traffic presents itself as the same IP address to the IBM Cloud network, and the IBM Cloud network routing defaults to the shortest path found. This means that only one of the Direct Links in the ECMP configuration is usable at a given time.**
+**This section explains why IBM Cloud does NOT recommend the use of ECMP. ECMP balancing with IBM Cloud only extends to the cross-connect routers (XCRs). Past the XCRs, the ECMP-based traffic presents itself as the same IP address to the IBM Cloud network, and the IBM Cloud network routing defaults to the shortest path found. This means that only one of the Direct Links in the ECMP configuration is usable at a given time. All requests for ECMP require Network exception approval by IBM Cloud Offering Management.**
 
 **Q: Is ECMP the way to go for redundant connections? What alternatives exist?**
 
