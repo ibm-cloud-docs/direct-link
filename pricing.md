@@ -73,6 +73,7 @@ Select a tab in the table to view pricing:
 |  5kW Cabinet w/ PDU, Combo Lock | Per instance/mo | Metric | $3,810 | $3,969 | $3,810 | $3,969 | $4,445 | $3,810 | $3,985 | $4,445 |
 | 10kW Cabinet w/ PDU, Combo Lock | Per instance/mo | Metric | $7,620 | $7,938 | $7,620 | $7,699 | $8,890 | $7,715 | $7,970 | $8,890 |
 | 15kW Cabinet w/ PDU, Combo Lock | Per instance/mo | Metric | $11,430 | $11,906 | $11,430 | $11,430 | $13,335 | $11,255 | $11,954 | $13,335 |
+| Additional Cross-Connect | Per instance/mo | Metric | $794 | $794 | $794 | $794 | $794 | $794 | $794 | $794 |
 | **NRC** | | | | | | | | | |
 |  5kW Cabinet Install | Per instance/OTC | Metric | $11,113 | $6,350 | $11,113 | $11,240 | $11,113 | $3,175 | $3,175 | $11,113 |
 | 10kW Cabinet Install | Per instance/OTC | Metric | $22,225 | $15,875 | $22,225 | $19,114 | $22,225 | $6,350 | $6,350 | $22,225 |
