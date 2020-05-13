@@ -83,7 +83,8 @@ Compared to the older ACL model, there are a few minor tradeoffs to take into ac
 
 * Converting to a customer VRF requires a maintenance window, which causes a brief disruption of backbone traffic flows.
 * Remote access by using the managed VPN services (SSL, IPsec) is limited to just SSL VPN into a data center; however, the shared ACL over the backbone allows global access from any entry point from either service.
-* VLAN spanning within your _multiple isolation_ tenancy is not available.
+* VLAN spanning is a feature of the shared tenancy model and is not available in a VRF; this will be disabled upon conversion to the Customer VRF.
+* IPsec VPN managed service on {{site.data.keyword.cloud_notm}} classic infrastructure remote access, is not available.
 
 Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a customer VRF, most commonly with a new Direct Link subscription.  
 
