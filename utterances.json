@@ -37,8 +37,9 @@
    ],
    "how-can-i-achieve-redundancy-with-ibm-cloud-direct-link": [  
      "redundancy within IBM Cloud Direct Link",
-     "direct link  provide a redundant service",
+     "direct link provide a redundant service",
      "create redundancy in direct link",
+     "achieve redundancy within direct link",
      "redundant service in direct link",
      "direct link redundancy"
     ],
@@ -146,8 +147,8 @@
      "direct link need to order two links for redundancy",
      "need to order 2 links for redundacy in direct link",
      "is direct link inherently redundant",
-     "redundancy in direct link",
-     "direct link redundancy"
+     "need 2 links for redundancy in direct link",
+     "direct link redundancy achieved with 2 links"
      ],
    "how-easy-is-it-to-upgrade-the-bandwidth-of-my-direct-link-connection": [   
       "upgrade the bandwidth of my Direct Link connection",
