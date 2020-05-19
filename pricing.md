@@ -42,6 +42,7 @@ You, the customer, must arrange connectivity and billing with your service provi
 {: #pricing-table}
 
 Select a tab in the table to view pricing for Direct Link on Classic offerings:
+
 | Region | 50 Mbps | 100 Mbps | 200 Mbps | 500 Mbps | 1 Gbps | 2 Gbps | 5 Gbps |
 |----|----|----|----|----|----|----|----|
 | US | $100 | $150 | $300 | $650 | $1,199 | $1,999 | $3,750 |
