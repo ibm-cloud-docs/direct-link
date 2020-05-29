@@ -192,12 +192,12 @@ Global routing expands access to include all {{site.data.keyword.cloud_notm}} da
 
 | Region | 50 Mbps | 100 Mbps | 200 Mbps | 500 Mbps | 1 Gbps | 2 Gbps | 5 Gbps | 10 Gbps |
 |----|----|----|----|----|----|----|----|----|
-|US | $150 | $300 | $600 | $1,500 | $2,999 | $4,000 | $4,500 | $5,000 |
-|Canada/Amsterdam | $155 | $309 | $618 | $1,545 | $2,999 | $4,120 | $4,635 | $5,150 |
-|Mexico/London/Norway | $161 | $321 | $642 | $1,605 | $2,999 | $4,280 | $4,815 | $5,350 |
-|Paris/Frankfurt/Milan/Korea | $165 | $330 | $660 | $1,650 | $2,999 | $4,400 | $4,950 | $5,500 |
-|Japan/Singapore/Hong Kong | $170 | $339 | $678 | $1,695 | $2,999 | $4,520 | $5,085 | $5,650 |
-|Australia/Brazil/India | $180 | $360 | $720 | $1,800 | $2,999 | $4,800 | $5,400 | $6,000 |
+|US | $150 | $300 | $600 | $1,500 | $3,000 | $4,000 | $4,500 | $5,000 |
+|Canada/Amsterdam | $155 | $309 | $618 | $1,545 | $3,090 | $4,120 | $4,635 | $5,150 |
+|Mexico/London/Norway | $161 | $321 | $642 | $1,605 | $3,210 | $4,280 | $4,815 | $5,350 |
+|Paris/Frankfurt/Milan/Korea | $165 | $330 | $660 | $1,650 | $3,300 | $4,400 | $4,950 | $5,500 |
+|Japan/Singapore/Hong Kong | $170 | $339 | $678 | $1,695 | $3,390 | $4,520 | $5,085 | $5,650 |
+|Australia/Brazil/India | $180 | $360 | $720 | $1,800 | $3,600 | $4,800 | $5,400 | $6,000 |
 
 ## Additional fees for customization
 {: #additional-fees-for-customization}
