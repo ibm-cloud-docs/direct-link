@@ -93,6 +93,7 @@ Our Direct Link Connect providers include these locations:
 | CenturyLink IP VPN | Dallas 3, Miami 1, Sao Paulo 2 |
 | CenturyLink Dynamic Connections |  **Americas:** San Jose 2, Toronto 2, Washington DC 2 <br />**EU:** Frankfurt 1, London 3, Paris 2
 | Chief Telecomm | Hong Kong 1 |
+| China Unicom | Hong Kong 3 |
 | Colt | **APAC:** Tokyo 1, Singapore 2 <br />**EU:** Amsterdam 2, Frankfurt 1, London 1, Paris 2 |
 | Console Connect by PCCW | **Americas:** San Jose 2<br />**APAC:** Hong Kong 1, Singapore 2, Tokyo 1<br />**EU:** London 1, Frankfurt 3  |
 | Digital Realty Service Exchange |	Supported by Megaport in <br />**Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2<br />**EU:** Amsterdam 2, Frankfurt 1, London 3, Stockholm 1 |
