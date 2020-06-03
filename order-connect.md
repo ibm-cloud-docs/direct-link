@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2020
 lastupdated: "2020-06-03"
 
-keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, datacenter, data, center, pricing, virtual circuit, Request ID, Authorization ID
+keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, data center, data, center, pricing, virtual circuit, Request ID, Authorization ID
 
 subcollection: direct-link
 
