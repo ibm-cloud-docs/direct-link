@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2020
 lastupdated: "2020-06-03"
 
-keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, data center, data, center, pricing, virtual circuit, Request ID, Authorization ID
+keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, datacenter, data, center, pricing, virtual circuit, Request ID, Authorization ID
 
 subcollection: direct-link
 
@@ -96,6 +96,7 @@ Our Direct Link Connect providers include these locations:
 | China Unicom | Hong Kong 3 |
 | Colt | **APAC:** Tokyo 1, Singapore 2 <br />**EU:** Amsterdam 2, Frankfurt 1, London 1, Paris 2 |
 | Console Connect by PCCW | **Americas:** San Jose 2<br />**APAC:** Hong Kong 1, Singapore 2, Tokyo 1<br />**EU:** London 1, Frankfurt 3  |
+| CyrusOne | **Americas:** Dallas 13 |
 | Digital Realty Service Exchange |	Supported by Megaport in <br />**Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2<br />**EU:** Amsterdam 2, Frankfurt 1, London 3, Stockholm 1 |
 | Epsilon | **APAC:**  Singapore 2<br />**EU:** Frankfurt 1  |
 | EU Networks | Frankfurt 1 |
@@ -118,6 +119,8 @@ Our Direct Link Connect providers include these locations:
 | Verizon SCI |  **Americas:** Dallas 3, San Jose 2, Washington DC 2<br />**APAC:**  Sydney 2 , Tokyo 1  <br />**EU:** Amsterdam 2, Frankfurt 1 |
 | Vodafone | Frankfurt 1 (no Diversity), London 1 (no Diversity), London 3 (no Diversity)  |
 | Zayo | Dallas 3,  Toronto 2, Washington DC 2 |
+
+
 
 
 ## Pricing
