@@ -47,7 +47,7 @@ For each VLAN-based virtual circuit, which you create with a Layer-2 partner int
 ## Considerations for Layer-3 connections
 {: #layer-3-networks}
 
-For Layer-3 connections, for each virtual circuit, your service provider establishes a BGP session between {{site.data.keyword.cloud_notm}} XCRs and the provider's edge routers. You do not need to configure BGP with {{site.data.keyword.cloud_notm}} for your on-premises router because your service provider manages the BGP configuration to {{site.data.keyword.cloud_notm}}.
+For Layer-3 connections, for each virtual circuit, your service provider establishes a BGP session between {{site.data.keyword.cloud_notm}} XCRs and the provider's edge routers. You do not need to configure BGP with {{site.data.keyword.cloud_notm}} for your on-premises router because your service provider manages the BGP configuration to {{site.data.keyword.cloud_notm}}. **This means when you order Direct Link Connect via the IBM Portal, you need to populate the Layer 3 providers ASN for the BGP session, not your customer ASN**
 
 * Layer-3 IP VPN or AVPN networks enable "any-to-any" connectivity.
 * Layer-3 networks require the network service provider to maintain a BGP session between the enterprise and {{site.data.keyword.cloud_notm}}.
@@ -60,29 +60,34 @@ The following table summarizes the type of connections that each {{site.data.key
 
 | Partners | Interconnection type |  
 |-------|-------|
-| AT&T NetBond® for Cloud | Layer 3 |
-| AT&T Cloud Gateway (formerly known as RedFringe)| Layer 3 |
-| Bell Canada | Layer 3 |
-| British Telecom | Layer 3  |
-| CenturyLink IP VPN | Layer 3 |
+| AT&T NetBond® for Cloud | **Layer 3** |
+| AT&T Cloud Gateway (formerly known as RedFringe)| **Layer 3** |
+| Bell Canada | **Layer 3** |
+| British Telecom | **Layer 3**  |
+| CenturyLink IP VPN | **Layer 3** |
 | CenturyLink Dynamic Connections | Layer 2 |
 | Chief Telecomm | Layer 2 |
+| China Unicom | **Layer 3** |
 | Colt | Layer 2  |
 | Console Connect by PCCW | Layer 2 |
 | Digital Realty Service Exchange | Layer 2 |
 | Epsilon | Layer 2 |
-| IBM BlueFringe | Layer 3 |
-| Intercloud | Layer 3 |
+| EU Networks | Layer 2 |
+| IBM BlueFringe | **Layer 3** |
+| Intercloud | **Layer 3** |
+| IXReach | Layer 2 |
 | Megaport | Layer 2 |
-| MWS GNPP | Layer 3 |
+| MWS GNPP | **Layer 3** |
 | Neutrona | Layer 2 |
-| NTT | Layer 3 |
+| NTT | **Layer 3** |
+| Orange Business Services | **Layer 3** |
 | PacketFabric | Layer 2  |
-| Softbank | Layer 3 |
+| Softbank | **Layer 3** |
 | SES Networks | Layer 2  |
-| Tata IZO™ Private Connect  | Layer 3 |
-| Telia | Layer 3 |
-| Telstra | Layer 3 |
+| Tata IZO™ Private Connect  | **Layer 3** |
+| Telia | **Layer 3** |
+| Telstra | **Layer 3** |
 | Tokai | Layer 2 |
-| Verizon SCI| Layer 3 |
+| Verizon SCI| **Layer 3** |
+| Vodafone| **Layer 3** |
 | Zayo Cloud Link | Layer 2 |

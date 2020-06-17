@@ -39,7 +39,7 @@ Use this decision tree to help you decide which solution works best for you. If 
 
 ![direct-link-decision-tree](/images/flow.png)
 
-The new Direct Link Dedicated "2.0" release is a limited availability, offered in North America (Washington, D.C. and Dallas markets) with more locations being rolled out soon. For more information, see Direct Link [release notes](/docs/direct-link?topic=direct-link-what-s-new) and ["2.0" FAQs](/docs/dl?topic=dl-faqs).
+For more information about the new Direct Link (2.0) offerings, see Direct Link [Getting started with IBM Cloud Direct Link (2.0)](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl).
 {: note}
 
 When you're ready to order, follow the step-by-step instructions for the specific Direct Link solution that you need. After you place your order, you'll be asked to complete a questionnaire related to your solution and workload requirements.  

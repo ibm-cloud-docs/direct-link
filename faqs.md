@@ -28,24 +28,24 @@ subcollection: direct-link
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# FAQs
+# FAQs for Direct Link on Classic
 {: #faqs}
 
 You can review answers to some frequently asked questions about {{site.data.keyword.cloud}} Direct Link.
 {:shortdesc}
 
-## How does Direct Link on Classic differ from the new Direct Link "2.0" offering?
+## How does Direct Link on Classic differ from the new Direct Link (2.0) offering?
 {: #differentiators}
 {: faq}
 {: support}
 
-The new Direct Link "2.0" offering differs from the Direct Link classic infrastructure in that Direct Link "2.0" is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
+The new Direct Link (2.0) offering differs from the Direct Link classic infrastructure in that Direct Link (2.0) is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
 
-The initial rollout of Direct Link "2.0" is in the Dallas and Washington D.C. sites. The zone-region model allows for multiple data centers to exist in a single zone.
+The zone-region model allows for multiple data centers to exist in a single zone.
 
- The new Direct Link "2.0" offering allows connectivity to both Classic IaaS as well as VPCs, whereas the Classic Direct Link always connects to IaaS network and a global VRF first. Classic Direct Link can only reach VPC on a limited basis utilizing a VPC feature called Classic Access *AND by adding Global Routing to the Direct Link*. See [Setting up access to your Classic Infrastructure from VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure) for more informati
- 
-For more information about the differences between the new Direct Link Dedicated "2.0" offering and the Classic version, see [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order) and [Getting started with IBM Cloud Direct Link Dedicated](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl).
+ The new Direct Link (2.0) offering allows connectivity to both Classic IaaS as well as VPCs, whereas the Classic Direct Link always connects to IaaS network and a global VRF first. Classic Direct Link can only reach VPC on a limited basis utilizing a VPC feature called Classic Access *AND by adding Global Routing to the Direct Link*. See [Setting up access to your Classic Infrastructure from VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure) for more informati
+
+For more information about the differences between the new Direct Link (2.0) offerings and the Classic versions, see [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order) and [Getting started with IBM Cloud Direct Link Dedicated](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl).
 {: tip}
 
 ## How does IBM Cloud Direct Link work?
@@ -211,7 +211,7 @@ Alternatively, some of our customers set up two links into different XCR in the 
 {: #is-there-an-sla-on-the-diret-link-xr-connections}
 {:faq}
 
-There is no SLA on Direct Link today. Customers can achieve 99.999% effectively with two or more Direct Links that are properly configured for failover by using BGP, but IBM cannot control that or provide an SLA on it.
+There is no SLA on Direct Link today. Customers can achieve 99.99% effectively with two or more Direct Links that are properly configured for failover by using BGP, but IBM cannot control that or provide an SLA on it.
 
 ## Where can I get help setting up a Direct Link?
 {: #where-can-i-get-help-setting-up-a-direct-link}
