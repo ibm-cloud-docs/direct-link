@@ -70,7 +70,7 @@ To provision an IBM Cloud Direct Link Exchange connection, complete the followin
 ![Virtual circuit selection](/images/two_ports.png)
 {: note}
 
-5. In the order form, enter the following parameters to configure Direct Link Exchange:
+5. In the order form, complete following information to configure Direct Link Exchange:
 
   * Enter a Direct Link instance name.
   * Choose the location in which you want to establish the IBM Cloud Direct Link connection.
@@ -87,7 +87,7 @@ To provision an IBM Cloud Direct Link Exchange connection, complete the followin
 
 7. You’ll be asked to complete a customer questionnaire, which you can review at [Direct Link Exchange questionnaire](/docs/direct-link?topic=direct-link-ibm-cloud-direct-link-exchange-questionnaire).
 
-8. After you provision the direct link and complete the questionnaire, see [Configuring Direct Link on Classic](/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link) to configure your subnet to interact with IBM Cloud.
+8. After you provision the direct link, see [Configuring Direct Link on Classic](/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link) to configure your subnet to interact with IBM Cloud.
 
 ## Steps to order Direct Link Exchange on Classic for Equinix
 {: #provisioning-ibm-cloud-direct-link-exchange-for-equinix}
@@ -99,19 +99,18 @@ If the {{site.data.keyword.cloud}} Direct Link on Classic order is for the Equin
 To use the automated ordering capability, your private VLANs must be associated with a VRF in the {{site.data.keyword.cloud_notm}} private network. If this requirement is not met, an IBM Support case is generated when you place the order.
 
 1. Complete Steps 1 through 4 in [Steps to order Direct Link Exchange on Classic](/docs/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-exchange#how-to-order-cloud-exchange-no-equinix).
-2. In the order form, enter the following parameters to configure Direct Link Exchange:
+2. In the order form, complete the following information to configure Direct Link Exchange:
 
-  * Enter a Direct Link instance name.
-  * Choose the location in which you want to establish the IBM Cloud Direct Link connection.
-  * Choose **EQUINIX** as your network provider.
+   * Enter a Direct Link instance name.
+   * Choose the location in which you want to establish the IBM Cloud Direct Link connection.
+   * Choose **EQUINIX** as your network provider.
+   * In the information message, click the **Go to portal** link to initiate the order.
   
       ![Go to the Equinix portal](/images/dl_exchange_equinix.png)
-            
-3. In the information message, click the **Go to portal** link to initiate the order.
-
-      ![Equinix login screen](/images/equinix_login.png)
   
 4. Log in to the Equinix portal to begin the provisioning process. If you do not have an account, click **Request an account**.
+
+      ![Equinix login screen](/images/equinix_login.png)
   
 ## Ordering Direct Link Exchange on Classic when there is no VRF present
 {: #how-to-order-exchange-when-there-is-no-vrf-present}
