@@ -116,8 +116,7 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 |  |  |  |  |  |  |
 | EMEA | FRA04  | Frankfurt | DC (AZ2) | E-shelter | Eschborner Landstrasse 100, Building H |
 | EMEA | FRA05  | Frankfurt | DC (AZ3) | InterXion | Weismüllerstraße 40 |
-| EMEA | LON02  | Chessington | DC | Digital Realty  | Fountain Court |
-| EMEA | LON06 | London |	DC (AZ3) | Cyrus One (Zenium) | 12 Liverpool Rd |
+| EMEA | LON02  | Chessington | DC | Digital Realty  | Fountain Court | 
 | EMEA | MIL01 | Milan | DC |	Data4 |	Via Monzoro 101-105, 20010 Cornaredo (MI) |
 
 ## Pricing
