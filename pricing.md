@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-05-18"
+lastupdated: "2020-07-10"
 
 keywords: pricing, Exchange, Connect, Dedicated, regions, bandwidth, Hosting, local, routing, Global, overage, fees, market, tiers, customization, price, ingress, egress
 
@@ -74,7 +74,7 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 | MRC/NRC            | DAL09 | DAL10 | DAL12 | DAL13 | WDC04 | WDC06 | WDC07 | SJC03 | MON01 | TOR01 | SAO01 | FRA04 | FRA05 | LON02 | SYD01 | SYD04 | SYD05 |
 |--------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | **5kW Cabinet w/ PDU, Combo Lock** ||||||||||||||||||
-|  MRC | $3,810 | $3,969 | $3,810 | $3,969 | $4,445 | $3,810 | $3,985 | $4,445 | $3,937 | $4,446 | $4,102 | $6,606 | $6,099 | $6,198 | $    &mdash; | $5,048 | $4,786 |
+|  MRC | $3,810 | $3,969 | $3,810 | $3,969 | $4,445 | $3,810 | $3,985 | $4,445 | $3,937 | $4,446 | $4,102 | $6,606 | $6,099 | $6,198 | $ &mdash; | $5,048 | $4,786 |
 | **5kW Cabinet Install** |||||||||||||||||||
 |  NRC | $11,113 | $6,350 | $11,113 | $11,240 | $11,113 | $3,175 | $3,175 | $11,113 |  $5,404 | $5,089 | $10,240 | $14,351 | $23,679 | $11,113 | $ &mdash; | $11,113 | $4,235 |
 | **10kW Cabinet w/ PDU, Combo Lock** ||||||||||||||||||
@@ -119,6 +119,7 @@ Review the following planning considerations when ordering Dedicated Hosting on 
 - Direct Link Dedicated Hosting on Classic requests and pricing are handled on a transactional basis to account for regional differences in vendor availability and pricing.
 - To obtain pricing, you must add both the Monthly Recurring Charge (MRC) and Non-Recurring Charge (NRC) prices listed in the preceding table.
 - Pricing for space/power is not guaranteed until verified with the colocation provider.
+- Remote Hands is $550 per hour with a one hour minimum.
 - The Direct Link Dedicated Hosting minimum configuration includes one (1) rack with 5Kw of power and two ports for HA purposes at the chosen speed. More colocation add-ons are available.
 - Deals involving a networking cage require custom pricing.
 
