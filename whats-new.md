@@ -153,7 +153,6 @@ The {{site.data.keyword.cloud_notm}} Direct Link service continues to expand glo
 * {{site.data.keyword.cloud_notm}} Blog: [Interxion Optimizes Enterprise Hybrid and Multi-Cloud Strategy with IBM Cloud Services](https://www.ibm.com/cloud/blog/announcements/interxion-enterprise-ibm-cloud-services){: external}
 * {{site.data.keyword.cloud_notm}} Blog: [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications](https://www.ibm.com/cloud/blog/announcements/tokyo-connects-ibm-cloud-support-mission-critical-applications){: external}
 * {{site.data.keyword.cloud_notm}} Japan Blog: [AT TOKYO announcement - Japanese Translation](https://www.ibm.com/blogs/solutions/jp-ja/tokyo-connects-ibm-cloud-support-mission-critical-applications-httpswww-ibm-comblogssolutionsjp-ja/){: external}
-* {{site.data.keyword.cloud_notm}} Blog: [PackerFabric and IBM Cloud Enable Secure Enterprise Connections](https://www.ibm.com/cloud/blog/announcements/packetfabric-ibm-enable-secure-enterprise-connections){: external}
 
 ## August 2018
 {: #august-2018}
