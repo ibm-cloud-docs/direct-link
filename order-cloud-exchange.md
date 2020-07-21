@@ -106,11 +106,21 @@ To use the automated ordering capability, your private VLANs must be associated 
    * Choose **EQUINIX** as your network provider.
    * In the information message, click the **Go to portal** link to initiate the order.
   
-      ![Go to the Equinix portal](/images/dl_exchange_equinix.png)
+   ![Go to the Equinix portal](/images/dl_exchange_equinix.png)
   
-4. Log in to the Equinix portal to begin the provisioning process. If you do not have an account, click **Request an account**.
+4. Log in to the Equinix portal to begin the provisioning process. 
 
       ![Equinix login screen](/images/equinix_login.png)
+      
+5. Return to the [IBM Cloud Direct Link Exchange page](https://cloud.ibm.com/classic/network/directlink/exchange) in the IBM Cloud console. Notice that the connection status for your direct link connection states **Create Approval Pending**. 
+
+6. Open the overflow ![overflow menu](/images/overflow.png) menu and click **Accept**.
+    
+      ![Equinix request approval pending](/images/equinix-request-pending.png)
+      
+7. Review your order summary, agree to the [Master Service Agreement](https://cloud.ibm.com/classic/account/masterserviceagreement/getagreement){: external}, and then click **Create**.
+
+      ![Equinix order summary pane](/images/equinix-order-summary.png)
   
 ## Ordering Direct Link Exchange on Classic when there is no VRF present
 {: #how-to-order-exchange-when-there-is-no-vrf-present}
