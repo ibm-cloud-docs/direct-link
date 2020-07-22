@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-07-10"
+lastupdated: "2020-07-22"
 
 keywords: pricing, Exchange, Connect, Dedicated, regions, bandwidth, Hosting, local, routing, Global, overage, fees, market, tiers, customization, price, ingress, egress
 
@@ -117,7 +117,7 @@ Review the following planning considerations when ordering Dedicated Hosting on 
 {: #shortdesc}
 
 - Direct Link Dedicated Hosting on Classic requests and pricing are handled on a transactional basis to account for regional differences in vendor availability and pricing.
-- To obtain pricing, you must add both the Monthly Recurring Charge (MRC) and Non-Recurring Charge (NRC) prices listed in the preceding table.
+- To obtain pricing, you must add both the Monthly Recurring Charge (MRC) and Non-Recurring Charge (NRC) prices listed in the preceding table, plus two Direct Link Dedicated connections at your chosen speed (for HA purposes).
 - Pricing for space/power is not guaranteed until verified with the colocation provider.
 - Remote Hands is $550 per hour with a one hour minimum.
 - The Direct Link Dedicated Hosting minimum configuration includes one (1) rack with 5Kw of power and two ports for HA purposes at the chosen speed. More colocation add-ons are available.
