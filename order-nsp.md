@@ -168,7 +168,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | New York City 3 | PoP | Equinix | NY5 | 800 Secaucus Rd, Secaucus, NJ |
 | Sao Paulo 1 | DC | Digital Realty (fAscenty) | SP1 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
 | Sao Paulo 2 | PoP | Equinix | SP2 | Alameda Araguaia, 3641 - Alphaville, Barueri |
-| Seattle 2 | PoP | Digital Realty (fThe Westin Building) | WBX | 2001 6th Avenue |
+| Seattle 2 | PoP | Digital Realty (The Westin Building) | WBX | 2001 6th Avenue |
 | San Jose 2 | PoP | Equinix | SV1 | 11 Great Oaks Blvd |
 | San Jose 3 | DC | Digital Realty | SJC31 | 1100 Space Park Drive |
 | San Jose 4 | DC | Infomart | SJC1 | 2001 Fortune Drive |
