@@ -177,7 +177,7 @@ However, we have expanded our Direct Link local markets to provide more local ro
 | Oslo | OSL01, OSL02, Stockholm 1 |
 | Paris | PAR01, PAR02 |
 | Chennai | CHE01, Mumbai 1* |
-| Hong Kong | HKG01, HKG02, HKG03*, Taipei 1* |
+| Hong Kong | HKG01, HKG02, HKG03* |
 | Melbourne | MEL01, MEL02 |
 | Seoul | SEO01, SEO02 |
 | Singapore | SNG01, SNG02 |
