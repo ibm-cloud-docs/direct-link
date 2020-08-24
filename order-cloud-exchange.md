@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-06-25"
+lastupdated: "2020-08-21"
 
 keywords: order, provider, capabilities, Exchange, cross-connect, locations, PoP, datacenter, data, center, pricing
 
@@ -108,13 +108,11 @@ To use the automated ordering capability, your private VLANs must be associated 
   
    ![Go to the Equinix portal](/images/dl_exchange_equinix.png)
   
-4. Log in to the Equinix portal to begin the provisioning process. 
-
-      ![Equinix login screen](/images/equinix_login.png)
+4. Log in to the Equinix portal to begin the provisioning process. Complete instructions on the Equinix [IBM Cloud Direct Link](https://docs.equinix.com/en-us/Content/Interconnection/ECXF/connections/ECXF-connect-ibm-cloud.htm) page to submit your order.
       
 5. Return to the [IBM Cloud Direct Link Exchange page](https://cloud.ibm.com/classic/network/directlink/exchange) in the IBM Cloud console. Notice that the connection status for your direct link connection states **Create Approval Pending**. 
 
-6. Open the overflow ![overflow menu](/images/overflow.png) menu and click **Accept**.
+6. Open the Actions menu ![Actions menu](/images/overflow.png) menu and click **Accept**.
     
       ![Equinix request approval pending](/images/equinix-request-pending.png)
       
