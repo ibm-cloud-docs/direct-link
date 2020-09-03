@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-06-03"
+lastupdated: "2020-09-02"
 
 keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, datacenter, data, center, pricing, virtual circuit, Request ID, Authorization ID
 
@@ -113,7 +113,7 @@ Our Direct Link Connect providers include these locations:
 | Softbank | Tokyo 4 |
 | SES Networks | Washington DC 2 |
 | Tata | Chennai 1, Hong Kong 1 |
-| Telia | Stockholm 1 |
+| Telia | Stockholm 1, Washington DC 2 | 
 | Telstra | Melbourne 2, Sydney 2 |
 | Tokai | Tokyo 3, Osaka 1 |
 | Verizon SCI |  **Americas:** Dallas 3, San Jose 2, Washington DC 2<br />**APAC:**  Sydney 2 , Tokyo 1  <br />**EU:** Amsterdam 2, Frankfurt 1 |
