@@ -237,11 +237,6 @@ Interxion, a leading provider of carrier and cloud-neutral colocation data cente
 
 PacketFabric customers have access to {{site.data.keyword.cloud_notm}} services in Dallas, Texas; San Francisco, California; and Washington, D.C., from any location on the PacketFabric network.
 
-**Learn More**
-
-* [PacketFabric Offers Connectivity to IBM Cloud](https://www.packetfabric.com/news/2018/03/06/packetfabric-offers-connectivity-to-ibm.html){: external}
-* [Connect to IBM Cloud](https://www.packetfabric.com/packetcor/ibm-cloud/){: external}
-
 ## February 2018
 {: #february-2018}
 
