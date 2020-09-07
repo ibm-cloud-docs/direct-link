@@ -33,7 +33,7 @@ subcollection: direct-link
 {: help}
 {: support}
 
-As you prepare to order Direct Link on Classic, review the general process your organization will follow for obtaining the Dedicated Hosting service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
+As you prepare to order Direct Link on Classic, review the general process that your organization follows for obtaining the Dedicated Hosting service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
 {:shortdesc}
 
 To determine which Direct Link solution is best for your networking environment, see
@@ -41,7 +41,7 @@ To determine which Direct Link solution is best for your networking environment,
 {: tip}
 
 ## Before you begin
-Before ordering Dedicated Hosting on Classic, review and ensure that you have met all requirements stated in
+Before ordering Dedicated Hosting on Classic, review and ensure that you have met all requirements that are stated in
 [Dedicated Hosting on Classic entrance criteria](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#dldh-entrance-criteria).
 
 ## Direct Link ordering process overview
@@ -54,7 +54,7 @@ Here is the general process to order a Direct Link Dedicated Hosting service:
 3. When the build of your colocation cage is complete, use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated Hosting on Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the Master Service Agreement.
 4. {{site.data.keyword.cloud_notm}} provides Letters of Authorization (LOA) for connections that use IBM Cloud. When you have the LOA, supply it to your colocation provider, then have them order a cross connect (and any required inter-campus connectivity) by using the {{site.data.keyword.cloud_notm}} CFA (Customer Facility Assignment) information in the LOA.
 
-  This process usually takes 2 to 10 business days to complete, depending on the facility vendor and the order priority you specify. It includes the setup of the patch for the {{site.data.keyword.cloud_notm}} termination port.
+  This process usually takes 2 - 10 business days to complete, depending on the facility vendor and the order priority you specify. It includes the setup of the patch for the {{site.data.keyword.cloud_notm}} termination port.
 
 5. Provide {{site.data.keyword.cloud_notm}} with the cross-connect completion notice from the facility provider in the IBM Support case.
 6. {{site.data.keyword.cloud_notm}} verifies the completion notice's efficacy and orders the patch to be made from the LOA/CFA to the cross-connect router (XCR) and other gear.
@@ -67,7 +67,7 @@ Your IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastruc
 To provision a Direct Link Dedicated Hosting order, complete the following steps:
 
 1. Log in to your [IBM Cloud](https://cloud.ibm.com/){: external} account and open the **Catalog**.
-2. Select the **Navigation Menu** icon ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Classic Infrastructure**.
+2. Select the **Menu** icon ![Menu icon](images/menu_icon.png) on the upper left, then click **Classic Infrastructure**.
 2. Select **Network > Direct Link > Dedicated Hosting** to open a page that shows the existing Direct Link connections, if any.
 3. Click **Order Direct Link Dedicated Hosting +** in the upper right of the page. The "Create an IBM Cloud Direct Link Dedicated Hosting Connection" page is displayed.
 4. In the order form, complete the following information to configure Direct Link Dedicated Hosting on Classic:
@@ -78,7 +78,7 @@ To provision a Direct Link Dedicated Hosting order, complete the following steps
    - Select the routing option required for the connection.
    - Enter a valid ASN number from the range given in the information box for the BGP exchanges.
 
-   As you select or enter these values, you can see an approximate monthly charge in the right panel.
+   As you select or enter these values, you can see an approximate monthly charge in the right pane.
 6. You must agree to the [Master Service Agreement](https://cloud.ibm.com/classic/account/masterserviceagreement/getagreement){: external} before you can place the IBM Cloud Direct Link order.  
 
       After you place your order, an IBM Support case number is generated. You can click the case number to view case details
@@ -116,10 +116,10 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 |  |  |  |  |  |  |
 | EMEA | FRA04  | Frankfurt | DC (AZ2) | E-shelter | Eschborner Landstrasse 100, Building H |
 | EMEA | FRA05  | Frankfurt | DC (AZ3) | InterXion | Weismüllerstraße 40 |
-| EMEA | LON02  | Chessington | DC | Digital Realty  | Fountain Court | 
+| EMEA | LON02  | Chessington | DC | Digital Realty  | Fountain Court |
 | EMEA | MIL01 | Milan | DC |	Data4 |	Via Monzoro 101-105, 20010 Cornaredo (MI) |
 
 ## Pricing
 {: #dedicated-pricing}
 
-For more information, refer to the **Dedicated Hosting on Classic** tab in the [pricing table](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link). Also refer to [pricing considerations](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#dldh-specs).  
+For more information, see the **Dedicated Hosting on Classic** tab in the [pricing table](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link). Also, refer to [pricing considerations](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#dldh-specs).  

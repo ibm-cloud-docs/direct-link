@@ -33,7 +33,7 @@ subcollection: direct-link
 {: help}
 {: support}
 
-As you prepare to order Direct Link on Classic, review the general process your organization will follow for obtaining the Exchange service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
+As you prepare to order Direct Link on Classic, review the general process that your organization follows for obtaining the Exchange service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
 {:shortdesc}
 
 To determine which Direct Link solution is best for your networking environment, see
@@ -79,7 +79,7 @@ To provision an IBM Cloud Direct Link Exchange connection, complete the followin
   * Select either Local or Global routing for the connection.
   * Enter an ASN number from the range given in the information box for the BGP exchanges.
 
-   As you complete these values, you can see an approximate monthly charge in the right Summary panel.
+   As you complete these values, you can see an approximate monthly charge in the right Summary pane.
 
 6. Agree to the [Master Service Agreement](https://cloud.ibm.com/classic/account/masterserviceagreement/getagreement){: external} so that you can place your Direct Link Exchange order.  
 
@@ -98,7 +98,7 @@ If the {{site.data.keyword.cloud}} Direct Link on Classic order is for the Equin
 **PREREQUISITE**:
 To use the automated ordering capability, your private VLANs must be associated with a VRF in the {{site.data.keyword.cloud_notm}} private network. If this requirement is not met, an IBM Support case is generated when you place the order.
 
-1. Complete Steps 1 through 4 in [Steps to order Direct Link Exchange on Classic](/docs/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-exchange#how-to-order-cloud-exchange-no-equinix).
+1. Complete Steps 1 - 4 in [Steps to order Direct Link Exchange on Classic](/docs/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-exchange#how-to-order-cloud-exchange-no-equinix).
 2. In the order form, complete the following information to configure Direct Link Exchange:
 
    * Enter a Direct Link instance name.
@@ -112,7 +112,7 @@ To use the automated ordering capability, your private VLANs must be associated 
       
 5. Return to the [IBM Cloud Direct Link Exchange page](https://cloud.ibm.com/classic/network/directlink/exchange) in the IBM Cloud console. Notice that the connection status for your direct link connection states **Create Approval Pending**. 
 
-6. Open the Actions menu ![Actions menu](/images/overflow.png) menu and click **Accept**.
+6. Open the Actions ![Actions menu](/images/overflow.png) menu and click **Accept**.
     
       ![Equinix request approval pending](/images/equinix-request-pending.png)
       
@@ -147,4 +147,4 @@ For the accounts with no Virtual Routing and Forwarding (VRF) present, the **Sel
 ## Pricing
 {: #exchange-pricing}
 
-For more information, refer to the **Exchange on Classic** tab in the [pricing table](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link).
+For more information, see the **Exchange on Classic** tab in the [pricing table](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link).

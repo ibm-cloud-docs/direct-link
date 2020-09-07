@@ -33,7 +33,7 @@ subcollection: direct-link
 {: help}
 {: support}
 
-As you prepare to order Direct Link on Classic, review the general process your organization will follow for obtaining the Connect service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
+As you prepare to order Direct Link on Classic, review the general process that your organization follows for obtaining the Connect service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
 {:shortdesc}
 
 To determine which Direct Link solution is best for your networking environment, see [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order)
@@ -68,7 +68,7 @@ To provision a Direct Link Connect order, complete the following steps:
    - Select the routing option required for the connection.
    - Enter a valid ASN number from the range given in the information box for the BGP exchanges.
 
-   As you select or enter these values, you can see an approximate monthly charge in the right panel.
+   As you select or enter these values, you can see an approximate monthly charge in the right pane.
 
 6. You must agree to the [Master Service Agreement](https://cloud.ibm.com/classic/account/masterserviceagreement/getagreement){: external} before you can place the IBM Cloud Direct Link order.  
 
@@ -86,7 +86,7 @@ Our Direct Link Connect providers include these locations:
 
 | Partners | Available Markets |
 |--------------|--------------|
-| AT&T NetBond® for Cloud |  **Americas:** Dallas 3, San Jose 2 (no diversity: on same XCR),  Washington DC 2 (no diversity: on same XCR)<br /> **EU:** Frankfurt 1, London 1 |
+| AT&T NetBond® for Cloud |  **Americas:** Dallas 3, San Jose 2 (no diversity: on same XCR), Washington DC 2 (no diversity: on same XCR)<br /> **EU:** Frankfurt 1, London 1 |
 | AT&T Cloud Gateway (formerly known as RedFringe)| Dallas 3, Washington DC 2 |
 | Bell Canada | Montreal 2, Toronto 2 |
 | British Telecom |   Frankfurt 1, London 1, Sao Paulo 2, Washington DC 2|
@@ -100,12 +100,12 @@ Our Direct Link Connect providers include these locations:
 | Digital Realty Service Exchange |	Supported by Megaport in <br />**Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2<br />**EU:** Amsterdam 2, Frankfurt 1, London 3, Stockholm 1 |
 | Epsilon | **APAC:**  Singapore 2<br />**EU:** Frankfurt 1  |
 | EU Networks | Frankfurt 1 |
-| IBM BlueFringe | Chennai 1 , Dallas 3, Washington DC 2 |
+| IBM BlueFringe | Chennai 1, Dallas 3, Washington DC 2 |
 | IBM Global Network Peering Platform (GNPP) |  **Americas:** Dallas 3, Washington DC 2<br />**EU:** Amsterdam 2 (no diversity), Frankfurt 3 |
-| IBM Power Virtual Server | **Americas:** Toronto 1, Washington DC 4<br />**EU:** Frankfurt 4, Frankurt 5, London 6  |
+| IBM Power Virtual Server | **Americas:** Toronto 1, Washington DC 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 6  |
 | Intercloud | Amsterdam 2, Frankfurt 1, Frankfurt 3 |
 | IXReach | **Americas:** Washington DC 2 <br />**EU:** London 1 (no diversity), London 3 (no diversity) |
-| Megaport | **Americas:** Chicago 1, Dallas 4, San Jose 2 (no diversity),  Toronto 2 (no diversity), Washington DC 2<br />**APAC:** Tokyo 2, Tokyo 3, Melbourne 2, Singapore 2, Sydney 2, Hong Kong 1 (no diversity)<br />**EU:** Amsterdam 2 (no diversity), Frankfurt 1 , London 3 (no diversity), Paris 2,  Stockholm 1 (no diversity) |
+| Megaport | **Americas:** Chicago 1, Dallas 4, San Jose 2 (no diversity),  Toronto 2 (no diversity), Washington DC 2<br />**APAC:** Tokyo 2, Tokyo 3, Melbourne 2, Singapore 2, Sydney 2, Hong Kong 1 (no diversity)<br />**EU:** Amsterdam 2 (no diversity), Frankfurt 1, London 3 (no diversity), Paris 2, Stockholm 1 (no diversity) |
 | Neutrona |  Dallas 3, Sao Paulo 2, Washington DC 2 |
 | NTT | Tokyo 5 |
 | Orange Business Services | Paris 02|
@@ -113,12 +113,12 @@ Our Direct Link Connect providers include these locations:
 | Softbank | Tokyo 4 |
 | SES Networks | Washington DC 2 |
 | Tata | Chennai 1, Hong Kong 1 |
-| Telia | Stockholm 1, Washington DC 2 | 
+| Telia | Stockholm 1, Washington DC 2 |
 | Telstra | Melbourne 2, Sydney 2 |
 | Tokai | Tokyo 3, Osaka 1 |
-| Verizon SCI |  **Americas:** Dallas 3, San Jose 2, Washington DC 2<br />**APAC:**  Sydney 2 , Tokyo 1  <br />**EU:** Amsterdam 2, Frankfurt 1 |
+| Verizon SCI |  **Americas:** Dallas 3, San Jose 2, Washington DC 2<br />**APAC:**  Sydney 2, Tokyo 1  <br />**EU:** Amsterdam 2, Frankfurt 1 |
 | Vodafone | Frankfurt 1 (no Diversity), London 1 (no Diversity), London 3 (no Diversity)  |
-| Zayo | Dallas 3,  Toronto 2, Washington DC 2 |
+| Zayo | Dallas 3, Toronto 2, Washington DC 2 |
 
 
 
@@ -126,4 +126,4 @@ Our Direct Link Connect providers include these locations:
 ## Pricing
 {: #connect-pricing}
 
-For more information, refer to the **Connect on Classic** tab in the [pricing table](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link).
+For more information, see **Connect on Classic** tab in the [pricing table](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link).
