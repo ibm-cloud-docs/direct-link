@@ -36,4 +36,4 @@ If you have problems or questions when you use {{site.data.keyword.cloud}} Direc
 
 If you have technical questions about Direct Link, post your question on [Stack Overflow](https://stackoverflow.com/search?q=dl+ibm-cloud){: external} and tag your question with **direct-link** and **ibm-cloud**.
 
-For more information about opening an IBM Support case, or about support levels and case severities, see [Using the Support Center](https://cloud.ibm.com/get-support?topic=get-support-using-avatar){: external}.
+For more information about opening an IBM Support case, or about support levels and case severities, see [Using the Support Center](/docs/get-support?topic=get-support-using-avatar).
