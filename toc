@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="direct-link" category="network_classic" audience="service" href="/docs/direct-link/getting-started" console-page="/catalog?search=direct link" product-page="https://www.ibm.com/cloud/direct-link" path="direct-link"}
-Direct Link on Classic
+Direct Link on Classic (1.0)
 
     {: .navgroup id="learn"}
     getting-started.md
@@ -20,7 +20,7 @@ Direct Link on Classic
         alternative-deployments.md
         diversity-models.md
         layer-2-layer-3.md
-        connect-details.md        
+        connect-details.md
 
     {: .topicgroup}
     Videos & tutorials
