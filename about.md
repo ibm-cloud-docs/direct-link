@@ -178,3 +178,5 @@ The Direct Link Exchange on Classic solution enables customers to use a Cloud Ex
 
 
 **Local and global routing options:** The default routing option is Local routing. It provides access to data centers within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It provides a way to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
+
+-
