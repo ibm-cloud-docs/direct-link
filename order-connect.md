@@ -78,7 +78,6 @@ To provision a Direct Link Connect order, complete the following steps:
 
 8. After you provision the direct link and complete the questionnaire, see [Configuring Direct Link on Classic](/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link) to configure your subnet to interact with IBM Cloud.
 
-
 ## Locations
 {: #connect-classic-locations}
 
@@ -89,7 +88,7 @@ Our Direct Link Connect providers include these locations:
 | AT&T NetBond® for Cloud |  **Americas:** Dallas 3, San Jose 2 (no diversity: on same XCR), Washington DC 2 (no diversity: on same XCR)<br /> **EU:** Frankfurt 1, London 1 |
 | AT&T Cloud Gateway (formerly known as RedFringe)| Dallas 3, Washington DC 2 |
 | Bell Canada | Montreal 2, Toronto 2 |
-| British Telecom |   Frankfurt 1, London 1, Sao Paulo 2, Washington DC 2|
+| British Telecom |   Frankfurt 1, London 1, London 3, Sao Paulo 2, Washington DC 2|
 | CenturyLink IP VPN | Dallas 3, Miami 1, Sao Paulo 2 |
 | CenturyLink Dynamic Connections |  **Americas:** San Jose 2, Toronto 2, Washington DC 2 <br />**EU:** Frankfurt 1, London 3, Paris 2
 | Chief Telecomm | Hong Kong 1 |
@@ -119,9 +118,6 @@ Our Direct Link Connect providers include these locations:
 | Verizon SCI |  **Americas:** Dallas 3, San Jose 2, Washington DC 2<br />**APAC:**  Sydney 2, Tokyo 1  <br />**EU:** Amsterdam 2, Frankfurt 1 |
 | Vodafone | Frankfurt 1 (no Diversity), London 1 (no Diversity), London 3 (no Diversity)  |
 | Zayo | Dallas 3, Toronto 2, Washington DC 2 |
-
-
-
 
 ## Pricing
 {: #connect-pricing}
