@@ -86,7 +86,6 @@ Our Direct Link Connect providers include these locations:
 | Partners | Available Markets |
 |--------------|--------------|
 | AT&T NetBond® for Cloud |  **Americas:** Dallas 3, San Jose 2 (no diversity: on same XCR), Washington DC 2 (no diversity: on same XCR)<br /> **EU:** Frankfurt 1, London 1 |
-| AT&T Cloud Gateway (formerly known as RedFringe)| Dallas 3, Washington DC 2 |
 | Bell Canada | Montreal 2, Toronto 2 |
 | British Telecom |   Frankfurt 1, London 1, London 3, Sao Paulo 2, Washington DC 2|
 | CenturyLink IP VPN | Dallas 3, Miami 1, Sao Paulo 2 |
