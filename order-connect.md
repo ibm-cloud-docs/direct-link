@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-10-06"
+lastupdated: "2020-10-27"
 
 keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, datacenter, data, center, pricing, virtual circuit, Request ID, Authorization ID
 
@@ -115,7 +115,7 @@ Our Direct Link Connect providers include these locations:
 | Telstra | Melbourne 2, Sydney 2 |
 | Tokai | Tokyo 3, Osaka 1 |
 | Verizon SCI |  **Americas:** Dallas 3, San Jose 2, Washington DC 2<br />**APAC:**  Sydney 2, Tokyo 1  <br />**EU:** Amsterdam 2, Frankfurt 1 |
-| Vodafone | Frankfurt 1 (no Diversity), London 1 (no Diversity), London 3 (no Diversity)  |
+| Vodafone | Frankfurt 1 (no Diversity), Frankfurt 3 (no Diversity), London 1 (no Diversity), London 3 (no Diversity)  |
 | Zayo | Dallas 3, Toronto 2, Washington DC 2 |
 
 ## Pricing
