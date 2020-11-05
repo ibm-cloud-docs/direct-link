@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-11-03"
 
-subcollection: dl
+subcollection: direct-link
 
 keywords:
 
