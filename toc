@@ -24,8 +24,8 @@ Direct Link on Classic (1.0)
 
     {: .topicgroup}
     Videos & tutorials
-        [Video: IBM Cloud Networking Overview](https://www.youtube.com/watch?v=KMRAXSu6KJ8)
-        [Video: Direct Link for Hybrid Cloud](https://www.youtube.com/embed/ZRY2LPJREQw?rel=0)
+        video-hybrid-cloud.md
+        video-networking-overview.md
         /solution-tutorials/solution-tutorials-secure-network-enclosure
         /solution-tutorials/solution-tutorials-byoip
 
