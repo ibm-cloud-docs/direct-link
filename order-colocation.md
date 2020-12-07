@@ -108,7 +108,7 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 | Americas | WDC07 | Ashburn | DC (AZ2) | Sabey | 21741 Red Rum Dr |
 |  |  |  |  |  |  |
 | APAC |  SYD01 |  Sydney | DC (AZ1) | Global Switch  |  400 Harris Street aka 273 Pyrmont St. Ultimo |
-| APAC |	SYD04 |	 Sydney |	DC (AZ2) |	Digital Realty  |	4 Eden Park Drive |
+| APAC |	SYD04 |	 Sydney |	DC (AZ2) |	Digital Realty  |	1-11 Templar Road, Erskine Park |
 | APAC |	SYD05 |	 Sydney |	DC (AZ3) |	Equinix |	200 Bourke Rd |
 | APAC |  SNG01 |  Jurong East | DC | Digital Realty  |  29a International Business Park, S180 |
 | APAC | TOK02  |  Koto-ku | DC (AZ1) | AT Tokyo  |  Koto-ku |
