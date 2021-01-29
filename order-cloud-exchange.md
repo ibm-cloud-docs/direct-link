@@ -1,11 +1,10 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-08-21"
+  years: 2017, 2021
+lastupdated: "2021-01-28"
 
-keywords: order, provider, capabilities, Exchange, cross-connect, locations, PoP, datacenter, data, center, pricing
-
+keywords: provider, cross-connect, locations, PoP, data center
 subcollection: direct-link
 
 ---
@@ -98,27 +97,34 @@ If the {{site.data.keyword.cloud}} Direct Link on Classic order is for the Equin
 **PREREQUISITE**:
 To use the automated ordering capability, your private VLANs must be associated with a VRF in the {{site.data.keyword.cloud_notm}} private network. If this requirement is not met, an IBM Support case is generated when you place the order.
 
-1. Complete Steps 1 - 4 in [Steps to order Direct Link Exchange on Classic](/docs/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-exchange#how-to-order-cloud-exchange-no-equinix).
-2. In the order form, complete the following information to configure Direct Link Exchange:
+After you create your Direct Link Connect order, follow these steps to create a connection for your Equinix service provider.
 
-   * Enter a Direct Link instance name.
-   * Choose the location in which you want to establish the IBM Cloud Direct Link connection.
-   * Choose **EQUINIX** as your network provider.
-   * In the information message, click the **Go to portal** link to initiate the order.
-  
-   ![Go to the Equinix portal](/images/dl_exchange_equinix.png)
-  
-4. Log in to the Equinix portal to begin the provisioning process. Complete instructions on the Equinix [IBM Cloud Direct Link](https://docs.equinix.com/en-us/Content/Interconnection/ECXF/connections/ECXF-connect-ibm-cloud.htm) page to submit your order.
-      
-5. Return to the [IBM Cloud Direct Link Exchange page](https://cloud.ibm.com/classic/network/directlink/exchange) in the IBM Cloud console. Notice that the connection status for your direct link connection states **Create Approval Pending**. 
+1. Log in to the Equinix Cloud Exchange (ECX) Fabric portal.
+   * Navigate to [https://ecxfabric.equinix.com](https://ecxfabric.equinix.com).
+   * Enter your username and password.
+   * Click **Sign In**.   
+1. In the Frequent Connections section, click the **IBM Cloud** tile.
+1. In the **IBM Cloud Direct Link Exchange** profile, click **Create Connection**.
 
-6. Open the Actions ![Actions menu](/images/overflow.png) menu and click **Accept**.
+   ![Equinix ordering](/images/equinix-ibm-cloud-2.png "Equinix ordering")
+1. In the Origin section, click **Port**.
+
+   ![Select a Port, Location, and Destination](/images/equinix-port.png "Select a Port, Location, and Destination")   
+1. Select a **Location**, followed by a **Destination**. Then, click **Next**.  
+1. On the Connection Details page, enter the connection information. For Account ID, enter the Classic Softlayer Account ID (for example, `114340xxx`) that was generated when you provisioned your direct link. This key can be found on the Direct Link details page. 
+1. Select a **Connection Speed**, then click **Next**.   
+1. Review and click **Submit Your Order**. 
+1. Return to the [IBM Cloud Direct Link Exchange page](https://cloud.ibm.com/classic/network/directlink/exchange) in the IBM Cloud console. Notice that the connection status for your direct link connection states **Create Approval Pending**. 
+1. Open the Actions ![Actions menu](/images/overflow.png) menu and click **Accept**.
     
-      ![Equinix request approval pending](/images/equinix-request-pending.png)
-      
-7. Review your order summary, agree to the [Master Service Agreement](https://cloud.ibm.com/classic/account/masterserviceagreement/getagreement){: external}, and then click **Create**.
+      ![Equinix request approval pending](/images/equinix-request-pending.png)      
+      The virtual connection shows as **Provisioned** in the Equinix Fabric portal.      
+1. Review your order summary, agree to the [Master Service Agreement](https://cloud.ibm.com/classic/account/masterserviceagreement/getagreement){: external}, and then click **Create**.
 
       ![Equinix order summary pane](/images/equinix-order-summary.png)
+
+The timeline for approval is within 24 hours. If the 24-hour Service Level Agreement (SLA) is not acceptable, you can [create an IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the SNS team. 
+{: note}
   
 ## Ordering Direct Link Exchange on Classic when there is no VRF present
 {: #how-to-order-exchange-when-there-is-no-vrf-present}
