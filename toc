@@ -54,6 +54,8 @@ Direct Link on Classic (1.0)
         questionnaire-dedicated.md
         questionnaire-dedicated-hosting.md
         questionnaire-exchange.md
+
+    [Terraform](https://cloud.ibm.com/docs/terraform?topic=terraform-getting-started)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
