@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-04-07"
+  years: 2017, 2021
+lastupdated: "2021-02-25"
 
-keywords: colocation, connectivity, provider, Dedicated, Hosting, locations, PoP, datacenter, data, center, contract, addendum
+keywords: provider, Dedicated, Hosting, locations, PoP, data center, contract, addendum
 
 subcollection: direct-link
 
@@ -114,9 +114,11 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 | APAC | TOK02  |  Koto-ku | DC (AZ1) | AT Tokyo  |  Koto-ku |
 | APAC | TOK05  | Kawasaki Kangagawa  | DC (AZ3) | NTT | Kawasaki Kangagawa |
 |  |  |  |  |  |  |
+| EMEA | FRA02  | Frankfurt |  DC (AZ1) | CyrusOne | Leonhard - Heisswolf Str. 4 |
 | EMEA | FRA04  | Frankfurt | DC (AZ2) | E-shelter | Eschborner Landstrasse 100, Building H |
 | EMEA | FRA05  | Frankfurt | DC (AZ3) | InterXion | Weismüllerstraße 40 |
 | EMEA | LON02  | Chessington | DC | Digital Realty  | Fountain Court |
+| EMEA | LON06 | London |	DC (AZ3) |	CyrusOne |	12 Liverpool Rd |
 | EMEA | MIL01 | Milan | DC |	Data4 |	Via Monzoro 101-105, 20010 Cornaredo (MI) |
 
 ## Pricing
