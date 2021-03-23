@@ -24,8 +24,7 @@ Direct Link on Classic (1.0)
 
     {: .topicgroup}
     Videos & tutorials
-        video-hybrid-cloud.md
-        video-networking-overview.md
+        video-hybrid-cloud.md 
         /solution-tutorials/solution-tutorials-secure-network-enclosure
         /solution-tutorials/solution-tutorials-byoip
 
