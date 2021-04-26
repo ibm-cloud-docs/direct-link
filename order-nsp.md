@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-05-05"
+  years: 2017, 2021
+lastupdated: "2021-04-26"
 
 keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, datacenter, data, center, pricing, Letter of Authorization, LOA,
 
@@ -167,7 +167,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | New York City 2 | PoP | Equinix | NY4 | 755 Secaucus Rd, Secaucus, NJ |
 | New York City 3 | PoP | Equinix | NY5 | 800 Secaucus Rd, Secaucus, NJ |
 | Sao Paulo 1 | DC | Digital Realty (fAscenty) | SP1 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
-| Sao Paulo 2 | PoP | Equinix | SP2 | Alameda Araguaia, 3641 - Alphaville, Barueri |
+| Sao Paulo 2 | PoP | Equinix | SP4 | Avenida Ceci, 1900, Tambore, Barueri, SP, 06460 120 BR, Brazil |
 | Seattle 2 | PoP | Digital Realty (The Westin Building) | WBX | 2001 6th Avenue |
 | San Jose 2 | PoP | Equinix | SV1 | 11 Great Oaks Blvd |
 | San Jose 3 | DC | Digital Realty | SJC31 | 1100 Space Park Drive |
