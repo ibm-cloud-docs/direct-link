@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2021
-lastupdated: "2021-2-23"
+lastupdated: "2021-5-06"
 
 keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, datacenter, data, center, pricing, virtual circuit, Request ID, Authorization ID
 
@@ -85,38 +85,38 @@ Our Direct Link Connect providers include these locations:
 
 | Partners | Available Markets |
 |--------------|--------------|
-| AT&T NetBond® for Cloud |  **Americas:** Dallas 3, San Jose 2 (no diversity: on same XCR)<br /> **EU:** Frankfurt 1, London 1 |
-| Bell Canada | Montreal 2, Toronto 2 |
-| British Telecom |   Frankfurt 1, London 1, London 3, Sao Paulo 2, Washington DC 2|
-| CenturyLink IP VPN | Dallas 3, Miami 1, Sao Paulo 2 |
+| AT&T NetBond® for Cloud |  **Americas:** Dallas 3, San Jose 2 (no diversity: on same XCR)<br />**EU:** Frankfurt 1, London 1 |
+| Bell Canada | **Americas:** Montreal 2, Toronto 2 |
+| British Telecom |  **Americas:** Sao Paulo 2, Washington DC 2<br />**EU:** Frankfurt 1, London 1, London 3 |
+| CenturyLink IP VPN | **Americas:** Dallas 3, Miami 1, Sao Paulo 2 |
 | CenturyLink Dynamic Connections |  **Americas:** San Jose 2, Toronto 2, Washington DC 2 <br />**EU:** Frankfurt 1, London 3, Paris 2
-| Chief Telecomm | Hong Kong 1 |
-| China Unicom | Hong Kong 3 |
+| Chief Telecomm | **APAC:** Hong Kong 1 |
+| China Unicom | **APAC:** Hong Kong 3 |
 | Colt | **APAC:** Tokyo 1, Singapore 2 <br />**EU:** Amsterdam 2, Frankfurt 1, London 1, Paris 2 |
-| Console Connect by PCCW | **Americas:** Chicago 1, Miami 1, San Jose 2 <br />**APAC:** Hong Kong 1, Singapore 2, Sydney 5, Tokyo 1, Osaka 1 <br />**EU:** London 1, Frankfurt 3, Frankfurt 5  |
+| Console Connect by PCCW | **Americas:** Chicago 1, Miami 1, San Jose 2 <br />**APAC:** Hong Kong 1, Osaka 1, Singapore 2, Sydney 5, Tokyo 1<br />**EU:** London 1, Frankfurt 3, Frankfurt 5  |
 | CyrusOne | **Americas:** Dallas 13 |
 | Digital Realty Service Exchange |	Supported by Megaport in <br />**Americas:** Dallas 3, San Jose 2, Toronto 2, Washington DC 2<br />**EU:** Amsterdam 2, Frankfurt 1, London 3, Stockholm 1 |
 | Epsilon | **APAC:**  Singapore 2<br />**EU:** Frankfurt 1  |
-| EU Networks | Frankfurt 1 |
-| IBM BlueFringe | Chennai 1, Dallas 3, Washington DC 2 |
+| EU Networks | **EU:** Frankfurt 1 |
+| IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**APAC:** Chennai 1<br />**EU:** Amsterdam 2, Frankfurt 3 |
 | IBM Global Network Peering Platform (GNPP) |  **Americas:** Dallas 3, Washington DC 2<br />**EU:** Amsterdam 2 (no diversity), Frankfurt 3 |
 | IBM Power Virtual Server | **Americas:** Toronto 1, Washington DC 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 6  |
-| Intercloud | Amsterdam 2, Frankfurt 1, Frankfurt 3 |
+| Intercloud | **EU:** Amsterdam 2, Frankfurt 1, Frankfurt 3 |
 | IXReach | **Americas:** Washington DC 2 <br />**EU:** London 1 (no diversity), London 3 (no diversity) |
-| Megaport | **Americas:** Chicago 1, Dallas 4, San Jose 2 (no diversity),  Toronto 2 (no diversity), Washington DC 2<br />**APAC:** Osaka 1, Tokyo 2, Tokyo 3, Melbourne 2, Singapore 2, Sydney 2, Hong Kong 1 (no diversity)<br />**EU:** Amsterdam 2 (no diversity), Frankfurt 1, London 3 (no diversity), Paris 2, Stockholm 1 (no diversity) |
-| Neutrona |  Dallas 3, Sao Paulo 2, Washington DC 2 |
-| NTT | Tokyo 5 |
-| Orange Business Services | Paris 02|
-| PacketFabric | Dallas 4, San Jose 2, Washington DC 2 |
-| Softbank | Tokyo 4 |
-| SES Networks | Washington DC 2 |
-| Tata | Chennai 1, Hong Kong 1 |
-| Telia | Stockholm 1, Washington DC 2 |
-| Telstra | Melbourne 2, Sydney 2 |
-| Tokai | Tokyo 3, Osaka 1 |
+| Megaport | **Americas:** Chicago 1, Dallas 4, San Jose 2 (no diversity),  Toronto 2 (no diversity), Washington DC 2<br />**APAC:** Hong Kong 1 (no diversity), Melbourne 2, Osaka 1, Tokyo 2, Tokyo 3, Singapore 2, Sydney 2<br />**EU:** Amsterdam 2 (no diversity), Frankfurt 1, London 3 (no diversity), Paris 2, Stockholm 1 (no diversity) |
+| Neutrona |  **Americas:** Dallas 3, Sao Paulo 2, Washington DC 2 |
+| NTT | **APAC:** Tokyo 5 |
+| Orange Business Services | **EU:** Paris 02|
+| PacketFabric | **Americas:** Dallas 4, San Jose 2, Washington DC 2 |
+| Softbank | **APAC:** Tokyo 4 |
+| SES Networks | **Americas:** Washington DC 2 |
+| Tata | **APAC:** Chennai 1, Hong Kong 1 |
+| Telia | **Americas:** Washington DC 2<br />**EU:** Stockholm 1 |
+| Telstra | **APAC:** Melbourne 2, Sydney 2 |
+| Tokai | **APAC:** Osaka 1, Tokyo 3 |
 | Verizon SCI |  **Americas:** Dallas 3, San Jose 2 <br />**APAC:**  Sydney 2, Tokyo 1  <br />**EU:** Amsterdam 2, Frankfurt 1 |
-| Vodafone | Frankfurt 1 (no Diversity), Frankfurt 3 (no Diversity), London 1 (no Diversity), London 3 (no Diversity)  |
-| Zayo | Dallas 3, Toronto 2, Washington DC 2 |
+| Vodafone | **EU:** Frankfurt 1 (no diversity), Frankfurt 3 (no diversity), London 1 (no diversity), London 3 (no diversity)  |
+| Zayo | **Americas:** Dallas 3, Toronto 2, Washington DC 2 |
 
 ## Pricing
 {: #connect-pricing}
