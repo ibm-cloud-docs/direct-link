@@ -178,8 +178,6 @@ Direct access to {{site.data.keyword.cloud_notm}} is now available through the D
 * [Digital Realty adds direct, secure access to IBM Cloud in 15 global metros](https://investor.digitalrealty.com/news-and-events/news/press-release-details/2018/Digital-Realty-Adds-Direct-Secure-Access-to-IBM-Cloud-in-15-Global-Metros/default.aspx?_ga=2.4622768.2004310000.1533067916-309713252.1509692838){: external}
 * [Built for Enterprise Cloud Blog](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-direct-link-expand-network){: external}
 * [Digital Realty and IBM Direct Link](https://www.digitalrealty.com/cloud/ibm-direct-link){: external}
-* [Digital Realty and IBM Deal a Proximity Play Interview](https://www.lightreading.com/data-center/data-center-infrastructure/digital-realty-ibm-deal-a-proximity-play/d/d-id/744870){: external}
-
 
 ## June 2018
 {: #june-2018}
