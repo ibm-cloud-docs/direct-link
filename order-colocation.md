@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-02-25"
+lastupdated: "2021-05-21"
 
 keywords: provider, Dedicated, Hosting, locations, PoP, data center, contract, addendum
 
@@ -93,7 +93,6 @@ To provision a Direct Link Dedicated Hosting order, complete the following steps
 
 This table shows which {{site.data.keyword.cloud_notm}} data centers are able to accept customers for Dedicated Hosting:
 
-
 | Region | Site<br />ID | City | Site<br />Type | Site<br />Partner | Site<br />Address |
 |-------|-------|-------|-------|-------|-------|
 | Americas | DAL09 | Richardson | DC | Digital Realty  | 900 Quality Way |
@@ -103,11 +102,11 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 | Americas | MON01 | Drummond  | DC | Colo-D  | 2525 Rue Canadien |
 | Americas | SAO01 | Sao Paulo | DC | Digital Realty (Ascenty) | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II, Jundial |
 | Americas | SJC03 | Santa Clara | DC | Digital Realty  | 1100 Space Park Drive |
+| Americas | TORO1 | Markham | DC | Sungard | 371 Gough Road |
 | Americas | WDC04 | Ashburn | DC (AZ1) | Digital Realty  | 44060 Digital Loudoun Plaza (Bldg K)
 | Americas | WDC06 | Ashburn | DC (AZ3) | Raging Wire | 44610 Guilford Drive |
 | Americas | WDC07 | Ashburn | DC (AZ2) | Sabey | 21741 Red Rum Dr |
 |  |  |  |  |  |  |
-| APAC |  SYD01 |  Sydney | DC (AZ1) | Global Switch  |  400 Harris Street aka 273 Pyrmont St. Ultimo |
 | APAC |	SYD04 |	 Sydney |	DC (AZ2) |	Digital Realty  |	1-11 Templar Road, Erskine Park |
 | APAC |	SYD05 |	 Sydney |	DC (AZ3) |	Equinix |	200 Bourke Rd |
 | APAC |  SNG01 |  Jurong East | DC | Digital Realty  |  29a International Business Park, S180 |
