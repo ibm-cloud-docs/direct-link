@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-04-26"
+lastupdated: "2021-05-28"
 
 keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, datacenter, data, center, pricing, Letter of Authorization, LOA,
 
@@ -144,8 +144,8 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | London 6 | DC(AZ3) | Cyrus One (fZenium) | LON1 | 12 Liverpool Rd, Trading Estate |
 | Milan 1 |  DC | Data4 | | Via Monzoro 101-105, 20010 Cornaredo (MI) |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21|
-| Oslo 1 | PoP | DigiPlex | DigiPlex - Fetsund | 9,, Heiaveien, 1900 Fetsund |
-| Oslo 2 | DC | Verizon | Verizon Oslo | Hans Møller Gassmanssvei 9 |
+| Oslo 1 | DC | DigiPlex | DigiPlex - Fetsund | 9,, Heiaveien, 1900 Fetsund |
+| Oslo 2 | PoP | Verizon | Verizon Oslo | Hans Møller Gassmanssvei 9 |
 | Paris 1 | DC | Global Switch | PAR01 | Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit |
 | Paris 2 | PoP | Equinix | PA2 | 114 Rue Ambroise Croizat, St Denis |
 | Stockholm 1 | PoP | Digital Realty (fInterXion)  | STO01 | Esbogatan 11 |
