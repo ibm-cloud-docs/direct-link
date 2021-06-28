@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2021
-lastupdated: "2021-05-21"
+lastupdated: "2021-06-28"
 
 keywords: pricing, Exchange, Connect, Dedicated, regions, bandwidth, Hosting, local, routing, Global, overage, fees, market, tiers, customization, price, ingress, egress
 
@@ -74,7 +74,7 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 | MRC/NRC            | DAL09 | DAL10 | DAL12 | DAL13 | WDC04 | WDC06 | WDC07 | SJC03 | MON01 | TOR01 | SAO01 | FRA04 | FRA05 | LON02 | SYD04 | SYD05 |
 |--------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | **5kW Cabinet w/ PDU, Combo Lock** |||||||||||||||||
-|  MRC | $3,810 | $3,969 | $3,810 | $3,969 | $4,445 | $3,810 | $3,985 | $4,445 | $3,937 | $4,446 | $4,102 | $6,606 | $6,099 | $6,198 | $5,048 | $4,786 |
+|  MRC | $3,810 | $4,604 | $3,810 | $3,969 | $4,445 | $3,810 | $3,985 | $4,445 | $3,937 | $4,446 | $4,102 | $6,606 | $6,099 | $6,198 | $5,048 | $4,786 |
 | **5kW Cabinet Install** ||||||||||||||||||
 |  NRC | $11,113 | $6,350 | $11,113 | $11,240 | $11,113 | $3,175 | $3,175 | $11,113 |  $5,404 | $5,089 | $10,240 | $14,351 | $23,679 | $11,113 | $11,113 | $4,235 |
 | **10kW Cabinet w/ PDU, Combo Lock** |||||||||||||||||
