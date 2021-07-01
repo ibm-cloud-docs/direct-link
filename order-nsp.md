@@ -166,7 +166,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Montreal 2 | PoP | Cologix | MTL7 | 1155  Robert – Bourassa Boulevard (Formerly Known as University Street) |
 | New York City 2 | PoP | Equinix | NY4 | 755 Secaucus Rd, Secaucus, NJ |
 | New York City 3 | PoP | Equinix | NY5 | 800 Secaucus Rd, Secaucus, NJ |
-| Sao Paulo 1 | DC | Digital Realty (fAscenty) | SP1 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
+| Sao Paulo 1 | DC | Digital Realty (Ascenty) | SP1 | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II,Jundiai |
 | Sao Paulo 2 | PoP | Equinix | SP4 | Avenida Ceci, 1900, Tambore, Barueri, SP, 06460 120 BR, Brazil |
 | Seattle 2 | PoP | Digital Realty (The Westin Building) | WBX | 2001 6th Avenue |
 | San Jose 2 | PoP | Equinix | SV1 | 11 Great Oaks Blvd |
