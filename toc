@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="direct-link" category="network_classic" audience="service" href="/docs/direct-link/getting-started" console-page="/catalog?search=direct link" product-page="https://www.ibm.com/cloud/direct-link" path="direct-link"}
+{: .toc subcollection="direct-link" category="network_classic" audience="service" href="/docs/direct-link" console-page="/catalog?search=direct link" product-page="https://www.ibm.com/cloud/direct-link" path="direct-link"}
 Direct Link on Classic (1.0)
 
     {: .navgroup id="learn"}
@@ -24,7 +24,7 @@ Direct Link on Classic (1.0)
 
     {: .topicgroup}
     Videos & tutorials
-        video-hybrid-cloud.md 
+        video-hybrid-cloud.md
         /solution-tutorials/solution-tutorials-secure-network-enclosure
         /solution-tutorials/solution-tutorials-byoip
 

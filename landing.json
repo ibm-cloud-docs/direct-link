@@ -1,0 +1,50 @@
+{
+    "title": "Direct Link on Classic (1.0) docs",
+    "lastupdated": "2021-07-08",
+    "introduction": "The IBM Cloud Direct Link on Classic solution is designed to seamlessly connect your on-premises resources to your cloud resources.",
+    "section_recommended": [
+      {
+        "title": "Ordering Direct Link Connect on Classic",
+        "description": "Fast setup! Leverage a service provider to quickly establish and deliver connectivity to IBM Cloud locations. Ideal for multi-cloud environments with your service provider's network.",
+        "href": "/docs/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-connect-classic"
+      },
+      {
+        "title": "Ordering Direct Link Dedicated on Classic",
+        "description": "Terminate a single-tenant, fiber-based, cross content into your own IBM Cloud private network connection. Also used by colocation facilities adjacent to IBM Cloud PoPs and data centers.",
+        "href": "/docs/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-dedicated"
+      },
+      {
+        "title": "Ordering Direct Link Dedicated Hosting on Classic",
+        "description": "Provides connectivity similar to Direct Link Dedicated, but the connection point is next to an IBM Cloud data center, which improves latency for higher-performance use cases.",
+        "href": "/docs/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-dedicated-hosting"
+      },
+      {
+        "title": "Ordering Direct Link Exchange on Classic",
+        "description": "Use a colocation or data center provider that is already connected to the IBM Cloud network. Perfect for creating multi-cloud connectivity in a single environment.",
+        "href": "/docs/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-exchange"
+      }
+
+    ],
+    "section_videos": [
+      {
+        "title": "IBM Cloud Direct Link for hybrid cloud",
+        "href": "/docs/direct-link?topic=direct-link-offering-video",
+        "thumbnail": "/images/thumbnail.png"
+      }
+    ],
+    "section_learn": {
+      "architecture": "https://www.ibm.com/cloud/architecture",
+      "training": "https://www.ibm.com/training/cloud",
+      "community": "https://community.ibm.com/community/user/publiccloud/search?executeSearch=true&SearchTerm=direct%20link&rf=%5EMulti04%3Adirect%5E"
+    },
+    "section_updates": {
+      "view_more": "/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order",
+      "tiles": [
+        {
+          "date": "22 April 2021",
+          "title": "How do I know which Direct Link solution to order?",
+          "description": "Use this decision tree to help you decide which solution works best for you. Click the 'View more' link for details."
+        }
+      ]
+    }
+  }
