@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-05-28"
+lastupdated: "2021-07-15"
 
 keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, datacenter, data, center, pricing, Letter of Authorization, LOA,
 
@@ -129,13 +129,13 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Tokyo 4 | DC(AZ2) | SoftBank | | |
 | Tokyo 5 | DC(AZ3) | NTT | | |
 | **EMEA** |  |  |  |
-| Amsterdam 2 | PoP | Equinix | AM1 / AM2 | Larrderhoogtweg 57 |
+| Amsterdam 2 | PoP | Equinix | AM2 | Larrderhoogtweg 57 |
 | Amsterdam 3 | DC | KPN | Amsterdam 3 | Rondebeltweg 62 |
-| Frankfurt 1 | PoP | Digital Realty (fInterXion) | FRA01 | Hanauer Landstrasse 302 |
+| Frankfurt 1 | PoP | Digital Realty (fInterXion) | FRA6 | Hanauer Landstrasse 302 |
 | Frankfurt 2 | DC(AZ1) | Cyrus One (fZenium) | FRA1 | Leonhard - Heisswolf Str 4., Frankfurt am Main |
-| Frankfurt 3 | PoP | Equinix| FRA6 | Larchenstrasse 110, Frankfurt Griesheim |
+| Frankfurt 3 | PoP | Equinix| FR6 | Larchenstrasse 110, Frankfurt Griesheim |
 | Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 | Eschborner Landstrasse 100, Building H |
-| Frankfurt 5 | DC(AZ3) | InterXion | FRA05 | Weismüllerstraße 40 |
+| Frankfurt 5 | DC(AZ3) | InterXion | FRA11 | Weismüllerstraße 40 |
 | London 1 | PoP | Equinix (fTelecity) | LD8 | 6/7 Harbour Exchange E14 9GE |
 | London 2 | DC | Digital Realty | LHR13 | Fountain Court, Cox Lane |
 | London 3 | PoP | Equinix | LD5 | 8 Buckingham Ave |
