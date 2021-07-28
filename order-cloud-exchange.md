@@ -97,7 +97,7 @@ If the {{site.data.keyword.cloud}} Direct Link on Classic order is for the Equin
 **PREREQUISITE**:
 To use the automated ordering capability, your private VLANs must be associated with a VRF in the {{site.data.keyword.cloud_notm}} private network. If this requirement is not met, an IBM Support case is generated when you place the order.
 
-After you create your Direct Link Connect order, follow these steps to create a connection for your Equinix service provider.
+To order Direct Link Exchange on Classic for Equinix, follow these steps:
 
 1. Log in to the Equinix Cloud Exchange (ECX) Fabric portal.
    * Navigate to [https://ecxfabric.equinix.com](https://ecxfabric.equinix.com).
