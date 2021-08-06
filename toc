@@ -41,6 +41,7 @@ Direct Link on Classic (1.0)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
+    [Terraform reference](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dl_gateway)
     responsibilities.md
     external-resources.md
     understanding-latency.md
@@ -53,8 +54,6 @@ Direct Link on Classic (1.0)
         questionnaire-dedicated.md
         questionnaire-dedicated-hosting.md
         questionnaire-exchange.md
-
-    [Terraform](https://cloud.ibm.com/docs/terraform?topic=terraform-getting-started)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
