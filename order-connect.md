@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2021
-lastupdated: "2021-8-04"
+lastupdated: "2021-8-18"
 
 keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, datacenter, data, center, pricing, virtual circuit, Request ID, Authorization ID
 
@@ -104,7 +104,7 @@ Our Direct Link Connect providers include these locations:
 | Intercloud | **EU:** Amsterdam 2, Frankfurt 1, Frankfurt 3 |
 | IXReach | **Americas:** Washington DC 2 <br />**EU:** London 1 (no diversity), London 3 (no diversity) |
 | Marcatel | **Americas:** Mexico 1 |
-| Megaport | **Americas:** Chicago 1, Dallas 4, San Jose 2 (no diversity),  Toronto 2 (no diversity), Washington DC 2<br />**APAC:** Hong Kong 1 (no diversity), Melbourne 2, Osaka 1, Tokyo 2, Tokyo 3, Singapore 2, Sydney 2<br />**EU:** Amsterdam 2 (no diversity), Frankfurt 1, London 3 (no diversity), Paris 2, Stockholm 1 (no diversity) |
+| Megaport | **Americas:** Chicago 1, Dallas 4, San Jose 2 (no diversity), Toronto 2 (no diversity), Washington DC 2<br />**APAC:** Hong Kong 1 (no diversity), Melbourne 2, Osaka 1, Tokyo 2, Tokyo 3, Singapore 2, Sydney 2<br />**EU:** Amsterdam 2 (no diversity), Frankfurt 1, London 3 (no diversity), Paris 2, Stockholm 1 (no diversity) |
 | Neutrona |  **Americas:** Dallas 3, Sao Paulo 2, Washington DC 2 |
 | NTT | **APAC:** Tokyo 5 |
 | Orange Business Services | **EU:** Paris 02|
@@ -115,7 +115,7 @@ Our Direct Link Connect providers include these locations:
 | Telia | **Americas:** Washington DC 2<br />**EU:** Stockholm 1 |
 | Telstra | **APAC:** Melbourne 2, Sydney 2 |
 | Tokai | **APAC:** Osaka 1, Tokyo 3 |
-| Verizon SCI |  **Americas:** Dallas 3, San Jose 2 <br />**APAC:**  Sydney 2, Tokyo 1  <br />**EU:** Amsterdam 2, Frankfurt 1 |
+| Verizon SCI |  **APAC:**  Sydney 2, Tokyo 1  <br />**EU:** Amsterdam 2, Frankfurt 1 |
 | Vodafone | **EU:** Frankfurt 1 (no diversity), Frankfurt 3 (no diversity), London 1 (no diversity), London 3 (no diversity)  |
 | Zayo | **Americas:** Dallas 3, Toronto 2, Washington DC 2 |
 
