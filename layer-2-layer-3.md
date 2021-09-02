@@ -60,7 +60,7 @@ The following table summarizes the type of connections that each {{site.data.key
 
 | Partners | Interconnection type |  
 |-------|-------|
-| AT&T NetBond® for Cloud | **Layer 3** |
+| AT&T NetBond for Cloud | **Layer 3** |
 | AT&T Cloud Gateway (formerly known as RedFringe)| **Layer 3** |
 | Bell Canada | **Layer 3** |
 | British Telecom | **Layer 3**  |
@@ -77,8 +77,8 @@ The following table summarizes the type of connections that each {{site.data.key
 | Intercloud | **Layer 3** |
 | IXReach | Layer 2 |
 | Megaport | Layer 2 |
-| MWS GNPP | **Layer 3** |
 | Neutrona | Layer 2 |
+| nextGen GNPP | **Layer 3** |
 | NTT | **Layer 3** |
 | Orange Business Services | **Layer 3** |
 | PacketFabric | Layer 2  |
