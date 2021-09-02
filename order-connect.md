@@ -99,13 +99,13 @@ Our Direct Link Connect providers include these locations:
 | Epsilon | **APAC:**  Singapore 2<br />**EU:** Frankfurt 1  |
 | EU Networks | **EU:** Frankfurt 1 |
 | IBM BlueFringe | **Americas:** Dallas 3, Washington DC 2<br />**APAC:** Chennai 1<br />**EU:** Amsterdam 2, Frankfurt 3 |
-| nextGen Global Network Peering Platform (GNPP) |  **Americas:** Dallas 3, Washington DC 2<br />**EU:** Amsterdam 2 (no diversity), Frankfurt 3 |
 | IBM Power Virtual Server | **Americas:** Toronto 1, Washington DC 4<br />**EU:** Frankfurt 4, Frankfurt 5, London 6  |
 | Intercloud | **EU:** Amsterdam 2, Frankfurt 1, Frankfurt 3 |
 | IXReach | **Americas:** Washington DC 2 <br />**EU:** London 1 (no diversity), London 3 (no diversity) |
 | Marcatel | **Americas:** Mexico 1 |
 | Megaport | **Americas:** Chicago 1, Dallas 4, San Jose 2 (no diversity), Toronto 2 (no diversity), Washington DC 2<br />**APAC:** Hong Kong 1 (no diversity), Melbourne 2, Osaka 1, Tokyo 2, Tokyo 3, Singapore 2, Sydney 2<br />**EU:** Amsterdam 2 (no diversity), Frankfurt 1, London 3 (no diversity), Paris 2, Stockholm 1 (no diversity) |
 | Neutrona |  **Americas:** Dallas 3, Sao Paulo 2, Washington DC 2 |
+| nextGen Global Network Peering Platform (GNPP) |  **Americas:** Dallas 3, Washington DC 2<br />**EU:** Amsterdam 2 (no diversity), Frankfurt 3 |
 | NTT | **APAC:** Tokyo 5 |
 | Orange Business Services | **EU:** Paris 02|
 | PacketFabric | **Americas:** Dallas 4, San Jose 2, Washington DC 2 |
