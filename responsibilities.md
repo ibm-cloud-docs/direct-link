@@ -30,7 +30,7 @@ subcollection: direct-link
 {: #responsibilities-direct-link}
 
 Learn about management responsibilities that you have when you use {{site.data.keyword.cloud}} Direct Link on Classic. For overall terms of use, refer to the IBM Cloud Terms and Notices.
-{:shortdesc}
+{: shortdesc}
 
 ## Management responsibilities
 {: #responsibilities}

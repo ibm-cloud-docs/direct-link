@@ -30,7 +30,7 @@ subcollection: direct-link
 {: #comparing-layer-2-layer-3}
 
 {{site.data.keyword.cloud}} Direct Link accepts OSI Layer-2 and Layer-3 partner interconnections from network service providers (NSPs). Some network service providers offer services for both of these layers on different networks, however, some providers might choose **not** to interconnect all of their networks into {{site.data.keyword.cloud_notm}}.
-{:shortdesc}
+{: shortdesc}
 
 When planning your {{site.data.keyword.cloud_notm}} Direct Link deployment, consider the characteristics that are associated with Layer-2 and Layer-3 connections, so you can create a deployment that best suits your needs.
 

@@ -34,7 +34,7 @@ subcollection: direct-link
 {: support}
 
 You can configure {{site.data.keyword.cloud}} Direct Link so that you have access to {{site.data.keyword.cloud_notm}} Object Storage (COS). Although the methods described here were designed and tested with COS, they can work for certain other {{site.data.keyword.cloud_notm}} services.
-{:shortdesc}
+{: shortdesc}
 
 By policy, {{site.data.keyword.cloud_notm}} Direct Link denies access to {{site.data.keyword.cloud_notm}} private service endpoints, including those endpoints used by COS. The technique that is described in this document relies on indirect access to COS through servers hosted in a customer's {{site.data.keyword.cloud_notm}} account. After setup, each customer's server can forward traffic bidirectionally between {{site.data.keyword.cloud_notm}} private service endpoints and their remote networks that are connected by Direct Link.
 

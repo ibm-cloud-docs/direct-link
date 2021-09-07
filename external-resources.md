@@ -32,7 +32,7 @@ subcollection: direct-link
 {: #related-resources}
 
 These resources are created by {{site.data.keyword.cloud}} and by some IBM partners and customers.
-{:shortdesc}
+{: shortdesc}
 
 ## Papers and case studies
 

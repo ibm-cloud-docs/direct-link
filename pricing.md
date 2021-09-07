@@ -30,10 +30,10 @@ subcollection: direct-link
 {: #pricing-for-ibm-cloud-direct-link}
 
 Pricing for Direct Link Connect, Dedicated, and Exchange "on Classic" offerings is consistent for equivalent regions and bandwidth, as shown in the following monthly pricing tables.
-{:shortdesc}
+{: shortdesc}
 
 The published pricing is for estimate purposes only. IBM must check with the colocation provider for firm pricing and availability. Also, Direct Link on Classic pricing does NOT include the additional charges by service providers to enable connectivity to {{site.data.keyword.cloud_notm}}.
-{:note}
+{: note}
 
 You, the customer, must arrange connectivity and billing with your service providers, independently of {{site.data.keyword.cloud_notm}}. See the list of Exchange and Connect providers at [IBM Cloud Direct Link Partners](https://www.ibm.com/cloud/direct-link/partners). Direct Link Dedicated creates a Letter Of Authorization / Connecting Facility Assignment (LOA/CFA), which is usable by any service provider who can reach the **Meet Me Room that is specified** on that LOA/CFA. The provider who is connecting to the LOA/CFA must include pricing for the cross-connect in their quote to you; {{site.data.keyword.cloud_notm}} does not order cross-connects on behalf of any customer.
 {: important}
@@ -71,15 +71,15 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 {: tab-group="IAM-simple"}
 {: class="simple-tab-table"}
 
-| MRC/NRC            | DAL09 | DAL10 | DAL12 | DAL13 | WDC04 | WDC06 | WDC07 | SJC03 | MON01 | TOR01 | SAO01 | FRA04 | FRA05 | LON02 | SYD04 | SYD05 |
-|--------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| MRC/NRC | DAL09 | DAL10 | DAL12 | DAL13 | WDC04 | WDC06 | WDC07 | SJC03 | MON01 | TOR01 | SAO01 | FRA04 | FRA05 | LON02 | SYD04 | SYD05 |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | **5kW Cabinet w/ PDU, Combo Lock** |||||||||||||||||
 |  MRC | $3,810 | $4,604 | $3,810 | $3,969 | $4,445 | $3,810 | $3,985 | $4,445 | $3,937 | $4,446 | $4,102 | $7,015 | $6,477 | $6,198 | $5,048 | $4,786 |
-| **5kW Cabinet Install** ||||||||||||||||||
-|  NRC | $11,113 | $6,350 | $11,113 | $11,240 | $11,113 | $3,175 | $3,175 | $11,113 |  $5,404 | $5,089 | $10,240 | $15,240 | $29,863 | $11,113 | $11,113 | $4,235 |
+| **5kW Cabinet Install** |||||||||||||||||
+|  NRC | $11,113 | $6,350 | $11,113 | $11,240 | $11,113 | $3,175 | $3,175 | $11,113 | $5,404 | $5,089 | $10,240 | $15,240 | $29,863 | $11,113 | $11,113 | $4,235 |
 | **10kW Cabinet w/ PDU, Combo Lock** |||||||||||||||||
 | MRC | $7,620 | $7,938 | $7,620 | $7,699 | $8,890 | $7,715 | $7,970 | $8,890 | $7,303 | $8,005 |	$7,449 | $12,666 | $12,954 | $12,008 | $9,843 | $9,573 |
-| **10kW Cabinet Install** ||||||||||||||||||
+| **10kW Cabinet Install** |||||||||||||||||
 | NRC | $22,225 | $15,875 | $22,225 | $19,114 | $22,225 | $6,350 | $6,350 | $22,225 | $8,225 | $8,939 | $12,129 | $15,240 | $34,435 | $22,225 | $22,225 | $7,339 |
 | **15kW Cabinet w/ PDU, Combo Lock** |||||||||||||||||
 | MRC | $11,430 | $11,906 | $11,430 | $11,430 | $13,335 | $11,255 | $11,954 | $13,335 | $10,240 | $11,515 | $10,849 | $19,141 | $19,431 | $17,431 | $14,383 | $14,359 |

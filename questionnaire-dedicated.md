@@ -30,7 +30,7 @@ subcollection: direct-link
 {: #ibm-cloud-direct-link-dedicated-questionnaire}
 
 Thank you for opening a request for IBM Cloud™ Direct Link Dedicated. To finalize your request, we’d like to gather some additional information from you. You can speak with an engineer at any time during the questionnaire process. After you've completed the questionnaire, it is reviewed by our Cloud Design Engineering team and escalated to Special Network Services for implementation.
-{:shortdesc}
+{: shortdesc}
 
 ## Do you acknowledge and agree to the following?
 {: #ibm-cloud-direct-link-dedicated-agreement}

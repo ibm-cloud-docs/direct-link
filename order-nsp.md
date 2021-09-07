@@ -34,7 +34,7 @@ subcollection: direct-link
 {: support}
 
 As you prepare to order Direct Link on Classic, review the general process that your organization follows for obtaining the Dedicated service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
-{:shortdesc}
+{: shortdesc}
 
 The colocation or Network Service Provider (NSP) does not need to be an IBM Cloud Direct Link Business Partner to connect you to a Direct Link Dedicated service.
 {: note}
@@ -51,7 +51,7 @@ You can choose from the following two options.
 2. Use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated on Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the Master Service Agreement.
 3. {{site.data.keyword.cloud_notm}} provides Letters of Authorization (LOA) for connections that use IBM Cloud. When you have the LOA, supply it to your colocation provider, then have them order a cross connect (and any required inter-campus connectivity) by using the {{site.data.keyword.cloud_notm}} CFA (Customer Facility Assignment) information in the LOA.
 
-  This process usually takes 2 - 10 business days to complete, depending on the facility vendor and the order priority you specify. It includes the setup of the patch for the {{site.data.keyword.cloud_notm}} termination port.
+   This process usually takes 2 - 10 business days to complete, depending on the facility vendor and the order priority you specify. It includes the setup of the patch for the {{site.data.keyword.cloud_notm}} termination port.
 
 4. Provide {{site.data.keyword.cloud_notm}} with the cross-connect completion notice from the facility provider in the IBM Support case.
 5. {{site.data.keyword.cloud_notm}} verifies the completion notice's efficacy and orders the patch to be made from the LOA/CFA to the cross-connect router (XCR) and other gear.
@@ -65,7 +65,7 @@ Your IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastruc
 2. Use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated on Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the Master Service Agreement.
 3. {{site.data.keyword.cloud_notm}} provides Letters of Authorization (LOA) for connections that use IBM Cloud. When you have the LOA, supply it to your network provider, and have them order a "third-party cross connect", as well as the circuit between your premises and the appropriate Meet Me Room by using the {{site.data.keyword.cloud_notm}} CFA (Customer Facility Assignment) information in the LOA.
 
-  This third-party, cross-connect process usually takes 2 - 10 extra business days to complete, depending on the facility vendor and the order priority you specify. It includes the setup of the patch to the {{site.data.keyword.cloud_notm}} termination port.
+   This third-party, cross-connect process usually takes 2 - 10 extra business days to complete, depending on the facility vendor and the order priority you specify. It includes the setup of the patch to the {{site.data.keyword.cloud_notm}} termination port.
 
 4. Provide {{site.data.keyword.cloud_notm}} with the cross-connect completion notice from the facility provider in the IBM Support case.
 5. {{site.data.keyword.cloud_notm}} verifies the completion notice's efficacy and orders the patch to be made from the LOA/CFA to the cross-connect router (XCR) and other gear.
@@ -145,7 +145,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Milan 1 |  DC | Data4 | | Via Monzoro 101-105, 20010 Cornaredo (MI) |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21|
 | Oslo 1 | DC | DigiPlex | DigiPlex - Fetsund | 9,, Heiaveien, 1900 Fetsund |
-| Oslo 2 | PoP | Verizon | Verizon Oslo | Hans Møller Gassmanssvei 9 |
+| Oslo 2 | POP | Verizon | Verizon Oslo | Hans Møller Gassmanssvei 9 |
 | Paris 1 | DC | Global Switch | PAR01 | Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit |
 | Paris 2 | PoP | Equinix | PA2 | 114 Rue Ambroise Croizat, St Denis |
 | Stockholm 1 | PoP | Digital Realty (fInterXion)  | STO01 | Esbogatan 11 |
@@ -186,4 +186,4 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 For more information, refer to the **Dedicated on Classic** tab in the [pricing table](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link).
 
 If you require the exact address for TOK01 or TOK02, contact your Direct Link offering management or sales team.
-{:note}
+{: note}

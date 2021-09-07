@@ -30,7 +30,7 @@ subcollection: direct-link
 {: #what-happens-during-the-account-conversion-process}
 
 Many {{site.data.keyword.cloud}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a customer VRF, most commonly with a new Direct Link on Classic subscription.
-{:shortdesc}
+{: shortdesc}
 
 A "customer VRF" refers to multiple isolation network connectivity. For more information, see [Virtual routing and forwarding on IBM Cloud](/docs/direct-link?topic=direct-link-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud).
 {:note]

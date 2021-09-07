@@ -34,7 +34,7 @@ subcollection: direct-link
 {: support}
 
 As you prepare to order Direct Link on Classic, review the general process that your organization follows for obtaining the Dedicated Hosting service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
-{:shortdesc}
+{: shortdesc}
 
 To determine which Direct Link solution is best for your networking environment, see
 [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order)
@@ -54,7 +54,7 @@ Here is the general process to order a Direct Link Dedicated Hosting service:
 3. When the build of your colocation cage is complete, use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated Hosting on Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the Master Service Agreement.
 4. {{site.data.keyword.cloud_notm}} provides Letters of Authorization (LOA) for connections that use IBM Cloud. When you have the LOA, supply it to your colocation provider, then have them order a cross connect (and any required inter-campus connectivity) by using the {{site.data.keyword.cloud_notm}} CFA (Customer Facility Assignment) information in the LOA.
 
-  This process usually takes 2 - 10 business days to complete, depending on the facility vendor and the order priority you specify. It includes the setup of the patch for the {{site.data.keyword.cloud_notm}} termination port.
+   This process usually takes 2 - 10 business days to complete, depending on the facility vendor and the order priority you specify. It includes the setup of the patch for the {{site.data.keyword.cloud_notm}} termination port.
 
 5. Provide {{site.data.keyword.cloud_notm}} with the cross-connect completion notice from the facility provider in the IBM Support case.
 6. {{site.data.keyword.cloud_notm}} verifies the completion notice's efficacy and orders the patch to be made from the LOA/CFA to the cross-connect router (XCR) and other gear.
@@ -93,7 +93,7 @@ To provision a Direct Link Dedicated Hosting order, complete the following steps
 
 This table shows which {{site.data.keyword.cloud_notm}} data centers are able to accept customers for Dedicated Hosting:
 
-| Region | Site<br />ID | City | Site<br />Type | Site<br />Partner | Site<br />Address |
+| Region | Site ID | City | Site Type | Site Partner | Site Address |
 |-------|-------|-------|-------|-------|-------|
 | Americas | DAL09 | Richardson | DC | Digital Realty  | 900 Quality Way |
 | Americas | DAL10 | Irving | DC (AZ1) | QTS | 6431 Longhorn Dr. |

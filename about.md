@@ -30,13 +30,13 @@ subcollection: direct-link
 {: #about-ibm-cloud-direct-link}
 
 {{site.data.keyword.cloud}} Direct Link on Classic offerings provide connectivity from an external source into a customer's {{site.data.keyword.cloud_notm}} private network. Direct Link on Classic can be viewed as an alternative to a traditional site-to-site VPN solution, which is designed for customers that need more consistent, higher-throughput connectivity between a remote network and their {{site.data.keyword.cloud_notm}} environments.
-{:shortdesc}
+{: shortdesc}
 
 ## Direct Link on Classic offerings
 {: #overview-of-direct-link-offerings}
 
 Four types of connections are available:
-{:shortdesc}
+{: shortdesc}
 
 * **Direct Link Connect on Classic** allows customers to use a connection through our Carrier partners who own and operate a facility-based network. A Connect provider is a network service provider (NSP) that is already connected to the {{site.data.keyword.cloud_notm}} network, by using multi-tenant, high capacity links (also known as a _network-to-network interface_, or NNI). Customers typically can purchase a virtual circuit at this provider, bringing connectivity at a reduced cost, because the physical connectivity from {{site.data.keyword.cloud_notm}} to the Connect provider is in place already, shared among other customers.
 
@@ -55,12 +55,12 @@ For increased flexibility in creating this Layer-3 connectivity, {{site.data.key
 ## Direct Link on Classic use cases
 
 See the following links for key features and benefits of each {{site.data.keyword.cloud}} Direct Link on Classic solution.
-{:shortdesc}
+{: shortdesc}
 
-  * [**Direct Link Connect on Classic**](#direct-link-connect-solution)
-  * [**Direct Link Dedicated on Classic**](#direct-link-dedicated-solution)
-  * [**Direct Link Dedicated Hosting on Classic**](#direct-link-dedicated-hosting-solution)  
-  * [**Direct Link Exchange on Classic**](#direct-link-exchange-solution)
+* [**Direct Link Connect on Classic**](#direct-link-connect-solution)
+* [**Direct Link Dedicated on Classic**](#direct-link-dedicated-solution)
+* [**Direct Link Dedicated Hosting on Classic**](#direct-link-dedicated-hosting-solution)  
+* [**Direct Link Exchange on Classic**](#direct-link-exchange-solution)
 
 ### The Direct Link Connect on Classic solution
 {: #direct-link-connect-solution}
@@ -149,9 +149,9 @@ The Direct Link Dedicated Hosting on Classic solution provides connectivity simi
 ![Cross-Connect Router (XCR)](images/dedicated_hosting.png)
 
 ***Use cases:***
-  * Additional cross connects are requested to the MMR to service ISP/Telco links, connect to other CSPs, or colocation tenants.
-  * DLDH customer procures services and LOA/CFA from third party.
-  * DLDH customer supplies third party LOA/CFA to colocation provider for cross-connect order.
+   * Additional cross connects are requested to the MMR to service ISP/Telco links, connect to other CSPs, or colocation tenants.
+   * DLDH customer procures services and LOA/CFA from third party.
+   * DLDH customer supplies third party LOA/CFA to colocation provider for cross-connect order.
 
 ### The Direct Link Exchange on Classic solution
 {: #direct-link-exchange-solution}
@@ -176,7 +176,4 @@ The Direct Link Exchange on Classic solution enables customers to use a Cloud Ex
 
 **Redundancy**: {{site.data.keyword.cloud_notm}} does not provide redundancy as part of the product. To establish redundant connectivity, customer must acquire two connections on diverse cross connect routers (XCRs) and configure BGP on each Direct Link on Classic connection as they prefer. Examples include options such as: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
-
 **Local and global routing options:** The default routing option is Local routing. It provides access to data centers within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It provides a way to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
-
--

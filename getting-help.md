@@ -32,7 +32,7 @@ subcollection: direct-link
 {: #getting-help-and-support}
 
 If you have problems or questions when you use {{site.data.keyword.cloud}} Direct Link, you can search for information or ask questions by using a forum. You can also open an IBM Support case in the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}.
-{:shortdesc}
+{: shortdesc}
 
 If you have technical questions about Direct Link, post your question on [Stack Overflow](https://stackoverflow.com/search?q=dl+ibm-cloud){: external} and tag your question with **direct-link** and **ibm-cloud**.
 

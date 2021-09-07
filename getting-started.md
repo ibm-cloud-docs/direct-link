@@ -30,7 +30,7 @@ subcollection: direct-link
 {: #get-started-with-ibm-cloud-direct-link}
 
 {{site.data.keyword.cloud}} Direct Link on Classic is a suite of solutions from the {{site.data.keyword.cloud_notm}} network, with availability in locations around the globe. Each one enables customers to create direct, private connections between their remote network environments and their {{site.data.keyword.cloud_notm}} deployments, without touching the public internet. Most commonly, these offerings are implemented to support private, hybrid, and cross-provider workloads, as well as large or frequent data transfers.
-{:shortdesc}
+{: shortdesc}
 
 ## How do I know which Direct Link solution to order?
 {: #get-started-solution-to-order}

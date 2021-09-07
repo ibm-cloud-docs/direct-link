@@ -29,7 +29,7 @@ subcollection: direct-link
 {: #what-s-new}
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
-{:shortdesc}
+{: shortdesc}
 
 ## December 2019
 {: #december-2019}

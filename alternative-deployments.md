@@ -30,7 +30,7 @@ subcollection: direct-link
 {: #alternatives-for-your-ibm-cloud-direct-link-deployment}
 
 Here are alternatives that customers sometimes choose as use cases for their Direct Link on Classic deployments.
-{:shortdesc}
+{: shortdesc}
 
 ## Diverse deployments for Connect and Exchange on Classic
 {: #diverse-deployments-for-exchange-and-connect}

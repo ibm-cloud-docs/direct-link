@@ -1,0 +1,85 @@
+#  Name your file `toc.yaml`
+#  Make sure you include all nav file coding requirements, as defined in https://test.cloud.ibm.com/docs/writing?topic=writing-code-nav
+#  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
+
+toc:
+  properties:
+    subcollection: direct-link
+    version: 2
+    category: network_interconnectivity
+    audience: service
+    href: /docs/direct-link
+    console-page: /interconnectivity
+    product-page: https://www.ibm.com/cloud/direct-link
+    path: direct-link
+    label: Direct Link on Classic (1.0)
+
+#  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
+  entries:
+    - navgroup:
+      id: learn
+      topics:
+      - getting-started.md
+      - about.md
+      - dl-july-policy-change.md
+      - pricing.md
+      - topicgroup:
+        label: Deployment considerations
+        topics:
+        - alternative-deployments.md
+        - diversity-models.md
+        - layer-2-layer-3.md
+        - connect-details.md
+      - topicgroup:
+        label: Related links
+        topics:
+        - /dl/dl-get-started-with-ibm-cloud-dl
+        - /vpc/vpc-getting-started
+        - topic: video-hybrid-cloud.md
+          navtitle: "Video: Direct Link for hybrid cloud"
+
+    - navgroup:
+      id: tutorial
+      topics:
+      - topicgroup:
+        label: Tutorials
+        topics:
+        - /solution-tutorials/solution-tutorials-byoip
+        - /solution-tutorials/solution-tutorials-secure-network-enclosure
+
+    - navgroup:
+      id: howto
+      topics:
+      - order-connect.md
+      - order-nsp.md
+      - order-colocation.md
+      - order-cloud-exchange.md
+      - subnet-configuration.md
+      - direct-link-to-cos.md
+
+#  Links to your REST API docs should be included in the Reference navigation group. For details on publishing API docs, see https://test.cloud.ibm.com/docs/api-docs.
+#  Links to your command line reference docs should be included in the Reference navigation group.
+    - navgroup:
+      id: reference
+      topics:
+      - responsibilities.md
+      - external-resources.md
+      - understanding-latency.md
+      - vrf-on-ibm-cloud.md
+      - vrf-conversion-dl.md
+
+      - topicgroup:
+        label: Questionnaires for ordering
+        topics:
+        - questionnaire-connect.md
+        - questionnaire-dedicated.md
+        - questionnaire-dedicated-hosting.md
+        - questionnaire-exchange.md
+
+    - navgroup:
+      id: help
+      topics:
+      - faqs.md
+      - known-limitations.md
+      - release_notes.md
+      - getting-help.md
