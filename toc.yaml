@@ -67,7 +67,6 @@ toc:
       - understanding-latency.md
       - vrf-on-ibm-cloud.md
       - vrf-conversion-dl.md
-
       - topicgroup:
         label: Questionnaires for ordering
         topics:
