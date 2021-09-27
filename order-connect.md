@@ -87,7 +87,7 @@ Our Direct Link Connect providers include these locations:
 |--------------|--------------|
 | AT&T NetBond for Cloud |  Americas: Dallas 3, San Jose 2 (no diversity: on same XCR)  \n EU: Frankfurt 1, London 1 |
 | Bell Canada | Americas: Montreal 2, Toronto 2 |
-| British Telecom |  Americas: Sao Paulo 2, Washington DC 2  \n EU: Frankfurt 1, London 1, London 3 |
+| British Telecom |  Americas: Washington DC 2  \n EU: Frankfurt 1, London 1, London 3 |
 | CenturyLink IP VPN | Americas: Dallas 3, Miami 1, Sao Paulo 2 |
 | CenturyLink Dynamic Connections |  Americas: San Jose 2, Toronto 2, Washington DC 2   \n EU: Frankfurt 1, London 3, Paris 2
 | Chief Telecomm | APAC: Hong Kong 1 |
