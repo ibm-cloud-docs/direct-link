@@ -38,9 +38,9 @@ Thank you for opening a request for IBM Cloud™ Direct Link on Classic. To fina
 1. Each Direct Link connection requires a unique order. If you require multiple connections, open separate Direct Link orders for each connection.
 2. The fees for your Direct Link Connect service cover the cost of service termination on the IBM Cloud infrastructure.
 
- * Infrastructure services are billed in advance and begin when your order is accepted. However, due to the nature of IBM Cloud Direct Link, the Direct Link service billing begins when a Border Gateway Protocol (BGP) session with IBM Cloud is initiated, or 30 days after the service key is provided to the client.
+   * Infrastructure services are billed in advance and begin when your order is accepted. However, due to the nature of IBM Cloud Direct Link, the Direct Link service billing begins when a Border Gateway Protocol (BGP) session with IBM Cloud is initiated, or 30 days after the service key is provided to the client.
 
- * Billing stops after:
+    * Billing stops after:
       * A customer requests a circuit to be deleted, **and**
       * the Connect Provider or Network Service Provider de-provisioned the circuit.
    For more information, select your location and go to **Section 5 - Charges** in the Cloud Services Agreement on the [IBM Customer Support website](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). For example, customers in the United States would view this [Cloud Services Agreement](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en).

@@ -47,9 +47,9 @@ The information that is stored within {{site.data.keyword.cloud_notm}} Object St
 
 IBM COS is available in three configurations:
 
- * **Cross Region** service provides higher durability and availability than using a single region, but at the cost of slightly higher latency. This service is available today in the US and the EU. By using a Virtual Router Appliance (VRA), you also might use Direct Link to connect to COS in the Asia Pacific region.
- * **Regional** service provides the reverse. It distributes objects across many availability zones within a single region. If a region or availability zone is inaccessible, the object store continues to function smoothly. Any missed changes are applied when the inaccessible data center comes back online.
- * **Single Site** service offers affordable access to COS in a selected data center.
+* **Cross Region** service provides higher durability and availability than using a single region, but at the cost of slightly higher latency. This service is available today in the US and the EU. By using a Virtual Router Appliance (VRA), you also might use Direct Link to connect to COS in the Asia Pacific region.
+* **Regional** service provides the reverse. It distributes objects across many availability zones within a single region. If a region or availability zone is inaccessible, the object store continues to function smoothly. Any missed changes are applied when the inaccessible data center comes back online.
+* **Single Site** service offers affordable access to COS in a selected data center.
 
 ### COS private and public endpoints
 {: #cos-private-and-public-endpoints}
@@ -61,8 +61,9 @@ Servers that are provisioned within {{site.data.keyword.cloud_notm}} use private
 COS public endpoints provide {{site.data.keyword.cloud_notm}} customers with access to the same COS data that is accessible from within {{site.data.keyword.cloud_notm}}, but public endpoints permit access from any internet-equipped location.
 
 Two caveats apply to COS public endpoints:
- * Use of public endpoints can incur metered costs for bandwidth beyond the usage charges imposed by the COS service.
- * Even though all data is encrypted in transit, customers can have privacy concerns or regulatory restrictions that are related to data transmitted through the internet.
+
+* Use of public endpoints can incur metered costs for bandwidth beyond the usage charges imposed by the COS service.
+* Even though all data is encrypted in transit, customers can have privacy concerns or regulatory restrictions that are related to data transmitted through the internet.
 
 ## What is IBM Cloud Direct Link?
 {: #what-is-ibm-cloud-direct-link}
@@ -185,9 +186,9 @@ See [Endpoints and storage locations]](/docs/cloud-object-storage-infrastructure
 
 **Tips:**
 
- * To boost scale and resiliency, deploy multiple proxy servers that are associated with different endpoints.
- * Use round-robin DNS on the client side for rudimentary failover and load-balancing capabilities.
- * Proxy servers can be placed behind a Virtual Router Appliance (VRA) for protection and centralized logging.
+* To boost scale and resiliency, deploy multiple proxy servers that are associated with different endpoints.
+* Use round-robin DNS on the client side for rudimentary failover and load-balancing capabilities.
+* Proxy servers can be placed behind a Virtual Router Appliance (VRA) for protection and centralized logging.
 
 ## Managing and provisioning {{site.data.keyword.cloud_notm}} capabilities
 {: #direct-link-managing-and-provisioning-ibm-cloud-capabilities}
@@ -208,6 +209,5 @@ For detailed instructions on how to provision a VRA, see the
 ### Provisioning IBM Cloud Object Storage (COS)
 {: #direct-link-how-to-provision-ibm-cloud-object-storage}
 
- * For detailed instructions on how to provision COS, refer to the [Cloud Object Storage Guide](https://{DomainName}/catalog/services/cloud-object-storage){: external}.
-
- * Use one of the private endpoints (listed previously) to create an interface with your bucket or any object in your provisioned COS account.
+* For detailed instructions on how to provision COS, refer to the [Cloud Object Storage Guide](https://{DomainName}/catalog/services/cloud-object-storage){: external}.
+* Use one of the private endpoints (listed previously) to create an interface with your bucket or any object in your provisioned COS account.

@@ -52,11 +52,9 @@ We express network latency in milliseconds (that’s 1,000 milliseconds per seco
 
 Given that our shared goal is to minimize latency, it makes sense to limit the number of potential variables that can affect the speed of the data’s movement. No provider can achieve complete control over how data travels across the internet, but here are some best practices to minimize network latency:
 
- * Distribute data around the world: Customers in different locations can pull data from a location that’s geographically close to them. Because the data is closer to the customers, it is handed off fewer times. When data has a shorter distance to travel, routing is less likely to cause a significant performance impact.
-
- * Provision servers with high-capacity network ports: Huge volumes of data can travel across a server every second. If packets are delayed due to fully saturated ports, milliseconds of time pass, pages load more slowly, download speeds drop, and users become unhappy.
-
- * Understand how your providers route traffic: When you know more details about how your data is transferred to customers around the world, you can make better decisions about where you host your data.
+* Distribute data around the world: Customers in different locations can pull data from a location that’s geographically close to them. Because the data is closer to the customers, it is handed off fewer times. When data has a shorter distance to travel, routing is less likely to cause a significant performance impact.
+* Provision servers with high-capacity network ports: Huge volumes of data can travel across a server every second. If packets are delayed due to fully saturated ports, milliseconds of time pass, pages load more slowly, download speeds drop, and users become unhappy.
+* Understand how your providers route traffic: When you know more details about how your data is transferred to customers around the world, you can make better decisions about where you host your data.
 
 ## How IBM Cloud minimizes network latency
 {: #how-ibm-cloud-minimizes-network-latency}
@@ -75,7 +73,5 @@ Along with using our own global backbone network, {{site.data.keyword.cloud_notm
 Your customers want your data as quickly as you can get it to them. The time that it takes for your data to get to them across the internet is called network latency. The more control that you have over your data’s network path, the more consistent (and lower) your network latency can be.
 
 * With Direct Link, we give you control over the path your data travels, so your data’s travel is not interrupted or blocked by other traffic.
-
 * {{site.data.keyword.cloud_notm}} offers industry-leading Service Providers-- providing high performance, security, and resiliency.
-
 * At {{site.data.keyword.cloud_notm}}, we continue to add network Points of Presence (PoPs) across the globe to bring your customers’ data closer to your customers; thereby, improving latency and overall performance to meet the needs of your hybrid cloud workloads.

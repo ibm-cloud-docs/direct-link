@@ -48,8 +48,8 @@ Thank you for opening a request for IBM Cloud™ Direct Link Dedicated Hosting. 
 11. If you are not purchasing colocation services through IBM Cloud, you are responsible for ordering and paying for cross-connects between your environment and IBM Cloud. Once connected, a Letter of Authorization (LOA) is provided detailing our approval of your connection and location to be connected to.
 12.  Confirm that you agree to the following pricing for Direct Link:
 
- * 1 Gbps: _location-based pricing_
- * 2 Gbps: _location-based pricing_
- * 5 Gbps: _location-based pricing_
- * 10 Gbps: _location-based pricing_
- * Optional global routing
+   * 1 Gbps: _location-based pricing_
+   * 2 Gbps: _location-based pricing_
+   * 5 Gbps: _location-based pricing_
+   * 10 Gbps: _location-based pricing_
+   * Optional global routing

@@ -50,14 +50,15 @@ Before ordering Dedicated Hosting on Classic, review and ensure that you have me
 Here is the general process to order a Direct Link Dedicated Hosting service:
 
 1. Identify your colocation and connectivity requirements, and work with the {{site.data.keyword.cloud}} sales team to finalize and execute a contract and technical addendum.
-2. {{site.data.keyword.cloud_notm}} runs a build order with the colocation provider for the requested environment and services. Deployment typically is completed within 30 days from when the build order is placed.
-3. When the build of your colocation cage is complete, use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated Hosting on Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the Master Service Agreement.
-4. {{site.data.keyword.cloud_notm}} provides Letters of Authorization (LOA) for connections that use IBM Cloud. When you have the LOA, supply it to your colocation provider, then have them order a cross connect (and any required inter-campus connectivity) by using the {{site.data.keyword.cloud_notm}} CFA (Customer Facility Assignment) information in the LOA.
+1. {{site.data.keyword.cloud_notm}} runs a build order with the colocation provider for the requested environment and services. Deployment typically is completed within 30 days from when the build order is placed.
+1. When the build of your colocation cage is complete, use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated Hosting on Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the Master Service Agreement.
+1. {{site.data.keyword.cloud_notm}} provides Letters of Authorization (LOA) for connections that use IBM Cloud. When you have the LOA, supply it to your colocation provider, then have them order a cross connect (and any required inter-campus connectivity) by using the {{site.data.keyword.cloud_notm}} CFA (Customer Facility Assignment) information in the LOA.
 
    This process usually takes 2 - 10 business days to complete, depending on the facility vendor and the order priority you specify. It includes the setup of the patch for the {{site.data.keyword.cloud_notm}} termination port.
+   {: note}
 
-5. Provide {{site.data.keyword.cloud_notm}} with the cross-connect completion notice from the facility provider in the IBM Support case.
-6. {{site.data.keyword.cloud_notm}} verifies the completion notice's efficacy and orders the patch to be made from the LOA/CFA to the cross-connect router (XCR) and other gear.
+1. Provide {{site.data.keyword.cloud_notm}} with the cross-connect completion notice from the facility provider in the IBM Support case.
+1. {{site.data.keyword.cloud_notm}} verifies the completion notice's efficacy and orders the patch to be made from the LOA/CFA to the cross-connect router (XCR) and other gear.
 
 Your IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastructure is completed within three business days after the cross-connect is complete.
 
@@ -67,10 +68,11 @@ Your IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastruc
 To provision a Direct Link Dedicated Hosting order, complete the following steps:
 
 1. Log in to your [IBM Cloud](https://cloud.ibm.com/){: external} account and open the **Catalog**.
-2. Select the **Menu** icon ![Menu icon](images/menu_icon.png) on the upper left, then click **Classic Infrastructure**.
-2. Select **Network > Direct Link > Dedicated Hosting** to open a page that shows the existing Direct Link connections, if any.
-3. Click **Order Direct Link Dedicated Hosting +** in the upper right of the page. The "Create an IBM Cloud Direct Link Dedicated Hosting Connection" page is displayed.
-4. In the order form, complete the following information to configure Direct Link Dedicated Hosting on Classic:
+1. Select the **Menu** icon ![Menu icon](images/menu_icon.png) on the upper left, then click **Classic Infrastructure**.
+1. Select **Network > Direct Link > Dedicated Hosting** to open a page that shows the existing Direct Link connections, if any.
+1. Click **Order Direct Link Dedicated Hosting +** in the upper right of the page. The "Create an IBM Cloud Direct Link Dedicated Hosting Connection" page is displayed.
+1. In the order form, complete the following information to configure Direct Link Dedicated Hosting on Classic:
+
    - Enter the Direct Link instance name.
    - From the list, select the location in which you want to establish the {{site.data.keyword.cloud_notm}} Direct Link connection.
    - From the list, select the name of the network provider that you prefer.
@@ -79,14 +81,14 @@ To provision a Direct Link Dedicated Hosting order, complete the following steps
    - Enter a valid ASN number from the range given in the information box for the BGP exchanges.
 
    As you select or enter these values, you can see an approximate monthly charge in the right pane.
-6. You must agree to the [Master Service Agreement](https://cloud.ibm.com/classic/account/masterserviceagreement/getagreement){: external} before you can place the IBM Cloud Direct Link order.  
+
+1. You must agree to the [Master Service Agreement](https://cloud.ibm.com/classic/account/masterserviceagreement/getagreement){: external} before you can place the IBM Cloud Direct Link order.  
 
       After you place your order, an IBM Support case number is generated. You can click the case number to view case details
 
-7. You’ll be asked to complete a customer questionnaire, which you can review at [Direct Link Dedicated Hosting questionnaire](/docs/direct-link?topic=direct-link-ibm-cloud-direct-link-dedicated-hosting-questionnaire).
+1. You’ll be asked to complete a customer questionnaire, which you can review at [Direct Link Dedicated Hosting questionnaire](/docs/direct-link?topic=direct-link-ibm-cloud-direct-link-dedicated-hosting-questionnaire).
 
-8. After you provision the direct link and complete the questionnaire, see [Configuring Direct Link on Classic](/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link) to configure your subnet to interact with IBM Cloud.
-
+1. After you provision the direct link and complete the questionnaire, see [Configuring Direct Link on Classic](/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link) to configure your subnet to interact with IBM Cloud.
 
 ## Locations
 {: #dedicated-hosting-locations}

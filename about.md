@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2018, 2019
+  years: 2017, 2019
 lastupdated: "2019-11-25"
 
 keywords: hybrid, solutions, features, benefits, port speed, cross-connect, use cases, latency, routing, options, colocation
@@ -48,11 +48,13 @@ Four types of connections are available:
 
 The {{site.data.keyword.cloud_notm}} Direct Link service is a routed, OSI Layer-3 service. It offers a direct connection to the {{site.data.keyword.cloud_notm}} private network backbone, with low latency and speeds up to 10 Gbps.
 For increased flexibility in creating this Layer-3 connectivity, {{site.data.keyword.cloud_notm}} Direct Link enables customers to use:
- * Dual IP for remote hosts
- * NAT
- * Tunneling for BYOIP
+
+* Dual IP for remote hosts
+* NAT
+* Tunneling for BYOIP
 
 ## Direct Link on Classic use cases
+{: #dl-classic-use-cases}
 
 See the following links for key features and benefits of each {{site.data.keyword.cloud}} Direct Link on Classic solution.
 {: shortdesc}
@@ -92,11 +94,13 @@ The Direct Link Dedicated on Classic solution lets customers terminate a single-
 
  **Common use cases:** Best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. This option is usually selected: (1) when the wanted PoP does not have the wanted carrier or network service provider, (2) for high-performance workloads requiring high throughput, or (3) for compliance requirements that cannot be satisfied by either the Exchange on Classic or Connect on Classic implementation model.
 
- **Use Case 1: Customer facility to IBM Cloud**
+ #### Use Case 1: Customer facility to IBM Cloud
+ {: #dl-use-case-1}
 
 ![Figure 3](/images/Direct-link-Dedicated.png)
 
-**Use Case 2: Customer colocation to IBM Cloud**
+#### Use Case 2: Customer colocation to IBM Cloud
+{: #dl-use-case-2}
 
 ![Figure 3B](/images/dedicated-model-colo.png)
 
@@ -149,9 +153,10 @@ The Direct Link Dedicated Hosting on Classic solution provides connectivity simi
 ![Cross-Connect Router (XCR)](images/dedicated_hosting.png)
 
 ***Use cases:***
-   * Additional cross connects are requested to the MMR to service ISP/Telco links, connect to other CSPs, or colocation tenants.
-   * DLDH customer procures services and LOA/CFA from third party.
-   * DLDH customer supplies third party LOA/CFA to colocation provider for cross-connect order.
+
+* Additional cross connects are requested to the MMR to service ISP/Telco links, connect to other CSPs, or colocation tenants.
+* DLDH customer procures services and LOA/CFA from third party.
+* DLDH customer supplies third party LOA/CFA to colocation provider for cross-connect order.
 
 ### The Direct Link Exchange on Classic solution
 {: #direct-link-exchange-solution}

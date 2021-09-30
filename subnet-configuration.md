@@ -30,7 +30,7 @@ subcollection: direct-link
 
 # Configuring Direct Link on Classic
 {: #configure-ibm-cloud-direct-link}
-{: help} 
+{: help}
 {: support}
 
 After your {{site.data.keyword.cloud}} Direct Link on Classic connectivity is established, you can follow the steps that are given in this document to configure your subnet to interact with {{site.data.keyword.cloud_notm}}.
@@ -42,8 +42,8 @@ In general, to get your Direct Link on Classic connection working, you must do s
 {: #basic-network-configuration}
 
 1. Define your remote network that uses the standard RFC1918 private address space.
- * For new environments, the `10.0.0.0/8` space.
- * For existing environments that use `10.0.0.0/8`, we recommend that you obtain a more detailed assessment to ensure that there is not a conflict with the {{site.data.keyword.cloud_notm}} services network, or with the networks that are already assigned to your account.
+   * For new environments, the `10.0.0.0/8` space.
+   * For existing environments that use `10.0.0.0/8`, we recommend that you obtain a more detailed assessment to ensure that there is not a conflict with the {{site.data.keyword.cloud_notm}} services network, or with the networks that are already assigned to your account.
 
 2. Our staff at {{site.data.keyword.cloud_notm}} assigns a `/31` or `/30` for each connection and configures an interface IP address on the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) infrastructure.  
 
@@ -73,31 +73,31 @@ The BGP specifications are as follows:
 As stated in the preceding section, BGP is mandatory for managing your routing through Direct Link. An account that orders Direct Link is migrated to a VRF environment.
 
 **Caveats for VLANS and VRF:**
- * Inter-account VLAN spanning isn't allowed in the VRF environment.
- * IPsec VPN service is limited.
+* Inter-account VLAN spanning isn't allowed in the VRF environment.
+* IPsec VPN service is limited.
 
 VRF doesn't prevent SSL VPN access, but the behavior changes. Without VRF, one VPN connection is enough to see all servers on your account. With VRF, you can access resources only in the market that is associated with your VPN. So if you connect to the DAL VPN, you can connect to DAL servers only.
 {: note}
 
 IBM Cloud ASN is **13884**, for public and private services.
- * The default ASN for a customer when ordering is **64999**, but the default can be changed by customer request.
- * Optionally, a 4-byte private ASN 4201000000 - 4201064511 can be supported.
- * If you're using Direct Link Connect with a layer-3 service, such as IP VPN, IBM Cloud establishes BGP with the Direct Link Connect provider's ASN.
+* The default ASN for a customer when ordering is **64999**, but the default can be changed by customer request.
+* Optionally, a 4-byte private ASN 4201000000 - 4201064511 can be supported.
+* If you're using Direct Link Connect with a layer-3 service, such as IP VPN, IBM Cloud establishes BGP with the Direct Link Connect provider's ASN.
 
 **Recommendations, Defaults, and Limits:**
 
- * Tunneling (that is, GRE) is supported and recommended if IP overlap becomes an issue.
- * BGP timer defaults are `Keepalive:30`, `Holdtime:90`.
- * Authentication is not enabled by default.
- * BGP BFD is not enabled by default.
- * Maximum received (from customer or provider) prefix limit is 200 per VRF.
+* Tunneling (that is, GRE) is supported and recommended if IP overlap becomes an issue.
+* BGP timer defaults are `Keepalive:30`, `Holdtime:90`.
+* Authentication is not enabled by default.
+* BGP BFD is not enabled by default.
+* Maximum received (from customer or provider) prefix limit is 200 per VRF.
 
 ## Strict limitations on IP assignments
 {: #strict-limitations-on-ip-assignments}
 
- * If you use the 10.x.x.x network, you still cannot create overlap with your hosts within IBM Cloud nor with the IBM Cloud services network, which occupies `10.0.0.0/14`, `10.198.0.0/15`, and `10.200.0.0/14`.  
+* If you use the 10.x.x.x network, you still cannot create overlap with your hosts within IBM Cloud nor with the IBM Cloud services network, which occupies `10.0.0.0/14`, `10.198.0.0/15`, and `10.200.0.0/14`.  
 
- * The following ranges are not allowed in the Federal system and they are rejected by IBM servers: `169.254.0.0/16`, `224.0.0.0/4`.
+* The following ranges are not allowed in the Federal system and they are rejected by IBM servers: `169.254.0.0/16`, `224.0.0.0/4`.
 
 ## Redundancy and diversity
 {: #redundancy-and-diversity}

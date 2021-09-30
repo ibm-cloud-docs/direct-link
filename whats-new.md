@@ -125,7 +125,7 @@ Network transit limits and overage charges for customers with the Global routing
 {: #october-2018}
 
 * 16 October: Kinx is now active as an Exchange provider in Seoul02, with diversity.
-*  2 October: Megaport is now available in Hong Kong for Connect, non-diverse for now.
+* 2 October: Megaport is now available in Hong Kong for Connect, non-diverse for now.
 
 ### New Connectivity Options for Direct Link
 {: #new-connectivity-options-for-direct-link}
@@ -135,7 +135,6 @@ Network transit limits and overage charges for customers with the Global routing
 * [InterCloud offers dedicated connectivity to IBM Cloud](https://digitalisationworld.com/news/55529/intercloud-offers-dedicated-connectivity-to-ibm-cloud){: external}
 * [SES Networks enables direct connectivity to IBM Cloud via global satellite network](https://www.ses.com/press-release/ses-networks-enables-direct-connectivity-ibm-cloud-global-satellite-network){: external}
 * [CenturyLink expands cloud offerings in Latin America](http://news.centurylink.com/2018-10-04-CenturyLink-expands-cloud-offerings-in-Latin-America){: external}
-
 
 ## September 2018
 {: #september-2018}
@@ -205,16 +204,16 @@ We're pleased to announce our new {{site.data.keyword.cloud_notm}} Direct Link S
 ## May 2018
 {: #may-2018}
 
- * 7 May: Megaport is now active on a single Router in WDC02 for Connect. Diversity follows in a few weeks.
- * 2 May: Equinix in NY02 and NY03 were delivered for Exchange, and are now live in the portal (with Diversity).
+* 7 May: Megaport is now active on a single Router in WDC02 for Connect. Diversity follows in a few weeks.
+* 2 May: Equinix in NY02 and NY03 were delivered for Exchange, and are now live in the portal (with Diversity).
 
 ## April 2018
 {: #april-2018}
 
- * 27 April: Telia is now turned up for Connect in Stockholm.
- * 25 April: LONDON 03 is now online with Equinix via Exchange. Diversity is in place, and confirmed in Portal.
- * 25 April: Primary / Secondary NNIs @ AMS02 is now installed and tested for Colt.
- * 25 April: Colt is now tested with Diversity in Frankfurt 1 PoP for Connect. Verified in Portal.
+* 27 April: Telia is now turned up for Connect in Stockholm.
+* 25 April: LONDON 03 is now online with Equinix via Exchange. Diversity is in place, and confirmed in Portal.
+* 25 April: Primary / Secondary NNIs @ AMS02 is now installed and tested for Colt.
+* 25 April: Colt is now tested with Diversity in Frankfurt 1 PoP for Connect. Verified in Portal.
 
 ## March 2018
 {: #march-2018}
@@ -238,4 +237,4 @@ PacketFabric customers have access to {{site.data.keyword.cloud_notm}} services 
 ## February 2018
 {: #february-2018}
 
- * {{site.data.keyword.cloud_notm}} Direct Link Connect is available.
+* {{site.data.keyword.cloud_notm}} Direct Link Connect is available.
