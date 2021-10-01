@@ -92,10 +92,10 @@ See the following links for key features and benefits of each {{site.data.keywor
 
 The Direct Link Dedicated on Classic solution lets customers terminate a single-tenant, fiber-based cross-connect into their own {{site.data.keyword.cloud_notm}} private network connection. This offering can be used by customers with colocation facilities that are next to IBM Cloud PoPs and data centers. It can also be used by network service providers that deliver circuits to customer premises or to other data centers.
 
- **Common use cases:** Best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. This option is usually selected: (1) when the wanted PoP does not have the wanted carrier or network service provider, (2) for high-performance workloads requiring high throughput, or (3) for compliance requirements that cannot be satisfied by either the Exchange on Classic or Connect on Classic implementation model.
+**Common use cases:** Best for working with hybrid workloads, cross-provider workloads, large or frequent data transfers, private workloads, and environment administration. This option is usually selected: (1) when the wanted PoP does not have the wanted carrier or network service provider, (2) for high-performance workloads requiring high throughput, or (3) for compliance requirements that cannot be satisfied by either the Exchange on Classic or Connect on Classic implementation model.
 
- #### Use Case 1: Customer facility to IBM Cloud
- {: #dl-use-case-1}
+#### Use Case 1: Customer facility to IBM Cloud
+{: #dl-use-case-1}
 
 ![Figure 3](/images/Direct-link-Dedicated.png)
 
@@ -171,7 +171,7 @@ The Direct Link Exchange on Classic solution enables customers to use a Cloud Ex
 
 **Typical deployment time:** For Equinix providers, typical deployment time is in hours. For other providers, 5 - 10 days after circuit reaches the exchange. Deployment time can possibly be 30 - 60 days overall, depending on your location and requirements when you order a circuit from a network service provider (NSP) or carrier.
 
- **Cross-connect details:** Physical cross-connects for the secure Cloud Exchange Interconnect are maintained between {{site.data.keyword.cloud_notm}} and the Cloud Exchange provider. Customers request a "Virtual Circuit" from the Cloud Exchange Provider, which establishes logical connectivity to {{site.data.keyword.cloud_notm}}, after the customer is interconnected to the Cloud Exchange Provider.
+**Cross-connect details:** Physical cross-connects for the secure Cloud Exchange Interconnect are maintained between {{site.data.keyword.cloud_notm}} and the Cloud Exchange provider. Customers request a "Virtual Circuit" from the Cloud Exchange Provider, which establishes logical connectivity to {{site.data.keyword.cloud_notm}}, after the customer is interconnected to the Cloud Exchange Provider.
 
 **Port speed options:** Select 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, or 5 Gbps.
 

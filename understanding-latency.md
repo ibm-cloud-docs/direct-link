@@ -37,7 +37,6 @@ Whether you have an online store, run big data solutions, or have your employees
 
 Globally, the internet’s overall latency can vary significantly—depending on how far the data must travel physically, how many times the data must hop between service providers, how much bandwidth is available along the way, what other data is traveling across the same path, in addition to other variables. {{site.data.keyword.cloud_notm}} Direct Link offers deterministic latency with greater security, relative to the internet for predictable performance.
 
-
 ## Understanding network latency
 {: #understanding-network-latency}
 

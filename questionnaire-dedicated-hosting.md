@@ -46,7 +46,7 @@ Thank you for opening a request for IBM Cloud™ Direct Link Dedicated Hosting. 
 9. IBM Cloud offers Direct Link with local or global routing. Confirm which routing package you require and that you agree to the bandwidth plans associated with those packages that are listed at the following link: ibm.biz/DirectLink-Docs.
 10. Specify how much traffic you plan to push across your Direct Link, and to which IBM Cloud data centers you plan to push this traffic to.
 11. If you are not purchasing colocation services through IBM Cloud, you are responsible for ordering and paying for cross-connects between your environment and IBM Cloud. Once connected, a Letter of Authorization (LOA) is provided detailing our approval of your connection and location to be connected to.
-12.  Confirm that you agree to the following pricing for Direct Link:
+12. Confirm that you agree to the following pricing for Direct Link:
 
    * 1 Gbps: _location-based pricing_
    * 2 Gbps: _location-based pricing_

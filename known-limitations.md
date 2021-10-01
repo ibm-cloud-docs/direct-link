@@ -46,9 +46,9 @@ First, this section covers limitations that apply to all {{site.data.keyword.clo
 ## Direct Link Connect on Classic limitations
 {: #ibm-cloud-direct-link-connect-limitations}
 
- * Customers are responsible for any fees that are associated with reaching the PoP from a remote network and any fees that are incurred with the Cloud Connect provider.
- * {{site.data.keyword.cloud_notm}} does not colocate any customer equipment in our network PoPs. Customers must work with their provider to determine whether they need to colocate any equipment in the facility where the {{site.data.keyword.cloud_notm}} network PoP exists.
- * Direct Link Connect availability varies between locations. Customers can contact their IBM Cloud account manager to confirm current or future availability.
+* Customers are responsible for any fees that are associated with reaching the PoP from a remote network and any fees that are incurred with the Cloud Connect provider.
+* {{site.data.keyword.cloud_notm}} does not colocate any customer equipment in our network PoPs. Customers must work with their provider to determine whether they need to colocate any equipment in the facility where the {{site.data.keyword.cloud_notm}} network PoP exists.
+* Direct Link Connect availability varies between locations. Customers can contact their IBM Cloud account manager to confirm current or future availability.
 
 ## Direct Link Dedicated on Classic limitations
 {: #ibm-cloud-direct-link-dedicated-limitations}

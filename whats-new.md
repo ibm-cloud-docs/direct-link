@@ -223,7 +223,7 @@ We're pleased to announce our new {{site.data.keyword.cloud_notm}} Direct Link S
 
 Interxion, a leading provider of carrier and cloud-neutral colocation data center services in Europe, announced that direct access to {{site.data.keyword.cloud_notm}} services is now available across its European footprint through Cloud Connect, Interxion’s cloud interconnection platform.
 
-**Learn More**
+Learn More
 
 * Blog: [Interxion Optimizing Enterprise Multicloud Strategy with IBM Cloud Services](https://www.interxion.com/blogs/2018/03/interxion-optimising-enterprise-multicloud-strategy-with-ibm-cloud-services/){: external}
 * Press Release: [Direct Access to IBM Cloud Services Now Available at Interxion Data Centers Across Europe via Cloud Connect](https://www.interxion.com/news/2018/03/direct-access-to-ibm-cloud-services/){: external}
