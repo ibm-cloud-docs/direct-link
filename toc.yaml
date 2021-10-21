@@ -31,12 +31,16 @@ toc:
           - layer-2-layer-3.md
           - connect-details.md
        - topicgroup:
-          label: Related links
-          topics:
-          - /dl/dl-get-started-with-ibm-cloud-dl
-          - /vpc/vpc-getting-started
-          - topic: video-hybrid-cloud.md
-            navtitle: "Video: Direct Link for hybrid cloud"
+           label: Related links
+           topics:
+            - link:
+                label: Getting started with IBM Cloud Direct Link (2.0)
+                href: /dl/dl-get-started-with-ibm-cloud-dl
+            - link:
+                label: Getting started with Virtual Private Cloud (VPC)
+                href: /vpc/vpc-getting-started
+            - topic: video-hybrid-cloud.md
+              navtitle: "Video: Direct Link for hybrid cloud"
 
     - navgroup:
        id: tutorial
