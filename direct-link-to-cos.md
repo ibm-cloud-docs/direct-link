@@ -80,7 +80,7 @@ This solution is diagrammed and described in the sections that follow.
 ### Reverse proxy
 {: #direct-link-reverse-proxy}
 
-**Basic premise: Remote clients pass requests, including secure credentials, through a private server to COS**
+Basic premise: Remote clients pass requests, including secure credentials, through a private server to COS
 
 ![reverse=proxy](images/reverse-proxy.png)
 
@@ -122,7 +122,7 @@ The instructions and configuration information that follows (for setting up an N
 
 The sample configuration file is shown in the following section. You can copy and paste it.
 
-```
+```sh
 user nginx;
 worker_processes auto;
 error_log /var/log/nginx/error.log;
