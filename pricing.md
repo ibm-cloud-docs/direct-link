@@ -52,7 +52,7 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 | Japan / Singapore / Hong Kong | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 |
 | Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
 {: class="simple-tab-table"}
-{: caption="Table 1. Direct Link Connect on Classic" caption-side="left"}
+{: caption="Table 1. Direct Link Connect on Classic" caption-side="bottom"}
 {: #simpletabtable1}
 {: tab-title="Connect on Classic"}
 {: tab-group="IAM-simple"}
@@ -65,7 +65,7 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 | Paris / Frankfurt / Milan / Korea | $1,319 | $2,199 | $4,125 | $5,499 |
 | Japan / Singapore / Hong Kong | $1,355 | $2,259 | $4,238 | $5,649 |
 | Australia / Brazil / India | $1,439 | $2,399 | $4,500| $5,999 |
-{: caption="Table 2. Direct Link Dedicated on Classic" caption-side="left"}
+{: caption="Table 2. Direct Link Dedicated on Classic" caption-side="bottom"}
 {: #simpletabtable2}
 {: tab-title="Dedicated on Classic"}
 {: tab-group="IAM-simple"}
@@ -89,7 +89,7 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 | MRC | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 |
 | **Additional Cross Connect Install** |||||||||||||||||
 | NRC | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 |
-{: caption="Table 3. Direct Link Dedicated Hosting on Classic" caption-side="left"}
+{: caption="Table 3. Direct Link Dedicated Hosting on Classic" caption-side="bottom"}
 {: #simpletabtable3}
 {: tab-title="Dedicated Hosting on Classic"}
 {: tab-group="IAM-simple"}
@@ -103,7 +103,7 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 | Paris / Frankfurt / Milan / Korea | $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 |
 | Japan / Singapore / Hong Kong | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 |
 | Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
-{: caption="Table 4. Direct Link Exchange on Classic" caption-side="left"}
+{: caption="Table 4. Direct Link Exchange on Classic" caption-side="bottom"}
 {: #simpletabtable4}
 {: tab-title="Exchange on Classic"}
 {: tab-group="IAM-simple"}
