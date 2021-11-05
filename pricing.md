@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2021
 lastupdated: "2021-06-28"
 
-keywords: pricing, Exchange, Connect, Dedicated, regions, bandwidth, Hosting, local, routing, Global, overage, fees, market, tiers, customization, price, ingress, egress
+keywords:
 
 subcollection: direct-link
 
@@ -52,7 +52,7 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 | Japan / Singapore / Hong Kong | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 |
 | Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
 {: class="simple-tab-table"}
-{: caption="Table 1. Direct Link Connect on Classic" caption-side="bottom"}
+{: caption="Table 1. Direct Link Connect on Classic"}{: caption="Direct Link Connect on Classic" caption-side="bottom"}  
 {: #simpletabtable1}
 {: tab-title="Connect on Classic"}
 {: tab-group="IAM-simple"}
@@ -65,7 +65,7 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 | Paris / Frankfurt / Milan / Korea | $1,319 | $2,199 | $4,125 | $5,499 |
 | Japan / Singapore / Hong Kong | $1,355 | $2,259 | $4,238 | $5,649 |
 | Australia / Brazil / India | $1,439 | $2,399 | $4,500| $5,999 |
-{: caption="Table 2. Direct Link Dedicated on Classic" caption-side="bottom"}
+{: caption="Table 2. Direct Link Dedicated on Classic"}{: caption="Direct Link Dedicated on Classic" caption-side="bottom"}  
 {: #simpletabtable2}
 {: tab-title="Dedicated on Classic"}
 {: tab-group="IAM-simple"}
@@ -89,7 +89,7 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 | MRC | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 |
 | **Additional Cross Connect Install** |||||||||||||||||
 | NRC | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 |
-{: caption="Table 3. Direct Link Dedicated Hosting on Classic" caption-side="bottom"}
+{: caption="Table 3. Direct Link Dedicated Hosting on Classic"}{: caption="Direct Link Dedicated Hosting on Classic" caption-side="bottom"}  
 {: #simpletabtable3}
 {: tab-title="Dedicated Hosting on Classic"}
 {: tab-group="IAM-simple"}
@@ -103,7 +103,7 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 | Paris / Frankfurt / Milan / Korea | $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 |
 | Japan / Singapore / Hong Kong | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 |
 | Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
-{: caption="Table 4. Direct Link Exchange on Classic" caption-side="bottom"}
+{: caption="Table 4. Direct Link Exchange on Classic"}{: caption="Direct Link Exchange on Classic" caption-side="bottom"}  
 {: #simpletabtable4}
 {: tab-title="Exchange on Classic"}
 {: tab-group="IAM-simple"}
@@ -143,6 +143,7 @@ Review the following planning considerations when ordering Dedicated Hosting on 
 | 15 to 20 days | 4. IBM signature of contracts / IBM signature of colocation vendor work order |
 |  5 to 7 days | 5. Colocation vendor counter-signs the work order. |
 | 30 to 60 days | 6. Cabinet is built out, power runs and cross-connects are completed, customer is onboarded. |
+{: caption="Table 5: Dedicated Hosting on Classic timeline" caption-side="bottom"}  
 {: tab-title="Dedicated Hosting on Classic timeline"}
 
 ## Local routing
@@ -180,6 +181,7 @@ However, we have expanded our Direct Link local markets to provide more local ro
 | Singapore | SNG01, SNG02 |
 | AP South (Sydney) | SYD01, SYD02, SYD03, SYD04, SYD05, Perth 1 |
 | AP North (Tokyo) | TOK01, TOK02, TOK03, TOK04, TOK05, Osaka 1* |
+{: caption="Table 6: Local Markets and Sites" caption-side="bottom"}
 
 For example, in the US South Market, Direct Link customers can send or retrieve data to or from any {{site.data.keyword.cloud_notm}} location in the defined market (Dallas, Houston, Denver, and Chicago) without the need for the global routing add-on.
 
@@ -196,6 +198,7 @@ Global routing expands access to include all {{site.data.keyword.cloud_notm}} da
 |Paris/Frankfurt/Milan/Korea | $165 | $330 | $660 | $1,650 | $3,300 | $4,400 | $4,950 | $5,500 |
 |Japan/Singapore/Hong Kong | $170 | $339 | $678 | $1,695 | $3,390 | $4,520 | $5,085 | $5,650 |
 |Australia/Brazil/India | $180 | $360 | $720 | $1,800 | $3,600 | $4,800 | $5,400 | $6,000 |
+{: caption="Table 7: Pricing for the global routing add-on" caption-side="bottom"}
 
 ## Additional fees for customization
 {: #additional-fees-for-customization}
@@ -205,3 +208,4 @@ Several customized, non-standard configurations are available for extra cost. Mo
 | Type of service | Fee |
 |-----------------|------|
 | SNS fee | $3000 MRC (monthly) per Account |
+{: caption="Table 8: Additional fees for customization" caption-side="bottom"}
