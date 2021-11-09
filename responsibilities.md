@@ -4,7 +4,7 @@ copyright:
   years: 2019
 lastupdated: "2019-06-21"
 
-keywords: direct, link, responsibilities, ha, high availability, disaster recovery, security, interconnects
+keywords: 
 
 subcollection: direct-link
 

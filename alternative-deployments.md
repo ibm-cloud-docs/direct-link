@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-04-01"
 
-keywords: use case, alternatives, deployments, diverse, redundant, default, multi-cloud, other clouds, schematic
+keywords: 
 
 subcollection: direct-link
 

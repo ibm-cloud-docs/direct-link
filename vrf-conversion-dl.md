@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-12-02"
 
-keywords: RF, IP, routers, backbone, service, VLAN, multiple isolation, tenant, tenancy, data centers, data, center, shared tenancy, private endpoint, customer VRF, Private Network Question, support, case
+keywords: 
 
 subcollection: direct-link
 

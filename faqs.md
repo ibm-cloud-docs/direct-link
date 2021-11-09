@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2020
 lastupdated: "2020-07-08"
 
-keywords: faq, faqs, questions, answer, billing, fees, point-to-point, bandwidth, charges, redundancy, global routing, diversity, IPv6, BGP, charges, jumbo frames
+keywords: 
 
 subcollection: direct-link
 

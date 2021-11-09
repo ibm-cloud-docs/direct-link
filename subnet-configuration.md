@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2018, 2019
 lastupdated: "2019-04-30"
 
-keywords: direct link, configure, connectivity, BGP, VRF, configuration, RFC1918, ASN, BYOIP, NAT, VLAN spanning, ECMP, redundancy, IP assignments, VMWare, Vyatta, IP limitations
+keywords: 
 
 subcollection: direct-link
 

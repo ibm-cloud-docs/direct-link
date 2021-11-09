@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2021
 lastupdated: "2021-8-18"
 
-keywords: order, provider, capabilities, Connect, cross-connect, locations, PoP, datacenter, data, center, pricing, virtual circuit, Request ID, Authorization ID
+keywords: 
 
 subcollection: direct-link
 

@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2021
 lastupdated: "2021-07-15"
 
-keywords: order, provider, capabilities, Dedicated, cross-connect, locations, PoP, datacenter, data, center, pricing, Letter of Authorization, LOA,
+keywords: 
 
 subcollection: direct-link
 

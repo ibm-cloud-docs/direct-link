@@ -6,7 +6,7 @@ copyright:
 lastupdated: "2019-05-21"
 
 
-keywords: tutorials, solution, case study, white paper, announcement, blog,
+keywords: 
 
 subcollection: direct-link
 

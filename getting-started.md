@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2021
 lastupdated: "2021-04-22"
 
-keywords: hybrid, workloads, deployments, multi-cloud, data transfer, descriptions, diverse, redundant
+keywords: 
 
 subcollection: direct-link
 

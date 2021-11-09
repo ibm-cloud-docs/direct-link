@@ -5,7 +5,7 @@ copyright:
 lastupdated: "2019-03-29"
 
 
-keywords: dedicated, hosting, finalize, questionnaire, Network Engineering, billing, fees, VRF, BGP, case, cross-connects, datacenters, data, center, backhaul, single mode, single-mode, fiber, Letter of Authorization, LOA, contract
+keywords: 
 
 subcollection: direct-link
 

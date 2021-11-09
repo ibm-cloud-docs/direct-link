@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-04-02"
 
-keywords: Exchange, finalize, questionnaire, Special Network Services, billing, fees, VRF, BGP, case, ASN, VPN, metering, data, center, datacenter
+keywords: 
 
 subcollection: direct-link
 

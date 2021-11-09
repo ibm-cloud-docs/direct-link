@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2020
 lastupdated: "2020-04-08"
 
-keywords: Cloud Object Storage, endpoints, cross region, regional, single site, reverse proxy, nginx, bare metal, VRA, bucket, virtual router appliance
+keywords: 
 
 subcollection: direct-link
 

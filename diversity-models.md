@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2020
 lastupdated: "2020-04-07"
 
-keywords: diversity, redundancy, schematics, deployment, configuration, global routing, ECMP, Dual XCRs, model
+keywords: 
 
 subcollection: direct-link
 

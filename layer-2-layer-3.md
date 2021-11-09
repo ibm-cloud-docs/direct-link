@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-04-30"
 
-keywords: layer 2, layer 3, interconnect, partner, multi-cloud, other clouds, BGP, XCR
+keywords: 
 
 subcollection: direct-link
 

@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-04-01"
 
-keywords: Connect, finalize, questionnaire, Special Network Services, billing, fees, VRF, BGP, case, ASN
+keywords: 
 
 subcollection: direct-link
 

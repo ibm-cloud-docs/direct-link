@@ -4,7 +4,8 @@ copyright:
   years: 2017, 2021
 lastupdated: "2021-01-28"
 
-keywords: provider, cross-connect, locations, PoP, data center
+keywords: 
+
 subcollection: direct-link
 
 ---
