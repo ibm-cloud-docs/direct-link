@@ -10,23 +10,7 @@ subcollection: direct-link
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
-{:help: data-hd-content-type='help'}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Ordering Direct Link Dedicated on Classic
 {: #how-to-order-ibm-cloud-direct-link-dedicated}
@@ -179,6 +163,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Washington DC 5 | PoP | Coresite | DC2 | 12098 Sunrise Valley Dr |
 | Washington DC 6 | DC(AZ1) | Raging Wire | VA2 | 44610 Guilford Drive |
 | Washington DC 7 | DC(AZ1) | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr|
+{: caption="Table 1: Direct Link Dedicated locations" caption-side="bottom"}
 
 ## Pricing
 {: #dedicated-pricing-classic}

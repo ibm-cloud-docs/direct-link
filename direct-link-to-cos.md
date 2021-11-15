@@ -10,23 +10,7 @@ subcollection: direct-link
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
-{:help: data-hd-content-type='help'}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Using IBM Cloud Direct Link to connect to IBM Cloud Object Storage
 {: #using-ibm-cloud-direct-link-to-connect-to-ibm-cloud-object-storage}
@@ -82,7 +66,7 @@ This solution is diagrammed and described in the sections that follow.
 
 Basic premise: Remote clients pass requests, including secure credentials, through a private server to COS
 
-![reverse=proxy](images/reverse-proxy.png)
+![reverse=proxy](images/reverse-proxy.png){: caption="Figure 1. Reverse proxy" caption-side="bottom"}
 
 HTTPS (secure HTTP) COS requests are initiated from a client at a remote site. They're transmitted securely through {{site.data.keyword.cloud_notm}} Direct Link, targeting one of a cluster of _reverse proxy servers_ deployed in a customer’s {{site.data.keyword.cloud_notm}} account. From there, requests are passed to a COS private endpoint, processed, and then the results returned to the remote calling client.
 

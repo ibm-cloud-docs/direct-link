@@ -1,6 +1,6 @@
 ---
 copyright:
-  years: 1994, 2017, 2018, 2019
+  years: 1994, 2019
 lastupdated: "2019-04-02"
 
 keywords: 
@@ -9,21 +9,7 @@ subcollection: direct-link
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
+{{site.data.keyword.attribute-definition-list}}
 
 # Understanding latency
 {: #understanding-latency}

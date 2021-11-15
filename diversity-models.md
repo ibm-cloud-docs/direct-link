@@ -10,21 +10,7 @@ subcollection: direct-link
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
+{{site.data.keyword.attribute-definition-list}}
 
 # Models for diversity and redundancy in Direct Link on Classic
 {: #models-for-diversity-and-redundancy-in-direct-link}
@@ -72,7 +58,10 @@ The configurations that are shown in this group offer options for connecting acr
 
 Equal-cost multipath (ECMP) is a feature of BGP. Some customers asked IBM about using ECMP as a way to achieve redundancy. However, ECMP alone is not sufficient.
 
-**This section explains why IBM Cloud does NOT recommend the use of ECMP. ECMP balancing with IBM Cloud only extends to the cross-connect routers (XCRs). Past the XCRs, the ECMP-based traffic presents itself as the same IP address to the IBM Cloud network, and the IBM Cloud network routing defaults to the shortest path found. This means that only one of the Direct Links in the ECMP configuration is usable at a given time. All requests for ECMP require Network exception approval by IBM Cloud Offering Management.**
+**Currently, ECMP is not available on the direct link router as an option. ECMP balancing with IBM Cloud only extends to the cross-connect routers (XCRs). Past the XCRs, the ECMP-based traffic presents itself as the same IP address to the IBM Cloud network, and the IBM Cloud network routing defaults to the shortest path found. This means that only one of the direct links in the ECMP configuration is usable at a given time.**
+
+Customers can request a network exception to have ECMP configured for two classic direct links on the same direct router. However, network exceptions are subject to engineering review and might not be possible in all cases.
+{: note}
 
 **Q: Is ECMP the way to go for redundant connections? What alternatives exist?**
 

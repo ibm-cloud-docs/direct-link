@@ -10,21 +10,7 @@ subcollection: direct-link
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
+{{site.data.keyword.attribute-definition-list}}
 
 # Comparing Layer-2 and Layer-3 connections for Direct Link
 {: #comparing-layer-2-layer-3}
@@ -91,3 +77,4 @@ The following table summarizes the type of connections that each {{site.data.key
 | Verizon SCI| **Layer 3** |
 | Vodafone| **Layer 3** |
 | Zayo Cloud Link | Layer 2 |
+{: caption="Table 1. Partner interconnection table" caption-side="bottom"}

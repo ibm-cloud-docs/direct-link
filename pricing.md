@@ -10,21 +10,7 @@ subcollection: direct-link
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
+{{site.data.keyword.attribute-definition-list}}
 
 # Pricing for {{site.data.keyword.cloud_notm}} Direct Link on Classic
 {: #pricing-for-ibm-cloud-direct-link}
@@ -52,7 +38,7 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 | Japan / Singapore / Hong Kong | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 |
 | Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
 {: class="simple-tab-table"}
-{: caption="Table 1. Direct Link Connect on Classic"}{: caption="Direct Link Connect on Classic" caption-side="bottom"}  
+{: caption="Table 1. Direct Link Connect on Classic" caption-side="bottom"}  
 {: #simpletabtable1}
 {: tab-title="Connect on Classic"}
 {: tab-group="IAM-simple"}
@@ -65,7 +51,7 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 | Paris / Frankfurt / Milan / Korea | $1,319 | $2,199 | $4,125 | $5,499 |
 | Japan / Singapore / Hong Kong | $1,355 | $2,259 | $4,238 | $5,649 |
 | Australia / Brazil / India | $1,439 | $2,399 | $4,500| $5,999 |
-{: caption="Table 2. Direct Link Dedicated on Classic"}{: caption="Direct Link Dedicated on Classic" caption-side="bottom"}  
+{: caption="Table 2. Direct Link Dedicated on Classic" caption-side="bottom"}  
 {: #simpletabtable2}
 {: tab-title="Dedicated on Classic"}
 {: tab-group="IAM-simple"}
@@ -89,7 +75,7 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 | MRC | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 |
 | **Additional Cross Connect Install** |||||||||||||||||
 | NRC | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 |
-{: caption="Table 3. Direct Link Dedicated Hosting on Classic"}{: caption="Direct Link Dedicated Hosting on Classic" caption-side="bottom"}  
+{: caption="Table 3. Direct Link Dedicated Hosting on Classic" caption-side="bottom"}  
 {: #simpletabtable3}
 {: tab-title="Dedicated Hosting on Classic"}
 {: tab-group="IAM-simple"}
@@ -103,7 +89,7 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 | Paris / Frankfurt / Milan / Korea | $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 |
 | Japan / Singapore / Hong Kong | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 |
 | Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
-{: caption="Table 4. Direct Link Exchange on Classic"}{: caption="Direct Link Exchange on Classic" caption-side="bottom"}  
+{: caption="Table 4. Direct Link Exchange on Classic" caption-side="bottom"}  
 {: #simpletabtable4}
 {: tab-title="Exchange on Classic"}
 {: tab-group="IAM-simple"}

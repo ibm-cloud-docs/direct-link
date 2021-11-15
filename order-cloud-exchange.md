@@ -10,23 +10,7 @@ subcollection: direct-link
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
-{:help: data-hd-content-type='help'}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Ordering Direct Link Exchange on Classic
 {: #how-to-order-ibm-cloud-direct-link-exchange}
@@ -67,7 +51,7 @@ To provision an IBM Cloud Direct Link Exchange connection, complete the followin
 4. Click **Order Direct Link Exchange** in the upper right of the page. The "Create an IBM Cloud Direct Link Exchange Connection" page is displayed.
 
    Optionally, if diverse ports are accessible, and you previously provisioned the first virtual circuit, you see a page similar to the following one, which shows two ports from which you can select your second virtual circuit. For example:  /n
-   ![Virtual circuit selection](/images/two_ports.png)
+   ![Virtual circuit selection](/images/two_ports.png){: caption="Virtual circuit selection" caption-side="bottom"}
    {: note}
 
 5. In the order form, complete following information to configure Direct Link Exchange:
@@ -107,10 +91,12 @@ To order Direct Link Exchange on Classic for Equinix, follow these steps:
 1. In the Frequent Connections section, click the **IBM Cloud** tile.
 1. In the **IBM Cloud Direct Link Exchange** profile, click **Create Connection**.
 
-   ![Equinix ordering](/images/equinix-ibm-cloud-2.png "Equinix ordering")
+   ![Equinix ordering](/images/equinix-ibm-cloud-2.png "Equinix ordering"){: caption="Equinix ordering" caption-side="bottom"}
+
 1. In the Origin section, click **Port**.
 
-   ![Select a Port, Location, and Destination](/images/equinix-port.png "Select a Port, Location, and Destination")   
+   ![Select a Port, Location, and Destination](/images/equinix-port.png "Select a Port, Location, and Destination"){: caption="Select a Port, Location, and Destination" caption-side="bottom"}   
+
 1. Select a **Location**, followed by a **Destination**. Then, click **Next**.  
 1. On the Connection Details page, enter the connection information. For Account ID, enter the Classic Softlayer Account ID (for example, `114340xxx`) that was generated when you provisioned your direct link. This key can be found on the Direct Link details page.
 1. Select a **Connection Speed**, then click **Next**.   
@@ -118,11 +104,12 @@ To order Direct Link Exchange on Classic for Equinix, follow these steps:
 1. Return to the [IBM Cloud Direct Link Exchange page](https://cloud.ibm.com/classic/network/directlink/exchange) in the IBM Cloud console. Notice that the connection status for your direct link connection states **Create Approval Pending**.
 1. Open the Actions ![Actions menu](/images/overflow.png) menu and click **Accept**.
 
-      ![Equinix request approval pending](/images/equinix-request-pending.png)      
+      ![Equinix request approval pending](/images/equinix-request-pending.png){: caption="Equinix request approval pending" caption-side="bottom"}   
+
       The virtual connection shows as **Provisioned** in the Equinix Fabric portal.      
 1. Review your order summary, agree to the [Master Service Agreement](https://cloud.ibm.com/classic/account/masterserviceagreement/getagreement){: external}, and then click **Create**.
 
-      ![Equinix order summary pane](/images/equinix-order-summary.png)
+      ![Equinix order summary pane](/images/equinix-order-summary.png){: caption="Equinix order summary pane" caption-side="bottom"}
 
 The timeline for approval is within 24 hours. If the 24-hour Service Level Agreement (SLA) is not acceptable, you can [create an IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the SNS team.
 {: note}
@@ -150,6 +137,7 @@ For the accounts with no Virtual Routing and Forwarding (VRF) present, the **Sel
 | KINX	| Seoul 2 |
 | NextDC | Melbourne 2, Sydney 3 |
 | SK C&C | Seoul 1 |
+{: caption="Table 1: Data centers that offer Direct Link Exchange connectivity" caption-side="bottom"}
 
 ## Pricing
 {: #exchange-pricing}

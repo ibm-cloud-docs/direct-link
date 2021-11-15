@@ -4,27 +4,13 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-04-02"
 
-keywords:
+keywords: 
 
 subcollection: direct-link
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
+{{site.data.keyword.attribute-definition-list}}
 
 # Direct Link Dedicated on Classic questionnaire
 {: #ibm-cloud-direct-link-dedicated-questionnaire}
@@ -42,7 +28,9 @@ Thank you for opening a request for IBM Cloud™ Direct Link Dedicated. To final
    * Billing stops after:
       * A customer requests a circuit to be deleted, **and**
       * The Dedicated Provider or Network Service Provider de-provisioned the circuit.
+
    For more information, select your location and go to **Section 5 - Charges** in the Cloud Services Agreement on the [IBM Customer Support website](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). For example, customers in the United States would view this [Cloud Services Agreement](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en).
+   
 3. By ordering the Direct Link service, you are responsible for any fees that are associated with reaching the Point of Presence (PoP) from your remote network and any cross connects needed within the PoP facility. If your provider requires that a router or other device physically sit in the PoP, you're responsible for costs that are associated with collocating that equipment as well. 
 4. IBM Cloud will not order a cross-connect on a customer's behalf.
 5. IBM Cloud will not colocate any customer equipment in our network PoPs. We accept only ‘cross connects’ which is a fiber Ethernet (single mode fiber only, either 1Gig-LX or 10Gig-LR 1310 nm optics) run from your cage or provider. We do not accept T1s, DS3s, ISDN, POTS line, and so on.  You need to work with your provider to determine whether you must colocate any equipment in the same facility where the IBM Cloud network PoP exists.

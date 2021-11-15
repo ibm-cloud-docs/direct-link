@@ -10,21 +10,7 @@ subcollection: direct-link
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
+{{site.data.keyword.attribute-definition-list}}
 
 # Your responsibilities by using IBM Cloud Direct Link
 {: #responsibilities-direct-link}
@@ -38,6 +24,7 @@ Learn about management responsibilities that you have when you use {{site.data.k
 IBM provides you with the ability to connect to an enterprise cloud platform to deploy your workload. You choose how to set up, integrate, back up, and operate your workloads in the cloud.
 
 ### Direct Link and IBM Cloud infrastructure
+{: #direct-link-cloud-infrastructure}
 
 IBM's responsibilities:
 - Provide partner relationships with physical locations for Direct Link interconnects.

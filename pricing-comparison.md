@@ -1,30 +1,16 @@
 ---
 
 copyright:
-  years: 2017, 2018, 2019
+  years: 2017, 2019
 lastupdated: "2019-04-01"
 
-keywords: 
+keywords:  
 
 subcollection: direct-link
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
+{{site.data.keyword.attribute-definition-list}}  
 
 # Competitive pricing overview
 {: #competitive-pricing-overview}
@@ -101,3 +87,4 @@ Company "M" (like Company "A" and Company "G") presents a metered offering that 
 | TOK/MEL/SYD | $5,999 |$82,000 | $39,000 | $30,180 |
 | CHE | $5,999 |$82,000 | $39,000 | $32,220 |
 | SAO | $5,999 |$82,000 | $99,500 | $76,420 |
+{: caption="Table 1: Comparison summary" caption-side="bottom"}

@@ -10,23 +10,7 @@ subcollection: direct-link
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
-{:help: data-hd-content-type='help'}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Ordering Direct Link Dedicated Hosting on Classic
 {: #how-to-order-ibm-cloud-direct-link-dedicated-hosting}
@@ -41,6 +25,8 @@ To determine which Direct Link solution is best for your networking environment,
 {: tip}
 
 ## Before you begin
+{: #before-you-begin-colo}
+
 Before ordering Dedicated Hosting on Classic, review and ensure that you have met all requirements that are stated in
 [Dedicated Hosting on Classic entrance criteria](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#dldh-entrance-criteria).
 
@@ -121,6 +107,7 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 | EMEA | LON02  | Chessington | DC | Digital Realty  | Fountain Court |
 | EMEA | LON06 | London |	DC (AZ3) |	CyrusOne |	12 Liverpool Rd |
 | EMEA | MIL01 | Milan | DC |	Data4 |	Via Monzoro 101-105, 20010 Cornaredo (MI) |
+{: caption="Table 1: Dedicated Hosting locations" caption-side="bottom"}
 
 ## Pricing
 {: #dedicated-pricing}

@@ -10,21 +10,7 @@ subcollection: direct-link
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
+{{site.data.keyword.attribute-definition-list}}
 
 # Getting started with IBM Cloud Direct Link on Classic
 {: #get-started-with-ibm-cloud-direct-link}
@@ -37,7 +23,7 @@ subcollection: direct-link
 
 Use this decision tree to help you decide which solution works best for you. If you want help with getting started, you can open an IBM Support case through the [IBM Cloud console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}, or contact your {{site.data.keyword.cloud_notm}} sales representative.
 
-![direct-link-decision-tree](/images/flow.png)
+![direct-link-decision-tree](/images/flow.png){: caption="Figure 1. Direct Link decision tree" caption-side="bottom"}
 
 For more information about Direct Link (2.0) offerings, see [Getting started with IBM Cloud Direct Link (2.0)](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl).
 {: note}

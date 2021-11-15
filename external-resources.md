@@ -1,32 +1,18 @@
 ---
 
 copyright:
-  years: 2017, 2018, 2019
+  years: 2017, 2019
 
 lastupdated: "2019-05-21"
 
 
-keywords: 
+keywords:
 
 subcollection: direct-link
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
+{{site.data.keyword.attribute-definition-list}}
 
 # Related resources
 {: #related-resources}
@@ -35,6 +21,7 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM partn
 {: shortdesc}
 
 ## Papers and case studies
+{: #papers-and-case-studies}
 
 * [**Hybrid Cloud white paper**](https://public.dhe.ibm.com/cloud/bluemix/network/direct-link/ibm-hybrid-cloud-whitepaper.pdf){: external}
 
@@ -56,6 +43,7 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM partn
     Choosing to colocate at Digital Realty’s hub locations in APAC and the US puts {{site.data.keyword.cloud_notm}} data centers right next door to Digital Realty’s world-class data center deployments, with direct dark fiber connection between them.
 
 ## Featured announcements
+{: #featured-announcements}
 
 * [InterCloud Offers Dedicated Connectivity to IBM Cloud](https://info.intercloud.com/intercloud-offers-dedicated-connectivity-to-ibm-cloud){: external}
 
@@ -66,6 +54,7 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM partn
     Learn how SES Network's decision to partner with IBM Cloud to help customers overcome key connectivity challenges by harnessing the power of satellite.
 
 ## Blogs on the IBM website
+{: #blogs}
 
 * [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/cloud/blog/megaport-and-ibm-empower-enterprise-cloud){: external}, by Matt Simpson and Jill Tempelmeyer
 
