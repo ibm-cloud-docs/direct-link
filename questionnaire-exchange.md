@@ -10,21 +10,7 @@ subcollection: direct-link
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:term: .term}  
-{:generic: data-hd-programlang="generic"}
-{:download: .download}  
+{{site.data.keyword.attribute-definition-list}}
 
 # Direct Link Exchange on Classic questionnaire
 {: #ibm-cloud-direct-link-exchange-questionnaire}
@@ -37,14 +23,15 @@ Thank you for opening a request for IBM Cloud™ Direct Link Exchange. To finali
 1. Each Direct Link connection requires a unique order. If you require multiple connections, you must open separate Direct Link orders for each connection.
 2. The fees for your Direct Link Exchange service cover the cost of service termination on the IBM Cloud infrastructure.
 
-* Infrastructure Services are billed in advance and begin when your order is accepted. However, due to the nature of IBM Cloud Direct Link, the Direct Link service billing begins when a Border Gateway Protocol (BGP) session with IBM Cloud is initiated, or 30 days after the service key is provided to the client.
+   * Infrastructure Services are billed in advance and begin when your order is accepted. However, due to the nature of IBM Cloud Direct Link, the Direct Link service billing begins when a Border Gateway Protocol (BGP) session with IBM Cloud is initiated, or 30 days after the service key is provided to the client.
 
-* Billing stops after:
-   * A customer requests a circuit to be deleted, **and**
-   * The Exchange Provider or Network Service Provider de-provisioned the circuit.
-   For more information, select your location and go to **Section 5 - Charges** in the Cloud Services Agreement on the [IBM Customer Support website](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). For example, customers in the United States would view this [Cloud Services Agreement](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en).
+   * Billing stops after:
+      * A customer requests a circuit to be deleted, **and**
+      * The Exchange Provider or Network Service Provider de-provisioned the circuit.
+   
+      For more information, select your location and go to **Section 5 - Charges** in the Cloud Services Agreement on the [IBM Customer Support website](https://www.ibm.com/support/customer/zz/en/selectcountrylang.html). For example, customers in the United States would view this [Cloud Services Agreement](https://www.ibm.com/support/customer/csol/contractexplorer/cloud/csa/us-en).
 
-   Alternatively, billing can stop for a customer if a customer is notified that their Direct Link service will be turned off and no longer work.
+      Alternatively, billing can stop for a customer if a customer is notified that their Direct Link service will be turned off and no longer work.
 
 3. By ordering the Direct Link service, you are responsible for any fees that are associated with reaching the Point of Presence (PoP) from your remote network and any cross-connects needed within the PoP facility to reach your exchange provider. You (or your provider) are also responsible for buying the virtual circuit to IBM Cloud. If your provider requires that a router or other device physically sit in the PoP, you are responsible for the costs that are associated with collocating that equipment as well. Confirm that your network or PoP provider can reach the Direct Link Exchange and can price out the associated costs.
 4. IBM Cloud does not colocate any customer equipment in our network PoPs. You must work with your provider to determine whether you must colocate any equipment into the same facility where the IBM Cloud PoP exists.
