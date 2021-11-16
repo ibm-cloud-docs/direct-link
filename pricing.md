@@ -51,32 +51,32 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 | Paris / Frankfurt / Milan / Korea | $1,319 | $2,199 | $4,125 | $5,499 |
 | Japan / Singapore / Hong Kong | $1,355 | $2,259 | $4,238 | $5,649 |
 | Australia / Brazil / India | $1,439 | $2,399 | $4,500| $5,999 |
-{: caption="Table 2. Direct Link Dedicated on Classic" caption-side="bottom"}  
 {: #simpletabtable2}
+{: caption="Table 2. Direct Link Dedicated on Classic" caption-side="bottom"}  
 {: tab-title="Dedicated on Classic"}
 {: tab-group="IAM-simple"}
 {: class="simple-tab-table"}
 
 | MRC/NRC | DAL09 | DAL10 | DAL12 | DAL13 | WDC04 | WDC06 | WDC07 | SJC03 | MON01 | TOR01 | SAO01 | FRA04 | FRA05 | LON02 | SYD04 | SYD05 |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| **5kW Cabinet w/ PDU, Combo Lock** |||||||||||||||||
+| **5kW Cabinet w/ PDU, Combo Lock** | | | | | | | | | | | | | | | | |
 |  MRC | $3,810 | $4,604 | $3,810 | $3,969 | $4,445 | $3,810 | $3,985 | $4,445 | $3,937 | $4,446 | $4,102 | $7,015 | $6,477 | $6,198 | $5,048 | $4,786 |
-| **5kW Cabinet Install** |||||||||||||||||
+| **5kW Cabinet Install** | | | | | | | | | | | | | | | | |
 |  NRC | $11,113 | $6,350 | $11,113 | $11,240 | $11,113 | $3,175 | $3,175 | $11,113 | $5,404 | $5,089 | $10,240 | $15,240 | $29,863 | $11,113 | $11,113 | $4,235 |
-| **10kW Cabinet w/ PDU, Combo Lock** |||||||||||||||||
+| **10kW Cabinet w/ PDU, Combo Lock** | | | | | | | | | | | | | | | | |
 | MRC | $7,620 | $7,938 | $7,620 | $7,699 | $8,890 | $7,715 | $7,970 | $8,890 | $7,303 | $8,005 |	$7,449 | $12,666 | $12,954 | $12,008 | $9,843 | $9,573 |
-| **10kW Cabinet Install** |||||||||||||||||
+| **10kW Cabinet Install** | | | | | | | | | | | | | | | | |
 | NRC | $22,225 | $15,875 | $22,225 | $19,114 | $22,225 | $6,350 | $6,350 | $22,225 | $8,225 | $8,939 | $12,129 | $15,240 | $34,435 | $22,225 | $22,225 | $7,339 |
-| **15kW Cabinet w/ PDU, Combo Lock** |||||||||||||||||
+| **15kW Cabinet w/ PDU, Combo Lock** | | | | | | | | | | | | | | | | |
 | MRC | $11,430 | $11,906 | $11,430 | $11,430 | $13,335 | $11,255 | $11,954 | $13,335 | $10,240 | $11,515 | $10,849 | $19,141 | $19,431 | $17,431 | $14,383 | $14,359 |
-| **15kW Cabinet Install** |||||||||||||||||
+| **15kW Cabinet Install** | | | | | | | | | | | | | | | | |
 | NRC | $33,338 | $20,638 | $33,338 | $23,514 | $33,338 | $9,525 | $9,525 | $33,338 | $14,605 | $17,029 | $14,827 | $18,288 | $34,435 | $33,338 | $33,338 | $14,678 |
-| **Additional Cross Connect** |||||||||||||||||
+| **Additional Cross Connect** | | | | | | | | | | | | | | | | |
 | MRC | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 |
-| **Additional Cross Connect Install** |||||||||||||||||
-| NRC | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 |
-{: caption="Table 3. Direct Link Dedicated Hosting on Classic" caption-side="bottom"}  
+| **Additional Cross Connect Install** | | | | | | | | | | | | | | | | | 
+| NRC | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | $795 | 
 {: #simpletabtable3}
+{: caption="Table 3. Direct Link Dedicated Hosting on Classic" caption-side="bottom"} 
 {: tab-title="Dedicated Hosting on Classic"}
 {: tab-group="IAM-simple"}
 {: class="simple-tab-table"}
@@ -89,8 +89,8 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 | Paris / Frankfurt / Milan / Korea | $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 |
 | Japan / Singapore / Hong Kong | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 |
 | Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
-{: caption="Table 4. Direct Link Exchange on Classic" caption-side="bottom"}  
 {: #simpletabtable4}
+{: caption="Table 4. Direct Link Exchange on Classic" caption-side="bottom"}  
 {: tab-title="Exchange on Classic"}
 {: tab-group="IAM-simple"}
 {: class="simple-tab-table"}
@@ -129,8 +129,8 @@ Review the following planning considerations when ordering Dedicated Hosting on 
 | 15 to 20 days | 4. IBM signature of contracts / IBM signature of colocation vendor work order |
 |  5 to 7 days | 5. Colocation vendor counter-signs the work order. |
 | 30 to 60 days | 6. Cabinet is built out, power runs and cross-connects are completed, customer is onboarded. |
-{: caption="Table 5: Dedicated Hosting on Classic timeline" caption-side="bottom"}  
 {: tab-title="Dedicated Hosting on Classic timeline"}
+{: caption="Table 5: Dedicated Hosting on Classic timeline" caption-side="bottom"}  
 
 ## Local routing
 {: #local-routing}
