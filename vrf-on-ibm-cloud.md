@@ -44,7 +44,7 @@ Using VRF, {{site.data.keyword.cloud_notm}} tenants are allowed to use remote IP
 * `10.198.0.0/15`
 * `169.254.0.0/16`
 * `224.0.0.0/4`
-* `166.9.0.0/16`(used by the private endpoint service)
+* `166.9.0.0/16` (used by the private endpoint service)
 * Any IP ranges assigned to your VLANs on the IBM platform.
 
 IBM is moving forward with a next-generation Cloud deployment to enable Virtual Private Cloud (VPC) in our availability zones (AZs). This new VPC capability enables Bring-Your-Own-IP (BYoIP) in the VPC-enabled AZs, which are located in Dallas, Washington DC, London, Frankfurt, Tokyo, and Sydney.
