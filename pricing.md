@@ -154,16 +154,16 @@ However, we have expanded our Direct Link local markets to provide more local ro
 | Montreal | MON01, MON02 |
 | Toronto | TOR01, TOR02 |
 | Sao Paulo | SAO01, SAO02 |
-| Amsterdam | AMS01, AMS02, AMS03 |
+| Amsterdam | AMS02, AMS03 |
 | EU Central (Frankfurt) | FRA01, FRA02, FRA03, FRA04, FRA05 |
 | UK South (London) | LON01, LON02, LON03, LON04, LON05, LON06 |
 | Milan | MIL01, MIL02 |
 | Oslo | OSL02, Stockholm 1 |
 | Paris | PAR01, PAR02 |
 | Chennai | CHE01, Mumbai 1* |
-| Hong Kong | HKG01, HKG02, HKG03* |
+| Hong Kong | HKG01, HKG03* |
 | Melbourne | MEL02 |
-| Seoul | SEO01, SEO02 |
+| Seoul | SEO02 |
 | Singapore | SNG01, SNG02 |
 | AP South (Sydney) | SYD01, SYD02, SYD03, SYD04, SYD05, Perth 1 |
 | AP North (Tokyo) | TOK01, TOK02, TOK03, TOK04, TOK05, Osaka 1* |

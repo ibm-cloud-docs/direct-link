@@ -93,12 +93,10 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | **APAC** | | | | |
 | Chennai 1 | DC | Tata | PH-01 | 226, Red Hills Road, Kallikuppam, Ambattur |
 | Hong Kong 1 | PoP | Mega-I (via Telstra) | Mega-I (iAdvantage Hong Kong) |29F, 399 Chai Wan Road |
-| Hong Kong 2 | DC | Digital Realty | HKG10 |33 Chun Choi Street, Yan Hing Industrial Building |
-| Hong Kong 3 | PoP | Equinix | HKG2 | 17/F Kerry Warehouse |
+| Hong Kong 3 | PoP | Equinix | HKG3| 17/F Kerry Warehouse |
 | Melbourne 2 | PoP |NextDC | M1 | 820 Lorimer Street, Port Melbourne |
 | Osaka 1 | PoP | Equinix | OS1 | Nishi-Shinsaibashi Bldg., 1-26-1 Shin-machi, Osaka  |
 | Perth 1 | PoP | Equinix (Metronode) | F1Z | 60 Randell St, Shenton Park, Western Australia |
-| Seoul 1 | DC | C&C | Seoul01 | 46, Pangyo-ro 255beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do |
 | Seoul 2 | PoP | KINX | KINX Bundang IDC | 3F Hostway IDC, 343-1 Yatap-dong, Gyeonggi-do |
 | Singapore 1 | DC | Digital Realty | SIN10 | 29A International Business Park, S180 |
 | Singapore 2 | PoP | Equinix | SG1 | 20 Ayer Rajan Crescent Industrial Park |
