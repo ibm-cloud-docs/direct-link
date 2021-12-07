@@ -41,7 +41,8 @@ toc:
                 href: /vpc/vpc-getting-started
             - topic: video-hybrid-cloud.md
               navtitle: "Video: Direct Link for hybrid cloud"
-
+        - release_notes.md
+        
     - navgroup:
        id: tutorial
        topics:
@@ -84,5 +85,4 @@ toc:
        topics:
         - faqs.md
         - known-limitations.md
-        - release_notes.md
         - getting-help.md
