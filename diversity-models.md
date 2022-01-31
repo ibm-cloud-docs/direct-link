@@ -75,3 +75,22 @@ ECMP isn’t designed for creating redundant connections but for balancing the l
 If you are looking for High Availability (HA), or full redundancy, set up two links into different XCRs in the same data center (for example DAL03). Then, fail over as needed using BGP configurations.
 
 ![ECMP Dual XCR Model](/images/ecmp-with-diversity.png "ECMP Dual XCR Model"){: caption="Figure 11: ECMP with Dual XCRs" caption-side="bottom"}
+
+## Direct Link BGP path selection
+{: #dl-bgp-path-selection}
+
+In the situation where the same route prefixes are being advertised to IBM Cloud through the BGP session for Direct Link, a customer can prepend one or more Autonomous System Number (ASN) to the route advertisement.  AS prepend makes the AS path longer, and therefore, the route for the prefix is less preferred  by the  BGP protocol on the IBM Cloud router.
+
+The ASN used for the prefix can be the same ASN as the local AS on the BGP session that is performing the prepend. 
+{: note}
+
+IBM Cloud Direct Link does not allow path preference for route prefixes received from the customer with the following BGP attributes: 
+
+* Weight
+* Local preference
+* Multiple Exit Discriminator (MED)
+
+Finally, if the duplicate route prefixes are received with the same AS path length from different origin routers, IBM Cloud gives preference to the oldest route received. In other words, the first BGP session that advertises a given route prefix receives path preference. 
+
+Similar rules apply on the route prefixes that IBM Cloud advertises to the customer. The IBM Cloud routers advertise all prefixes that are associated with all applicable Direct Link connections equally (through BGP) with no additional BGP attributes to indicate path preference. The customer can implement import policies of their choice to prevent asymmetric routing scenarios that align with any existing export policies. 
+
