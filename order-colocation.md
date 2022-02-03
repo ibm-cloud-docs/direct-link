@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2021-12-10"
+  years: 2017, 2022
+lastupdated: "2022-02-03"
 
 keywords: 
 
@@ -82,8 +82,8 @@ To provision a Direct Link Dedicated Hosting order, complete the following steps
 This table shows which {{site.data.keyword.cloud_notm}} data centers are able to accept customers for Dedicated Hosting:
 
 | Region | Site ID | City | Site Type | Site Partner | Site Address |
-|-------|-------|-------|-------|-------|-------|
-| Americas | DAL09 | Richardson | DC | Digital Realty  | 900 Quality Way | 
+|-------|-------|-------|-------|-------|-------| 
+| Americas | DAL09 | Richardson | DC | Digital Realty  | 900 Quality Way |  
 | Americas | DAL12 | Richardson |	DC (AZ2) | Digital Realty  | 1210 Integrity Dr.  |
 | Americas | DAL13 | Carrollton | DC (AZ3) | CyrusOne | 1649 Frankford Rd. |
 | Americas | MON01 | Drummond  | DC | Colo-D  | 2525 Rue Canadien |
@@ -95,12 +95,10 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 | Americas | WDC07 | Ashburn | DC (AZ2) | Sabey | 21741 Red Rum Dr |
 |  |  |  |  |  |  |
 | APAC | SYD04 |	 Sydney |	DC (AZ2) |	Digital Realty  |	1-11 Templar Road, Erskine Park |
-| APAC | SYD05 |	 Sydney |	DC (AZ3) |	Equinix |	200 Bourke Rd |
-| APAC | SNG01 |  Jurong East | DC | Digital Realty  |  29a International Business Park, S180 |
+| APAC | SYD05 |	 Sydney |	DC (AZ3) |	Equinix |	200 Bourke Rd | 
 | APAC | TOK02  |  Koto-ku | DC (AZ1) | AT Tokyo  |  Koto-ku |
 | APAC | TOK05  | Kawasaki Kangagawa  | DC (AZ3) | NTT | Kawasaki Kangagawa |
-|  |  |  |  |  |  |
-| EMEA | FRA02  | Frankfurt |  DC (AZ1) | CyrusOne | Leonhard - Heisswolf Str. 4 |
+|  |  |  |  |  |  | 
 | EMEA | FRA04  | Frankfurt | DC (AZ2) | E-shelter | Eschborner Landstrasse 100, Building H |
 | EMEA | FRA05  | Frankfurt | DC (AZ3) | InterXion | Weismüllerstraße 40 |
 | EMEA | LON02  | Chessington | DC | Digital Realty  | Fountain Court |
