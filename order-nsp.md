@@ -146,8 +146,8 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Miami 1 | PoP | Equinix (fTerremark/Verizon) | NAP | 50 NE 9th Street |
 | Montreal 1 | DC | Cologix (fCOLO-D) | Cologix MTL9-H | 2525 Rue Canadien |
 | Montreal 2 | PoP | Cologix | MTL7 | 1155  Robert – Bourassa Boulevard (Formerly Known as University Street) |
-| New York City 2 | PoP | Equinix | NY4 | 755 Secaucus Rd, Secaucus, NJ |
-| New York City 3 | PoP | Equinix | NY5 | 800 Secaucus Rd, Secaucus, NJ |
+| New York City 2* | PoP | Equinix | NY4 | 755 Secaucus Rd, Secaucus, NJ |
+| New York City 3* | PoP | Equinix | NY5 | 800 Secaucus Rd, Secaucus, NJ |
 | San Jose 2 | PoP | Equinix | SV1 | 11 Great Oaks Blvd |
 | San Jose 3 | DC | Digital Realty | SJC31 | 1100 Space Park Drive |
 | San Jose 4 | DC | Infomart | SJC1 | 2001 Fortune Drive |
@@ -162,6 +162,8 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Washington DC 6 | DC(AZ1) | Raging Wire | VA2 | 44610 Guilford Drive |
 | Washington DC 7 | DC(AZ1) | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr|
 {: caption="Table 1: Direct Link Dedicated locations" caption-side="bottom"}
+
+* NYC02 and NYC03 connect to the IBM Cloud backbone through NYC1. The primary reason for these PoPs is to extend connectivity to different site providers from our NYC01 site. When planning your diversity strategy, keep in mind that traffic for NYC02 and NYC03 have a single, shared path to the IBM network.
 
 ## Pricing
 {: #dedicated-pricing-classic}
