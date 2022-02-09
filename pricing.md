@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2021
-lastupdated: "2021-12-10"
+lastupdated: "2021-02-09"
 
 keywords:
 
@@ -160,11 +160,10 @@ However, we have expanded our Direct Link local markets to provide more local ro
 | Oslo | OSL02, Stockholm 1 |
 | Paris | PAR01, PAR02 |
 | Chennai | CHE01, Mumbai 1* |
-| Hong Kong | HKG01, HKG03* |
-| Melbourne | MEL02 |
+| Hong Kong | HKG01, HKG03* | 
 | Seoul | SEO02 |
 | Singapore | SNG01, SNG02 |
-| AP South (Sydney) | SYD01, SYD02, SYD03, SYD04, SYD05, Perth 1 |
+| AP South (Sydney) | MEL02, Perth 1, SYD01, SYD02, SYD03, SYD04, SYD05 |
 | AP North (Tokyo) | TOK01, TOK02, TOK03, TOK04, TOK05, Osaka 1* |
 {: caption="Table 6: Local Markets and Sites" caption-side="bottom"}
 
