@@ -150,7 +150,6 @@ However, we have expanded our Direct Link local markets to provide more local ro
 | San Jose | SJC01, SJC02, SJC03, SJC04, Los Angeles 1 |
 | Seattle | SEA02 |
 | US East (Washington, D.C.) | WDC01, WDC02, WDC04, WDC05, WDC06, WDC07, Atlanta 1, Miami 1, New York City 2, New York City 3 |
-| Mexico City | MEX01 |
 | Montreal | MON01, MON02 |
 | Toronto | TOR01, TOR02 |
 | Sao Paulo | SAO01, SAO02 |
