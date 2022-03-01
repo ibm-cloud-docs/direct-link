@@ -2,8 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-02-17/(
-3.=. "
+lastupdated: "2022-02-17"
 
 keywords: 
 
@@ -33,7 +32,7 @@ You can choose from the following two options.
 {: #colocated-in-ibm-cloud-pop}
 
 1. Verify your colocation provider's capabilities to reach the appropriate Meet Me Room and cross-connect into the {{site.data.keyword.cloud_notm}} environment.
-2. Use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated on Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the Direct Link Dedicated prerequisites.
+2. Use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated on Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the [Direct Link Dedicated prerequisites](/docs/direct-link?topic=direct-link-ibm-cloud-dl-dedicated-prerequisites).
 
 3. {{site.data.keyword.cloud_notm}} provides Letters of Authorization (LOA) for connections that use IBM Cloud. When you have the LOA, supply it to your colocation provider, then have them order a cross connect (and any required inter-campus connectivity) by using the {{site.data.keyword.cloud_notm}} CFA (Customer Facility Assignment) information in the LOA.
 
@@ -48,7 +47,7 @@ Your IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastruc
 {: #network-service-provider}
 
 1. Verify your NSP's capabilities to reach the appropriate Meet Me Room in the {{site.data.keyword.cloud_notm}} PoP or data center and cross-connect into the {{site.data.keyword.cloud_notm}} environment.
-2. Use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated on Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the Direct Link Dedicated prerequisites.
+2. Use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated on Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the [Direct Link Dedicated prerequisites](/docs/direct-link?topic=direct-link-ibm-cloud-dl-dedicated-prerequisites).
 3. {{site.data.keyword.cloud_notm}} provides Letters of Authorization (LOA) for connections that use IBM Cloud. When you have the LOA, supply it to your network provider, and have them order a "third-party cross connect", as well as the circuit between your premises and the appropriate Meet Me Room by using the {{site.data.keyword.cloud_notm}} CFA (Customer Facility Assignment) information in the LOA.
 
    This third-party, cross-connect process usually takes 2 - 10 extra business days to complete, depending on the facility vendor and the order priority you specify. It includes the setup of the patch to the {{site.data.keyword.cloud_notm}} termination port.
@@ -84,7 +83,7 @@ To provision a Direct Link Dedicated order, complete the following steps:
 
    As you select or enter these values, you can see an approximate monthly charge in the right pane.
    
-1. Read and agree to the [Direct Link prerequisites](/docs/direct-link?topic=direct-link-ibm-cloud-dl-prerequisites). Then, click **Create** to complete your order.
+1. Read and agree to the [Direct Link Dedicated prerequisites](/docs/direct-link?topic=direct-link-ibm-cloud-dl-dedicated-prerequisites). Then, click **Create** to complete your order.
 
       After you place your order, an IBM Support case number is generated. You can click the case number to view case details.
 

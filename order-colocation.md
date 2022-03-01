@@ -37,7 +37,7 @@ Here is the general process to order a Direct Link Dedicated Hosting service:
 
 1. Identify your colocation and connectivity requirements, and work with the {{site.data.keyword.cloud}} sales team to finalize and execute a contract and technical addendum.
 1. {{site.data.keyword.cloud_notm}} runs a build order with the colocation provider for the requested environment and services. Deployment typically is completed within 30 days from when the build order is placed.
-1. When the build of your colocation cage is complete, use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated Hosting on Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the Direct Link Dedicated Hosting prerequisites.
+1. When the build of your colocation cage is complete, use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated Hosting on Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the [Direct Link Dedicated Hosting prerequisites](/docs/direct-link?topic=direct-link-ibm-cloud-dl-dedicated-hosting-prerequisites).
 1. {{site.data.keyword.cloud_notm}} provides Letters of Authorization (LOA) for connections that use IBM Cloud. When you have the LOA, supply it to your colocation provider, then have them order a cross connect (and any required inter-campus connectivity) by using the {{site.data.keyword.cloud_notm}} CFA (Customer Facility Assignment) information in the LOA.
 
    This process usually takes 2 - 10 business days to complete, depending on the facility vendor and the order priority you specify. It includes the setup of the patch for the {{site.data.keyword.cloud_notm}} termination port.
@@ -74,7 +74,7 @@ To provision a Direct Link Dedicated Hosting order, complete the following steps
 
    As you select or enter these values, you can see an approximate monthly charge in the right pane.
 
-1. Read and agree to the [Direct Link prerequisites](/docs/direct-link?topic=direct-link-ibm-cloud-dl-prerequisites). Then, click **Create** to complete your order.
+1. Read and agree to the [Direct Link Dedicated Hosting prerequisites](/docs/direct-link?topic=direct-link-ibm-cloud-dl-dedicated-hosting-prerequisites). Then, click **Create** to complete your order.
 
       After you place your order, an IBM Support case number is generated. You can click the case number to view case details
 
