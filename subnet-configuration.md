@@ -29,11 +29,11 @@ In general, to get your Direct Link on Classic connection working, you must do s
    * For new environments, the `10.0.0.0/8` space.
    * For existing environments that use `10.0.0.0/8`, we recommend that you obtain a more detailed assessment to ensure that there is not a conflict with the {{site.data.keyword.cloud_notm}} services network, or with the networks that are already assigned to your account.
 
-2. Our staff at {{site.data.keyword.cloud_notm}} assigns a `/31` or `/30` for each connection and configures an interface IP address on the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) infrastructure.  
+1. Our staff at {{site.data.keyword.cloud_notm}} assigns a `/31` or `/30` for each connection and configures an interface IP address on the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) infrastructure.  
 
-3. Configure the interface on your customer edge router (CER) by using the IP address provided: use the {{site.data.keyword.cloud_notm}} XCR IP as a next-hop for any traffic that is destined to {{site.data.keyword.cloud_notm}}.
+1. Configure the interface on your customer edge router (CER) by using the IP address provided: use the {{site.data.keyword.cloud_notm}} XCR IP as a next-hop for any traffic that is destined to {{site.data.keyword.cloud_notm}}.
 
-4. For return traffic, {{site.data.keyword.cloud_notm}} uses the assigned CER IP as a next-hop for any traffic destined for the remote network, as advertised via BGP.
+1. For return traffic, {{site.data.keyword.cloud_notm}} uses the assigned CER IP as a next-hop for any traffic destined for the remote network, as advertised via BGP.
 
 ## Configuring BGP
 {: #configuring-bgp}
@@ -44,8 +44,8 @@ To exchange route information with your environment, {{site.data.keyword.cloud_n
 
 * **VRF**: Using VRF, {{site.data.keyword.cloud_notm}} advertises the specific private subnets that are assigned to your customer account. You must advertise the remote networks that you want to be reachable from the {{site.data.keyword.cloud_notm}} private network. It is your responsibility as a customer to manage the advertisements to and from the IBM Cloud network. (More details about VRF are included in the next section.)
 
-The following networks are filtered out and cannot be accepted: `10.0.0.0/14`, `10.198.0.0/15`, `10.200.0.0/14`, `169.254.0.0/16`, `224.0.0.0/4`.
-{: note}
+   The following networks are filtered out and cannot be accepted: `10.0.0.0/14`, `10.198.0.0/15`, `10.200.0.0/14`, `169.254.0.0/16`, `224.0.0.0/4`.
+   {: note}
 
 * **ECMP**: For customers who elect to build redundancy at a supported location, {{site.data.keyword.cloud_notm}} supports the implementation of equal-cost multipath (ECMP) to provide load balancing and redundancy across the two links. This ECMP setup should be requested at the time of order.
 

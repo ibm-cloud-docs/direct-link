@@ -2,7 +2,8 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-02-09"
+lastupdated: "2022-02-17/(
+3.=. "
 
 keywords: 
 
@@ -32,7 +33,8 @@ You can choose from the following two options.
 {: #colocated-in-ibm-cloud-pop}
 
 1. Verify your colocation provider's capabilities to reach the appropriate Meet Me Room and cross-connect into the {{site.data.keyword.cloud_notm}} environment.
-2. Use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated on Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the Master Service Agreement.
+2. Use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated on Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the Direct Link Dedicated prerequisites.
+
 3. {{site.data.keyword.cloud_notm}} provides Letters of Authorization (LOA) for connections that use IBM Cloud. When you have the LOA, supply it to your colocation provider, then have them order a cross connect (and any required inter-campus connectivity) by using the {{site.data.keyword.cloud_notm}} CFA (Customer Facility Assignment) information in the LOA.
 
    This process usually takes 2 - 10 business days to complete, depending on the facility vendor and the order priority you specify. It includes the setup of the patch for the {{site.data.keyword.cloud_notm}} termination port.
@@ -46,7 +48,7 @@ Your IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastruc
 {: #network-service-provider}
 
 1. Verify your NSP's capabilities to reach the appropriate Meet Me Room in the {{site.data.keyword.cloud_notm}} PoP or data center and cross-connect into the {{site.data.keyword.cloud_notm}} environment.
-2. Use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated on Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the Master Service Agreement.
+2. Use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to order Direct Link Dedicated on Classic and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the Direct Link Dedicated prerequisites.
 3. {{site.data.keyword.cloud_notm}} provides Letters of Authorization (LOA) for connections that use IBM Cloud. When you have the LOA, supply it to your network provider, and have them order a "third-party cross connect", as well as the circuit between your premises and the appropriate Meet Me Room by using the {{site.data.keyword.cloud_notm}} CFA (Customer Facility Assignment) information in the LOA.
 
    This third-party, cross-connect process usually takes 2 - 10 extra business days to complete, depending on the facility vendor and the order priority you specify. It includes the setup of the patch to the {{site.data.keyword.cloud_notm}} termination port.
@@ -56,32 +58,37 @@ Your IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastruc
 
 Your IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastructure is completed within three business days after the cross connect is complete.
 
-## Steps to order Direct Link Dedicated on Classic
+## Ordering instructions
 {: #steps-to-order-direct-link-dedicated}
 
-To provision a Direct Link Connect order, complete the following steps:
+To provision a Direct Link Dedicated order, complete the following steps:
 
-1. Log in to your [IBM Cloud](https://cloud.ibm.com/){: external} account and open the **Catalog**.
-1. Select the **Menu** icon ![Menu icon](images/menu_icon.png) on the upper left of the page, then click **Classic Infrastructure**.
-1. Select **Network > Direct Link > Dedicated** to open a page that shows the existing Direct Link connections, if any.
-1. Click **Order Direct Link Dedicated +** in the upper right of the page. The "Create an IBM Cloud Direct Link Dedicated Connection" page is displayed.
-1. In the order form, complete the following information to configure Direct Link Dedicated on Classic:
+1. Log in to your [IBM Cloud](https://cloud.ibm.com/){: external} account.
+1. Select the **Navigation Menu** icon ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Classic Infrastructure** > **Direct Link**.
 
-   - Enter the Direct Link instance name.
-   - From the list, select the location in which you want to establish the {{site.data.keyword.cloud_notm}} Direct Link connection.
-   - From the list, select the name of the network provider that you prefer.
+   The Direct Link on Classic page opens, listing existing Direct Link connections provisioned for this account.    
+   
+1. Click **Order Direct Link** in the upper right of the page. The Choose Direct Link option page is displayed.
+
+   ![Choose Direct Link option](/images/choose-direct-link-dedicated.png){: caption="Choose Direct Link option" caption-side="bottom"}    
+   
+1. Select the **Direct Link Dedicated** tile to open the order form.
+1. Complete the following information to configure Direct Link Dedicated: 
+
+   - Enter a Direct Link instance name.
+   - Select the location in which you want to establish the {{site.data.keyword.cloud_notm}} Direct Link connection.
+   - Select the name of your network provider.
    - Select the link speed required for the connection.
-   - Select the routing option required for the connection.
-   - Enter a valid ASN number from the range given in the information box for the BGP exchanges.
+   - Select the routing option required for the connection: **Local routing (free)** or **Global routing**. 
+   - Enter a valid BGP ASN number from the range given in the information box for the BGP exchanges.
 
    As you select or enter these values, you can see an approximate monthly charge in the right pane.
-1. You must agree to the [Master Service Agreement](https://cloud.ibm.com/classic/account/masterserviceagreement/getagreement){: external} before you can place the IBM Cloud Direct Link order.  
+   
+1. Read and agree to the [Direct Link prerequisites](/docs/direct-link?topic=direct-link-ibm-cloud-dl-prerequisites). Then, click **Create** to complete your order.
 
       After you place your order, an IBM Support case number is generated. You can click the case number to view case details.
 
-1. You’ll be asked to complete a customer questionnaire, which you can review at [Direct Link Dedicated questionnaire](/docs/direct-link?topic=direct-link-ibm-cloud-direct-link-dedicated-questionnaire).
-
-1. After you provision the direct link and complete the questionnaire, see [Configuring Direct Link on Classic](/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link) to configure your subnet to interact with IBM Cloud.
+1. After you provision your direct link, see [Configuring Direct Link on Classic](/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link) to configure your subnet to interact with IBM Cloud.
 
 ## Locations
 {: #dedicated-locations}

@@ -1,6 +1,6 @@
 {
     "title": "Direct Link on Classic (1.0) docs",
-    "lastupdated": "2021-07-08",
+    "lastupdated": "2022-03-01",
     "introduction": "The IBM Cloud Direct Link on Classic solution is designed to seamlessly connect your on-premises resources to your cloud resources.",
     "section_recommended": [
       {
@@ -38,10 +38,10 @@
       "community": "https://community.ibm.com/community/user/publiccloud/search?executeSearch=true&SearchTerm=direct%20link&rf=%5EMulti04%3Adirect%5E"
     },
     "section_updates": {
-      "view_more": "/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order",
+      "view_more": "/docs/direct-link?topic=direct-link-what-s-new",
       "tiles": [
         {
-          "date": "22 April 2021",
+          "date": "",
           "title": "How do I know which Direct Link solution to order?",
           "description": "Use this decision tree to help you decide which solution works best for you. Click the 'View more' link for details."
         }

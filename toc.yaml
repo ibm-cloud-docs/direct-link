@@ -61,8 +61,9 @@ toc:
        - order-cloud-exchange.md
        - subnet-configuration.md
        - direct-link-to-cos.md
+       - editing_gateway.md
+       - deleting_gateway.md
        - managing-permissions.md
-
 #  Links to your REST API docs should be included in the Reference navigation group. For details on publishing API docs, see https://test.cloud.ibm.com/docs/api-docs.
 #  Links to your command line reference docs should be included in the Reference navigation group.
     - navgroup:
@@ -74,12 +75,12 @@ toc:
        - vrf-on-ibm-cloud.md
        - vrf-conversion-dl.md
        - topicgroup:
-          label: Questionnaires for ordering
+          label: Direct Link prerequisites
           topics:
-          - questionnaire-connect.md
-          - questionnaire-dedicated.md
-          - questionnaire-dedicated-hosting.md
-          - questionnaire-exchange.md
+          - prerequisites-connect.md   
+          - prerequisites-dedicated.md    
+          - prerequisites-dedicated-hosting.md   
+          - prerequisites-exchange.md
 
     - navgroup:
        id: help

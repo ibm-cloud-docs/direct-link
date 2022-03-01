@@ -1,9 +1,8 @@
 ---
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-12-13"
-
-keywords: 
+  years: 2018, 2022
+lastupdated: "2022-03-01"
+keywords:
 
 subcollection: direct-link
 
@@ -17,6 +16,16 @@ subcollection: direct-link
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
 {: shortdesc}
 
+## March 2022
+{: #march-2022}
+
+Improved the user interface. Highlights include:
+
+   * Updated the Direct Link on Classic page to show all types of direct links. Also added new actions to the list view.
+   * Removed acceptance of the Master Service Agreement in favor of reviewing and agreeing to a list of prerequisites.
+   * The details page now appears as a card component view.
+   * You can now edit connections, and accept/reject pending provider requests through new side panels.   
+   
 ## December 2019
 {: #december-2019}
 
