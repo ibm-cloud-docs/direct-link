@@ -23,7 +23,6 @@ This document gives a series of schematics that are related to issues of redunda
 
 The configurations that are shown in this group rely on the fact that all of the assets are located in the same PoP and in the same global market.
 
-
 ![Exchange with diversity in the same PoP](/images/exchange-diversity-same-pop.png "Exchange with diversity in the same PoP"){: caption="Figure 1. Direct Link Exchange with diversity, in the same PoP (non-AZ)" caption-side="bottom"}
 
 ![Connect with diversity in the same PoP](/images/connect-diversity-same-pop.png "Connect with diversity in the same PoP"){: caption="Figure 2: Direct Link Connect with diversity in the same PoP (non-AZ)" caption-side="bottom"}
@@ -79,7 +78,7 @@ If you are looking for High Availability (HA), or full redundancy, set up two li
 ## Direct Link BGP path selection
 {: #dl-bgp-path-selection}
 
-In the situation where the same route prefixes are being advertised to IBM Cloud through the BGP session for Direct Link, a customer can prepend one or more Autonomous System Number (ASN) to the route advertisement. AS prepend makes the AS path longer, and therefore, the route for the prefix is less preferred by the BGP protocol on the IBM Cloud router.
+In the situation where the same route prefixes are being advertised to IBM Cloud through the BGP session for Direct Link, a customer can prepend one or more Autonomous System Number (ASN) to the route advertisement. AS prepend makes the AS path longer, and therefore, the route for the prefix is less preferred by the BGP protocol on the IBM Cloud router.
 
 The ASN used for the prefix can be the same ASN as the local AS on the BGP session that is performing the prepend.
 {: note}

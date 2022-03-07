@@ -102,6 +102,9 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Hong Kong 3 | PoP | Equinix | HKG3| 17/F Kerry Warehouse |
 | Melbourne 2 | PoP |NextDC | M1 | 820 Lorimer Street, Port Melbourne |
 | Osaka 1 | PoP | Equinix | OS1 | Nishi-Shinsaibashi Bldg., 1-26-1 Shin-machi, Osaka  |
+| Osaka 21  | DC(AZ1)|  IDC Frontier (SoftBank) | OSA021 | 6-1 Saitoaokita Mino-shi |
+| Osaka 22  | DC(AZ2) | IDC Frontier (SoftBank) | OSA022 | 6-1 Saitoaokita Mino-shi |
+| Osaka 23  | DC(AZ3) | IDC Frontier (SoftBank) | OSA023 | 6-1 Saitoaokita Mino-shi |
 | Perth 1 | PoP | Equinix (Metronode) | F1Z | 60 Randell St, Shenton Park, Western Australia |
 | Seoul 2 | PoP | KINX | KINX Bundang IDC | 3F Hostway IDC, 343-1 Yatap-dong, Gyeonggi-do |
 | Singapore 1 | DC | Digital Realty | SIN10 | 29A International Business Park, S180 |
@@ -145,8 +148,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Dallas 10 | DC(AZ1) | QTS | IRV | 6431 Longhorn Drive |
 | Dallas 12 | DC(AZ1) | Digital Realty | DFW18 | 907 Security Row |
 | Dallas 13 | DC(AZ1) | Cyrus One | Carrollton - Frankford | 1649 W. Frankford Rd |
-| Denver 1 | PoP | Coresite | DE1 | 910 15th Street |
-| Los Angeles 1 | PoP | Coresite | LA1 | 624 S. Grand Ave. AKA 1 Wilshire Blvd |
+| Denver 1 | PoP | Coresite | DE1 | 910 15th Street | 
 | Mexico 1 | DC | Equinix (fAlestra) | Alestra Queretaro Datacenter | Lateral Carretera Estatal 431, Parque Tecnologico Inovacion Lote 79, El Marqués |
 | Miami 1 | PoP | Equinix (fTerremark/Verizon) | NAP | 50 NE 9th Street |
 | Montreal 1 | DC | Cologix (fCOLO-D) | Cologix MTL9-H | 2525 Rue Canadien |

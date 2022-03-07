@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2022
 lastupdated: "2022-03-07"
 
-keywords: 
+keywords:
 
 subcollection: direct-link
 
@@ -57,11 +57,11 @@ To provision a Direct Link Dedicated Hosting order, complete the following steps
 1. Select the **Navigation Menu** icon ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Classic Infrastructure** > **Direct Link**.
 
    The Direct Link on Classic page opens, listing existing Direct Link connections provisioned for this account.    
-   
+
 1. Click **Order Direct Link** in the upper right of the page. The Choose Direct Link option page is displayed.
 
    ![Choose Direct Link option](/images/choose-direct-link-hosting.png){: caption="Choose Direct Link option" caption-side="bottom"}    
-   
+
 1. Select the **Direct Link Dedicated Hosting** tile to open the order form.
 1. Complete the following information to configure Direct Link Dedicated Hosting on Classic:
 
@@ -69,7 +69,7 @@ To provision a Direct Link Dedicated Hosting order, complete the following steps
    - Select the location in which you want to establish the {{site.data.keyword.cloud_notm}} Direct Link connection.
    - Select the name of your network provider.
    - Select the link speed required for the connection.
-   - Select the routing option required for the connection: **Local routing (free)** or **Global routing**. 
+   - Select the routing option required for the connection: **Local routing (free)** or **Global routing**.
    - Enter a valid BGP ASN number from the range given in the information box for the BGP exchanges.
 
    As you select or enter these values, you can see an approximate monthly charge in the right pane.
@@ -86,7 +86,7 @@ To provision a Direct Link Dedicated Hosting order, complete the following steps
 This table shows which {{site.data.keyword.cloud_notm}} data centers are able to accept customers for Dedicated Hosting:
 
 | Region | Site ID | City | Site Type | Site Partner | Site Address |
-|-------|-------|-------|-------|-------|-------| 
+|-------|-------|-------|-------|-------|-------|
 | Americas | DAL09 | Richardson | DC | Digital Realty  | 900 Quality Way |  
 | Americas | DAL12 | Richardson |	DC (AZ2) | Digital Realty  | 1210 Integrity Dr.  |
 | Americas | DAL13 | Carrollton | DC (AZ3) | CyrusOne | 1649 Frankford Rd. |
@@ -102,10 +102,10 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 |  |  |  |  |  |  |
 | APAC | OSA21 | Osaka 21 | PoP | Digital Realty | 6-1 Saitoaokita Mino-shi |
 | APAC | SYD04 | Sydney |	DC (AZ2) |	Digital Realty  |	1-11 Templar Road, Erskine Park |
-| APAC | SYD05 | Sydney |	DC (AZ3) |	Equinix |	200 Bourke Rd | 
-| APAC | TOK02  |  Koto-ku | DC (AZ1) | AT Tokyo  |  Koto-ku |
+| APAC | SYD05 | Sydney |	DC (AZ3) |	Equinix |	200 Bourke Rd |
+| APAC | TOK02  | Koto-ku | DC (AZ1) | AT Tokyo  |  Koto-ku |
 | APAC | TOK05  | Kawasaki Kangagawa  | DC (AZ3) | NTT | Kawasaki Kangagawa |
-|  |  |  |  |  |  | 
+|  |  |  |  |  |  |
 | EMEA | FRA04  | Frankfurt | DC (AZ2) | E-shelter | Eschborner Landstrasse 100, Building H |
 | EMEA | FRA05  | Frankfurt | DC (AZ3) | InterXion | Weismüllerstraße 40 |
 | EMEA | LON02  | Chessington | DC | Digital Realty  | Fountain Court |
