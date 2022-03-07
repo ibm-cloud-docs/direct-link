@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-02-17"
+lastupdated: "2022-03-07"
 
 keywords: 
 
@@ -92,14 +92,17 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 | Americas | DAL13 | Carrollton | DC (AZ3) | CyrusOne | 1649 Frankford Rd. |
 | Americas | MON01 | Drummond  | DC | Colo-D  | 2525 Rue Canadien |
 | Americas | SAO01 | Sao Paulo | DC | Digital Realty (Ascenty) | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II, Jundial |
+| Americas | SJC3 | San Jose | DC | Digital Realty  | 1100 Space Park Drive |
+| Americas | SAO1 | Sao Paulo | DC | Ascenty  | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II, Jundiai |
 | Americas | SJC03 | Santa Clara | DC | Digital Realty  | 1100 Space Park Drive |
 | Americas | TORO1 | Markham | DC | Sungard | 371 Gough Road |
 | Americas | WDC04 | Ashburn | DC (AZ1) | Digital Realty  | 44060 Digital Loudoun Plaza (Bldg K)
 | Americas | WDC06 | Ashburn | DC (AZ3) | Raging Wire | 44610 Guilford Drive |
 | Americas | WDC07 | Ashburn | DC (AZ2) | Sabey | 21741 Red Rum Dr |
 |  |  |  |  |  |  |
-| APAC | SYD04 |	 Sydney |	DC (AZ2) |	Digital Realty  |	1-11 Templar Road, Erskine Park |
-| APAC | SYD05 |	 Sydney |	DC (AZ3) |	Equinix |	200 Bourke Rd | 
+| APAC | OSA21 | Osaka 21 | PoP | Digital Realty | 6-1 Saitoaokita Mino-shi |
+| APAC | SYD04 | Sydney |	DC (AZ2) |	Digital Realty  |	1-11 Templar Road, Erskine Park |
+| APAC | SYD05 | Sydney |	DC (AZ3) |	Equinix |	200 Bourke Rd | 
 | APAC | TOK02  |  Koto-ku | DC (AZ1) | AT Tokyo  |  Koto-ku |
 | APAC | TOK05  | Kawasaki Kangagawa  | DC (AZ3) | NTT | Kawasaki Kangagawa |
 |  |  |  |  |  |  | 
