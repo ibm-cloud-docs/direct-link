@@ -5,6 +5,7 @@
 toc:
   properties:
     subcollection: direct-link
+    service-name: directlink
     version: 2
     category: network_interconnectivity
     audience: service
@@ -77,14 +78,14 @@ toc:
        - topicgroup:
           label: Direct Link prerequisites
           topics:
-          - prerequisites-connect.md   
-          - prerequisites-dedicated.md    
-          - prerequisites-dedicated-hosting.md   
+          - prerequisites-connect.md
+          - prerequisites-dedicated.md
+          - prerequisites-dedicated-hosting.md
           - prerequisites-exchange.md
 
     - navgroup:
        id: help
        topics:
         - faqs.md
-        - known-limitations.md 
+        - known-limitations.md
         - getting-help.md
