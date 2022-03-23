@@ -27,7 +27,6 @@ First, this section covers limitations that apply to all {{site.data.keyword.clo
 * VRF is not fully compatible with the {{site.data.keyword.cloud_notm}} SSL and IPsec VPN services.
 * VRF is not compatible with {{site.data.keyword.cloud_notm}} account-to-account VLAN spanning.
 * Direct Link on Classic requires BGP to establish the routes to a customer's remote network.
-* Changes to the Direct Link on Classic infrastructure must be made between 8AM and 5PM, US Central time zone.
 
 ## Direct Link Connect on Classic limitations
 {: #ibm-cloud-direct-link-connect-limitations}
