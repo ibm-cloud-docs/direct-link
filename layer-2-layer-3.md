@@ -71,7 +71,7 @@ The following table summarizes the type of connections that each {{site.data.key
 | Softbank | **Layer 3** |
 | SES Networks | Layer 2  |
 | Tata IZO™ Private Connect  | **Layer 3** |
-| Telia | **Layer 3** |
+| Arelion | **Layer 3** |
 | Telstra | **Layer 3** |
 | Tokai | Layer 2 |
 | Verizon SCI| **Layer 3** |

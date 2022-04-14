@@ -205,7 +205,7 @@ We're pleased to announce our new {{site.data.keyword.cloud_notm}} Direct Link S
 ## April 2018
 {: #april-2018}
 
-* 27 April: Telia is now turned up for Connect in Stockholm.
+* 27 April: Arelion (formerly Telia) is now turned up for Connect in Stockholm.
 * 25 April: LONDON 03 is now online with Equinix via Exchange. Diversity is in place, and confirmed in Portal.
 * 25 April: Primary / Secondary NNIs @ AMS02 is now installed and tested for Colt.
 * 25 April: Colt is now tested with Diversity in Frankfurt 1 PoP for Connect. Verified in Portal.

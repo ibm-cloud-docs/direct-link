@@ -107,7 +107,7 @@ Our Direct Link Connect providers include these locations:
 | Softbank | APAC: Tokyo 4 |
 | SES Networks | Americas: Washington DC 2 |
 | Tata | APAC: Chennai 1, Hong Kong 1 |
-| Telia | Americas: Washington DC 2   \n EU: Stockholm 1 |
+| Arelion | Americas: Washington DC 2   \n EU: Stockholm 1 |
 | Telstra | APAC: Melbourne 2, Sydney 2 |
 | Tokai | APAC: Osaka 1, Tokyo 3 |
 | Verizon SCI |  APAC:  Sydney 2, Tokyo 1  \n EU: Amsterdam 2, Frankfurt 1 |
