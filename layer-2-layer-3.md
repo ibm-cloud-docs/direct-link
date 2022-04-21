@@ -55,8 +55,7 @@ The following table summarizes the type of connections that each {{site.data.key
 | Chief Telecomm | Layer 2 |
 | China Unicom | **Layer 3** |
 | Colt | Layer 2  |
-| Console Connect by PCCW | Layer 2 |
-| Digital Realty Service Exchange | Layer 2 |
+| Console Connect by PCCW | Layer 2 | 
 | Epsilon | Layer 2 |
 | EU Networks | Layer 2 |
 | IBM BlueFringe | **Layer 3** |
