@@ -88,7 +88,6 @@ Our Direct Link Connect providers include these locations:
 | Cologix | Americas: Montreal 1 |
 | Console Connect by PCCW | Americas: Chicago 1, Miami 1, San Jose 2   \n APAC: Hong Kong 1, Osaka 1, Singapore 2, Sydney 5, Tokyo 1  \n EU: London 1, Frankfurt 3, Frankfurt 5  |
 | CyrusOne | Americas: Dallas 13 |
-| Digital Realty Service Exchange |	Supported by Megaport in  \n Americas: Dallas 3, San Jose 2, Sao Paulo 1, San Toronto 2, Washington DC 2  \n EU: Amsterdam 2, Frankfurt 1, London 3, Stockholm 1 |
 | Epsilon | APAC:  Singapore 2  \n EU: Frankfurt 1  |
 | Equinix | EU: Paris 3 |
 | EU Networks | EU: Frankfurt 1 |
