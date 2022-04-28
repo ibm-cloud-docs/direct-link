@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2022
-lastupdated: "2022-02-07"
+lastupdated: "2022-04-28"
 
 keywords:
 
@@ -111,7 +111,7 @@ Review the following planning considerations when ordering Dedicated Hosting on 
 ### Entrance criteria
 {: #dldh-entrance-criteria}
 
-- DLDH opportunity needs to be reviewed and approved by the Cloud Design Engineering (CDE) team before a quote is given. Existing IBM Cloud accounts can open the Direct Link Dedicated Hosting request through the IBM Cloud console and the IBM Support ticket will be routed to CDE for review. Pre-sales inquiries without an existing account can contact the CDE team at CloudEng@us.ibm.com.
+- DLDH opportunity needs to be reviewed and approved by the Cloud Design Engineering (CDE) team before a quote is given. Existing IBM Cloud accounts can open the Direct Link Dedicated Hosting request through the IBM Cloud console and the IBM Support ticket will be routed to CDE for review. Pre-sales inquiries without an existing account can contact IBM Sales.
 - Minimum requirements – One cabinet @ 5kW with two Direct Links (for high availability purposes)
 - Maximum total power capacity – 150kW
 - IaaS consumption ratio – A minimum of 2 x 1 Gbps of Direct Link capacity per cabinet (that is, six cabinets require a minimum of 12 Gbps of Direct Link capacity into IBM Cloud)
