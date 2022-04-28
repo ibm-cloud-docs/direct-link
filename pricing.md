@@ -33,7 +33,7 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 |----|----|----|----|----|----|----|----|
 | US | $100 | $150 | $300 | $650 | $1,199 | $1,999 | $3,750 |
 | Canada / Amsterdam | $103 | $155 | $309 | $670 | $1,235 | $2,059 | $3,863 |
-| Mexico / London / Norway | $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
+| London / Norway | $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
 | Paris / Frankfurt / Milan / Korea | $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 |
 | Japan / Singapore / Hong Kong | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 |
 | Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
@@ -47,7 +47,7 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 |----|----|----|----|----|
 | US | $1,199 | $1,999 | $3,750 | $4,999 |
 | Canada/Amsterdam | $1,235 | $2,059 | $3,863 | $5,149 |
-| Mexico / London / Norway| $1,283 | $2,139 | $4,013 | $5,349 |
+| London / Norway| $1,283 | $2,139 | $4,013 | $5,349 |
 | Paris / Frankfurt / Milan / Korea | $1,319 | $2,199 | $4,125 | $5,499 |
 | Japan / Singapore / Hong Kong | $1,355 | $2,259 | $4,238 | $5,649 |
 | Australia / Brazil / India | $1,439 | $2,399 | $4,500| $5,999 |
@@ -85,7 +85,7 @@ Select a tab in the table to view pricing for Direct Link on Classic offerings:
 |----|----|----|----|----|----|----|----|
 | US | $100 | $150 | $300 | $650 | $1,199 | $1,999 | $3,750 |
 | Canada / Amsterdam | $103 | $155 | $309 | $670 | $1,235 | $2,059 | $3,863 |
-| Mexico / London / Norway| $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
+| London / Norway| $107 | $161 | $321 | $696 | $1,283 | $2,139 | $4,013 |
 | Paris / Frankfurt / Milan / Korea | $110 | $165 | $330 | $715 | $1,319 | $2,199 | $4,125 |
 | Japan / Singapore / Hong Kong | $113 | $170 | $339 | $735 | $1,355 | $2,259 | $4,238 |
 | Australia / Brazil / India | $120 | $180 | $360 | $780 | $1,439 | $2,399 | $4,500|
@@ -177,7 +177,7 @@ Global routing expands access to include all {{site.data.keyword.cloud_notm}} da
 |----|----|----|----|----|----|----|----|----|
 |US | $150 | $300 | $600 | $1,500 | $3,000 | $4,000 | $4,500 | $5,000 |
 |Canada/Amsterdam | $155 | $309 | $618 | $1,545 | $3,090 | $4,120 | $4,635 | $5,150 |
-|Mexico/London/Norway | $161 | $321 | $642 | $1,605 | $3,210 | $4,280 | $4,815 | $5,350 |
+|London/Norway | $161 | $321 | $642 | $1,605 | $3,210 | $4,280 | $4,815 | $5,350 |
 |Paris/Frankfurt/Milan/Korea | $165 | $330 | $660 | $1,650 | $3,300 | $4,400 | $4,950 | $5,500 |
 |Japan/Singapore/Hong Kong | $170 | $339 | $678 | $1,695 | $3,390 | $4,520 | $5,085 | $5,650 |
 |Australia/Brazil/India | $180 | $360 | $720 | $1,800 | $3,600 | $4,800 | $5,400 | $6,000 |

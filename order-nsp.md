@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-02-17"
+lastupdated: "2022-04-28"
 
 keywords: 
 
@@ -149,7 +149,6 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Dallas 12 | DC(AZ1) | Digital Realty | DFW18 | 907 Security Row |
 | Dallas 13 | DC(AZ1) | Cyrus One | Carrollton - Frankford | 1649 W. Frankford Rd |
 | Denver 1 | PoP | Coresite | DE1 | 910 15th Street | 
-| Mexico 1 | DC | Equinix (fAlestra) | Alestra Queretaro Datacenter | Lateral Carretera Estatal 431, Parque Tecnologico Inovacion Lote 79, El Marqués |
 | Miami 1 | PoP | Equinix (fTerremark/Verizon) | NAP | 50 NE 9th Street |
 | Montreal 1 | DC | Cologix (fCOLO-D) | Cologix MTL9-H | 2525 Rue Canadien |
 | Montreal 2 | PoP | Cologix | MTL7 | 1155  Robert – Bourassa Boulevard (Formerly Known as University Street) |
