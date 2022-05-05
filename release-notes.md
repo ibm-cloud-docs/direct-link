@@ -10,7 +10,7 @@ subcollection: direct-link
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Release notes
+# Release notes for Direct Link
 {: #what-s-new}
 
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link.
