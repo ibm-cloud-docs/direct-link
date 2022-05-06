@@ -25,7 +25,6 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct L
 
 Improved the user interface
 :    Highlights include:
-
     * Updated the Direct Link on Classic page to show all types of direct links. Also added new actions to the list view.
     * Removed acceptance of the Master Service Agreement in favor of reviewing and agreeing to a list of prerequisites.
     * The details page now appears as a card component view.
@@ -51,7 +50,6 @@ IBM introduces a new Direct Link Dedicated release for VPC
 {: release-note}
 
 Expanded local markets 
-
 :    We expanded the Direct Link local markets to provide more local routing options to customers globally.
 :    New local market assignments:
     * The Dallas local market includes Denver, Houston, and Chicago PoPs.
@@ -67,7 +65,6 @@ Expanded local markets
 
 Withdrawing of global routing network transit overage charges 
 :    Network transit limits and overage charges for customers with the Global routing option are withdrawn. Previous pricing included network transit allowances and overage charges for egress traffic outside of the customer’s local market. New pricing eliminates these network traffic charges. Henceforth, ingress and egress traffic across Direct Link connections do not incur overages.
-
 :    6 March: Megaport is available in Chicago for Connect
 :    13 March: Tokai is available in Tokyo 3 for Connect
 :    8 March: TATA is available in Hong Kong 1 for Connect
@@ -78,6 +75,7 @@ Withdrawing of global routing network transit overage charges
 {: #dl-feb2819}
 {: release-note}
 
+February highlights
 :    28 February: Zayo is now available in Washington DC 2 for Connect
 :    27 February: MWS GNPP is now available in both Dallas 03 and Washington DC 2 for Connect
 :    21 February: Cyrus One is now available in Dallas 13 for Exchange
@@ -88,12 +86,14 @@ Withdrawing of global routing network transit overage charges
 {: #dl-jan1719}
 {: release-note}
 
+January highlights
 :    17 January: Intercloud is now available in both Frankfurt PoPs (FRA01 & FRA03) for Connect.
 
 ## 21 December 2018
 {: #dl-dec2118}
 {: release-note}
 
+December highlights
 :    21 December: Console Connect by PCCW is now diversely available in SNG02, TOK01, LON01, and SJC02.
 :    5 December: IBM Bluefringe is now available in Chennai for Exchange.
 
@@ -101,6 +101,7 @@ Withdrawing of global routing network transit overage charges
 {: #dl-nov2918}
 {: release-note}
 
+November highlights
 :    29 November: Colt is now available for Connect in SNG02.
 :    7 November: Ascenty is now available for Exchange with Diversity in SAO01.
 :    5 November: Equinix is now live at TOK03 with Full Diversity on Exchange.
@@ -110,6 +111,7 @@ Withdrawing of global routing network transit overage charges
 {: #dl-oct1618}
 {: release-note}
 
+October highlights
 :    16 October: Kinx is now active as an Exchange provider in Seoul02, with diversity.
 :    2 October: Megaport is now available in Hong Kong for Connect, non-diverse for now.
 
@@ -120,6 +122,7 @@ New Connectivity Options for Direct Link
 {: #dl-sep-0818}
 {: release-note}
 
+September highlights
 :    8 September: Megaport is now Diverse in WDC02 for Connect.
 :    8 September: SES Networks is now available with Diversity in WDC02 for Connect.
 :    8 September: BT is now available without Diversity in Sao Paulo for Connect.
@@ -156,6 +159,7 @@ Colt offers direct access to IBM Cloud Direct Link
 {: #dl-may0718}
 {: release-note}
 
+May highlights
 :    7 May: Megaport is now active on a single Router in WDC02 for Connect. Diversity follows in a few weeks.
 :    2 May: Equinix in NY02 and NY03 were delivered for Exchange, and are now live in the portal (with Diversity).
 
@@ -163,6 +167,7 @@ Colt offers direct access to IBM Cloud Direct Link
 {: #dl-apr0718}
 {: release-note}
 
+April highlights
 :    27 April: Arelion (formerly Telia) is now turned up for Connect in Stockholm.
 :    25 April: LONDON 03 is now online with Equinix via Exchange. Diversity is in place, and confirmed in Portal.
 :    25 April: Primary / Secondary NNIs @ AMS02 is now installed and tested for Colt.
