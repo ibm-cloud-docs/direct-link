@@ -169,7 +169,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Washington DC 7 | DC(AZ1) | Sabey | Sabey Intergate.Ashburn | 21741 Red Rum Dr|
 {: caption="Table 1: Direct Link Dedicated locations" caption-side="bottom"}
 
-* NYC02 and NYC03 connect to the IBM Cloud backbone through NYC1. The primary reason for these PoPs is to extend connectivity to different site providers from our NYC01 site. When planning your diversity strategy, keep in mind that traffic for NYC02 and NYC03 have a single, shared path to the IBM network.
+\* NYC02 and NYC03 connect to the IBM Cloud backbone through NYC1. The primary reason for these PoPs is to extend connectivity to different site providers from our NYC01 site. When planning your diversity strategy, keep in mind that traffic for NYC02 and NYC03 have a single, shared path to the IBM network.
 
 ## Pricing
 {: #dedicated-pricing-classic}
