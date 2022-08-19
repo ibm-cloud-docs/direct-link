@@ -100,7 +100,7 @@ To order Direct Link Exchange on Classic for Equinix, follow these steps:
    ![Select a Port, Location, and Destination](/images/equinix-port.png "Select a Port, Location, and Destination"){: caption="Select a Port, Location, and Destination" caption-side="bottom"}   
 
 1. Select a **Location**, followed by a **Destination**. Then, click **Next**.  
-1. On the Connection Details page, enter the connection information. For Account ID, enter the Classic Softlayer Account ID (for example, `114340xxx`) that was generated when you provisioned your direct link. This key can be found on the Direct Link details page.
+1. On the Connection Details page, enter the connection information. For Account ID, enter the Classic Softlayer Account ID (for example, `114340xxx`). This is the unique account ID that was initially created to start using IBM Cloud. 
 1. Select a **Connection Speed**, then click **Next**.   
 1. Review and click **Submit Your Order**.
 1. Return to the [IBM Cloud Direct Link Exchange page](https://cloud.ibm.com/classic/network/directlink/exchange) in the IBM Cloud console. Notice that the connection status for your direct link connection states **Create Approval Pending**.
