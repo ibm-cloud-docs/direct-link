@@ -30,7 +30,7 @@ To determine which Direct Link solution is best for your networking environment,
 Here is the general process to order a Direct Link service:
 
 1. Verify your network provider's capabilities to reach the appropriate {{site.data.keyword.cloud_notm}} PoP.
-2. Use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) to open a Direct Link Exchange request and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the [Direct Link Exchange prerequisites](/docs/direct-link?topic=direct-link-ibm-cloud-dl-exchange-prereqs).
+2. Use the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](/login) to open a Direct Link Exchange request and complete the requested information. You can request assistance from IBM Cloud Sales engineers. When you are ready to create your order, you are prompted to read and agree to the [Direct Link Exchange prerequisites](/docs/direct-link?topic=direct-link-ibm-cloud-dl-exchange-prereqs).
 
    If the Direct Link order is for the Equinix Cloud Exchange, the service provisioning is fully automated. This means that you can place an order for a Direct Link connection (Equinix) without opening an IBM Support case. Automation capabilities currently are limited to the Equinix Cloud Exchange.
 {: note}
@@ -45,7 +45,7 @@ IP assignment on the {{site.data.keyword.cloud_notm}} networking infrastructure 
 
 To provision an IBM Cloud Direct Link Exchange connection, complete the following steps. To order Direct Link Exchange for Equinix, follow [Steps to order Direct Link Exchange on Classic for Equinix](/docs/direct-link?topic=direct-link-how-to-order-ibm-cloud-direct-link-exchange#provisioning-ibm-cloud-direct-link-exchange-for-equinix).
 
-1. Log in to your [IBM Cloud console](https://cloud.ibm.com/){: external} account.
+1. Log in to your [IBM Cloud console](/login){: external} account.
 1. Select the **Navigation Menu** icon ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Classic Infrastructure** > **Direct Link**.
 
    The Direct Link on Classic page opens, listing existing Direct Link connections provisioned for this account.    
@@ -103,7 +103,7 @@ To order Direct Link Exchange on Classic for Equinix, follow these steps:
 1. On the Connection Details page, enter the connection information. For Account ID, enter the Classic Softlayer Account ID (for example, `114340xxx`). This is the unique account ID that was initially created to start using IBM Cloud. 
 1. Select a **Connection Speed**, then click **Next**.   
 1. Review and click **Submit Your Order**.
-1. Return to the [IBM Cloud Direct Link Exchange page](https://cloud.ibm.com/classic/network/directlink/exchange) in the IBM Cloud console. Notice that the connection status for your direct link connection states **Create Approval Pending**.
+1. Return to the [IBM Cloud Direct Link Exchange page](/classic/network/directlink/exchange) in the IBM Cloud console. Notice that the connection status for your direct link connection states **Create Approval Pending**.
 1. Open the Actions ![Actions menu](/images/overflow.png) menu and click **Accept**.
 
       ![Equinix request approval pending](/images/equinix-request-pending.png){: caption="Equinix request approval pending" caption-side="bottom"}   
@@ -114,7 +114,7 @@ To order Direct Link Exchange on Classic for Equinix, follow these steps:
 
       ![Equinix order summary pane](/images/equinix-order-summary.png){: caption="Equinix order summary pane" caption-side="bottom"}
 
-The timeline for approval is within 24 hours. If the 24-hour Service Level Agreement (SLA) is not acceptable, you can [create an IBM Support case](https://cloud.ibm.com/unifiedsupport/cases/form) and request that it be routed to the SNS team.
+The timeline for approval is within 24 hours. If the 24-hour Service Level Agreement (SLA) is not acceptable, you can [create an IBM Support case](/unifiedsupport/cases/form) and request that it be routed to the SNS team.
 {: note}
 
 ## Ordering Direct Link Exchange on Classic when there is no VRF present

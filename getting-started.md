@@ -21,7 +21,7 @@ subcollection: direct-link
 ## How do I know which Direct Link solution to order?
 {: #get-started-solution-to-order}
 
-Use this decision tree to help you decide which solution works best for you. If you want help with getting started, you can open an IBM Support case through the [IBM Cloud console](https://cloud.ibm.com/unifiedsupport/cases/add){: external}, or contact your {{site.data.keyword.cloud_notm}} sales representative.
+Use this decision tree to help you decide which solution works best for you. If you want help with getting started, you can open an IBM Support case through the [IBM Cloud console](/unifiedsupport/cases/add){: external}, or contact your {{site.data.keyword.cloud_notm}} sales representative.
 
 ![direct-link-decision-tree](/images/flow.png){: caption="Figure 1. Direct Link decision tree" caption-side="bottom"}
 

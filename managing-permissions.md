@@ -20,7 +20,7 @@ To enable your users to view direct links, you must add the correct IBM Cloud Id
 
 To grant a user permission to view direct link details, follow these steps:
 
-1. Log in to the [Access (IAM)](https://cloud.ibm.com/iam/users){: external} page in the {{site.data.keyword.cloud}} console.
+1. Log in to the [Access (IAM)](/iam/users){: external} page in the {{site.data.keyword.cloud}} console.
 1. Select the user's name that you want to update permissions for.
 1. Click the **Access groups** tab, then select the **Add cases and view orders** and **View cases** groups. 
 1. Click the **Classic infrastructure** tab, then from the **Permissions** tab, expand the **Account** category. 
