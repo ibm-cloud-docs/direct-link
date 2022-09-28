@@ -193,5 +193,5 @@ For detailed instructions on how to provision a VRA, see the
 ### Provisioning IBM Cloud Object Storage (COS)
 {: #direct-link-how-to-provision-ibm-cloud-object-storage}
 
-* For detailed instructions on how to provision COS, refer to the [Cloud Object Storage Guide](/catalog/services/cloud-object-storage){: external}.
+* For detailed instructions on how to provision COS, refer to the [Cloud Object Storage Guide](/docs/cloud-object-storage).
 * Use one of the private endpoints (listed previously) to create an interface with your bucket or any object in your provisioned COS account.
