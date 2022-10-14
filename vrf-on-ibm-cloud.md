@@ -77,5 +77,5 @@ Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared 
 For specific information about how to initiate a VRF conversion for your account, refer to the conversion instructions for your IBM Cloud offering. For example:
 
 * [Direct Link conversion instructions](/docs/direct-link?topic=direct-link-what-happens-during-the-account-conversion-process)
-* [VPC conversion instructions](/docs/vpc-on-classic?topic=vpc-on-classic-setting-up-access-to-your-classic-infrastructure-from-vpc#how-you-can-initiate-the-conversion)
+* [VPC conversion instructions](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure&interface=ui#how-you-can-initiate-the-conversion)
 * [{{site.data.keyword.cloud_notm}} service endpoints conversion instructions](/docs/account?topic=account-vrf-service-endpoint)
