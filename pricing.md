@@ -159,11 +159,11 @@ However, we have expanded our Direct Link local markets to provide more local ro
 | Milan | MIL01, MIL02 |
 | Oslo | OSL02, Stockholm 1 |
 | Paris | PAR01, PAR02 |
-| Chennai | CHE01, Mumbai 1* |
-| Hong Kong | HKG01, HKG03* |
+| Chennai | CHE01, Mumbai 1 |
+| Hong Kong | HKG01, HKG03 |
 | Singapore | SNG01, SNG02 |
 | AP South (Sydney) | MEL02, Perth 1, SYD01, SYD02, SYD03, SYD04, SYD05 |
-| AP North (Tokyo) | SEO02, TOK01, TOK02, TOK03, TOK04, TOK05, Osaka 1* |
+| AP North (Tokyo) | SEO02, TOK01, TOK02, TOK03, TOK04, TOK05, Osaka 1 |
 {: caption="Table 6: Local Markets and Sites" caption-side="bottom"}
 
 For example, in the US South Market, Direct Link customers can send or retrieve data to or from any {{site.data.keyword.cloud_notm}} location in the defined market (Dallas, Houston, Denver, and Chicago) without the need for the global routing add-on.
