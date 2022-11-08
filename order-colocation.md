@@ -92,7 +92,7 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 | Americas | DAL13 | Carrollton | DC (AZ3) | CyrusOne | 1649 Frankford Rd. |
 | Americas | MON01 | Drummond  | DC | Colo-D  | 2525 Rue Canadien |
 | Americas | SJC3 | San Jose | DC | Digital Realty  | 1100 Space Park Drive |
-| Americas | SAO1 | São Paulo | DC | Ascenty  | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II, Jundiai |
+| Americas | SAO01 | São Paulo | DC | Ascenty  | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II, Jundiai |
 | Americas | SJC03 | Santa Clara | DC | Digital Realty  | 1100 Space Park Drive |
 | Americas | TORO5 | Toronto | DC (AZ3) | Digital Realty | 1 Century Place, Vaughan |
 | Americas | WDC04 | Ashburn | DC (AZ1) | Digital Realty  | 44060 Digital Loudoun Plaza (Bldg K)
