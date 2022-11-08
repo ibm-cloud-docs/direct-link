@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-03-07"
+lastupdated: "2022-11-08"
 
 keywords:
 
@@ -91,11 +91,10 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 | Americas | DAL12 | Richardson |	DC (AZ2) | Digital Realty  | 1210 Integrity Dr.  |
 | Americas | DAL13 | Carrollton | DC (AZ3) | CyrusOne | 1649 Frankford Rd. |
 | Americas | MON01 | Drummond  | DC | Colo-D  | 2525 Rue Canadien |
-| Americas | SAO01 | Sao Paulo | DC | Digital Realty (Ascenty) | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II, Jundial |
 | Americas | SJC3 | San Jose | DC | Digital Realty  | 1100 Space Park Drive |
-| Americas | SAO1 | Sao Paulo | DC | Ascenty  | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II, Jundiai |
+| Americas | SAO1 | São Paulo | DC | Ascenty  | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II, Jundiai |
 | Americas | SJC03 | Santa Clara | DC | Digital Realty  | 1100 Space Park Drive |
-| Americas | TORO1 | Markham | DC | Sungard | 371 Gough Road |
+| Americas | TORO5 | Toronto | DC (AZ3) | Digital Realty | 1 Century Place, Vaughan |
 | Americas | WDC04 | Ashburn | DC (AZ1) | Digital Realty  | 44060 Digital Loudoun Plaza (Bldg K)
 | Americas | WDC06 | Ashburn | DC (AZ3) | Raging Wire | 44610 Guilford Drive |
 | Americas | WDC07 | Ashburn | DC (AZ2) | Sabey | 21741 Red Rum Dr |
