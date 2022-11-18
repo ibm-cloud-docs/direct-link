@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-07-08"
+  years: 2017, 2022
+lastupdated: "2022-11-18"
 
 keywords: 
 
@@ -159,7 +159,9 @@ We are unable to support any QoS guarantees. QoS requires MPLS mapping between e
 
 Jumbo frames (up to 9214 bytes) are supported on Dedicated and Dedicated Hosting.
 Support on Connect and Exchange is theoretically possible, but it requires your Service Provider to work with IBM and ensure that the end-to-end connection supports Jumbo Frames, including the underlying Network-to Network-Interface (NNI).
-By default, Exchange and Connect are set up with 1500-byte MTU support.
+
+Exchange and Connect support up to a 1500-byte Maximum Transmission Unit (MTU). 
+{: important} 
 
 ## With Direct Link Connect how does a customer ensure router diversity through the same carrier (for example, Verizon in DAL03)?
 {: #with-diret-link-connect-how-does-a-customer-ensure-router-diversity-through-the-same-carrier}
