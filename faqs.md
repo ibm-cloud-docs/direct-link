@@ -18,18 +18,18 @@ subcollection: direct-link
 You can review answers to some frequently asked questions about {{site.data.keyword.cloud}} Direct Link.
 {: shortdesc}
 
-## How does Direct Link on Classic differ from the new Direct Link (2.0) offering?
+## How does Direct Link on Classic differ from the new Direct Link offering?
 {: #differentiators}
 {: faq}
 {: support}
 
-The new Direct Link (2.0) offering differs from the Direct Link classic infrastructure in that Direct Link (2.0) is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
+The new Direct Link offering differs from the Direct Link classic infrastructure in that IBM Cloud Direct Link is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
 
 The zone-region model allows for multiple data centers to exist in a single zone.
 
- The new Direct Link (2.0) offering allows connectivity to both Classic IaaS as well as VPCs, whereas the Classic Direct Link always connects to IaaS network and a global VRF first. Classic Direct Link can only reach VPC on a limited basis utilizing a VPC feature called Classic Access and by adding global routing to the direct link. For more information, see [Setting up access to your Classic Infrastructure from VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure).
+ The new Direct Link offering allows connectivity to both Classic IaaS as well as VPCs, whereas the Classic Direct Link always connects to IaaS network and a global VRF first. Classic Direct Link can only reach VPC on a limited basis utilizing a VPC feature called Classic Access and by adding global routing to the direct link. For more information, see [Setting up access to your Classic Infrastructure from VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure).
 
-For information about the differences between the new Direct Link (2.0) offerings and the Classic versions, see [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order) and [Getting started with IBM Cloud Direct Link Dedicated](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl).
+For information about the differences between the new Direct Link offerings and the "on Classic" versions, see [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order) and [Getting started with IBM Cloud Direct Link Dedicated](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl).
 {: tip}
 
 ## How does IBM Cloud Direct Link work?

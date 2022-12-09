@@ -41,7 +41,7 @@ IBM introduces a new Direct Link Dedicated release for VPC
     * Support for multiple VPCs (without classic access) from a single Direct Link within the same account.
     * Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and IBM Cloud.
     
-:    To learn more about the new Direct Link (2.0) offerings, see [FAQs](/docs/dl?topic=dl-faqs). For pricing and ordering information, see [Getting started with IBM Cloud Direct Link (2.0)](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl).
+:    To learn more about the new Direct Link offerings, see [FAQs](/docs/dl?topic=dl-faqs). For pricing and ordering information, see [Getting started with IBM Cloud Direct Link](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl).
 
 :    To determine which Direct Link Dedicated solution is right for your networking needs, see [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
 
