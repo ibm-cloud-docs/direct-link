@@ -87,7 +87,7 @@ If the {{site.data.keyword.cloud}} Direct Link on Classic order is for the Equin
 To order Direct Link Exchange on Classic for Equinix, follow these steps:
 
 1. Log in to the Equinix Cloud Exchange (ECX) Fabric portal.
-   * Navigate to [https://ecxfabric.equinix.com](https://ecxfabric.equinix.com).
+   * Navigate to [https://ecxfabric.equinix.com](https://ecxfabric.equinix.com){: external}.
    * Enter your username and password.
    * Click **Sign In**.   
 1. In the Frequent Connections section, click the **IBM Cloud** tile.
