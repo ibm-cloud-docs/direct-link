@@ -31,17 +31,16 @@ toc:
           - diversity-models.md
           - layer-2-layer-3.md
           - connect-details.md
+
        - topicgroup:
            label: Related links
            topics:
             - link:
-                label: Getting started with IBM Cloud Direct Link
-                href: /dl/dl-get-started-with-ibm-cloud-dl
+                label: Direct Link Docs
+                href: https://{DomainName}/docs/dl/dl-get-started-with-ibm-cloud-direct-link
             - link:
-                label: Getting started with Virtual Private Cloud (VPC)
-                href: /vpc/vpc-getting-started
-            - topic: video-hybrid-cloud.md
-              navtitle: "Video: Direct Link for hybrid cloud"
+                label: Virtual Private Cloud (VPC) Docs
+                href: https://{DomainName}/docs/vpc/vpc-getting-started
        - release-notes.md
 
     - navgroup:
@@ -50,8 +49,8 @@ toc:
        - topicgroup:
           label: Classic infrastructure
           topics:
-          - /solution-tutorials/solution-tutorials-byoip
-          - /solution-tutorials/solution-tutorials-secure-network-enclosure
+          - include: ../solution-tutorials/byoip.md
+          - include: ../solution-tutorials/secure-network-enclosure.md
 
     - navgroup:
        id: howto
