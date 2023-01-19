@@ -38,12 +38,12 @@
       "community": "https://community.ibm.com/community/user/publiccloud/search?executeSearch=true&SearchTerm=direct%20link&rf=%5EMulti04%3Adirect%5E"
     },
     "section_updates": {
-      "view_more": "docs/direct-link?topic=direct-link-direct-link-release-notes",
+      "view_more": "/docs/direct-link?topic=direct-link-direct-link-release-notes",
       "tiles": [
         {
-          "date": "",
-          "title": "How do I know which Direct Link solution to order?",
-          "description": "Use this decision tree to help you decide which solution works best for you. Click the 'View more' link for details."
+          "date": "01 March 2022",
+          "title": "Improved user interface",
+          "description": "Click the 'View more' link for details."
         }
       ]
     }
