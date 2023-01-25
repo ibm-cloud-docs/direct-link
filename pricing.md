@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2022
-lastupdated: "2022-04-28"
+  years: 2018, 2023
+lastupdated: "2023-01-25"
 
 keywords:
 
@@ -157,7 +157,6 @@ However, we have expanded our Direct Link local markets to provide more local ro
 | EU Central (Frankfurt) | FRA01, FRA02, FRA03, FRA04, FRA05 |
 | UK South (London) | LON01, LON02, LON03, LON04, LON05, LON06 |
 | Milan | MIL01, MIL02 |
-| Oslo | OSL02, Stockholm 1 |
 | Paris | PAR01, PAR02 |
 | Chennai | CHE01, Mumbai 1 |
 | Hong Kong | HKG01, HKG03 |

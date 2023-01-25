@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-04-28"
+  years: 2017, 2023
+lastupdated: "2023-01-25"
 
 keywords: 
 
@@ -135,10 +135,8 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | London 6 | DC(AZ3) | Cyrus One (fZenium) | LON1 | 12 Liverpool Rd, Trading Estate |
 | Milan 1 |  DC | Data4 | | Via Monzoro 101-105, 20010 Cornaredo (MI) |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way | Infracom Italia Spa, Building D, Caldera Business Park, Via Caldera, 21|
-| Oslo 2 | POP | Verizon | Verizon Oslo | Hans Møller Gassmanssvei 9 |
 | Paris 1 | DC | Global Switch | PAR01 | Société par Actions Simplifiée Unipersonnelle, 7-9 rue Petit |
 | Paris 2 | PoP | Equinix | PA2 | 114 Rue Ambroise Croizat, St Denis |
-| Stockholm 1 | PoP | Digital Realty (fInterXion)  | STO01 | Esbogatan 11 |
 | **Americas** |  |  |  |
 | Atlanta 1 | PoP | Digital Realty | ATL13 | 56 Marietta Street |
 | Chicago 1 | PoP | Equinix | CH4 | 350 E. Cermak |
