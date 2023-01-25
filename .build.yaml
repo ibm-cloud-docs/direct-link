@@ -1,3 +1,4 @@
 includes:
+  - https://github.ibm.com/cloud-docs/dl-cli-plugin
   - https://github.ibm.com/cloud-docs/vpc
   - https://github.ibm.com/cloud-docs-solutions/solution-tutorials
