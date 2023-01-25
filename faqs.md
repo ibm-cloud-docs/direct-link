@@ -23,7 +23,7 @@ You can review answers to some frequently asked questions about {{site.data.keyw
 {: faq}
 {: support}
 
-The new Direct Link offering differs from the Direct Link classic infrastructure in that IBM Cloud Direct Link is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
+The new IBM Cloud Direct Link offering differs from "Direct Link on Classic" in that the new Direct Link is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
 
 The zone-region model allows for multiple data centers to exist in a single zone.
 
@@ -164,13 +164,13 @@ Exchange and Connect support up to a 1500-byte Maximum Transmission Unit (MTU).
 {: important} 
 
 ## With Direct Link Connect how does a customer ensure router diversity through the same carrier (for example, Verizon in DAL03)?
-{: #with-diret-link-connect-how-does-a-customer-ensure-router-diversity-through-the-same-carrier}
+{: #with-direct-link-connect-how-does-a-customer-ensure-router-diversity-through-the-same-carrier}
 {: faq}
 
 We have diverse cross-connect routers (XCRs) creating diverse NNI links to the carrier. It is up to the carrier to maintain diversity from that point.
 
 ## For Direct Link Connect does a customer need to order two links for redundancy, or is the Direct Link Connect inherently redundant?
-{: #for-diret-link-connect-does-a-customer-need-to-order-2-links-for-redundancy}
+{: #for-direct-link-connect-does-a-customer-need-to-order-2-links-for-redundancy}
 {: faq}
 
 Order two links for diversity. We do not offer redundancy between switches or routers. Customers create redundancy with their BGP configurations on each Direct Link.
