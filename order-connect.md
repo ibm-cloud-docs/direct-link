@@ -95,7 +95,7 @@ Our Direct Link Connect providers include these locations:
 | IBM Power Virtual Server | Americas: Dallas 12, Montreal 1, Sao Paulo 1, Toronto 1, Washington DC 4  \n APAC: Osaka 21, Sydney 4  \n EU: Frankfurt 4, Frankfurt 5, London 4, London 6  |
 | Intercloud | EU: Amsterdam 2, Frankfurt 1, Frankfurt 3 |
 | IXReach | Americas: Washington DC 2  \n EU: London 1 (no diversity), London 3 (no diversity) |
-| Megaport | Americas: Chicago 1, Dallas 4, San Jose 2 (no diversity), Toronto 2 (no diversity), Washington DC 2  \n APAC: Hong Kong 1 (no diversity), Melbourne 2, Osaka 1, Tokyo 2, Tokyo 3, Singapore 2, Sydney 2  \n EU: Amsterdam 2 (no diversity), Frankfurt 1, London 3 (no diversity), Paris 2, Stockholm 1 (no diversity) |
+| Megaport | Americas: Chicago 1, Dallas 4, San Jose 2 (no diversity), Toronto 2 (no diversity), Washington DC 2  \n APAC: Hong Kong 1 (no diversity), Melbourne 2, Osaka 1, Tokyo 2, Tokyo 3, Singapore 2, Sydney 2  \n EU: Amsterdam 2 (no diversity), Frankfurt 1, London 3 (no diversity), Paris 2 |
 | Neutrona |  Americas: Dallas 3, Sao Paulo 2, Washington DC 2 |
 | nextGen Global Network Peering Platform (GNPP) |  Americas: Dallas 3, Washington DC 2  \n EU: Amsterdam 2 (no diversity), Frankfurt 3, London 4 |
 | NTT | APAC: Tokyo 5 |
@@ -105,7 +105,7 @@ Our Direct Link Connect providers include these locations:
 | Softbank | APAC: Tokyo 4 |
 | SES Networks | Americas: Washington DC 2 |
 | Tata | APAC: Chennai 1, Hong Kong 1 |
-| Arelion | Americas: Washington DC 2   \n EU: Stockholm 1 |
+| Arelion | Americas: Washington DC 2 |
 | Telstra | APAC: Melbourne 2, Sydney 2 |
 | Tokai | APAC: Osaka 1, Tokyo 3 |
 | Verizon SCI |  APAC:  Sydney 2, Tokyo 1  \n EU: Amsterdam 2, Frankfurt 1 |
