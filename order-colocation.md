@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-11-08"
+  years: 2017, 2023
+lastupdated: "2023-02-08"
 
 keywords:
 
@@ -85,30 +85,30 @@ To provision a Direct Link Dedicated Hosting order, complete the following steps
 
 This table shows which {{site.data.keyword.cloud_notm}} data centers are able to accept customers for Dedicated Hosting:
 
-| Region | Site ID | City | Site Type | Site Partner | Site Address |
-|-------|-------|-------|-------|-------|-------|
-| Americas | DAL09 | Richardson | DC | Digital Realty  | 900 Quality Way |  
-| Americas | DAL12 | Richardson |	DC (AZ2) | Digital Realty  | 1210 Integrity Dr.  |
-| Americas | DAL13 | Carrollton | DC (AZ3) | CyrusOne | 1649 Frankford Rd. |
-| Americas | MON01 | Drummond  | DC | Colo-D  | 2525 Rue Canadien |
-| Americas | SJC3 | San Jose | DC | Digital Realty  | 1100 Space Park Drive |
-| Americas | SAO01 | São Paulo | DC | Ascenty  | Rua Presbitero Plinio Alves de Souza, 757 J. Ermida II, Jundiai |
-| Americas | SJC03 | Santa Clara | DC | Digital Realty  | 1100 Space Park Drive |
-| Americas | TORO5 | Toronto | DC (AZ3) | Digital Realty | 1 Century Place, Vaughan |
-| Americas | WDC04 | Ashburn | DC (AZ1) | Digital Realty  | 44060 Digital Loudoun Plaza (Bldg K)
-| Americas | WDC06 | Ashburn | DC (AZ3) | Raging Wire | 44610 Guilford Drive |
-| Americas | WDC07 | Ashburn | DC (AZ2) | Sabey | 21741 Red Rum Dr |
-|  |  |  |  |  |  |
-| APAC | OSA21 | Osaka 21 | PoP | Digital Realty | 6-1 Saitoaokita Mino-shi |
-| APAC | SYD04 | Sydney |	DC (AZ2) |	Digital Realty  |	1-11 Templar Road, Erskine Park |
-| APAC | SYD05 | Sydney |	DC (AZ3) |	Equinix |	200 Bourke Rd |
-| APAC | TOK02  | Koto-ku | DC (AZ1) | AT Tokyo  |  Koto-ku |
-| APAC | TOK05  | Kawasaki Kangagawa  | DC (AZ3) | NTT | Kawasaki Kangagawa |
-|  |  |  |  |  |  |
-| EMEA | FRA04  | Frankfurt | DC (AZ2) | E-shelter | Eschborner Landstrasse 100, Building H |
-| EMEA | FRA05  | Frankfurt | DC (AZ3) | InterXion | Weismüllerstraße 40 |
-| EMEA | LON02  | Chessington | DC | Digital Realty  | Fountain Court |
-| EMEA | MIL01 | Milan | DC |	Data4 |	Via Monzoro 101-105, 20010 Cornaredo (MI) |
+| Region | Site ID | City | Site Type | Site Partner |  
+|-------|-------|-------|-------|-------|
+| Americas | DAL09 | Richardson | DC | Digital Realty  |
+| Americas | DAL12 | Richardson |	DC (AZ2) | Digital Realty  |
+| Americas | DAL13 | Carrollton | DC (AZ3) | CyrusOne |
+| Americas | MON01 | Drummond  | DC | Colo-D  |
+| Americas | SJC3 | San Jose | DC | Digital Realty  |
+| Americas | SAO01 | São Paulo | DC | Ascenty  |
+| Americas | SJC03 | Santa Clara | DC | Digital Realty  |
+| Americas | TORO5 | Toronto | DC (AZ3) | Digital Realty |
+| Americas | WDC04 | Ashburn | DC (AZ1) | Digital Realty  |
+| Americas | WDC06 | Ashburn | DC (AZ3) | Raging Wire |
+| Americas | WDC07 | Ashburn | DC (AZ2) | Sabey |
+|  |  |  |  |  |
+| APAC | OSA21 | Osaka 21 | PoP | Digital Realty |
+| APAC | SYD04 | Sydney |	DC (AZ2) |	Digital Realty  |
+| APAC | SYD05 | Sydney |	DC (AZ3) |	Equinix |
+| APAC | TOK02  | Koto-ku | DC (AZ1) | AT Tokyo  |
+| APAC | TOK05  | Kawasaki Kangagawa  | DC (AZ3) | NTT |
+|  |  |  |  |  |
+| EMEA | FRA04  | Frankfurt | DC (AZ2) | E-shelter |
+| EMEA | FRA05  | Frankfurt | DC (AZ3) | InterXion |
+| EMEA | LON02  | Chessington | DC | Digital Realty  |
+| EMEA | MIL01 | Milan | DC |	Data4 |
 {: caption="Table 1: Dedicated Hosting locations" caption-side="bottom"}
 
 ## Pricing
