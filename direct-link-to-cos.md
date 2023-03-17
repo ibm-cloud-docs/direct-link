@@ -42,7 +42,7 @@ Endpoints are URLs that applications use to issue COS commands and exchange data
 
 Servers that are provisioned within {{site.data.keyword.cloud_notm}} use private API endpoints for services, including COS. Private endpoints provide your {{site.data.keyword.cloud_notm}} servers with high-speed, direct connections to services, with no added bandwidth costs.
 
-COS public endpoints provide {{site.data.keyword.cloud_notm}} customers with access to the same COS data that is accessible from within {{site.data.keyword.cloud_notm}}, but public endpoints permit access from any internet-equipped location.
+COS private endpoints provide {{site.data.keyword.cloud_notm}} customers with access to the same COS data that is accessible from within {{site.data.keyword.cloud_notm}}, but public endpoints permit access from any internet-equipped location.
 
 Two caveats apply to COS public endpoints:
 
