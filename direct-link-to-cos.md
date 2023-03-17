@@ -64,7 +64,7 @@ This solution is diagrammed and described in the sections that follow.
 ### Reverse proxy
 {: #direct-link-reverse-proxy}
 
-Basic premise: Remote clients pass requests, including secure credentials, through a private server to COS
+Basic premise: Remote clients pass requests, including secure credentials, through a private server to COS.
 
 ![reverse=proxy](images/reverse-proxy.png){: caption="Figure 1. Reverse proxy" caption-side="bottom"}
 
