@@ -46,9 +46,6 @@ To provision a Direct Link Connect order, complete the following steps:
    The Direct Link on Classic page opens, listing existing Direct Link connections provisioned for this account.
    
 1. Click **Order Direct Link** in the upper right of the page. The Choose Direct Link option page is displayed.
-
-   ![Choose Direct Link option](/images/choose-direct-link-option.png){: caption="Choose Direct Link option" caption-side="bottom"}    
-   
 1. Select the **Direct Link Connect** tile to open the order form.
 1. Complete the following information to configure Direct Link Connect:
 
@@ -112,8 +109,3 @@ Our Direct Link Connect providers include these locations:
 | Vodafone | EU: Frankfurt 1 (no diversity), Frankfurt 3 (no diversity), London 1 (no diversity), London 3 (no diversity)  |
 | Zayo | Americas: Dallas 3, Toronto 2, Washington DC 2 |
 {: caption="Table 1: Direct Link Connect provider locations" caption-side="bottom"}
-
-## Pricing
-{: #connect-pricing}
-
-For more information, see **Connect on Classic** tab in the [pricing table](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link).

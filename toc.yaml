@@ -23,7 +23,6 @@ toc:
        - getting-started.md
        - about.md
        - dl-july-policy-change.md
-       - pricing.md
        - topicgroup:
           label: Deployment considerations
           topics:
@@ -38,11 +37,11 @@ toc:
            label: Related links
            topics:
             - link:
-                label: Direct Link Docs
-                href: https://{DomainName}/docs/dl/dl-get-started-with-ibm-cloud-direct-link
+                label: Getting started with Direct Link 
+                href: /dl/dl-get-started-with-ibm-cloud-dl
             - link:
-                label: Virtual Private Cloud (VPC) Docs
-                href: https://{DomainName}/docs/vpc/vpc-getting-started
+                label: Getting started with Virtual Private Cloud (VPC) 
+                href: /vpc/vpc-getting-started
        - release-notes.md
 
     - navgroup:

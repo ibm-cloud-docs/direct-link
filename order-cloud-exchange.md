@@ -50,10 +50,7 @@ To provision an IBM Cloud Direct Link Exchange connection, complete the followin
 
    The Direct Link on Classic page opens, listing existing Direct Link connections provisioned for this account.    
    
-1. Click **Order Direct Link** in the upper right of the page. The Choose Direct Link option page is displayed.
-
-   ![Choose Direct Link option](/images/choose-direct-link-exchange.png){: caption="Choose Direct Link option" caption-side="bottom"}    
-   
+1. Click **Order Direct Link** in the upper right of the page. The Choose Direct Link option page is displayed.   
 1. Select the **Direct Link Exchange** tile to open the order form. 
 
    Optionally, if diverse ports are accessible, and you previously provisioned the first virtual circuit, you see a page similar to the following one, which shows two ports from which you can select your second virtual circuit. For example:  /n
@@ -142,8 +139,3 @@ For the accounts with no Virtual Routing and Forwarding (VRF) present, the **Sel
 {: caption="Table 1: Data centers that offer Direct Link Exchange connectivity" caption-side="bottom"}
 
 * NYC02 and NYC03 connect to the IBM Cloud backbone through NYC1. The primary reason for these PoPs is to extend connectivity to different site providers from our NYC01 site. When planning your diversity strategy, keep in mind that traffic for NYC02 and NYC03 have a single, shared path to the IBM network.
-
-## Pricing
-{: #exchange-pricing}
-
-For more information, see the **Exchange on Classic** tab in the [pricing table](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link).

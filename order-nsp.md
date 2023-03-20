@@ -67,10 +67,7 @@ To provision a Direct Link Dedicated order, complete the following steps:
 
    The Direct Link on Classic page opens, listing existing Direct Link connections provisioned for this account.    
    
-1. Click **Order Direct Link** in the upper right of the page. The Choose Direct Link option page is displayed.
-
-   ![Choose Direct Link option](/images/choose-direct-link-dedicated.png){: caption="Choose Direct Link option" caption-side="bottom"}    
-   
+1. Click **Order Direct Link** in the upper right of the page. The Choose Direct Link option page is displayed.   
 1. Select the **Direct Link Dedicated** tile to open the order form.
 1. Complete the following information to configure Direct Link Dedicated: 
 
@@ -167,11 +164,6 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 {: caption="Table 1: Direct Link Dedicated locations" caption-side="bottom"}
 
 \* NYC02 and NYC03 connect to the IBM Cloud backbone through NYC1. The primary reason for these PoPs is to extend connectivity to different site providers from our NYC01 site. When planning your diversity strategy, keep in mind that traffic for NYC02 and NYC03 have a single, shared path to the IBM network.
-
-## Pricing
-{: #dedicated-pricing-classic}
-
-For more information, refer to the **Dedicated on Classic** tab in the [pricing table](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link).
 
 If you require the exact address for TOK01 or TOK02, contact your Direct Link offering management or sales team.
 {: note}

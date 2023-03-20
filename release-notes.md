@@ -41,7 +41,7 @@ IBM introduces a new Direct Link Dedicated release for VPC
     * Support for multiple VPCs (without classic access) from a single Direct Link within the same account.
     * Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and IBM Cloud.
     
-:    To learn more about the new Direct Link offerings, see [FAQs](/docs/dl?topic=dl-faqs). For pricing and ordering information, see [Getting started with IBM Cloud Direct Link](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl).
+:    To learn more about the new Direct Link offerings, see [FAQs](/docs/dl?topic=dl-faqs). For ordering information, see [Getting started with IBM Cloud Direct Link](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl).
 
 :    To determine which Direct Link Dedicated solution is right for your networking needs, see [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
 
@@ -60,8 +60,6 @@ Expanded local markets
     * The Hong Kong local market includes the Taipei PoP.
     * The Tokyo local market includes the Osaka PoP.
     * The Chennai local market includes the Mumbai PoP.
-    
-:    View these changes in the tables in [Expanded IBM Direct Link local markets](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#expanded-ibm-cloud-direct-link-local-markets).
 
 Withdrawing of global routing network transit overage charges 
 :    Network transit limits and overage charges for customers with the Global routing option are withdrawn. Previous pricing included network transit allowances and overage charges for egress traffic outside of the customer’s local market. New pricing eliminates these network traffic charges. Henceforth, ingress and egress traffic across Direct Link connections do not incur overages.

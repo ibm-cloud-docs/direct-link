@@ -24,12 +24,6 @@ To determine which Direct Link solution is best for your networking environment,
 [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order)
 {: tip}
 
-## Before you begin
-{: #before-you-begin-colo}
-
-Before ordering Dedicated Hosting on Classic, review and ensure that you have met all requirements that are stated in
-[Dedicated Hosting on Classic entrance criteria](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#dldh-entrance-criteria).
-
 ## Direct Link ordering process overview
 {: #ordering-process-overview-dh}
 
@@ -59,9 +53,6 @@ To provision a Direct Link Dedicated Hosting order, complete the following steps
    The Direct Link on Classic page opens, listing existing Direct Link connections provisioned for this account.    
 
 1. Click **Order Direct Link** in the upper right of the page. The Choose Direct Link option page is displayed.
-
-   ![Choose Direct Link option](/images/choose-direct-link-hosting.png){: caption="Choose Direct Link option" caption-side="bottom"}    
-
 1. Select the **Direct Link Dedicated Hosting** tile to open the order form.
 1. Complete the following information to configure Direct Link Dedicated Hosting on Classic:
 
@@ -110,8 +101,3 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 | EMEA | LON02  | Chessington | DC | Digital Realty  |
 | EMEA | MIL01 | Milan | DC |	Data4 |
 {: caption="Table 1: Dedicated Hosting locations" caption-side="bottom"}
-
-## Pricing
-{: #dedicated-pricing}
-
-For more information, see the **Dedicated Hosting on Classic** tab in the [pricing table](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link). Also, refer to [pricing considerations](/docs/direct-link?topic=direct-link-pricing-for-ibm-cloud-direct-link#dldh-specs).  
