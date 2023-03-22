@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2023
-lastupdated: "2023-02-08"
+lastupdated: "2023-03-23"
 
 keywords:
 
@@ -96,8 +96,8 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 | APAC | TOK02  | Koto-ku | DC (AZ1) | AT Tokyo  |
 | APAC | TOK05  | Kawasaki Kangagawa  | DC (AZ3) | NTT |
 |  |  |  |  |  |
-| EMEA | FRA04  | Frankfurt | DC (AZ2) | E-shelter |
-| EMEA | FRA05  | Frankfurt | DC (AZ3) | InterXion |
+| EMEA | FRA04  | Frankfurt | DC (AZ2) | NTT |
+| EMEA | FRA05  | Frankfurt | DC (AZ3) | Digital Realty |
 | EMEA | LON02  | Chessington | DC | Digital Realty  |
 | EMEA | MIL01 | Milan | DC |	Data4 |
 {: caption="Table 1: Dedicated Hosting locations" caption-side="bottom"}
