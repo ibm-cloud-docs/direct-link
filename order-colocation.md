@@ -81,13 +81,13 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 | Americas | DAL09 | Richardson | DC | Digital Realty  |
 | Americas | DAL12 | Richardson |	DC (AZ2) | Digital Realty  |
 | Americas | DAL13 | Carrollton | DC (AZ3) | CyrusOne |
-| Americas | MON01 | Drummond  | DC | Colo-D  |
+| Americas | MON01 | Drummond  | DC | Cologix  |
 | Americas | SJC3 | San Jose | DC | Digital Realty  |
 | Americas | SAO01 | São Paulo | DC | Ascenty  |
 | Americas | SJC03 | Santa Clara | DC | Digital Realty  |
 | Americas | TORO5 | Toronto | DC (AZ3) | Digital Realty |
 | Americas | WDC04 | Ashburn | DC (AZ1) | Digital Realty  |
-| Americas | WDC06 | Ashburn | DC (AZ3) | Raging Wire |
+| Americas | WDC06 | Ashburn | DC (AZ3) | NTT |
 | Americas | WDC07 | Ashburn | DC (AZ2) | Sabey |
 |  |  |  |  |  |
 | APAC | OSA21 | Osaka 21 | PoP | Digital Realty |
