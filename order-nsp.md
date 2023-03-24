@@ -118,11 +118,9 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | **EMEA** |  |  |  |
 | Amsterdam 2 | PoP | Equinix | AM2 |
 | Amsterdam 3 | DC | KPN | Amsterdam 3 |
-| Frankfurt 1 | PoP | Digital Realty (fInterXion) | FRA6 |
 | Frankfurt 2 | DC(AZ1) | Cyrus One (fZenium) | FRA1 |
 | Frankfurt 3 | PoP | Equinix| FR6 |
 | Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 |
-| Frankfurt 5 | DC(AZ3) | InterXion | FRA11 |
 | London 1 | PoP | Equinix (fTelecity) | LD8 |
 | London 2 | DC | Digital Realty | LHR13 |
 | London 3 | PoP | Equinix | LD5 |

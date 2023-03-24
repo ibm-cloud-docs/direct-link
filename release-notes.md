@@ -175,9 +175,6 @@ April highlights
 {: #dl-mar0118}
 {: release-note}
 
-Interxion’s Frankfurt and Stockholm campuses are now connected to IBM Cloud Direct Link
-:    Interxion, a leading provider of carrier and cloud-neutral colocation data center services in Europe, announced that direct access to {{site.data.keyword.cloud_notm}} services is now available across its European footprint through Cloud Connect, Interxion’s cloud interconnection platform.
-
 PacketFabric Offers Connectivity to IBM Cloud 
 :    PacketFabric customers have access to {{site.data.keyword.cloud_notm}} services in Dallas, Texas; San Francisco, California; and Washington, D.C., from any location on the PacketFabric network.
 
