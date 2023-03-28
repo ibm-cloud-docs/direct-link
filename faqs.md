@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-11-18"
+  years: 2017, 2023
+lastupdated: "2023-03-27"
 
 keywords: 
 
@@ -44,6 +44,12 @@ For every Direct Link customer, the {{site.data.keyword.cloud}} team assigns a s
 {: faq}
 
 Yes. Bandwidth usage across the Direct Link service between customers and {{site.data.keyword.cloud_notm}} is free and unmetered, {{site.data.keyword.cloud_notm}} does meter outbound bandwidth from {{site.data.keyword.cloud_notm}} services to the public internet.
+
+## Where do I find cost estimates for Direct Link offerings?
+{: #pricing-estimator}
+{: faq}
+
+You can estimate the cost of a service using the cost estimator on the provisioning pages for Direct Link on Classic offerings. For example, select a tile from the [IBM Cloud Catalog page](/catalog?category=compute%20network&search=direct%20link%20%22on%20classic%22%20label%3Aibm_created#search_results) to view the service's ordering page. As you complete the ordering form, cost estimates appear in the Summary side panel.
 
 ## When does billing begin with Direct Link?
 {: #when-does-billing-begin-with-direct-link}
