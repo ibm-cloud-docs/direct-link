@@ -22,7 +22,6 @@ toc:
        topics:
        - getting-started.md
        - about.md
-       - pricing.md
        - dl-july-policy-change.md
        - topicgroup:
           label: Deployment considerations
