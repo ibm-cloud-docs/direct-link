@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2023
-lastupdated: "2023-02-08"
+lastupdated: "2023-04-04"
 
 keywords: 
 
@@ -118,6 +118,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | **EMEA** |  |  |  |
 | Amsterdam 2 | PoP | Equinix | AM2 |
 | Amsterdam 3 | DC | KPN | Amsterdam 3 |
+| Frankfurt 1 	| PoP | Digital Realty | FRA6 |
 | Frankfurt 2 | DC(AZ1) | Cyrus One (fZenium) | FRA1 |
 | Frankfurt 3 | PoP | Equinix| FR6 |
 | Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 |
