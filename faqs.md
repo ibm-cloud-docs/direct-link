@@ -39,17 +39,17 @@ For information about the differences between the new Direct Link offerings and 
 
 For every Direct Link customer, the {{site.data.keyword.cloud}} team assigns a small private subnet to build a point-to-point network between the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) and the customer's edge router (CER). Then, {{site.data.keyword.cloud_notm}} and the customer configure Border Gateway Protocol (BGP) to exchange routes between the environments. Finally, {{site.data.keyword.cloud_notm}} places the customer into a VRF to allow for the implementation of non-unique routes to the private address space of the customer's remote network.
 
-## Does IBM Cloud meter bandwidth for Direct Link products?
-{: #does-ibm-cloud-meter-bandwidth-for-direct-link-products}
-{: faq}
-
-Yes. Bandwidth usage across the Direct Link service between customers and {{site.data.keyword.cloud_notm}} is free and unmetered, {{site.data.keyword.cloud_notm}} does meter outbound bandwidth from {{site.data.keyword.cloud_notm}} services to the public internet.
-
 ## Where do I find cost estimates for Direct Link offerings?
 {: #pricing-estimator}
 {: faq}
 
 You can estimate the cost of a service using the cost estimator on the provisioning pages for Direct Link on Classic offerings. For example, select a tile from the [IBM Cloud catalog](/catalog?category=compute%20network&search=direct%20link%20%22on%20classic%22%20label%3Aibm_created#search_results) to view the service's ordering page. As you complete the ordering form, cost estimates appear in the Summary side panel.
+
+## Does IBM Cloud meter bandwidth for Direct Link products?
+{: #does-ibm-cloud-meter-bandwidth-for-direct-link-products}
+{: faq}
+
+Yes. Bandwidth usage across the Direct Link service between customers and {{site.data.keyword.cloud_notm}} is free and unmetered, {{site.data.keyword.cloud_notm}} does meter outbound bandwidth from {{site.data.keyword.cloud_notm}} services to the public internet.
 
 ## When does billing begin with Direct Link?
 {: #when-does-billing-begin-with-direct-link}
