@@ -92,7 +92,7 @@ January highlights
 {: release-note}
 
 December highlights
-:    21 December: Console Connect by PCCW is now diversely available in SNG02, TOK01, LON01, and SJC02.
+:    21 December: Console Connect is now diversely available in SNG02, TOK01, LON01, and SJC02.
 :    5 December: IBM Bluefringe is now available in Chennai for Exchange.
 
 ## 29 November 2018
