@@ -72,18 +72,19 @@ Our Direct Link Connect providers include these locations:
 
 | Partners | Available Markets |
 |--------------|--------------|
+| Arelion | Americas: Washington DC 2 |
 | Ascenty | Americas: Sao Paulo 1 |
 | AT&T NetBond for Cloud |  Americas: Dallas 3, San Jose 2 (no diversity: on same XCR)  \n EU: Frankfurt 1, London 1 |
 | Bell Canada | Americas: Montreal 2, Toronto 2 |
 | BNPP | EU: Paris 1 |
 | British Telecom |  Americas: Washington DC 2  \n EU: Frankfurt 1, London 1, London 3 |
-| CenturyLink IP VPN | Americas: Dallas 3, Miami 1, Sao Paulo 2 |
 | CenturyLink Dynamic Connections |  Americas: San Jose 2, Toronto 2, Washington DC 2   \n EU: Frankfurt 1, London 3, Paris 2
+| CenturyLink IP VPN | Americas: Dallas 3, Miami 1, Sao Paulo 2 |
 | Chief Telecomm | APAC: Hong Kong 1, Taipei |
 | China Unicom | APAC: Hong Kong 3 |
 | Colt | APAC: Tokyo 1, Singapore 2  \n EU: Amsterdam 2, Frankfurt 1, London 1, Paris 2 |
 | Cologix | Americas: Montreal 1 |
-| Console Connect | Americas: Chicago 1, Miami 1, San Jose 2   \n APAC: Hong Kong 1, Osaka 1, Singapore 2, Sydney 5, Tokyo 1  \n EU: London 1, Frankfurt 3, Frankfurt 5  |
+| Console Connect | Americas: Chicago 1, Miami 1, San Jose 2   \n APAC: Hong Kong 1, Osaka 1, Singapore 2, Sydney 3, Sydney 5, Tokyo 1  \n EU: London 1, Frankfurt 3, Frankfurt 5  |
 | CyrusOne | Americas: Dallas 13 |
 | Epsilon | APAC:  Singapore 2  \n EU: Frankfurt 1  |
 | Equinix | EU: Paris 3 |
@@ -98,11 +99,9 @@ Our Direct Link Connect providers include these locations:
 | NTT | APAC: Tokyo 5 |
 | Orange Business Services | EU: Paris 02|
 | PacketFabric | Americas: Dallas 4, San Jose 2, Washington DC 2 |
-| Console Connect | APAC: Sydney 3 |
-| Softbank | APAC: Tokyo 4 |
 | SES Networks | Americas: Washington DC 2 |
+| Softbank | APAC: Tokyo 4 |
 | Tata | APAC: Chennai 1, Hong Kong 1 |
-| Arelion | Americas: Washington DC 2 |
 | Telstra | APAC: Melbourne 2, Sydney 2 |
 | Tokai | APAC: Osaka 1, Tokyo 3 |
 | Verizon SCI |  APAC:  Sydney 2, Tokyo 1  \n EU: Amsterdam 2, Frankfurt 1 |
