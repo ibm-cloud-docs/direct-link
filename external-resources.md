@@ -66,6 +66,6 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM partn
 
 * [PacketFabric and IBM Cloud Enable Secure Enterprise Connections](https://www.ibm.com/cloud/blog/announcements/packetfabric-ibm-enable-secure-enterprise-connections){: external}, by Paul Hertzfeldt
 
-* [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications](https://www.ibm.com/cloud/blog/announcements/tokyo-connects-ibm-cloud-support-mission-critical-applications){: external}, by Paul Hertzfeldt 
+* [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications](https://www.ibm.com/cloud/blog/announcements/tokyo-connects-ibm-cloud-support-mission-critical-applications){: external}, by Paul Hertzfeldt
 
 * [Improve Digital Experiences with SES Networks and IBM](https://www.ibm.com/cloud/blog/improve-digital-experiences-with-ses-networks-and-ibm){: external}, by Paul Hertzfeldt

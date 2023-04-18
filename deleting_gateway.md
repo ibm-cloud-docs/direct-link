@@ -25,12 +25,8 @@ To delete a gateway, follow these steps:
 
    Alternatively, you can click **Actions > Delete** on a gateway's details page. 
    {: tip}
-
-   ![Delete a direct link](/images/delete_list.png "Delete a direct link"){: caption="Delete a direct link" caption-side="bottom"}
    
-1. Enter the name of the direct link to confirm. Click **Delete** again to confirm the deletion.
-
-   You cannot undo this action.
+1. Enter the name of the direct link to confirm. Click **Delete** again to confirm the deletion. You cannot undo this action.
 
 You can receive requests from your provider to approve or reject the deletion of a direct link. These requests are shown as "Delete approval pending" in the Status column on the Direct Link on Classic list page. To approve or reject a request, select an option from the Actions menu ![Actions menu](images/overflow.png), or click the **Actions** menu on the gateway's details page.
 {: note}
