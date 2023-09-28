@@ -19,7 +19,7 @@ Many {{site.data.keyword.cloud}} customers currently operate with a shared tenan
 {: shortdesc}
 
 A "customer VRF" refers to multiple isolation network connectivity. For more information, see [Virtual routing and forwarding on IBM Cloud](/docs/direct-link?topic=direct-link-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud).
-{: note]
+{: note}
 
 ## The conversion process
 {: #process-description}
