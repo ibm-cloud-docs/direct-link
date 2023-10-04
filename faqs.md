@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2023
 lastupdated: "2023-03-27"
 
-keywords: 
+keywords:
 
 subcollection: direct-link
 
@@ -166,8 +166,8 @@ We are unable to support any QoS guarantees. QoS requires MPLS mapping between e
 Jumbo frames (up to 9214 bytes) are supported on Dedicated and Dedicated Hosting.
 Support on Connect and Exchange is theoretically possible, but it requires your Service Provider to work with IBM and ensure that the end-to-end connection supports Jumbo Frames, including the underlying Network-to Network-Interface (NNI).
 
-Exchange and Connect support up to a 1500-byte Maximum Transmission Unit (MTU). 
-{: important} 
+Exchange and Connect support up to a 1500-byte Maximum Transmission Unit (MTU).
+{: important}
 
 ## With Direct Link Connect how does a customer ensure router diversity through the same carrier (for example, Verizon in DAL03)?
 {: #with-direct-link-connect-how-does-a-customer-ensure-router-diversity-through-the-same-carrier}
@@ -198,12 +198,6 @@ ECMP isn’t for redundant connections, but for balancing the load over the two 
 ECMP is a feature of BGP. If you are looking for redundancy, get two Direct Link connections, one going into each XCR. If you want to use ECMP and have redundancy, you need two Direct Link connections on each XCR so that you can have 2 ECMP sessions running simultaneously.
 
 Alternatively, some of our customers set up two links into different XCR in the same data center, for example WDC02, then failover as needed by using BGP configurations. This configuration is less redundant (less safe) than having Direct Link connections into two separate data centers, such as WDC02 and WDC05.
-
-## Is there an SLA on the Direct Link XCR connections up to the account’s BCR connection?
-{: #is-there-an-sla-on-the-diret-link-xr-connections}
-{: faq}
-
-There is no SLA on Direct Link today. Customers can achieve 99.99% effectively with two or more Direct Links that are properly configured for failover by using BGP, but IBM cannot control that or provide an SLA on it.
 
 ## Where can I get help setting up a Direct Link?
 {: #where-can-i-get-help-setting-up-a-direct-link}
