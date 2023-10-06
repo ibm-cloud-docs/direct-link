@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2023
-lastupdated: "2023-04-04"
+lastupdated: "2023-04-27"
 
-keywords: 
+keywords:
 
 subcollection: direct-link
 
@@ -17,7 +17,7 @@ subcollection: direct-link
 {: help}
 {: support}
 
-As you prepare to order Direct Link on Classic, review the general process that your organization follows for obtaining the Dedicated service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
+As you prepare to order Direct Link on Classic, review the general process that your organization follows for obtaining the Dedicated service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.
 {: shortdesc}
 
 The colocation or Network Service Provider (NSP) does not need to be an IBM Cloud Direct Link Business Partner to connect you to a Direct Link Dedicated service.
@@ -65,21 +65,21 @@ To provision a Direct Link Dedicated order, complete the following steps:
 1. Log in to your [IBM Cloud](/login){: external} account.
 1. Select the **Navigation Menu** icon ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Classic Infrastructure** > **Direct Link**.
 
-   The Direct Link on Classic page opens, listing existing Direct Link connections provisioned for this account.    
-   
-1. Click **Order Direct Link** in the upper right of the page. The Choose Direct Link option page is displayed.   
+   The Direct Link on Classic page opens, listing existing Direct Link connections provisioned for this account.
+
+1. Click **Order Direct Link** in the upper right of the page. The Choose Direct Link option page is displayed.
 1. Select the **Direct Link Dedicated** tile to open the order form.
-1. Complete the following information to configure Direct Link Dedicated: 
+1. Complete the following information to configure Direct Link Dedicated:
 
    - Enter a Direct Link instance name.
    - Select the location in which you want to establish the {{site.data.keyword.cloud_notm}} Direct Link connection.
    - Select the name of your network provider.
    - Select the link speed required for the connection.
-   - Select the routing option required for the connection: **Local routing (free)** or **Global routing**. 
+   - Select the routing option required for the connection: **Local routing (free)** or **Global routing**.
    - Enter a valid BGP ASN number from the range given in the information box for the BGP exchanges.
 
    As you select or enter these values, you can see an approximate monthly charge in the right pane.
-   
+
 1. Read and agree to the [Direct Link Dedicated prerequisites](/docs/direct-link?topic=direct-link-ibm-cloud-dl-dedicated-prerequisites). Then, click **Create** to complete your order.
 
       After you place your order, an IBM Support case number is generated. You can click the case number to view case details.
@@ -104,10 +104,10 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Perth 1 | PoP | Equinix (Metronode) | F1Z |
 | Seoul 2 | PoP | KINX | KINX Bundang IDC |
 | Singapore 1 | DC | Digital Realty | SIN10 |
-| Singapore 2 | PoP | Equinix | SG1 | 
+| Singapore 2 | PoP | Equinix | SG1 |
 | Sydney 1 | DC(AZ1) | Global Switch | SYD01 |
 | Sydney 2 | PoP | Equinix | SY3 |
-| Sydney 3 | PoP | NextDC | S1 | 
+| Sydney 3 | PoP | NextDC | S1 |
 | Sydney 4 | DC(AZ2) | Digital Realty | SYD10 |
 | Sydney 5 | DC(AZ3) | Equinix | SY4 |
 | Tokyo 1 | PoP | Equinix | TY2 |
@@ -122,6 +122,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Frankfurt 2 | DC(AZ1) | Cyrus One (fZenium) | FRA1 |
 | Frankfurt 3 | PoP | Equinix| FR6 |
 | Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 |
+| Frankfurt 5 | DC(AZ3) | Digital Realty | FRA11 |
 | London 1 | PoP | Equinix (fTelecity) | LD8 |
 | London 2 | DC | Digital Realty | LHR13 |
 | London 3 | PoP | Equinix | LD5 |
