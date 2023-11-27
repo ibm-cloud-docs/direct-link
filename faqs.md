@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2023
-lastupdated: "2023-03-27"
+lastupdated: "2023-11-27"
 
 keywords:
 
@@ -38,6 +38,12 @@ For information about the differences between the new Direct Link offerings and 
 {: support}
 
 For every Direct Link customer, the {{site.data.keyword.cloud}} team assigns a small private subnet to build a point-to-point network between the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) and the customer's edge router (CER). Then, {{site.data.keyword.cloud_notm}} and the customer configure Border Gateway Protocol (BGP) to exchange routes between the environments. Finally, {{site.data.keyword.cloud_notm}} places the customer into a VRF to allow for the implementation of non-unique routes to the private address space of the customer's remote network.
+
+##  Can I request to change a VLAN ID on IBM Cloud for a provisioned Direct Link Connect gateway with a VLAN that is already allocated?
+{: #change-vlan}
+{: faq}
+
+For a direct link that was manually provisioned, you can request a VLAN update by opening an [IBM Support case](/docs/get-support?topic=get-support-open-case). For a Provider API-provisioned gateway, a VLAN ID update is not supported.
 
 ## Where do I find cost estimates for Direct Link offerings?
 {: #pricing-estimator}
