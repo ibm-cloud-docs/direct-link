@@ -33,9 +33,9 @@
       }
     ],
     "section_learn": {
-      "architecture": "https://www.ibm.com/cloud/architecture",
+      "architecture": "https://www.ibm.com/architectures/hybrid",
       "training": "https://www.ibm.com/training/cloud",
-      "community": "https://community.ibm.com/community/user/publiccloud/search?executeSearch=true&SearchTerm=direct%20link&rf=%5EMulti04%3Adirect%5E"
+      "community": "https://community.ibm.com/community/user/search?executeSearch=true&SearchTerm=direct+link&rf=%5eMulti04%3adirect%5e"
     },
     "section_updates": {
       "view_more": "/docs/direct-link?topic=direct-link-direct-link-release-notes",

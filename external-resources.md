@@ -56,15 +56,15 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM partn
 ## Blogs on the IBM website
 {: #blogs}
 
-* [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/cloud/blog/megaport-and-ibm-empower-enterprise-cloud){: external}, by Matt Simpson and Jill Tempelmeyer
+* [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/blog/){: external}, by Matt Simpson and Jill Tempelmeyer
 
-* [Supporting the next generation cloud applications with IBM Cloud Direct Link](https://www.ibm.com/blogs/cloud-computing/2018/06/26/next-generation-cloud-apps-ibm-cloud-direct-link/){: external}, by Gabriel Montanti
+* [Supporting the next generation cloud applications with IBM Cloud Direct Link](https://www.ibm.com/blog/){: external}, by Gabriel Montanti
 
-* [IBM and Colt: Enabling Enterprise Digital Transformation](https://www.ibm.com/cloud/blog/announcements/ibm-colt-enterprise-digital-transformation){: external}, by Paul Hertzfeldt
+* [IBM and Colt: Enabling Enterprise Digital Transformation](https://www.ibm.com/blog/){: external}, by Paul Hertzfeldt
 
 * [Digital Realty and IBM Cloud Direct Link: Built for Enterprise Cloud](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-direct-link-expand-network){: external}, by Paul Hertzfeldt
 
-* [PacketFabric and IBM Cloud Enable Secure Enterprise Connections](https://www.ibm.com/cloud/blog/announcements/packetfabric-ibm-enable-secure-enterprise-connections){: external}, by Paul Hertzfeldt
+* [PacketFabric and IBM Cloud Enable Secure Enterprise Connections](https://www.ibm.com/blog/){: external}, by Paul Hertzfeldt
 
 * [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications](https://www.ibm.com/cloud/blog/announcements/tokyo-connects-ibm-cloud-support-mission-critical-applications){: external}, by Paul Hertzfeldt
 

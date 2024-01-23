@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2020
 lastupdated: "2020-04-08"
 
-keywords: 
+keywords:
 
 subcollection: direct-link
 
@@ -166,7 +166,7 @@ http {
 }
 ```
 
-See [Endpoints and storage locations]](/docs/cloud-object-storage-infrastructure?topic=cloud-object-storage-infrastructure-endpoints-iaas) for a list of private endpoints for use in these `proxy_pass` entries.
+See [Endpoints and storage locations](/docs/cloud-object-storage-infrastructure?topic=cloud-object-storage-infrastructure-endpoints-iaas) for a list of private endpoints for use in these `proxy_pass` entries.
 
 **Tips:**
 
@@ -188,7 +188,7 @@ For detailed instructions on how to provision bare metal servers, refer to [Prov
 {: #direct-link-how-to-provision-a-virtual-router-appliance}
 
 For detailed instructions on how to provision a VRA, see the
-[VRA Getting Started Guide](/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started#getting-started).
+[VRA Getting Started Guide](/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started-vra).
 
 ### Provisioning IBM Cloud Object Storage (COS)
 {: #direct-link-how-to-provision-ibm-cloud-object-storage}

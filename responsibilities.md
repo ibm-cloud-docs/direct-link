@@ -4,7 +4,7 @@ copyright:
   years: 2019
 lastupdated: "2019-06-21"
 
-keywords: 
+keywords:
 
 subcollection: direct-link
 
@@ -64,4 +64,4 @@ Misuse includes:
 - Unauthorized modification of any service or system
 - Violation of the personal rights of others
 
-See [Cloud Services terms](/docs/overview/terms-of-use?topic=overview-terms) for overall terms of use.
+See [Cloud Services terms](/docs/overview?topic=overview-terms) for overall terms of use.
