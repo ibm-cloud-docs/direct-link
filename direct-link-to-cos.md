@@ -166,7 +166,7 @@ http {
 }
 ```
 
-See [Endpoints and storage locations](/docs/cloud-object-storage-infrastructure?topic=cloud-object-storage-infrastructure-endpoints-iaas) for a list of private endpoints for use in these `proxy_pass` entries.
+See [Endpoints and storage locations](/docs/cloud-object-storage?topic=cloud-object-storage-endpoints) for a list of private endpoints for use in these `proxy_pass` entries.
 
 **Tips:**
 

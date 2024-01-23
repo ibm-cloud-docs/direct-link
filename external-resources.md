@@ -34,7 +34,7 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM partn
      * Results of performance tests conducted by Krystallize Technologies
 
 
-* [**Case Study for Direct Link and IBM Cloud**](https://www.digitalrealty.com/case-studies/ibm-cloud){: external}
+* [**Case Study for Direct Link and IBM Cloud**](https://www.digitalrealty.com/resources?type=case+studies){: external}
 
     **Abstract:** As {{site.data.keyword.cloud_notm}} needed to expand its global data center footprint to meet burgeoning demand for its Infrastructure-as-a-Service offering, it needed the right data center partner to achieve the best available combination of power, space, and price.
 
@@ -45,13 +45,9 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM partn
 ## Featured announcements
 {: #featured-announcements}
 
-* [InterCloud Offers Dedicated Connectivity to IBM Cloud](https://info.intercloud.com/intercloud-offers-dedicated-connectivity-to-ibm-cloud){: external}
+[IBM Cloud Solves Last Mile Challenges with Satellite](https://www.satellitetoday.com/mobility/2018/10/25/ibm-cloud-solves-last-mile-challenges-with-satellite/){: external}, by Adrienne Harebottle
 
-    Discover how {{site.data.keyword.cloud_notm}} and InterCloud are helping to enable a national railway company migrate business-critical applications to the cloud over a secure, dedicated connection.
-
-* [IBM Cloud Solves Last Mile Challenges with Satellite](https://www.satellitetoday.com/mobility/2018/10/25/ibm-cloud-solves-last-mile-challenges-with-satellite/){: external}, by Adrienne Harebottle
-
-    Learn how SES Network's decision to partner with IBM Cloud to help customers overcome key connectivity challenges by harnessing the power of satellite.
+Learn how SES Network's decision to partner with IBM Cloud to help customers overcome key connectivity challenges by harnessing the power of satellite.
 
 ## Blogs on the IBM website
 {: #blogs}
@@ -62,10 +58,10 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM partn
 
 * [IBM and Colt: Enabling Enterprise Digital Transformation](https://www.ibm.com/blog/){: external}, by Paul Hertzfeldt
 
-* [Digital Realty and IBM Cloud Direct Link: Built for Enterprise Cloud](https://www.ibm.com/cloud/blog/announcements/digital-realty-ibm-cloud-direct-link-expand-network){: external}, by Paul Hertzfeldt
+* [Digital Realty and IBM Cloud Direct Link: Built for Enterprise Cloud](https://www.ibm.com/blog/announcement/digital-realty-ibm-cloud-direct-link-expand-network/){: external}, by Paul Hertzfeldt
 
 * [PacketFabric and IBM Cloud Enable Secure Enterprise Connections](https://www.ibm.com/blog/){: external}, by Paul Hertzfeldt
 
-* [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications](https://www.ibm.com/cloud/blog/announcements/tokyo-connects-ibm-cloud-support-mission-critical-applications){: external}, by Paul Hertzfeldt
+* [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications](https://www.ibm.com/blog/announcement/tokyo-connects-ibm-cloud-support-mission-critical-applications/){: external}, by Paul Hertzfeldt
 
-* [Improve Digital Experiences with SES Networks and IBM](https://www.ibm.com/cloud/blog/improve-digital-experiences-with-ses-networks-and-ibm){: external}, by Paul Hertzfeldt
+* [Improve Digital Experiences with SES Networks and IBM](https://www.ibm.com/blog/){: external}, by Paul Hertzfeldt
