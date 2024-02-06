@@ -17,7 +17,7 @@ subcollection: direct-link
 {: help}
 {: support}
 
-As you prepare to order Direct Link on Classic, review the general process that your organization follows for obtaining the Dedicated Hosting service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
+As you prepare to order Direct Link on Classic, review the general process that your organization follows for obtaining the Dedicated Hosting service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.
 {: shortdesc}
 
 To determine which Direct Link solution is best for your networking environment, see
@@ -50,7 +50,7 @@ To provision a Direct Link Dedicated Hosting order, complete the following steps
 1. Log in to your [IBM Cloud](/login){: external} account.
 1. Select the **Navigation Menu** icon ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Classic Infrastructure** > **Direct Link**.
 
-   The Direct Link on Classic page opens, listing existing Direct Link connections provisioned for this account.    
+   The Direct Link on Classic page opens, listing existing Direct Link connections provisioned for this account.
 
 1. Click **Order Direct Link** in the upper right of the page. The Choose Direct Link option page is displayed.
 1. Select the **Direct Link Dedicated Hosting** tile to open the order form.
@@ -76,28 +76,28 @@ To provision a Direct Link Dedicated Hosting order, complete the following steps
 
 This table shows which {{site.data.keyword.cloud_notm}} data centers are able to accept customers for Dedicated Hosting:
 
-| Region | Site ID | City | Site Type | Site Partner |  
+| Region | Site ID | City | Site Type | Site Partner |
 |-------|-------|-------|-------|-------|
 | Americas | DAL09 | Richardson | DC | Digital Realty  |
-| Americas | DAL12 | Richardson |	DC (AZ2) | Digital Realty  |
-| Americas | DAL13 | Carrollton | DC (AZ3) | CyrusOne |
+| Americas | DAL12 | Richardson |	DC  | Digital Realty  |
+| Americas | DAL13 | Carrollton | DC  | CyrusOne |
 | Americas | MON01 | Drummond  | DC | Cologix  |
 | Americas | SJC3 | San Jose | DC | Digital Realty  |
 | Americas | SAO01 | São Paulo | DC | Ascenty  |
 | Americas | SJC03 | Santa Clara | DC | Digital Realty  |
-| Americas | TORO5 | Toronto | DC (AZ3) | Digital Realty |
-| Americas | WDC04 | Ashburn | DC (AZ1) | Digital Realty  |
-| Americas | WDC06 | Ashburn | DC (AZ3) | NTT |
-| Americas | WDC07 | Ashburn | DC (AZ2) | Sabey |
+| Americas | TORO5 | Toronto | DC  | Digital Realty |
+| Americas | WDC04 | Ashburn | DC  | Digital Realty  |
+| Americas | WDC06 | Ashburn | DC  | NTT |
+| Americas | WDC07 | Ashburn | DC  | Sabey |
 |  |  |  |  |  |
 | APAC | OSA21 | Osaka 21 | PoP | Digital Realty |
-| APAC | SYD04 | Sydney |	DC (AZ2) |	Digital Realty  |
-| APAC | SYD05 | Sydney |	DC (AZ3) |	Equinix |
-| APAC | TOK02  | Koto-ku | DC (AZ1) | AT Tokyo  |
-| APAC | TOK05  | Kawasaki Kangagawa  | DC (AZ3) | NTT |
+| APAC | SYD04 | Sydney |	DC  |	Digital Realty  |
+| APAC | SYD05 | Sydney |	DC  |	Equinix |
+| APAC | TOK02  | Koto-ku | DC  | AT Tokyo  |
+| APAC | TOK05  | Kawasaki Kangagawa  | DC  | NTT |
 |  |  |  |  |  |
-| EMEA | FRA04  | Frankfurt | DC (AZ2) | NTT |
-| EMEA | FRA05  | Frankfurt | DC (AZ3) | Digital Realty |
+| EMEA | FRA04  | Frankfurt | DC  | NTT |
+| EMEA | FRA05  | Frankfurt | DC  | Digital Realty |
 | EMEA | LON02  | Chessington | DC | Digital Realty  |
 | EMEA | MIL01 | Milan | DC |	Data4 |
 {: caption="Table 1: Dedicated Hosting locations" caption-side="bottom"}

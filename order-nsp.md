@@ -98,37 +98,37 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Hong Kong 3 | PoP | Equinix | HKG3|
 | Melbourne 2 | PoP |NextDC | M1 |
 | Osaka 1 | PoP | Equinix | OS1 |
-| Osaka 21  | DC(AZ1)|  IDC Frontier (SoftBank) | OSA021 |
-| Osaka 22  | DC(AZ2) | IDC Frontier (SoftBank) | OSA022 |
-| Osaka 23  | DC(AZ3) | IDC Frontier (SoftBank) | OSA023 |
+| Osaka 21  | DC|  IDC Frontier (SoftBank) | OSA021 |
+| Osaka 22  | DC | IDC Frontier (SoftBank) | OSA022 |
+| Osaka 23  | DC | IDC Frontier (SoftBank) | OSA023 |
 | Perth 1 | PoP | Equinix (Metronode) | F1Z |
 | Seoul 2 | PoP | KINX | KINX Bundang IDC |
 | Singapore 1 | DC | Digital Realty | SIN10 |
 | Singapore 2 | PoP | Equinix | SG1 |
-| Sydney 1 | DC(AZ1) | Global Switch | SYD01 |
+| Sydney 1 | DC | Global Switch | SYD01 |
 | Sydney 2 | PoP | Equinix | SY3 |
 | Sydney 3 | PoP | NextDC | S1 |
-| Sydney 4 | DC(AZ2) | Digital Realty | SYD10 |
-| Sydney 5 | DC(AZ3) | Equinix | SY4 |
+| Sydney 4 | DC | Digital Realty | SYD10 |
+| Sydney 5 | DC | Equinix | SY4 |
 | Tokyo 1 | PoP | Equinix | TY2 |
-| Tokyo 2 | DC(AZ1) | At Tokyo | CC2 |
+| Tokyo 2 | DC | At Tokyo | CC2 |
 | Tokyo 3 | PoP | Equinix | TY4 |
-| Tokyo 4 | DC(AZ2) | SoftBank | |
-| Tokyo 5 | DC(AZ3) | NTT | |
+| Tokyo 4 | DC | SoftBank | |
+| Tokyo 5 | DC | NTT | |
 | **EMEA** |  |  |  |
 | Amsterdam 2 | PoP | Equinix | AM2 |
 | Amsterdam 3 | DC | KPN | Amsterdam 3 |
 | Frankfurt 1 	| PoP | Digital Realty | FRA6 |
-| Frankfurt 2 | DC(AZ1) | Cyrus One (fZenium) | FRA1 |
+| Frankfurt 2 | DC | Cyrus One (fZenium) | FRA1 |
 | Frankfurt 3 | PoP | Equinix| FR6 |
-| Frankfurt 4 | DC(AZ2) | E-Shelter | Frankfurt 1 |
-| Frankfurt 5 | DC(AZ3) | Digital Realty | FRA11 |
+| Frankfurt 4 | DC | E-Shelter | Frankfurt 1 |
+| Frankfurt 5 | DC | Digital Realty | FRA11 |
 | London 1 | PoP | Equinix (fTelecity) | LD8 |
 | London 2 | DC | Digital Realty | LHR13 |
 | London 3 | PoP | Equinix | LD5 |
-| London 4 | DC(AZ1) | ARK | A103 |
-| London 5 | DC(AZ2) | Gyron |  |
-| London 6 | DC(AZ3) | Cyrus One (fZenium) | LON1 |
+| London 4 | DC | ARK | A103 |
+| London 5 | DC | Gyron |  |
+| London 6 | DC | Cyrus One (fZenium) | LON1 |
 | Milan 1 |  DC | Data4 | |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way |
 | Paris 1 | DC | Global Switch | PAR01 |
@@ -139,9 +139,9 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Dallas 3 | PoP | Equinix | DA1 |
 | Dallas 4 | PoP | Digital Realty | DFW14 |
 | Dallas 9 | DC | Digital Realty | DFW35 |
-| Dallas 10 | DC(AZ1) | QTS | IRV |
-| Dallas 12 | DC(AZ1) | Digital Realty | DFW18 |
-| Dallas 13 | DC(AZ1) | Cyrus One | Carrollton - Frankford |
+| Dallas 10 | DC | QTS | IRV |
+| Dallas 12 | DC | Digital Realty | DFW18 |
+| Dallas 13 | DC | Cyrus One | Carrollton - Frankford |
 | Denver 1 | PoP | Coresite | DE1 |
 | Miami 1 | PoP | Equinix (fTerremark/Verizon) | NAP |
 | Montreal 1 | DC | Cologix (fCOLO-D) | Cologix MTL9-H |
@@ -157,10 +157,10 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Toronto 1 | DC | Digital Realty (via SunGard) | YYZ11 |
 | Toronto 2 | PoP | Cologix | TOR1 |
 | Washington DC 2 | PoP | Equinix | DC2 |
-| Washington DC 4 | DC(AZ1) | Digital Realty | IAD38 |
+| Washington DC 4 | DC | Digital Realty | IAD38 |
 | Washington DC 5 | PoP | Coresite | DC2 |
-| Washington DC 6 | DC(AZ1) | Raging Wire | VA2 |
-| Washington DC 7 | DC(AZ1) | Sabey | Sabey Intergate.Ashburn |
+| Washington DC 6 | DC | Raging Wire | VA2 |
+| Washington DC 7 | DC | Sabey | Sabey Intergate.Ashburn |
 {: caption="Table 1: Direct Link Dedicated locations" caption-side="bottom"}
 
 \* NYC02 and NYC03 connect to the IBM Cloud backbone through NYC1. The primary reason for these PoPs is to extend connectivity to different site providers from our NYC01 site. When planning your diversity strategy, keep in mind that traffic for NYC02 and NYC03 have a single, shared path to the IBM network.
