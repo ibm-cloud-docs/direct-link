@@ -153,12 +153,6 @@ Not for the BGP Session. We must assign our /30 from IPv4, and we need the same 
 
 No. IPv6 is public only.
 
-## Are there any special Direct Link requirements for Verizon SCI? Prefix / ASN / VLAN BGP / and so forth?
-{: #are-there-any-special-direct-link-requirements-for-verizon-sci}
-{: faq}
-
-Verizon SCI is one of several MPLS based, Layer-3 (IP VPN) services. It requires that IBM establish BGP with Verizon instead of directly with the customer. Verizon then establishes BGP with the customer and advertises routes accordingly. Several other Layer-3 based service providers participate in the Direct Link Connect program. Customers need to be aware of what they are ordering and how their account will behave when connecting to IBM Cloud.
-
 ## Does Direct Link support any type of QoS?
 {: #does-direct-link-support-any-type-of-qos}
 {: faq}
@@ -175,7 +169,7 @@ Support on Connect and Exchange is theoretically possible, but it requires your 
 Exchange and Connect support up to a 1500-byte Maximum Transmission Unit (MTU).
 {: important}
 
-## With Direct Link Connect how does a customer ensure router diversity through the same carrier (for example, Verizon in DAL03)?
+## With Direct Link Connect how does a customer ensure router diversity through the same carrier?
 {: #with-direct-link-connect-how-does-a-customer-ensure-router-diversity-through-the-same-carrier}
 {: faq}
 

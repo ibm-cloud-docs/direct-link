@@ -143,7 +143,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Dallas 12 | DC | Digital Realty | DFW18 |
 | Dallas 13 | DC | Cyrus One | Carrollton - Frankford |
 | Denver 1 | PoP | Coresite | DE1 |
-| Miami 1 | PoP | Equinix (fTerremark/Verizon) | NAP |
+| Miami 1 | PoP | Equinix | NAP |
 | Montreal 1 | DC | Cologix (fCOLO-D) | Cologix MTL9-H |
 | Montreal 2 | PoP | Cologix | MTL7 |
 | New York City 2* | PoP | Equinix | NY4 |

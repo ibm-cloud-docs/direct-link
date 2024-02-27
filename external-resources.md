@@ -52,8 +52,6 @@ Learn how SES Network's decision to partner with IBM Cloud to help customers ove
 ## Blogs on the IBM website
 {: #blogs}
 
-* [Megaport and IBM Empower Enterprise Cloud](https://www.ibm.com/blog/){: external}, by Matt Simpson and Jill Tempelmeyer
-
 * [Supporting the next generation cloud applications with IBM Cloud Direct Link](https://www.ibm.com/blog/){: external}, by Gabriel Montanti
 
 * [IBM and Colt: Enabling Enterprise Digital Transformation](https://www.ibm.com/blog/){: external}, by Paul Hertzfeldt

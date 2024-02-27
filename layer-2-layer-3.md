@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-04-30"
 
-keywords: 
+keywords:
 
 subcollection: direct-link
 
@@ -44,9 +44,8 @@ For Layer-3 connections, for each virtual circuit, your service provider establi
 
 The following table summarizes the type of connections that each {{site.data.keyword.cloud_notm}} partner provides.
 
-| Partners | Interconnection type |  
+| Partners | Interconnection type |
 |-------|-------|
-| AT&T NetBond for Cloud | **Layer 3** |
 | AT&T Cloud Gateway (formerly known as RedFringe)| **Layer 3** |
 | Bell Canada | **Layer 3** |
 | British Telecom | **Layer 3**  |
@@ -55,13 +54,12 @@ The following table summarizes the type of connections that each {{site.data.key
 | Chief Telecomm | Layer 2 |
 | China Unicom | **Layer 3** |
 | Colt | Layer 2  |
-| Console Connect | Layer 2 | 
+| Console Connect | Layer 2 |
 | Epsilon | Layer 2 |
 | EU Networks | Layer 2 |
 | IBM BlueFringe | **Layer 3** |
 | Intercloud | **Layer 3** |
 | IXReach | Layer 2 |
-| Megaport | Layer 2 |
 | Neutrona | Layer 2 |
 | nextGen GNPP | **Layer 3** |
 | NTT | **Layer 3** |
@@ -73,7 +71,6 @@ The following table summarizes the type of connections that each {{site.data.key
 | Arelion | **Layer 3** |
 | Telstra | **Layer 3** |
 | Tokai | Layer 2 |
-| Verizon SCI| **Layer 3** |
 | Vodafone| **Layer 3** |
 | Zayo Cloud Link | Layer 2 |
 {: caption="Table 1. Partner interconnection table" caption-side="bottom"}

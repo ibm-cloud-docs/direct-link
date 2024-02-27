@@ -17,7 +17,7 @@ subcollection: direct-link
 {: help}
 {: support}
 
-As you prepare to order Direct Link on Classic, review the general process that your organization follows for obtaining the Connect service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
+As you prepare to order Direct Link on Classic, review the general process that your organization follows for obtaining the Connect service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.
 {: shortdesc}
 
 To determine which Direct Link solution is best for your networking environment, see [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order)
@@ -44,7 +44,7 @@ To provision a Direct Link Connect order, complete the following steps:
 1. Select the **Navigation Menu** icon ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Classic Infrastructure** > **Direct Link**.
 
    The Direct Link on Classic page opens, listing existing Direct Link connections provisioned for this account.
-   
+
 1. Click **Order Direct Link** in the upper right of the page. The Choose Direct Link option page is displayed.
 1. Select the **Direct Link Connect** tile to open the order form.
 1. Complete the following information to configure Direct Link Connect:
@@ -53,7 +53,7 @@ To provision a Direct Link Connect order, complete the following steps:
    - Select the location in which you want to establish the Direct Link connection.
    - Select the name of your network provider.
    - Select the link speed required for the connection.
-   - Select the routing option required for the connection: **Local routing (free)** or **Global routing**. 
+   - Select the routing option required for the connection: **Local routing (free)** or **Global routing**.
    - Enter a valid BGP ASN number from the range given in the information box for the BGP exchanges.
 
    As you select or enter these values, you can see an approximate monthly charge in the right pane.
@@ -74,7 +74,6 @@ Our Direct Link Connect providers include these locations:
 |--------------|--------------|
 | Arelion | Americas: Washington DC 2 |
 | Ascenty | Americas: Sao Paulo 1 |
-| AT&T NetBond for Cloud |  Americas: Dallas 3, San Jose 2 (no diversity: on same XCR)  \n EU: Frankfurt 1, London 1 |
 | Bell Canada | Americas: Montreal 2, Toronto 2 |
 | BNPP | EU: Paris 1 |
 | British Telecom |  Americas: Washington DC 2  \n EU: Frankfurt 1, London 1, London 3 |
@@ -93,7 +92,6 @@ Our Direct Link Connect providers include these locations:
 | IBM Power Virtual Server | Americas: Dallas 12, Montreal 1, Sao Paulo 1, Toronto 1, Washington DC 4  \n APAC: Osaka 21, Sydney 4  \n EU: Frankfurt 4, Frankfurt 5, London 4, London 6  |
 | Intercloud | EU: Amsterdam 2, Frankfurt 1, Frankfurt 3 |
 | IXReach | Americas: Washington DC 2  \n EU: London 1 (no diversity), London 3 (no diversity) |
-| Megaport | Americas: Chicago 1, Dallas 4, San Jose 2 (no diversity), Toronto 2 (no diversity), Washington DC 2  \n APAC: Hong Kong 1 (no diversity), Melbourne 2, Osaka 1, Tokyo 2, Tokyo 3, Singapore 2, Sydney 2  \n EU: Amsterdam 2 (no diversity), Frankfurt 1, London 3 (no diversity), Paris 2 |
 | Neutrona |  Americas: Dallas 3, Sao Paulo 2, Washington DC 2 |
 | nextGen Global Network Peering Platform (GNPP) |  Americas: Dallas 3, Washington DC 2  \n EU: Amsterdam 2 (no diversity), Frankfurt 3, London 4 |
 | NTT | APAC: Tokyo 5 |
@@ -104,7 +102,6 @@ Our Direct Link Connect providers include these locations:
 | Tata | APAC: Chennai 1, Hong Kong 1 |
 | Telstra | APAC: Melbourne 2, Sydney 2 |
 | Tokai | APAC: Osaka 1, Tokyo 3 |
-| Verizon SCI |  APAC:  Sydney 2, Tokyo 1  \n EU: Amsterdam 2, Frankfurt 1 |
 | Vodafone | EU: Frankfurt 1 (no diversity), Frankfurt 3 (no diversity), London 1 (no diversity), London 3 (no diversity)  |
 | Zayo | Americas: Dallas 3, Toronto 2, Washington DC 2 |
 {: caption="Table 1: Direct Link Connect provider locations" caption-side="bottom"}

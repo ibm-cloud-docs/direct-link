@@ -28,8 +28,8 @@ Improved the user interface
     * Updated the Direct Link on Classic page to show all types of direct links. Also added new actions to the list view.
     * Removed acceptance of the Master Service Agreement in favor of reviewing and agreeing to a list of prerequisites.
     * The details page now appears as a card component view.
-    * You can now edit connections, and accept/reject pending provider requests through new side panels.   
-   
+    * You can now edit connections, and accept/reject pending provider requests through new side panels.
+
 ## 01 December 2019
 {: #dl-dec0119}
 {: release-note}
@@ -40,7 +40,7 @@ IBM introduces a new Direct Link Dedicated release for VPC
     * Support for connections to multiple IBM Cloud accounts from a single direct link.
     * Support for multiple VPCs (without classic access) from a single Direct Link within the same account.
     * Bring Your Own IP (BYOIP) address to create native connectivity between your on-premises environment and IBM Cloud.
-    
+
 :    To learn more about the new Direct Link offerings, see [FAQs](/docs/dl?topic=dl-faqs). For ordering information, see [Getting started with IBM Cloud Direct Link](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl).
 
 :    To determine which Direct Link Dedicated solution is right for your networking needs, see [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
@@ -49,7 +49,7 @@ IBM introduces a new Direct Link Dedicated release for VPC
 {: #dl- mar0119}
 {: release-note}
 
-Expanded local markets 
+Expanded local markets
 :    We expanded the Direct Link local markets to provide more local routing options to customers globally.
 :    New local market assignments:
     * The Dallas local market includes Denver, Houston, and Chicago PoPs.
@@ -61,9 +61,8 @@ Expanded local markets
     * The Tokyo local market includes the Osaka PoP.
     * The Chennai local market includes the Mumbai PoP.
 
-Withdrawing of global routing network transit overage charges 
+Withdrawing of global routing network transit overage charges
 :    Network transit limits and overage charges for customers with the Global routing option are withdrawn. Previous pricing included network transit allowances and overage charges for egress traffic outside of the customer’s local market. New pricing eliminates these network traffic charges. Henceforth, ingress and egress traffic across Direct Link connections do not incur overages.
-:    6 March: Megaport is available in Chicago for Connect
 :    13 March: Tokai is available in Tokyo 3 for Connect
 :    8 March: TATA is available in Hong Kong 1 for Connect
 :    1 March: EU Networks is available in Frankfurt 1 for Connect
@@ -103,7 +102,6 @@ November highlights
 :    29 November: Colt is now available for Connect in SNG02.
 :    7 November: Ascenty is now available for Exchange with Diversity in SAO01.
 :    5 November: Equinix is now live at TOK03 with Full Diversity on Exchange.
-:    1 November: Megaport is now available for Connect in SJC02.
 
 ## 16 October 2018
 {: #dl-oct1618}
@@ -111,29 +109,27 @@ November highlights
 
 October highlights
 :    16 October: Kinx is now active as an Exchange provider in Seoul02, with diversity.
-:    2 October: Megaport is now available in Hong Kong for Connect, non-diverse for now.
 
-New Connectivity Options for Direct Link 
-:    {{site.data.keyword.cloud_notm}} is pleased to announce new and expanded collaborations with InterCloud, SES Networks, and CenturyLink.  
+New Connectivity Options for Direct Link
+:    {{site.data.keyword.cloud_notm}} is pleased to announce new and expanded collaborations with InterCloud, SES Networks, and CenturyLink.
 
 ## 08 September 2018
 {: #dl-sep-0818}
 {: release-note}
 
 September highlights
-:    8 September: Megaport is now Diverse in WDC02 for Connect.
 :    8 September: SES Networks is now available with Diversity in WDC02 for Connect.
 :    8 September: BT is now available without Diversity in Sao Paulo for Connect.
 :    8 September: Centurylink is now available without Diversity in Miami for Connect.
 
-IBM Cloud Direct Link continues connectivity collaborations 
-:    The {{site.data.keyword.cloud_notm}} Direct Link service continues to expand globally! In light of the recent IBM Cloud Service Provider Program announcement, we made several more announcements recently. 
+IBM Cloud Direct Link continues connectivity collaborations
+:    The {{site.data.keyword.cloud_notm}} Direct Link service continues to expand globally! In light of the recent IBM Cloud Service Provider Program announcement, we made several more announcements recently.
 
 ## 01 August 2018
 {: #dl-aug0118}
 {: release-note}
 
-CenturyLink Connects to IBM 
+CenturyLink Connects to IBM
 :    CenturyLink Cloud Connect Solutions now deliver private, secure network connectivity to {{site.data.keyword.cloud_notm}}, helping organizations innovate more efficiently by establishing low-latency connections on a global basis across a private network to the {{site.data.keyword.cloud_notm}} through {{site.data.keyword.cloud_notm}} Direct Link. This extended collaboration between Century Link and IBM builds on Century Link's existing support for IBM Business Resiliency Services and {{site.data.keyword.cloud_notm}} Managed Services.
 
 ## 01 July 2018
@@ -158,7 +154,6 @@ Colt offers direct access to IBM Cloud Direct Link
 {: release-note}
 
 May highlights
-:    7 May: Megaport is now active on a single Router in WDC02 for Connect. Diversity follows in a few weeks.
 :    2 May: Equinix in NY02 and NY03 were delivered for Exchange, and are now live in the portal (with Diversity).
 
 ## 27 April 2018
@@ -175,7 +170,7 @@ April highlights
 {: #dl-mar0118}
 {: release-note}
 
-PacketFabric Offers Connectivity to IBM Cloud 
+PacketFabric Offers Connectivity to IBM Cloud
 :    PacketFabric customers have access to {{site.data.keyword.cloud_notm}} services in Dallas, Texas; San Francisco, California; and Washington, D.C., from any location on the PacketFabric network.
 
 ## 01 February 2018
