@@ -46,7 +46,6 @@ The following table summarizes the type of connections that each {{site.data.key
 
 | Partners | Interconnection type |
 |-------|-------|
-| AT&T Cloud Gateway (formerly known as RedFringe)| **Layer 3** |
 | Bell Canada | **Layer 3** |
 | British Telecom | **Layer 3**  |
 | CenturyLink IP VPN | **Layer 3** |
