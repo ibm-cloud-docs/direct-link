@@ -94,7 +94,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 |**IBM Location Code** | **Location Type** | **Meet Me Room Operator**| **Operator Site Code** |
 |-----------------|-----------------|-----------------|--------------------|
 | Chennai 1 | DC | Tata | PH-01 |
-| Hong Kong 1 | PoP | Mega-I (via Telstra) | Mega-I (iAdvantage Hong Kong) |
+| Hong Kong 1 | PoP | Mega-I | Mega-I (iAdvantage Hong Kong) |
 | Hong Kong 3 | PoP | Equinix | HKG3|
 | Melbourne 2 | PoP |NextDC | M1 |
 | Osaka 1 | PoP | Equinix | OS1 |

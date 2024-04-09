@@ -100,7 +100,6 @@ Our Direct Link Connect providers include these locations:
 | SES Networks | Americas: Washington DC 2 |
 | Softbank | APAC: Tokyo 4 |
 | Tata | APAC: Chennai 1, Hong Kong 1 |
-| Telstra | APAC: Melbourne 2, Sydney 2 |
 | Tokai | APAC: Osaka 1, Tokyo 3 |
 | Vodafone | EU: Frankfurt 1 (no diversity), Frankfurt 3 (no diversity), London 1 (no diversity), London 3 (no diversity)  |
 | Zayo | Americas: Dallas 3, Toronto 2, Washington DC 2 |
