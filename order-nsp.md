@@ -127,7 +127,6 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | London 2 | DC | Digital Realty | LHR13 |
 | London 3 | PoP | Equinix | LD5 |
 | London 4 | DC | ARK | A103 |
-| London 5 | DC | Gyron |  |
 | London 6 | DC | Cyrus One (fZenium) | LON1 |
 | Milan 1 |  DC | Data4 | |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way |
