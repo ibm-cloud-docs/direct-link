@@ -68,7 +68,6 @@ toc:
        - responsibilities.md
        - external-resources.md
        - understanding-latency.md
-       - vrf-on-ibm-cloud.md
        - vrf-conversion-dl.md
        - topicgroup:
           label: Direct Link prerequisites
