@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-04-30"
+  years: 2017, 2024
+lastupdated: "2024-06-06"
 
 keywords:
 
@@ -93,9 +93,11 @@ If you select ECMP for redundancy, both BGP sessions must exist on the same XCR;
 ## More about using VRF
 {: #more-about-using-vrf}
 
-All accounts that use an {{site.data.keyword.cloud_notm}} Direct Link solution must migrate to a VRF. By using VRF, customers advertise the available routes to their self-defined remote networks. This configuration does not permit you to use self-defined IP addresses on the {{site.data.keyword.cloud_notm}} network.
+All accounts that use an {{site.data.keyword.cloud_notm}} Direct Link solution must migrate to a VRF. For more information, see [FAQs about VRF account migration](/docs/account?topic=account-vrf-faqs).
 
-Migrating to a VRF is done during the setup process. It requires a short outage window (up to 30 minutes for large accounts with multiple VLANs/locations), during which the backend network VLANs lose mutual connectivity while they are moved to the VRF. The VRF migration is scheduled with the implementing engineer.
+By using VRF, customers advertise the available routes to their self-defined remote networks. This configuration does not permit you to use self-defined IP addresses on the {{site.data.keyword.cloud_notm}} network.
+
+Migrating to a VRF requires a short outage window (up to 30 minutes for large accounts with multiple VLANs/locations), during which the backend network VLANs lose mutual connectivity while they are moved to the VRF. 
 
 VRF eliminates the "VLAN Spanning" option for your account, including any account-to-account VLAN spanning capabilities, because all VLANs are able to communicate unless a gateway appliance is introduced to manage traffic. VRF also limits the ability to use {{site.data.keyword.cloud_notm}} VPN services because it is not compatible with {{site.data.keyword.cloud_notm}} SSL and IPsec VPN services.   
 
