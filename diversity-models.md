@@ -2,9 +2,9 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-04-07"
+lastupdated: "2024-06-18"
 
-keywords: 
+keywords:
 
 subcollection: direct-link
 
@@ -92,4 +92,3 @@ IBM Cloud Direct Link does not allow path preference for route prefixes received
 Finally, if the duplicate route prefixes are received with the same AS path length from different origin routers, IBM Cloud gives preference to the oldest route received. In other words, the first BGP session that advertises a given route prefix receives path preference.
 
 Similar rules apply on the route prefixes that IBM Cloud advertises to the customer. The IBM Cloud routers advertise all prefixes that are associated with all applicable Direct Link connections equally (through BGP) with no additional BGP attributes to indicate path preference. The customer can implement import policies of their choice to prevent asymmetric routing scenarios that align with any existing export policies.
-

@@ -2,9 +2,9 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-02-20"
+lastupdated: "2024-06-18"
 
-keywords:  
+keywords:
 
 subcollection: direct-link
 ---
@@ -24,9 +24,9 @@ Your provider can also send you a request to create, delete, or edit a direct li
 
 To update a {{site.data.keyword.dl_short}} gateway, follow these steps:
 
-1. Highlight the row of the gateway that you want to update, then click **Edit** from the Actions menu ![Actions menu](/images/overflow.png). Alternatively, you can click the Direct Link name in the table to show its details. Then, click the Edit icon ![Edit icon](/images/edit.png) in the upper right of the page. 
+1. Highlight the row of the gateway that you want to update, then click **Edit** from the Actions menu ![Actions menu](/images/overflow.png). Alternatively, you can click the Direct Link name in the table to show its details. Then, click the Edit icon ![Edit icon](/images/edit.png) in the upper right of the page.
 
-   If you modify the speed or routing option, the pricing changes. Any updated charges take effect during the next billing cycle.  
+   If you modify the speed or routing option, the pricing changes. Any updated charges take effect during the next billing cycle.
    {: note}
 
 1. Read and agree to the {{site.data.keyword.dl_short}} prerequisites.

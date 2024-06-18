@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-02-17"
+lastupdated: "2024-06-18"
 
-keywords: 
+keywords:
 
 subcollection: direct-link
 
@@ -17,7 +17,7 @@ subcollection: direct-link
 {: help}
 {: support}
 
-As you prepare to order Direct Link on Classic, review the general process that your organization follows for obtaining the Exchange service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.  
+As you prepare to order Direct Link on Classic, review the general process that your organization follows for obtaining the Exchange service, including the locations where each service is available, globally. When you're ready to place your order, follow the step-by-step instructions.
 {: shortdesc}
 
 To determine which Direct Link solution is best for your networking environment, see
@@ -48,10 +48,10 @@ To provision an IBM Cloud Direct Link Exchange connection, complete the followin
 1. Log in to your [IBM Cloud console](/login){: external} account.
 1. Select the **Navigation Menu** icon ![Navigation Menu icon](images/menu_icon.png) on the upper left, then click **Classic Infrastructure** > **Direct Link**.
 
-   The Direct Link on Classic page opens, listing existing Direct Link connections provisioned for this account.    
-   
-1. Click **Order Direct Link** in the upper right of the page. The Choose Direct Link option page is displayed.   
-1. Select the **Direct Link Exchange** tile to open the order form. 
+   The Direct Link on Classic page opens, listing existing Direct Link connections provisioned for this account.
+
+1. Click **Order Direct Link** in the upper right of the page. The Choose Direct Link option page is displayed.
+1. Select the **Direct Link Exchange** tile to open the order form.
 
    Optionally, if diverse ports are accessible, and you previously provisioned the first virtual circuit, you see a page similar to the following one, which shows two ports from which you can select your second virtual circuit. For example:  /n
    ![Virtual circuit selection](/images/two_ports.png){: caption="Virtual circuit selection" caption-side="bottom"}
@@ -62,7 +62,7 @@ To provision an IBM Cloud Direct Link Exchange connection, complete the followin
    * Enter a Direct Link instance name.
    * Choose the location in which you want to establish the IBM Cloud Direct Link connection.
    * Select the name of your network provider.
-   - Select the routing option required for the connection: **Local routing (free)** or **Global routing**. 
+   - Select the routing option required for the connection: **Local routing (free)** or **Global routing**.
    * Enter a BGP ASN number from the range given in the information box for the BGP exchanges.
 
    As you complete these values, you can see an approximate monthly charge in the right Summary pane.
@@ -86,7 +86,7 @@ To order Direct Link Exchange on Classic for Equinix, follow these steps:
 1. Log in to the Equinix Cloud Exchange (ECX) Fabric portal.
    * Navigate to [https://ecxfabric.equinix.com](https://ecxfabric.equinix.com){: external}.
    * Enter your username and password.
-   * Click **Sign In**.   
+   * Click **Sign In**.
 1. In the Frequent Connections section, click the **IBM Cloud** tile.
 1. In the **IBM Cloud Direct Link Exchange** profile, click **Create Connection**.
 
@@ -94,18 +94,18 @@ To order Direct Link Exchange on Classic for Equinix, follow these steps:
 
 1. In the Origin section, click **Port**.
 
-   ![Select a Port, Location, and Destination](/images/equinix-port.png "Select a Port, Location, and Destination"){: caption="Select a Port, Location, and Destination" caption-side="bottom"}   
+   ![Select a Port, Location, and Destination](/images/equinix-port.png "Select a Port, Location, and Destination"){: caption="Select a Port, Location, and Destination" caption-side="bottom"}
 
-1. Select a **Location**, followed by a **Destination**. Then, click **Next**.  
-1. On the Connection Details page, enter the connection information. For Account ID, enter the Classic Softlayer Account ID (for example, `114340xxx`). This is the unique account ID that was initially created to start using IBM Cloud. 
-1. Select a **Connection Speed**, then click **Next**.   
+1. Select a **Location**, followed by a **Destination**. Then, click **Next**.
+1. On the Connection Details page, enter the connection information. For Account ID, enter the Classic Softlayer Account ID (for example, `114340xxx`). This is the unique account ID that was initially created to start using IBM Cloud.
+1. Select a **Connection Speed**, then click **Next**.
 1. Review and click **Submit Your Order**.
 1. Return to the [IBM Cloud Direct Link Exchange page](/classic/network/directlink/exchange) in the IBM Cloud console. Notice that the connection status for your direct link connection states **Create Approval Pending**.
 1. Open the Actions ![Actions menu](/images/overflow.png) menu and click **Accept**.
 
-      ![Equinix request approval pending](/images/equinix-request-pending.png){: caption="Equinix request approval pending" caption-side="bottom"}   
+      ![Equinix request approval pending](/images/equinix-request-pending.png){: caption="Equinix request approval pending" caption-side="bottom"}
 
-      The virtual connection shows as **Provisioned** in the Equinix Fabric portal.   
+      The virtual connection shows as **Provisioned** in the Equinix Fabric portal.
 
 1. Review your order summary, agree to the [Direct Link Exchange prerequisites](/docs/direct-link?topic=direct-link-ibm-cloud-dl-exchange-prereqs), and then click **Create**.
 

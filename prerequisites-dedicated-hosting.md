@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-02-17"
+lastupdated: "2024-06-18"
 
 keywords:  direct link prerequisites
 
@@ -26,9 +26,9 @@ When you are ready to finalize your {{site.data.keyword.dl_short}} order, you ar
 
 1. {{site.data.keyword.cloud_notm}} will not colocate any customer equipment in our network PoPs.
 
-1. IBM Cloud provides dual uplinks, one to each of IBM Cloud’s cross-connect routers to allow customers to establish redundant connectivity. This is accomplished on the customer's routers via BGP sessions by using ECMP capabilities or simply weighting the connection by balancing traffic to the direct link from the customer routers. 
+1. IBM Cloud provides dual uplinks, one to each of IBM Cloud’s cross-connect routers to allow customers to establish redundant connectivity. This is accomplished on the customer's routers via BGP sessions by using ECMP capabilities or simply weighting the connection by balancing traffic to the direct link from the customer routers.
 
-    If you require more than two direct links, you can order additional direct links. 
+    If you require more than two direct links, you can order additional direct links.
 
 1. The {{site.data.keyword.dl_short}} service is an unprotected path into the {{site.data.keyword.cloud_notm}} environment. If you require redundancy through the {{site.data.keyword.dl_short}} service, you can purchase two separate Direct link connections in a single {{site.data.keyword.cloud_notm}} network PoP on two separate routers, or you can order two single connections into two geographically diverse {{site.data.keyword.dl_short}} PoP locations. It is your responsibility to configure the routing protocols to ensure resiliency between the two links.
 

@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-04-22"
+lastupdated: "2024-06-18"
 
-keywords: 
+keywords:
 
 subcollection: direct-link
 
@@ -28,7 +28,7 @@ Use this decision tree to help you decide which solution works best for you. If 
 For more information about the new Direct Link offerings, see [Getting started with IBM Cloud Direct Link](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl).
 {: note}
 
-When you're ready to order, follow the step-by-step instructions for the specific Direct Link solution that you need. After you place your order, you'll be asked to complete a questionnaire related to your solution and workload requirements.  
+When you're ready to order, follow the step-by-step instructions for the specific Direct Link solution that you need. After you place your order, you'll be asked to complete a questionnaire related to your solution and workload requirements.
 
    Currently, there isn't a migration path from {{site.data.keyword.dlc_short}} offerings to the new IBM Cloud Direct Link. You must order a Direct Link Dedicated or Direct Link Connect connection.
    {: important}

@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-11-25"
+lastupdated: "2024-06-18"
 
-keywords:  
+keywords:
 
 subcollection: direct-link
 
@@ -47,7 +47,7 @@ See the following links for key features and benefits of each {{site.data.keywor
 
 * [**Direct Link Connect on Classic**](#direct-link-connect-solution)
 * [**Direct Link Dedicated on Classic**](#direct-link-dedicated-solution)
-* [**Direct Link Dedicated Hosting on Classic**](#direct-link-dedicated-hosting-solution)  
+* [**Direct Link Dedicated Hosting on Classic**](#direct-link-dedicated-hosting-solution)
 * [**Direct Link Exchange on Classic**](#direct-link-exchange-solution)
 
 ### The Direct Link Connect on Classic solution
