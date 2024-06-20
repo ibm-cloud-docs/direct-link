@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2022
-lastupdated: "2022-02-17"
+  years: 2018, 2024
+lastupdated: "2024-06-20"
 
 keywords:
 
@@ -56,7 +56,7 @@ To provision a Direct Link Connect order, complete the following steps:
    - Select the routing option required for the connection: **Local routing (free)** or **Global routing**.
    - Enter a valid BGP ASN number from the range given in the information box for the BGP exchanges.
 
-   As you select or enter these values, you can see an approximate monthly charge in the right pane.
+   As you select or enter these values, you can see an approximate monthly charge in the right-side panel.
    {: note}
 
 1. Read and agree to the [Direct Link Connect prerequisites](/docs/direct-link?topic=direct-link-ibm-cloud-dl-connect-prerequisites). Then, click **Create** to complete your order.
