@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2024-06-18"
+  years: 2017, 2024
+lastupdated: "2024-06-20"
 
 keywords:
 
@@ -54,7 +54,7 @@ To provision an IBM Cloud Direct Link Exchange connection, complete the followin
 1. Select the **Direct Link Exchange** tile to open the order form.
 
    Optionally, if diverse ports are accessible, and you previously provisioned the first virtual circuit, you see a page similar to the following one, which shows two ports from which you can select your second virtual circuit. For example:  /n
-   ![Virtual circuit selection](/images/two_ports.png){: caption="Virtual circuit selection" caption-side="bottom"}
+   ![Virtual circuit selection](images/two_ports.png){: caption="Virtual circuit selection" caption-side="bottom"}
    {: note}
 
 1. In the order form, complete following information to configure Direct Link Exchange:
@@ -90,26 +90,26 @@ To order Direct Link Exchange on Classic for Equinix, follow these steps:
 1. In the Frequent Connections section, click the **IBM Cloud** tile.
 1. In the **IBM Cloud Direct Link Exchange** profile, click **Create Connection**.
 
-   ![Equinix ordering](/images/equinix-ibm-cloud-2.png "Equinix ordering"){: caption="Equinix ordering" caption-side="bottom"}
+   ![Equinix ordering](images/equinix-ibm-cloud-2.png "Equinix ordering"){: caption="Equinix ordering" caption-side="bottom"}
 
 1. In the Origin section, click **Port**.
 
-   ![Select a Port, Location, and Destination](/images/equinix-port.png "Select a Port, Location, and Destination"){: caption="Select a Port, Location, and Destination" caption-side="bottom"}
+   ![Select a Port, Location, and Destination](images/equinix-port.png "Select a Port, Location, and Destination"){: caption="Select a Port, Location, and Destination" caption-side="bottom"}
 
 1. Select a **Location**, followed by a **Destination**. Then, click **Next**.
 1. On the Connection Details page, enter the connection information. For Account ID, enter the Classic Softlayer Account ID (for example, `114340xxx`). This is the unique account ID that was initially created to start using IBM Cloud.
 1. Select a **Connection Speed**, then click **Next**.
 1. Review and click **Submit Your Order**.
 1. Return to the [IBM Cloud Direct Link Exchange page](/classic/network/directlink/exchange) in the IBM Cloud console. Notice that the connection status for your direct link connection states **Create Approval Pending**.
-1. Open the Actions ![Actions menu](/images/overflow.png) menu and click **Accept**.
+1. Open the Actions ![Actions menu](images/overflow.png) menu and click **Accept**.
 
-      ![Equinix request approval pending](/images/equinix-request-pending.png){: caption="Equinix request approval pending" caption-side="bottom"}
+      ![Equinix request approval pending](images/equinix-request-pending.png){: caption="Equinix request approval pending" caption-side="bottom"}
 
       The virtual connection shows as **Provisioned** in the Equinix Fabric portal.
 
 1. Review your order summary, agree to the [Direct Link Exchange prerequisites](/docs/direct-link?topic=direct-link-ibm-cloud-dl-exchange-prereqs), and then click **Create**.
 
-      ![Equinix order summary pane](/images/equinix-order-summary.png){: caption="Equinix order summary pane" caption-side="bottom"}
+      ![Equinix order summary pane](images/equinix-order-summary.png){: caption="Equinix order summary pane" caption-side="bottom"}
 
 The timeline for approval is within 24 hours. If the 24-hour Service Level Agreement (SLA) is not acceptable, you can [create an IBM Support case](/unifiedsupport/cases/form) and request that it be routed to the SNS team.
 {: note}

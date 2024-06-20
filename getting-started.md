@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2024-06-18"
+  years: 2017, 2024
+lastupdated: "2024-06-20"
 
 keywords:
 
@@ -23,7 +23,7 @@ subcollection: direct-link
 
 Use this decision tree to help you decide which solution works best for you. If you want help with getting started, you can open an IBM Support case through the [IBM Cloud console](/unifiedsupport/cases/add){: external}, or contact your {{site.data.keyword.cloud_notm}} sales representative.
 
-![direct-link-decision-tree](/images/flow.png){: caption="Figure 1. Direct Link decision tree" caption-side="bottom"}
+![direct-link-decision-tree](images/flow.png){: caption="Figure 1. Direct Link decision tree" caption-side="bottom"}
 
 For more information about the new Direct Link offerings, see [Getting started with IBM Cloud Direct Link](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl).
 {: note}
