@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-02-17"
+lastupdated: "2024-06-18"
 
 keywords:  direct link prerequisites
 
@@ -36,7 +36,7 @@ When you are ready to finalize your {{site.data.keyword.dl_short}} order, you ar
 
 1. After you confirm that your circuit reached the {{site.data.keyword.dl_short}} PoP, you must place an order with the service provider to extend service to the {{site.data.keyword.dl_short}} Demarcation point.
 
-   IBM will supply a Letter of Authorization/Connecting Facility Assignment (LOA/CFA) with port information to order the cross connect.    
+   IBM will supply a Letter of Authorization/Connecting Facility Assignment (LOA/CFA) with port information to order the cross connect.
 
 1. Be aware if you use Classic IaaS, that infrastructure uses the `10.x.x.x` network and you cannot overlap your on-premises hosts within {{site.data.keyword.cloud_notm}} or with the {{site.data.keyword.cloud_notm}} services network (`10.0.0.0/14`, `10.198.0.0/15`, and `10.200.0.0/14`).
 

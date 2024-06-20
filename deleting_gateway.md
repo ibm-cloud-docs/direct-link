@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-02-20"
+lastupdated: "2024-06-18"
 
 keywords: direct link
 
@@ -21,11 +21,11 @@ You can delete a {{site.data.keyword.dl_short}} gateway either before or after t
 
 To delete a gateway, follow these steps:
 
-1. From the {{site.data.keyword.dl_short}} table, highlight the row of the gateway that you want to delete, then click **Delete** from the Actions menu  ![Actions menu](images/overflow.png). 
+1. From the {{site.data.keyword.dl_short}} table, highlight the row of the gateway that you want to delete, then click **Delete** from the Actions menu  ![Actions menu](images/overflow.png).
 
-   Alternatively, you can click **Actions > Delete** on a gateway's details page. 
+   Alternatively, you can click **Actions > Delete** on a gateway's details page.
    {: tip}
-   
+
 1. Enter the name of the direct link to confirm. Click **Delete** again to confirm the deletion. You cannot undo this action.
 
 You can receive requests from your provider to approve or reject the deletion of a direct link. These requests are shown as "Delete approval pending" in the Status column on the Direct Link on Classic list page. To approve or reject a request, select an option from the Actions menu ![Actions menu](images/overflow.png), or click the **Actions** menu on the gateway's details page.

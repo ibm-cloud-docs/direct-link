@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-06-06"
+lastupdated: "2024-06-18"
 
 keywords:
 
@@ -29,7 +29,7 @@ In general, to get your Direct Link on Classic connection working, you must do s
    * For new environments, the `10.0.0.0/8` space.
    * For existing environments that use `10.0.0.0/8`, we recommend that you obtain a more detailed assessment to ensure that there is not a conflict with the {{site.data.keyword.cloud_notm}} services network, or with the networks that are already assigned to your account.
 
-1. Our staff at {{site.data.keyword.cloud_notm}} assigns a `/31` or `/30` for each connection and configures an interface IP address on the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) infrastructure.  
+1. Our staff at {{site.data.keyword.cloud_notm}} assigns a `/31` or `/30` for each connection and configures an interface IP address on the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) infrastructure.
 
 1. Configure the interface on your customer edge router (CER) by using the IP address provided: use the {{site.data.keyword.cloud_notm}} XCR IP as a next-hop for any traffic that is destined to {{site.data.keyword.cloud_notm}}.
 
@@ -79,7 +79,7 @@ IBM Cloud ASN is **13884**, for public and private services.
 ## Strict limitations on IP assignments
 {: #strict-limitations-on-ip-assignments}
 
-* If you use the 10.x.x.x network, you still cannot create overlap with your hosts within IBM Cloud nor with the IBM Cloud services network, which occupies `10.0.0.0/14`, `10.198.0.0/15`, and `10.200.0.0/14`.  
+* If you use the 10.x.x.x network, you still cannot create overlap with your hosts within IBM Cloud nor with the IBM Cloud services network, which occupies `10.0.0.0/14`, `10.198.0.0/15`, and `10.200.0.0/14`.
 
 * The following ranges are not allowed in the Federal system and they are rejected by IBM servers: `169.254.0.0/16`, `224.0.0.0/4`.
 
@@ -97,16 +97,16 @@ All accounts that use an {{site.data.keyword.cloud_notm}} Direct Link solution m
 
 By using VRF, customers advertise the available routes to their self-defined remote networks. This configuration does not permit you to use self-defined IP addresses on the {{site.data.keyword.cloud_notm}} network.
 
-Migrating to a VRF requires a short outage window (up to 30 minutes for large accounts with multiple VLANs/locations), during which the backend network VLANs lose mutual connectivity while they are moved to the VRF. 
+Migrating to a VRF requires a short outage window (up to 30 minutes for large accounts with multiple VLANs/locations), during which the backend network VLANs lose mutual connectivity while they are moved to the VRF.
 
-VRF eliminates the "VLAN Spanning" option for your account, including any account-to-account VLAN spanning capabilities, because all VLANs are able to communicate unless a gateway appliance is introduced to manage traffic. VRF also limits the ability to use {{site.data.keyword.cloud_notm}} VPN services because it is not compatible with {{site.data.keyword.cloud_notm}} SSL and IPsec VPN services.   
+VRF eliminates the "VLAN Spanning" option for your account, including any account-to-account VLAN spanning capabilities, because all VLANs are able to communicate unless a gateway appliance is introduced to manage traffic. VRF also limits the ability to use {{site.data.keyword.cloud_notm}} VPN services because it is not compatible with {{site.data.keyword.cloud_notm}} SSL and IPsec VPN services.
 
 An alternative is to use the IBM Cloud Direct Link offering itself to manage your servers, or to run your own VPN solution (such as a Vyatta) that can be configured with different types of VPN. After migrating to a VRF, SSL VPN typically works when a VPN connection is made to the same data center location in which a compute VM is running, but it does not allow access globally.
 
 ## Using BYOIP and NAT with Direct Link
 {: #using-byoip-and-nat-with-direct-link}
 
-IBM Cloud Direct Link does not offer BYOIP on the private network. Therefore, traffic with a destination IP address that was not assigned by {{site.data.keyword.cloud_notm}} is dropped. However, customers can encapsulate traffic between the remote network and their {{site.data.keyword.cloud_notm}} network that uses GRE, IPsec, or VLAN.  
+IBM Cloud Direct Link does not offer BYOIP on the private network. Therefore, traffic with a destination IP address that was not assigned by {{site.data.keyword.cloud_notm}} is dropped. However, customers can encapsulate traffic between the remote network and their {{site.data.keyword.cloud_notm}} network that uses GRE, IPsec, or VLAN.
 
 Most commonly, the BYOIP environment is implemented within the scope of either a Network Gateway (Vyatta) or a VMWare NSX deployment. This configuration enables customers to use any desirable IP space on the {{site.data.keyword.cloud_notm}} side, and to route back across the tunnel to the remote network. This configuration must be managed and supported by the customer, independent of {{site.data.keyword.cloud_notm}}. Furthermore, this configuration can break connectivity to the {{site.data.keyword.cloud_notm}} services network if the customer assigns a 10.x.x.x block that {{site.data.keyword.cloud_notm}} has in use for services.
 

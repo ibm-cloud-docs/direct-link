@@ -1,4 +1,3 @@
-
 toc:
   properties:
     subcollection: direct-link
@@ -11,7 +10,6 @@ toc:
     product-page: https://www.ibm.com/products/direct-link
     path: direct-link
     label: Direct Link on Classic
-
   entries:
     - navgroup:
        id: learn
@@ -28,7 +26,6 @@ toc:
           - connect-details.md
           - topic: video-hybrid-cloud.md
             navtitle: "Video: Direct Link for hybrid cloud"
-
        - topicgroup:
            label: Related links
            topics:
@@ -39,7 +36,6 @@ toc:
                 label: Getting started with Virtual Private Cloud (VPC)
                 href: /vpc/vpc-getting-started
        - release-notes.md
-
     - navgroup:
        id: tutorial
        topics:
@@ -48,7 +44,6 @@ toc:
           topics:
           - include: ../solution-tutorials/byoip.md
           - include: ../solution-tutorials/secure-network-enclosure.md
-
     - navgroup:
        id: howto
        topics:
@@ -61,7 +56,6 @@ toc:
        - editing_gateway.md
        - deleting_gateway.md
        - managing-permissions.md
-
     - navgroup:
        id: reference
        topics:
@@ -76,7 +70,6 @@ toc:
           - prerequisites-dedicated.md
           - prerequisites-dedicated-hosting.md
           - prerequisites-exchange.md
-
     - navgroup:
        id: help
        topics:

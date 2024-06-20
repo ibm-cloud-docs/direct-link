@@ -1,10 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-
-lastupdated: "2019-05-21"
-
+  years: 2017, 2024
+lastupdated: "2024-06-20"
 
 keywords:
 
