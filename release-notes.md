@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2018, 2022
-lastupdated: "2022-03-01"
+  years: 2018, 2024
+lastupdated: "2024-07-15"
 
 keywords:
 
@@ -46,7 +46,7 @@ IBM introduces a new Direct Link Dedicated release for VPC
 :    To determine which Direct Link Dedicated solution is right for your networking needs, see [How do I know which Direct Link solution to order?](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-solution-to-order).
 
 ## 01 March 2019
-{: #dl- mar0119}
+{: #dl-mar0119}
 {: release-note}
 
 Expanded local markets

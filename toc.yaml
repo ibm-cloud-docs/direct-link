@@ -16,14 +16,12 @@ toc:
        topics:
        - getting-started.md
        - about.md
-       - dl-july-policy-change.md
        - topicgroup:
           label: Deployment considerations
           topics:
           - alternative-deployments.md
           - diversity-models.md
           - layer-2-layer-3.md
-          - connect-details.md
           - topic: video-hybrid-cloud.md
             navtitle: "Video: Direct Link for hybrid cloud"
        - topicgroup:
