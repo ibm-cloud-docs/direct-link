@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2024-06-18"
+  years: 2017, 2024
+lastupdated: "2024-07-15"
 
 keywords:
 
@@ -76,6 +76,5 @@ Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared 
 
 For specific information about how to initiate a VRF conversion for your account, refer to the conversion instructions for your IBM Cloud offering. For example:
 
-* [Direct Link conversion instructions](/docs/direct-link?topic=direct-link-what-happens-during-the-account-conversion-process)
 * [VPC conversion instructions](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure&interface=ui#how-you-can-initiate-the-conversion)
 * [{{site.data.keyword.cloud_notm}} service endpoints conversion instructions](/docs/account?topic=account-vrf-service-endpoint)
