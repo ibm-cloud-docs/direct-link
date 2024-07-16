@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-06-18"
+lastupdated: "2024-07-16"
 
 keywords:
 
@@ -213,6 +213,7 @@ For connecting to Direct Link, see [Configuring {{site.data.keyword.cloud_notm}}
 BGP passwords for Direct Link Exchange aren't set up, by default. There is an option to specify BGP ASN and we assign BGP IP addresses. Also, it's possible to set up a BGP password for authentication purposes, we just need to let the engineers know.
 
 ## How do I convert my account to VRF?
+{: #how-do-i-convert-acct-to-vrf}
 
 During conversion, your shared tenancy is converted to use a customer VRF, most commonly with a new Direct Link on Classic subscription.
 
