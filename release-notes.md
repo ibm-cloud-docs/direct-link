@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2018, 2024
-lastupdated: "2024-07-15"
+lastupdated: "2024-07-31"
 
 keywords:
 
@@ -74,7 +74,7 @@ Withdrawing of global routing network transit overage charges
 
 February highlights
 :    28 February: Zayo is now available in Washington DC 2 for Connect
-:    27 February: MWS GNPP is now available in both Dallas 03 and Washington DC 2 for Connect
+:    27 February: MWS GNPP is now available in Washington DC 2 for Connect
 :    21 February: Cyrus One is now available in Dallas 13 for Exchange
 :    21 February: DE-Cix One is now available in Frankfurt 3 for Exchange
 :    19 February: Neutrona is now available in Washington DC 2 for Connect
