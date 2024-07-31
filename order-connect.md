@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2024
-lastupdated: "2024-06-20"
+lastupdated: "2024-07-31"
 
 keywords:
 
@@ -93,7 +93,7 @@ Our Direct Link Connect providers include these locations:
 | Intercloud | EU: Amsterdam 2, Frankfurt 1, Frankfurt 3 |
 | IXReach | Americas: Washington DC 2  \n EU: London 1 (no diversity), London 3 (no diversity) |
 | Neutrona |  Americas: Dallas 3, Sao Paulo 2, Washington DC 2 |
-| nextGen Global Network Peering Platform (GNPP) |  Americas: Dallas 3, Washington DC 2  \n EU: Amsterdam 2 (no diversity), Frankfurt 3, London 4 |
+| nextGen Global Network Peering Platform (GNPP) |  Americas: Washington DC 2  \n EU: Amsterdam 2 (no diversity), Frankfurt 3, London 4 |
 | NTT | APAC: Tokyo 5 |
 | Orange Business Services | EU: Paris 02|
 | PacketFabric | Americas: Dallas 4, San Jose 2, Washington DC 2 |
