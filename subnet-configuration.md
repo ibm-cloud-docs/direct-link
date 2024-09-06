@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-19"
+lastupdated: "2024-09-05"
 
 keywords:
 
@@ -90,6 +90,25 @@ IBM Cloud ASN is **13884**, for public and private services.
 {{site.data.keyword.cloud_notm}} Direct Link provides diversity, and customers are responsible for implementing redundancy through their BGP schemas.
 
 If you select ECMP for redundancy, both BGP sessions must exist on the same XCR; therefore, you give up router diversity and are exposed to risk if the router fails. You gain Layer-3 redundancy, but you lose router diversity.
+
+## Understanding BGP forwarding decisions
+{: #understanding-bgp-routing}
+
+{{site.data.keyword.cloud_notm}} BGP Routing and Forward varies by vendor implementation on the on-premises side. This is critical for understanding how you configure your on-premises equipment to work with Direct Link. Failure to understand and plan can result in undesired behavior such as assymetric routing paths or incorrectly preferred routing choices. The following table is ordered from most important to least important. This applies to single paths. Using multiple paths changes this behavior. Follow your router's configuration guide for deviations from these general rules.  
+
+|BGP Consideration|Meaning|Preferred Value|
+|---|---|---|
+|Next Hop Reachable|BGP will not select a route that it cannot communicate with.|N/A|
+|Weight (Cisco Only)|Cisco-specific metric for preferring a path.|Higher Value Preferred|
+|Local_Pref|Vendor-agnostic metric for preferring a path.|Higher Value Preferred|
+|Locally Injected Routes|If your router is originating the routes, prefer it to iBGP/eBGP.|N/A|
+|AS_Path length|Number of AS's a route must pass through.|Lower Value Preferred|
+|Origin|What **protocol** originated the route.|Internal BGP preferred over External BGP|
+|MED|Multi Exit Discriminator, which can prefer one exit path between ASs.|Lower Value is Preferred|
+|Neighbor Type|What is the protocol relationship between two ASs?|Prefer Internal BGP to External BGP|
+|IGP Metric|What was the IGP Metric of the route?|Lower Value is Preferred|
+|Route Age|How old are the routes?|Prefer the oldest route|
+|---|---|---|
 
 ## More about using VRF
 {: #more-about-using-vrf}
