@@ -193,14 +193,14 @@ Typically, we install speeds of 1G and lower on 1G optics. For speeds of 2 - 10 
 
 ECMP (Equal-Cost Multi-Path) is primarily designed for load balancing across multiple links, not for providing redundancy. When using ECMP, both connections typically terminate at the same IBM Cloud cross-connect router (XCR), creating a single point of failure. Essentially, ECMP can be set up as two sessions on a single XCR.
 
-It's important to note that you don’t have to use the same XCR for both connections. There may be scenarios involving AS Path issues similar to those mentioned in xxx. Additionally, with two 10 GB direct links using ECMP, if you exceed 10 GB of throughput and one link fails, the remaining 10 GB link could become overloaded.
+It's important to note that you don’t have to use the same XCR for both connections. There may be scenarios involving AS Path issues similar to those mentioned in [Routing report considerations](/docs/transit-gateway?topic=transit-gateway-helpful-tips#helpful-tips-include-reuse-route-report-considerations). Additionally, with two 10 GB direct links using ECMP, if you exceed 10 GB of throughput and one link fails, the remaining 10 GB link could become overloaded.
 
    IBM Cloud does NOT recommend using ECMP in this context. ECMP load balancing only apples to traffic at the XCRs. Beyond the XCRs, the traffic from ECMP appears as the same IP address to IBM Cloud network, which defaults to the shortest path found. As a result, only one of the direct links in the ECMP configuration is actively used at a given time.
    {: important}
 
 If redundancy is your goal, consider establishing two Direct Link connections——one for each XCR. For those interested in using ECMP alongside redundancy, you would need two Direct Links to each XCR to enable simultaneous ECMP sessions. Alternatively, some customers set up two links to different XCRs in the same data center, such as WDC02, and then manage failover through BGP configurations. While this approach offers some redundancy, it is less safe than having Direct Link connections in separate data centers, like WDC02 and WDC05.
 
-Another consideration with ECMP is that if you have two VPCs advertising the same route, it might attempt to load balance across those as well. This behavior isn't limited to direct links or GREs; it can also apply to PowerVS workspaces.
+Another consideration with ECMP is that if you have two VPCs advertising the same route, it might attempt to load balance across those as well. This behavior isn't limited to direct links or GREs; it can also apply to IBM Power Virtual Server workspaces.
 {: note}
 
 ## Where can I get help setting up a Direct Link?
