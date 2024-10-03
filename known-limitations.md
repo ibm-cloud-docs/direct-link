@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-09-18"
+lastupdated: "2024-10-03"
 
 keywords:
 
@@ -38,7 +38,7 @@ First, this section covers limitations that apply to all {{site.data.keyword.clo
 ## Direct Link Dedicated on Classic limitations
 {: #ibm-cloud-direct-link-dedicated-limitations}
 
-* The {{site.data.keyword.cloud_notm}} fees for Direct Link Dedicated cover the cost of port termination on the {{site.data.keyword.cloud_notm}} infrastructure. Customers are responsible for any fees that are associated with reaching the PoP from a remote network and any cross-connects needed within the PoP facility. {{site.data.keyword.cloud_notm}} does not order a cross-connect on any customer's behalf. 
+* The {{site.data.keyword.cloud_notm}} fees for Direct Link Dedicated cover the cost of port termination on the {{site.data.keyword.cloud_notm}} infrastructure. Customers are responsible for any fees that are associated with reaching the PoP from a remote network and any cross-connects needed within the PoP facility. {{site.data.keyword.cloud_notm}} does not order a cross-connect on any customer's behalf.
 * Direct Link Dedicated is a switchport in access mode. Currently, 802.1q is not supported.
 * {{site.data.keyword.cloud_notm}} does not colocate any customer equipment in our network PoPs. Customers must work with their provider to determine whether they need to colocate any equipment in the facility where the {{site.data.keyword.cloud_notm}} network PoP exists.
 
