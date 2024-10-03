@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-09-05"
+lastupdated: "2024-10-03"
 
 keywords:
 
@@ -94,7 +94,7 @@ If you select ECMP for redundancy, both BGP sessions must exist on the same XCR;
 ## Understanding BGP forwarding decisions
 {: #understanding-bgp-routing}
 
-{{site.data.keyword.cloud_notm}} BGP Routing and Forward varies by vendor implementation on the on-premises side. This is critical for understanding how you configure your on-premises equipment to work with Direct Link. Failure to understand and plan can result in undesired behavior such as assymetric routing paths or incorrectly preferred routing choices. The following table is ordered from most important to least important. This applies to single paths. Using multiple paths changes this behavior. Follow your router's configuration guide for deviations from these general rules.  
+{{site.data.keyword.cloud_notm}} BGP Routing and Forward varies by vendor implementation on the on-premises side. This is critical for understanding how you configure your on-premises equipment to work with Direct Link. Failure to understand and plan can result in undesired behavior such as assymetric routing paths or incorrectly preferred routing choices. The following table is ordered from most important to least important. This applies to single paths. Using multiple paths changes this behavior. Follow your router's configuration guide for deviations from these general rules.
 
 |BGP Consideration|Meaning|Preferred Value|
 |---|---|---|
@@ -108,7 +108,7 @@ If you select ECMP for redundancy, both BGP sessions must exist on the same XCR;
 |Neighbor Type|What is the protocol relationship between two ASs?|Prefer Internal BGP to External BGP|
 |IGP Metric|What was the IGP Metric of the route?|Lower Value is Preferred|
 |Route Age|How old are the routes?|Prefer the oldest route|
-|---|---|---|
+{: caption="Figure 1."BGP considerations" caption-side="bottom"}
 
 ## More about using VRF
 {: #more-about-using-vrf}
