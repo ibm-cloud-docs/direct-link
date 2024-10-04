@@ -1,4 +1,4 @@
-{
+<staging>{
   "version": 2,
   "title": "IBM Cloud Direct Link on Classic",
   "introduction": "The IBM Cloud Direct Link on Classic solution is designed to seamlessly connect your on-premises resources to your cloud resources.",
@@ -49,4 +49,4 @@
       }
     ]
   }
-}
+}</staging>
