@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-04-30"
+  years: 2018, 2024
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -71,4 +71,4 @@ The following table summarizes the type of connections that each {{site.data.key
 | Tokai | Layer 2 |
 | Vodafone| **Layer 3** |
 | Zayo Cloud Link | Layer 2 |
-{: caption="Table 1. Partner interconnection table" caption-side="bottom"}
+{: caption="Partner interconnection table" caption-side="bottom"}

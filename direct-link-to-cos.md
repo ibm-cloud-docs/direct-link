@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-04-08"
+  years: 2017, 2024
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -66,7 +66,7 @@ This solution is diagrammed and described in the sections that follow.
 
 Basic premise: Remote clients pass requests, including secure credentials, through a private server to COS.
 
-![reverse=proxy](images/reverse-proxy.png){: caption="Figure 1. Reverse proxy" caption-side="bottom"}
+![reverse=proxy](images/reverse-proxy.png){: caption="Reverse proxy" caption-side="bottom"}
 
 HTTPS (secure HTTP) COS requests are initiated from a client at a remote site. They're transmitted securely through {{site.data.keyword.cloud_notm}} Direct Link, targeting one of a cluster of _reverse proxy servers_ deployed in a customer’s {{site.data.keyword.cloud_notm}} account. From there, requests are passed to a COS private endpoint, processed, and then the results returned to the remote calling client.
 
