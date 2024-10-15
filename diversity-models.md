@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2024
-lastupdated: "2024-06-20"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -23,7 +23,7 @@ This document gives a series of schematics that are related to issues of redunda
 
 The configurations that are shown in this group rely on the fact that all of the assets are located in the same PoP and in the same global market.
 
-![Exchange with diversity in the same PoP](images/exchange-diversity-same-pop.png "Exchange with diversity in the same PoP"){: caption="Figure 1. Direct Link Exchange with diversity, in the same PoP (non-AZ)" caption-side="bottom"}
+![Exchange with diversity in the same PoP](images/exchange-diversity-same-pop.png "Exchange with diversity in the same PoP"){: caption="Direct Link Exchange with diversity, in the same PoP (non-AZ)" caption-side="bottom"}
 
 ![Connect with diversity in the same PoP](images/connect-diversity-same-pop.png "Connect with diversity in the same PoP"){: caption="Figure 2: Direct Link Connect with diversity in the same PoP (non-AZ)" caption-side="bottom"}
 

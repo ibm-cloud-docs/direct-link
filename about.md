@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-06-20"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -55,7 +55,7 @@ See the following links for key features and benefits of each {{site.data.keywor
 
 **Common use cases:** The Connect solution enables customers to use an NSP to deliver connectivity to {{site.data.keyword.cloud_notm}} locations. This offering typically provides connectivity at a reduced cost because the physical connectivity from {{site.data.keyword.cloud_notm}} to the NSP is already in place, which is shared among other customers.
 
-![Direct Link Connect](images/Direct-Link-Connect.png){: caption="Figure 1. Direct Link Connect" caption-side="bottom"}
+![Direct Link Connect](images/Direct-Link-Connect.png){: caption="Direct Link Connect" caption-side="bottom"}
 
 **Termination location:** {{site.data.keyword.cloud_notm}} point of presence (PoP).
 
@@ -83,12 +83,12 @@ The Direct Link Dedicated on Classic solution lets customers terminate a single-
 #### Use Case 1: Customer facility to IBM Cloud
 {: #dl-use-case-1}
 
-![Customer facility to IBM Cloud](images/Direct-link-Dedicated.png){: caption="Figure 2. Customer facility to IBM Cloud" caption-side="bottom"}
+![Customer facility to IBM Cloud](images/Direct-link-Dedicated.png){: caption="Customer facility to IBM Cloud" caption-side="bottom"}
 
 #### Use Case 2: Customer colocation to IBM Cloud
 {: #dl-use-case-2}
 
-![Customer colocation to IBM Cloud](images/dedicated-model-colo.png){: caption="Figure 3. Customer colocation to IBM Cloud" caption-side="bottom"}
+![Customer colocation to IBM Cloud](images/dedicated-model-colo.png){: caption="Customer colocation to IBM Cloud" caption-side="bottom"}
 
 **Termination location:** {{site.data.keyword.cloud_notm}} point of presence (PoP) or Data Center (DC).
 
@@ -113,7 +113,7 @@ The Direct Link Dedicated Hosting on Classic solution provides connectivity simi
 
 **Common use cases:** Best for working with non-standard compute technologies, for dedicated storage requirements, or for using existing IT investments.
 
-![Direct Link Dedicated Hosting on Classic](images/Direct-Link-Dedicated-Hosting.png){: caption="Figure 4. Direct Link Dedicated Hosting on Classic" caption-side="bottom"}
+![Direct Link Dedicated Hosting on Classic](images/Direct-Link-Dedicated-Hosting.png){: caption="Direct Link Dedicated Hosting on Classic" caption-side="bottom"}
 
 **Termination location:** {{site.data.keyword.cloud_notm}} Data Center (DC).
 
@@ -136,7 +136,7 @@ The Direct Link Dedicated Hosting on Classic solution provides connectivity simi
 *	Customer is responsible for ordering the circuit directly from the carrier and for providing the LOA/CFA (Letter of Authorization – Carrier Facility Assignment) to the colocation provider.
 *	Carrier availability might vary by location.
 
-![Cross-Connect Router (XCR)](images/dedicated_hosting.png){: caption="Figure 5. Cross-Connect Router (XCR)" caption-side="bottom"}
+![Cross-Connect Router (XCR)](images/dedicated_hosting.png){: caption="Cross-Connect Router (XCR)" caption-side="bottom"}
 
 ***Use cases:***
 
@@ -151,7 +151,7 @@ The Direct Link Exchange on Classic solution enables customers to use a Cloud Ex
 
 **Common use cases:** Best for hybrid workloads, cross-provider workloads, large or frequent data transfers with high-egress bandwidth, private workloads, and environment administration. This option is usually selected when the wanted PoP location already has the wanted Direct Link Exchange provider.
 
-![Direct Link Exchange on Classic](images/Direct-Link-Exchange.png){: caption="Figure 6. Direct Link Exchange on Classic" caption-side="bottom"}
+![Direct Link Exchange on Classic](images/Direct-Link-Exchange.png){: caption="Direct Link Exchange on Classic" caption-side="bottom"}
 
 **Termination location:** {{site.data.keyword.cloud_notm}} point of presence (PoP).
 
