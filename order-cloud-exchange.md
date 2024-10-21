@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-06-20"
+lastupdated: "2024-10-21"
 
 keywords:
 
@@ -128,7 +128,7 @@ For the accounts with no Virtual Routing and Forwarding (VRF) present, the **Sel
 | Exchange Provider	| IBM Data Center Code |
 |-------------|-----------------------|
 | AT Tokyo | Tokyo 2 |
-| Ascenty | Sao Paulo 1 |
+| Ascenty | Sao Paulo 5 |
 | Cologix | Montreal 2, Toronto 2 |
 | Cyrus One | Dallas 13 |
 | DE-CIX | Frankfurt 3 |
