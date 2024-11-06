@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-10-03"
+lastupdated: "2024-11-06"
 
 keywords:
 
@@ -65,7 +65,7 @@ VRF doesn't prevent SSL VPN access, but the behavior changes. Without VRF, one V
 
 IBM Cloud ASN is **13884**, for public and private services.
 * The default ASN for a customer when ordering is **64999**, but the default can be changed by customer request.
-* Optionally, a 4-byte private ASN `4201000000` - `4201064511` can be supported.
+* Optionally, a 4-byte private ASN `4201000000` - `4294967294` can be supported.
 * Excluded ASNs: `0`, `13884`, `36351`, `64512`, `64513`, `65100`, `65201-65234`,`65402-65433`, `65500` and 4-Byte ASNs: `4201065000-4201065999`
 * If you're using Direct Link Connect with a layer-3 service, such as IP VPN, IBM Cloud establishes BGP with the Direct Link Connect provider's ASN.
 
