@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2018, 2024
-lastupdated: "2024-07-31"
+lastupdated: "2024-11-07"
 
 keywords:
 
@@ -91,7 +91,7 @@ January highlights
 {: release-note}
 
 December highlights
-:    21 December: Console Connect is now diversely available in SNG02, TOK01, LON01, and SJC02.
+:    21 December: Console Connect is now diversely available in SNG02, LON01, and SJC02.
 :    5 December: IBM Bluefringe is now available in Chennai for Exchange.
 
 ## 29 November 2018

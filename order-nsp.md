@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2023
-lastupdated: "2023-04-27"
+  years: 2017, 2024
+lastupdated: "2024-11-07"
 
 keywords:
 
@@ -110,7 +110,6 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Sydney 3 | PoP | NextDC | S1 |
 | Sydney 4 | DC | Digital Realty | SYD10 |
 | Sydney 5 | DC | Equinix | SY4 |
-| Tokyo 1 | PoP | Equinix | TY2 |
 | Tokyo 2 | DC | At Tokyo | CC2 |
 | Tokyo 3 | PoP | Equinix | TY4 |
 | Tokyo 4 | DC | SoftBank | |
@@ -164,5 +163,5 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 
 \* NYC02 and NYC03 connect to the IBM Cloud backbone through NYC1. The primary reason for these PoPs is to extend connectivity to different site providers from our NYC01 site. When planning your diversity strategy, keep in mind that traffic for NYC02 and NYC03 have a single, shared path to the IBM network.
 
-If you require the exact address for TOK01 or TOK02, contact your Direct Link offering management or sales team.
+If you require the exact address for TOK02, contact your Direct Link offering management or sales team.
 {: note}
