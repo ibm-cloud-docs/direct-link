@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2024
-lastupdated: "2024-07-31"
+lastupdated: "2024-11-07"
 
 keywords:
 
@@ -81,9 +81,9 @@ Our Direct Link Connect providers include these locations:
 | CenturyLink IP VPN | Americas: Dallas 3, Miami 1, Sao Paulo 2 |
 | Chief Telecomm | APAC: Hong Kong 1, Taipei |
 | China Unicom | APAC: Hong Kong 3 |
-| Colt | APAC: Tokyo 1, Singapore 2  \n EU: Amsterdam 2, Frankfurt 1, London 1, Paris 2 |
+| Colt | APAC: Singapore 2  \n EU: Amsterdam 2, Frankfurt 1, London 1, Paris 2 |
 | Cologix | Americas: Montreal 1 |
-| Console Connect | Americas: Chicago 1, Miami 1, San Jose 2   \n APAC: Hong Kong 1, Osaka 1, Singapore 2, Sydney 3, Sydney 5, Tokyo 1  \n EU: London 1, Frankfurt 3, Frankfurt 5  |
+| Console Connect | Americas: Chicago 1, Miami 1, San Jose 2   \n APAC: Hong Kong 1, Osaka 1, Singapore 2, Sydney 3, Sydney 5  \n EU: London 1, Frankfurt 3, Frankfurt 5  |
 | CyrusOne | Americas: Dallas 13 |
 | Epsilon | APAC:  Singapore 2  \n EU: Frankfurt 1  |
 | Equinix | EU: Paris 3 |
