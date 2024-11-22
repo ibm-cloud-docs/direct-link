@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2024
-lastupdated: "2024-11-07"
+lastupdated: "2024-11-22"
 
 keywords:
 
@@ -103,4 +103,4 @@ Our Direct Link Connect providers include these locations:
 | Tokai | APAC: Osaka 1, Tokyo 3 |
 | Vodafone | EU: Frankfurt 1 (no diversity), Frankfurt 3 (no diversity), London 1 (no diversity), London 3 (no diversity)  |
 | Zayo | Americas: Dallas 3, Toronto 2, Washington DC 2 |
-{: caption="Table 1: Direct Link Connect provider locations" caption-side="bottom"}
+{: caption="Direct Link Connect provider locations" caption-side="bottom"}

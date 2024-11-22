@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-11-07"
+lastupdated: "2024-11-22"
 
 keywords:
 
@@ -135,6 +135,6 @@ For the accounts with no Virtual Routing and Forwarding (VRF) present, the **Sel
 | Equinix | Americas: Chicago 1, Dallas 3, New York City 2*, New York City 3*, Sao Paulo 2, San Jose 2, Toronto 2, Toronto 3, Washington DC  \n APAC: Hong Kong 1, Osaka 1, Singapore 2, Sydney 2, Tokyo 3  \n  EU: Amsterdam 2, Frankfurt 3, London 1, London 3, Paris 2  |
 | KINX	| Seoul 2 |
 | NextDC | Melbourne 2, Sydney 3 |
-{: caption="Table 1: Data centers that offer Direct Link Exchange connectivity" caption-side="bottom"}
+{: caption="Data centers that offer Direct Link Exchange connectivity" caption-side="bottom"}
 
 * NYC02 and NYC03 connect to the IBM Cloud backbone through NYC1. The primary reason for these PoPs is to extend connectivity to different site providers from our NYC01 site. When planning your diversity strategy, keep in mind that traffic for NYC02 and NYC03 have a single, shared path to the IBM network.

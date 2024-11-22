@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-11-07"
+lastupdated: "2024-11-22"
 
 keywords:
 
@@ -159,7 +159,7 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | Washington DC 5 | PoP | Coresite | DC2 |
 | Washington DC 6 | DC | Raging Wire | VA2 |
 | Washington DC 7 | DC | Sabey | Sabey Intergate.Ashburn |
-{: caption="Table 1: Direct Link Dedicated locations" caption-side="bottom"}
+{: caption="Direct Link Dedicated locations" caption-side="bottom"}
 
 \* NYC02 and NYC03 connect to the IBM Cloud backbone through NYC1. The primary reason for these PoPs is to extend connectivity to different site providers from our NYC01 site. When planning your diversity strategy, keep in mind that traffic for NYC02 and NYC03 have a single, shared path to the IBM network.
 
