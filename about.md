@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-10-09"
+lastupdated: "2024-11-21"
 
 keywords:
 
@@ -64,6 +64,10 @@ See the following links for key features and benefits of each {{site.data.keywor
 **Cross-connect details:** Physical cross-connects for the secure Direct Link Connect interconnect are maintained between {{site.data.keyword.cloud_notm}} and the Connect provider. Customers request a "Virtual Circuit" from the Cloud Connect provider, which establishes logical connectivity to {{site.data.keyword.cloud_notm}}, after the customer is interconnected to the Cloud Connect provider.
 
 **Port speed options:** Select 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, or 5 Gbps.
+
+Port speed options: Select 50 Mbps, 100 Mbps[^100], 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, or 5 Gbps.
+
+[^100]: 100 Mbps not available for Equinix Exchange and Connect direct links.  
 
 **Approximate latency:** Latency is approximately 1.5 ms within the local area (data centers with the same three-letter prefix, such as DAL, AMS, MEL). See [Looking Glass](http://lg.softlayer.com/){: external} for live PoP-to-PoP (P2P) location latency measurements.
 
