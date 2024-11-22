@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2023
-lastupdated: "2024-03-23"
+  years: 2017, 2024
+lastupdated: "2024-11-22"
 
 keywords:
 
@@ -101,4 +101,4 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 | EMEA | LON02  | Chessington | DC | Digital Realty  |
 | EMEA | MAD05 | Madrid | DC | Digital Realty |
 | EMEA | MIL01 | Milan | DC |	Data4 |
-{: caption="Table 1: Dedicated Hosting locations" caption-side="bottom"}
+{: caption="Dedicated Hosting locations" caption-side="bottom"}
