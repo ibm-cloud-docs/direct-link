@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-15"
+lastupdated: "2024-11-22"
 
 keywords:
 
@@ -74,7 +74,4 @@ Compared to the older ACL model, there are a few minor tradeoffs to take into ac
 
 Many {{site.data.keyword.cloud_notm}} customers currently operate with a shared tenancy model on the {{site.data.keyword.cloud_notm}} network. During conversion, your shared tenancy is converted to use a customer VRF, most commonly with a new Direct Link subscription.
 
-For specific information about how to initiate a VRF conversion for your account, refer to the conversion instructions for your IBM Cloud offering. For example:
-
-* [VPC conversion instructions](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure&interface=ui#how-you-can-initiate-the-conversion)
-* [{{site.data.keyword.cloud_notm}} service endpoints conversion instructions](/docs/account?topic=account-vrf-service-endpoint)
+For specific information about how to initiate a VRF conversion for your account, refer to the conversion instructions for your IBM Cloud offering (for example, [{{site.data.keyword.cloud_notm}} service endpoints conversion instructions](/docs/account?topic=account-vrf-service-endpoint)).
