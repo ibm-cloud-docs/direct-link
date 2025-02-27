@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-11-22"
+  years: 2017, 2025
+lastupdated: "2025-02-27"
 
 keywords:
 
@@ -127,7 +127,6 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 | London 3 | PoP | Equinix | LD5 |
 | London 4 | DC | ARK | A103 |
 | London 6 | DC | Cyrus One (fZenium) | LON1 |
-| Milan 1 |  DC | Data4 | |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way |
 | Paris 1 | DC | Global Switch | PAR01 |
 | Paris 2 | PoP | Equinix | PA2 |
