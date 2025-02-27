@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-06-20"
+  years: 2017, 2025
+lastupdated: "2025-02-14"
 
 keywords:
 
@@ -27,7 +27,6 @@ These resources are created by {{site.data.keyword.cloud}} and by some IBM partn
 
     This paper presents test results that show how a well-designed, well-executed, hybrid cloud architecture performs versus one that uses standard facilities, using connections and an architecture that is not optimized for application performance.
 
-     * Direct Link Dedicated Hosting solution features and benefits
      * Reference solution for implementing NetApp private storage for {{site.data.keyword.cloud_notm}}, colocated in a Digital Reality data center
      * Results of performance tests conducted by Krystallize Technologies
 
