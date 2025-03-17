@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2025
-lastupdated: "2025-02-14"
+lastupdated: "2025-03-17"
 
 keywords:
 
@@ -163,8 +163,7 @@ We are unable to support any QoS guarantees. QoS requires MPLS mapping between e
 {: #does-direct-link-support-jumbo-frames}
 {: faq}
 
-Jumbo frames (up to 9214 bytes) are supported on Direct Link Dedicated. 
-Support on Connect and Exchange is theoretically possible, but it requires your Service Provider to work with IBM and ensure that the end-to-end connection supports Jumbo Frames, including the underlying Network-to Network-Interface (NNI).
+Jumbo frames (up to 9214 bytes) are supported on Direct Link Dedicated. Support on Connect and Exchange is possible, but it requires your Service Provider to work with IBM and ensure that the end-to-end connection supports Jumbo Frames, including the underlying Network-to Network-Interface (NNI).
 
 Exchange and Connect support up to a 1500-byte Maximum Transmission Unit (MTU).
 {: important}

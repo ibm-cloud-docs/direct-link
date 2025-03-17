@@ -47,6 +47,7 @@ toc:
        topics:
        - order-connect.md
        - order-nsp.md
+       - order-colocation.md
        - order-cloud-exchange.md
        - subnet-configuration.md
        - direct-link-to-cos.md
@@ -66,6 +67,7 @@ toc:
           topics:
           - prerequisites-connect.md
           - prerequisites-dedicated.md
+          - prerequisites-dedicated-hosting.md
           - prerequisites-exchange.md
     - navgroup:
        id: help
