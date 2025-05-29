@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2025
-lastupdated: "2025-02-14"
+lastupdated: "2025-04-15"
 
 keywords:
 
@@ -104,28 +104,28 @@ The Direct Link Dedicated on Classic solution lets customers terminate a single-
 **Redundancy**: {{site.data.keyword.cloud_notm}} does not provide redundancy as part of the product. To establish redundant connectivity, customer must acquire two connections on diverse cross connect routers (XCRs) and configure BGP on each Direct Link on Classic connection as they prefer. Examples include options such as: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
 
 **Local and global routing options:** The default routing option is Local routing. It provides access to data centers within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It provides a way to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).
- 
- ### The Direct Link Exchange on Classic solution
+
+### The Direct Link Exchange on Classic solution
  {: #direct-link-exchange-solution}
- 
+
  The Direct Link Exchange on Classic solution enables customers to use a Cloud Exchange provider to deliver connectivity to {{site.data.keyword.cloud_notm}} locations. This offering typically provides connectivity at a reduced cost because the physical connectivity from {{site.data.keyword.cloud_notm}} to the Cloud Exchange Provider is already in place, which is shared among other customers.
- 
+
  **Common use cases:** Best for hybrid workloads, cross-provider workloads, large or frequent data transfers with high-egress bandwidth, private workloads, and environment administration. This option is usually selected when the wanted PoP location already has the wanted Direct Link Exchange provider.
- 
+
  ![Direct Link Exchange on Classic](images/Direct-Link-Exchange.png){: caption="Direct Link Exchange on Classic" caption-side="bottom"}
- 
+
  **Termination location:** {{site.data.keyword.cloud_notm}} point of presence (PoP).
- 
+
  **Typical deployment time:** For Equinix providers, typical deployment time is in hours. For other providers, 5 - 10 days after circuit reaches the exchange. Deployment time can possibly be 30 - 60 days overall, depending on your location and requirements when you order a circuit from a network service provider (NSP) or carrier.
- 
+
  **Cross-connect details:** Physical cross-connects for the secure Cloud Exchange Interconnect are maintained between {{site.data.keyword.cloud_notm}} and the Cloud Exchange provider. Customers request a "Virtual Circuit" from the Cloud Exchange Provider, which establishes logical connectivity to {{site.data.keyword.cloud_notm}}, after the customer is interconnected to the Cloud Exchange Provider.
- 
+
  **Port speed options:** Select 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, or 5 Gbps.
- 
+
  **Approximate latency:** Latency is approximately 1.5 ms within the local area (data centers with the same three-letter prefix, such as DAL, AMS, MEL). See [Looking Glass](http://lg.softlayer.com/){: external} for live PoP-to-PoP (P2P) location latency measurements.
- 
+
  **IBM colocation services:** None.
- 
+
  **Redundancy**: {{site.data.keyword.cloud_notm}} does not provide redundancy as part of the product. To establish redundant connectivity, customer must acquire two connections on diverse cross connect routers (XCRs) and configure BGP on each Direct Link on Classic connection as they prefer. Examples include options such as: _prefer Lowest MED_, _prefer highest local-preference_, or _prefer shorter AS paths_.
- 
+
  **Local and global routing options:** The default routing option is Local routing. It provides access to data centers within the same market as the Direct Link PoP (denoted, for example, as DAL, AMS, or MEL). The Global routing option is required as an add-on to connect your IBM Cloud resources to other IBM Cloud resources in data centers outside the local market. It provides a way to share workloads between IBM Cloud resources (for example Dallas to Ashburn, or Dallas to Frankfurt).

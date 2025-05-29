@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-10-09"
+  years: 2017, 2025
+lastupdated: "2025-04-15"
 
 keywords:
 
@@ -77,7 +77,7 @@ Any sample client code that works with COS should also work through a _reverse p
 
 **NginX** is a mature, compact, and fast open source web server that excels at specialized tasks, including the _reverse proxy_ server role.
 
-The instructions and configuration information that follows (for setting up an NginX reverse proxy server) can work after you adapt it to your environment. If you get stuck or need additional information, see the reverse proxy portion of the [Nginx documentation](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/){: external} or search [stackoverflow](https://stackoverflow.com){: external} for examples.
+The instructions and configuration information that follows (for setting up an NginX reverse proxy server) can work after you adapt it to your environment. If you get stuck or need additional information, see the reverse proxy portion of the [Nginx documentation](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/){: external} or search [stackoverflow](https://stackoverflow.com/questions){: external} for examples.
 
 1. Provision your VSI or bare metal servers with minimal **RHEL** or **CentOS** Linux build (recommended).
 2. For each VSI, enable the following security group rules on the public interface: `allow_http`, `allow_https`, `allow_outbound`, `allow_ssh`
