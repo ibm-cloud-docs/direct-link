@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-11-06"
+  years: 2017, 2025
+lastupdated: "2025-06-03"
 
 keywords:
 
@@ -28,8 +28,9 @@ In general, to get your Direct Link on Classic connection working, you must do s
 1. Define your remote network that uses the standard RFC1918 private address space.
    * For new environments, the `10.0.0.0/8` space.
    * For existing environments that use `10.0.0.0/8`, we recommend that you obtain a more detailed assessment to ensure that there is not a conflict with the {{site.data.keyword.cloud_notm}} services network, or with the networks that are already assigned to your account.
+   * This only applies if a classic network is connected to a direct link, or if a transit gateway connected to a direct link is also connected to a classic network. If you're only using VPC, this doesn't apply. 
 
-1. Our staff at {{site.data.keyword.cloud_notm}} assigns a `/31` or `/30` for each connection and configures an interface IP address on the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) infrastructure.
+1. Our staff at {{site.data.keyword.cloud_notm}} assigns a `/31` or `/30` subnet for each connection and configures an interface IP address on the {{site.data.keyword.cloud_notm}} cross-connect router (XCR) infrastructure. Our staff doesn't configure the direct link on the customer's side. These networks are selected by the customer when ordering the direct link. 
 
 1. Configure the interface on your customer edge router (CER) by using the IP address provided: use the {{site.data.keyword.cloud_notm}} XCR IP as a next-hop for any traffic that is destined to {{site.data.keyword.cloud_notm}}.
 
@@ -47,14 +48,15 @@ To exchange route information with your environment, {{site.data.keyword.cloud_n
    The following networks are filtered out and cannot be accepted: `10.0.0.0/14`, `10.198.0.0/15`, `10.200.0.0/14`, `169.254.0.0/16`, `224.0.0.0/4`.
    {: note}
 
-* **ECMP**: For customers who elect to build redundancy at a supported location, {{site.data.keyword.cloud_notm}} supports the implementation of equal-cost multipath (ECMP) to provide load balancing and redundancy across the two links. This ECMP setup should be requested at the time of order.
-
 ## BGP specifications for IBM Cloud Direct Link
 {: #bgp-specifications-for-ibm-cloud-direct-link}
 
 The BGP specifications are as follows:
 
-As stated in the preceding section, BGP is mandatory for managing your routing through Direct Link. An account that orders Direct Link is migrated to a VRF environment.
+As stated in the preceding section, BGP is mandatory for managing your routing through Direct Link. When an account orders Direct Link, it is migrated to a VRF (Virtual Routing and Forwarding) environment. 
+
+The customer must advertise their GRE tunnel endpoint to IBM Cloud using BGP for that IP address to be reachable from IBM Cloud environments. The directly connected IP address is not always autmatically included in IBM Cloud routing tables.
+{: note}
 
 **Caveats for VLANS and VRF:**
 * Inter-account VLAN spanning isn't allowed in the VRF environment.
@@ -80,16 +82,14 @@ IBM Cloud ASN is **13884**, for public and private services.
 ## Strict limitations on IP assignments
 {: #strict-limitations-on-ip-assignments}
 
-* If you use the 10.x.x.x network, you still cannot create overlap with your hosts within IBM Cloud nor with the IBM Cloud services network, which occupies `10.0.0.0/14`, `10.198.0.0/15`, and `10.200.0.0/14`.
+* Direct Link on Classic only: If you use the `10.x.x.x` network, you still cannot create overlap with your hosts within IBM Cloud nor with the IBM Cloud services network, which occupies `10.0.0.0/14`, `10.198.0.0/15`, and `10.200.0.0/14`.
 
 * The following ranges are not allowed in the Federal system and they are rejected by IBM servers: `169.254.0.0/16`, `224.0.0.0/4`.
 
 ## Redundancy and diversity
 {: #redundancy-and-diversity}
 
-{{site.data.keyword.cloud_notm}} Direct Link provides diversity, and customers are responsible for implementing redundancy through their BGP schemas.
-
-If you select ECMP for redundancy, both BGP sessions must exist on the same XCR; therefore, you give up router diversity and are exposed to risk if the router fails. You gain Layer-3 redundancy, but you lose router diversity.
+{{site.data.keyword.cloud_notm}} Direct Link provides diversity, and customers are responsible for implementing redundancy through their BGP schemas. 
 
 ## Understanding BGP forwarding decisions
 {: #understanding-bgp-routing}
