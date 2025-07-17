@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2025
-lastupdated: "2025-03-17"
+lastupdated: "2025-07-17"
 
 keywords:
 
@@ -99,6 +99,5 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 | EMEA | FRA04  | Frankfurt | DC  | NTT |
 | EMEA | FRA05  | Frankfurt | DC  | Digital Realty |
 | EMEA | LON02  | Chessington | DC | Digital Realty  |
-| EMEA | MAD05 | Madrid | DC | Digital Realty |
-| EMEA | MIL01 | Milan | DC |	Data4 |
+| EMEA | MAD05 | Madrid | DC | Digital Realty | 
 {: caption="Dedicated Hosting locations" caption-side="bottom"}

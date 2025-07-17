@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2025
-lastupdated: "2025-03-17"
+lastupdated: "2025-07-14"
 
 keywords:
 
@@ -12,7 +12,7 @@ subcollection: direct-link
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQs for Direct Link on Classic
+# FAQ for Direct Link on Classic
 {: #faqs}
 
 You can review answers to some frequently asked questions about {{site.data.keyword.cloud}} Direct Link.
