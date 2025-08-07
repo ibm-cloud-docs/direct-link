@@ -22,8 +22,6 @@ toc:
           - alternative-deployments.md
           - diversity-models.md
           - layer-2-layer-3.md
-          - topic: video-hybrid-cloud.md
-            navtitle: "Video: Direct Link for hybrid cloud"
        - topicgroup:
            label: Related links
            topics:
