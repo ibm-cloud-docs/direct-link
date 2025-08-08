@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2024
-lastupdated: "2024-10-09"
+  years: 2018, 2025
+lastupdated: "2025-08-08"
 
 keywords:
 
@@ -83,7 +83,7 @@ In the situation where the same route prefixes are being advertised to IBM Cloud
 The ASN used for the prefix can be the same ASN as the local AS on the BGP session that is performing the prepend.
 {: note}
 
-IBM Cloud Direct Link does not allow path preference for route prefixes received from the customer with the following BGP attributes:
+IBM Cloud Direct Link on Classic does not allow path preference for route prefixes received from the customer with the following BGP attributes:
 
 * Weight
 * Local preference

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2025
-lastupdated: "2025-04-15"
+lastupdated: "2025-08-08"
 
 keywords:
 
@@ -30,8 +30,8 @@ Four types of connections are available:
 
 * **Direct Link Exchange on Classic** allows customers to use an Exchange provider to deliver connectivity to their {{site.data.keyword.cloud_notm}}. An Exchange provider is a colocation or data center provider that is already connected to the {{site.data.keyword.cloud_notm}} network, by using multi-tenant, high capacity links (also known as a _network-to-network interface_, or NNI). Customers typically can purchase a virtual circuit at this provider, bringing connectivity at a reduced cost, because the physical connectivity from {{site.data.keyword.cloud_notm}} to the Exchange provider is in place already, shared among other customers.
 
-The {{site.data.keyword.cloud_notm}} Direct Link service is a routed, OSI Layer-3 service. It offers a direct connection to the {{site.data.keyword.cloud_notm}} private network backbone, with low latency and speeds up to 10 Gbps.
-For increased flexibility in creating this Layer-3 connectivity, {{site.data.keyword.cloud_notm}} Direct Link enables customers to use:
+The {{site.data.keyword.cloud_notm}} Direct Link on Classic service is a routed, OSI Layer-3 service. It offers a direct connection to the {{site.data.keyword.cloud_notm}} private network backbone, with low latency and speeds up to 10 Gbps.
+For increased flexibility in creating this Layer-3 connectivity, {{site.data.keyword.cloud_notm}} Direct Link on Classic enables customers to use:
 
 * Dual IP for remote hosts
 * NAT
@@ -52,13 +52,13 @@ See the following links for key features and benefits of each {{site.data.keywor
 
 **Common use cases:** The Connect solution enables customers to use an NSP to deliver connectivity to {{site.data.keyword.cloud_notm}} locations. This offering typically provides connectivity at a reduced cost because the physical connectivity from {{site.data.keyword.cloud_notm}} to the NSP is already in place, which is shared among other customers.
 
-![Direct Link Connect](images/Direct-Link-Connect.png){: caption="Direct Link Connect" caption-side="bottom"}
+![Direct Link Connect on Classic](images/Direct-Link-Connect.png){: caption="Direct Link Connect on Classic" caption-side="bottom"}
 
 **Termination location:** {{site.data.keyword.cloud_notm}} point of presence (PoP).
 
 **Typical deployment time:** 5 - 10 days after circuit reaches the exchange. Deployment time can possibly be 30 - 60 days overall, depending on your location and requirements when you order a circuit from an NSP or carrier.
 
-**Cross-connect details:** Physical cross-connects for the secure Direct Link Connect interconnect are maintained between {{site.data.keyword.cloud_notm}} and the Connect provider. Customers request a "Virtual Circuit" from the Cloud Connect provider, which establishes logical connectivity to {{site.data.keyword.cloud_notm}}, after the customer is interconnected to the Cloud Connect provider.
+**Cross-connect details:** Physical cross-connects for the secure Direct Link Connect on Classic interconnect are maintained between {{site.data.keyword.cloud_notm}} and the Connect provider. Customers request a "Virtual Circuit" from the Cloud Connect provider, which establishes logical connectivity to {{site.data.keyword.cloud_notm}}, after the customer is interconnected to the Cloud Connect provider.
 
 **Port speed options:** Select 50 Mbps, 100 Mbps[^100], 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, or 5 Gbps.
 
