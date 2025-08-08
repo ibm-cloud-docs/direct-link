@@ -12,14 +12,14 @@ subcollection: direct-link
 
 {{site.data.keyword.attribute-definition-list}}
 
-# IBM Cloud Direct Link on Classic
+# Getting started with IBM Cloud Direct Link on Classic
 {: #get-started-with-ibm-cloud-direct-link}
 
+IBM Cloud® Direct Link on Classic is a suite of solutions from the IBM Cloud network, with availability in locations around the globe. Each one enables customers to create direct, private connections between their remote network environments and their IBM Cloud deployments, without touching the public internet. Most commonly, these offerings are implemented to support private, hybrid, and cross-provider workloads, as well as large or frequent data transfers.
+{: shortdesc} 
 
 ## How do I know which Direct Link solution to order?
 {: #get-started-solution-to-order}
-
-IBM Cloud® Direct Link on Classic is a suite of solutions from the IBM Cloud network, with availability in locations around the globe. Each one enables customers to create direct, private connections between their remote network environments and their IBM Cloud deployments, without touching the public internet. Most commonly, these offerings are implemented to support private, hybrid, and cross-provider workloads, as well as large or frequent data transfers.
 
 Use this decision tree to help you decide which solution works best for you. If you want help with getting started, you can open an IBM Support case through the [IBM Cloud console](/unifiedsupport/cases/add){: external}, or contact your {{site.data.keyword.cloud_notm}} sales representative.
 
