@@ -23,7 +23,7 @@
   "section_highlights": [
     {
       "title": "End of Market Announcement for Direct Link on Classic (1.0)",
-      "description": "Starting 15 September 2025, new orders for Direct Link on Classic (1.0) will no longer be accepted. Existing Direct Link on Classic connections will continue to operate without interruption. No immediate action is required for current users. For more information, see the [End of Market (EOM) announcement](/docs/direct-link?topic=direct-link-eom-announcement).",
+      "description": "Starting 15 September 2025, new orders for Direct Link on Classic (1.0) will no longer be accepted. Existing Direct Link on Classic connections will continue to operate without interruption.",
       "href": "/docs/direct-link?topic=direct-link-eom-announcement",
       "type": "text",
       "recommended": true
