@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "title": "IBM Cloud Direct Link on Classic ",
+  "title": "IBM Cloud Direct Link on Classic",
   "introduction": "The IBM Cloud Direct Link on Classic solution is designed to seamlessly connect your on-premises resources to your cloud resources.",
   "product_page": "https://www.ibm.com/products/direct-link",
   "console_page": "/classic-direct-link",
@@ -22,6 +22,13 @@
   },
   "section_highlights": [
     {
+      "title": "End of Market Announcement for Direct Link on Classic (1.0)",
+      "description": "Starting 15 September 2025, new orders for Direct Link on Classic (1.0) will no longer be accepted. Existing Direct Link on Classic connections will continue to operate without interruption. No immediate action is required for current users. For more information, see the [End of Market (EOM) announcement](/docs/direct-link?topic=direct-link-eom-announcement).",
+      "href": "/docs/direct-link?topic=direct-link-eom-announcement",
+      "type": "text",
+      "recommended": true
+    },
+    {
       "title": "Use IBM Direct Link for IBM Cloud network connectivity",
       "description": "Learn how IBM Direct Link lets you provides connectivity from an on-premises external source into IBM Cloud privately and securely.",
       "href": "https://developer.ibm.com/blogs/awb-direct-link-service-for-ibm-cloud-network-connectivity/?mhsrc=ibmsearch_a&mhq=direct%20link%20blog",
@@ -32,6 +39,10 @@
   "section_updates": {
     "view_more": "/docs/direct-link?topic=direct-link-direct-link-release-notes",
     "tiles": [
+      {
+        "date": "22 July 2025",
+        "title": "End of Market (EOM) Announcement: 5 September 2025"
+      }
       {
         "date": "01 March 2022",
         "title": "Improved user interface"

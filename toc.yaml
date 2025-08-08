@@ -9,11 +9,12 @@ toc:
     console-page: /interconnectivity
     product-page: https://www.ibm.com/products/direct-link
     path: direct-link
-    label: Direct Link on Classic
+    label: Direct Link on Classic (Deprecated)
   entries:
     - navgroup:
        id: learn
        topics:
+       - eom-announcement.md
        - getting-started.md
        - about.md
        - topicgroup:
@@ -26,7 +27,7 @@ toc:
            label: Related links
            topics:
             - link:
-                label: Getting started with Direct Link
+                label: Getting started with Direct Link (2.0)
                 href: /dl/dl-get-started-with-ibm-cloud-dl
             - link:
                 label: Getting started with Virtual Private Cloud (VPC)
