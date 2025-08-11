@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2024
-lastupdated: "2024-11-22"
+  years: 2018, 2025
+lastupdated: "2025-08-11"
 
 keywords:
 
@@ -74,8 +74,7 @@ Our Direct Link Connect providers include these locations:
 |--------------|--------------|
 | Arelion | Americas: Washington DC 2 |
 | Ascenty | Americas: Sao Paulo 1 |
-| Bell Canada | Americas: Montreal 2, Toronto 2 |
-| BNPP | EU: Paris 1 |
+| Bell Canada | Americas: Montreal 2, Toronto 2 | 
 | British Telecom |  Americas: Washington DC 2  \n EU: Frankfurt 1, London 1, London 3 |
 | CenturyLink Dynamic Connections |  Americas: San Jose 2, Toronto 2, Washington DC 2   \n EU: Frankfurt 1, London 3, Paris 2
 | CenturyLink IP VPN | Americas: Dallas 3, Miami 1, Sao Paulo 2 |
