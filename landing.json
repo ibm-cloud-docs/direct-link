@@ -24,7 +24,7 @@
     {
       "title": "End of Market Announcement for Direct Link on Classic",
       "description": "Starting 15 September 2025, new orders for Direct Link on Classic will no longer be accepted. Existing connections will continue to operate without interruption.",
-      "href": "https://cloud.ibm.com/docs/direct-link?topic=direct-link-eom-announcement",
+      "href": "/docs/direct-link?topic=direct-link-eom-announcement",
       "type": "article",
       "recommended": true
     },
