@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2025
-lastupdated: "2025-08-08"
+lastupdated: "2025-08-12"
 
 keywords: Direct Link
 
@@ -41,7 +41,7 @@ Planning new Direct Link connections?
 :    Use Direct Link (2.0) to take advantage of improved performance, security, and flexibility. 
 
 Satisfied with your current setup?
-:    No immediate action is required. Existing connections remain operational. Advance notice will be provided for any future changes to support or service lifecycle.< 
+:    No immediate action is required. Existing connections remain operational. Advance notice will be provided for any future changes to support or service lifecycle.
 
 ## Need help? 
 {: #need_help}
