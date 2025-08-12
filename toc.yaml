@@ -9,7 +9,7 @@ toc:
     console-page: /interconnectivity
     product-page: https://www.ibm.com/products/direct-link
     path: direct-link
-    label: Direct Link on Classic (Deprecated)
+    label: Direct Link on Classic (End of Market)
   entries:
     - navgroup:
        id: learn
