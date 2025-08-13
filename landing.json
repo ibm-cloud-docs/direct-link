@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "title": "IBM Cloud Direct Link on Classic",
+  "title": "IBM Cloud Direct Link on Classic (End of Market)",
   "introduction": "The IBM Cloud Direct Link on Classic solution is designed to seamlessly connect your on-premises resources to your cloud resources.",
   "product_page": "https://www.ibm.com/products/direct-link",
   "console_page": "/classic-direct-link",
@@ -24,7 +24,7 @@
     {
       "title": "End of Market Announcement for Direct Link on Classic",
       "description": "Starting 15 September 2025, new orders for Direct Link on Classic will no longer be accepted. Existing connections will continue to operate without interruption.",
-      "href": "https://test.cloud.ibm.com/docs/direct-link?topic=direct-link-eom-announcement",
+      "href": "https://cloud.ibm.com/docs/direct-link?topic=direct-link-eom-announcement",
       "type": "article",
       "recommended": true
     },
