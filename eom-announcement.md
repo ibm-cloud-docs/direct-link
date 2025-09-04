@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2025
-lastupdated: "2025-08-13"
+lastupdated: "2025-09-04"
 
 keywords: Direct Link
 
@@ -12,7 +12,7 @@ subcollection: dl
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Direct Link on Classic (1.0) End of Market Announcement
+# Direct Link on Classic (1.0) End of Marketing Announcement
 {: #eom-announcement}
 
 Effective 15 September 2025, new orders for Direct Link on Classic (1.0) will no longer be accepted. However, existing Direct Link on Classic connections will continue to operate without interruption. 
@@ -26,7 +26,7 @@ Customers in Singapore and Atlanta will have extended transition timelines. Full
 ## What's changing?
 {: #whats changing} 
 
-Focus is shifting to Direct Link (2.0), the next-generation connectivity service. Direct Link (2.0) offers several improvements over Classic (1.0), including:
+Direct Link (2.0) offers several improvements over Classic (1.0), including:
 
 * Free global routing with bring your own IP (BYIOP) support
 * Flexible bandwidth options: Direct Link Connect (50 Mbps–5 Gbps), Direct Link Dedicated (1–10 Gbps)
