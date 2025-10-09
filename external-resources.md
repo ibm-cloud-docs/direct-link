@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2025
-lastupdated: "2025-04-15"
+lastupdated: "2025-10-09"
 
 keywords:
 
@@ -53,10 +53,6 @@ Learn how SES Network's decision to partner with IBM Cloud to help customers ove
 
 * [IBM and Colt: Enabling Enterprise Digital Transformation](https://www.ibm.com/think){: external}, by Paul Hertzfeldt
 
-* [Digital Realty and IBM Cloud Direct Link: Built for Enterprise Cloud](https://www.ibm.com/blog/announcement/digital-realty-ibm-cloud-direct-link-expand-network/){: external}, by Paul Hertzfeldt
-
 * [PacketFabric and IBM Cloud Enable Secure Enterprise Connections](https://www.ibm.com/think){: external}, by Paul Hertzfeldt
-
-* [AT TOKYO Connects to IBM Cloud to Support Mission-Critical Applications](https://www.ibm.com/blog/announcement/tokyo-connects-ibm-cloud-support-mission-critical-applications/){: external}, by Paul Hertzfeldt
 
 * [Improve Digital Experiences with SES Networks and IBM](https://www.ibm.com/think){: external}, by Paul Hertzfeldt
