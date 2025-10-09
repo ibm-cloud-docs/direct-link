@@ -2,11 +2,11 @@
 
 copyright:
   years: 2024, 2025
-lastupdated: "2025-09-04"
+lastupdated: "2025-10-09"
 
 keywords: Direct Link
 
-subcollection: dl
+subcollection: direct-link
 
 ---
 
@@ -24,7 +24,7 @@ Customers in Singapore and Atlanta will have extended transition timelines. Full
 {: note} 
 
 ## What's changing?
-{: #whats changing} 
+{: #whats-changing} 
 
 Direct Link (2.0) offers several improvements over Classic (1.0), including:
 
@@ -49,4 +49,4 @@ Satisfied with your current setup?
 * [Explore Direct Link (2.0)](/interconnectivity/direct-link)
 * [Review Direct Link docs](/docs/dl) 
 * Connect with your dedicated account team to discuss your specific connectivity needs.
-* Visit the [IBM Cloud Support Center](ttps://www.ibm.com/cloud/support){: external} for technical assistance.
+* Visit the [IBM Cloud Support Center](https://www.ibm.com/cloud/support){: external} for technical assistance.
