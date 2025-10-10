@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2025
-lastupdated: "2025-10-09"
+lastupdated: "2025-10-10"
 
 keywords: Direct Link
 
@@ -49,4 +49,4 @@ Satisfied with your current setup?
 * [Explore Direct Link (2.0)](/interconnectivity/direct-link)
 * [Review Direct Link docs](/docs/dl) 
 * Connect with your dedicated account team to discuss your specific connectivity needs.
-* Visit the [IBM Cloud Support Center](https://www.ibm.com/cloud/support){: external} for technical assistance.
+* Visit the [IBM Cloud Support Center](https://www.ibm.com/products/cloud/support){: external} for technical assistance.
