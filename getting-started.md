@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2025
-lastupdated: "2025-08-13"
+  years: 2017, 2026
+lastupdated: "2026-01-02"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: direct-link
 # Getting started with IBM Cloud Direct Link on Classic
 {: #get-started-with-ibm-cloud-direct-link} 
 
-**End of Market (EOM) Announcement for Direct Link on Classic (1.0)**: Starting 15 September 2025, new orders for Direct Link on Classic (1.0) will no longer be accepted. Existing Direct Link on Classic connections will continue to operate without interruption. No immediate action is required for current users. For more information, see the [End of Market (EOM) announcement](/docs/direct-link?topic=direct-link-eom-announcement).
+**End of Market (EOM) Announcement for Direct Link on Classic (1.0)**: Starting 15 September 2025, new orders for Direct Link on Classic (1.0) are no longer accepted. Existing Direct Link on Classic connections will continue to operate without interruption. No immediate action is required for current users. For more information, see the [End of Market (EOM) announcement](/docs/direct-link?topic=direct-link-eom-announcement).
 {: attention} 
 
 IBM Cloud® Direct Link on Classic is a suite of solutions from the IBM Cloud network, with availability in locations around the globe. Each one enables customers to create direct, private connections between their remote network environments and their IBM Cloud deployments, without touching the public internet. Most commonly, these offerings are implemented to support private, hybrid, and cross-provider workloads, as well as large or frequent data transfers.
