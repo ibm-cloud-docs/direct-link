@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2025
-lastupdated: "2025-07-14"
+  years: 2017, 2026
+lastupdated: "2026-04-20"
 
 keywords:
 
@@ -43,7 +43,7 @@ For every Direct Link customer, the {{site.data.keyword.cloud}} team assigns a s
 {: #change-vlan}
 {: faq}
 
-For a direct link that was manually provisioned, you can request a VLAN update by opening an [IBM Support case](/docs/account?topic=account-open-case). For a Provider API-provisioned gateway, a VLAN ID update is not supported.
+For a direct link that was manually provisioned, you can request a VLAN update by opening an [IBM Support case](/docs/support?topic=support-open-case&interface=ui). For a Provider API-provisioned gateway, a VLAN ID update is not supported.
 
 ## Where do I find cost estimates for Direct Link offerings?
 {: #pricing-estimator}
