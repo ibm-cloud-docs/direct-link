@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2025
-lastupdated: "2025-07-17"
+  years: 2017, 2026
+lastupdated: "2026-05-08"
 
 keywords:
 
@@ -92,12 +92,11 @@ This table shows which {{site.data.keyword.cloud_notm}} data centers are able to
 |  |  |  |  |  |
 | APAC | OSA21 | Osaka 21 | PoP | Digital Realty |
 | APAC | SYD04 | Sydney |	DC  |	Digital Realty  |
-| APAC | SYD05 | Sydney |	DC  |	Equinix |
 | APAC | TOK02  | Koto-ku | DC  | AT Tokyo  |
 | APAC | TOK05  | Kawasaki Kangagawa  | DC  | NTT |
 |  |  |  |  |  |
 | EMEA | FRA04  | Frankfurt | DC  | NTT |
 | EMEA | FRA05  | Frankfurt | DC  | Digital Realty |
 | EMEA | LON02  | Chessington | DC | Digital Realty  |
-| EMEA | MAD05 | Madrid | DC | Digital Realty | 
+| EMEA | MAD05 | Madrid | DC | Digital Realty |
 {: caption="Dedicated Hosting locations" caption-side="bottom"}

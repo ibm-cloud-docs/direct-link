@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2026
-lastupdated: "2026-04-20"
+lastupdated: "2026-05-08"
 
 keywords:
 
@@ -113,12 +113,6 @@ Yes, as long as you order Direct Link with the global routing add-on.
 
 No. IBM Cloud offers two options: (1) a local market only, or (2) all regions, with the global routing add-on.
 
-## What if I used the Direct Link automated ordering process for Equinix Cloud Exchange and I was assigned a subnet that overlaps my internal network?
-{: #what-if-i-used-the-direct-link-automated-ordering-process}
-{: faq}
-
-The recommended best practice is to cancel your automated order and submit a new case to complete the Direct Link questionnaire. You should indicate whether you prefer another subnet in the `10.254.x.x` range or the `172.16.x.x` range.
-
 ## What is the difference between Direct Link Exchange and Direct Link Connect?
 {: #what-is-the-difference-between-direct-link-exchange-and-direct-link-connect}
 {: faq}
@@ -207,7 +201,7 @@ Another consideration with ECMP is that if you have two VPCs advertising the sam
 {: faq}
 {: support}
 
-For connecting to Direct Link, see [Configuring {{site.data.keyword.cloud_notm}} Direct Link](/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link). If you need more help, you can request engineering support in the case that was opened for the new service. Even if it is an API service with Equinix, opening a case enables an engineer to look at it. Or you can contact your IBM Sales representative.
+For connecting to Direct Link, see [Configuring {{site.data.keyword.cloud_notm}} Direct Link](/docs/direct-link?topic=direct-link-configure-ibm-cloud-direct-link). If you need more help, you can request engineering support in the case that was opened for the new service.
 
 ## On Direct Link Exchange, does IBM set a BGP password?
 {: #on-direct-link-exchange-does-ibm-set-a-bgp-password}
