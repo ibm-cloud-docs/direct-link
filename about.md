@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2025
-lastupdated: "2025-08-08"
+  years: 2017, 2026
+lastupdated: "2026-05-08"
 
 keywords:
 
@@ -60,9 +60,7 @@ See the following links for key features and benefits of each {{site.data.keywor
 
 **Cross-connect details:** Physical cross-connects for the secure Direct Link Connect on Classic interconnect are maintained between {{site.data.keyword.cloud_notm}} and the Connect provider. Customers request a "Virtual Circuit" from the Cloud Connect provider, which establishes logical connectivity to {{site.data.keyword.cloud_notm}}, after the customer is interconnected to the Cloud Connect provider.
 
-**Port speed options:** Select 50 Mbps, 100 Mbps[^100], 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, or 5 Gbps.
-
-[^100]: The 100 Mbps port speed option is not available for Equinix Exchange and Connect direct links.
+**Port speed options:** Select 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, or 5 Gbps.
 
 **Approximate latency:** Latency is approximately 1.5 ms within the local area (data centers with the same three-letter prefix, such as DAL, AMS, MEL). See [Looking Glass](http://lg.softlayer.com/){: external} for live PoP-to-PoP (P2P) location latency measurements.
 
@@ -116,7 +114,7 @@ The Direct Link Dedicated on Classic solution lets customers terminate a single-
 
  **Termination location:** {{site.data.keyword.cloud_notm}} point of presence (PoP).
 
- **Typical deployment time:** For Equinix providers, typical deployment time is in hours. For other providers, 5 - 10 days after circuit reaches the exchange. Deployment time can possibly be 30 - 60 days overall, depending on your location and requirements when you order a circuit from a network service provider (NSP) or carrier.
+ **Typical deployment time:** For providers, 5 - 10 days after circuit reaches the exchange. Deployment time can possibly be 30 - 60 days overall, depending on your location and requirements when you order a circuit from a network service provider (NSP) or carrier.
 
  **Cross-connect details:** Physical cross-connects for the secure Cloud Exchange Interconnect are maintained between {{site.data.keyword.cloud_notm}} and the Cloud Exchange provider. Customers request a "Virtual Circuit" from the Cloud Exchange Provider, which establishes logical connectivity to {{site.data.keyword.cloud_notm}}, after the customer is interconnected to the Cloud Exchange Provider.
 

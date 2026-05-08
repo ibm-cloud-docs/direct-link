@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2025
-lastupdated: "2025-02-27"
+  years: 2017, 2026
+lastupdated: "2026-05-08"
 
 keywords:
 
@@ -95,65 +95,45 @@ The table gives details about the {{site.data.keyword.cloud_notm}} data centers 
 |-----------------|-----------------|-----------------|--------------------|
 | Chennai 1 | DC | Tata | PH-01 |
 | Hong Kong 1 | PoP | Mega-I | Mega-I (iAdvantage Hong Kong) |
-| Hong Kong 3 | PoP | Equinix | HKG3|
 | Melbourne 2 | PoP |NextDC | M1 |
-| Osaka 1 | PoP | Equinix | OS1 |
 | Osaka 21  | DC|  IDC Frontier (SoftBank) | OSA021 |
 | Osaka 22  | DC | IDC Frontier (SoftBank) | OSA022 |
 | Osaka 23  | DC | IDC Frontier (SoftBank) | OSA023 |
-| Perth 1 | PoP | Equinix (Metronode) | F1Z |
 | Seoul 2 | PoP | KINX | KINX Bundang IDC |
 | Singapore 1 | DC | Digital Realty | SIN10 |
-| Singapore 2 | PoP | Equinix | SG1 |
 | Sydney 1 | DC | Global Switch | SYD01 |
-| Sydney 2 | PoP | Equinix | SY3 |
 | Sydney 3 | PoP | NextDC | S1 |
 | Sydney 4 | DC | Digital Realty | SYD10 |
-| Sydney 5 | DC | Equinix | SY4 |
 | Tokyo 2 | DC | At Tokyo | CC2 |
-| Tokyo 3 | PoP | Equinix | TY4 |
 | Tokyo 4 | DC | SoftBank | |
 | Tokyo 5 | DC | NTT | |
 | **EMEA** |  |  |  |
-| Amsterdam 2 | PoP | Equinix | AM2 |
 | Amsterdam 3 | DC | KPN | Amsterdam 3 |
 | Frankfurt 1 	| PoP | Digital Realty | FRA6 |
 | Frankfurt 2 | DC | Cyrus One (fZenium) | FRA1 |
-| Frankfurt 3 | PoP | Equinix| FR6 |
 | Frankfurt 4 | DC | E-Shelter | Frankfurt 1 |
 | Frankfurt 5 | DC | Digital Realty | FRA11 |
-| London 1 | PoP | Equinix (fTelecity) | LD8 |
 | London 2 | DC | Digital Realty | LHR13 |
-| London 3 | PoP | Equinix | LD5 |
 | London 4 | DC | ARK | A103 |
 | London 6 | DC | Cyrus One (fZenium) | LON1 |
 | Milan 2 | PoP | Infracom Italia | Infracom 21 Via Caldera Way |
 | Paris 1 | DC | Global Switch | PAR01 |
-| Paris 2 | PoP | Equinix | PA2 |
 | **Americas** |  |  |
 | Atlanta 1 | PoP | Digital Realty | ATL13 |
-| Chicago 1 | PoP | Equinix | CH4 |
-| Dallas 3 | PoP | Equinix | DA1 |
 | Dallas 4 | PoP | Digital Realty | DFW14 |
 | Dallas 9 | DC | Digital Realty | DFW35 |
 | Dallas 10 | DC | QTS | IRV |
 | Dallas 12 | DC | Digital Realty | DFW18 |
 | Dallas 13 | DC | Cyrus One | Carrollton - Frankford |
 | Denver 1 | PoP | Coresite | DE1 |
-| Miami 1 | PoP | Equinix | NAP |
 | Montreal 1 | DC | Cologix (fCOLO-D) | Cologix MTL9-H |
 | Montreal 2 | PoP | Cologix | MTL7 |
-| New York City 2* | PoP | Equinix | NY4 |
-| New York City 3* | PoP | Equinix | NY5 |
-| San Jose 2 | PoP | Equinix | SV1 |
 | San Jose 3 | DC | Digital Realty | SJC31 |
 | San Jose 4 | DC | Infomart | SJC1 |
 | Sao Paulo 1 | DC | Digital Realty (Ascenty) | SP1 |
-| Sao Paulo 2 | PoP | Equinix | SP4 |
 | Seattle 2 | PoP | Digital Realty (The Westin Building) | WBX |
 | Toronto 1 | DC | Digital Realty (via SunGard) | YYZ11 |
 | Toronto 2 | PoP | Cologix | TOR1 |
-| Washington DC 2 | PoP | Equinix | DC2 |
 | Washington DC 4 | DC | Digital Realty | IAD38 |
 | Washington DC 5 | PoP | Coresite | DC2 |
 | Washington DC 6 | DC | Raging Wire | VA2 |

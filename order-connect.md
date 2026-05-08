@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2025
-lastupdated: "2025-08-11"
+  years: 2018, 2026
+lastupdated: "2026-05-08"
 
 keywords:
 
@@ -74,7 +74,7 @@ Our Direct Link Connect providers include these locations:
 |--------------|--------------|
 | Arelion | Americas: Washington DC 2 |
 | Ascenty | Americas: Sao Paulo 1 |
-| Bell Canada | Americas: Montreal 2, Toronto 2 | 
+| Bell Canada | Americas: Montreal 2, Toronto 2 |
 | British Telecom |  Americas: Washington DC 2  \n EU: Frankfurt 1, London 1, London 3 |
 | CenturyLink Dynamic Connections |  Americas: San Jose 2, Toronto 2, Washington DC 2   \n EU: Frankfurt 1, London 3, Paris 2
 | CenturyLink IP VPN | Americas: Dallas 3, Miami 1, Sao Paulo 2 |
@@ -85,7 +85,6 @@ Our Direct Link Connect providers include these locations:
 | Console Connect | Americas: Chicago 1, Miami 1, San Jose 2   \n APAC: Hong Kong 1, Osaka 1, Singapore 2, Sydney 3, Sydney 5  \n EU: London 1, Frankfurt 3, Frankfurt 5  |
 | CyrusOne | Americas: Dallas 13 |
 | Epsilon | APAC:  Singapore 2  \n EU: Frankfurt 1  |
-| Equinix | EU: Paris 3 |
 | EU Networks | EU: Frankfurt 1 |
 | IBM BlueFringe | Americas: Dallas 3, Washington DC 2  \n APAC: Chennai 1  \n EU: Amsterdam 2, Frankfurt 3 |
 | IBM Power Virtual Server | Americas: Dallas 12, Montreal 1, Sao Paulo 1, Toronto 1, Washington DC 4  \n APAC: Osaka 21, Sydney 4  \n EU: Frankfurt 4, Frankfurt 5, London 4, London 6  |
