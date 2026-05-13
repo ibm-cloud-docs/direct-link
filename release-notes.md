@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2018, 2025
-lastupdated: "2025-08-13"
+  years: 2018, 2026
+lastupdated: "2026-05-12"
 
 keywords:
 
@@ -19,13 +19,23 @@ content-type: release-note
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Direct Link on Classic (1.0).
 {: shortdesc}
 
+## 05 May 2026
+{: #dl-may-0526}
+{: release-note}
+
+## 5 May 2026
+{: #dl-may0526}
+{: release-note}
+
+Direct Link on Classic (1.0) using Equinix will no longer be available for new deployments, following the end-of-marketing date 15 September 2025, after which new orders were no longer accepted. Atlanta (ATL) remains the last location where Direct Link on Classic is still operational.
+
 ## 22 July 2025
 {: #dl-july-2225}
 {: release-note}
 
 End of Market (EOM) for Direct Link on Classic (1.0)
 :    Starting 15 September 2025, new orders for Direct Link on Classic (1.0) will no longer be accepted. Existing Direct Link on Classic connections will continue to operate without interruption. No immediate action is required for current users. For more information, see  the [End of Market (EOM) announcement](/docs/direct-link?topic=direct-link-eom-announcement).
- 
+
 ## 01 March 2022
 {: #dl-mar-0122}
 {: release-note}
