@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2026
-lastupdated: "2026-08-06"
+lastupdated: "2026-10-20"
 
 keywords:
 
@@ -95,7 +95,7 @@ The Direct Link Dedicated on Classic solution lets customers terminate a single-
 
 **Port speed options:** Select 1 Gbps, 2 Gbps, 5 Gbps, or 10 Gbps.
 
-**Approximate latency:** Latency is approximately 1.5 ms within the local area (data centers with the same three-letter prefix, such as DAL, AMS, MEL).  See [Looking Glass](http://lg.softlayer.com/){: external} for live PoP-to-PoP (P2P) location latency measurements.
+**Approximate latency:** Latency is approximately 1.5 ms within the local area (data centers with the same three-letter prefix, such as DAL, AMS, MEL). 
 
 **IBM colocation services:** None.
 
