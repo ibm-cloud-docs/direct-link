@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2026
-lastupdated: "2026-04-20"
+lastupdated: "2026-11-10"
 
 keywords:
 
@@ -21,7 +21,7 @@ subcollection: direct-link
 If you experience an issue or have questions when using Direct Link on Classic, you can use the following resources before you open a support case.
 {: shortdesc}
 
-* Ask a question in the [AI assistant](/docs/overview?topic=overview-ask-ai-assistant) from the console or the {{site.data.keyword.cloud_notm}} CLI.
+* Troubleshoot with [{{site.data.keyword.paver_full}}](http://cloud.paver.ibm.com){: external}. {{site.data.keyword.paver}} is an embedded AI operator that understands your account context, creates a resolution plan, and executes changes on your behalf, while always requiring your approval before touching your live environment.
 * Review the [FAQs](/docs/direct-link?topic=direct-link-faqs) in the product documentation.
 * Check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](/status){: external}.
 * Review [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to see whether other users experienced the same problem. When you ask a question, tag the question with `ibm-cloud` and `direct-link`, so that it's seen by the {{site.data.keyword.Bluemix_notm}} development teams.
